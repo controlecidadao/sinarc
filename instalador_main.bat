@@ -362,7 +362,10 @@ copy %cd%\sinarc-main\network.py %cd%\miniconda3\envs\sinarc\Lib\site-packages\p
 
 @echo Copiando arquivo 'rede.ini' para pasta 'rede-cnpj-master\rede'
 copy %cd%\sinarc-main\rede.ini %cd%\rede-cnpj-master\rede
+@echo.
 
+@echo Rotina de instalação concluída.
+@echo.
 
 
 ::echo.
