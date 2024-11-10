@@ -1,0 +1,51 @@
+:: USAR ESTE ARQUIVO TXT PARA CRIAR O ARQUIVO BAT
+:: ARQUIVO USADO SOMENTE APÓS A INSTALAÇÃO DO SINARC
+:: ARQUIVO sinarc.py AGUARDA REDE CNPJ ENTRAR EM EXECUÇÃO
+
+@echo =============================
+@echo ATIVA AMBIENTE VIRTUAL SINARC
+@echo =============================
+@echo.
+
+:: Obtém o diretório atual
+@echo Obtendo diretorio atual...
+@set CURRENT_DIR=%cd%
+
+:: Define o caminho de instalação como o diretório atual
+@echo Definindo diretorio atual...
+@set CONDA_PATH=%CURRENT_DIR%
+
+:: Ativa o ambiente virtual 'base'
+@echo Ativando ambiente virtual 'sinarc'...
+@call %CONDA_PATH%\miniconda3\condabin\conda.bat activate
+
+@TIMEOUT /t 5
+@echo.
+
+:: Ativa ambiente virtual 'sinarc'
+@call conda activate sinarc
+
+:: Exibe ambiente virtual ativado
+@echo Ambiente ativado: %CONDA_DEFAULT_ENV%
+
+@echo.
+@echo.
+@echo =================
+@echo ABRINDO SINARC
+@echo =================
+
+:: Executa script Python 'sinarc.py' no ambiente virtual 'sinarc'
+
+@echo.
+@echo Mudando para o diretorio 'rede-cnpj-master\rede'...
+@cd sinarc-main
+
+@echo Diretorio atual: %cd%
+
+@echo Executando 'python sinarc.py'...
+
+@echo.
+call python sinarc.py
+
+pause
+exit
