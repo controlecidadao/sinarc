@@ -17,13 +17,13 @@
 
 :: Ativa o ambiente virtual 'base'
 @echo Ativando ambiente virtual 'sinarc'...
-@call %CONDA_PATH%\miniconda3\condabin\conda.bat activate
+@call %CONDA_PATH%\miniconda3\condabin\conda.bat activate %CONDA_PATH%\miniconda3\envs\sinarc
 
 @TIMEOUT /t 5
 @echo.
 
 :: Ativa ambiente virtual 'sinarc'
-@call conda activate sinarc
+::@call conda activate sinarc
 
 :: Exibe ambiente virtual ativado
 @echo Ambiente ativado: %CONDA_DEFAULT_ENV%
