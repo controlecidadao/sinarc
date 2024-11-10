@@ -1,6 +1,7 @@
 :: USAR ESTE ARQUIVO TXT PARA CRIAR O ARQUIVO BAT
 :: ARQUIVO USADO SOMENTE APÓS A INSTALAÇÃO DO REDE CNPJ
 
+
 @echo ================================
 @echo ATIVA AMBIENTE VIRTUAL REDE CNPJ
 @echo ================================
@@ -16,13 +17,13 @@
 
 :: Ativa o ambiente virtual 'base'
 @echo Ativando ambiente virtual 'rede_cnpj'...
-@call %CONDA_PATH%\miniconda3\condabin\conda.bat activate
+@call %CONDA_PATH%\miniconda3\condabin\conda.bat activate %CONDA_PATH%\miniconda3\envs\rede_cnpj
 
 @TIMEOUT /t 5
 @echo.
 
 :: Ativa ambiente virtual 'rede_cnpj'
-@call conda activate rede_cnpj
+::@call conda activate rede_cnpj
 
 :: Exibe ambiente virtual ativado
 @echo Ambiente ativado: %CONDA_DEFAULT_ENV%
