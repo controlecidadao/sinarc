@@ -8248,7 +8248,8 @@ def main():
         try:
             # As demais funções são chamadas dentro desta função
             captura_cnpj()
-        except:
+        except Exception as e:
+            print(e)
             print('SINARC não localizou o servidor REDE CNPJ. Nova tentativa em 10 segundos...')
             time.sleep(10)
 
