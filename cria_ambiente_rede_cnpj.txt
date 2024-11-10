@@ -3,17 +3,12 @@
 :: ESTE SCRIPT DEVE FICAR NA PASTA PARA ONDE SERÃO BAIXADOS OS REPOSITÓRIOS DO SINARC E DO REDE CNPJ
 :: NECESSÁRIO BAIXAR REPOSITÓRIOS ANTES
 
-@echo =====================
-@echo OBTEM DIRETORIO ATUAL
-@echo =====================
-@echo.
-
 :: Obtém o diretório atual
 @echo Obtendo diretorio atual...
 @echo Diretorio atual: %cd%
 
 
-
+@echo.
 @echo.
 @echo.
 @echo ===============================
