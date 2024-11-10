@@ -23,17 +23,17 @@
 
 :: Cria o ambiente virtual 'sinarc' com Python 3.10
 @echo Criando ambiente virtual 'sinarc'...
-call %cd%\miniconda3\condabin\conda.bat create -y -n sinarc python=3.10
+call %cd%\miniconda3\condabin\conda.bat create -y -n %cd%\miniconda3\envs\sinarc python=3.10
 
 :: Ativa o ambiente virtual sinarc
 @echo Ativando ambiente virtual 'sinarc'...
-call %cd%\miniconda3\condabin\conda.bat activate
+call %cd%\miniconda3\condabin\conda.bat activate %cd%\miniconda3\envs\sinarc
 
 TIMEOUT /t 3
 @echo.
 
 :: Ativa o ambiente virtual sinarc
-call conda activate sinarc
+::call conda activate sinarc
 
 @echo Ambiente ativado: %CONDA_DEFAULT_ENV%
 
