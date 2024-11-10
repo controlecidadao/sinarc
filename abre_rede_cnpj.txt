@@ -22,9 +22,6 @@
 @TIMEOUT /t 5
 @echo.
 
-:: Ativa ambiente virtual 'rede_cnpj'
-::@call conda activate rede_cnpj
-
 :: Exibe ambiente virtual ativado
 @echo Ambiente ativado: %CONDA_DEFAULT_ENV%
 
