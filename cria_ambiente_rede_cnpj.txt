@@ -45,8 +45,10 @@ call pip list
 @echo.
 
 :: Instala as dependências do REDE CNPJ. Necessário baixar antes o repositório REDE CNPJ
-call pip install -r rede-cnpj-master\rede\requirements.txt
-call pip install -r rede-cnpj-master\rede\requirements_chaves.txt
+@REM call pip install -r rede-cnpj-master\rede\requirements.txt
+@REM call pip install -r rede-cnpj-master\rede\requirements_chaves.txt
+
+call pip install -r sinarc\cnpj_requirements.txt
 
 @echo Exibindo lista de bibliotecas instaladas no ambiente %CONDA_DEFAULT_ENV%
 call pip list
