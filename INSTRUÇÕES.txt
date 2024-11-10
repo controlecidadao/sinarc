@@ -1,0 +1,18 @@
+==============================
+ROTINA DE INSTALAÇÃO DO SINARC
+==============================
+
+O arquivo "instalador_main.bat" executa a seguinte rotina de instalação:
+  1) Baixa e instala o Miniconda
+  2) Baixa repositórios SINARC e REDE CNPJ
+  3) Renomeia arquivos TXT para BAT
+  4) Cria ambientes virtuais "rede_cnpj" e "sinarc", executando os arquivos BAT
+  5) Substitui arquivos "rede.ini" e "network.py"
+
+Para visualizar eventuais erros ocorridos durante a rotina de instalação, execute-a via terminal da seguinte forma:
+  1) Clique com o botão direito do mouse dentro da pasta do arquivo "instalador_main.bat" e selecione a opção "Abrir no Terminal".
+  2) Na janela do terminal (Windows PowerShell), digite ".\instalador_main.bat" (sem as aspas). A rotina de instalação será iniciada.
+  3) Caso o download dos repositórios apresente erro, repita o procedimento de instalação.
+
+Para visualizar ou editar o arquivo "instalador_main.bat", clique sobre ele com o botão direito do mouse e selecione a opção "Editar no Bloco de Notas".
+
