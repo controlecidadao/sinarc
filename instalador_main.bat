@@ -271,9 +271,6 @@ exit /b 1
 
 
 
-
-
-
 echo.
 echo.
 echo.
@@ -377,25 +374,6 @@ copy %cd%\sinarc-main\rede.ini %cd%\rede-cnpj-master\rede
 ::echo.
 
 ::call %cd%\sinarc-main\baixa_banco_de_dados.bat
-
-
-::echo.
-::echo.
-::echo.
-::echo ==========================
-::echo ABRINDO SINARC E REDE CNPJ
-::echo ==========================
-::echo.
-
-::echo Abrindo REDE CNPJ em outra janela...
-::start "" "%cd%\sinarc-main\abre_rede_cnpj.bat"
-
-:: Ao abrir a outra janela, o script continua. Por isso deste tempo de espera.
-::@TIMEOUT /t 30
-::@echo.
-
-::@echo Abrindo SINARC em outra janela...
-::start "" "%cd%\sinarc-main\abre_sinarc.bat"
 
 pause
 exit
