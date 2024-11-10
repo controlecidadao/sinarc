@@ -48,7 +48,7 @@ call pip list
 @REM call pip install -r rede-cnpj-master\rede\requirements.txt
 @REM call pip install -r rede-cnpj-master\rede\requirements_chaves.txt
 
-call pip install -r sinarc\cnpj_requirements.txt
+call pip install -r %cd%\sinarc\cnpj_requirements.txt
 
 @echo Exibindo lista de bibliotecas instaladas no ambiente %CONDA_DEFAULT_ENV%
 call pip list
