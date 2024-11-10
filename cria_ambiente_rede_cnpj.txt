@@ -1,0 +1,58 @@
+@echo off
+
+:: ESTE SCRIPT DEVE FICAR NA PASTA PARA ONDE SERÃO BAIXADOS OS REPOSITÓRIOS DO SINARC E DO REDE CNPJ
+:: NECESSÁRIO BAIXAR REPOSITÓRIOS ANTES
+
+@echo =====================
+@echo OBTEM DIRETORIO ATUAL
+@echo =====================
+@echo.
+
+:: Obtém o diretório atual
+@echo Obtendo diretorio atual...
+@echo Diretorio atual: %cd%
+
+
+
+@echo.
+@echo.
+@echo ===============================
+@echo CRIA AMBIENTE VIRTUAL rede_cnpj
+@echo ===============================
+@echo.
+
+:: Cria o ambiente virtual 'rede_cnpj' com Python 3.10
+@echo Criando ambiente virtual 'rede_cnpj'...
+@REM call %cd%\miniconda3\condabin\conda.bat create -y -n %cd%\miniconda3\envs\rede_cnpj python=3.10
+
+call %cd%\miniconda3\condabin\conda.bat create -y --prefix %cd%\miniconda3\envs\rede_cnpj python=3.10
+
+
+:: Ativa o ambiente virtual rede_cnpj
+@echo Ativando ambiente virtual 'rede_cnpj'...
+call %cd%\miniconda3\condabin\conda.bat activate %cd%\miniconda3\envs\rede_cnpj
+
+TIMEOUT /t 3
+@echo.
+
+:: Ativa o ambiente virtual rede_cnpj
+@REM call conda activate rede_cnpj
+
+@echo Ambiente ativado: %CONDA_DEFAULT_ENV%
+
+@echo Exibindo lista de bibliotecas instaladas no ambiente %CONDA_DEFAULT_ENV%
+call pip list
+@echo.
+
+:: Instala as dependências do REDE CNPJ. Necessário baixar antes o repositório REDE CNPJ
+call pip install -r rede-cnpj-master\rede\requirements.txt
+call pip install -r rede-cnpj-master\rede\requirements_chaves.txt
+
+@echo Exibindo lista de bibliotecas instaladas no ambiente %CONDA_DEFAULT_ENV%
+call pip list
+
+@echo.
+@echo Rotina 'cria_ambiente_rede_cnpj' finalizada!
+
+::pause
+::exit

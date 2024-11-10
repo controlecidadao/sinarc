@@ -1,0 +1,55 @@
+@echo off
+
+:: ESTE SCRIPT DEVE FICAR NA PASTA PARA ONDE SERÃO BAIXADOS OS REPOSITÓRIOS DO SINARC E DO REDE CNPJ
+:: NECESSÁRIO BAIXAR REPOSITÓRIOS ANTES
+
+@echo =====================
+@echo OBTEM DIRETORIO ATUAL
+@echo =====================
+@echo.
+
+:: Obtém o diretório atual
+@echo Obtendo diretorio atual...
+@echo Diretorio atual: %cd%
+
+
+
+@echo.
+@echo.
+@echo ===============================
+@echo CRIA AMBIENTE VIRTUAL sinarc
+@echo ===============================
+@echo.
+
+:: Cria o ambiente virtual 'sinarc' com Python 3.10
+@echo Criando ambiente virtual 'sinarc'...
+call %cd%\miniconda3\condabin\conda.bat create -y -n sinarc python=3.10
+
+:: Ativa o ambiente virtual sinarc
+@echo Ativando ambiente virtual 'sinarc'...
+call %cd%\miniconda3\condabin\conda.bat activate
+
+TIMEOUT /t 3
+@echo.
+
+:: Ativa o ambiente virtual sinarc
+call conda activate sinarc
+
+@echo Ambiente ativado: %CONDA_DEFAULT_ENV%
+
+@echo Exibindo lista de bibliotecas instaladas no ambiente %CONDA_DEFAULT_ENV%
+call pip list
+@echo.
+
+:: Instala as dependências do SINARC. Necessário baixar antes o repositório SINARC
+call pip install -r sinarc-main\sinarc_requirements.txt
+
+@echo Exibindo lista de bibliotecas instaladas no ambiente %CONDA_DEFAULT_ENV%
+call pip list
+
+@echo.
+@echo Rotina 'cria_ambiente_sinarc' finalizada!
+@echo.
+
+::pause
+::exit
