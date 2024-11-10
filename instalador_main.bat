@@ -1,19 +1,3 @@
-:: Este script executa a seguinte rotina:
-::  1) Baixa e instala o Miniconda
-::  2) Baixa repositórios SINARC e REDE CNPJ
-::  3) Substitui arquivos 'rede.ini' e 'network.py'
-::  4) Renomeia arquivos TXT para BAT
-::  5) Executa arquivos BAT renomeados em sequência
-::  6) Abre os programas REDE CNPJ e SINARC
-
-:: Para visualizar eventuais erros durante essa rotina, execute-a via terminal.
-:: Para executar via terminal:
-::  1) Clique com o botão direito do mouse dentro da pasta onde se encontra o arquivo "instalador_main.bat" e selecione a opção "Abrir no Terminal".
-::  2) Na janela do terminal (Windows PowerShell), digite ".\instalador_main.bat". A rotina de instalação será iniciada na janela.
-
-:: Para visualizar ou editar o arquivo "instalador_main.bat", clique sobre ele com o botão direito do mouse e selecione a opção "Editar no Bloco de Notas".
-
-
 @echo off
 setlocal
 
@@ -139,11 +123,6 @@ title Instalação do SINARC
 
 @REM pause
 @REM exit
-
-
-
-
-
 
 setlocal EnableDelayedExpansion
 
@@ -280,120 +259,6 @@ exit /b 1
 
 
 
-echo.
-echo.
-echo.
-echo =============================
-echo INSTALANDO SINARC E REDE CNPJ
-echo =============================
-
-::@echo.
-::@echo.
-::@echo.
-::@echo *********************
-::@echo OBTEM DIRETORIO ATUAL
-::@echo *********************
-::@echo.
-
-:: Obtém o diretório atual
-::@echo Obtendo diretorio atual...
-::@echo Diretorio atual: %cd%
-
-
-::@echo.
-::@echo.
-::@echo.
-::@echo ***********************************************
-::@echo VERIFICA SE SINARC E REDE CNPJ ESTAO INSTALADOS
-::@echo ***********************************************
-::@echo.
-
-:: Se existirem as 3 pastas, abre os programas e interrompe a rotina de instalacao
-::if exist "sinarc-main" (
-::  if exist "miniconda3" ( 
-::    if exist "rede-cnpj-master" (
-::
-::      @echo Abrindo SINARC e REDE CNPJ...
-::      @echo.
-::      @echo.
-::      @echo **************************
-::      @echo ABRINDO SINARC E REDE CNPJ
-::      @echo **************************
-::      @echo.
-
-::      @echo Abrindo REDE CNPJ em outra janela...
-::      start "" "%cd%\sinarc-main\abre_rede_cnpj.bat"
-
-      :: Ao abrir a outra janela, o script continua. Por isso deste tempo de espera.
-::      @echo Aguardando 30 segundos...
-::      @TIMEOUT /t 30
-::      @echo.
-
-::      @echo Abrindo SINARC em outra janela...
-::      start "" "%cd%\sinarc-main\abre_sinarc.bat"
-
-      ::@TIMEOUT /t 30
-
-::      exit
-::    )
-::  ) 
-::)
-
-@REM echo Instalando SINARC e REDE CNPJ...
-
-
-@REM echo.
-@REM echo.
-@REM echo.
-@REM @echo ===========================
-@REM @echo BAIXA REPOSITORIO REDE CNPJ
-@REM @echo ===========================
-@REM @echo.
-
-@REM @echo Versão do Rede CNPJ utilizada: 
-
-@REM :: Baixa o repositório como zip
-@REM @echo Baixando arquivo ZIP do repositorio REDE CNPJ no Github...
-
-@REM :: From rictom
-@REM ::curl --insecure -L https://github.com/rictom/rede-cnpj/archive/refs/heads/master.zip -o master.zip
-
-@REM :: From waltervix
-@REM curl --insecure -L https://github.com/waltervix/rede-cnpj/archive/refs/heads/master.zip -o master.zip
-
-@REM :: Descompacta o zip baixado
-@REM @echo Descompactando repositorio REDE CNPJ...
-@REM powershell Expand-Archive -Path master.zip -DestinationPath .
-
-@REM :: Remove o arquivo zip
-@REM @echo Deletando arquivo zip...
-@REM del master.zip
-
-@REM @echo Download e descompactacao do repositorio REDE CNPJ completos!
-
-::@echo.
-::@echo.
-::@echo.
-::@echo ************************
-::@echo BAIXA REPOSITORIO SINARC
-::@echo ************************
-::@echo.
-
-:: Baixa o repositorio como zip (só funciona se o repositório for público)
-::@echo Baixando arquivo ZIP do repositorio SINARC no Github...
-::curl -L https://github.com/waltervix/sinarc/archive/refs/heads/main.zip -o main.zip
-
-:: Descompacta o zip baixado
-::@echo Descompactando repositorio SINARC...
-::powershell Expand-Archive -Path main.zip -DestinationPath .
-
-:: Remove o arquivo zip
-::@echo Deletando arquivo zip...
-::del main.zip
-
-::@echo Download e descompactacao do repositorio SINARC completos!
-
-
 @echo.
 @echo.
 @echo.
@@ -466,6 +331,9 @@ copy %cd%\sinarc-main\cria_ambiente_sinarc.txt %cd%\sinarc-main\cria_ambiente_si
 @REM call %CURRENT_DIR%\sinarc-main\instala_miniconda.bat
 
 call %cd%\sinarc-main\cria_ambiente_rede_cnpj.bat
+
+pause
+exit
 
 @REM call %cd%\sinarc-main\cria_ambiente_sinarc.bat
 
