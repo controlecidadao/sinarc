@@ -42,7 +42,7 @@ call pip list
 @echo.
 
 :: Instala as dependências do SINARC. Necessário baixar antes o repositório SINARC
-call pip install -r sinarc-main\sinarc_requirements.txt
+call pip install -r %cd%\sinarc-main\sinarc_requirements.txt
 
 @echo Exibindo lista de bibliotecas instaladas no ambiente %CONDA_DEFAULT_ENV%
 call pip list
