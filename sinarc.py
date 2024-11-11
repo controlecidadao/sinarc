@@ -8241,15 +8241,15 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
         zip_object.write('help.html')
         zip_object.write('grafo_final.html')
 
-
+import traceback
 def main():
 
     while True:
         try:
             # As demais funções são chamadas dentro desta função
             captura_cnpj()
-        except Exception as e:
-            print(e)
+        except Exception:
+            print(traceback.format_exc())
             print('SINARC não localizou o servidor REDE CNPJ. Nova tentativa em 10 segundos...')
             time.sleep(10)
 
