@@ -13,7 +13,7 @@ import wget
 
 
 # Desabilita verificação de SSL para permitir acesso ao site com certificado auto-assinado
-#requests.packages.urllib3.disable_warnings()
+requests.packages.urllib3.disable_warnings()
 
 
 # URL da página de downloads da Receita Federal
@@ -117,7 +117,7 @@ def get_zip_links(soup):
     links = []
 
     # Realiza loop sobre todos os elementos 'a' presentes no arquivo HTML
-    for link in soup.find_all('a'):
+    for n, link in enumerate(soup.find_all('a')):
 
         # Verifica se o atributo 'href' do elemento 'a' termina com '.zip'
         if link['href'].endswith('.zip'):
@@ -127,6 +127,10 @@ def get_zip_links(soup):
 
             # Adiciona URL completa à lista 'links'
             links.append(url)
+
+            # Para teste apenas
+            # if n == 0:
+            #     break
 
     # Retorna lista de URLs
     return links

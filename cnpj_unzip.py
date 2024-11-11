@@ -22,10 +22,14 @@ def extract_zips(input_folder, output_folder):
     
     output_folder.mkdir(exist_ok=True)
     
-    for zip_file in input_folder.glob('*.zip'):
+    for n, zip_file in enumerate(input_folder.glob('*.zip')):
         with zipfile.ZipFile(zip_file) as z:
             z.extractall(output_folder)
         print(f'{zip_file.name}')
+        
+        # Para teste apenas
+        # if n == 0:
+        #     break
 
 
 if __name__ == '__main__':
