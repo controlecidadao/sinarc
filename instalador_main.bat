@@ -297,6 +297,10 @@ copy %cd%\sinarc-main\abre_rede_cnpj.txt %cd%\sinarc-main\abre_rede_cnpj.bat
 copy %cd%\sinarc-main\abre_sinarc.txt %cd%\sinarc-main\abre_sinarc.bat
 @echo.
 
+@echo Renomeando 'baixa_e_descompacta.txt' para BAT
+copy %cd%\sinarc-main\baixa_e_descompacta_csv.txt %cd%\baixa_e_descompacta_csv.bat
+@echo.
+
 
 
 @echo.
@@ -314,6 +318,9 @@ copy %cd%\sinarc-main\abre_rede_cnpj.bat %cd%\abre_rede_cnpj.bat
 
 @echo Copiando arquivo 'sinarc-main\abre_sinarc.bat' para pasta '%cd%'
 copy %cd%\sinarc-main\abre_sinarc.bat %cd%\abre_sinarc.bat
+
+@echo Copiando arquivo 'sinarc-main\abre_sinarc.bat' para pasta '%cd%'
+copy %cd%\sinarc-main\baixa_e_descompacta_csv.bat %cd%\baixa_e_descompacta_csv.bat
 
 
 
