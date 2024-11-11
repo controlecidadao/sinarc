@@ -11,6 +11,7 @@ chcp 65001
 
 
 
+
 @echo.
 @echo.
 @echo ===============================
@@ -24,6 +25,7 @@ chcp 65001
 call %cd%\miniconda3\condabin\conda.bat activate %cd%\miniconda3\envs\rede_cnpj
 
 @echo Aguardando 5 segundos...
+@echo.
 TIMEOUT /t 5
 
 @echo Ambiente ativado: %CONDA_DEFAULT_ENV%
@@ -32,17 +34,22 @@ TIMEOUT /t 5
 
 @echo.
 @echo.
+@echo.
 @echo ====================================================
 @echo REALIZA DOWNLOAD DOS ARQUIVOS ZIP DA RECEITA FEDERAL
 @echo ====================================================
 @echo.
 
 @echo Executando script 'cnpj_download.py' no ambiente virtual 'rede_cnpj'...
+@echo.
 
 %cd%\miniconda3\envs\miniconda\python.exe sinarc-main\cnpj_download.py
 
+@echo Rotina de download concluída.
 
 
+
+@echo.
 @echo.
 @echo.
 @echo ===========================================
@@ -51,8 +58,12 @@ TIMEOUT /t 5
 @echo.
 
 @echo Executando script 'cnpj_unzip.py' no ambiente virtual 'rede_cnpj'...
+@echo.
 
 %cd%\miniconda3\envs\miniconda\python.exe sinarc-main\cnpj_unzip.py
+
+@echo Rotina de descompactação concluída.
+@echo.
 
 pause
 exit
