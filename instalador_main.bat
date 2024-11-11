@@ -298,7 +298,7 @@ copy %cd%\sinarc-main\abre_sinarc.txt %cd%\sinarc-main\abre_sinarc.bat
 @echo.
 
 @echo Renomeando 'baixa_e_descompacta_csv.txt' para BAT
-copy %cd%\sinarc-main\baixa_e_descompacta_csv.txt %cd%\baixa_e_descompacta_csv.bat
+copy %cd%\sinarc-main\baixa_e_descompacta_csv.txt %cd%\sinarc-main\baixa_e_descompacta_csv.bat
 @echo.
 
 
