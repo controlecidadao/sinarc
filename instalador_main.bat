@@ -311,7 +311,7 @@ copy %cd%\sinarc-main\baixa_e_descompacta_csv.txt %cd%\sinarc-main\baixa_e_desco
 @echo ==========================================
 @echo.
 
-:: Copia arquivos para a pasta '%cd%'
+:: Copia arquivos para outras pastas
 
 @echo Copiando arquivo 'sinarc-main\abre_rede_cnpj.bat' para pasta '%cd%'
 copy %cd%\sinarc-main\abre_rede_cnpj.bat %cd%\abre_rede_cnpj.bat
@@ -321,9 +321,6 @@ copy %cd%\sinarc-main\abre_sinarc.bat %cd%\abre_sinarc.bat
 
 @echo Copiando arquivo 'sinarc-main\dados_cnpj_para_sqlite.py' para pasta 'rede-cnpj-master\rede_cria_tabelas'
 copy %cd%\sinarc-main\dados_cnpj_para_sqlite.py %cd%\rede-cnpj-master\rede_cria_tabelas\dados_cnpj_para_sqlite.py
-
-::@echo Copiando arquivo 'sinarc-main\dados_cnpj_para_sqlite.py' para pasta 'rede-cnpj-master\rede_cria_tabelas'
-::copy %cd%\sinarc-main\dados_cnpj_para_sqlite.py %cd%\rede-cnpj-master\rede_cria_tabelas\dados_cnpj_para_sqlite.py
 
 
 
