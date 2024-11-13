@@ -67,6 +67,7 @@ pdfminer.six==20181108
 pillow==11.0.0
 preshed==3.0.9
 propcache==0.2.0
+psutil==6.1.0
 pyarrow==18.0.0
 pycryptodome==3.21.0
 pydantic==2.9.2
