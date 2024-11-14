@@ -322,6 +322,10 @@ copy %cd%\sinarc-main\abre_sinarc.bat %cd%\abre_sinarc.bat
 @echo Copiando arquivo 'sinarc-main\dados_cnpj_para_sqlite.py' para pasta 'rede-cnpj-master\rede_cria_tabelas'
 copy %cd%\sinarc-main\dados_cnpj_para_sqlite.py %cd%\rede-cnpj-master\rede_cria_tabelas\dados_cnpj_para_sqlite.py
 
+@echo Copiando arquivo 'sinarc-main\cria_bancos_de_dados.bat' para pasta 'rede-cnpj-master\rede_cria_tabelas\cria_bancos_de_dados.bat'
+copy %cd%\sinarc-main\cria_bancos_de_dados.bat %cd%\rede-cnpj-master\rede_cria_tabelas\cria_bancos_de_dados.bat
+
+
 
 
 @echo.
