@@ -325,6 +325,10 @@ copy %cd%\sinarc-main\dados_cnpj_para_sqlite.py %cd%\rede-cnpj-master\rede_cria_
 @echo Copiando arquivo 'sinarc-main\cria_bancos_de_dados.bat' para pasta 'rede-cnpj-master\rede_cria_tabelas\cria_bancos_de_dados.bat'
 copy %cd%\sinarc-main\cria_bancos_de_dados.bat %cd%\rede-cnpj-master\rede_cria_tabelas\cria_bancos_de_dados.bat
 
+@echo Copiando arquivo 'sinarc-main\link_dados_abertos_receita_federal.txt' para pasta 'rede-cnpj-master\rede_cria_tabelas\link_dados_abertos_receita_federal.txt'
+copy %cd%\sinarc-main\link_dados_abertos_receita_federal.txt %cd%\rede-cnpj-master\rede_cria_tabelas\link_dados_abertos_receita_federal.txt
+
+
 
 
 
