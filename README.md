@@ -56,7 +56,7 @@ Exemplo de rede complexa sendo explorada pelo SINARC
 
 <br>
 
-## 🚧 Página em Construção...
+<!--## 🚧 Página em Construção...-->
 
 
 
