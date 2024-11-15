@@ -52,7 +52,7 @@ O manual de instruções do SINARC pode ser acessado durante o uso do sistema po
 </p>
 
 <p align="center" width="100%">
-Exemplo de rede complexa sendo explorada pelo SINARC
+Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
 </p>
 
 
