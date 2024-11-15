@@ -27,6 +27,10 @@ O SINARC se propõe a ampliar as perspectivas de análise das conexões existent
 </a>
 </p>
 
+<br>
+
+Assim como o projeto Rede CNPJ, o objetivo do SINARC é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
+
 
 
 
