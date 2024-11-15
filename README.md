@@ -11,3 +11,18 @@
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/sinarc.png" />
 </p>
 
+<br><br><br>
+
+<p align="center" width="70%">
+<a href="https://www.youtube.com/watch?v=R73ixbeP0II" target="_blank">
+   <img class="clickable-image" src="https://github.com/controlecidadao/samantha_ia/blob/main/images/noticias_na_internet.png" alt="Vídeo Demonstrativo" />
+</a>
+</p>
+
+<p align="center" width="100%">
+<a href="https://www.youtube.com/watch?v=R73ixbeP0II" target="_blank">
+   Vídeo Demonstrativo do SINARC
+</a>
+</p>
+
+
