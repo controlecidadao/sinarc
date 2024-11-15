@@ -2,15 +2,15 @@
 ROTINA DE INSTALAÇÃO DO SINARC E DO REDE CNPJ
 =============================================
 
-O SINARC, Sistema Integrado de Análise de Redes Complexas, utiliza a estrutura dos bancos de dados do sistema REDE CNPJ.
-A forma de consulta, de processamento e de exibição dos grafos pelo SINARC usa metodologia própria.
-Importante registrar que o SINARC é fruto do brilhante e inpirador trabalho realizado pelos desenvolvedores do REDE CNPJ, que gentilmente compartilharam seu código-fonte com a sociedade, demonstrando que a transparência e a colaboração são pilares fundamentais para o avanço tecnológico.
+O SINARC, Sistema Integrado de Análise de Redes Complexas, usa a modelagem de bancos de dados relacional criada pelos desenvolvedores do projeto open source REDE CNPJ.
+No entanto, a forma de consulta, de processamento e de exibição dos grafos gerados pelo SINARC utiliza metodologia própria.
+Importante registrar que o SINARC é fruto do brilhante e inspirador trabalho realizado pelo criador do sistema REDE CNPJ, que gentilmente compartilhou seu código-fonte com a sociedade, demonstrando que a transparência e a colaboração são pilares fundamentais para o avanço tecnológico.
 
 ATENÇÃO: A rotina de instalação do SINARC e do REDE CNPJ, seja no computador ou em um HD externo, necessita de pelo menos:
   1) 100 GB de espaço livre. Após a instalação, o total de espaço ocupado pelos arquivos será de aproximadamente 60GB.
   2) 3 GB de espaço livre na memória RAM.
 
-Para instalar o SINARC e o REDE CNPJ, você precisa baixar apenas o arquivo "instalador_main.bat" do repositório "https://github.com/controlecidadao/sinarc" e salvá-lo em uma pasta exclusiva para os programas (ex.: SINARC). Por se tratar de um arquivo ".bat", seu navegador pode pedir a confirmação do download.
+Para instalar o SINARC e o REDE CNPJ você precisa baixar apenas o arquivo "instalador_main.bat" do repositório "https://github.com/controlecidadao/sinarc" e salvá-lo em uma pasta exclusiva para os programas (ex.: SINARC). Por se tratar de um arquivo ".bat", seu navegador pode pedir a confirmação do download.
 Este arquivo executa automaticamente a seguinte rotina de instalação:
   1) Baixa e instala o gerenciador de ambientes virtuais Miniconda, juntamente com o Python 3.10
   2) Baixa os repositórios SINARC e REDE CNPJ
@@ -51,7 +51,7 @@ Quando a interface do REDE CNPJ for exibida em uma nova aba do navegador, abra o
 O SINARC será exibido em uma nova aba do navegador.
 Pronto! Você já pode utilizar ambos os programas!
 
-"O verdadeiro progresso é o que põe a tecnologia ao alcance de todos" (Henry Ford)
+"O verdadeiro progresso é o que põe a tecnologia ao alcance de todos!" (Henry Ford)
 
 
 
