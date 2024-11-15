@@ -41,7 +41,7 @@ Para instalar o SINARC e o Rede CNPJ, siga as instruções contidas no arquivo [
 
 Conquanto o SINARC utilize apenas a modelagem de banco de dados do projeto Rede CNPJ, optou-se por disponibilizar a íntegra deste programa juntamente com o SINARC, permitindo ao cidadão explorar as duas ferramentas e, quem sabe, desenvolver seu próprio programa de análise de grafos.
 
-O manual de instruções do SINARC pode ser acessado durante o uso do sistema por meio da tecla h.
+O manual de instruções do SINARC pode ser acessado durante o uso do sistema por meio da tecla h (de _help_).
 
 <br>
 
