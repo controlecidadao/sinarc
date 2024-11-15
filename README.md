@@ -13,9 +13,9 @@
 
 <br>
 
-O **SINARC – Sistema Integrado de Análise de Redes Complexas** 🕸️ é um programa experimental de análise de dados desenvolvido sob os princípios da [Ciência Aberta](https://www.unesco.org/en/open-science) (metodologia aberta 🔓, código aberto 💻, dados abertos 📊, acesso aberto 🌐, revisão por pares aberta 👥 e recursos educacionais abertos 📚), sob [Licença MIT](https://opensource.org/licenses/MIT), para uso em computadores Windows. O sistema foi criado a partir do inspirador projeto [Rede CNPJ](https://github.com/rictom/rede-cnpj), porém utilizando técnicas e ferramentas de programação distintas, o que lhe confere funcionalidades singulares.
+O **SINARC – Sistema Integrado de Análise de Redes Complexas** é um programa experimental de análise de dados desenvolvido sob os princípios da [Ciência Aberta](https://www.unesco.org/en/open-science) (metodologia aberta, código aberto, dados abertos, acesso aberto, revisão por pares aberta e recursos educacionais abertos), sob [Licença MIT](https://opensource.org/licenses/MIT), para uso em computadores Windows. O sistema foi criado a partir do inspirador projeto [Rede CNPJ](https://github.com/rictom/rede-cnpj), porém utilizando técnicas e ferramentas de programação distintas, o que lhe confere funcionalidades singulares.
 
-O SINARC se propõe a ampliar as perspectivas de análise das conexões existentes entre pessoas físicas, pessoas jurídicas, endereços, telefones e e-mails constantes na **base de dados pública de CNPJ da Receita Federal** 🏦 por meio da criação de uma interface gráfica concebida a partir dos princípios da percepção visual extraídos da Psicologia da Gestalt, facilitando a identificação visual das estruturas pelo analista, e de um conjunto de ferramentas computacionais que se utilizam da teoria dos grafos para analisar a rede de conexões sob o ponto de vista de um sistema complexo e aplicar algoritmos matemáticos para auxiliar na identificação de informações e padrões ocultos relevantes para a produção de conhecimento. 🧠
+O SINARC se propõe a ampliar as perspectivas de análise das conexões existentes entre pessoas físicas, pessoas jurídicas, endereços, telefones e e-mails constantes na [base de dados pública de CNPJ da Receita Federal](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj) por meio da criação de uma interface gráfica concebida a partir dos princípios da percepção visual extraídos da Psicologia da Gestalt, facilitando a identificação visual das estruturas pelo analista, e de um conjunto de ferramentas computacionais que se utilizam da teoria dos grafos para analisar a rede de conexões sob o ponto de vista de um sistema complexo e aplicar algoritmos matemáticos para auxiliar na identificação de informações e padrões ocultos relevantes para a produção de conhecimento.
 
 <br>
 
@@ -33,7 +33,7 @@ O SINARC se propõe a ampliar as perspectivas de análise das conexões existent
 
 <br>
 
-Assim como o projeto Rede CNPJ, o objetivo do SINARC é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção. 🌍
+Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
 
 <br>
 
