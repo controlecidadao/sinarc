@@ -39,6 +39,8 @@ Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibi
 
 <br>
 
+Para instalar o SINARC e o Rede CNPJ, siga as instruções contidas no arquivo [INSTRUÇÕES.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES.txt), disponível na página principal deste repositório.
+
 ## 🚧 Página em Construção...
 
 
