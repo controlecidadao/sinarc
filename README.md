@@ -17,7 +17,7 @@ O **SINARC – Sistema Integrado de Análise de Redes Complexas** é um programa
 
 O SINARC se propõe a ampliar as perspectivas de análise das conexões existentes entre pessoas físicas, pessoas jurídicas, endereços, telefones e e-mails constantes na [base de dados pública de CNPJ da Receita Federal](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj) por meio da criação de uma interface gráfica concebida a partir dos princípios da percepção visual extraídos da Psicologia da Gestalt, facilitando a identificação visual das estruturas pelo analista, e de um conjunto de ferramentas computacionais que se utilizam da teoria dos grafos para analisar a rede de conexões sob o ponto de vista de um sistema complexo e aplicar algoritmos matemáticos para auxiliar na identificação de informações e padrões ocultos relevantes para a produção de conhecimento.
 
-[Nota Técnica RFB/COCAD nº 86, de 4 de julho de 2024](https://www.gov.br/receitafederal/dados/nota-cocad-rfb-86-2024.pdf/), que especifica quais dados não estão protegidos por sigilo fiscal.
+[Nota Técnica RFB/COCAD nº 86, de 4 de julho de 2024](https://www.gov.br/receitafederal/dados/nota-cocad-rfb-86-2024.pdf/), que especifica quais dados do CNPJ não estão protegidos por sigilo fiscal.
 
 O vídeo a seguir demonstra a aplicação do SINARC no controle da Administração Pública. A partir de notícia publicada na internet sobre possíveis irregularidades em licitação para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas participantes, cruzando os resultados com outra licitação de mesmo objeto para verificar a existência de conexões entre todos os grupos econômicos:
 
