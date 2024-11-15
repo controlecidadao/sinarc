@@ -5,5 +5,9 @@
 
 ## SINARC - Sistema Integrado de Análise de Redes Complexas
 
+<p align="center" width="100%">
+<img width="90%" src="https://github.com/controlecidadao/sinarc/blob/main/images/print_screen.png" />
+</p>
+
 ![banner](https://github.com/controlecidadao/sinarc/blob/main/images/print_screen.png)
 
