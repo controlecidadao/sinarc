@@ -43,6 +43,18 @@ Conquanto o SINARC utilize apenas a modelagem de banco de dados do projeto Rede 
 
 O manual de instruções do SINARC pode ser acessado durante o uso do sistema por meio da tecla h.
 
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/print_screen.png" />
+</p>
+
+<p align="center" width="100%">
+Exemplo de rede complexa sendo explorada pelo SINARC
+</p>
+
+
+<br>
 
 ## 🚧 Página em Construção...
 
