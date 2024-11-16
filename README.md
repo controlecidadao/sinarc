@@ -138,7 +138,7 @@ Detalhe da rede complexa gerado pelo SINARC (com ocultação de arestas)
 </p>
 
 <p align="center" width="100%">
-Sequência de vínculos identificados na rede complexa pelo SINARC
+Sequência de vínculos entre dois nós, identificados pelo SINARC na 14ª camada
 </p>
 
 <br><br>
