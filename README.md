@@ -73,7 +73,7 @@ O SINARC se destina a todos que exercem o controle social e institucional da Adm
 
 Confira-se, a seguir, exemplos de exploração de redes extremamente complexas com o SINARC:
 
-<br>
+<br><br>
 
 ### **CNPJ 33.592.510/0001-54 (Vale S.A.):**<br>
 *	Aberto em 4 camadas com o SINARC<br>
