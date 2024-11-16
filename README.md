@@ -19,7 +19,7 @@ O SINARC se propõe a ampliar as perspectivas de análise das conexões existent
 
 [Nota Técnica RFB/COCAD nº 86, de 4 de julho de 2024](https://www.gov.br/receitafederal/dados/nota-cocad-rfb-86-2024.pdf/), especificando quais dados do CNPJ não estão protegidos por sigilo fiscal.
 
-O vídeo a seguir demonstra a aplicação do SINARC no controle da Administração Pública. A partir de [notícia](https://www.radiocacula.com.br/detran-ms-e-investigado-por-suspeita-de-fraude-em-licitacao-de-r-39-milhoes/) publicada na internet sobre possíveis irregularidades em licitação para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas citadas na notícia, cruzando os resultados com outra licitação de mesmo objeto para verificar a existência de conexões entre todos os grupos econômicos:
+O vídeo a seguir demonstra a aplicação do SINARC no controle da Administração Pública. A partir de [notícia](https://www.radiocacula.com.br/detran-ms-e-investigado-por-suspeita-de-fraude-em-licitacao-de-r-39-milhoes/) publicada na internet sobre supostas irregularidades em licitação para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas citadas na notícia, cruzando os resultados com outra licitação de mesmo objeto para verificar a existência de conexões entre todos os grupos econômicos:
 
 <br>
 
