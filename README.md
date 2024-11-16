@@ -42,12 +42,12 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 </p>
 
 <p align="center" width="100%">
-Vínculos existentes entre duas empresas, identificados pelo SINARC na 1ª camada
+Exemplo de vínculos existentes entre duas empresas, identificados pelo SINARC na 1ª camada
 </p>
 
 <br>
 
-Exemplo de uso do SINARC em trabalho técnico desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo (MPC-ES): [Parecer do MPC no Processo 784/2020](https://www.mpc.es.gov.br/wp-content/uploads/2024/10/Processo-784-2020-Parecer-MPC-ES-em-Denuncia-transacao-tributaria-Anchieta-e-Samarco.pdf#page=110).
+Uso do SINARC em trabalho técnico desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo (MPC-ES): [Parecer do MPC no Processo 784/2020](https://www.mpc.es.gov.br/wp-content/uploads/2024/10/Processo-784-2020-Parecer-MPC-ES-em-Denuncia-transacao-tributaria-Anchieta-e-Samarco.pdf#page=110).
 
 Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
 
