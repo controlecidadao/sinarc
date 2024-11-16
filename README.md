@@ -83,6 +83,15 @@ Confira-se, a seguir, exemplos de exploração de redes extremamente complexas c
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_3.png" />
 </p>
 
+<br><br>
+
+### **CNPJ de empresas listadas na B3 (Bolsa de Valores):**<br>
+*	Abertos em 9 camadas<br>
+*	31.606 nós<br>
+*	45.268 arestas (azul)<br>
+<br>
+
+
 
 
 <!--## 🚧 Página em Construção...-->
