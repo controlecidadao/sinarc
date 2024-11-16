@@ -169,7 +169,21 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 <br><br>
 
+## Algumas Possibilidades de Uso do SINARC
 
+<br>
+
+✅ Identificar vínculos entre pessoas físicas e jurídicas citadas em notícias publicadas na internet.
+
+✅ Conhecer a estrutura de grupo empresarial a partir do CNPJ, razão social, nome de fantasia, nome do sócio, documento fiscal etc.
+
+✅ Gerar grafo contendo todas as empresas cujos números de CNPJ encontram-se citados em relatório técnico, diário oficial ou qualquer outro documento ou tela de programa com texto selecionável.
+
+✅ Identificar vínculos entre licitantes a partir da ata do procedimento licitatório realizado pela Administração Pública.
+
+✅ Identificar pessoas físicas e jurídicas com posições estratégicas na rede a partir da aplicação de algoritmos de medida de centralidade de grafos: Centralidade de Grau (Degree Centrality), Centralidade de Intermediação (Betweenness Centrality), Centralidade de Proximidade (Closeness Centrality), Centralidade de Autovetor (Eigenvector Centrality) e Ranking de Página (Pagerank).
+
+✅ Identificar toda a cadeia de pessoas físicas e jurídicas que integram o grupo econômico responsável por determinada empresa.
 
 
 <!--## 🚧 Página em Construção...-->
