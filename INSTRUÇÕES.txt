@@ -50,8 +50,8 @@ Para criar os 4 bancos de dados usados pelo SINARC e pelo REDE CNPJ:
 ABRINDO OS PROGRAMAS SINARC E REDE CNPJ
 =======================================
 
-Como o SINARC utiliza os bancos de dados do REDE CNPJ, primeiro abra o REDE CNPJ dando dois cliques sobre o arquivo "abre_rede_cnpj.bat", localizado na pasta "SINARC".
-Quando a interface do REDE CNPJ for exibida em uma nova aba do navegador, abra o SINARC clicando duas vezes sobre o arquivo "abre_sinarc.bat", também na pasta "SINARC".
+Como o SINARC utiliza os bancos de dados do REDE CNPJ, primeiro abra o REDE CNPJ dando dois cliques sobre o arquivo "abre_rede_cnpj.bat", localizado na pasta "SINARC". Uma janela do terminal do Windows será aberta.
+Quando a interface do REDE CNPJ for exibida em uma nova aba do navegador, abra o SINARC clicando duas vezes sobre o arquivo "abre_sinarc.bat", também na pasta "SINARC". Uma segunda janela do terminal do Windows será aberta.
 O SINARC será exibido em uma nova aba do navegador.
 Pronto! Você já pode utilizar ambos os programas!
 
