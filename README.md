@@ -42,7 +42,7 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 </p>
 
 <p align="center" width="100%">
-Exemplo de vínculos identificados pelo SINARC entre empresas na 1ª camada
+Vínculos existentes entre duas empresas, identificados pelo SINARC na 1ª camada
 </p>
 
 <br>
@@ -162,7 +162,7 @@ Detalhe da rede complexa gerado pelo SINARC (com ocultação de arestas)
 </p>
 
 <p align="center" width="100%">
-Sequência de vínculos entre dois nós, identificados pelo SINARC na 14ª camada
+Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 </p>
 
 <br><br>
