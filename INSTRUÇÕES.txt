@@ -24,7 +24,7 @@ Para iniciar a instalação:
   2) Na janela do terminal (Windows PowerShell), digite ".\instalador_main.bat" (sem as aspas). A rotina de instalação será iniciada.
   3) Caso o download dos repositórios apresente erro, repita o procedimento de instalação.
 
-Durante a fase de testes, o SINARC foi instalado com sucesso em um HD externo, permitindo sua portabilidade para outros computadores. Foi criada a pasta SINARC no HD externo e o arquivo "instalador-main.bat" baixado para dentro dela. Após as rotinas de instalação e de criação dos bancos de dados, tanto o SINARC quanto o Rede CNPJ foram executados normalmente, com o atraso de resposta esperado. Recomenda-se, no entanto, caso haja espaço livre disponível, que todo o sistema seja instalado no computador para que se obtenha o melhor desempenho possível.
+Durante a fase de testes, o SINARC foi instalado com sucesso em um HD externo, permitindo sua portabilidade para outros computadores. Foi criada a pasta SINARC no HD externo e baixado o arquivo "instalador-main.bat" para dentro dela. Após as rotinas de instalação e de criação dos bancos de dados, tanto o SINARC quanto o Rede CNPJ foram executados normalmente dentro do HD externo, porém com o atraso de resposta esperado por se tratar de mídia com baixa velocidade de transferência de dados. Recomenda-se, caso haja espaço livre disponível, que todo o sistema seja instalado no computador para que se obtenha o melhor desempenho possível.
 
 
 
