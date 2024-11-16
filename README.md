@@ -71,16 +71,28 @@ Confira-se, a seguir, exemplos de exploração de redes extremamente complexas c
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_1.png" />
 </p>
 
-<br>
+<p align="center" width="100%">
+Visão panorâmica da rede complexa gerada pelo SINARC
+</p>
+
+<br><br>
 
 <p align="center" width="100%">
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_2.png" />
 </p>
 
-<br>
+<p align="center" width="100%">
+Aproximação da rede complexa gerada pelo SINARC
+</p>
+
+<br><br>
 
 <p align="center" width="100%">
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_3.png" />
+</p>
+
+<p align="center" width="100%">
+Detalhe da rede complexa gerado pelo SINARC
 </p>
 
 <br><br>
@@ -95,25 +107,41 @@ Confira-se, a seguir, exemplos de exploração de redes extremamente complexas c
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_1.png" />
 </p>
 
-<br>
+<p align="center" width="100%">
+Visão panorâmica da rede complexa gerada pelo SINARC
+</p>
+
+<br><br>
 
 <p align="center" width="100%">
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_2.png" />
 </p>
 
-<br>
+<p align="center" width="100%">
+Aproximação da rede complexa gerada pelo SINARC
+</p>
+
+<br><br>
 
 <p align="center" width="100%">
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_3.png" />
 </p>
 
-<br>
+<p align="center" width="100%">
+Detalhe da rede complexa gerado pelo SINARC (com ocultação de arestas)
+</p>
+
+<br><br>
 
 <p align="center" width="100%">
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_4.png" />
 </p>
 
-<br>
+<p align="center" width="100%">
+Sequência de vínculos identificados na rede complexa pelo SINARC
+</p>
+
+<br><br>
 
 
 
