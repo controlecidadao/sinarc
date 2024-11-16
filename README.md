@@ -169,7 +169,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 <br><br>
 
-## Algumas Possibilidades de Uso do SINARC
+## Algumas possibilidades de uso do SINARC
 
 <br>
 
