@@ -42,7 +42,7 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 </p>
 
 <p align="center" width="100%">
-Exemplo de vínculos identificados pelo SINARC
+Exemplo de vínculos identificados entre duas empresas pelo SINARC
 </p>
 
 <br>
