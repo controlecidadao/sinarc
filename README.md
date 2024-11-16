@@ -185,7 +185,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 ✅ Identificar toda a cadeia hierárquica de pessoas físicas e jurídicas que integram o grupo econômico e controlam determinada empresa.
 
-
+<br><br>
 <!--## 🚧 Página em Construção...-->
 
 
