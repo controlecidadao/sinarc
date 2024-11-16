@@ -35,6 +35,16 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 </a>
 </p>
 
+<br><br>
+
+<p align="center" width="100%">
+<img width="80%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vinculos_1.png" />
+</p>
+
+<p align="center" width="100%">
+Exemplo de vínculos identificados pelo SINARC
+</p>
+
 <br>
 
 Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
@@ -55,7 +65,7 @@ O manual de instruções do SINARC pode ser acessado por meio da tecla h (de _he
 Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
 </p>
 
-<br>
+<br><br>
 
 ## A quem se destina o SINARC?
 
