@@ -185,6 +185,8 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 ✅ Identificar toda a cadeia hierárquica de pessoas físicas e jurídicas que integram o grupo econômico e controlam determinada empresa.
 
+✅ Gerar o grafo de todas as empresas que se enquadrem em determinado critério (mesmo endereço, mesma rua, mesmo CEP etc.), mediante consulta à base de dados por meio do programa gratuito [DB Browser](https://sqlitebrowser.org/).
+
 <br><br>
 <!--## 🚧 Página em Construção...-->
 
