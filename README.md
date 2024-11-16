@@ -55,8 +55,35 @@ O manual de instruções do SINARC pode ser acessado durante o uso do sistema po
 Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
 </p>
 
+<br><br>
+
+Confira-se, a seguir, exemplos de exploração de redes extremamente complexas com o SINARC:
 
 <br>
+
+### **CNPJ 33.592.510/0001-54 (Vale S.A.):**<br>
+*	Aberto em 4 camadas<br>
+*	6.602 nós<br>
+*	12.884 arestas (azul)<br>
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_1.png" />
+</p>
+
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_2.png" />
+</p>
+
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_3.png" />
+</p>
+
+
 
 <!--## 🚧 Página em Construção...-->
 
