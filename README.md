@@ -62,7 +62,7 @@ Confira-se, a seguir, exemplos de exploração de redes extremamente complexas c
 <br>
 
 ### **CNPJ 33.592.510/0001-54 (Vale S.A.):**<br>
-*	Aberto em 4 camadas<br>
+*	Aberto em 4 camadas com o SINARC<br>
 *	6.602 nós<br>
 *	12.884 arestas (azul)<br>
 <br>
@@ -85,10 +85,34 @@ Confira-se, a seguir, exemplos de exploração de redes extremamente complexas c
 
 <br><br>
 
-### **CNPJ de empresas listadas na B3 (Bolsa de Valores):**<br>
-*	Abertos em 9 camadas<br>
+### **CNPJ de empresas listadas na B3 S.A. (Bolsa de Valores):**<br>
+*	Abertos em 9 camadas com o SINARC<br>
 *	31.606 nós<br>
 *	45.268 arestas (azul)<br>
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_1.png" />
+</p>
+
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_2.png" />
+</p>
+
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_3.png" />
+</p>
+
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_4.png" />
+</p>
+
 <br>
 
 
