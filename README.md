@@ -181,7 +181,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 ✅ Identificar vínculos entre licitantes a partir da ata do procedimento licitatório realizado pela Administração Pública.
 
-✅ Identificar pessoas físicas e jurídicas com posições estratégicas na rede a partir da aplicação de algoritmos de medida de centralidade de grafos: Centralidade de Grau (_Degree Centrality_), Centralidade de Intermediação (_Betweenness Centrality_), Centralidade de Proximidade (_Closeness Centrality_), Centralidade de Autovetor (_Eigenvector Centrality_) e Ranking de Página (_Pagerank_).
+✅ Identificar pessoas físicas e jurídicas com posições estratégicas na rede a partir da aplicação de algoritmos de medidas de centralidade de grafos: Centralidade de Grau (_Degree Centrality_), Centralidade de Intermediação (_Betweenness Centrality_), Centralidade de Proximidade (_Closeness Centrality_), Centralidade de Autovetor (_Eigenvector Centrality_) e Ranking de Página (_Pagerank_).
 
 ✅ Identificar toda a cadeia hierárquica de pessoas físicas e jurídicas que integram o grupo econômico e controlam determinada empresa.
 
