@@ -55,7 +55,21 @@ O manual de instruções do SINARC pode ser acessado por meio da tecla h (de _he
 Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
 </p>
 
+<br>
+
+## A quem se destina o SINARC?
+
+<br>
+
+O SINARC se destina a todos que exercem o controle social e institucional da Administração Pública, como auditores, jornalistas, Comissões Permanentes de Licitação e de Pregão, Procuradorias Jurídicas, Sistemas de Controle Interno, Ministérios Públicos, entre outros órgãos e instituições, além do cidadão interessado em obter informações sobre a estrutura empresarial de grupos econômicos, a situação jurídica de empresas e as relações existentes entre pessoas físicas e jurídicas cadastradas na base de dados pública de CNPJ da Receita Federal.
+
+**ATENÇÃO:** Antes de utilizar as informações obtidas por meio do SINARC, valide-as mediante consulta direta aos portais de transparência e às bases de dados primárias atualizadas.
+
 <br><br>
+
+## Exemplos de utilização do SINARC
+
+<br>
 
 Confira-se, a seguir, exemplos de exploração de redes extremamente complexas com o SINARC:
 
