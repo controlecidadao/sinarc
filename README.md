@@ -200,6 +200,8 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 [Jarbas - Operação Serenata de Amor](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
 
+[400 empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/)
+
 <br><br>
 
 <!--## 🚧 Página em Construção...-->
