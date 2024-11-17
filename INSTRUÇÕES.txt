@@ -91,6 +91,9 @@ Para criar os 4 bancos de dados usados pelo SINARC e pelo REDE CNPJ:
   9) Na sequência, mova esses 4 arquivos para a pasta "bases" (SINARC\rede-cnpj-master\rede\bases), substituindo os lá existentes. ATENÇÃO: Como essa fase da instalação ocorre horas depois do início, é comum o usuário esquecer de realizá-la.
   10) Pronto! Os programas SINARC e REDE CNPJ já podem ser usados normalmente.
 
+As bases de dados de CNPJ da Receita Federal são atualizadas mensalmente. Para atualizar os bancos de dados usados pelo SINARC, substitua os arquivos .zip baixados anteriormente pelos do Ano/Mes desejado e execute esta rotina de criação novamente.
+
+
 
 =======================================
 ABRINDO OS PROGRAMAS SINARC E REDE CNPJ
