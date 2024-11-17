@@ -57,7 +57,7 @@ Para ampliar a capacidade de pesquisa, baixe e descompacte na pasta SINARC (past
 
 <!--Devido à sua portabilidade, o sistema pode, inclusive, ser instalado diretamente em um HD externo (processo muito demorado) e depois copiado para outros computadores. O inverso também pode ser feito: instalar o sistema no computador e depois copiar sua pasta para um HD externo.-->
 
-Conquanto o SINARC utilize apenas a modelagem de banco de dados do projeto Rede CNPJ, optou-se por disponibilizar a íntegra deste programa juntamente com o SINARC, permitindo ao cidadão explorar as duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades, certamente, ainda mais interessantes, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
+Conquanto o SINARC utilize apenas a modelagem de banco de dados do projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste programa, permitindo ao cidadão explorar as duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades, certamente, ainda mais interessantes, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
 O manual de instruções do SINARC pode ser acessado por meio da tecla h (de _help_), durante o uso do sistema. Já o do Rede CNPJ encontra-se disponível na própria página do projeto.
 
