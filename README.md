@@ -194,13 +194,15 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 <br><br>
 
-## Sites para praticar OSINT
+## CNPJ Playground
 
 <br>
 
-[Jarbas - Operação Serenata de Amor](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
+[Reembolsos suspeitos de despesas realizadas pela Câmara dos Deputados - Operação Serenata de Amor (Jarbas)](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
 
 [400 empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/)
+
+[Atas de sessões públicas de pregões eletrônicos](https://www.google.com/search?q=ata+sess%C3%A3o+preg%C3%A3o+ltda+filetype%3Apdf&sca_esv=b28375632d0b0304&rlz=1C1GCEU_pt-BRBR1106BR1106&biw=1242&bih=575&sxsrf=ADLYWIK6WykeXV5nAHsyue6o-IjFX4qkhQ%3A1731868416556&ei=ADc6Z53UIYme5OUP7vzCqQk&ved=0ahUKEwid1JDOgOSJAxUJD7kGHW6-MJUQ4dUDCA8&uact=5&oq=ata+sess%C3%A3o+preg%C3%A3o+ltda+filetype%3Apdf&gs_lp=Egxnd3Mtd2l6LXNlcnAiJWF0YSBzZXNzw6NvIHByZWfDo28gbHRkYSBmaWxldHlwZTpwZGZIuidQ8x5YmSRwAngBkAEAmAGGAaAB-QSqAQMwLjW4AQPIAQD4AQGYAgKgAgjCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcBMqAH4QE&sclient=gws-wiz-serp)
 
 <br><br>
 
