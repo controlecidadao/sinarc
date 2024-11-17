@@ -128,7 +128,7 @@ Detalhe da rede complexa gerado pelo SINARC
 <br><br>
 
 ### **CNPJ de empresas listadas na B3 S.A. (Bolsa de Valores):**<br>
-*	Abertos em 9 camadas com o SINARC<br>
+*	Abertos em 2 camadas com o SINARC<br>
 *	31.606 nós<br>
 *	45.268 arestas (azul)<br>
 * [Fonte](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/) 
@@ -203,6 +203,10 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 [400 empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/)
 
 [Empresas por município](https://cadastroempresa.com.br/)
+
+[Diário Oficial do Estado do ES - DIO-ES](https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial)
+
+[Diário Oficial dos Municípios do Espírito Santo - DOM-ES](https://ioes.dio.es.gov.br/dom)
 
 [Atas de sessões públicas de pregões eletrônicos](https://www.google.com/search?q=ata+sess%C3%A3o+preg%C3%A3o+ltda+filetype%3Apdf&sca_esv=b28375632d0b0304&rlz=1C1GCEU_pt-BRBR1106BR1106&biw=1242&bih=575&sxsrf=ADLYWIK6WykeXV5nAHsyue6o-IjFX4qkhQ%3A1731868416556&ei=ADc6Z53UIYme5OUP7vzCqQk&ved=0ahUKEwid1JDOgOSJAxUJD7kGHW6-MJUQ4dUDCA8&uact=5&oq=ata+sess%C3%A3o+preg%C3%A3o+ltda+filetype%3Apdf&gs_lp=Egxnd3Mtd2l6LXNlcnAiJWF0YSBzZXNzw6NvIHByZWfDo28gbHRkYSBmaWxldHlwZTpwZGZIuidQ8x5YmSRwAngBkAEAmAGGAaAB-QSqAQMwLjW4AQPIAQD4AQGYAgKgAgjCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcBMqAH4QE&sclient=gws-wiz-serp)
 
