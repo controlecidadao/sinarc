@@ -121,19 +121,24 @@ with open(f"{tempdir}/{name}", "w+") as out:
 # ALTERAÇÕES REALIZADAS NOS ARQUIVOS DO REDE CNPJ
 #################################################
 
-# ARQUIVO: 'E:\rede-cnpj-master\rede\rede.ini'
+# ARQUIVO: 'SINARC\rede-cnpj-master\rede\rede.ini'
 
-# parametros para o flask-limiter (COMENTADO POR WALTER - PADRÃO)
+# parametros para o flask-limiter (COMENTADO POR SINARC - PADRÃO)
 #limiter_padrao =2/second;20/minute;200/hour;400/day
 #limiter_dados =10/second;600/minute
 #limiter_arquivos =2/minute;30/hour;100/day
 
-# parametros para o flask-limiter (INCLUÍDO POR WALTER - x1000)
+# parametros para o flask-limiter (INCLUÍDO POR SINARC - x1000)
 """
 limiter_padrao =2000/second;20000/minute;200000/hour;400000/day
 limiter_dados =10000/second;600000/minute
 limiter_arquivos =2000/minute;30000/hour;100000/day
 """
+
+# ARQUIVO: SINARC\rede-cnpj-master\rede\rede.py
+
+# app.run(host='0.0.0.0',debug=True, use_reloader=False, port=porta) # Parâmetro 'use_realoader' alterado para 'False'. Em 'True' faz com que uma segunda aba do navegador seja aberta.
+
 
 # ===============================================
 
