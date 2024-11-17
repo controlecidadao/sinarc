@@ -53,7 +53,7 @@ Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibi
 
 Para instalar o SINARC e o Rede CNPJ, siga as instruções contidas no arquivo [INSTRUÇÕES.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES.txt), disponível na página principal deste repositório. Devido à sua portabilidade, é possível instalar e executar o sistema diretamente em um HD externo.
 
-Para auxiliar nas pesquisas no banco de dados de CNPJ, baixe e instale a versão portátil e gratuita do programa [DB Browser](https://sqlitebrowser.org/dl/) (_DB Browser for SQLite - .zip (no installer)_).
+Para auxiliar nas pesquisas no banco de dados de CNPJ, baixe e instale a versão portátil e gratuita do programa [DB Browser](https://sqlitebrowser.org/dl/) (arquivo "DB Browser for SQLite - .zip (no installer)").
 
 <!--Devido à sua portabilidade, o sistema pode, inclusive, ser instalado diretamente em um HD externo (processo muito demorado) e depois copiado para outros computadores. O inverso também pode ser feito: instalar o sistema no computador e depois copiar sua pasta para um HD externo.-->
 
