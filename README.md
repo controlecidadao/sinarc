@@ -193,6 +193,15 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 ✅ Gerar grafo contendo todas as empresas que se enquadrem na combinação de determinados critérios (mesmo endereço, mesma rua, mesmo CEP, mesma atividade econômica etc.), mediante consulta prévia à base de dados usando o programa gratuito [DB Browser](https://sqlitebrowser.org/).
 
 <br><br>
+
+## Sites para praticar OSINT
+
+<br>
+
+[Jarbas - Operação Serenata de Amor](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
+
+<br><br>
+
 <!--## 🚧 Página em Construção...-->
 
 
