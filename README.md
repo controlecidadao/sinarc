@@ -51,7 +51,9 @@ Uso do SINARC em trabalho técnico desenvolvido pelo Ministério Público de Con
 
 Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
 
-Para instalar o SINARC e o Rede CNPJ, siga as instruções contidas no arquivo [INSTRUÇÕES.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES.txt), disponível na página principal deste repositório. Devido à sua portabilidade, o sistema pode, inclusive, ser instalado diretamente em um HD externo (processo muito demorado) e depois copiado para outros computadores. O inverso também pode ser feito: instalar o sistema no computador e depois copiar sua pasta para um HD externo.
+Para instalar o SINARC e o Rede CNPJ, siga as instruções contidas no arquivo [INSTRUÇÕES.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES.txt), disponível na página principal deste repositório. 
+
+<!--Devido à sua portabilidade, o sistema pode, inclusive, ser instalado diretamente em um HD externo (processo muito demorado) e depois copiado para outros computadores. O inverso também pode ser feito: instalar o sistema no computador e depois copiar sua pasta para um HD externo.-->
 
 Conquanto o SINARC utilize apenas a modelagem de banco de dados do projeto Rede CNPJ, optou-se por disponibilizar a íntegra deste programa juntamente com o SINARC, permitindo ao cidadão explorar as duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades, certamente, ainda mais interessantes, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
