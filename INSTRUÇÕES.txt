@@ -11,8 +11,13 @@ ATENÇÃO: A rotina de instalação do SINARC e do REDE CNPJ no computador neces
   1) 100 GB de espaço livre. Após a instalação, o total de espaço ocupado pelos arquivos será de aproximadamente 60GB.
   2) 3 GB de espaço livre na memória RAM.
 
+Caso opte por não ocupar os 60GB de espaço no seu computador após a instalação, mova a pasta SINARC para um HD externo. O sistema permanece funcional no HD externo.
+Caso não disponha de espaço suficiente no computador para instalar o SINARC, é possível instalar o sistema diretamente no HD externo. Porém, o processo dura aproximadamente 24h.
+
 Para instalar o SINARC e o REDE CNPJ você precisa baixar apenas o arquivo "instalador_main.bat" do repositório (https://github.com/controlecidadao/sinarc/blob/main/instalador_main.bat) e salvá-lo em uma pasta exclusiva para os programas (ex.: SINARC). Por se tratar de um arquivo ".bat", seu navegador pode pedir a confirmação do download.
-Para baixar o arquivo, primeiro clique sobre ele dentro do repositório. Quando o seu conteúdo for exibido, clique sobre a seta para baixo, à direita da tela (Download raw file).
+
+Para baixar o arquivo "instalador_main.bat", primeiro clique sobre ele dentro do repositório. Quando o seu conteúdo for exibido em uma nova página, clique sobre a seta para baixo, localizada à direita da tela (Download raw file).
+
 O arquivo "instalador_main.bat" executa automaticamente a seguinte rotina de instalação:
   1) Baixa e instala o gerenciador de ambientes virtuais Miniconda, juntamente com a versão 3.10 do Python, criando a pasta "miniconda3".
   2) Baixa a íntegra dos repositórios SINARC e REDE CNPJ e cria as pastas "rede-cnpj-master" e "sinarc-main".
@@ -21,7 +26,7 @@ O arquivo "instalador_main.bat" executa automaticamente a seguinte rotina de ins
   5) Copia arquivos da pasta "sinarc-main" para outras pastas.
 
 Para iniciar a instalação:
-  1) Clique com o botão direito do mouse dentro da pasta onde foi salvo o arquivo "instalador_main.bat" e selecione a opção "Abrir no Terminal".
+  1) Clique com o botão direito do mouse dentro da pasta onde foi salvo o arquivo "instalador_main.bat" e selecione a opção "Abrir no Terminal". Esse procedimento permite que eventuais erros sejam exibidos na janela do terminal do Window.
   2) Na janela do terminal (Windows PowerShell), digite ".\instalador_main.bat" (sem as aspas). A rotina de instalação será iniciada.
   3) Caso o download dos repositórios apresente erro, repita o procedimento de instalação.
 
@@ -33,14 +38,57 @@ ROTINA DE CRIAÇÃO DOS BANCOS DE DADOS
 
 Para criar os 4 bancos de dados usados pelo SINARC e pelo REDE CNPJ:
   1) Abra a pasta "dados-publicos-zip", localizada em "SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos-zip".
-  2) Acesse o site da Receita Federal (https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/) e clique sobre a pasta contendo os dados desejados (Ano/Mês).
+  2) Acesse o site da Receita Federal (https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/) e clique sobre a pasta contendo os dados desejados, separados por Ano/Mês.
   3) Realize manualmente o download de todos os arquivos .zip para a pasta "dados-publicos-zip" (37 arquivos no total).
-  4) Volte para a pasta "rede_cria_tabelas" e inicie a rotina de criação dos bancos de dados clicando com o botão direito do mouse dentro da pasta e selecionando a opção "Abrir no Terminal".
+
+     Exemplo: Pastas 24-11
+
+     Name	Last modified	Size	Description
+     Parent Directory	 	-	 
+     Cnaes.zip	            2024-11-13 16:17	22K	 
+     Empresas0.zip	        2024-11-13 16:38	366M	 
+     Empresas1.zip	        2024-11-13 16:37	74M	 
+     Empresas2.zip	        2024-11-13 16:37	75M	 
+     Empresas3.zip	        2024-11-13 16:37	81M	 
+     Empresas4.zip	        2024-11-13 16:37	86M	 
+     Empresas5.zip	        2024-11-13 16:37	93M	 
+     Empresas6.zip	        2024-11-13 16:37	90M	 
+     Empresas7.zip	        2024-11-13 16:37	95M	 
+     Empresas8.zip	        2024-11-13 16:37	95M	 
+     Empresas9.zip	        2024-11-13 16:37	91M	 
+     Estabelecimentos0.zip	2024-11-13 18:25	1.4G	 
+     Estabelecimentos1.zip	2024-11-13 17:08	324M	 
+     Estabelecimentos2.zip	2024-11-13 17:08	321M	 
+     Estabelecimentos3.zip	2024-11-13 17:08	323M	 
+     Estabelecimentos4.zip	2024-11-13 17:08	348M	 
+     Estabelecimentos5.zip	2024-11-13 17:08	324M	 
+     Estabelecimentos6.zip	2024-11-13 17:08	321M	 
+     Estabelecimentos7.zip	2024-11-13 17:24	322M	 
+     Estabelecimentos8.zip	2024-11-13 17:24	348M	 
+     Estabelecimentos9.zip	2024-11-13 17:24	324M	 
+     Motivos.zip	          2024-11-13 16:17	1.1K	 
+     Municipios.zip	        2024-11-13 16:17	42K	 
+     Naturezas.zip	        2024-11-13 16:17	1.5K	 
+     Paises.zip	            2024-11-13 16:17	2.7K	 
+     Qualificacoes.zip	    2024-11-13 16:17	1.0K	 
+     Simples.zip	          2024-11-13 16:19	229M	 
+     Socios0.zip	          2024-11-13 16:19	157M	 
+     Socios1.zip	          2024-11-13 16:18	47M	 
+     Socios2.zip	          2024-11-13 16:18	47M	 
+     Socios3.zip	          2024-11-13 16:18	47M	 
+     Socios4.zip	          2024-11-13 16:18	47M	 
+     Socios5.zip	          2024-11-13 16:18	47M	 
+     Socios6.zip	          2024-11-13 16:18	47M	 
+     Socios7.zip	          2024-11-13 16:18	47M	 
+     Socios8.zip	          2024-11-13 16:18	47M	 
+     Socios9.zip	          2024-11-13 16:18	47M	 
+
+  4) Volte para a pasta "rede_cria_tabelas" e inicie a rotina de criação dos bancos de dados. Clique com o botão direito do mouse dentro da pasta e selecionando a opção "Abrir no Terminal".
   5) Na janela do terminal (Windows PowerShell), digite ".\cria_bancos_de_dados.bat" (sem as aspas). A rotina de criação dos bancos de dados será iniciada.
   6) A rotina executa 3 arquivos Python em sequência: "dados_cnpj_para_sqlite.py", "rede_cria_tabela_cnpj_links_ete.py" e "rede_cria_tabela_rede.db.py".
   7) No incício da execução de cada arquivo, o usuário será consultado se deseja continuar a criação dos bancos de dados. A execução de cada arquivo leva algumas horas.
   8) Ao final da rotina, serão criados 4 arquivos na pasta "dados-publicos": "cnpj.db", "rede.db", "rede_search.db" e "cnpj_links_ete.db".
-  9) Recorte esses 4 arquivos e cole-os na pasta "bases" (SINARC\rede-cnpj-master\rede\bases), substituindo os lá existentes.
+  9) Na sequência, mova esses 4 arquivos para a pasta "bases" (SINARC\rede-cnpj-master\rede\bases), substituindo os lá existentes. ATENÇÃO: Como essa fase da instalação ocorre horas depois do início, é comum o usuário esquecer de realizá-la.
   10) Pronto! Os programas SINARC e REDE CNPJ já podem ser usados normalmente.
 
 
@@ -48,7 +96,7 @@ Para criar os 4 bancos de dados usados pelo SINARC e pelo REDE CNPJ:
 ABRINDO OS PROGRAMAS SINARC E REDE CNPJ
 =======================================
 
-Como o SINARC utiliza os bancos de dados do REDE CNPJ, primeiro abra o REDE CNPJ dando dois cliques sobre o arquivo "abre_rede_cnpj.bat", localizado na pasta "SINARC". Uma janela do terminal do Windows será aberta.
+Como o SINARC utiliza a estrutura de bancos de dados do REDE CNPJ, primeiro abra o REDE CNPJ dando dois cliques sobre o arquivo "abre_rede_cnpj.bat", localizado na pasta "SINARC". Uma janela do terminal do Windows será aberta.
 Quando a interface do REDE CNPJ for exibida em uma nova aba do navegador, abra o SINARC clicando duas vezes sobre o arquivo "abre_sinarc.bat", também na pasta "SINARC". Uma segunda janela do terminal do Windows será aberta.
 O SINARC será exibido em uma nova aba do navegador.
 Pronto! Você já pode utilizar ambos os programas!
