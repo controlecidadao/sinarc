@@ -131,6 +131,7 @@ Detalhe da rede complexa gerado pelo SINARC
 *	Abertos em 9 camadas com o SINARC<br>
 *	31.606 nós<br>
 *	45.268 arestas (azul)<br>
+* [Fonte](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/) 
 <br>
 
 <p align="center" width="100%">
