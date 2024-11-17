@@ -179,7 +179,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 ✅ Gerar grafo contendo todas as empresas cujos números de CNPJ encontram-se citados em relatório técnico, diário oficial ou qualquer outro documento ou tela de programa com texto selecionável.
 
-✅ Identificar vínculos entre licitantes a partir da ata do procedimento licitatório realizado pela Administração Pública ou da base de dados de licitantes, disponibiliza no portal da transparência.
+✅ Identificar vínculos entre licitantes a partir da ata do procedimento licitatório realizado pela Administração Pública ou da base de dados de licitantes disponibilizada no portal da transparência.
 
 ✅ Identificar pessoas físicas e jurídicas com posições estratégicas na rede a partir da aplicação de algoritmos de medidas de centralidade de grafos: Centralidade de Grau (_Degree Centrality_), Centralidade de Intermediação (_Betweenness Centrality_), Centralidade de Proximidade (_Closeness Centrality_), Centralidade de Autovetor (_Eigenvector Centrality_) e Ranking de Página (_Pagerank_).
 
