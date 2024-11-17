@@ -59,7 +59,7 @@ Para ampliar a capacidade de pesquisa por CNPJ, baixe e descompacte na pasta SIN
 
 Conquanto o SINARC utilize apenas a modelagem de banco de dados do projeto Rede CNPJ, optou-se por disponibilizar a íntegra deste programa juntamente com o SINARC, permitindo ao cidadão explorar as duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades, certamente, ainda mais interessantes, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
-O manual de instruções do SINARC pode ser acessado por meio da tecla h (de _help_), durante o uso do sistema.
+O manual de instruções do SINARC pode ser acessado por meio da tecla h (de _help_), durante o uso do sistema. Já o do Rede CNPJ encontra-se disponível na própria página do projeto.
 
 <br>
 
