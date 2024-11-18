@@ -70,8 +70,8 @@ Para criar os 4 bancos de dados usados pelo SINARC e pelo REDE CNPJ:
      Motivos.zip                2024-11-13 16:17	1.1K	 
      Municipios.zip	        2024-11-13 16:17	42K	 
      Naturezas.zip	        2024-11-13 16:17	1.5K	 
-     Paises.zip             2024-11-13 16:17	2.7K	 
-     Qualificacoes.zip      2024-11-13 16:17	1.0K	 
+     Paises.zip                 2024-11-13 16:17	2.7K	 
+     Qualificacoes.zip          2024-11-13 16:17	1.0K	 
      Simples.zip	          2024-11-13 16:19	229M	 
      Socios0.zip	          2024-11-13 16:19	157M	 
      Socios1.zip	          2024-11-13 16:18	47M	 
