@@ -178,13 +178,13 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 <br>
 
-✅ Identificar vínculos entre pessoas físicas e jurídicas citadas em notícias publicadas na internet.
+✅ Identificar vínculos entre pessoas físicas e jurídicas a partir de notícias publicadas na internet.
 
-✅ Conhecer a estrutura de grupo empresarial a partir do CNPJ, razão social, nome de fantasia, nome do sócio, documento fiscal etc.
+✅ Conhecer a estrutura de grupo empresarial com base no CNPJ, razão social, nome de fantasia, nome do sócio, entre outros parâmetros.
 
-✅ Gerar grafo contendo todas as empresas cujos números de CNPJ encontram-se citados em relatório técnico, diário oficial ou qualquer outro documento ou tela de programa com texto selecionável.
+✅ Representar por meio de grafos as empresas cujos números de CNPJ se encontram citados em relatórios técnicos, diários oficiais ou qualquer documento ou tela de programa com texto selecionável.
 
-✅ Identificar vínculos entre licitantes a partir da ata do procedimento licitatório realizado pela Administração Pública ou da base de dados de licitantes disponibilizada no portal da transparência.
+✅ Identificar vínculos entre licitantes a partir das atas das sessões públicas de procedimentos licitatórios realizados pela Administração Pública, bem como das bases de dados disponibilizadas no portais da transparência.
 
 ✅ Identificar pessoas físicas e jurídicas com posições estratégicas na rede a partir da aplicação de algoritmos de medidas de centralidade de grafos: Centralidade de Grau (_Degree Centrality_), Centralidade de Intermediação (_Betweenness Centrality_), Centralidade de Proximidade (_Closeness Centrality_), Centralidade de Autovetor (_Eigenvector Centrality_) e Ranking de Página (_Pagerank_).
 
@@ -203,6 +203,8 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 [Diário Oficial do Estado do Espírito Santo (DIO-ES)](https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial)
 
 [Diário Oficial dos Municípios do Espírito Santo (DOM-ES)](https://ioes.dio.es.gov.br/dom)
+
+[Bases de dados de licitações, contratos e execução orçamentária](https://dados.es.gov.br/dataset?tags=portal+da+transpar%C3%AAncia)
 
 [Atas de sessões públicas de pregões eletrônicos (Google)](https://www.google.com/search?q=ata+sess%C3%A3o+preg%C3%A3o+ltda+filetype%3Apdf&sca_esv=b28375632d0b0304&rlz=1C1GCEU_pt-BRBR1106BR1106&biw=1242&bih=575&sxsrf=ADLYWIK6WykeXV5nAHsyue6o-IjFX4qkhQ%3A1731868416556&ei=ADc6Z53UIYme5OUP7vzCqQk&ved=0ahUKEwid1JDOgOSJAxUJD7kGHW6-MJUQ4dUDCA8&uact=5&oq=ata+sess%C3%A3o+preg%C3%A3o+ltda+filetype%3Apdf&gs_lp=Egxnd3Mtd2l6LXNlcnAiJWF0YSBzZXNzw6NvIHByZWfDo28gbHRkYSBmaWxldHlwZTpwZGZIuidQ8x5YmSRwAngBkAEAmAGGAaAB-QSqAQMwLjW4AQPIAQD4AQGYAgKgAgjCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcBMqAH4QE&sclient=gws-wiz-serp)
 
