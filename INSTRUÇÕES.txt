@@ -46,7 +46,7 @@ Para criar os 4 bancos de dados usados pelo SINARC e pelo REDE CNPJ:
 
      Name	Last modified	Size	Description
      Parent Directory	 	-	 
-     Cnaes.zip	            2024-11-13 16:17	22K	 
+     Cnaes.zip	                2024-11-13 16:17	22K	 
      Empresas0.zip	        2024-11-13 16:38	366M	 
      Empresas1.zip	        2024-11-13 16:37	74M	 
      Empresas2.zip	        2024-11-13 16:37	75M	 
