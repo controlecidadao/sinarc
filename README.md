@@ -200,7 +200,6 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 Relação de sites contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para testar as funcionalidades do SINARC:
 
-<br>
 
 * [Reembolsos suspeitos de despesas realizadas pela Câmara dos Deputados - Operação Serenata de Amor (Jarbas)](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
 
