@@ -198,6 +198,8 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 <br>
 
+Relação de sites contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para testar as funcionalidades do SINARC:
+
 [Reembolsos suspeitos de despesas realizadas pela Câmara dos Deputados - Operação Serenata de Amor (Jarbas)](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
 
 [Diário Oficial do Estado do Espírito Santo (DIO-ES)](https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial)
