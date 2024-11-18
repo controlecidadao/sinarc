@@ -178,9 +178,9 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 <br>
 
-✅ Identificar vínculos entre pessoas físicas e jurídicas a partir de notícias publicadas na internet.
-
 ✅ Conhecer a estrutura de grupo empresarial com base no CNPJ, razão social, nome de fantasia, nome do sócio, entre outros parâmetros.
+
+✅ Identificar vínculos entre pessoas físicas e jurídicas a partir de notícias publicadas na internet.
 
 ✅ Representar, por meio de grafos, as empresas cujos números de CNPJ se encontram citados em relatórios técnicos, diários oficiais ou qualquer documento ou tela com texto selecionável.
 
