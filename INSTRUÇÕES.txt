@@ -3,20 +3,21 @@
 ROTINA DE INSTALAÇÃO DO SINARC E DO REDE CNPJ
 =============================================
 
-O SINARC, Sistema Integrado de Análise de Redes Complexas, usa a modelagem de bancos de dados relacional criada pelos desenvolvedores do projeto open source REDE CNPJ.
-No entanto, a forma de consulta, de processamento e de exibição dos grafos gerados pelo SINARC utiliza metodologia própria.
-Importante registrar que o SINARC é fruto do brilhante e inspirador trabalho realizado pelo criador do sistema REDE CNPJ, que gentilmente compartilhou seu código-fonte com a sociedade, demonstrando que a transparência e a colaboração são pilares fundamentais para o avanço tecnológico.
+O SINARC, Sistema Integrado de Análise de Redes Complexas, usa a modelagem de bancos de dados relacionais criada pelos desenvolvedores do projeto open source REDE CNPJ.
+No entanto, a forma de consulta, criação, processamento e exibição dos grafos gerados pelo SINARC utiliza metodologia própria.
+
+Importante registrar que o SINARC é fruto do brilhante e inspirador trabalho realizado pelo criador do sistema REDE CNPJ (https://github.com/rictom/rede-cnpj/), que gentilmente compartilhou seu código-fonte com a sociedade, demonstrando que a transparência e a colaboração são pilares fundamentais para o avanço tecnológico.
 
 ATENÇÃO: A rotina de instalação do SINARC e do REDE CNPJ no computador necessita de pelo menos:
-  1) 100 GB de espaço livre. Após a instalação, o total de espaço ocupado pelos arquivos será de aproximadamente 60GB.
+  1) 100 GB de espaço livre. Após a instalação, o total de espaço ocupado pelos arquivos será de aproximadamente 60 GB.
   2) 3 GB de espaço livre na memória RAM.
 
-Caso opte por não ocupar os 60GB de espaço no seu computador após a instalação, mova a pasta SINARC para um HD externo. O sistema permanece funcional no HD externo.
+Caso opte por não ocupar os 60 GB de espaço no seu computador após a instalação, mova a pasta SINARC (a ser criada pelo usuário) para um HD externo. O sistema permanece funcional no HD externo.
 Caso não disponha de espaço suficiente no computador para instalar o SINARC, é possível instalar o sistema diretamente no HD externo. Porém, o processo dura aproximadamente 24h.
 
-Para instalar o SINARC e o REDE CNPJ você precisa baixar apenas o arquivo "instalador_main.bat" do repositório (https://github.com/controlecidadao/sinarc/blob/main/instalador_main.bat) e salvá-lo em uma pasta exclusiva para os programas (ex.: SINARC). Por se tratar de um arquivo ".bat", seu navegador pode pedir a confirmação do download.
+Para instalar o SINARC e o REDE CNPJ você precisa baixar apenas o arquivo "instalador_main.bat" do repositório (https://github.com/controlecidadao/sinarc/blob/main/instalador_main.bat) e salvá-lo em uma pasta exclusiva para os programas, criada pelo usuário (ex.: SINARC). Por se tratar de um arquivo ".bat", seu navegador pode pedir a confirmação do download.
 
-Para baixar o arquivo "instalador_main.bat", primeiro clique sobre ele dentro do repositório. Quando o seu conteúdo for exibido em uma nova página, clique sobre a seta para baixo, localizada à direita da tela (Download raw file).
+Para baixar o arquivo "instalador_main.bat", primeiro clique sobre ele dentro do repositório. Quando o seu conteúdo for exibido em uma nova página, clique sobre o símbolo de seta para baixo, localizado à direita da tela (Download raw file).
 
 O arquivo "instalador_main.bat" executa automaticamente a seguinte rotina de instalação:
   1) Baixa e instala o gerenciador de ambientes virtuais Miniconda, juntamente com a versão 3.10 do Python, criando a pasta "miniconda3".
