@@ -178,11 +178,11 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 <br>
 
-✅ Conhecer a estrutura de grupo empresarial com base no CNPJ, razão social, nome de fantasia, nome do sócio, entre outros parâmetros.
+✅ Conhecer a estrutura de grupos empresariais com base no CNPJ, razão social, nome de fantasia, nome do sócio, entre outros parâmetros.
 
 ✅ Identificar vínculos entre pessoas físicas e jurídicas a partir de notícias publicadas na internet.
 
-✅ Representar, por meio de grafos, as empresas cujos números de CNPJ se encontram citados em relatórios técnicos, diários oficiais ou qualquer documento ou tela com texto selecionável.
+✅ Representar, por meio de grafos, empresas cujos números de CNPJ, no formato 00000000000000 ou 00.000.000/0000-00, se encontram citados em relatórios técnicos, diários oficiais ou qualquer documento ou tela com texto selecionável.
 
 ✅ Identificar vínculos entre licitantes a partir das atas das sessões públicas de procedimentos licitatórios, bem como das bases de dados disponibilizadas no portais de transparência da Administração Pública.
 
@@ -190,7 +190,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 ✅ Identificar toda a cadeia hierárquica formada por de pessoas físicas e jurídicas que integram os grupos econômicos controladores de determinada empresa.
 
-✅ Gerar grafo contendo todas as empresas que se enquadrem na combinação de determinados critérios (endereço, rua, CEP, atividade econômica etc.), mediante consulta prévia à base de dados usando o programa gratuito [DB Browser](https://sqlitebrowser.org/).
+✅ Gerar grafo contendo todas as empresas que se enquadrem na combinação de determinados critérios (mesmo endereço, rua, CEP, atividade econômica etc.), mediante consulta prévia à base de dados usando o programa gratuito [DB Browser](https://sqlitebrowser.org/).
 
 <br><br>
 
