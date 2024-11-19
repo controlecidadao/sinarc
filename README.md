@@ -200,7 +200,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 Relação de sites contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para testar as funcionalidades do SINARC:
 
-* [Empresas beneficiadas por renúncias fiscais de tributos federais](https://dados.gov.br/dados/conjuntos-dados/renuncias-fiscais-de-tributos-federais)
+* [Empresas beneficiadas por renúncias fiscais de tributos federais](https://arquivos.receitafederal.gov.br/dados/beneficios/renuncia-por-regime-agregado.xlsx)
 
 * [Reembolsos suspeitos de despesas realizadas pela Câmara dos Deputados - Operação Serenata de Amor (Jarbas)](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
 
