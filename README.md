@@ -201,7 +201,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 Relação de sites contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para testar as funcionalidades do SINARC:
 
-* [Empresas beneficiadas por renúncias fiscais de tributos federais](https://arquivos.receitafederal.gov.br/dados/beneficios/renuncia-por-regime-agregado.xlsx). Como não há CNPJ, selecione apenas a razão social, porém sem a parte final (Ltda., S.A.). 
+* [Empresas beneficiadas por renúncias fiscais de tributos federais](https://arquivos.receitafederal.gov.br/dados/beneficios/renuncia-por-regime-agregado.xlsx). Como não há CNPJ na planilha, selecione para consulta apenas a razão social, porém sem a parte final (Ltda., S.A.). 
 
 * [Reembolsos suspeitos de despesas realizadas pela Câmara dos Deputados - Operação Serenata de Amor (Jarbas)](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
 
