@@ -170,7 +170,7 @@ Detalhe da rede complexa gerado pelo SINARC (com ocultação de arestas)
 </p>
 
 <p align="center" width="100%">
-Vínculo existente entre duas empresas, identificado pelo SINARC na 7ª camada
+Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 </p>
 
 <br><br>
