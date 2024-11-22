@@ -185,7 +185,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 ✅ Representar, por meio de grafos, empresas cujos números de CNPJ, no formato 00000000000000 ou 00.000.000/0000-00, se encontram citados em relatórios técnicos, diários oficiais ou qualquer documento ou tela com texto selecionável.
 
-✅ Identificar vínculos entre licitantes a partir das atas das sessões públicas de procedimentos licitatórios, bem como das bases de dados disponibilizadas no portais de transparência da Administração Pública.
+✅ Identificar vínculos entre licitantes a partir das atas das sessões públicas de procedimentos licitatórios, bem como das bases de dados disponibilizadas nos portais da transparência da Administração Pública.
 
 ✅ Identificar pessoas físicas e jurídicas com posições estratégicas na rede a partir da aplicação de algoritmos de medidas de centralidade de grafos, cono Centralidade de Grau (_Degree Centrality_), Centralidade de Intermediação (_Betweenness Centrality_), Centralidade de Proximidade (_Closeness Centrality_), Centralidade de Autovetor (_Eigenvector Centrality_) e Ranking de Página (_Pagerank_).
 
