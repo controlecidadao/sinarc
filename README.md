@@ -95,6 +95,7 @@ Confira, a seguir, exemplos de exploração de redes complexas com o SINARC:
 *	Aberto em 4 camadas com o SINARC<br>
 *	6.602 nós<br>
 *	12.884 arestas (azul)<br>
+* Fonte: [Empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/)
 <br>
 
 <p align="center" width="100%">
@@ -131,7 +132,7 @@ Detalhe da rede complexa gerado pelo SINARC
 *	Abertos em 2 camadas com o SINARC<br>
 *	31.606 nós<br>
 *	45.268 arestas (azul)<br>
-* [Fonte](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/) 
+* Fonte: [Empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/) 
 <br>
 
 <p align="center" width="100%">
@@ -200,7 +201,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 14ª camada
 
 Relação de sites contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para testar as funcionalidades do SINARC:
 
-* [Empresas beneficiadas por renúncias fiscais de tributos federais](https://arquivos.receitafederal.gov.br/dados/beneficios/renuncia-por-regime-agregado.xlsx)
+* [Empresas beneficiadas por renúncias fiscais de tributos federais](https://arquivos.receitafederal.gov.br/dados/beneficios/renuncia-por-regime-agregado.xlsx). Como não há CNPJ, selecione apenas a razão social, porém sem a parte final (Ltda., S.A.). 
 
 * [Reembolsos suspeitos de despesas realizadas pela Câmara dos Deputados - Operação Serenata de Amor (Jarbas)](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
 
