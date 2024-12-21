@@ -183,13 +183,13 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 ✅ Identificar vínculos entre pessoas físicas e jurídicas a partir de notícias publicadas na internet.
 
-✅ Representar, por meio de grafos, empresas cujos números de CNPJ, no formato 00000000000000 ou 00.000.000/0000-00, se encontram citados em relatórios técnicos, diários oficiais ou qualquer documento ou tela com texto selecionável.
+✅ Representar, por meio de grafos, empresas cujos números de CNPJ, no formato 00000000000000 ou 00.000.000/0000-00, encontram-se citadas em relatórios técnicos, diários oficiais ou qualquer documento ou tela com texto selecionável.
 
 ✅ Identificar vínculos entre licitantes a partir das atas das sessões públicas de procedimentos licitatórios, bem como das bases de dados disponibilizadas nos portais da transparência da Administração Pública.
 
 ✅ Identificar pessoas físicas e jurídicas com posições estratégicas na rede a partir da aplicação de algoritmos de medidas de centralidade de grafos, cono Centralidade de Grau (_Degree Centrality_), Centralidade de Intermediação (_Betweenness Centrality_), Centralidade de Proximidade (_Closeness Centrality_), Centralidade de Autovetor (_Eigenvector Centrality_) e Ranking de Página (_Pagerank_).
 
-✅ Identificar toda a cadeia hierárquica formada por de pessoas físicas e jurídicas que integram os grupos econômicos controladores de determinada empresa.
+✅ Identificar toda a cadeia hierárquica formada por pessoas físicas e jurídicas que integram os grupos econômicos controladores de determinada empresa.
 
 ✅ Gerar grafo contendo todas as empresas que se enquadrem na combinação de determinados critérios (mesmo endereço, rua, CEP, atividade econômica etc.), mediante consulta prévia à base de dados usando o programa gratuito [DB Browser](https://sqlitebrowser.org/).
 
@@ -214,7 +214,7 @@ Relação de sites contendo informações (nomes de pessoas físicas, jurídicas
 
 * [Bases de dados de licitações, contratos e execução orçamentária do Estado do Espírito Santo](https://dados.es.gov.br/dataset?tags=portal+da+transpar%C3%AAncia)
 
-* [400 empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/)
+* [Empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/)
 
 * [Empresas por município](https://cadastroempresa.com.br/)
 
