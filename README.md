@@ -179,7 +179,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 <br>
 
-✅ Conhecer a estrutura de grupos empresariais com base no CNPJ, razão social, nome de fantasia, nome do sócio, entre outros parâmetros.
+✅ Conhecer a estrutura de grupos empresariais com base no CNPJ, razão social, nome de fantasia, nome ou CPF do sócio, entre outros parâmetros.
 
 ✅ Identificar vínculos entre pessoas físicas e jurídicas a partir de notícias publicadas na internet.
 
