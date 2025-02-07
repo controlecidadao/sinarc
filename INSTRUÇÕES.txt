@@ -96,7 +96,7 @@ Para criar os 4 bancos de dados usados pelo SINARC e pelo REDE CNPJ:
   6) A rotina executa 3 arquivos Python em sequência: "dados_cnpj_para_sqlite.py", "rede_cria_tabela_cnpj_links_ete.py" e "rede_cria_tabela_rede.db.py".
   7) No incício da execução de cada arquivo .py, o usuário será consultado se deseja continuar o processo de criação dos bancos de dados. A execução de cada arquivo leva algumas horas.
   8) Ao final da rotina, serão criados 4 arquivos de banco de dados SQLite na pasta "dados-publicos": "cnpj.db", "rede.db", "rede_search.db" e "cnpj_links_ete.db".
-  9) Na sequência, mova esses 4 arquivos para a pasta "bases" (SINARC\rede-cnpj-master\rede\bases), substituindo os lá existentes. ATENÇÃO: Como essa fase da instalação ocorre horas depois do início, é comum o usuário esquecer de realizá-la.
+  9) Na sequência, mova esses 4 arquivos ".db" para a pasta "bases" (SINARC\rede-cnpj-master\rede\bases), substituindo os lá existentes. ATENÇÃO: Como essa fase da instalação ocorre horas depois do início, é comum o usuário esquecer de realizá-la.
   10) Pronto! Os programas SINARC e REDE CNPJ já podem ser usados normalmente.
 
 As bases de dados de CNPJ da Receita Federal são atualizadas mensalmente. Para atualizar os bancos de dados usados pelo SINARC, substitua os arquivos .zip baixados anteriormente pelos do Ano/Mes desejado e execute esta rotina de criação novamente.
