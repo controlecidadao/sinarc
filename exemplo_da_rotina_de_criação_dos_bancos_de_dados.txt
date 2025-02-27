@@ -1,0 +1,745 @@
+Linhas impressas no terminal do Windows (Power Shell) durante o processo de criação dos bancos de dados, após download manual dos arquivos .zip do site da Receita Federal.
+A rotina inicia com a descompactação dos arquivos zip.
+
+
+PS D:\SINARC\rede-cnpj-master\rede_cria_tabelas> .\cria_bancos_de_dados.bat
+Iniciando execucao dos scripts Python...
+Executando dados_cnpj_para_sqlite.py...
+Início: Tue Feb 25 11:58:35 2025
+Tue Feb 25 11:58:35 2025 descompactando dados-publicos-zip\Cnaes.zip
+Tue Feb 25 11:58:35 2025 descompactando dados-publicos-zip\Empresas0.zip
+Tue Feb 25 11:58:45 2025 descompactando dados-publicos-zip\Empresas1.zip
+Tue Feb 25 11:58:47 2025 descompactando dados-publicos-zip\Empresas2.zip
+Tue Feb 25 11:58:49 2025 descompactando dados-publicos-zip\Empresas3.zip
+Tue Feb 25 11:58:51 2025 descompactando dados-publicos-zip\Empresas4.zip
+Tue Feb 25 11:58:53 2025 descompactando dados-publicos-zip\Empresas5.zip
+Tue Feb 25 11:58:55 2025 descompactando dados-publicos-zip\Empresas6.zip
+Tue Feb 25 11:58:57 2025 descompactando dados-publicos-zip\Empresas7.zip
+Tue Feb 25 11:59:00 2025 descompactando dados-publicos-zip\Empresas8.zip
+Tue Feb 25 11:59:02 2025 descompactando dados-publicos-zip\Empresas9.zip
+Tue Feb 25 11:59:05 2025 descompactando dados-publicos-zip\Estabelecimentos0.zip
+Tue Feb 25 11:59:37 2025 descompactando dados-publicos-zip\Estabelecimentos1.zip
+Tue Feb 25 11:59:43 2025 descompactando dados-publicos-zip\Estabelecimentos2.zip
+Tue Feb 25 11:59:49 2025 descompactando dados-publicos-zip\Estabelecimentos3.zip
+Tue Feb 25 12:00:09 2025 descompactando dados-publicos-zip\Estabelecimentos4.zip
+Tue Feb 25 12:00:24 2025 descompactando dados-publicos-zip\Estabelecimentos5.zip
+Tue Feb 25 12:00:31 2025 descompactando dados-publicos-zip\Estabelecimentos6.zip
+Tue Feb 25 12:00:53 2025 descompactando dados-publicos-zip\Estabelecimentos7.zip
+Tue Feb 25 12:01:04 2025 descompactando dados-publicos-zip\Estabelecimentos8.zip
+Tue Feb 25 12:01:16 2025 descompactando dados-publicos-zip\Estabelecimentos9.zip
+Tue Feb 25 12:01:34 2025 descompactando dados-publicos-zip\Motivos.zip
+Tue Feb 25 12:01:34 2025 descompactando dados-publicos-zip\Municipios.zip
+Tue Feb 25 12:01:34 2025 descompactando dados-publicos-zip\Naturezas.zip
+Tue Feb 25 12:01:34 2025 descompactando dados-publicos-zip\Paises.zip
+Tue Feb 25 12:01:34 2025 descompactando dados-publicos-zip\Qualificacoes.zip
+Tue Feb 25 12:01:34 2025 descompactando dados-publicos-zip\Simples.zip
+Tue Feb 25 12:03:00 2025 descompactando dados-publicos-zip\Socios0.zip
+Tue Feb 25 12:03:19 2025 descompactando dados-publicos-zip\Socios1.zip
+Tue Feb 25 12:03:34 2025 descompactando dados-publicos-zip\Socios2.zip
+Tue Feb 25 12:03:43 2025 descompactando dados-publicos-zip\Socios3.zip
+Tue Feb 25 12:03:44 2025 descompactando dados-publicos-zip\Socios4.zip
+Tue Feb 25 12:03:57 2025 descompactando dados-publicos-zip\Socios5.zip
+Tue Feb 25 12:04:04 2025 descompactando dados-publicos-zip\Socios6.zip
+Tue Feb 25 12:04:09 2025 descompactando dados-publicos-zip\Socios7.zip
+Tue Feb 25 12:04:18 2025 descompactando dados-publicos-zip\Socios8.zip
+Tue Feb 25 12:04:31 2025 descompactando dados-publicos-zip\Socios9.zip
+carregando arquivo dados-publicos\F.K03200$Z.D50208.CNAECSV na tabela cnae
+apagando arquivo dados-publicos\F.K03200$Z.D50208.CNAECSV
+carregando arquivo dados-publicos\F.K03200$Z.D50208.MOTICSV na tabela motivo
+apagando arquivo dados-publicos\F.K03200$Z.D50208.MOTICSV
+carregando arquivo dados-publicos\F.K03200$Z.D50208.MUNICCSV na tabela municipio
+apagando arquivo dados-publicos\F.K03200$Z.D50208.MUNICCSV
+carregando arquivo dados-publicos\F.K03200$Z.D50208.NATJUCSV na tabela natureza_juridica
+apagando arquivo dados-publicos\F.K03200$Z.D50208.NATJUCSV
+carregando arquivo dados-publicos\F.K03200$Z.D50208.PAISCSV na tabela pais
+apagando arquivo dados-publicos\F.K03200$Z.D50208.PAISCSV
+carregando arquivo dados-publicos\F.K03200$Z.D50208.QUALSCSV na tabela qualificacao_socio
+apagando arquivo dados-publicos\F.K03200$Z.D50208.QUALSCSV
+carregando: arq='dados-publicos\\K3241.K03200Y0.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:04:41 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y0.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:07:49 2025
+carregando: arq='dados-publicos\\K3241.K03200Y1.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:07:49 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y1.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:08:33 2025
+carregando: arq='dados-publicos\\K3241.K03200Y2.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:08:33 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y2.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:09:11 2025
+carregando: arq='dados-publicos\\K3241.K03200Y3.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:09:11 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y3.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:09:50 2025
+carregando: arq='dados-publicos\\K3241.K03200Y4.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:09:50 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y4.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:10:34 2025
+carregando: arq='dados-publicos\\K3241.K03200Y5.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:10:34 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y5.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:11:14 2025
+carregando: arq='dados-publicos\\K3241.K03200Y6.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:11:14 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y6.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:11:51 2025
+carregando: arq='dados-publicos\\K3241.K03200Y7.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:11:51 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y7.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:12:28 2025
+carregando: arq='dados-publicos\\K3241.K03200Y8.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:12:28 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y8.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:13:06 2025
+carregando: arq='dados-publicos\\K3241.K03200Y9.D50208.EMPRECSV' em empresas
+lendo csv ... Tue Feb 25 12:13:06 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y9.D50208.EMPRECSV'
+fim parcial... Tue Feb 25 12:13:43 2025
+carregando: arq='dados-publicos\\K3241.K03200Y0.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:13:43 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y0.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:21:57 2025
+carregando: arq='dados-publicos\\K3241.K03200Y1.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:21:57 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y1.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:23:43 2025
+carregando: arq='dados-publicos\\K3241.K03200Y2.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:23:43 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y2.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:25:24 2025
+carregando: arq='dados-publicos\\K3241.K03200Y3.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:25:24 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y3.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:27:21 2025
+carregando: arq='dados-publicos\\K3241.K03200Y4.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:27:21 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y4.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:29:15 2025
+carregando: arq='dados-publicos\\K3241.K03200Y5.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:29:15 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y5.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:31:06 2025
+carregando: arq='dados-publicos\\K3241.K03200Y6.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:31:06 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y6.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:32:43 2025
+carregando: arq='dados-publicos\\K3241.K03200Y7.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:32:43 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y7.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:34:28 2025
+carregando: arq='dados-publicos\\K3241.K03200Y8.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:34:28 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y8.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:36:24 2025
+carregando: arq='dados-publicos\\K3241.K03200Y9.D50208.ESTABELE' em estabelecimento
+lendo csv ... Tue Feb 25 12:36:24 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y9.D50208.ESTABELE'
+fim parcial... Tue Feb 25 12:38:13 2025
+carregando: arq='dados-publicos\\K3241.K03200Y0.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:38:13 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y0.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:39:26 2025
+carregando: arq='dados-publicos\\K3241.K03200Y1.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:39:26 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y1.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:39:47 2025
+carregando: arq='dados-publicos\\K3241.K03200Y2.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:39:47 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y2.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:40:08 2025
+carregando: arq='dados-publicos\\K3241.K03200Y3.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:40:08 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y3.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:40:31 2025
+carregando: arq='dados-publicos\\K3241.K03200Y4.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:40:31 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y4.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:40:51 2025
+carregando: arq='dados-publicos\\K3241.K03200Y5.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:40:51 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y5.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:41:12 2025
+carregando: arq='dados-publicos\\K3241.K03200Y6.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:41:12 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y6.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:41:34 2025
+carregando: arq='dados-publicos\\K3241.K03200Y7.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:41:34 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y7.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:41:54 2025
+carregando: arq='dados-publicos\\K3241.K03200Y8.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:41:54 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y8.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:42:14 2025
+carregando: arq='dados-publicos\\K3241.K03200Y9.D50208.SOCIOCSV' em socios_original
+lendo csv ... Tue Feb 25 12:42:14 2025
+apagando o arquivo arq='dados-publicos\\K3241.K03200Y9.D50208.SOCIOCSV'
+fim parcial... Tue Feb 25 12:42:35 2025
+carregando: arq='dados-publicos\\F.K03200$W.SIMPLES.CSV.D50208' em simples
+lendo csv ... Tue Feb 25 12:42:35 2025
+apagando o arquivo arq='dados-publicos\\F.K03200$W.SIMPLES.CSV.D50208'
+fim parcial... Tue Feb 25 12:47:59 2025
+Inicio sqls: Tue Feb 25 12:47:59 2025
+--------------------
+executando parte 1/21:
+
+ALTER TABLE empresas ADD COLUMN capital_social real
+fim parcial... Tue Feb 25 12:48:00 2025
+--------------------
+executando parte 2/21:
+
+update  empresas
+set capital_social = cast( replace(capital_social_str,',', '.') as real)
+fim parcial... Tue Feb 25 12:50:55 2025
+--------------------
+executando parte 3/21:
+
+
+ALTER TABLE empresas DROP COLUMN capital_social_str
+fim parcial... Tue Feb 25 12:54:16 2025
+--------------------
+executando parte 4/21:
+
+
+ALTER TABLE estabelecimento ADD COLUMN cnpj text
+fim parcial... Tue Feb 25 12:54:16 2025
+--------------------
+executando parte 5/21:
+
+Update estabelecimento
+set cnpj = cnpj_basico||cnpj_ordem||cnpj_dv
+fim parcial... Tue Feb 25 13:08:58 2025
+--------------------
+executando parte 6/21:
+
+
+CREATE  INDEX idx_empresas_cnpj_basico ON empresas (cnpj_basico)
+fim parcial... Tue Feb 25 13:12:53 2025
+--------------------
+executando parte 7/21:
+
+CREATE  INDEX idx_empresas_razao_social ON empresas (razao_social)
+fim parcial... Tue Feb 25 13:21:07 2025
+--------------------
+executando parte 8/21:
+
+CREATE  INDEX idx_estabelecimento_cnpj_basico ON estabelecimento (cnpj_basico)
+fim parcial... Tue Feb 25 13:31:49 2025
+--------------------
+executando parte 9/21:
+
+CREATE  INDEX idx_estabelecimento_cnpj ON estabelecimento (cnpj)
+fim parcial... Tue Feb 25 13:39:34 2025
+--------------------
+executando parte 10/21:
+
+CREATE  INDEX idx_estabelecimento_nomefantasia ON estabelecimento (nome_fantasia)
+fim parcial... Tue Feb 25 13:47:13 2025
+--------------------
+executando parte 11/21:
+
+
+CREATE INDEX idx_socios_original_cnpj_basico
+ON socios_original(cnpj_basico)
+fim parcial... Tue Feb 25 13:48:25 2025
+--------------------
+executando parte 12/21:
+
+
+CREATE TABLE socios AS
+SELECT te.cnpj as cnpj, ts.*
+from socios_original ts
+left join estabelecimento te on te.cnpj_basico = ts.cnpj_basico
+where te.matriz_filial='1'
+fim parcial... Tue Feb 25 14:11:50 2025
+--------------------
+executando parte 13/21:
+
+
+DROP TABLE IF EXISTS socios_original
+fim parcial... Tue Feb 25 14:12:06 2025
+--------------------
+executando parte 14/21:
+
+
+CREATE INDEX idx_socios_cnpj ON socios(cnpj)
+fim parcial... Tue Feb 25 14:13:36 2025
+--------------------
+executando parte 15/21:
+
+CREATE INDEX idx_socios_cnpj_cpf_socio ON socios(cnpj_cpf_socio)
+fim parcial... Tue Feb 25 14:15:34 2025
+--------------------
+executando parte 16/21:
+
+CREATE INDEX idx_socios_nome_socio ON socios(nome_socio)
+fim parcial... Tue Feb 25 14:18:46 2025
+--------------------
+executando parte 17/21:
+
+CREATE INDEX idx_socios_representante ON socios(representante_legal)
+fim parcial... Tue Feb 25 14:20:29 2025
+--------------------
+executando parte 18/21:
+
+CREATE INDEX idx_socios_representante_nome ON socios(nome_representante)
+fim parcial... Tue Feb 25 14:21:33 2025
+--------------------
+executando parte 19/21:
+
+
+CREATE INDEX idx_simples_cnpj_basico ON simples(cnpj_basico)
+fim parcial... Tue Feb 25 14:22:52 2025
+--------------------
+executando parte 20/21:
+
+
+CREATE TABLE "_referencia" (
+        "referencia"    TEXT,
+        "valor" TEXT
+)
+fim parcial... Tue Feb 25 14:22:52 2025
+--------------------
+executando parte 21/21:
+
+
+fim parcial... Tue Feb 25 14:22:52 2025
+fim sqls... Tue Feb 25 14:22:52 2025
+--------------------
+Foi criado o arquivo dados-publicos\cnpj.db, com a base de dados no formato SQLITE.
+Qtde de empresas (matrizes): 61480775
+Qtde de estabelecimentos (matrizes e fiiais): 64547773
+Qtde de sócios: 25326493
+FIM!!! Tue Feb 25 14:23:19 2025
+Executando rede_cria_tabela_cnpj_links_ete.py...
+O script vai fazer alterações no banco de dados. A execução leva cerca de 3.5 horas. Prossegue?(y,n)
+y
+Wed Feb 26 10:41:33 2025 INICIANDO baixa_enderecos_cnpj-------------------------
+0 Wed Feb 26 10:42:28 2025
+2000000 Wed Feb 26 10:44:22 2025
+4000000 Wed Feb 26 10:45:50 2025
+6000000 Wed Feb 26 10:47:19 2025
+8000000 Wed Feb 26 10:48:54 2025
+10000000 Wed Feb 26 10:50:33 2025
+12000000 Wed Feb 26 10:52:26 2025
+14000000 Wed Feb 26 10:54:26 2025
+16000000 Wed Feb 26 10:56:47 2025
+18000000 Wed Feb 26 10:58:59 2025
+20000000 Wed Feb 26 11:01:19 2025
+22000000 Wed Feb 26 11:03:38 2025
+24000000 Wed Feb 26 11:05:47 2025
+26000000 Wed Feb 26 11:08:40 2025
+28000000 Wed Feb 26 11:11:24 2025
+30000000 Wed Feb 26 11:13:57 2025
+32000000 Wed Feb 26 11:16:29 2025
+34000000 Wed Feb 26 11:19:04 2025
+36000000 Wed Feb 26 11:21:44 2025
+38000000 Wed Feb 26 11:24:24 2025
+40000000 Wed Feb 26 11:27:07 2025
+42000000 Wed Feb 26 11:29:59 2025
+44000000 Wed Feb 26 11:33:00 2025
+46000000 Wed Feb 26 11:36:05 2025
+48000000 Wed Feb 26 11:39:12 2025
+50000000 Wed Feb 26 11:42:31 2025
+52000000 Wed Feb 26 11:45:55 2025
+54000000 Wed Feb 26 11:49:25 2025
+56000000 Wed Feb 26 11:52:49 2025
+58000000 Wed Feb 26 11:56:22 2025
+60000000 Wed Feb 26 12:00:04 2025
+62000000 Wed Feb 26 12:03:47 2025
+64000000 Wed Feb 26 12:09:22 2025
+Wed Feb 26 12:10:48 2025 ROTINA TERMINOU
+Wed Feb 26 12:10:49 2025 INICIANDO baixa_telefone_cnpj-------------------------
+0 Wed Feb 26 12:11:05 2025
+2000000 Wed Feb 26 12:11:43 2025
+4000000 Wed Feb 26 12:12:11 2025
+6000000 Wed Feb 26 12:12:53 2025
+8000000 Wed Feb 26 12:13:30 2025
+10000000 Wed Feb 26 12:14:01 2025
+12000000 Wed Feb 26 12:14:37 2025
+14000000 Wed Feb 26 12:15:15 2025
+16000000 Wed Feb 26 12:15:48 2025
+18000000 Wed Feb 26 12:16:21 2025
+20000000 Wed Feb 26 12:16:59 2025
+22000000 Wed Feb 26 12:17:36 2025
+24000000 Wed Feb 26 12:18:08 2025
+26000000 Wed Feb 26 12:18:47 2025
+28000000 Wed Feb 26 12:19:26 2025
+30000000 Wed Feb 26 12:19:54 2025
+32000000 Wed Feb 26 12:20:33 2025
+34000000 Wed Feb 26 12:21:10 2025
+36000000 Wed Feb 26 12:21:41 2025
+38000000 Wed Feb 26 12:22:19 2025
+40000000 Wed Feb 26 12:22:55 2025
+42000000 Wed Feb 26 12:23:29 2025
+44000000 Wed Feb 26 12:24:04 2025
+46000000 Wed Feb 26 12:24:41 2025
+48000000 Wed Feb 26 12:25:16 2025
+50000000 Wed Feb 26 12:25:46 2025
+52000000 Wed Feb 26 12:26:25 2025
+54000000 Wed Feb 26 12:27:02 2025
+56000000 Wed Feb 26 12:27:33 2025
+58000000 Wed Feb 26 12:28:12 2025
+60000000 Wed Feb 26 12:28:48 2025
+62000000 Wed Feb 26 12:29:17 2025
+64000000 Wed Feb 26 12:29:55 2025
+Wed Feb 26 12:30:06 2025 ROTINA TERMINOU
+Wed Feb 26 12:30:07 2025 INICIANDO baixa_email_cnpj-------------------------
+0 Wed Feb 26 12:30:10 2025
+2000000 Wed Feb 26 12:30:33 2025
+4000000 Wed Feb 26 12:30:49 2025
+6000000 Wed Feb 26 12:31:07 2025
+8000000 Wed Feb 26 12:31:30 2025
+10000000 Wed Feb 26 12:31:46 2025
+12000000 Wed Feb 26 12:32:06 2025
+14000000 Wed Feb 26 12:32:29 2025
+16000000 Wed Feb 26 12:32:47 2025
+18000000 Wed Feb 26 12:33:05 2025
+20000000 Wed Feb 26 12:33:30 2025
+22000000 Wed Feb 26 12:33:51 2025
+24000000 Wed Feb 26 12:34:07 2025
+26000000 Wed Feb 26 12:34:28 2025
+28000000 Wed Feb 26 12:34:51 2025
+30000000 Wed Feb 26 12:35:06 2025
+32000000 Wed Feb 26 12:35:26 2025
+34000000 Wed Feb 26 12:35:48 2025
+36000000 Wed Feb 26 12:36:05 2025
+38000000 Wed Feb 26 12:36:23 2025
+40000000 Wed Feb 26 12:36:46 2025
+42000000 Wed Feb 26 12:37:06 2025
+44000000 Wed Feb 26 12:37:22 2025
+46000000 Wed Feb 26 12:37:43 2025
+48000000 Wed Feb 26 12:38:04 2025
+50000000 Wed Feb 26 12:38:19 2025
+52000000 Wed Feb 26 12:38:42 2025
+54000000 Wed Feb 26 12:39:05 2025
+56000000 Wed Feb 26 12:39:21 2025
+58000000 Wed Feb 26 12:39:42 2025
+60000000 Wed Feb 26 12:40:04 2025
+62000000 Wed Feb 26 12:40:19 2025
+64000000 Wed Feb 26 12:40:38 2025
+Wed Feb 26 12:40:44 2025 ROTINA TERMINOU
+------------------------------
+Wed Feb 26 12:40:45 2025  - executando parte: 1/5
+
+        CREATE INDEX idx_endereco_endereco ON endereco (endereco)
+------------------------------
+Wed Feb 26 12:48:13 2025  - executando parte: 2/5
+
+
+        create table endereco_contagem AS
+        select endereco, count(endereco) as contagem
+        from endereco
+        group by endereco
+        having count(endereco)>1
+------------------------------
+Wed Feb 26 12:48:55 2025  - executando parte: 3/5
+
+
+        CREATE UNIQUE INDEX "idx_endereco_contagem" ON "endereco_contagem" ("endereco")
+------------------------------
+Wed Feb 26 12:49:13 2025  - executando parte: 4/5
+
+
+        create table link_endereco AS
+        select "PJ_" || t.cnpj as id1, "EN_"|| t.endereco as id2, 'endereco' as descricao, tc.contagem as valor
+        from endereco_contagem tc
+        inner join endereco t on tc.endereco=t.endereco
+------------------------------
+Wed Feb 26 13:16:04 2025  - executando parte: 5/5
+
+
+Wed Feb 26 13:16:04 2025  fim sqlseq
+------------------------------
+Wed Feb 26 13:16:04 2025  - executando parte: 1/5
+
+        CREATE INDEX idx_telefone_telefone ON telefone (telefone)
+------------------------------
+Wed Feb 26 13:19:15 2025  - executando parte: 2/5
+
+
+        create table telefone_contagem AS
+        select telefone, count(telefone) as contagem
+        from telefone
+        group by telefone
+        having count(telefone)>1
+------------------------------
+Wed Feb 26 13:19:40 2025  - executando parte: 3/5
+
+
+        CREATE UNIQUE INDEX "idx_telefone_contagem" ON "telefone_contagem" ("telefone")
+------------------------------
+Wed Feb 26 13:19:46 2025  - executando parte: 4/5
+
+
+        create table link_telefone AS
+        select "PJ_" || t.cnpj as id1, "TE_"|| t.telefone as id2, 'telefone' as descricao, tc.contagem as valor
+        from telefone_contagem tc
+        inner join telefone t on tc.telefone=t.telefone
+------------------------------
+Wed Feb 26 13:38:02 2025  - executando parte: 5/5
+
+
+Wed Feb 26 13:38:02 2025  fim sqlseq
+------------------------------
+Wed Feb 26 13:38:02 2025  - executando parte: 1/5
+
+        CREATE INDEX idx_email_email ON email (email)
+------------------------------
+Wed Feb 26 13:41:23 2025  - executando parte: 2/5
+
+
+        create table email_contagem AS
+        select email, count(email) as contagem
+        from email
+        group by email
+        having count(email)>1
+------------------------------
+Wed Feb 26 13:41:48 2025  - executando parte: 3/5
+
+
+        CREATE UNIQUE INDEX "idx_email_contagem" ON "email_contagem" ("email")
+------------------------------
+Wed Feb 26 13:41:53 2025  - executando parte: 4/5
+
+
+        create table link_email AS
+        select "PJ_" || t.cnpj as id1, "EM_"|| t.email as id2, 'email' as descricao, tc.contagem as valor
+        from email_contagem tc
+        inner join email t on tc.email=t.email
+------------------------------
+Wed Feb 26 13:57:32 2025  - executando parte: 5/5
+
+
+Wed Feb 26 13:57:32 2025  fim sqlseq
+Wed Feb 26 13:57:32 2025 salvando tabela
+Wed Feb 26 13:57:32 2025 juntaTabelasETE: INICIANDO -------------------------
+------------------------------
+Wed Feb 26 13:57:32 2025  - executando parte: 1/4
+
+    create table dbFinal.link_ete as
+    select id1, id2, 'end' as descricao, valor
+    from link_endereco
+------------------------------
+Wed Feb 26 13:58:32 2025  - executando parte: 2/4
+
+    insert into dbFinal.link_ete
+    select id1, id2, 'tel' as descricao, valor
+    from link_telefone
+------------------------------
+Wed Feb 26 13:58:51 2025  - executando parte: 3/4
+
+    insert into dbFinal.link_ete
+    select id1, id2, 'email' as descricao, valor
+    from link_email
+------------------------------
+Wed Feb 26 13:59:08 2025  - executando parte: 4/4
+
+
+Wed Feb 26 13:59:09 2025  fim sqlseq
+Wed Feb 26 13:59:09 2025 criando indices em link_ete
+Wed Feb 26 14:08:40 2025 juntaTabelasETE: Fim.
+Wed Feb 26 14:08:40 2025 salvando tabela-fim
+O aquivo dados-publicos/cnpj_links_ete.db foi gerado
+Wed Feb 26 14:08:40 2025 FIM do script!!!!!!!!!!!!!!!!!
+Pressione Enter
+Executando rede_cria_tabela_rede.db.py...
+Este script vai criar ou alterar a base dados-publicos/rede.db. Leva cerca de 1 ou 2hs. Deseja prosseguir (y,n)?y
+Wed Feb 26 14:09:46 2025 Inicio - criando tabela dados-publicos/rede.db
+------------------------------
+Wed Feb 26 14:09:46 2025 -executando parte: 1/18
+
+-- cria tabela de ligação (necessário a partir de versão 0.8.9 (outubro/2022)
+drop table if exists ligacao
+
+------------------------------
+Wed Feb 26 14:09:46 2025 -executando parte: 2/18
+
+drop table if exists ligacao1
+
+------------------------------
+Wed Feb 26 14:09:46 2025 -executando parte: 3/18
+
+-- PJ->PJ vinculo sócio pessoa juridica
+create table ligacao1 AS
+select  'PJ_'||t.cnpj_cpf_socio as origem, 'PJ_'||t.cnpj as destino, sq.descricao as tipo, 'socios' as base
+from cnpj.socios t
+left join cnpj.qualificacao_socio sq ON sq.codigo=t.qualificacao_socio
+where length(t.cnpj_cpf_socio)=14 --t.nome_socio=''
+
+------------------------------
+Wed Feb 26 14:10:05 2025 -executando parte: 4/18
+
+-- PF->PJ vinculo de sócio pessoa física
+insert into ligacao1
+select  'PF_'||t.cnpj_cpf_socio||'-'||t.nome_socio as origem, 'PJ_'||t.cnpj as destino, sq.descricao as tipo, 'socios' as base
+from cnpj.socios t
+left join cnpj.qualificacao_socio sq ON sq.codigo=t.qualificacao_socio
+where length(t.cnpj_cpf_socio)=11 AND t.nome_socio<>''
+
+------------------------------
+Wed Feb 26 14:11:08 2025 -executando parte: 5/18
+
+-- PE->PJ empresa sócia no exterior
+insert into ligacao1
+select 'PE_'||t.nome_socio as origem, 'PJ_'||t.cnpj as destino,  sq.descricao as tipo, 'socios' as base
+from cnpj.socios t
+left join cnpj.qualificacao_socio sq ON sq.codigo=t.qualificacao_socio
+where length(t.cnpj_cpf_socio)<>14 and length(t.cnpj_cpf_socio)<>11 and
+t.cnpj_cpf_socio=''
+
+------------------------------
+Wed Feb 26 14:11:09 2025 -executando parte: 6/18
+
+-- PF>PE representante legal de empresa socia no exterior
+insert into ligacao1
+select  'PF_'||t.representante_legal||'-'||t.nome_representante as origem, 'PE_'||t.nome_socio as destino, 'rep-sócio-'||sq.descricao as tipo, 'socios' as base
+from cnpj.socios t
+left join cnpj.qualificacao_socio sq ON sq.codigo=t.qualificacao_representante_legal
+where length(t.cnpj_cpf_socio)<>14 and length(t.cnpj_cpf_socio)<>11 and
+t.cnpj_cpf_socio='' and t.representante_legal<>'***000000**'
+
+------------------------------
+Wed Feb 26 14:11:09 2025 -executando parte: 7/18
+
+-- PF->PJ representante legal PJ->PJ
+insert into ligacao1
+select 'PF_'||t.representante_legal||'-'||t.nome_representante as origem, 'PJ_'||t.cnpj_cpf_socio as destino, 'rep-sócio-'||sq.descricao as tipo, 'socios' as base
+from cnpj.socios t
+left join cnpj.qualificacao_socio sq ON sq.codigo=t.qualificacao_representante_legal
+where length(t.cnpj_cpf_socio)=14 and t.representante_legal<>'***000000**' --t.nome_socio=''
+
+------------------------------
+Wed Feb 26 14:11:26 2025 -executando parte: 8/18
+
+-- PF->PF representante legal de sócio PF
+insert into ligacao1
+select  'PF_'||t.representante_legal||'-'||t.nome_representante as origem, 'PF_'||t.cnpj_cpf_socio||'-'||t.nome_socio as destino, 'rep-sócio-'||sq.descricao as tipo, 'socios' as base
+from cnpj.socios t
+left join cnpj.qualificacao_socio sq ON sq.codigo=t.qualificacao_representante_legal
+where length(t.cnpj_cpf_socio)=11 and t.representante_legal<>'***000000**' --t.nome_socio=''
+
+------------------------------
+Wed Feb 26 14:11:46 2025 -executando parte: 9/18
+
+--tabela filiais
+create table tfilial AS
+select cnpj, cnpj_basico
+from estabelecimento t
+where  t.matriz_filial = '2' -- is '1'
+
+------------------------------
+Wed Feb 26 14:17:01 2025 -executando parte: 10/18
+
+CREATE INDEX idx_filiais ON tfilial (cnpj_basico)
+
+------------------------------
+Wed Feb 26 14:17:05 2025 -executando parte: 11/18
+
+-- PJ filial-> PJ matriz
+insert into ligacao1
+select 'PJ_'||tf.cnpj as origem, 'PJ_'||t.cnpj as destino, 'filial' as tipo, 'estabelecimento' as base
+from tfilial tf
+left join cnpj.estabelecimento t on t.cnpj_basico=tf.cnpj_basico
+where  t.matriz_filial = '1' -- is '1'
+
+------------------------------
+Wed Feb 26 14:24:06 2025 -executando parte: 12/18
+
+DROP TABLE IF EXISTS tfilial
+
+------------------------------
+Wed Feb 26 14:24:06 2025 -executando parte: 13/18
+
+/*
+-- PJ->PJ filial->matriz, versao anterior, lenta por causa do self join
+insert into ligacao1
+select 'PJ_'||tf.cnpj as origem, 'PJ_'||t.cnpj as destino, 'filial' as tipo, 'estabelecimento' as base
+from cnpj.estabelecimento t
+left join cnpj.estabelecimento tf on tf.cnpj_basico=t.cnpj_basico
+where  t.matriz_filial = '1' -- is '1'
+and tf.matriz_filial = '2' -- is '2' --tf.cnpj<>t.cnpj
+*/
+
+------------------------------
+Wed Feb 26 14:24:06 2025 -executando parte: 14/18
+
+
+-----------------------------------
+--- cria tabela de ligacao
+----------------------------------
+
+CREATE TABLE ligacao AS
+SELECT  origem as id1, destino as id2, tipo as descricao, base as comentario from ligacao1 group by origem, destino, tipo, base
+--testar... parece que group by é mais rápido que distinct
+--SELECT DISTINCT origem as id1, destino as id2, tipo as descricao, base as comentario  from ligacao1
+
+------------------------------
+Wed Feb 26 14:31:07 2025 -executando parte: 15/18
+
+ --para ficar no padrao das outras tabelas de ligacao
+
+DROP TABLE IF EXISTS ligacao1
+
+------------------------------
+Wed Feb 26 14:31:30 2025 -executando parte: 16/18
+
+CREATE  INDEX idx_ligacao_origem ON ligacao (id1)
+
+------------------------------
+Wed Feb 26 14:34:02 2025 -executando parte: 17/18
+
+CREATE  INDEX idx_ligacao_destino ON ligacao (id2)
+
+Wed Feb 26 14:37:09 2025 commit
+Wed Feb 26 14:37:10 2025  fim sqlseq
+Wed Feb 26 14:37:10 2025 salvando tabela
+Wed Feb 26 14:37:10 2025 Inicio - criando tabela dados-publicos/rede_search.db
+------------------------------
+Wed Feb 26 14:37:10 2025 -executando parte: 1/4
+
+----------------------------------------------
+------indexa full text pela tabela de ligação (substitui versão anterior que fazia por colunas da tabela empresas, estabelecimentos e socios)
+-----------------------------------------------
+
+DROP TABLE if exists id_search
+------------------------------
+Wed Feb 26 14:37:10 2025 -executando parte: 2/4
+
+CREATE virtual TABLE id_search using fts5 (id_descricao)
+------------------------------
+Wed Feb 26 14:37:10 2025 -executando parte: 3/4
+
+
+insert into id_search
+--select distinct id_descricao
+select id_descricao
+from (
+select 'PJ_' || te.cnpj ||'-' || t.razao_social  as id_descricao
+from cnpj.estabelecimento te
+left join cnpj.empresas t on t.cnpj_basico=te.cnpj_basico
+where te.matriz_filial is '1'
+UNION ALL
+select 'PJ_' || te.cnpj ||'-' || te.nome_fantasia  as id_descricao
+from cnpj.estabelecimento te
+-- where trim(te.nome_fantasia) <>'' --incluir este where faz que ignore cnpj filial sem nome fantasia, o que faz falta na hora de busca filiais por cnpj básico
+UNION ALL
+select  id1  as id_descricao
+from rede.ligacao
+where substr(id1,1,3)<>'PJ_'
+UNION ALL
+select  id2 as id_descricao
+from  rede.ligacao
+where substr(id2,1,3)<>'PJ_'
+) as tunion
+group by id_descricao --talvez group by seja mais rápido que distinct
+
+Wed Feb 26 17:27:41 2025 commit
+Wed Feb 26 17:27:42 2025  fim sqlseq
+Wed Feb 26 17:27:42 2025 salvando tabela
+Os arquivos dados-publicos/rede.db e dados-publicos/rede_search.db foram gerados.
+Wed Feb 26 17:27:42 2025 Fim!!!!!!!!!!
+Pressione Enter.
+Todos os scripts foram executados com sucesso!
+Pressione qualquer tecla para continuar. . .
+PS D:\SINARC\rede-cnpj-master\rede_cria_tabelas>
