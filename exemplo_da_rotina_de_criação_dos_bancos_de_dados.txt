@@ -1,5 +1,6 @@
 Linhas impressas no terminal do Windows (Power Shell) durante o processo de criação dos bancos de dados, após download manual dos arquivos .zip do site da Receita Federal.
 A rotina inicia com a descompactação dos arquivos zip.
+IMPORTANTE: após a criação dos bancos de dados, deve-se transferí-los para a pasta "bases" (SINARC\rede-cnpj-master\rede\bases)
 
 
 PS D:\SINARC\rede-cnpj-master\rede_cria_tabelas> .\cria_bancos_de_dados.bat
