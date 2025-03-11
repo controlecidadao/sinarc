@@ -1,7 +1,6 @@
 Para utilizar o SINARC é necessário executar duas rotinas:
-  1) Rotina de instalação dos programas
+  1) Rotina de instalação dos programas SINARC e REDE CNPJ
   2) Rotina de criação dos bancos de dados
-  3) Abrindo o SINARC e o REDE CNPJ
 
 O processo de instalação do SINARC e de criação dos bancos de dados leva aproximadamente 6 horas.
 
