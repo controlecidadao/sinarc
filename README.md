@@ -205,9 +205,9 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 Relação de sites contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para testar as funcionalidades do SINARC:
 
-* [Empresas beneficiadas por renúncias fiscais de tributos federais](https://arquivos.receitafederal.gov.br/dados/beneficios/renuncia-por-regime-agregado.xlsx). Como não há CNPJ na planilha, selecione para consulta apenas a razão social, porém sem a parte final (Ltda., S.A.). 
+* [Empresas beneficiadas por renúncias fiscais de tributos federais (Receita Federal)](https://arquivos.receitafederal.gov.br/dados/beneficios/renuncia-por-regime-agregado.xlsx). Como não há CNPJ na planilha, selecione para consulta apenas a razão social, porém sem a parte final (Ltda., S.A.). 
 
-* [Reembolsos suspeitos de despesas realizadas pela Câmara dos Deputados - Operação Serenata de Amor (Jarbas)](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
+* [Reembolsos suspeitos de despesas realizadas pela Câmara dos Deputados (Operação Serenata de Amor)](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
 
 * [Notícias recentes sobre fraudes em licitação (Google)](https://www.google.com/search?q=fraude+licita%C3%A7%C3%A3o+ltda&sca_esv=b28375632d0b0304&rlz=1C1GCEU_pt-BRBR1106BR1106&biw=1242&bih=575&tbs=sbd%3A1&tbm=nws&sxsrf=ADLYWIIhiXt6MSk8cPC0shxAMoiwdf1Pyw%3A1731870048554&ei=YD06Z4-9IYWp1sQPs5bvuAw&ved=0ahUKEwiP7anYhuSJAxWFlJUCHTPLG8cQ4dUDCA0&uact=5&oq=fraude+licita%C3%A7%C3%A3o+ltda&gs_lp=Egxnd3Mtd2l6LW5ld3MiF2ZyYXVkZSBsaWNpdGHDp8OjbyBsdGRhMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigAUj6HlCgEljbG3AAeACQAQCYAcgBoAGhCaoBBTAuNy4xuAEDyAEA-AEBmAIHoALpB8ICBRAhGJ8FmAMAiAYBkgcDMC43oAfYOg&sclient=gws-wiz-news)
 
