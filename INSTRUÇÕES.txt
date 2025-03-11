@@ -25,7 +25,7 @@ Caso não disponha de espaço suficiente no computador para instalar o SINARC, �
 
 Para instalar o SINARC e o REDE CNPJ você precisa baixar apenas o arquivo "instalador_main.bat" do repositório (https://github.com/controlecidadao/sinarc/blob/main/instalador_main.bat) e salvá-lo em uma pasta exclusiva para os programas, criada pelo usuário (ex.: SINARC). Por se tratar de um arquivo ".bat", seu navegador pode pedir a confirmação do download.
 
-Para baixar o arquivo "instalador_main.bat", primeiro clique sobre ele dentro do repositório no Github. Quando o seu conteúdo for exibido em uma nova página, clique sobre o símbolo de seta para baixo, localizado à direita da tela (Download raw file).
+Para baixar o arquivo "instalador_main.bat", primeiro clique sobre ele dentro do repositório do SINARC no Github. Quando o seu conteúdo for exibido em uma nova página, clique sobre o símbolo de seta para baixo, localizado à direita da tela (Download raw file).
 
 O arquivo "instalador_main.bat" executa automaticamente a seguinte rotina de instalação:
   1) Baixa e instala o gerenciador de ambientes virtuais Miniconda, juntamente com a versão 3.10 do Python, criando a pasta "miniconda3".
@@ -34,10 +34,11 @@ O arquivo "instalador_main.bat" executa automaticamente a seguinte rotina de ins
   4) Cria os ambientes virtuais "rede_cnpj" e "sinarc".
   5) Copia arquivos da pasta "sinarc-main" para outras pastas.
 
-Para iniciar a instalação:
+Para iniciar a instalação (procedimento testado com o Windows 11):
   1) Usando o Windows Explorer, clique com o botão direito do mouse dentro da pasta onde foi salvo o arquivo "instalador_main.bat" e selecione a opção "Abrir no Terminal". Esse procedimento permite que eventuais erros durante o processo de instalação sejam exibidos na janela do terminal do Window.
-  2) Na janela do terminal (Windows PowerShell), digite ".\instalador_main.bat" (sem as aspas). A rotina de instalação será iniciada.
-  3) Caso o download dos repositórios apresente erro, repita o procedimento de instalação.
+  2) Na janela do Terminal (Windows PowerShell), digite ".\instalador_main.bat" (sem as aspas) e pressione ENTER: a rotina de instalação será iniciada.
+  3) Caso o Windows não permita a execução do arquivo .bat por meio do método anterior, tente executá-lo usando privilégios de administrador. Para tanto, clique com o botão direito do mouse sobre o arquivo "instalador_main.bat" e selecione a opção "Executar como administrador" (opção disponível a partir do Windows Vista).
+  4) Caso o download dos repositórios apresente erro, repita o procedimento de instalação.
 
 
 ========================================
@@ -92,12 +93,13 @@ Para criar os 4 bancos de dados usados pelo SINARC e pelo REDE CNPJ:
      Socios9.zip	        2024-11-13 16:18	47M	 
 
   4) Volte para a pasta "rede_cria_tabelas" e inicie a rotina de criação dos bancos de dados. Clique com o botão direito do mouse dentro da pasta e selecionando a opção "Abrir no Terminal".
-  5) Na janela do terminal (Windows PowerShell), digite ".\cria_bancos_de_dados.bat" (sem as aspas) e pressione ENTER. A rotina de criação dos bancos de dados será iniciada.
-  6) A rotina executa 3 arquivos Python em sequência: "dados_cnpj_para_sqlite.py", "rede_cria_tabela_cnpj_links_ete.py" e "rede_cria_tabela_rede.db.py".
-  7) No incício da execução de cada arquivo .py, o usuário será consultado se deseja continuar o processo de criação dos bancos de dados. A execução de cada arquivo leva algumas horas.
-  8) Ao final da rotina, serão criados 4 arquivos de banco de dados SQLite na pasta "dados-publicos": "cnpj.db", "rede.db", "rede_search.db" e "cnpj_links_ete.db".
-  9) Na sequência, mova esses 4 arquivos ".db" para a pasta "bases" (SINARC\rede-cnpj-master\rede\bases), substituindo os lá existentes. ATENÇÃO: Como essa fase da instalação ocorre horas depois do início, é comum o usuário esquecer de realizá-la.
-  10) Pronto! Os programas SINARC e REDE CNPJ já podem ser usados normalmente.
+  5) Na janela do terminal (Windows PowerShell), digite ".\cria_bancos_de_dados.bat" (sem as aspas) e pressione ENTER: a rotina de criação dos bancos de dados será iniciada.
+  6) Caso o Windows não permita a execução do arquivo .bat por meio do método anterior, tente executá-lo usando privilégios de administrador. Para tanto, clique com o botão direito do mouse sobre o arquivo "instalador_main.bat" e selecione a opção "Executar como administrador" (opção disponível a partir do Windows Vista).
+  7) A rotina executa 3 arquivos Python em sequência: "dados_cnpj_para_sqlite.py", "rede_cria_tabela_cnpj_links_ete.py" e "rede_cria_tabela_rede.db.py".
+  8) No incício da execução de cada arquivo .py, o usuário será consultado se deseja continuar o processo de criação dos bancos de dados. A execução de cada arquivo leva algumas horas.
+  9) Ao final da rotina, serão criados 4 arquivos de banco de dados SQLite na pasta "dados-publicos": "cnpj.db", "rede.db", "rede_search.db" e "cnpj_links_ete.db".
+  10) Na sequência, mova esses 4 arquivos ".db" para a pasta "bases" (SINARC\rede-cnpj-master\rede\bases), substituindo os arquivos lá existentes. ATENÇÃO: Como essa fase da instalação ocorre horas depois do início, é comum o usuário esquecer de realizá-la.
+  11) Pronto! Os programas SINARC e REDE CNPJ já podem ser usados normalmente.
 
 As bases de dados de CNPJ da Receita Federal são atualizadas mensalmente. Para atualizar os bancos de dados usados pelo SINARC, substitua os arquivos .zip baixados anteriormente pelos do Ano/Mes desejado e execute esta rotina de criação novamente.
 
@@ -106,7 +108,8 @@ As bases de dados de CNPJ da Receita Federal são atualizadas mensalmente. Para 
 3) ABRINDO OS PROGRAMAS SINARC E REDE CNPJ
 ==========================================
 
-Como o SINARC utiliza a estrutura de bancos de dados do REDE CNPJ, primeiro abra o REDE CNPJ dando dois cliques sobre o arquivo "abre_rede_cnpj.bat", localizado na pasta "SINARC". Uma janela do terminal do Windows será aberta.
+Como o SINARC utiliza a estrutura de bancos de dados do programa REDE CNPJ, primeiro abra o REDE CNPJ dando dois cliques sobre o arquivo "abre_rede_cnpj.bat", localizado na pasta "SINARC". Uma janela do terminal do Windows será aberta.
 Quando a interface do REDE CNPJ for exibida em uma nova aba do navegador, abra o SINARC clicando duas vezes sobre o arquivo "abre_sinarc.bat", também na pasta "SINARC". Uma segunda janela do terminal do Windows será aberta e a interface do SINARC será exibida em uma nova aba do navegador.
+Caso o Windows não permita a execução dos arquivos .bat por meio do método anterior, tente executá-lo usando privilégios de administrador. Para tanto, clique com o botão direito do mouse sobre o arquivo "instalador_main.bat" e selecione a opção "Executar como administrador" (opção disponível a partir do Windows Vista).
 Pronto! Você já pode utilizar ambos os programas!
 
