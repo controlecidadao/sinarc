@@ -60,7 +60,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-Exemplo de grupo econômico aberto em 3 camadas (grafo com 223 nós e 632 arestas)
+Grupo econômico Chocolates Garoto (Nestle) aberto em 3 camadas, com 223 nós e 632 arestas
 </p>
 
 <br>
