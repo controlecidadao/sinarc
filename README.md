@@ -51,6 +51,16 @@ Exemplo de vínculos existentes entre duas empresas, identificados pelo SINARC n
 
 <br>
 
+Para permitir o compartilhamento, os grafos gerados com o SINARC são salvos no _arquivo_sinar.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados. Clique [aqui](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip) e baixe um exemplo do arquivo zip. Após descompactá-lo, clique duas vezes sobre o arquivo _grafo_final.html_ e pressione a tecla "n" cinco vezes para melhorar o layout dos nós:
+
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/grupo_silvio_santos.png" />
+</p>
+
+<br>
+
 Confira exemplo de uso do SINARC em trabalho técnico desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo (MPC-ES): [Parecer](https://www.mpc.es.gov.br/wp-content/uploads/2024/10/Processo-784-2020-Parecer-MPC-ES-em-Denuncia-transacao-tributaria-Anchieta-e-Samarco.pdf#page=110) emitido no Processo TC 784/2020 (pág. 110). Para saber mais sobre esta ação de controle do MPC-ES em defesa do meio ambiente, vide a respectiva [notícia](https://www.mpc.es.gov.br/2024/11/lagoa-de-mae-ba-mpc-es-aponta-danos-ambientais-irreversiveis-e-pede-inclusao-da-samarco-vale-e-bhp-em-denuncia/).
 
 Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
