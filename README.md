@@ -60,7 +60,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-Exemplo de grupo econômico aberto em 3 camadas a partir do nó alvo (223 nós e 632 arestas)
+Exemplo de grupo econômico aberto em 3 camadas a partir do nó alvo (grafo com 223 nós e 632 arestas)
 </p>
 
 <br>
