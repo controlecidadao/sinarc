@@ -4,7 +4,7 @@
 ![Visualizações](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcontrolecidadao%2Fsinarc&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)
 
 <p align="center" width="100%">
-<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/sinarc.png" />
+<img width="80%" src="https://github.com/controlecidadao/sinarc/blob/main/sinarc.png" />
 </p>
 
 <br>
@@ -51,7 +51,7 @@ Exemplo de vínculos existentes entre duas empresas, identificados pelo SINARC n
 
 <br>
 
-Para permitir o compartilhamento, os grafos gerados com o SINARC são salvos no _arquivo_sinar.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados. Clique [aqui](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip) e baixe um exemplo do arquivo zip. Após descompactá-lo, clique duas vezes sobre o arquivo _grafo_final.html_ e pressione a tecla "n" cinco vezes para melhorar o layout dos nós:
+Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no _arquivo_sinarc.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados. Clique [aqui](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip) e baixe um exemplo do arquivo zip. Após descompactá-lo, clique duas vezes sobre o arquivo _grafo_final.html_ e pressione a tecla "n" cinco vezes para ajustar o layout:
 
 <br>
 
