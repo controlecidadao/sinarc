@@ -56,7 +56,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <br>
 
 <p align="center" width="100%">
-<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/grupo_silvio_santos.png" />
+<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/chocolates_garoto.png" />
 </p>
 
 <p align="center" width="100%">
