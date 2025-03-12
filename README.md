@@ -60,7 +60,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-Grupo econômico Chocolates Garoto/Nestle aberto em 3 camadas, com 223 nós e 632 arestas (base de dados fev/2025)
+Grupo econômico Chocolates Garoto/Nestlé aberto em 3 camadas, com 223 nós e 632 arestas (base de dados fev/2025)
 </p>
 
 <br>
