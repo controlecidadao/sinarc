@@ -51,12 +51,16 @@ Exemplo de vínculos existentes entre duas empresas, identificados pelo SINARC n
 
 <br>
 
-Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no _arquivo_sinarc.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados. Clique [aqui](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip) e baixe um exemplo do arquivo zip. Após descompactá-lo, clique duas vezes sobre o arquivo _grafo_final.html_ e pressione a tecla "n" cinco vezes para ajustar o layout:
+Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no _arquivo_sinarc.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados. Clique [aqui](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip) e baixe um exemplo do arquivo zip. Após descompactá-lo, clique duas vezes sobre o arquivo _grafo_final.html_, aguarde o grafo ser exibido na tela e pressione a tecla "n" cinco vezes para ajustar o layout:
 
 <br>
 
 <p align="center" width="100%">
 <img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/grupo_silvio_santos.png" />
+</p>
+
+<p align="center" width="100%">
+Exemplo de grupo econômico aberto em 3 camadas a partir do nó alvo (223 nós e 632 arestas)
 </p>
 
 <br>
