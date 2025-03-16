@@ -61,7 +61,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-Exemplo 2: Grupo econômico Chocolates Garoto Ltda. (CNPJ 28.053.619/0001-83) aberto em 3 camadas, com 223 nós e 632 arestas
+Exemplo 2: Grupo econômico Chocolates Garoto Ltda. aberto em 3 camadas, com 223 nós e 632 arestas
 </p>
 
 <br>
