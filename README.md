@@ -66,7 +66,7 @@ Grupo econômico Chocolates Garoto Ltda. (CNPJ 28.053.619/0001-83) aberto em 3 c
 
 <br>
 
-Para a relação completa de comandos e funcionalidades, consulte o [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html).
+Para a relação completa de comandos e funcionalidades, consulte o [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html) (Uso do Mouse e do Teclado).
 
 Confira exemplo de uso do SINARC em trabalho técnico desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo (MPC-ES): [Parecer](https://www.mpc.es.gov.br/wp-content/uploads/2024/10/Processo-784-2020-Parecer-MPC-ES-em-Denuncia-transacao-tributaria-Anchieta-e-Samarco.pdf#page=110) emitido no Processo TC 784/2020 (pág. 110). Para saber mais sobre esta ação de controle do MPC-ES em defesa do meio ambiente, vide a respectiva [notícia](https://www.mpc.es.gov.br/2024/11/lagoa-de-mae-ba-mpc-es-aponta-danos-ambientais-irreversiveis-e-pede-inclusao-da-samarco-vale-e-bhp-em-denuncia/).
 
