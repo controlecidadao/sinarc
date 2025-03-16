@@ -24,7 +24,7 @@ Conheça o [Dicionário de Dados](https://www.gov.br/receitafederal/dados/cnpj-m
 
 Todas as informações geradas com o SINARC são públicas. Os exemplos apresentados são meramente ilustrativos. 
 
-O vídeo a seguir demonstra a aplicação do SINARC no controle da Administração Pública. A partir de [notícia](https://www.radiocacula.com.br/detran-ms-e-investigado-por-suspeita-de-fraude-em-licitacao-de-r-39-milhoes/) publicada na internet sobre supostas irregularidades em licitação para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas citadas na notícia, cruzando os resultados com os participantes de outra licitação de mesmo objeto para verificar a existência de conexões entre os grupos econômicos:
+O vídeo a seguir demonstra a aplicação do SINARC no controle da Administração Pública. A partir de [notícia](https://www.radiocacula.com.br/detran-ms-e-investigado-por-suspeita-de-fraude-em-licitacao-de-r-39-milhoes/) publicada na internet sobre supostas irregularidades em licitação promovida pelo Estado do Mato Grosso do Sul (MS) para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas citadas na notícia, cruzando os resultados com os participantes de outra licitação de mesmo objeto, realizada pelo Município de Vila Velha (ES), para verificar a existência de conexões entre os grupos econômicos:
 
 <br>
 
