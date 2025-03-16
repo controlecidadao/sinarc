@@ -47,12 +47,12 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 </p>
 
 <p align="center" width="100%">
-Exemplo de vínculos existentes entre duas empresas, identificados pelo SINARC na 1ª camada
+Exemplo 1: Vínculos existentes entre duas empresas, identificados pelo SINARC na 1ª camada
 </p>
 
 <br>
 
-Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no _arquivo_sinarc.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados. Clique [aqui](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip) e baixe um exemplo do arquivo zip. Após descompactá-lo, clique duas vezes sobre o arquivo _grafo_final.html_ e aguarde o grafo ser exibido em uma nova aba do navegador. Pressione a tecla "n" (minúscula) dez vezes para ajustar o layout gravitacional. Em seguida, pressione a tecla "F11" para ativar/desativar o modo tela cheia e, por fim, a tecla "z" para ativar/desativar o modo automático de visualização. Experimente apertar a tecla "d" enquanto uma empresa está selecionada ou posicionar o mouse por 3 segundos sobre qualquer nó:
+Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no _arquivo_sinarc.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados. 
 
 <br>
 
@@ -61,10 +61,13 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-Grupo econômico Chocolates Garoto Ltda. (CNPJ 28.053.619/0001-83) aberto em 3 camadas, com 223 nós e 632 arestas
+Exemplo 2: Grupo econômico Chocolates Garoto Ltda. (CNPJ 28.053.619/0001-83) aberto em 3 camadas, com 223 nós e 632 arestas
 </p>
 
 <br>
+
+Realize o download dos exemplos acima ([Exemplo 1](https://github.com/controlecidadao/sinarc/raw/main/exemplo_vinculo.zip) e [Exemplo 2](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip)) no formato zip de compartilhamento. Após descompactar, clique duas vezes sobre o arquivo _grafo_final.html_ e aguarde o grafo ser exibido em uma nova aba do navegador. Pressione a tecla "n" (minúscula) dez vezes para ajustar o layout gravitacional. Em seguida, pressione a tecla "F11" para ativar/desativar o modo tela cheia e, por fim, a tecla "z" para ativar/desativar o modo automático de visualização. Experimente pressionar a tecla "d" enquanto uma empresa está selecionada ou posicionar o mouse por 3 segundos sobre qualquer nó.
+
 
 Para a relação completa de comandos e funcionalidades, consulte o [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html) (8 - Uso do Mouse e do Teclado).
 
