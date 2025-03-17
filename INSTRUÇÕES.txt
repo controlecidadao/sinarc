@@ -46,10 +46,10 @@ Para iniciar a instalação (procedimento testado com o Windows 11):
 
 Para criar os 4 bancos de dados usados pelo SINARC e pelo REDE CNPJ:
   1) Abra a pasta "dados-publicos-zip", localizada em "SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos-zip".
-  2) Acesse o site da Receita Federal (https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/) e clique sobre a pasta contendo os dados desejados, identificados por Ano/Mês.
+  2) Acesse o site da Receita Federal (https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/) e clique sobre a pasta contendo os dados desejados, identificados por Ano/Mês. Estão disponíveis pastas com arquivos mensais a partir de 05/2023.
   3) Realize manualmente o download de todos os arquivos .zip para a pasta "dados-publicos-zip" (37 arquivos no total).
 
-     Exemplo: Pastas 24-11
+     Exemplo: Pasta 2024-11
 
      Name	Last modified	Size	Description
      Parent Directory	 	-	 
