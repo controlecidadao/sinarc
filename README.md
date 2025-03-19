@@ -75,7 +75,7 @@ Para a relação completa de comandos e funcionalidades, consulte o [Manual do S
 
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">
-   <img width="70%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/imagem_6.png" alt="Vídeo Demonstrativo" />
+   <img width="100%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/imagem_6.png" alt="Vídeo Demonstrativo" />
 </a>
 </p>
 
