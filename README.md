@@ -22,7 +22,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 Para acessar a fonte primária dos dados usados pelo SINARC, clique [aqui](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/). 
 Conheça o [Dicionário de Dados](https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf) de CNPJ da Receita Federal.
 
-Todas as informações geradas com o SINARC são públicas. Os exemplos apresentados são meramente ilustrativos. 
+Todas as informações geradas pelo SINARC são de domínio público. Os exemplos apresentados têm caráter meramente ilustrativo, servindo como referência no contexto educacional para a produção de conhecimento a partir de fontes abertas (OSINT).
 
 O vídeo a seguir demonstra a aplicação do SINARC no controle da Administração Pública. A partir de [notícia](https://www.radiocacula.com.br/detran-ms-e-investigado-por-suspeita-de-fraude-em-licitacao-de-r-39-milhoes/) publicada na internet sobre supostas irregularidades em licitação promovida pelo Estado do Mato Grosso do Sul (MS) para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas citadas na notícia, cruzando os resultados com os participantes de outra licitação de mesmo objeto, realizada pelo Município de Vila Velha (ES), para verificar a existência de conexões entre os grupos econômicos:
 
