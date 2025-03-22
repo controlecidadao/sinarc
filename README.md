@@ -80,7 +80,7 @@ Realize o download dos exemplos acima ([Exemplo 1](https://github.com/controleci
 * Experimente pressionar a tecla "d" enquanto uma empresa está selecionada ou posicionar o mouse por 2 segundos sobre qualquer nó para exibir seus detalhes.
 
 
-Para a relação completa de comandos e funcionalidades, consulte o [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html) (8 - Uso do Mouse e do Teclado).
+Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso do Mouse e do Teclado) do  [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html).
 
 <br>
 
