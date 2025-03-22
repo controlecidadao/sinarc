@@ -77,7 +77,7 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC, realize 
 2) Pressione a **tecla n** (minúscula) dez vezes para ajustar o layout gravitacional.
 3) Em seguida, pressione a **tecla F11** para ativar/desativar o modo tela cheia.
 4) Por fim, pressione a **tecla z** para ativar/desativar o modo automático de visualização.
-5) Experimente pressionar a **tecla d** enquanto uma empresa está selecionada ou **posicionar o mouse por 1,5 segundo sobre qualquer nó** para exibir seus detalhes.
+5) Experimente pressionar a **tecla d** enquanto uma empresa está selecionada ou **posicionar o mouse por 1,5s sobre qualquer nó** para exibir seus detalhes.
 
 
 Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso do Mouse e do Teclado) do  [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html).
