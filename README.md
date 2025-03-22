@@ -72,12 +72,12 @@ Exemplo 2: Grupo econômico Chocolates Garoto Ltda. aberto em 3 camadas, com 223
 
 <br>
 
-Para testar algumas das funcionalidades do SINARC, realize o download de um dos exemplos acima ([Exemplo 1](https://github.com/controlecidadao/sinarc/raw/main/exemplo_vinculo.zip) ou [Exemplo 2](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip)) no formato zip de compartilhamento. Após descompactar:
-* Clique duas vezes sobre o arquivo _grafo_final.html_ e aguarde o grafo ser exibido em uma nova aba do navegador.
-* Pressione a tecla "n" (minúscula) dez vezes para ajustar o layout gravitacional.
-* Em seguida, pressione a tecla "F11" para ativar/desativar o modo tela cheia.
-* Por fim, pressione a tecla "z" para ativar/desativar o modo automático de visualização.
-* Experimente pressionar a tecla "d" enquanto uma empresa está selecionada ou posicionar o mouse por 2 segundos sobre qualquer nó para exibir seus detalhes.
+Para testar algumas das funcionalidades do SINARC, realize o download de um dos exemplos acima ([Exemplo 1](https://github.com/controlecidadao/sinarc/raw/main/exemplo_vinculo.zip) ou [Exemplo 2](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip)) no formato zip de compartilhamento. Após descompactar o arquivo zip:
+1) Clique duas vezes sobre o arquivo _grafo_final.html_ e aguarde o grafo ser exibido em uma nova aba do navegador.
+2) Pressione a tecla "n" (minúscula) dez vezes para ajustar o layout gravitacional.
+3) Em seguida, pressione a tecla "F11" para ativar/desativar o modo tela cheia.
+4) Por fim, pressione a tecla "z" para ativar/desativar o modo automático de visualização.
+5) Experimente pressionar a tecla "d" enquanto uma empresa está selecionada ou posicionar o mouse por 2 segundos sobre qualquer nó para exibir seus detalhes.
 
 
 Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso do Mouse e do Teclado) do  [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html).
@@ -102,13 +102,17 @@ Confira exemplo de uso do SINARC em trabalho técnico desenvolvido pelo Ministé
 
 Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
 
-Para instalar o SINARC e o Rede CNPJ, siga as instruções contidas no arquivo [INSTRUÇÕES.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES.txt), disponível na página principal deste repositório. Devido à sua portabilidade, é possível salvar e executar o sistema em um HD externo.
+<br>
 
-Para ampliar a capacidade de pesquisa, baixe e descompacte na pasta SINARC (criada pelo usuário para abrigar o sistema) a versão portátil e gratuita do programa [DB Browser](https://sqlitebrowser.org/dl/) (arquivo "_DB Browser for SQLite - .zip (no installer) for 64-bit Windows_"). Com o auxílio do DB Browser é possível realizar filtros e consultas SQL diretamente nas tabelas dos bancos de dados do sistema, combinando critérios de busca que não estão disponíveis nas interfaces gráficas do SINARC e do Rede CNPJ, e chegar aos números de CNPJ que deseja explorar.
+## Como instalar o SINARC?
 
-<!--Devido à sua portabilidade, o sistema pode, inclusive, ser instalado diretamente em um HD externo (processo muito demorado) e depois copiado para outros computadores. O inverso também pode ser feito: instalar o sistema no computador e depois copiar sua pasta para um HD externo.-->
+<br>
 
-Conquanto o SINARC utilize apenas a modelagem de criação e consulta aos bancos de dados do projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa, permitindo ao cidadão explorar as duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, certamente, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
+Para instalar o SINARC e o Rede CNPJ, siga as instruções contidas no arquivo [INSTRUÇÕES.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES.txt), disponível na página principal deste repositório. Devido à sua portabilidade, é possível salvar e executar ambos os sistemas em um HD externo.
+
+Para ampliar a capacidade de pesquisa, baixe e descompacte na pasta SINARC (criada pelo usuário para abrigar o sistema) a versão portátil e gratuita do programa [DB Browser](https://sqlitebrowser.org/dl/) (arquivo "_DB Browser for SQLite - .zip (no installer) for 64-bit Windows_"). Com o auxílio do DB Browser é possível realizar filtros e consultas diretamente nas tabelas dos bancos de dados do sistema, combinando critérios de busca que não estão disponíveis nas interfaces gráficas do SINARC e do Rede CNPJ para chegar aos números de CNPJ que deseja explorar.
+
+Conquanto o SINARC utilize apenas a modelagem de criação e consulta aos bancos de dados do projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa, permitindo ao cidadão explorar as funcionalidades das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, certamente, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
 O manual de instruções do SINARC pode ser acessado por meio da tecla h (de _help_), durante o uso do sistema. Já o manual do Rede CNPJ encontra-se disponível na própria página do projeto.
 
