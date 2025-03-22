@@ -24,6 +24,12 @@ Conheça também o [Dicionário de Dados](https://www.gov.br/receitafederal/dado
 
 Todas as informações geradas pelo SINARC são de domínio público. Os exemplos apresentados têm caráter meramente ilustrativo, servindo como referência no contexto educacional para a produção de conhecimento a partir de fontes abertas (OSINT).
 
+<br>
+
+## Como usar o SINARC?
+
+<br>
+
 O vídeo a seguir demonstra a aplicação do SINARC no controle da Administração Pública. A partir de [notícia](https://www.radiocacula.com.br/detran-ms-e-investigado-por-suspeita-de-fraude-em-licitacao-de-r-39-milhoes/) publicada na internet sobre supostas irregularidades em licitação promovida pelo Estado do Mato Grosso do Sul (MS) para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas citadas na notícia, cruzando os resultados com os participantes de outra licitação de mesmo objeto, realizada pelo Município de Vila Velha (ES), para verificar a existência de conexões entre os grupos econômicos:
 
 <br>
@@ -66,7 +72,7 @@ Exemplo 2: Grupo econômico Chocolates Garoto Ltda. aberto em 3 camadas, com 223
 
 <br>
 
-Realize o download dos exemplos acima ([Exemplo 1](https://github.com/controlecidadao/sinarc/raw/main/exemplo_vinculo.zip) e [Exemplo 2](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip)) no formato zip de compartilhamento. Após descompactar, clique duas vezes sobre o arquivo _grafo_final.html_ e aguarde o grafo ser exibido em uma nova aba do navegador. Pressione a tecla "n" (minúscula) dez vezes para ajustar o layout gravitacional. Em seguida, pressione a tecla "F11" para ativar/desativar o modo tela cheia e, por fim, a tecla "z" para ativar/desativar o modo automático de visualização. Experimente pressionar a tecla "d" enquanto uma empresa está selecionada ou posicionar o mouse por 3 segundos sobre qualquer nó para exibir detalhes.
+Realize o download dos exemplos acima ([Exemplo 1](https://github.com/controlecidadao/sinarc/raw/main/exemplo_vinculo.zip) e [Exemplo 2](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip)) no formato zip de compartilhamento. Após descompactar, clique duas vezes sobre o arquivo _grafo_final.html_ e aguarde o grafo ser exibido em uma nova aba do navegador. Pressione a tecla "n" (minúscula) dez vezes para ajustar o layout gravitacional. Em seguida, pressione a tecla "F11" para ativar/desativar o modo tela cheia e, por fim, a tecla "z" para ativar/desativar o modo automático de visualização. Experimente pressionar a tecla "d" enquanto uma empresa está selecionada ou posicionar o mouse por 3 segundos sobre qualquer nó para exibir seus detalhes.
 
 
 Para a relação completa de comandos e funcionalidades, consulte o [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html) (8 - Uso do Mouse e do Teclado).
