@@ -74,7 +74,7 @@ Exemplo 2: Grupo econômico Chocolates Garoto Ltda. aberto em 3 camadas, com 223
 
 Para testar algumas das funcionalidades dos grafos gerados pelo SINARC, realize o download de um dos exemplos acima ([Exemplo 1](https://github.com/controlecidadao/sinarc/raw/main/exemplo_vinculo.zip) ou [Exemplo 2](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip)) no formato zip de compartilhamento. Após descompactar o arquivo:
 1) Clique duas vezes sobre o arquivo _grafo_final.html_ e aguarde o grafo ser exibido em uma nova aba do navegador.
-2) Pressione a **tecla n** (minúscula) dez vezes para ajustar o layout gravitacional.
+2) Pressione a **tecla n** (minúscula) dez vezes para aumentar a massa dos nós de maior tamanho e melhorar o layout gravitacional.
 3) Em seguida, pressione a **tecla F11** para ativar/desativar o modo tela cheia.
 4) Por fim, pressione a **tecla z** para ativar/desativar o modo automático de visualização.
 5) Experimente pressionar a **tecla d** enquanto uma empresa está selecionada ou **posicionar o mouse por 1,5s sobre qualquer nó** para exibir seus detalhes.
