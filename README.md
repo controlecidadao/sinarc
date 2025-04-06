@@ -6,7 +6,8 @@
 <!-- Fonte: https://github.com/antonkomarev/github-profile-views-counter-->
 
 <p align="center" width="100%">
-<img width="80%" src="https://github.com/controlecidadao/sinarc/blob/main/sinarc.png" />
+<!--<img width="80%" src="https://github.com/controlecidadao/sinarc/blob/main/sinarc.png" />-->
+<img width="80%" src="images/sinarc.png" />
 </p>
 
 <br>
