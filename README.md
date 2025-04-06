@@ -57,7 +57,7 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 </p>
 
 <p align="center" width="100%">
-Exemplo 1: Vínculos existentes entre duas empresas, identificados pelo SINARC na 1ª camada
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Vínculos existentes entre duas empresas, identificados pelo SINARC na 1ª camada
 </p>
 
 <br>
