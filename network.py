@@ -14,7 +14,7 @@ from .edge import Edge
 from .node import Node
 from .options import Options, Configure
 from .utils import check_html
-
+ 
 
 class Network(object):
     """
