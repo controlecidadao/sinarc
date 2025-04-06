@@ -111,4 +111,3 @@ Como o SINARC utiliza a estrutura de bancos de dados do programa REDE CNPJ, prim
 Quando a interface do REDE CNPJ for exibida em uma nova aba do navegador, abra o SINARC clicando duas vezes sobre o arquivo "abre_sinarc.bat", também na pasta "SINARC". Uma segunda janela do Terminal do Windows será aberta e a interface do SINARC será exibida em uma nova aba do navegador.
 Caso o Windows não permita a execução dos arquivos .bat por meio do método anterior, tente executá-lo usando privilégios de administrador. Para tanto, clique com o botão direito do mouse sobre o arquivo "instalador_main.bat" e selecione a opção "Executar como administrador" (disponível a partir do Windows Vista).
 Pronto! Você já pode utilizar ambos os programas!
-
