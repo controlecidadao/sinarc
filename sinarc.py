@@ -3,7 +3,7 @@
 #                     S I N A R C
 #    Sistema Integrado de Análise de Redes Complexas
 #########################################################
-
+ 
 
 #######################
 # DESCRIÇÃO DO PROGRAMA
