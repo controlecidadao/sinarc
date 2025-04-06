@@ -3061,7 +3061,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
     temp = fin.read()
     fin.close()
 
-    temp = temp.replace('<script src="lib/bindings/utils.js"></script>', '<script src="pyvis/templates/lib/bindings/utils.js"></script>')
+    temp = temp.replace('<script src="lib/bindings/utils.js"></script>', '<script src="./pyvis/templates/lib/bindings/utils.js"></script>')
 
     fout = open("grafo_final.html", "w")
     fout.write(temp)
