@@ -76,12 +76,13 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <br>
 
-Para testar algumas das funcionalidades dos grafos gerados pelo SINARC, realize o download de um dos exemplos acima ([Exemplo 1](https://github.com/controlecidadao/sinarc/raw/main/exemplo_vinculo.zip) ou [Exemplo 2](https://github.com/controlecidadao/sinarc/raw/main/arquivo_sinarc.zip)) no formato zip de compartilhamento. Após descompactar o arquivo:
-1) Clique duas vezes sobre o arquivo _grafo_final.html_ e aguarde o grafo ser exibido em uma nova aba do navegador.
-2) Pressione a **tecla n** (minúscula) dez vezes para aumentar a massa dos nós de maior tamanho e melhorar o layout gravitacional.
-3) Em seguida, pressione a **tecla F11** para ativar/desativar o modo tela cheia.
-4) Por fim, pressione a **tecla z** para ativar/desativar o modo automático de visualização.
-5) Experimente pressionar a **tecla d** enquanto uma empresa está selecionada ou **posicionar o mouse por 1,5s sobre qualquer nó** para exibir seus detalhes.
+Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
+1) Clique em um dos links dos exemplos acima ([Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html) ou [Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) e aguarde o grafo ser exibido no navegador;
+2) Pressione a **tecla n** (minúscula) várias vezes para aumentar a massa dos nós de maior tamanho e melhorar a visualização do grafo no layout gravitacional;
+3) Clique com mouse no fundo brando da tela para desselecionar os nós;
+4) Pressione a **tecla F11** para ativar/desativar o modo tela cheia;
+5) Por fim, pressione a **tecla z** para ativar/desativar o modo automático de visualização;
+6) Experimente pressionar a **tecla d** enquanto uma empresa está selecionada ou **posicionar o mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela.
 
 
 Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso do Mouse e do Teclado) do  [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html).
