@@ -71,7 +71,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-Exemplo 2: Grupo econômico Chocolates Garoto Ltda. aberto em 3 camadas, com 223 nós e 632 arestas
+<a href="https://controlecidadao.github.io/sinarc/exemplo2.html">Exemplo 2</a>: Grupo econômico Chocolates Garoto Ltda. aberto em 3 camadas, com 223 nós e 632 arestas
 </p>
 
 <br>
