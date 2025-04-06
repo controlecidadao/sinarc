@@ -39,7 +39,8 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=R73ixbeP0II" target="_blank">
-   <img width="70%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/noticias_na_intenet.png" alt="Vídeo Demonstrativo" />
+   <!--<img width="70%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/noticias_na_intenet.png" alt="Vídeo Demonstrativo" />-->
+   <img width="70%" class="clickable-image" src="./images/noticias_na_intenet.png" alt="Vídeo Demonstrativo" />
 </a>
 </p>
 
