@@ -158,7 +158,7 @@ Confira, a seguir, exemplos de exploração de redes complexas com o SINARC:
 <br>
 
 <p align="center" width="100%">
-<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_1.png" />
+<img width="100%" src="./images/vale_sa_1.png" />
 </p>
 
 <p align="center" width="100%">
@@ -168,7 +168,7 @@ Visão panorâmica da rede complexa gerada pelo SINARC
 <br><br>
 
 <p align="center" width="100%">
-<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_2.png" />
+<img width="100%" src="./images/vale_sa_2.png" />
 </p>
 
 <p align="center" width="100%">
@@ -178,7 +178,7 @@ Aproximação da rede complexa gerada pelo SINARC
 <br><br>
 
 <p align="center" width="100%">
-<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vale_sa_3.png" />
+<img width="100%" src="./images/vale_sa_3.png" />
 </p>
 
 <p align="center" width="100%">
@@ -195,7 +195,7 @@ Detalhe da rede complexa gerado pelo SINARC
 <br>
 
 <p align="center" width="100%">
-<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_1.png" />
+<img width="100%" src="./images/b3_1.png" />
 </p>
 
 <p align="center" width="100%">
@@ -205,7 +205,7 @@ Visão panorâmica da rede complexa gerada pelo SINARC
 <br><br>
 
 <p align="center" width="100%">
-<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_2.png" />
+<img width="100%" src="./images/b3_2.png" />
 </p>
 
 <p align="center" width="100%">
@@ -215,7 +215,7 @@ Aproximação da rede complexa gerada pelo SINARC
 <br><br>
 
 <p align="center" width="100%">
-<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_3.png" />
+<img width="100%" src="./images/b3_3.png" />
 </p>
 
 <p align="center" width="100%">
@@ -225,7 +225,7 @@ Detalhe da rede complexa gerado pelo SINARC (com ocultação de arestas)
 <br><br>
 
 <p align="center" width="100%">
-<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/b3_4.png" />
+<img width="100%" src="./images/b3_4.png" />
 </p>
 
 <p align="center" width="100%">
