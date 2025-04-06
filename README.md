@@ -53,7 +53,7 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 <br><br>
 
 <p align="center" width="100%">
-<img width="80%" src="https://github.com/controlecidadao/sinarc/blob/main/images/vinculos_1.png" />
+<img width="80%" src="./images/vinculos_1.png" />
 </p>
 
 <p align="center" width="100%">
