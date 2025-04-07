@@ -50,6 +50,10 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 </a>
 </p>
 
+<br>
+
+Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no _arquivo_sinarc.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados.
+
 <br><br>
 
 <p align="center" width="100%">
@@ -58,12 +62,9 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Vínculos existentes entre duas empresas, identificados pelo SINARC na 1ª camada
-</p>
+</p> 
 
 <br>
-
-Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no _arquivo_sinarc.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados. 
-
 <br>
 
 <p align="center" width="100%">
@@ -75,18 +76,6 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <br>
-
-Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
-1) Abra um dos links dos exemplos acima ([Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html) ou [Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido;
-2) Pressione a **tecla n** (minúscula) várias vezes para aumentar a massa dos nós de maior tamanho e melhorar a visualização do grafo no layout gravitacional;
-3) Clique com o botão esquerdo do mouse no fundo branco da tela para desselecionar os nós;
-4) Pressione a **tecla F11** para ativar/desativar o modo tela cheia;
-5) Por fim, pressione a **tecla z** para ativar/desativar o modo automático de visualização;
-6) Experimente pressionar a **tecla d** enquanto uma empresa está selecionada ou **posicionar o mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela.
-
-
-Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso do Mouse e do Teclado) do  [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html).
-
 <br>
 
 <p align="center" width="100%">
@@ -100,6 +89,7 @@ Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso 
 </p>
 
 <br>
+<br>
 
 <p align="center" width="100%">
 <img width="50%" src="./images/exemplo3.png" />
@@ -110,6 +100,17 @@ Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso 
 </p>
 
 <br>
+<br>
+
+Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
+1) Abra um dos links dos exemplos acima ([Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html), [Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html) ou [Exemplo 3](https://controlecidadao.github.io/sinarc/exemplo3.html)) em uma nova aba do navegador e aguarde o grafo ser exibido;
+2) Pressione a **tecla n** (minúscula) várias vezes para aumentar a massa dos nós de maior tamanho e melhorar a visualização do grafo no layout gravitacional;
+3) Clique com o botão esquerdo do mouse no fundo branco da tela para desselecionar os nós;
+4) Pressione a **tecla F11** para ativar/desativar o modo tela cheia;
+5) Por fim, pressione a **tecla z** para ativar/desativar o modo automático de visualização;
+6) Experimente pressionar a **tecla d** enquanto uma empresa está selecionada ou **posicionar o mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela.
+
+Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso do Mouse e do Teclado) do  [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html).
 
 Confira exemplo de uso do SINARC em trabalho técnico desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo (MPC-ES): [Parecer](https://www.mpc.es.gov.br/wp-content/uploads/2024/10/Processo-784-2020-Parecer-MPC-ES-em-Denuncia-transacao-tributaria-Anchieta-e-Samarco.pdf#page=110) emitido no Processo TC 784/2020 (pág. 110). Para saber mais sobre esta ação de controle do MPC-ES em defesa do meio ambiente, vide a respectiva [notícia](https://www.mpc.es.gov.br/2024/11/lagoa-de-mae-ba-mpc-es-aponta-danos-ambientais-irreversiveis-e-pede-inclusao-da-samarco-vale-e-bhp-em-denuncia/).
 
