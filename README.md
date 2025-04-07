@@ -96,9 +96,7 @@ Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso 
 </p>
 
 <p align="center" width="100%">
-<a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">
-   Vídeo: Identificando Cadeia Hierárquica de Comando com o SINARC
-</a>
+<a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">Vídeo</a>: Identificando Cadeia Hierárquica de Comando com o SINARC
 </p>
 
 <br>
