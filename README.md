@@ -79,6 +79,17 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <br>
 
 <p align="center" width="100%">
+<img width="50%" src="./images/exemplo3.png" />
+</p>
+
+<p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Exemplo 3</a>: Grupo econômico aberto em 4 camadas, exibindo 45 nós em layout circular
+</p>
+
+<br>
+<br>
+
+<p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">
    <img width="100%" class="clickable-image" src="./images/imagem_6.png" alt="Vídeo Demonstrativo" />
 </a>
@@ -86,17 +97,6 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">Vídeo</a>: Identificando Cadeia Hierárquica de Comando com o SINARC
-</p>
-
-<br>
-<br>
-
-<p align="center" width="100%">
-<img width="50%" src="./images/exemplo3.png" />
-</p>
-
-<p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Exemplo 3</a>: Grupo econômico aberto em 4 camadas, exibindo 45 nós em layout circular
 </p>
 
 <br>
