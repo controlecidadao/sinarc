@@ -71,7 +71,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo2.html">Exemplo 2</a>: Grupo econômico Chocolates Garoto Ltda. aberto em 3 camadas, com 223 nós e 632 arestas
+<a href="https://controlecidadao.github.io/sinarc/exemplo2.html">Exemplo 2</a>: Grupo econômico aberto em 3 camadas, com 223 nós e 632 arestas
 </p>
 
 <br>
@@ -108,7 +108,7 @@ Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso 
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Exemplo 3</a>: Grupo econômico exibido em layout circular
+<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Exemplo 3</a>: Grupo econômico aberto em 4 camadas, exibindo 45 nós em layout circular
 </p>
 
 <br>
