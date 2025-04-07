@@ -10,7 +10,7 @@
 <img width="80%" src="./images/sinarc.png" />
 </p> 
 
-<br>
+<br><br>
 
 ## O que é o SINARC?
 
@@ -27,7 +27,7 @@ Conheça também o [Dicionário de Dados](https://www.gov.br/receitafederal/dado
 
 Todas as informações produzidas com o SINARC são de domínio público. Os exemplos apresentados foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente ilustrativo e servindo como referência no contexto educacional para produção de conhecimento a partir de fontes abertas (OSINT).
 
-<br>
+<br><br>
 
 ## Como usar o SINARC?
 
@@ -99,9 +99,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">Vídeo</a>: Identificando Cadeia Hierárquica de Comando com o SINARC
 </p>
 
-<br>
-<br>
-
+<br><br>
 
 ## SINARC Playground
 
@@ -117,11 +115,9 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 
 Para a relação completa de comandos e funcionalidades, consulte o item 8 (Uso do Mouse e do Teclado) do  [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html).
 
-Confira exemplo de uso do SINARC em trabalho técnico desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo (MPC-ES): [Parecer](https://www.mpc.es.gov.br/wp-content/uploads/2024/10/Processo-784-2020-Parecer-MPC-ES-em-Denuncia-transacao-tributaria-Anchieta-e-Samarco.pdf#page=110) emitido no Processo TC 784/2020 (pág. 110). Para saber mais sobre esta ação de controle do MPC-ES em defesa do meio ambiente, vide a respectiva [notícia](https://www.mpc.es.gov.br/2024/11/lagoa-de-mae-ba-mpc-es-aponta-danos-ambientais-irreversiveis-e-pede-inclusao-da-samarco-vale-e-bhp-em-denuncia/).
-
 Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
 
-<br>
+<br><br>
 
 ## Como instalar o SINARC?
 
@@ -162,6 +158,8 @@ O SINARC se destina a todos que exercem o controle social e institucional da Adm
 <br>
 
 Confira, a seguir, exemplos de exploração de redes complexas com o SINARC:
+
+Uso do SINARC em trabalho técnico desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo (MPC-ES): [Parecer](https://www.mpc.es.gov.br/wp-content/uploads/2024/10/Processo-784-2020-Parecer-MPC-ES-em-Denuncia-transacao-tributaria-Anchieta-e-Samarco.pdf#page=110) emitido no Processo TC 784/2020 (pág. 110). Para saber mais sobre esta ação de controle do MPC-ES em defesa do meio ambiente, vide a respectiva [notícia](https://www.mpc.es.gov.br/2024/11/lagoa-de-mae-ba-mpc-es-aponta-danos-ambientais-irreversiveis-e-pede-inclusao-da-samarco-vale-e-bhp-em-denuncia/).
 
 <br><br>
 
