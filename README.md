@@ -159,7 +159,7 @@ O SINARC se destina a todos que exercem o controle social e institucional da Adm
 
 <br>
 
-Confira, a seguir, exemplos de exploração de redes complexas com o SINARC:
+Confira-se, a seguir, exemplos de exploração de redes complexas com o SINARC:
 
 <br><br>
 
