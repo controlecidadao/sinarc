@@ -102,6 +102,11 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <br>
 <br>
 
+
+## SINARC Playground
+
+<br>
+
 Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 1) Abra um dos links dos exemplos acima ([Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html), [Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html) ou [Exemplo 3](https://controlecidadao.github.io/sinarc/exemplo3.html)) em uma nova aba do navegador e aguarde o grafo ser exibido;
 2) Pressione a **tecla n** (minúscula) várias vezes para aumentar a massa dos nós de maior tamanho e melhorar a visualização do grafo no layout gravitacional;
@@ -264,7 +269,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 <br><br>
 
-## CNPJ Playground
+## Explorando conexões com o SINARC
 
 <br>
 
