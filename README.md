@@ -1,6 +1,6 @@
-![v](https://img.shields.io/badge/Version-0.1.1-blue)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![v](https://img.shields.io/badge/Updated-April%2009,%20%202025-green)
+![v](https://img.shields.io/badge/Versão-0.1.1-blue)
+[![License: MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![v](https://img.shields.io/badge/Updated-Abril%2009,%20%202025-green)
 
 <!--![](https://komarev.com/ghpvc/?username=controlecidadao&abbreviated=true&label=Views)-->
 <!-- Fonte: https://github.com/antonkomarev/github-profile-views-counter-->
@@ -292,24 +292,24 @@ Relação de sites contendo informações (nomes de pessoas físicas, jurídicas
 
 
 <br><br>
-## 📝 Version history
+## 📝 Histórico de versões
 
 <details>
-<summary>Versions</summary>
+<summary>Versões</summary>
 
 <br><br>
-🗓️ **Code Versions:**
+🗓️ **Versões do código:**
 
 <br>
 
-Version 0.1.1 (2025-04-09):
-* Fixed offline graph images loading.
-* Fixed the portable _arquivo_sinarc.zip_ file generation.
-* Online version of SINARC graphs available for testing.
+Versão 0.1.1 (09-04-2025):
+* Corrigido o carregamento offline das imagens do grafo.
+* Corrigida a portabilidade da geração do arquivo _arquivo_sinarc.zip_.
+* Disponibilizadas versões online de grafos do SINARC para teste.
 <br>
 
-Version 0.1.0 (2024-11-14):
-* Initial beta version.
+Versão 0.1.0 (14-11-2024):
+* Versão beta inicial.
 <br>
 
 
