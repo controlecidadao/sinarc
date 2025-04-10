@@ -116,7 +116,7 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 6) **Posicione o ponteiro do mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela;
 7) Clique sobre um nó de pessoa jurídica (ícone de prédio ou de globo) para selecioná-lo e pressione a **tecla d** (minúscula) para abrir uma janela com detalhes sobre a empresa;
 8) Para recarregar a página e retornar o grafo ao seu estado inicial, pressione **F5**.
-9) Para a relação completa de comandos e funcionalidades, consulte o item 8, [Uso do Mouse e do Teclado](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html#uso_do_mouse) do [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html). Para abrir o manual, pressione a **tecla h** (minúscula) estando na janela do grafo.
+9) Para a relação completa de comandos e funcionalidades, consulte o item 8, [Uso do Mouse e do Teclado](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html#uso_do_mouse) do [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html). Para abrir o manual estando na janela do grafo, pressione a **tecla h** (minúscula).
 
   
 
