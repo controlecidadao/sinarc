@@ -3,7 +3,7 @@
 #                     S I N A R C
 #    Sistema Integrado de Análise de Redes Complexas
 #########################################################
- 
+
 
 #######################
 # DESCRIÇÃO DO PROGRAMA
@@ -121,24 +121,19 @@ with open(f"{tempdir}/{name}", "w+") as out:
 # ALTERAÇÕES REALIZADAS NOS ARQUIVOS DO REDE CNPJ
 #################################################
 
-# ARQUIVO: 'SINARC\rede-cnpj-master\rede\rede.ini'
+# ARQUIVO: 'E:\rede-cnpj-master\rede\rede.ini'
 
-# parametros para o flask-limiter (COMENTADO POR SINARC - PADRÃO)
+# parametros para o flask-limiter (COMENTADO POR WALTER - PADRÃO)
 #limiter_padrao =2/second;20/minute;200/hour;400/day
 #limiter_dados =10/second;600/minute
 #limiter_arquivos =2/minute;30/hour;100/day
 
-# parametros para o flask-limiter (INCLUÍDO POR SINARC - x1000)
+# parametros para o flask-limiter (INCLUÍDO POR WALTER - x1000)
 """
 limiter_padrao =2000/second;20000/minute;200000/hour;400000/day
 limiter_dados =10000/second;600000/minute
 limiter_arquivos =2000/minute;30000/hour;100000/day
 """
-
-# ARQUIVO: SINARC\rede-cnpj-master\rede\rede.py
-
-# app.run(host='0.0.0.0',debug=True, use_reloader=False, port=porta) # Parâmetro 'use_realoader' alterado para 'False'. Em 'True' faz com que uma segunda aba do navegador seja aberta.
-
 
 # ===============================================
 
@@ -1033,7 +1028,6 @@ def cria_dataframes(parametro, num_camada=''):
         #    i = i.lower()
 
 
-
         # LINK PARA CONSULTA ONLINE À REDE CNPJ
         #link = fr'https://www.redecnpj.com.br/rede/grafojson/cnpj/{num_camada}/{i}'
 
@@ -1448,70 +1442,72 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
     # O objetivo é salvar os arquivos no diretório local para não precisar baixar novamente e, assim, reduzir o tempo de execução do programa.
     # No entanto, essa redução de tempo não foi verificada na prática.
     # Como a consulta à API é realizada via internet, sempre será necessário ter acesso à internet para realizar novas consultas, mesmo que as imagens já estejam salvas no computador.
-    # QUANDO TIVERMOS NOSSA PRÓPRIA API, TEREMOS QUE DISPONIBILIZAR AS IMAGENS TAMBÉM, PRINCIPALMENTE AQUELAS QUE DECORREM DE COMBINAÇÃO DE IMAGENS
 
     # Endereço do logo do SINARC: https://cdn-icons-png.flaticon.com/512/4803/4803070.png
 
-    if not os.path.isfile('pf_homem.png'):
+    # Obtem o diretório atual
+    diretorio = os.getcwd()
+
+    if not os.path.isfile(fr'{diretorio}\images\pf_homem.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/3220/3220358.png', verify=False)
         pf_homem = Image.open(BytesIO(response.content))
-        pf_homem.save('pf_homem.png')
+        pf_homem.save(fr'{diretorio}\images\pf_homem.png')
 
     # Abre arquivo PNG e atribui ele à variável que será usada mais adiante para armazenar a sobreposição de imagens. Essa sobreposição utiliza método 'inplace'
-    pf_homem_com_bandeira = Image.open('pf_homem.png')
+    pf_homem_com_bandeira = Image.open(fr'{diretorio}\images\pf_homem.png')
 
-    if not os.path.isfile('pf_mulher.png'):
+    if not os.path.isfile(fr'{diretorio}\images\pf_mulher.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/3220/3220315.png', verify=False)
         pf_mulher = Image.open(BytesIO(response.content))
-        pf_mulher.save('pf_mulher.png')
-    pf_mulher_com_bandeira = Image.open('pf_mulher.png')
+        pf_mulher.save(fr'{diretorio}\images\pf_mulher.png')
+    pf_mulher_com_bandeira = Image.open(fr'{diretorio}\images\pf_mulher.png')
 
-    if not os.path.isfile('pj_exterior_ativa.png'):
+    if not os.path.isfile(fr'{diretorio}\images\pj_exterior_ativa.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/4402/4402353.png', verify=False)
         pj_exterior_ativa = Image.open(BytesIO(response.content))
-        pj_exterior_ativa.save('pj_exterior_ativa.png')
-    pj_exterior_ativa_com_bandeira = Image.open('pj_exterior_ativa.png')
+        pj_exterior_ativa.save(fr'{diretorio}\images\pj_exterior_ativa.png')
+    pj_exterior_ativa_com_bandeira = Image.open(fr'{diretorio}\images\pj_exterior_ativa.png')
 
-    if not os.path.isfile('pj_exterior_inativa.png'):
+    if not os.path.isfile(fr'{diretorio}\images\pj_exterior_inativa.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/4400/4400008.png', verify=False)
         pj_exterior_inativa = Image.open(BytesIO(response.content))
-        pj_exterior_inativa.save('pj_exterior_inativa.png')
-    pj_exterior_inativa_com_bandeira = Image.open('pj_exterior_inativa.png')
+        pj_exterior_inativa.save(fr'{diretorio}\images\pj_exterior_inativa.png')
+    pj_exterior_inativa_com_bandeira = Image.open(fr'{diretorio}\images\pj_exterior_inativa.png')
 
-    if not os.path.isfile('pj_brasil_ativa.png'):
+    if not os.path.isfile(fr'{diretorio}\images\pj_brasil_ativa.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/1684/1684121.png', verify=False)
         pj_brasil_ativa = Image.open(BytesIO(response.content))
-        pj_brasil_ativa.save('pj_brasil_ativa.png')
-    pj_brasil_ativa_com_bandeira = Image.open('pj_brasil_ativa.png')
+        pj_brasil_ativa.save(fr'{diretorio}\images\pj_brasil_ativa.png')
+    pj_brasil_ativa_com_bandeira = Image.open(fr'{diretorio}\images\pj_brasil_ativa.png')
 
-    if not os.path.isfile('pj_brasil_inativa.png'):
+    if not os.path.isfile(fr'{diretorio}\images\pj_brasil_inativa.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/1684/1684019.png', verify=False)
         pj_brasil_inativa = Image.open(BytesIO(response.content))
-        pj_brasil_inativa.save('pj_brasil_inativa.png')
-    pj_brasil_inativa_com_bandeira = Image.open('pj_brasil_inativa.png')
+        pj_brasil_inativa.save(fr'{diretorio}\images\pj_brasil_inativa.png')
+    pj_brasil_inativa_com_bandeira = Image.open(fr'{diretorio}\images\pj_brasil_inativa.png')
 
-    if not os.path.isfile('endereco.png'):
+    if not os.path.isfile(fr'{diretorio}\images\endereco.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/83/83909.png', verify=False)
         endereco = Image.open(BytesIO(response.content))
-        endereco.save('endereco.png')
+        endereco.save(fr'{diretorio}\images\endereco.png')
 
-    if not os.path.isfile('email.png'):
+    if not os.path.isfile(fr'{diretorio}\images\email.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/3059/3059410.png', verify=False)
         email = Image.open(BytesIO(response.content))
-        email.save('email.png')
+        email.save(fr'{diretorio}\images\email.png')
 
-    if not os.path.isfile('telefone.png'):
+    if not os.path.isfile(fr'{diretorio}\images\telefone.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/159/159832.png', verify=False)
         telefone = Image.open(BytesIO(response.content))
-        telefone.save('telefone.png')
+        telefone.save(fr'{diretorio}\images\telefone.png')
 
-    if not os.path.isfile('bandeira_vermelha.png'):
+    if not os.path.isfile(fr'{diretorio}\images\bandeira_vermelha.png'):
         response = requests.get('https://cdn-icons-png.flaticon.com/512/395/395841.png', verify=False)
         bandeira_vermelha = Image.open(BytesIO(response.content))
-        bandeira_vermelha.save('bandeira_vermelha.png')
+        bandeira_vermelha.save(fr'{diretorio}\images\bandeira_vermelha.png')
 
     # Abre imagem PNG da bandeira vermelha, usada de forma sobreposta a outras imagens.
-    bandeira_vermelha = Image.open('bandeira_vermelha.png')
+    bandeira_vermelha = Image.open(fr'{diretorio}\images\bandeira_vermelha.png')
 
     # Redefine tamanho da imagem
     bandeira_vermelha = bandeira_vermelha.resize((400, 400))
@@ -1523,22 +1519,22 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
     pf_homem_com_bandeira.paste(bandeira_vermelha, (-58, 210), bandeira_vermelha) 
     
     # Salva imagens sobrepostas como um novo arquivo
-    pf_homem_com_bandeira.save("pf_homem_com_bandeira.png")
+    pf_homem_com_bandeira.save(fr"{diretorio}\images\pf_homem_com_bandeira.png")
 
     pf_mulher_com_bandeira.paste(bandeira_vermelha, (-58, 210), bandeira_vermelha)
-    pf_mulher_com_bandeira.save("pf_mulher_com_bandeira.png")
+    pf_mulher_com_bandeira.save(fr"{diretorio}\images\pf_mulher_com_bandeira.png")
 
     pj_exterior_ativa_com_bandeira.paste(bandeira_vermelha, (-58, 210), bandeira_vermelha)
-    pj_exterior_ativa_com_bandeira.save("pj_exterior_ativa_com_bandeira.png")
+    pj_exterior_ativa_com_bandeira.save(fr"{diretorio}\images\pj_exterior_ativa_com_bandeira.png")
 
     pj_exterior_inativa_com_bandeira.paste(bandeira_vermelha, (-58, 210), bandeira_vermelha)
-    pj_exterior_inativa_com_bandeira.save("pj_exterior_inativa_com_bandeira.png")
+    pj_exterior_inativa_com_bandeira.save(fr"{diretorio}\images\pj_exterior_inativa_com_bandeira.png")
 
     pj_brasil_ativa_com_bandeira.paste(bandeira_vermelha, (-58, 210), bandeira_vermelha)
-    pj_brasil_ativa_com_bandeira.save("pj_brasil_ativa_com_bandeira.png")
+    pj_brasil_ativa_com_bandeira.save(fr"{diretorio}\images\pj_brasil_ativa_com_bandeira.png")
 
     pj_brasil_inativa_com_bandeira.paste(bandeira_vermelha, (-58, 210), bandeira_vermelha)
-    pj_brasil_inativa_com_bandeira.save("pj_brasil_inativa_com_bandeira.png")
+    pj_brasil_inativa_com_bandeira.save(fr"{diretorio}\images\pj_brasil_inativa_com_bandeira.png")
 
 
 
@@ -1732,16 +1728,16 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
             # Inclui imagem de homem
             if df_no.loc[df_no['id'] == i, 'sexo'].iloc[0] == 1.0 or df_no.loc[df_no['id'] == i, 'sexo'].iloc[0] == 0.0:  # homem
                 if dividas == '':
-                    G.nodes[i]['image'] = 'pf_homem.png'
+                    G.nodes[i]['image'] = r'images\pf_homem.png'
                 else:
-                    G.nodes[i]['image'] = 'pf_homem_com_bandeira.png'
+                    G.nodes[i]['image'] = r'images\pf_homem_com_bandeira.png'
 
             # Inclui imagem de mulher
             elif df_no.loc[df_no['id'] == i, 'sexo'].iloc[0] == 2.0:  # mulher
                 if dividas == '':
-                    G.nodes[i]['image'] = 'pf_mulher.png'
+                    G.nodes[i]['image'] = r'images\pf_mulher.png'
                 else:
-                    G.nodes[i]['image'] = 'pf_mulher_com_bandeira.png'
+                    G.nodes[i]['image'] = r'images\pf_mulher_com_bandeira.png'
 
             G.nodes[i]['shape'] = 'image'
 
@@ -1812,27 +1808,27 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                 #G.nodes[i]['image'] = 'pj_exterior_ativa.png' #'https://cdn-icons-png.flaticon.com/512/4402/4402353.png'
 
                 if dividas == '':
-                    G.nodes[i]['image'] = 'pj_exterior_ativa.png'
+                    G.nodes[i]['image'] = r'images\pj_exterior_ativa.png'
                 else:
-                    G.nodes[i]['image'] = 'pj_exterior_ativa_com_bandeira.png'
+                    G.nodes[i]['image'] = r'images\pj_exterior_ativa_com_bandeira.png'
 
             # Pessoa jurídica domiciliada no exterior baixada
             elif df_no.loc[df_no['id'] == i, 'uf'].iloc[0] == 'EX' and df_no.loc[df_no['id'] == i, 'situacao_ativa'].iloc[0] == False:
                 #G.nodes[i]['image'] = 'pj_exterior_inativa.png' #'https://cdn-icons-png.flaticon.com/512/4400/4400008.png'
                 
                 if dividas == '':
-                    G.nodes[i]['image'] = 'pj_exterior_inativa.png'
+                    G.nodes[i]['image'] = r'images\pj_exterior_inativa.png'
                 else:
-                    G.nodes[i]['image'] = 'pj_exterior_inativa_com_bandeira.png'
+                    G.nodes[i]['image'] = r'images\pj_exterior_inativa_com_bandeira.png'
 
             # Pessoa jurídica domiciliada no Brasil ativa (condição verificada somente se as anteriores não forem satisfeitas: primeiro ver exterior)
             elif df_no.loc[df_no['id'] == i, 'situacao_ativa'].iloc[0] == True:
-                G.nodes[i]['image'] = 'pj_brasil_ativa.png' #'https://cdn-icons-png.flaticon.com/512/1684/1684121.png'
+                G.nodes[i]['image'] = r'images\pj_brasil_ativa.png' #'https://cdn-icons-png.flaticon.com/512/1684/1684121.png'
 
                 if dividas == '':
-                    G.nodes[i]['image'] = 'pj_brasil_ativa.png'
+                    G.nodes[i]['image'] = r'images\pj_brasil_ativa.png'
                 else:
-                    G.nodes[i]['image'] = 'pj_brasil_ativa_com_bandeira.png'
+                    G.nodes[i]['image'] = r'images\pj_brasil_ativa_com_bandeira.png'
                     #G.nodes[i]['image'] = json.dumps(str(pj_brasil_ativa_com_bandeira_2.tobitmap()))
 
 
@@ -1841,9 +1837,9 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                 #G.nodes[i]['image'] = 'pj_brasil_inativa.png' #'https://cdn-icons-png.flaticon.com/512/1684/1684019.png'
 
                 if dividas == '':
-                    G.nodes[i]['image'] = 'pj_brasil_inativa.png'
+                    G.nodes[i]['image'] = r'images\pj_brasil_inativa.png'
                 else:
-                    G.nodes[i]['image'] = 'pj_brasil_inativa_com_bandeira.png'
+                    G.nodes[i]['image'] = r'images\pj_brasil_inativa_com_bandeira.png'
 
             G.nodes[i]['shape'] = 'image'
 
@@ -1917,9 +1913,9 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
             #G.nodes[i]['image'] = 'pj_exterior_ativa.png' #'https://cdn-icons-png.flaticon.com/512/4402/4402353.png'
 
             if dividas == '':
-                G.nodes[i]['image'] = 'pj_exterior_ativa.png'
+                G.nodes[i]['image'] = r'images\pj_exterior_ativa.png'
             else:
-                G.nodes[i]['image'] = 'pj_exterior_ativa_com_bandeira.png'
+                G.nodes[i]['image'] = r'images\pj_exterior_ativa_com_bandeira.png'
 
             G.nodes[i]['shape'] = 'image'
 
@@ -1955,7 +1951,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
 
         # EMAIL ######################################################################
         elif i[:3] == 'EM_':
-            G.nodes[i]['image'] = 'email.png' #'https://cdn-icons-png.flaticon.com/512/3059/3059410.png'
+            G.nodes[i]['image'] = r'images\email.png' #'https://cdn-icons-png.flaticon.com/512/3059/3059410.png'
             G.nodes[i]['shape'] = 'image'
             lista_no = ['<-- ' + x[:3] + df_no.loc[df_no["id"] == x, "descricao"].iloc[0] for x in nx.all_neighbors(G, i)]
             lista_no = sorted(lista_no)
@@ -1967,7 +1963,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
 
         # ENDEREÇO ####################################################################
         elif i[:3] == 'EN_':
-            G.nodes[i]['image'] = 'endereco.png' #'https://cdn-icons-png.flaticon.com/512/83/83909.png'
+            G.nodes[i]['image'] = r'images\endereco.png' #'https://cdn-icons-png.flaticon.com/512/83/83909.png'
             G.nodes[i]['shape'] = 'image'
             lista_no = ['<-- ' + x[:3] + df_no.loc[df_no["id"] == x, "descricao"].iloc[0] for x in nx.all_neighbors(G, i)]
             lista_no = sorted(lista_no)
@@ -1979,7 +1975,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
 
         # TELEFONE ###################################################################
         elif i[:3] == 'TE_':
-            G.nodes[i]['image'] = 'telefone.png' #'https://cdn-icons-png.flaticon.com/512/159/159832.png'
+            G.nodes[i]['image'] = r'images\telefone.png' #'https://cdn-icons-png.flaticon.com/512/159/159832.png'
             G.nodes[i]['shape'] = 'image'
             lista_no = ['<-- ' + x[:3] + df_no.loc[df_no["id"] == x, "descricao"].iloc[0] for x in nx.all_neighbors(G, i)]
             lista_no = sorted(lista_no)
@@ -5730,7 +5726,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[0]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[0]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
                         }
@@ -5749,10 +5745,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[1]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[1]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[0]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[0]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5769,10 +5765,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[2]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[2]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[1]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[1]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5789,10 +5785,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[3]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[3]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[2]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[2]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5809,10 +5805,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[4]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[4]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[3]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[3]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5829,10 +5825,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[5]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[5]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[4]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[4]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5849,10 +5845,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[6]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[6]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[5]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[5]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5869,10 +5865,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[7]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[7]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[6]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[6]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5889,10 +5885,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[8]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[8]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[7]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[7]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5909,10 +5905,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[9]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[9]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[8]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[8]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5929,10 +5925,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[10]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[10]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[9]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[9]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5949,10 +5945,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[11]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[11]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[10]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[10]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5969,10 +5965,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[12]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[12]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[11]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[11]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -5989,10 +5985,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[13]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[13]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[12]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[12]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -6009,10 +6005,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[14]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[14]) {
                             nodes.update({id: temp_t[i], opacity: 1});
                             temp.push(temp_t[i]);
-                        } else if (network.body.nodes[temp_t[i]].options.image == img_names[13]) {
+                        } else if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[13]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -6029,7 +6025,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t[i]].options.image == img_names[14]) {
+                        if (network.body.nodes[temp_t[i]].options.image.split('\\\\').at(-1) == img_names[14]) {
                             nodes.update({id: temp_t[i], opacity: 0.1});
                         }
                     }
@@ -7188,7 +7184,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[0]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[0]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7210,7 +7206,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[1]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[1]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7231,7 +7227,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[2]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[2]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7252,7 +7248,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[3]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[3]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7273,7 +7269,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[4]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[4]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7294,7 +7290,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[5]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[5]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7315,7 +7311,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[6]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[6]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7336,7 +7332,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[7]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[7]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7357,7 +7353,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[8]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[8]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7378,7 +7374,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[9]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[9]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7399,7 +7395,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[10]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[10]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7420,7 +7416,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[11]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[11]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7441,7 +7437,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[12]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[12]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7462,7 +7458,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[13]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[13]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -7483,7 +7479,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             continue
                         }
 
-                        if (network.body.nodes[temp_t2[i]].options.image == img_names2[14]) {
+                        if (network.body.nodes[temp_t2[i]].options.image.split('\\\\').at(-1) == img_names2[14]) {
                             nos.push(temp_t2[i]);
                             temp.push(temp_t2[i]);
                         }
@@ -8225,26 +8221,44 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
     with ZipFile(f'{diretorio}/arquivo_sinarc.zip', 'w') as zip_object:
 
         # Adiciona arquivos ao arquivo ZIP criado
-        zip_object.write('bandeira_vermelha.png')
-        zip_object.write('pf_homem.png')
-        zip_object.write('pf_homem_com_bandeira.png')
-        zip_object.write('pf_mulher.png')
-        zip_object.write('pf_mulher_com_bandeira.png')
-        zip_object.write('pj_brasil_ativa.png')
-        zip_object.write('pj_brasil_ativa_com_bandeira.png')
-        zip_object.write('pj_brasil_inativa.png')
-        zip_object.write('pj_brasil_inativa_com_bandeira.png')
-        zip_object.write('pj_exterior_ativa.png')
-        zip_object.write('pj_exterior_ativa_com_bandeira.png')
-        zip_object.write('pj_exterior_inativa.png')
-        zip_object.write('pj_exterior_inativa_com_bandeira.png')
-        zip_object.write('telefone.png')
-        zip_object.write('email.png')
-        zip_object.write('endereco.png')
-        zip_object.write('print_screen.png')
+        # zip_object.write(r'images\bandeira_vermelha.png')
+        # zip_object.write(r'images\pf_homem.png')
+        # zip_object.write(r'images\pf_homem_com_bandeira.png')
+        # zip_object.write(r'images\pf_mulher.png')
+        # zip_object.write(r'images\pf_mulher_com_bandeira.png')
+        # zip_object.write(r'images\pj_brasil_ativa.png')
+        # zip_object.write(r'images\pj_brasil_ativa_com_bandeira.png')
+        # zip_object.write(r'images\pj_brasil_inativa.png')
+        # zip_object.write(r'images\pj_brasil_inativa_com_bandeira.png')
+        # zip_object.write(r'images\pj_exterior_ativa.png')
+        # zip_object.write(r'images\pj_exterior_ativa_com_bandeira.png')
+        # zip_object.write(r'images\pj_exterior_inativa.png')
+        # zip_object.write(r'images\pj_exterior_inativa_com_bandeira.png')
+        # zip_object.write(r'images\telefone.png')
+        # zip_object.write(r'images\email.png')
+        # zip_object.write(r'images\endereco.png')
+        # zip_object.write(r'images\print_screen.png')
+
         zip_object.write('logo.png')
         zip_object.write('help.html')
         zip_object.write('grafo_final.html')
+
+        # Caminho da pasta que contém as subpastas "pyvis" e "images"
+        pasta_local = f'{diretorio}'
+
+        # Subpastas que devem ser incluídas no arquivo zip
+        subpastas_incluidas = {'pyvis', 'images'}
+
+        for root, dirs, files in os.walk(pasta_local):
+            # Filtrar apenas as subpastas desejadas
+            if any(subpasta in root for subpasta in subpastas_incluidas):
+                for file in files:
+                    # Caminho completo do arquivo
+                    file_path = os.path.join(root, file)
+                    # Caminho relativo ao arquivo dentro do zip (preserva a estrutura de pastas)
+                    arcname = os.path.relpath(file_path, start=pasta_local)
+                    # Adicionar o arquivo ao zip
+                    zip_object.write(file_path, arcname)
 
 import traceback
 def main():
