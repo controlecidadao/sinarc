@@ -1,6 +1,6 @@
-![v](https://img.shields.io/badge/Version-0.1.0-blue)
+![v](https://img.shields.io/badge/Version-0.1.1-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![v](https://img.shields.io/badge/Updated-November%2014,%20%202024-green)
+![v](https://img.shields.io/badge/Updated-April%2009,%20%202025-green)
 
 <!--![](https://komarev.com/ghpvc/?username=controlecidadao&abbreviated=true&label=Views)-->
 <!-- Fonte: https://github.com/antonkomarev/github-profile-views-counter-->
@@ -290,7 +290,28 @@ Relação de sites contendo informações (nomes de pessoas físicas, jurídicas
 
 * [Empresas por município](https://cadastroempresa.com.br/)
 
+
 <br><br>
+## 📝 Version History and Future Improvements
+
+<details>
+<summary>Versions</summary>
+
+<br><br>
+🗓️ **Code Versions:**
+
+<br>
+
+Version 0.1.1 (2025-04-09):
+* Fixed offline image loading.
+* Fixed zip file generation.
+* Online version of SINARC graphs available for testing.
+<br>
+
+Version 0.1.0 (2024-11-14):
+* Initial beta version.
+<br>
+
 
 <!--## 🚧 Página em Construção...-->
 
