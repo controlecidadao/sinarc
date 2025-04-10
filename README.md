@@ -108,14 +108,17 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <br>
 
 Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
-1) Abra um dos links destes exemplos ([Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html), [Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html), [Exemplo 3](https://controlecidadao.github.io/sinarc/exemplo3.html), [Exemplo 4](https://controlecidadao.github.io/sinarc/garoto1.html) ou [Exemplo 5](https://controlecidadao.github.io/sinarc/garoto2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido;
+1) Abra um o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/garoto2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Outros exemplos de grafos ([Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html), [Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html), [Exemplo 3](https://controlecidadao.github.io/sinarc/exemplo3.html), [Exemplo 4](https://controlecidadao.github.io/sinarc/garoto1.html));
 2) Pressione a **tecla Espaço** 16 vezes, espaçadamente, até que o número no canto superior direito da tela reduza de 100 para 25. Esta função aumenta a massa dos nós com base no seu tamanho (do maior para o menor), melhorando progressivamente a visualização do grafo no layout gravitacional;
-3) Pressione a **tecla z** (minúscula) para ativar/desativar o modo automático de visualização;
-4) Após desativar o modo automático de visualização, use o **botão de rolagem do mouse** para aproximar e afastar o grafo;
-5) **Posicione o ponteiro do mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela;
-6) Clique sobre um nó de pessoa jurídica (ícone de prédio ou de globo) para selecioná-lo e pressione a **tecla d** (minúscula) para abrir uma janela com detalhes sobre a empresa;
-7) Para recarregar a página e retornar o grafo ao seu estado inicial, pressione **F5**.
-8) Para a relação completa de comandos e funcionalidades, consulte o item 8, [Uso do Mouse e do Teclado](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html#uso_do_mouse) do [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html). Para abrir o manual, pressione a **tecla h** (minúscula) estando na janela do grafo.
+3) Pressione a tecla **Esc** para ajustar o grafo à janela de visualização;
+4) Pressione a **tecla z** (minúscula) para ativar/desativar o modo automático de visualização;
+5) Após desativar o modo automático de visualização, use o **botão de rolagem do mouse** para aproximar e afastar o grafo;
+6) **Posicione o ponteiro do mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela;
+7) Clique sobre um nó de pessoa jurídica (ícone de prédio ou de globo) para selecioná-lo e pressione a **tecla d** (minúscula) para abrir uma janela com detalhes sobre a empresa;
+8) Para recarregar a página e retornar o grafo ao seu estado inicial, pressione **F5**.
+9) Para a relação completa de comandos e funcionalidades, consulte o item 8, [Uso do Mouse e do Teclado](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html#uso_do_mouse) do [Manual do SINARC](https://htmlpreview.github.io/?https://github.com/controlecidadao/sinarc/blob/main/help.html). Para abrir o manual, pressione a **tecla h** (minúscula) estando na janela do grafo.
+
+  
 
 Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
 
