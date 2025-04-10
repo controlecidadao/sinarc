@@ -292,7 +292,7 @@ Relação de sites contendo informações (nomes de pessoas físicas, jurídicas
 
 
 <br><br>
-## 📝 Version History
+## 📝 Version history
 
 <details>
 <summary>Versions</summary>
