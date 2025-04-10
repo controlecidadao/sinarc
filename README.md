@@ -303,8 +303,8 @@ Relação de sites contendo informações (nomes de pessoas físicas, jurídicas
 <br>
 
 Version 0.1.1 (2025-04-09):
-* Fixed offline image loading.
-* Fixed zip file generation.
+* Fixed offline graph images loading.
+* Fixed the portable _arquivo_sinarc.zip_ file generation.
 * Online version of SINARC graphs available for testing.
 <br>
 
