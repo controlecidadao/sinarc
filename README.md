@@ -305,7 +305,6 @@ Relação de sites contendo informações (nomes de pessoas físicas, jurídicas
 Versão 0.1.1 (09-04-2025):
 * Corrigido o carregamento offline das imagens do grafo.
 * Corrigida a portabilidade na geração do arquivo _arquivo_sinarc.zip_.
-* Disponibilizadas versões online de grafos do SINARC para teste.
 <br>
 
 Versão 0.1.0 (14-11-2024):
