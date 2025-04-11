@@ -3838,8 +3838,9 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                             // PARA CONSULTA DE PESSOA FÍSICA
                             } else if (sel[i].slice(0, 3) == "PF_") {
                                 var nome_socio = sel[i].slice(15);
-                                nome_socio = nome_socio.replaceAll(' ', '-');
-                                var link = "http://www.consultasocio.com/q/sa/" + nome_socio;
+                                nome_socio = nome_socio.replaceAll(' ', '+');
+                                //var link = "http://www.consultasocio.com/q/sa/" + nome_socio;
+                                var link = "https://www.diretoriobrasil.net/buscar-socio/?termo=" + nome_socio + "&acao=Buscar"
                                 window.open(link, 'popup','left=50,top=100,width=600,height=600');
                             }
 
