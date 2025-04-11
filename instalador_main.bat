@@ -10,7 +10,7 @@ chcp 65001
 title Instalação do SINARC
 
 
-
+ 
 @echo.
 @echo.
 @echo ==============================
