@@ -138,7 +138,7 @@ Mova a nova aba contendo o grafo para um segundo monitor ou posicione-a lado a l
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, combine Shift + a tecla desejada.<br>
 Execute os comandos na sequência indicada abaixo.<br>
-A descrição dos comandos realizados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
+A descrição dos comandos realizados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s. Ao executar os comandos, observe a sua descrição.
 
 1) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes);
 2) **Tecla b** --> Ajusta a altura da área do grafo à altura da janela do navegador;
@@ -147,6 +147,14 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 5) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes);
 6) **Mouse** --> Posicione o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
 7) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
+8) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
+9) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar o nó selecionado;
+10) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressiona e clique sobre alguns nós para selecioná-los;
+11) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar todos os nós selecionado;
+12) **Mouse** --> Gire o botão de rolagem para a frente para afastar o grafo;
+13) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+14) **Mouse** --> Gire o botão de rolagem para trás para aproximar o grafo;
+15) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 
 Posição dos nós: F5 k K f p Clique+Arrasto Shift+(L/R) ] [ m M Espaço n N Shift+(U/D)
 
@@ -154,7 +162,7 @@ Posição dos nós: F5 k K f p Clique+Arrasto Shift+(L/R) ] [ m M Espaço n N Sh
 
 <br>
 
-Este tutorial abordou apenas os camandos incorporados ao grafo que não dependem de nova consulta aos bancos de dados.
+Este breve tutorial abordou apenas parte dos camandos incorporados ao grafo que não dependem de nova consulta aos bancos de dados.
 Para mais detalhes sobre a função de cada comando, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
 
 <br>
