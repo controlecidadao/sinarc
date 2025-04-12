@@ -144,7 +144,7 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 
 <br>
 
-**Comandos básicos:**
+**Sequência de comandos básicos:**
 
 1) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
 2) **Tecla Escape** --> Encaixa o grafo no centro da tela;
