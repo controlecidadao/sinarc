@@ -143,7 +143,7 @@ Execute os comandos na sequência indicada abaixo.<br>
 
 A descrição dos comandos realizados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s. Ao executar os comandos, observe a sua descrição.
 
-<br>
+<br><br>
 
 **Sequência de comandos básicos:**
 
@@ -176,8 +176,13 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 27) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar apenas suas conexões e nós adjacentes;
 28) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 
+<br><br>
 
 **Sequência de comandos intermediários:**
+
+1) **Mouse** --> Clique sobre o nó de maior tamanho para selecioná-lo, arraste-o até um dos cantos da tela e solte-o. Observe o retorno do grafo ao centro da tela.
+2) **Tecla p** --> Ativa/desativa os movimentos do grafo, permitindo o reposicionamento manual dos nós. Repita o comando anterior e pressione a tecla p durante o retorno do grafo ao centro da tela. Quando pararem os movimentos, clique sobre um nó para selecioná-lo e arraste-o para outra posição. Ao final, pressione a tecla p novamente para liberar os movimentos do grafo;
+3) **Tecla f** --> Ativa/desativa os movimentos apenas dos nós selecionados. Selecione um nó, pressione a tecla f e arraste-o para fixá-lo em um canto da tela. Selecione outro nó, pressione a tecla f e arraste-o para o outro canto da tela. Ao final, selecione os nós fixados e pressione a tecla f. 
 
 
 <!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
