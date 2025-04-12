@@ -154,19 +154,20 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 5) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 6) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
 7) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes);
-8) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes)
-9) **Mouse** --> Posicione o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
-10) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
-11) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
-12) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar o nó selecionado;
-13) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressiona e clique sobre alguns nós para selecioná-los;
-14) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar todos os nós selecionado;
-15) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
-16) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-17) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
-18) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-19) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, pressione a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
-20) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+8) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+9) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes)
+10) **Mouse** --> Posicione o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
+11) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
+12) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
+13) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar o nó selecionado;
+14) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressiona e clique sobre alguns nós para selecioná-los;
+15) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar todos os nós selecionado;
+16) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
+17) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+18) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
+19) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+20) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, pressione a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
+21) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 
 
 <!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
