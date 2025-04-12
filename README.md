@@ -130,8 +130,10 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 
 🚧 Tópico em Construção 🚧
 
-<br>
+1) Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido;
+2) **Tecla F5** - Recarrega a página, exibindo o grafo em uma posição aleatória;
 
+<br>
 </details>
 
 
