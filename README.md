@@ -146,32 +146,34 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 
 **Comandos básicos:**
 
-1) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes);
+1) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
 2) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-3) **Tecla b** --> Ajusta a altura da área do grafo à altura da janela do navegador;
+3) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
 4) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-5) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
-6) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes);
-7) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes);
-8) **Mouse** --> Posicione o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
-9) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
-10) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
-11) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar o nó selecionado;
-12) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressiona e clique sobre alguns nós para selecioná-los;
-13) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar todos os nós selecionado;
-14) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
-15) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-16) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
+5) **Tecla b** --> Ajusta a altura da área do grafo à altura da janela do navegador;
+6) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+7) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
+8) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes);
+9) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes);
+10) **Mouse** --> Posicione o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
+11) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
+12) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
+13) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar o nó selecionado;
+14) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressiona e clique sobre alguns nós para selecioná-los;
+15) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar todos os nós selecionado;
+16) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
 17) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-18) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, pressione a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
+18) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
 19) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+20) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, pressione a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
+21) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 
 
 <!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
 
 <br>
 
-Este breve tutorial abordou apenas parte dos camandos incorporados ao grafo que não dependem de nova consulta aos bancos de dados.
+Este breve tutorial abordou apenas parte dos camandos incorporados ao grafo que não dependem de nova consulta aos bancos de dados. Estes comandos podem ser executados nos arquivos gerados pelo SINARC para compartilhamento.
 Para mais detalhes sobre a função de cada comando, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
 
 <br>
