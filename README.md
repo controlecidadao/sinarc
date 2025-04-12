@@ -205,21 +205,35 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 16) **Tecla J** --> Seleciona nós adjacentes não comuns aos nós selecionados. Selecione dois nós e pressione a tecla J, seguido da tecla "," para ver os rótulos dos nós não comuns;
 17) **Tecla Q** --> Seleciona nós-alvos (com borda vermelha);
 18) **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes);
-19) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
-20) **Tecla n** --> Aumenta massa dos nós com tamanho maior ou igual ao tamanho de referência (tamanho de referência padrão = 40) (pressione 5 vezes);
-21) **Tecla N** --> Aumenta massa dos nós com tamanho maior ou igual ao tamanho de referência (tamanho de referência padrão = 40) (pressione 5 vezes);
-22) **Tecla Shift + Tecla Seta p/ Cima** --> Aumenta valor do tamanho de referência em 5 unidades;
-23) **Tecla Shift + Tecla Seta p/ Baixo** --> Diminui valor do tamanho de referência em 5 unidades;
-24) **Tecla ]** --> Aumenta valor do tamanho dos nós selecionados em 5 unidades;
-25) **Tecla [** --> Diminui valor do tamanho dos nós selecionados em 5 unidades;
-26) , iniciando pelo maior nó (tamanho 100) e indo até o menor nó (tamanho 20);
+19) **Tecla ;** --> Alterna seleção entre os nós de origem e de destina das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes;
+20) **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados;
+21) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+22) **Tecla n** --> Aumenta massa dos nós com tamanho maior ou igual ao tamanho de referência (tamanho de referência padrão = 40) (pressione 5 vezes);
+23) **Tecla N** --> Aumenta massa dos nós com tamanho maior ou igual ao tamanho de referência (tamanho de referência padrão = 40) (pressione 5 vezes);
+24) **Tecla Shift + Tecla Seta p/ Cima** --> Aumenta valor do tamanho de referência em 5 unidades;
+25) **Tecla Shift + Tecla Seta p/ Baixo** --> Diminui valor do tamanho de referência em 5 unidades;
+26) **Tecla ]** --> Aumenta valor do tamanho dos nós selecionados em 5 unidades. Selecione um nó com apenas uma aresta e pressione a tecla ] 2 vezes;
+27) **Tecla [** --> Diminui valor do tamanho dos nós selecionados em 5 unidades (pressione 2 vezes);
 
+<br><br>
+
+**Terceira sequência de comandos:**
+
+1) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+2) **Tecla Espaço** --> Aumenta a massa dos nós de forma proporcional ao seu tamanho, iniciando pelo maior (tamanho 100) e indo até o menor (tamanho 20) (pressione 16 vezes).
+3) **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela;
+4) **Tecla q** --> Abre popup para pesquisar por rótulos dos nós no grafo. Pressione a tecla Enter para pesquisar por rótulos das arestas.
+
+
+28) , iniciando pelo maior nó (tamanho 100) e indo até o menor nó (tamanho 20);
+
+Comandos que dependem de consulta ao banco de dados: Teclas o, O, s, y, 
 
 <!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
 
 <br>
 
-Este breve tutorial abordou apenas parte dos camandos incorporados ao grafo que não dependem de nova consulta aos bancos de dados. Estes comandos podem ser executados nos arquivos gerados pelo SINARC para compartilhamento.
+Este breve tutorial abordou apenas os camandos que não dependem de nova consulta aos bancos de dados. Estes comandos podem ser executados nos arquivos gerados pelo SINARC para compartilhamento.
 Para mais detalhes sobre a função de cada comando, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
 
 <br>
