@@ -151,9 +151,9 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 9) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar o nó selecionado;
 10) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressiona e clique sobre alguns nós para selecioná-los;
 11) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar todos os nós selecionado;
-12) **Mouse** --> Gire o botão de rolagem para a frente para afastar o grafo;
+12) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
 13) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-14) **Mouse** --> Gire o botão de rolagem para trás para aproximar o grafo;
+14) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
 15) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 
 Posição dos nós: F5 k K f p Clique+Arrasto Shift+(L/R) ] [ m M Espaço n N Shift+(U/D)
