@@ -194,6 +194,8 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 5) **Tecla Espaço** --> Aumenta a massa dos nós de forma proporcional ao seu tamanho, iniciando pelo maior (pressione 16 vezes).
 6) **Tecla c** --> Aproxima o nó selecionado e encaixa na tela seus nós adjacentes. Selecione um nó do grafo e pressione a tecla c por 2 vezes;
 7) **Tecla i** --> Alterna entre os nós selecionados, aproximando de cada um deles. Selecione 3 nós no grafo (Ctrl + clique) e pressione a tecla i por 3 vezes;
+8) **Tecla a** --> Seleciona todos os nós do grafo simultaneamente;
+9) **Tecla ,** --> Abre janela contendo os rótulos de todos os nós selecionados, segregados por tipo de nó;
 
 
 <!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
