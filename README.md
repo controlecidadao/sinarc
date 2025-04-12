@@ -133,7 +133,8 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 
 <br>
 
-Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido.<br>
+Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador, aguarde o grafo ser exibido e pressione a **tecla Escape** para encaixar o grafo no centro da tela.<br>
+
 Mova a nova aba contendo o grafo para um segundo monitor ou posicione-a lado a lado com a aba destas instruções.<br>
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, combine Shift + a tecla desejada.<br>
