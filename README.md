@@ -133,7 +133,7 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 
 <br>
 
-O objetivo deste tutorial é demonstrar a utilização de todos os comandos do SINARC que não dependem de consulta ao banco de dados.
+O objetivo deste tutorial é demonstrar o uso de todos os comandos do SINARC que não dependem de consulta ao banco de dados, utilizando um exemplo de grafo disponível online.
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, combine Shift + a tecla desejada.<br>
 
