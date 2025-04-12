@@ -121,7 +121,7 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 9) Para a relação completa de comandos e funcionalidades, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse) do [Manual do SINARC](https://controlecidadao.github.io/sinarc/help.html). Para abrir o manual estando na janela do grafo, pressione a **tecla h** (minúscula).
 
 <br><br>
-## Tutorial guiado
+## Tutorial guiado passo a passo
 
 <details>
    
@@ -139,6 +139,10 @@ Mova a nova aba contendo o grafo para um segundo monitor ou posicione-a lado a l
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, combine Shift + a tecla desejada.<br>
 Execute os comandos na sequência indicada abaixo.<br>
 A descrição dos comandos realizados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s. Ao executar os comandos, observe a sua descrição.
+
+<br>
+
+**Comandos básicos:**
 
 1) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes);
 2) **Tecla b** --> Ajusta a altura da área do grafo à altura da janela do navegador;
@@ -158,9 +162,8 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 16) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, pressione a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
 17) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 
-Posição dos nós: F5 k K f p Clique+Arrasto Shift+(L/R) ] [ m M Espaço n N Shift+(U/D)
 
-1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);
+<!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
 
 <br>
 
