@@ -130,7 +130,7 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 
 🚧 Tópico em Construção 🚧
 
-Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Na sequência, pressione as teclas na sequência indicada:
+Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Mova a nova aba para um segundo monitor ou posicione-a lado a lado com a aba destas instruções. Após, pressione as teclas na sequência indicada abaixo:
 
 1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);
 2) **Tecla F11** - Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes);
