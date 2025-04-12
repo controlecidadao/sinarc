@@ -167,7 +167,7 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 18) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 19) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
 20) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-21) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, pressione a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
+21) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
 22) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 
 
