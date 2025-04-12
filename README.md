@@ -105,7 +105,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <br><br>
 
-## SINARC Playground
+## Playground
 
 <br>
 
@@ -120,7 +120,20 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 8) Para recarregar a página e retornar o grafo ao seu estado inicial, pressione **tecla F5**.
 9) Para a relação completa de comandos e funcionalidades, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse) do [Manual do SINARC](https://controlecidadao.github.io/sinarc/help.html). Para abrir o manual estando na janela do grafo, pressione a **tecla h** (minúscula).
 
-  
+<br><br>
+## Tutorial guiado
+
+<details>
+<summary>Comandos do SINARC (clique para expandir)</summary>
+
+<br>
+
+🚧 Tópico em Construção 🚧
+
+<br>
+
+</details>
+
 
 <br><br>
 
