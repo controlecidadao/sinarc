@@ -133,13 +133,29 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 
 <br>
 
-Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Mova a nova aba para um segundo monitor ou posicione-a lado a lado com a aba destas instruções. Após, pressione as teclas na sequência indicada abaixo:
+Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido.<br>
+Mova a nova aba contendo o grafo para um segundo monitor ou posicione-a lado a lado com a aba destas instruções.<br>
+
+Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, combine Shift + a tecla desejada.<br>
+Execute os comandos na sequência indicada abaixo.<br>
+A descrição dos comandos realizados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
+
+1) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes);
+2) **Tecla b** --> Ajusta a altura da área do grafo à altura da janela do navegador;
+3) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
+4) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes);
+5) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes);
+6) **Mouse** --> Posicione o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
+7) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
+
+Posição dos nós: F5 k K f p Clique+Arrasto Shift+(L/R) ] [ m M Espaço n N Shift+(U/D)
 
 1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);
-2) **Tecla F11** - Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes);
-3) **Tecla b** - Ajusta a altura da área do grafo à altura da janela do navegador;
-4) **Tecla F5** - Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
-5) 
+
+<br>
+
+Este tutorial abordou apenas os camandos incorporados ao grafo que não dependem de nova consulta aos bancos de dados.
+Para mais detalhes sobre a função de cada comando, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
 
 <br>
 </details>
