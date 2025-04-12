@@ -27,7 +27,7 @@ Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibi
 Para acessar a fonte primária dos dados usados pelo SINARC, clique [aqui](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/). 
 Conheça também o [Dicionário de Dados](https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf) de CNPJ da Receita Federal.
 
-Todas as informações produzidas com o SINARC são de domínio público. Os exemplos apresentados foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente ilustrativo e servindo como referência no contexto educacional da produção de conhecimento a partir de fontes abertas. Links para sites externos foram incluídos apenas para ilustrar a possibilidade de ampliação das funcionalidades do SINARC.
+Todas as informações produzidas com o SINARC são de domínio público. Os exemplos apresentados foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente ilustrativo e servindo como referência no contexto educacional da produção de conhecimento a partir de fontes abertas. Links para sites externos foram incluídos apenas para ilustrar a possibilidade de ampliação das funcionalidades da ferramenta.
 
 <br><br>
 
