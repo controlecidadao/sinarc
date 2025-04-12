@@ -124,7 +124,10 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 ## Tutorial guiado
 
 <details>
+   
 <summary>Sequência demonstrativa de comandos do SINARC (clique para expandir)</summary>
+
+<br>
 
 🚧 Tópico em Construção 🚧
 
