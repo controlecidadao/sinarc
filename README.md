@@ -145,22 +145,24 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 **Comandos básicos:**
 
 1) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes);
-2) **Tecla b** --> Ajusta a altura da área do grafo à altura da janela do navegador;
-3) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
-4) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes);
-5) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes);
-6) **Mouse** --> Posicione o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
-7) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
-8) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
-9) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar o nó selecionado;
-10) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressiona e clique sobre alguns nós para selecioná-los;
-11) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar todos os nós selecionado;
-12) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
-13) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-14) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
+2) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+3) **Tecla b** --> Ajusta a altura da área do grafo à altura da janela do navegador;
+4) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+5) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
+6) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes);
+7) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes);
+8) **Mouse** --> Posicione o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
+9) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
+10) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
+11) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar o nó selecionado;
+12) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressiona e clique sobre alguns nós para selecioná-los;
+13) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar todos os nós selecionado;
+14) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
 15) **Tecla Escape** --> Encaixa o grafo no centro da tela;
-16) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, pressione a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
+16) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
 17) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+18) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, pressione a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
+19) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 
 
 <!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
