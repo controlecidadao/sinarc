@@ -171,6 +171,13 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 22) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 23) **Tecla e** --> Alterna entre os 7 tipos de visualização dos nós (pressione 7 vezes);
 24) **Tecla l (ele)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes);
+25) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 16 tipos de imagens do grafo (pressione 17 vezes);
+26) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+27) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar apenas suas conexões e nós adjacentes;
+28) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+
+
+**Sequência de comandos intermediários:**
 
 
 <!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
