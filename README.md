@@ -169,6 +169,8 @@ A descrição dos comandos realizados com o mouse e com o teclado é exibida no 
 20) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 21) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
 22) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+23) **Tecla e** --> Alterna entre os 7 tipos de visualização dos nós (pressione 7 vezes);
+24) **Tecla l (ele)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes);
 
 
 <!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
