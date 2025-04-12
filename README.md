@@ -105,7 +105,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <br><br>
 
-## Playground
+## SINARC playground
 
 <br>
 
@@ -124,7 +124,7 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 ## Tutorial guiado
 
 <details>
-<summary>Comandos do SINARC (clique para expandir)</summary>
+<summary>Sequência demonstrativa de comandos do SINARC (clique para expandir)</summary>
 
 <br>
 
