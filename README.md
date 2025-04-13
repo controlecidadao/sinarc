@@ -143,15 +143,15 @@ A descrição dos comandos executados com o mouse e com o teclado é exibida no 
 
 Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do novo monitor.<br>
 
-1) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+1) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 2) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
-3) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+3) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 4) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
 5) **Tecla b** --> Ajusta a altura da área do grafo à altura da janela do navegador;
-6) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+6) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 7) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
 8) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 1 vez);
-9) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+9) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 10) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 2 vezes);
 11) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes)
 12) **Mouse** --> Posicione o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
@@ -161,11 +161,11 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 16) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressiona e clique sobre alguns nós para selecioná-los;
 17) **Mouse** --> Clique com o mouse sobre fundo branco para desselecionar todos os nós selecionado;
 18) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
-19) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+19) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 20) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
-21) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+21) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 22) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
-23) **Tecla Escape** --> Encaixa o grafo no centro da tela;
+23) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 24) **Tecla e** --> Alterna entre os 7 tipos de visualização dos nós (pressione 7 vezes);
 25) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes);
 26) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 15 tipos de imagens de nós do grafo (pressione 17 vezes);
@@ -189,7 +189,7 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 4) **Tecla f** --> Ativa/desativa os movimentos apenas dos nós selecionados. Selecione um nó, pressione a tecla f e arraste-o para fixá-lo em um canto da tela. Selecione outro nó, pressione a tecla f e arraste-o para o outro canto da tela. Ao final, selecione os nós fixados e pressione a tecla f;
 5) **Tecla U** --> Exibe número de nós para cada faixa de tamanho (faixas 20 a 25, 25 a 29 ... 95 a 99, 100);
 6) **Tecla Espaço** --> Aumenta a massa dos nós de forma proporcional ao seu tamanho, iniciando pelo maior (tamanho 100) e indo até o menor (tamanho 20) (pressione 16 vezes).
-7) **Tecla c** --> Aproxima o nó selecionado e encaixa na tela seus nós adjacentes. Selecione um nó do grafo e pressione a tecla c por 2 vezes;
+7) **Tecla c** --> Aproxima o nó selecionado e enquadra na tela seus nós adjacentes. Selecione um nó do grafo e pressione a tecla c por 2 vezes;
 8) **Tecla i** --> Alterna entre os nós selecionados, aproximando de cada um deles. Selecione 3 nós no grafo (Ctrl + clique) e pressione a tecla i por 3 vezes;
 9) **Tecla A** --> Seleciona todos os nós do grafo simultaneamente;
 10) **Tecla ,** --> Abre janela contendo os rótulos de todos os nós selecionados, segregados por tipo de nó;
