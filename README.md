@@ -169,7 +169,7 @@ A descrição dos comandos executados com o mouse e com o teclado é exibida no 
 
 <br><br>
 
-**Primeira sequência de comandos:**
+### Primeira sequência de comandos:
 
 Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do novo monitor.<br>
 
@@ -207,7 +207,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
 <br><br>
 
-**Segunda sequência de comandos:**
+### Segunda sequência de comandos:
 
 Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do novo monitor.<br>
 
@@ -241,7 +241,7 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 
 <br><br>
 
-**Terceira sequência de comandos:**
+### Terceira sequência de comandos:
 
 Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do novo monitor.<br>
 
@@ -286,7 +286,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 Comandos não utilizados por dependerem de consulta ao banco de dados: **Teclas o, O, s, y** 
 
-Este breve tutorial abordou apenas os camandos que não dependem de nova consulta aos bancos de dados. Estes comandos podem ser executados nos arquivos gerados pelo SINARC para compartilhamento.
+Este breve tutorial abordou apenas os camandos que não dependem de nova consulta aos bancos de dados. Estes comandos podem ser executados nos arquivos gerados pelo SINARC para compartilhamento (_arquivo_sinarc.zip_).
 
 Para mais detalhes sobre o funcionamento de cada comando, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
 
