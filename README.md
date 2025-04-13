@@ -123,14 +123,14 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 <br>
 
 <p align="center" width="100%">
-<a href="https://www.youtube.com/watch?v=spIwxVx6AnI" target="_blank">
+<a href="https://www.youtube.com/watch?v=7kFEYaev6Lg" target="_blank">
    <!--<img width="70%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/visualizacao.png" alt="Modo Automático de Visualização" />-->
-   <img width="70%" class="clickable-image" src="./images/visualizacao.png" alt="Modo Automático de Visualização" />
+   <img width="70%" class="clickable-image" src="./images/visualizacao_2.png" alt="Modo Automático de Visualização" />
 </a>
 </p>
 
 <p align="center" width="100%">
-<a href="https://www.youtube.com/watch?v=spIwxVx6AnI" target="_blank">Vídeo</a>: Modo Automático de Visualização do SINARC
+<a href="https://www.youtube.com/watch?v=7kFEYaev6Lg" target="_blank">Vídeo</a>: Modo Automático de Visualização do SINARC
 </p>
 
 <br><br>
