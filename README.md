@@ -158,9 +158,9 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 14) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado;
 15) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los;
 16) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados;
-17) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
+17) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
 18) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-19) **Mouse** --> Posicione o ponteiro sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
+19) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
 20) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 21) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
 22) **Tecla Escape** --> Enquadra o grafo no centro da tela;
