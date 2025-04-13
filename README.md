@@ -141,7 +141,7 @@ A descrição dos comandos executados com o mouse e com o teclado é exibida no 
 
 **Primeira sequência de comandos:**
 
-Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura do novo monitor.<br>
+Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do novo monitor.<br>
 
 1) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 2) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
@@ -181,7 +181,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
 **Segunda sequência de comandos:**
 
-Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura do novo monitor.<br>
+Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do novo monitor.<br>
 
 1) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 2) **Mouse** --> Clique sobre o nó de maior tamanho para selecioná-lo, arraste-o até um dos cantos da tela e solte-o. Observe o retorno do grafo ao centro da tela.
@@ -215,7 +215,7 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 
 **Terceira sequência de comandos:**
 
-Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura do novo monitor.<br>
+Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do novo monitor.<br>
 
 1) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 2) **Tecla n** --> Aumenta a massa dos nós com tamanho de referência maior ou igual a 40. Pressione e segure a tecla n até que o "Fator", exibido no canto superior direito da tela, alcance 301;
