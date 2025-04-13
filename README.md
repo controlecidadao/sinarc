@@ -147,7 +147,7 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 </p>
 
 <br><br>
-## Tutorial guiado
+## Tutorial interativo
 
 <details>
    
