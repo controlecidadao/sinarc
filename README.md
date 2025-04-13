@@ -129,23 +129,19 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 
 <br>
 
-### 🚧 Tópico em Construção 🚧
+O objetivo deste tutorial é demonstrar o uso dos comandos do SINARC que não dependem de consulta ao banco de dados, utilizando grafos disponíveis online.
 
-<br>
-
-O objetivo deste tutorial é demonstrar o uso de todos os comandos do SINARC que não dependem de consulta ao banco de dados, utilizando um exemplo de grafo disponível online.
-
-Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, combine Shift + a tecla desejada.<br>
+Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, combine Shift + tecla desejada.<br>
 
 Execute os comandos na sequência indicada abaixo.<br>
 
-A descrição dos comandos realizados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s. Ao executar os comandos, observe a sua descrição.
+A descrição dos comandos executados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
 
 <br><br>
 
 **Primeira sequência de comandos:**
 
-Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização à altura do novo monitor.<br>
+Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura do novo monitor.<br>
 
 1) **Tecla Escape** --> Encaixa o grafo no centro da tela;
 2) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
@@ -185,7 +181,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
 **Segunda sequência de comandos:**
 
-Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização à altura do novo monitor.<br>
+Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura do novo monitor.<br>
 
 1) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 2) **Mouse** --> Clique sobre o nó de maior tamanho para selecioná-lo, arraste-o até um dos cantos da tela e solte-o. Observe o retorno do grafo ao centro da tela.
@@ -219,7 +215,7 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 
 **Terceira sequência de comandos:**
 
-Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização à altura do novo monitor.<br>
+Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura do novo monitor.<br>
 
 1) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 2) **Tecla n** --> Aumenta a massa dos nós com tamanho de referência maior ou igual a 40. Pressione e segure a tecla n até que o "Fator", exibido no canto superior direito da tela, alcance 301;
