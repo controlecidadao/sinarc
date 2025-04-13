@@ -162,7 +162,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 18) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 19) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
 20) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-21) **Tecla Ctrl + Mouse** --> Posicione o mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
+21) **Tecla Ctrl + Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
 22) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 23) **Tecla e** --> Alterna entre os 7 tipos de visualização dos nós (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
 24) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
