@@ -6,7 +6,7 @@
 <!-- Fonte: https://github.com/antonkomarev/github-profile-views-counter-->
 
 <p align="center" width="100%">
-<!--<img width="80%" src="https://github.com/controlecidadao/sinarc/blob/main/sinarc.png" />-->
+<!--<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/sinarc.png" />-->
 <img width="80%" src="./images/sinarc.png" />
 </p> 
 
@@ -117,9 +117,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://www.youtube.com/watch?v=spIwxVx6AnI" target="_blank">
-   Modo Automático de Visualização do SINARC
-</a>
+<a href="https://www.youtube.com/watch?v=spIwxVx6AnI" target="_blank">Vídeo</a>: Modo Automático de Visualização do SINARC
 </p>
 
 <br>
