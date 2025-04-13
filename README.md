@@ -473,7 +473,7 @@ Relação de sites contendo informações (nomes de pessoas físicas, jurídicas
 <summary>Versões</summary>
 
 <br><br>
-🗓️ **Versões do código:**
+🗓️ **Versões relevantes do código:**
 
 <br>
 
