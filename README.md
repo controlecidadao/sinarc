@@ -109,6 +109,21 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <br>
 
+<p align="center" width="100%">
+<a href="https://www.youtube.com/watch?v=spIwxVx6AnI" target="_blank">
+   <!--<img width="70%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/visualizacao.png" alt="Vídeo Demonstrativo" />-->
+   <img width="70%" class="clickable-image" src="./images/noticias_na_intenet.png" alt="Vídeo Demonstrativo" />
+</a>
+</p>
+
+<p align="center" width="100%">
+<a href="https://www.youtube.com/watch?v=spIwxVx6AnI" target="_blank">
+   Modo Automático de Visualização do SINARC
+</a>
+</p>
+
+<br>
+
 Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 1) Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Outros exemplos de grafos disponíveis online para testes: [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html), [Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html), [Exemplo 3](https://controlecidadao.github.io/sinarc/exemplo3.html), [Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html);
 2) Pressione a **tecla Espaço** 16 vezes, espaçadamente, até que o tamanho no canto superior direito da tela reduza de 100 para 25 em intervalos de 5 unidades. Esta função aumenta a massa dos nós proporcionalmente ao seu tamanho (do maior para o menor), melhorando progressivamente a visualização do grafo no layout gravitacional;
