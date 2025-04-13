@@ -224,14 +224,41 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 1) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 2) **Tecla n** --> Aumenta a massa dos nós com tamanho de referência maior ou igual a 40. Pressione e segure a tecla n até que o "Fator", exibido no canto superior direito da tela, alcance 301;
 3) **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela;
-4) **Tecla q** --> Abre popup para pesquisar por rótulos dos nós no grafo. Digite um parâmetro de pesquisa (sem acento) ou pressione a tecla Enter para alternar para a pesquisa por rótulos das arestas.
-
-
-28) , iniciando pelo maior nó (tamanho 100) e indo até o menor nó (tamanho 20);
+4) **Tecla q** --> Abre popup para pesquisar por rótulos dos nós no grafo. Digite um parâmetro de pesquisa (sem acento) ou pressione a tecla Enter para alternar para a pesquisa por rótulos das arestas;
+5) **Tecla v** --> d
+6) **Tecla V** --> d
+7) **Tecla z** --> d
+8) **Tecla x** --> d
+9) **Tecla X** --> d
+10) **Tecla w** -->
+11) **Tecla W** --> s
+12) **Tecla r** -->
+13) **Tecla R** -->
+14) **Tecla o** -->
+15) **Tecla O** -->
+16) **Tecla s** -->
+17) **Tecla y** -->
+18) **Tecla d** -->
+19) **Tecla D** -->
+20) **Tecla g** -->
+21) **Tecla G** -->
+22) **Tecla 1** -->
+23) **Tecla 2** -->
+24) **Tecla 4** -->
+25) **Tecla 5** -->
+26) **Tecla 6** -->
+27) **Tecla 7** -->
+28) **Tecla 8** -->
+29) **Tecla ?** -->
+30) **Tecla h** -->
+31) **Tecla L** -->
+32) **Tecla u** -->
+33) **Tecla U** -->
+34) **Tecla +** -->
+35) **Tecla +** -->
+36) **Tecla |** -->
 
 Comandos que dependem de consulta ao banco de dados: Teclas o, O, s, y, 
-
-<!--1) **Tecla ?** - Exibe/oculta a relação de teclas de comandos do SINARC (pressione 2 vezes);-->
 
 <br>
 
