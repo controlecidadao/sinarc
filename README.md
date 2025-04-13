@@ -282,9 +282,9 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 35) **Tecla +** -->
 36) **Tecla |** -->
 
-Comandos não utilizados por dependerem de consulta ao banco de dados: **Teclas o, O, s, y** 
-
 <br>
+
+Comandos não utilizados por dependerem de consulta ao banco de dados: **Teclas o, O, s, y** 
 
 Este breve tutorial abordou apenas os camandos que não dependem de nova consulta aos bancos de dados. Estes comandos podem ser executados nos arquivos gerados pelo SINARC para compartilhamento.
 
