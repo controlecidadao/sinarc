@@ -125,10 +125,10 @@
         
 
         // ####################################
-        // CRIA FUN«√O DE MENSAGENS TEMPOR¡RIAS
+        // CRIA FUN√á√ÉO DE MENSAGENS TEMPOR√ÅRIAS
         // ####################################
 
-        // As mensagens s„o exibidas na tela pelo tempo definido no par‚metro da funÁ„o
+        // As mensagens s√£o exibidas na tela pelo tempo definido no par√¢metro da fun√ß√£o
         // 178, 255, 178, 1
 
         var timerId;
@@ -142,7 +142,7 @@
                 // Cancela o temporizador anterior
                 clearTimeout(timerId);
                 
-                // Remova a div usando o mÈtodo remove()
+                // Remova a div usando o m√©todo remove()
                 divRemover.remove();
             }
 
@@ -160,7 +160,7 @@
 
 
         // #################################################
-        // CRIA FUN«√O QUE AVISA QUANDO CAPSLOCK FOI ATIVADA
+        // CRIA FUN√á√ÉO QUE AVISA QUANDO CAPSLOCK FOI ATIVADA
         // #################################################
 
         // EXIBE AVISO DE CAPSLOCK ATIVADA
@@ -216,7 +216,7 @@
         });
 
 
-        // EXIBE AVISO NO CARREGAMENTO DA P¡GINA DE QUE A TECLA CAPSLOCK EST¡ ATIVADA
+        // EXIBE AVISO NO CARREGAMENTO DA P√ÅGINA DE QUE A TECLA CAPSLOCK EST√Å ATIVADA
         //document.addEventListener("DOMContentLoaded", function(event) {
         //    if (event.getModifierState("CapsLock")) {
         //        //el_2 = document.createElement("div");
@@ -229,18 +229,18 @@
 
 
         //setInterval(function() {
-        //    var capsLockOn = navigator.getKeyboardState ? navigator.getKeyboardState()[0].shiftKey : false; // verifica se Caps Lock est· ativado
+        //    var capsLockOn = navigator.getKeyboardState ? navigator.getKeyboardState()[0].shiftKey : false; // verifica se Caps Lock est√° ativado
             
         //    if (capsLockOn) {
         //        var div = document.createElement('div'); // cria um novo elemento de div
-        //        div.textContent = 'A tecla Caps Lock est· ativada!'; // define o conte˙do da div
+        //        div.textContent = 'A tecla Caps Lock est√° ativada!'; // define o conte√∫do da div
         //        div.style.color = 'red'; // define a cor da fonte da div
         //        div.style.fontSize = '20px'; // define o tamanho da fonte da div
         //        div.style.fontWeight = 'bold'; // define o peso da fonte da div
         //        div.style.marginTop = '10px'; // define a margem superior da div
                 
-        //        var container = document.getElementById('visualization'); // obtÈm o elemento do contÍiner da biblioteca vis.js
-        //        container.appendChild(div); // adiciona a div ao contÍiner
+        //        var container = document.getElementById('visualization'); // obt√©m o elemento do cont√™iner da biblioteca vis.js
+        //        container.appendChild(div); // adiciona a div ao cont√™iner
         //        console.log('oi')
         //    }
         //}, 2000); // verifica o estado da tecla Caps Lock a cada segundo
@@ -249,14 +249,14 @@
 
 
         // ##########################
-        // ACUMULA N”S - TECLAS + E -
+        // ACUMULA N√ìS - TECLAS + E -
         // ##########################
 
-        // OS ITENS DO ARRAY SALVO NO 'localStorage' S√O ABERTOS PELA TECLA 'y'
+        // OS ITENS DO ARRAY SALVO NO 'localStorage' S√ÉO ABERTOS PELA TECLA 'y'
 
         // localStorage: https://codetheweb.blog/javascript-localstorage/
         
-        // CRIA ARRAY VAZIO SE ELE AINDA N√O EXISTIR E SALVA EM 'localStorage'
+        // CRIA ARRAY VAZIO SE ELE AINDA N√ÉO EXISTIR E SALVA EM 'localStorage'
         if (localStorage.getItem("nos_acum") == null) {
             var empty_array = new Array();
             localStorage.setItem('nos_acum', JSON.stringify(empty_array));
@@ -264,7 +264,7 @@
         
         document.addEventListener('keydown', (event) => {
 
-                // INCLUI N”S SELECIONADOS NO ARRAY 'nos_acum' E SALVA EESSE ARRAY NO 'localStorage'
+                // INCLUI N√ìS SELECIONADOS NO ARRAY 'nos_acum' E SALVA EESSE ARRAY NO 'localStorage'
                 if (event.key == '+') {
                     
                     let s = network.getSelectedNodes();
@@ -290,31 +290,31 @@
                         localStorage.setItem('nos_acum', JSON.stringify(temp));
 
                         // EXIBE NOVO ARRAY
-                        tempAlert(`Tecla (${event.key}) - Adiciona item ‡ lista de nÛs-alvos (${temp.length}): ${temp.join(' ||| ')}`, 3000);
+                        tempAlert(`Tecla (${event.key}) - Adiciona item √† lista de n√≥s-alvos (${temp.length}): ${temp.join(' ||| ')}`, 3000);
                     
                     
-                    // EXIBE ARRAY SE NENHUM N” ESTIVER SELECIONADO
+                    // EXIBE ARRAY SE NENHUM N√ì ESTIVER SELECIONADO
                     } else {
 
                         // RESTAURA O ARRAY
                         let temp = JSON.parse(localStorage.getItem("nos_acum"));
 
-                        tempAlert(`Tecla (${event.key}) - Lista de nÛs-alvos (${temp.length}): ${temp.join(' ||| ')}`, 3000);
+                        tempAlert(`Tecla (${event.key}) - Lista de n√≥s-alvos (${temp.length}): ${temp.join(' ||| ')}`, 3000);
                     }
                     
-                // EXCLUI ⁄LTIMO ITEM DO ARRAY 'nos_acum' SALVO NO 'localStorage'
+                // EXCLUI √öLTIMO ITEM DO ARRAY 'nos_acum' SALVO NO 'localStorage'
                 } else if (event.key == '-') {
 
                     // RESTAURA O ARRAY
                     let temp = JSON.parse(localStorage.getItem("nos_acum"));
 
-                    // EXCLUI ⁄LTIMO ITEM DO ARRAY
+                    // EXCLUI √öLTIMO ITEM DO ARRAY
                     temp.pop();
 
                     // GRAVA NOVO ARRAY NO 'localStorage' (SUBSTITUI O ANTERIOR)
                     localStorage.setItem('nos_acum', JSON.stringify(temp));
 
-                    tempAlert(`Tecla (${event.key}) - Remove ˙ltimo item da lista de nÛs-alvos (${temp.length}): ${temp.join(' ||| ')}`, 3000);
+                    tempAlert(`Tecla (${event.key}) - Remove √∫ltimo item da lista de n√≥s-alvos (${temp.length}): ${temp.join(' ||| ')}`, 3000);
                 }            
         });
 
@@ -369,7 +369,7 @@
 
                 el_1.style.display = "none";
 
-                // Exibe informaÁıes na tela
+                // Exibe informa√ß√µes na tela
                 capsLockDesativada(`Tecla ${event.key} - Modo de captura ativado`, 3000);
             }
         });
@@ -377,7 +377,7 @@
 
 
         // ########################################################
-        // ABRE P¡GINA COM PESQUISA AVAN«ADA - TECLA 1 A 9
+        // ABRE P√ÅGINA COM PESQUISA AVAN√áADA - TECLA 1 A 9
         // ########################################################
 
         document.addEventListener('keydown', (event) => {
@@ -390,14 +390,14 @@
                     let link_consulta_cnpj = "https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/Cnpjreva_Solicitacao.asp?cnpj=" + cnpj;
                     window.open(link_consulta_cnpj, target="_blank", windowFeature='left=50,top=100,width=800,height=600');
                     
-                    // Exibe informaÁıes na tela
+                    // Exibe informa√ß√µes na tela
                     tempAlert(`Tecla ${event.key} - Validar CNPJ no site da Receita Federal`, 3000);
                 }
             }
 
 
 
-            // TECLA 2 - VALIDAR CEIS, CEPIM, CNEP e Acordo de LeniÍncia
+            // TECLA 2 - VALIDAR CEIS, CEPIM, CNEP e Acordo de Leni√™ncia
             if (event.key == '2') {
 
                 let sel = network.getSelectedNodes();
@@ -406,19 +406,19 @@
                     let link_consulta_cnpj = `https://portaldatransparencia.gov.br/sancoes/consulta?paginacaoSimples=true&tamanhoPagina=&offset=&direcaoOrdenacao=asc&cpfCnpj=${cnpj}&colunasSelecionadas=linkDetalhamento%2Ccadastro%2CcpfCnpj%2CnomeSancionado%2CufSancionado%2Corgao%2CcategoriaSancao%2CdataPublicacao%2CvalorMulta%2Cquantidade`;
                     window.open(link_consulta_cnpj, target="_blank", windowFeature='left=50,top=100,width=800,height=600');
                     
-                    // Exibe informaÁıes na tela
+                    // Exibe informa√ß√µes na tela
                     tempAlert(`Tecla ${event.key} - Validar CNPJ no site da Receita Federal`, 3000);
                 }
             }
 
 
 
-            // TECLA 3 - VALIDAR DÕVIDAS COM A UNI√O
-            // Ainda n„o implementado
+            // TECLA 3 - VALIDAR D√çVIDAS COM A UNI√ÉO
+            // Ainda n√£o implementado
 
 
 
-            // TECLA 4 - ABRE ARQUIVOS EXCEL COM N”S E ARESTAS
+            // TECLA 4 - ABRE ARQUIVOS EXCEL COM N√ìS E ARESTAS
             if (event.key == '4') {
                 
                 async function copyOperation(param) {
@@ -427,7 +427,7 @@
 
                 setTimeout(() => {copyOperation('***ABRE-EXCEL***')}, 0)
 
-                tempAlert(`Tecla ${event.key} - Abre arquivos Excel de nÛs e de arestas`, 3000);
+                tempAlert(`Tecla ${event.key} - Abre arquivos Excel de n√≥s e de arestas`, 3000);
             }
 
 
@@ -437,14 +437,14 @@
 
                 window.open("https://www.redecnpj.com.br/rede/", "_blank", "left=50,top=100,width=600,height=600");
 
-                // Exibe informaÁıes na tela
+                // Exibe informa√ß√µes na tela
                 tempAlert(`Tecla ${event.key} - Abre site Rede CNPJ`, 3000);
 
             }
             
 
 
-            // TECLA 6 - EXIBE P¡GINA DA RECEITA FEDERAL E DA PGFN CONTENDO BASES DE DADOS
+            // TECLA 6 - EXIBE P√ÅGINA DA RECEITA FEDERAL E DA PGFN CONTENDO BASES DE DADOS
             if (event.key == '6') {
 
                 let link_pep = "https://portaldatransparencia.gov.br/download-de-dados/pep";
@@ -459,7 +459,7 @@
                 let link_pgfn = "https://www.gov.br/pgfn/pt-br/assuntos/divida-ativa-da-uniao/transparencia-fiscal-1/copy_of_dados-abertos"
                 window.open(url=link_pgfn, target="_blank", windowFeature='left=50,top=50,width=600,height=500');
 
-                // Exibe informaÁıes na tela
+                // Exibe informa√ß√µes na tela
                 tempAlert(`Tecla ${event.key} - Bases de dados da Receita Federal e da PGFN`, 3000);
             }
 
@@ -475,7 +475,7 @@
                         window.open(link, target="_blank", windowFeature='left=50,top=100,width=600,height=600');
                     }
 
-                    // Exibe informaÁıes na tela
+                    // Exibe informa√ß√µes na tela
                     tempAlert(`Tecla ${event.key} - Dados da empresa no formato JSON`, 3000);
 
                 }
@@ -483,14 +483,14 @@
 
 
 
-            // TECLA 8 - PESQUISA POR FORNECEDORES PJ - UNI√O
+            // TECLA 8 - PESQUISA POR FORNECEDORES PJ - UNI√ÉO
             if (event.key == '8') {
 
                 let sel = network.getSelectedNodes();
 
                 if (sel.length == 1) {
 
-                    // PESSOA JURÕDICA
+                    // PESSOA JUR√çDICA
                     if (sel[0].slice(0, 3) == 'PJ_') {
                         let parametro = nodes.get(sel[0]);
                         parametro = parametro.id.slice(3)
@@ -499,33 +499,33 @@
                         window.open(url=link_fornecedores_uniao, target="_blank", windowFeature='left=50,top=50,width=600,height=500');
                     }
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Pesquisa nÛ selecionado entre fornecedores da Uni„o`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Pesquisa n√≥ selecionado entre fornecedores da Uni√£o`, 3000);
                 }
             }
 
 
 
-            // TECLA 9 - DISPONÕVEL
+            // TECLA 9 - DISPON√çVEL
 
 
 
-            //  TECLA 0 - N√O ATRIBUIR ATALHO PARA A TECLA 0, POIS IMPEDE AJUSTAR O ZOOM DO NAVEGADOR AO VALOR PADR√O (100%) POR MEIO DE CTRL + 0
+            //  TECLA 0 - N√ÉO ATRIBUIR ATALHO PARA A TECLA 0, POIS IMPEDE AJUSTAR O ZOOM DO NAVEGADOR AO VALOR PADR√ÉO (100%) POR MEIO DE CTRL + 0
 
         });
 
 
 
         // ################################
-        // SELECIONA TODOS OS N”S - TECLA A
+        // SELECIONA TODOS OS N√ìS - TECLA A
         // ################################
 
         document.addEventListener('keydown', (event) => {
             if (event.key == "A") {
                 network.selectNodes(nodes.getIds());
                 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Seleciona todos os nÛs (${network.getSelectedNodes().length})`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Seleciona todos os n√≥s (${network.getSelectedNodes().length})`, 3000);
             }
 
         })
@@ -533,7 +533,7 @@
 
 
         // ###############################################################################################
-        // SELECIONA N”S ADJACENTES AOS N”S SELECIONADOS DE FORMA ACUMULATIVA, CAMADA POR CAMADA - TECLA a
+        // SELECIONA N√ìS ADJACENTES AOS N√ìS SELECIONADOS DE FORMA ACUMULATIVA, CAMADA POR CAMADA - TECLA a
         // ###############################################################################################
 
         var sel_anterior = [];
@@ -541,22 +541,22 @@
 
             if (event.key == "a" && network.getSelectedNodes().length > 0) {
 
-                // Desseleciona todos os nÛs quando a seleÁ„o alcanÁa todos os nÛs
+                // Desseleciona todos os n√≥s quando a sele√ß√£o alcan√ßa todos os n√≥s
                 if (network.getSelectedNodes().length > 0 && network.getSelectedNodes().length == nodes.getIds().length) {
-                    tempAlert(`Tecla ${event.key} - Desseleciona todos os nÛs (${nodes.getIds().length})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Desseleciona todos os n√≥s (${nodes.getIds().length})`, 3000);
                 }
 
                 // Exibe mensagem informativa
                 //if (network.getSelectedNodes().length > 0 && network.getSelectedNodes().length == nodes.getIds().length) {
-                //    tempAlert(`Tecla ${event.key} - Desseleciona todos os nÛs (${nodes.getIds().length})`, 3000);
+                //    tempAlert(`Tecla ${event.key} - Desseleciona todos os n√≥s (${nodes.getIds().length})`, 3000);
                 //}
 
 
-                // DESATIVA A FÕSICA NO INÕCIO DA SELE«√O
+                // DESATIVA A F√çSICA NO IN√çCIO DA SELE√á√ÉO
                 //network.physics.physicsEnabled = false;
                 //network.physics.stopSimulation();
 
-                // VERIFICA SE TODOS OS N”S FORAM SELECIONADOS
+                // VERIFICA SE TODOS OS N√ìS FORAM SELECIONADOS
                 if ([...new Set(sel_anterior)].length == nodes.getIds().length) {
                     network.unselectAll();
                     sel_anterior = [];
@@ -564,7 +564,7 @@
 
                 let sel = network.getSelectedNodes();
 
-                // IMPEDE QUE DOIS OU MAIS N”S SEJAM SELECIONADOS NO INÕCIO DO SCRIPT
+                // IMPEDE QUE DOIS OU MAIS N√ìS SEJAM SELECIONADOS NO IN√çCIO DO SCRIPT
                 if (sel.length > 1 && sel_anterior.length == 0) {
                     for (let i=0; i<sel.length; i++) {
                         nodes.update({id: sel[i], font: {color: '#777777'}})
@@ -590,7 +590,7 @@
                     network.selectNodes(sel_anterior);
                 }
 
-                // REATIVA A FÕSICA AP”S A ⁄LTIMA CAMADA SER SELECIONADA E TODA A REDEE SER DESSELECIONADA
+                // REATIVA A F√çSICA AP√ìS A √öLTIMA CAMADA SER SELECIONADA E TODA A REDEE SER DESSELECIONADA
                 //if (network.getSelectedNodes().length == 0) {
                 //    network.physics.physicsEnabled = true;
                 //    network.physics.startSimulation();
@@ -598,53 +598,53 @@
 
 
                 if (network.getSelectedNodes().length > 0) {
-                    tempAlert(`Tecla ${event.key} - Seleciona nÛs adjacentes (${network.getSelectedNodes().length}/${nodes.getIds().length})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Seleciona n√≥s adjacentes (${network.getSelectedNodes().length}/${nodes.getIds().length})`, 3000);
                 }
             
             } else if (event.key == "a" && network.getSelectedNodes().length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione um nÛ para selecionar seus nÛs adjacentes`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um n√≥ para selecionar seus n√≥s adjacentes`, 3000);
             }
         });
         
 
 
         // ######################################################
-        // AJUSTE AUTOM¡TICO DA ALTURA DA ¡REA DO GRAFO - TECLA b
+        // AJUSTE AUTOM√ÅTICO DA ALTURA DA √ÅREA DO GRAFO - TECLA b
         // ######################################################
         
         document.addEventListener('keydown', (event) => {
             if (event.key == 'b') {
-                    // EXTRAI DIMENS’ES DA ¡REA DO GRAFO
+                    // EXTRAI DIMENS√ïES DA √ÅREA DO GRAFO
                     //let box = document.querySelector('#mynetwork');
                     //let width = box.offsetWidth;
                     //let height = box.offsetHeight;
                     
-                    // EXTRAI DIMENS’ES DA JANELA DO NAVEGADOR
+                    // EXTRAI DIMENS√ïES DA JANELA DO NAVEGADOR
                     //var w = window.innerWidth;
                     var h = window.innerHeight;
                     
-                    // AJUSTA ALTURA DA ¡REA DO GRAFO ¿ ALTURA DA JANELA
+                    // AJUSTA ALTURA DA √ÅREA DO GRAFO √Ä ALTURA DA JANELA
                     document.querySelector('#mynetwork').style.height = h - 20;
 
-                    // ENQUADRA GRAFO. FUNCIONA APENAS AP”S A ALTURA TER SIDO AJUSTADA ()
+                    // ENQUADRA GRAFO. FUNCIONA APENAS AP√ìS A ALTURA TER SIDO AJUSTADA ()
                     //network.fit();
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Ajusta altura da janela de visualizaÁ„o`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Ajusta altura da janela de visualiza√ß√£o`, 3000);
 
             }
         });
 
 
         // ##############################################
-        // CENTRALIZA N”S SELECIONADOS - TECLA c (CENTER)
+        // CENTRALIZA N√ìS SELECIONADOS - TECLA c (CENTER)
         // ##############################################
 
         var toggle_c = true;
 
         document.addEventListener('keydown', (event) => {
             
-            // S” FUNCIONA NO LAYOUT BARNES-HUT E COM APENAS UM N” SELECIONADO
+            // S√ì FUNCIONA NO LAYOUT BARNES-HUT E COM APENAS UM N√ì SELECIONADO
             if (event.key == 'c' && network.physics.options.solver == 'barnesHut' && network.getSelectedNodes().length == 1 && toggle_c == true) {
 
                 // DESABILITA ELEMENTOS PARA EVITAR TRAVAMENTO DA IMAGEM (MELHORA DESEMPENHO)
@@ -668,10 +668,10 @@
             
                 toggle_c = false;
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Centraliza nÛ selecionado`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Centraliza n√≥ selecionado`, 3000);
 
-            // EXIBE N”S CONECTADOS AOS N”S SELECIONADOS
+            // EXIBE N√ìS CONECTADOS AOS N√ìS SELECIONADOS
             } else if (event.key == 'c' && network.physics.options.solver == 'barnesHut') {
 
                 // DESABILITA ELEMENTOS PARA EVITAR TRAVAMENTO DA IMAGEM (MELHORA DESEMPENHO)
@@ -680,7 +680,7 @@
 
                 let sel_nodes = network.getSelectedNodes();
 
-                // EXTRAI NOS CONECTADOS AO N” SELECIONADO
+                // EXTRAI NOS CONECTADOS AO N√ì SELECIONADO
                 let con_nodes = []
                 let temp = []
                 if (sel_nodes.length > 0) {
@@ -708,11 +708,11 @@
                 network.fit({nodes: con_nodes, maxZoomLevel: 1, animation: false});
                 toggle_c = true
 
-                // Exibe informaÁıes na tela
+                // Exibe informa√ß√µes na tela
                 if (network.getSelectedNodes().length == 0) {
-                    tempAlert(`Tecla ${event.key} - Enquadra todos os nÛs`, 3000);
+                    tempAlert(`Tecla ${event.key} - Enquadra todos os n√≥s`, 3000);
                 } else {
-                    tempAlert(`Tecla ${event.key} - Enquadra nÛs adjacentes aos nÛs selecionados`, 3000);
+                    tempAlert(`Tecla ${event.key} - Enquadra n√≥s adjacentes aos n√≥s selecionados`, 3000);
                 }
             }
         });
@@ -720,12 +720,12 @@
 
 
         // #####################################################################
-        // SELECIONA N”S ⁄NICOS (EN, EM E TE) PARA SIMPLIFICAR O GRAFO - TECLA Á
+        // SELECIONA N√ìS √öNICOS (EN, EM E TE) PARA SIMPLIFICAR O GRAFO - TECLA √ß
         // #####################################################################
 
-        var toggle_Á = 0;
+        var toggle_√ß = 0;
         document.addEventListener("keypress", function(event) {
-            if (event.key === "Á" && network.getSelectedNodes().length == 0 && toggle_Á == 0) {
+            if (event.key === "√ß" && network.getSelectedNodes().length == 0 && toggle_√ß == 0) {
                 let nod = nodes.getIds();
                 let nodToSelect = [];
                 for (var i = 0; i < nod.length; i++) {
@@ -741,11 +741,11 @@
                 let percentual = (nodToSelect.length / nod.length) * 100;
                 percentual = percentual.toFixed(1);
 
-                tempAlert(`Tecla ${event.key} - Seleciona nÛs EN, EM e TE com aresta ˙nica (${nodToSelect.length}) ${percentual}%`, 3000);
+                tempAlert(`Tecla ${event.key} - Seleciona n√≥s EN, EM e TE com aresta √∫nica (${nodToSelect.length}) ${percentual}%`, 3000);
 
-                toggle_Á = 1;
+                toggle_√ß = 1;
             
-            } else if (event.key === "Á" && toggle_Á == 1) {
+            } else if (event.key === "√ß" && toggle_√ß == 1) {
                 let nod = nodes.getIds();
                 let nodToSelect = [];
                 for (var i = 0; i < nod.length; i++) {
@@ -758,13 +758,13 @@
                 let percentual = (nodToSelect.length / nod.length) * 100;
                 percentual = percentual.toFixed(1);
 
-                tempAlert(`Tecla ${event.key} - Seleciona todos os nÛs EN, EM e TE (${nodToSelect.length}) ${percentual}%`, 3000);
+                tempAlert(`Tecla ${event.key} - Seleciona todos os n√≥s EN, EM e TE (${nodToSelect.length}) ${percentual}%`, 3000);
 
-                toggle_Á = 2;
+                toggle_√ß = 2;
 
 
 
-            //} else if (event.key === "Á" && toggle_Á == 2) {
+            //} else if (event.key === "√ß" && toggle_√ß == 2) {
 
             //    let nod = nodes.getIds();
             //    let nodToSelect = [];
@@ -778,34 +778,34 @@
             //    let percentual = (nodToSelect.length / nod.length) * 100;
             //    percentual = percentual.toFixed(1);
 
-            //    tempAlert(`Tecla ${event.key} - Seleciona todos os nÛs com apenas uma aresta (${nodToSelect.length}) ${percentual}%`, 3000);
+            //    tempAlert(`Tecla ${event.key} - Seleciona todos os n√≥s com apenas uma aresta (${nodToSelect.length}) ${percentual}%`, 3000);
 
-            //    toggle_Á = 3;
+            //    toggle_√ß = 3;
             //}
 
 
 
 
-            } else if (event.key === "Á" && toggle_Á == 2) {
+            } else if (event.key === "√ß" && toggle_√ß == 2) {
                 network.unselectAll();
 
-                tempAlert(`Tecla ${event.key} - Desseleciona todos os nÛs (${nodes.getIds().length})`, 3000);
+                tempAlert(`Tecla ${event.key} - Desseleciona todos os n√≥s (${nodes.getIds().length})`, 3000);
 
-                toggle_Á = 0;
+                toggle_√ß = 0;
             }
         });
 
 
 
         // ######################################################################
-        // ALTERNA ENTRE A SELE«√O DE N”S COM BASE NO N⁄MERO DE ARESTAS - TECLA «
+        // ALTERNA ENTRE A SELE√á√ÉO DE N√ìS COM BASE NO N√öMERO DE ARESTAS - TECLA √á
         // ######################################################################
 
-        var count_« = 0;
+        var count_√á = 0;
 
         document.addEventListener("keypress", function(event) {
             
-            if (event.key === "«") {
+            if (event.key === "√á") {
 
                 network.unselectAll();
                 
@@ -827,7 +827,7 @@
 
                 let nodToSelect = [];
                 for (var i = 0; i < nod.length; i++) {
-                    if (network.body.nodes[nod[i]].edges.length == num_arestas[count_«]) {
+                    if (network.body.nodes[nod[i]].edges.length == num_arestas[count_√á]) {
                         nodToSelect.push(nod[i]);
                     }
                 }
@@ -838,13 +838,13 @@
                 percentual = percentual.toFixed(1);
 
 
-                if (num_arestas.length == count_«) {
-                    tempAlert(`Tecla ${event.key} - Desseleciona todos os nÛs`, 3000);
-                    count_« = 0;
+                if (num_arestas.length == count_√á) {
+                    tempAlert(`Tecla ${event.key} - Desseleciona todos os n√≥s`, 3000);
+                    count_√á = 0;
                 
                 } else {
-                    tempAlert(`Tecla ${event.key} - Seleciona nÛs com ${num_arestas[count_«]} arestas (${nodToSelect.length}) ${percentual}%`, 3000);
-                    count_« += 1;
+                    tempAlert(`Tecla ${event.key} - Seleciona n√≥s com ${num_arestas[count_√á]} arestas (${nodToSelect.length}) ${percentual}%`, 3000);
+                    count_√á += 1;
                 }
             }
         });
@@ -852,7 +852,7 @@
 
 
         // #####################################################
-        // ABRE P¡GINA COM DETALHES DA PESSOA JURÕDICA - TECLA d
+        // ABRE P√ÅGINA COM DETALHES DA PESSOA JUR√çDICA - TECLA d
         // #####################################################
 
         document.addEventListener('keydown', (event) => {
@@ -868,7 +868,7 @@
                                 var link = "http://cnpj.info/" + cnpj;
                                 window.open(link, 'popup','left=50,top=100,width=600,height=600');
 
-                            // PARA CONSULTA DE ENDERE«O
+                            // PARA CONSULTA DE ENDERE√áO
                             } else if (sel[i].slice(0, 3) == "EN_") {
                                 var endereco = sel[i].slice(3).replace();
                                 endereco = endereco.replaceAll(' ', '+');
@@ -882,7 +882,7 @@
                                 var link = "https://maps.google.com/search?q=" + '"' + email + '"';
                                 window.open(link, 'popup','left=50,top=100,width=600,height=600');
                             
-                            // PARA CONSULTA DE PESSOA FÕSICA
+                            // PARA CONSULTA DE PESSOA F√çSICA
                             } else if (sel[i].slice(0, 3) == "PF_") {
                                 var nome_socio = sel[i].slice(15);
                                 nome_socio = nome_socio.replaceAll(' ', '+');
@@ -891,34 +891,34 @@
                                 window.open(link, 'popup','left=50,top=100,width=600,height=600');
                             }
 
-                            // Exibe informaÁıes na tela
-                            tempAlert(`Tecla ${event.key} - Exibe detalhes do nÛ selecionado (exceto TE)`, 3000);
+                            // Exibe informa√ß√µes na tela
+                            tempAlert(`Tecla ${event.key} - Exibe detalhes do n√≥ selecionado (exceto TE)`, 3000);
 
                         }
                     }
                 }
 
             } else if (event.key == 'd' && network.getSelectedNodes().length != 1) {
-                tempAlert(`Tecla ${event.key} - Selecione um nÛ para exibir detalhes (exceto TE)`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um n√≥ para exibir detalhes (exceto TE)`, 3000);
             }
         });
 
 
 
         // ############################################
-        // ABRE PESQUISA NOS DI¡RIOS OFICIAIS - TECLA D
+        // ABRE PESQUISA NOS DI√ÅRIOS OFICIAIS - TECLA D
         // ############################################
 
         document.addEventListener('keydown', (event) => {
 
-            // ABRE PESQUISA NOS DI¡RIOS OFICIAIS (BUSCA EXATA)
+            // ABRE PESQUISA NOS DI√ÅRIOS OFICIAIS (BUSCA EXATA)
             if (event.key == 'D' && network.getSelectedNodes().length == 1) {
 
                 let sel = network.getSelectedNodes();
 
                 if (sel.length == 1) {
 
-                    // PESSOA FÕSICA
+                    // PESSOA F√çSICA
                     if (sel[0].slice(0, 3) == 'PF_') {
                         let parametro = sel[0].slice(15);
 
@@ -947,7 +947,7 @@
                         window.open(url=link_dou, target="_blank", windowFeature='left=50,top=50,width=600,height=500');
 
                     
-                    // PESSOA JURÕDICA
+                    // PESSOA JUR√çDICA
                     } else if (sel[0].slice(0, 3) == 'PJ_') {
                         let parametro = nodes.get(sel[0]);
                         parametro = parametro.label
@@ -978,19 +978,19 @@
 
                     }
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Pesquisa nÛ selecionado no DIO-ES, DOM-ES, DOU, Querido Di·rio, Portal da TransparÍncia e Jusbrasil`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Pesquisa n√≥ selecionado no DIO-ES, DOM-ES, DOU, Querido Di√°rio, Portal da Transpar√™ncia e Jusbrasil`, 3000);
                 }
 
             } else if (event.key == 'D' && network.getSelectedNodes().length != 1) {
-                tempAlert(`Tecla ${event.key} - Selecione um nÛ para pesquisar no DIO-ES, DOM-ES, DOU, Querido Di·rio, Portal da TransparÍncia e Jusbrasil`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um n√≥ para pesquisar no DIO-ES, DOM-ES, DOU, Querido Di√°rio, Portal da Transpar√™ncia e Jusbrasil`, 3000);
             }
         });
 
 
 
         // ###################################
-        // DELETE N”S SELECIONADOS - TECLA DEL
+        // DELETE N√ìS SELECIONADOS - TECLA DEL
         // ###################################
 
         var del_array = []
@@ -1007,17 +1007,17 @@
                 let percentual = (del_array.length / total_n.length) * 100;
                 percentual = percentual.toFixed(1);
 
-                // INCLUIR AVISO PERMANENTE QUE N”S FORAM DELETADOS
+                // INCLUIR AVISO PERMANENTE QUE N√ìS FORAM DELETADOS
                 let el = document.createElement("div");
                 el.setAttribute("style","position:absolute;top:70px;right:21px;border:5px solid rgba(255, 255, 123, 1);border-radius: 5px;background-color:rgba(255, 255, 123, 1);");
-                el.innerHTML = `NÛs deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
+                el.innerHTML = `N√≥s deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
                 document.body.appendChild(el);
 
-                // INCLUÕDO PARA EVITAR ERRO AP”S DELETAR N”S E RETIRAR O MOUSE DE CIMA DE N”S ADJACENTES AOS QUE FORAM DELETADOS
+                // INCLU√çDO PARA EVITAR ERRO AP√ìS DELETAR N√ìS E RETIRAR O MOUSE DE CIMA DE N√ìS ADJACENTES AOS QUE FORAM DELETADOS
                 network.unselectAll();
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Deleta nÛs selecionados (${sel.length})`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Deleta n√≥s selecionados (${sel.length})`, 3000);
 
             }
         });
@@ -1025,7 +1025,7 @@
 
 
         // ###############################################
-        // OCULTA E EXIBE LABELS DE TODOS OS N”S - TECLA e
+        // OCULTA E EXIBE LABELS DE TODOS OS N√ìS - TECLA e
         // ###############################################
 
         var toggle_no = false
@@ -1056,8 +1056,8 @@
                     toggle_no = true
 
                     
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Oculta rÛtulos dos nÛs`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Oculta r√≥tulos dos n√≥s`, 3000);
 
                 // 0 0 1
                 } else if (toggle_no_3 == false && toggle_no_2 == false && toggle_no == true) {
@@ -1082,8 +1082,8 @@
                     toggle_no_2 = true
                     toggle_no = false
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Uniformiza tamanho dos nÛs`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Uniformiza tamanho dos n√≥s`, 3000);
                     
 
                 // 0 1 0
@@ -1109,8 +1109,8 @@
                     toggle_no_2 = true
                     toggle_no = true
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Oculta rÛtulos dos nÛs`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Oculta r√≥tulos dos n√≥s`, 3000);
 
                 // 0 1 1
                 } else if (toggle_no_3 == false && toggle_no_2 == true && toggle_no == true) {
@@ -1134,8 +1134,8 @@
                     toggle_no_2 = false
                     toggle_no = false
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Aumenta tamanho dos nÛs`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Aumenta tamanho dos n√≥s`, 3000);
 
                 // 1 0 0
                 } else if (toggle_no_3 == true && toggle_no_2 == false && toggle_no == false) {
@@ -1159,8 +1159,8 @@
                     toggle_no_2 = false
                     toggle_no = true
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Aumenta tamanho dos nÛs`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Aumenta tamanho dos n√≥s`, 3000);
 
                 // 1 0 1
                 } else if (toggle_no_3 == true && toggle_no_2 == false && toggle_no == true) {
@@ -1184,8 +1184,8 @@
                     toggle_no_2 = true
                     toggle_no = false
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Aumenta tamanho dos nÛs`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Aumenta tamanho dos n√≥s`, 3000);
 
                 // 1 1 0
                 } else if (toggle_no == false && toggle_no_2 == true && toggle_no_3 == true) {
@@ -1210,8 +1210,8 @@
                     toggle_no_2 = false
                     toggle_no = false
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Retorna ao tamanho inicial dos nÛs`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Retorna ao tamanho inicial dos n√≥s`, 3000);
                 }
             }
         });
@@ -1227,15 +1227,15 @@
             if (event.key == "Escape") {
                 network.fit();
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Enquadra todos os nÛs`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Enquadra todos os n√≥s`, 3000);
             }
         });
 
 
 
         // ###############################################
-        // CONGELA E DESCONGELA N”S SELECIONADOS - TECLA f
+        // CONGELA E DESCONGELA N√ìS SELECIONADOS - TECLA f
         // ###############################################
 
         // https://www.toptal.com/developers/keycode
@@ -1243,7 +1243,7 @@
         var fixos = [];
         document.addEventListener('keydown', (event) => {
 
-            // Alterna congelamento dos nÛs selecionados
+            // Alterna congelamento dos n√≥s selecionados
             if (event.key == "f" && network.physics.options.solver == 'barnesHut' && network.getSelectedNodes().length > 0) {
 
                 sel_f = network.getSelectedNodes();
@@ -1252,15 +1252,15 @@
 
                     for (let i=0; i<sel_f.length; i++) {
 
-                        // Se o nÛ selecionado n„o estiver em fixos, congela e inclui em fixos
+                        // Se o n√≥ selecionado n√£o estiver em fixos, congela e inclui em fixos
                         if (network.body.nodes[sel_f[i]].options.font.background != 'yellow') {
                             nodes.update({id: sel_f[i], physics: false});
                             nodes.update({id: sel_f[i], font: {strokeColor: "transparent"}});
                             nodes.update({id: sel_f[i], font: {background: "yellow"}});
                             fixos.push(sel_f[i]);
 
-                            // Exibe informaÁıes na tela
-                            tempAlert(`Tecla ${event.key} - Fixa nÛs selecionados na ·rea do grafo`, 3000);
+                            // Exibe informa√ß√µes na tela
+                            tempAlert(`Tecla ${event.key} - Fixa n√≥s selecionados na √°rea do grafo`, 3000);
                         }
 
                         // Se estiver, exclui de fixos e descongela
@@ -1270,40 +1270,40 @@
                             nodes.update({id: sel_f[i], font: {background: "transparent"}});
                             fixos.slice(sel_f[i], 1);
 
-                            // Exibe informaÁıes na tela
-                            tempAlert(`Tecla ${event.key} - Desafixa nÛs selecionados na ·rea do grafo`, 3000);
+                            // Exibe informa√ß√µes na tela
+                            tempAlert(`Tecla ${event.key} - Desafixa n√≥s selecionados na √°rea do grafo`, 3000);
                         }
                     }
                 }
 
             } else if (event.key == "f" && network.physics.options.solver == 'barnesHut' && network.getSelectedNodes().length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione um ou mais nÛs para fix·-los na ·rea do grafo`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um ou mais n√≥s para fix√°-los na √°rea do grafo`, 3000);
             }
         });
 
 
 
         // #####################################################################
-        // AJUSTA ALTURA DA JANELA DE VISUALIZA«√O AO PRESSIONAR F11 - TECLA F11
+        // AJUSTA ALTURA DA JANELA DE VISUALIZA√á√ÉO AO PRESSIONAR F11 - TECLA F11
         // #####################################################################
 
-        // SÛ funciona na primeira vez que se aperta F11. No retorno, deve-se apertar tecla b
+        // S√≥ funciona na primeira vez que se aperta F11. No retorno, deve-se apertar tecla b
 
         document.addEventListener('keydown', (event) => {
 
             if (event.key == 'F11') {
 
                 function f11() {
-                    // EXTRAI DIMENS’ES DA JANELA DO NAVEGADOR
+                    // EXTRAI DIMENS√ïES DA JANELA DO NAVEGADOR
                     //let w = window.innerWidth;
                     let h = window.innerHeight;
                     
-                    // AJUSTA ALTURA DA ¡REA DO GRAFO ¿ ALTURA DA JANELA
+                    // AJUSTA ALTURA DA √ÅREA DO GRAFO √Ä ALTURA DA JANELA
                     document.querySelector('#mynetwork').style.height = h - 20;
                 }
                 setTimeout(f11, 200);
 
-                // Exibe informaÁıes na tela
+                // Exibe informa√ß√µes na tela
                 tempAlert(`Tecla ${event.key} - Ativa/desativa modo tela cheia`, 3000);
 
             } 
@@ -1348,7 +1348,7 @@
                                 //console.log(link);
                                 window.open(link, 'popup','left=50,top=100,width=600,height=600');
 
-                            // PARA CONSULTA DE ENDERE«O
+                            // PARA CONSULTA DE ENDERE√áO
                             } else if (sel[i].slice(0, 3) == "EN_") {
                                 let endereco = sel[i].slice(3).replace();
                                 endereco = endereco.replaceAll(' ', '+');
@@ -1363,22 +1363,22 @@
                                 window.open(link, 'popup','left=50,top=100,width=600,height=600');
                             }
 
-                            // Exibe informaÁıes na tela
-                            tempAlert(`Tecla ${event.key} - Pesquisa nÛ selecionado no Google (exceto TE)`, 3000);
+                            // Exibe informa√ß√µes na tela
+                            tempAlert(`Tecla ${event.key} - Pesquisa n√≥ selecionado no Google (exceto TE)`, 3000);
 
                         }  
                     }
                 }
 
             } else if (event.key == 'g' && network.getSelectedNodes().length != 1) {
-                tempAlert(`Tecla ${event.key} - Selecione um nÛ para pesquisar no Google (exceto TE)`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um n√≥ para pesquisar no Google (exceto TE)`, 3000);
             }
         });
 
 
 
         // #############################################
-        // REALIZA PESQUISA AVAN«ADA NO GOOGLE - TECLA G
+        // REALIZA PESQUISA AVAN√áADA NO GOOGLE - TECLA G
         // #############################################
 
         document.addEventListener('keydown', (event) => {
@@ -1388,7 +1388,7 @@
                     if (sel.length > 0) {
                         for (let i=0; i<sel.length; i++) {
 
-                            // PESSOA FÕSICA
+                            // PESSOA F√çSICA
                             if (sel[i].slice(0, 3) == 'PF_') {
                                 let parametro = sel[i].slice(15);
                                 parametro = parametro.replaceAll(' ', '+');
@@ -1409,7 +1409,7 @@
                                 window.open(url=link_tc, target="_blank", windowFeature='left=50,top=50,width=600,height=500');
 
                             
-                            // PESSOA JURÕDICA
+                            // PESSOA JUR√çDICA
                             } else if (sel[i].slice(0, 3) == 'PJ_') {
                                 let parametro = nodes.get(sel[i]);
                                 parametro = parametro.label
@@ -1432,14 +1432,14 @@
 
                             }
 
-                            // Exibe informaÁıes na tela
-                            tempAlert(`Tecla ${event.key} - Pesquisa nÛ selecionado (apenas PF e PJ) no Google nos domÌnios TC.br, MP.br, JUS.br, GOV.br e ES.GOV.br`, 3000);
+                            // Exibe informa√ß√µes na tela
+                            tempAlert(`Tecla ${event.key} - Pesquisa n√≥ selecionado (apenas PF e PJ) no Google nos dom√≠nios TC.br, MP.br, JUS.br, GOV.br e ES.GOV.br`, 3000);
                         }
                     }
                 }
 
             } else if (event.key == 'G' && network.getSelectedNodes().length != 1) {
-                tempAlert(`Tecla ${event.key} - Selecione um nÛ (apenas PF e PJ) para pesquisar no Google nos domÌnios TC.br, MP.br, JUS.br, GOV.br e ES.GOV.br`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um n√≥ (apenas PF e PJ) para pesquisar no Google nos dom√≠nios TC.br, MP.br, JUS.br, GOV.br e ES.GOV.br`, 3000);
             }
         });
 
@@ -1452,10 +1452,10 @@
         document.addEventListener('keydown', (event) => {
             if (event.key == 'h') {
 
-                // O nome 'popup_help' faz com que essa janela seja exclusiva, n„o sendo usada por outros popups do programa.
+                // O nome 'popup_help' faz com que essa janela seja exclusiva, n√£o sendo usada por outros popups do programa.
                 window.open('help.html', 'popup_help','left=50,top=100,width=600,height=600');
 
-                // Exibe informaÁıes na tela
+                // Exibe informa√ß√µes na tela
                 tempAlert(`Tecla ${event.key} - Abre manual do SINARC`, 3000);
             }
         });
@@ -1463,7 +1463,7 @@
 
 
         // ########################################
-        // ALTERNA ENTRE N”S SELECIONADOS - TECLA i
+        // ALTERNA ENTRE N√ìS SELECIONADOS - TECLA i
         // ########################################
 
         var counter = 0 // Deve iniciar com valor zero para funcionar
@@ -1499,8 +1499,8 @@
                 //    }
                 //    network.setOptions({physics: {enabled: true}});
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Centraliza e alterna entre nÛs selecionados (${counter + 1}/${s.length})`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Centraliza e alterna entre n√≥s selecionados (${counter + 1}/${s.length})`, 3000);
 
                 network.fit({nodes: [s[counter]], maxZoomLevel: 1, minZoomLevel: 1});
                 if (counter == s.length - 1) {
@@ -1510,14 +1510,14 @@
                 }
 
             } else if (event.key == "i" && network.getSelectedNodes().length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione pelo menos um nÛ para centraliz·-los na tela de forma alternada`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione pelo menos um n√≥ para centraliz√°-los na tela de forma alternada`, 3000);
             }
         });
 
 
 
         // ################################
-        // ALTERNA SELE«√O DE N”S - TECLA I
+        // ALTERNA SELE√á√ÉO DE N√ìS - TECLA I
         // ################################
 
         var se_1 = [];
@@ -1529,16 +1529,16 @@
             
             if (event.key == "I" && network.getSelectedNodes().length > 0 && toggle_I == true) {
 
-                // EXTRAI N”S SELECIONADOS
+                // EXTRAI N√ìS SELECIONADOS
                 se_1 = network.getSelectedNodes();
 
-                // EXTRAI N”S N√O SELECIONADOS
+                // EXTRAI N√ìS N√ÉO SELECIONADOS
                 se_2 = nodes.getIds().filter(x => !se_1.includes(x));
 
-                // SELECIONA N”S QUE N√O ESTAVAM SELECIONADOS
+                // SELECIONA N√ìS QUE N√ÉO ESTAVAM SELECIONADOS
                 network.selectNodes(se_2);
 
-                // COR CINZA PARA OS R”TULOS DOS N”S SELECIONADOS
+                // COR CINZA PARA OS R√ìTULOS DOS N√ìS SELECIONADOS
                 for (let i=0; i<se_1.length; i++) {
                     nodes.update({id: se_1[i], font: {color: '#777777'}});
                 }
@@ -1547,26 +1547,26 @@
 
                 toggle_I = false
 
-                tempAlert(`Tecla ${event.key} - Inverte seleÁ„o de nÛs (${se_2.length}/${nodes.getIds().length})`, 3000);
+                tempAlert(`Tecla ${event.key} - Inverte sele√ß√£o de n√≥s (${se_2.length}/${nodes.getIds().length})`, 3000);
 
                 
             } else if (event.key == "I" && network.getSelectedNodes().length > 0  && toggle_I == false) {
                 
                 network.unselectAll();
 
-                // SELECIONA N”S QUE N√O ESTAVAM SELECIONADOS
+                // SELECIONA N√ìS QUE N√ÉO ESTAVAM SELECIONADOS
                 network.selectNodes(se_1);
                 network.redraw();
 
                 toggle_I = true
 
-                tempAlert(`Tecla ${event.key} - Inverte seleÁ„o de nÛs (${se_1.length}/${nodes.getIds().length})`, 3000);
+                tempAlert(`Tecla ${event.key} - Inverte sele√ß√£o de n√≥s (${se_1.length}/${nodes.getIds().length})`, 3000);
 
             } else if (event.key == "I" && network.getSelectedNodes().length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione pelo menos um nÛ para inverter a seleÁ„o`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione pelo menos um n√≥ para inverter a sele√ß√£o`, 3000);
             }
 
-            // RETORNA COR CINZA PARA OS R”TULOS DOS N”S SELECIONADOS
+            // RETORNA COR CINZA PARA OS R√ìTULOS DOS N√ìS SELECIONADOS
             //for (let i=0; i<no_sel_pv.length; i++) {
             //    nodes.update({id: no_sel_pv[i], font: {color: '#777777'}});
             //}
@@ -1576,7 +1576,7 @@
 
 
         // ###################################################
-        // SELECIONA N”S COMUNS AOS N”S SELECIONADOS - TECLA j
+        // SELECIONA N√ìS COMUNS AOS N√ìS SELECIONADOS - TECLA j
         // ###################################################
 
         document.addEventListener('keydown', (event) => {
@@ -1612,20 +1612,20 @@
                         nodes.update({id: sel[i], font: {color: '#777777'}});
                     }
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Seleciona nÛs adjacentes comuns (${comum.length})`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Seleciona n√≥s adjacentes comuns (${comum.length})`, 3000);
 
                 }
 
             } else if (event.key == "j" && network.getSelectedNodes().length < 2) {
-                tempAlert(`Tecla ${event.key} - Selecione pelo menos dois nÛs`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione pelo menos dois n√≥s`, 3000);
             }
         });
 
 
 
         // ###############################################################n
-        // SELECIONA N”S QUE N√O S√O COMUNS AOS N”S SELECIONADOS - TECLA J
+        // SELECIONA N√ìS QUE N√ÉO S√ÉO COMUNS AOS N√ìS SELECIONADOS - TECLA J
         // ###############################################################
 
         document.addEventListener('keydown', (event) => {
@@ -1685,16 +1685,16 @@
                         nodes.update({id: sel[i], font: {color: '#777777'}});
                     }
 
-                    // Exibe informaÁıes na tela
+                    // Exibe informa√ß√µes na tela
                     //let n = nodes.getIds().length - comum.length - sel.length
                     
-                    //tempAlert(`Tecla ${event.key} - Seleciona nÛs adjacentes que n„o s„o comuns (${diff2.length})`, 3000);
-                    tempAlert(`Tecla ${event.key} - Seleciona nÛs adjacentes que n„o s„o comuns (${network.getSelectedNodes().length})`, 3000);
+                    //tempAlert(`Tecla ${event.key} - Seleciona n√≥s adjacentes que n√£o s√£o comuns (${diff2.length})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Seleciona n√≥s adjacentes que n√£o s√£o comuns (${network.getSelectedNodes().length})`, 3000);
 
                 }
 
             } else if (event.key == "J" && network.getSelectedNodes().length < 2) {
-                tempAlert(`Tecla ${event.key} - Selecione pelo menos dois nÛs`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione pelo menos dois n√≥s`, 3000);
             }
         });
         
@@ -1754,8 +1754,8 @@
                     toggle_hieraquic = true
                     //console.log('direction: LR, sortMethod: directed, shakeTowaords: leaves');
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Layout hier·rquico a partir das folhas (destino das setas)`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Layout hier√°rquico a partir das folhas (destino das setas)`, 3000);
 
                     //network.stabilize();
                     //network.fit();
@@ -1795,8 +1795,8 @@
                     toggle_hieraquic = false
                     //console.log('direction: LR, sortMethod: directed, shakeTowaords: roots');
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Layout hier·rquico a partir das raÌzes (origem das setas)`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Layout hier√°rquico a partir das ra√≠zes (origem das setas)`, 3000);
 
                 // 0 1 0
                 //} else if (toggle_hieraquic_3 == false && toggle_hieraquic_2 == true && toggle_hieraquic == false) {
@@ -1877,7 +1877,7 @@
                     toggle_hieraquic = false
                     //console.log('solver: BarnesHut');
 
-                    // Exibe informaÁıes na tela
+                    // Exibe informa√ß√µes na tela
                     tempAlert(`Tecla ${event.key} - Layout gravitacional`, 3000);
                 }
 
@@ -1900,9 +1900,9 @@
         // EXIBE NOVOS LAYOUTS CRIADOS - TECLA K
         // #####################################
 
-        // Criado com o auxÌlio do Chat GPT: criar cÛdigo em Python que posicione n pontos de forma equidistante sobre uma circunferÍncia no plano cartesiano
-        // ValidaÁ„o realizada no site para plotagem de pontos no plano cartesiano: https://www.desmos.com/calculator?lang=pt-BR
-        // O CritÈrio adotado para ordenar os nÛs sobre a circunferÍncia foi o n˙mero de conexıes.
+        // Criado com o aux√≠lio do Chat GPT: criar c√≥digo em Python que posicione n pontos de forma equidistante sobre uma circunfer√™ncia no plano cartesiano
+        // Valida√ß√£o realizada no site para plotagem de pontos no plano cartesiano: https://www.desmos.com/calculator?lang=pt-BR
+        // O Crit√©rio adotado para ordenar os n√≥s sobre a circunfer√™ncia foi o n√∫mero de conex√µes.
         
         var toggle_K = 0;
 
@@ -1915,10 +1915,10 @@
                 
                 let nos2 = nodes.getIds();
                 
-                // CALCULA PONTOS NA CIRCUNFER NCIA
+                // CALCULA PONTOS NA CIRCUNFER√äNCIA
                 let n2 = nos2.length;
 
-                // O multiplicador do raio (20) controla a separaÁ„o entre os nÛs sobre a circunferÍncia
+                // O multiplicador do raio (20) controla a separa√ß√£o entre os n√≥s sobre a circunfer√™ncia
                 function pontosCircunferencia(n, R=n2 * 20) {
                     
                     let d = 2 * R * Math.sin(Math.PI / n2);
@@ -1968,7 +1968,7 @@
                 });
 
                 
-                // Extrai ids dos nÛs
+                // Extrai ids dos n√≥s
                 nos3 = [];
                 for (let i=0; i<nodeArray.length; i++) {
                     nos3.push(nodeArray[i].id);
@@ -1991,7 +1991,7 @@
                 lista = arredondaTuplas(pontos);
                 
                 
-                // ALTERA A POSI«√O DOS N”S
+                // ALTERA A POSI√á√ÉO DOS N√ìS
                 for (let i=0; i<nos3.length; i++) { 
                 network.body.nodes[nos3[i]].x = lista[i][0];
                 network.body.nodes[nos3[i]].y = lista[i][1];
@@ -2037,8 +2037,8 @@
                     //toggle_label = !toggle_label
                     toggle_label = true
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Oculta rÛtulos das arestas`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Oculta r√≥tulos das arestas`, 3000);
 
 
                 } else if (toggle_label == true && toggle_label_2 == false) {
@@ -2047,7 +2047,7 @@
                     //toggle_label_2 = !toggle_label_2
                     toggle_label_2 = true
 
-                    // Exibe informaÁıes na tela
+                    // Exibe informa√ß√µes na tela
                     tempAlert(`Tecla ${event.key} - Oculta arestas`, 3000);
 
 
@@ -2058,8 +2058,8 @@
                     toggle_label = false
                     toggle_label_2 = false
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Reexibe arestas e rÛtulos`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Reexibe arestas e r√≥tulos`, 3000);
 
                 } 
             }
@@ -2068,7 +2068,7 @@
 
 
         // ########################################
-        // EXIBE DISTRIBUI«√O DAS ARESTAS - TECLA L
+        // EXIBE DISTRIBUI√á√ÉO DAS ARESTAS - TECLA L
         // ########################################
 
         document.addEventListener('keydown', (event) => {
@@ -2089,7 +2089,7 @@
                 }
                 
                 
-                let tex = `DISTRIBUI«√O DAS ARESTAS POR TIPO (${ta.length}):\n`;
+                let tex = `DISTRIBUI√á√ÉO DAS ARESTAS POR TIPO (${ta.length}):\n`;
                 Object.keys(counts)
                     .sort()
                     .forEach(function(v, i) {
@@ -2098,14 +2098,14 @@
                 
                 alert(tex);
 
-                tempAlert(`Tecla ${event.key} - Exibe distribuiÁ„o das aresta por tipo (${ta.length})`, 3000);
+                tempAlert(`Tecla ${event.key} - Exibe distribui√ß√£o das aresta por tipo (${ta.length})`, 3000);
             }
         });
 
 
 
         // ######################################################
-        // AUMENTA MASSA DE TODOS OS N”S EM 0.5 UNIDADE - TECLA m
+        // AUMENTA MASSA DE TODOS OS N√ìS EM 0.5 UNIDADE - TECLA m
         // ######################################################
 
         var massa = 1
@@ -2121,7 +2121,7 @@
                 // AUMENTA MASSA EM 0.5               
                 massa = massa + 0.5
                 
-                // AJUSTA A MASSA DE TODOS OS N”S, EXCETO OS QUE J¡ TIVERAM AS MASSAS AJUSTADAS PELAS TECLAS n E N
+                // AJUSTA A MASSA DE TODOS OS N√ìS, EXCETO OS QUE J√Å TIVERAM AS MASSAS AJUSTADAS PELAS TECLAS n E N
                 network.setOptions({
                     nodes: {
                         mass: massa
@@ -2132,8 +2132,8 @@
 
                 network.redraw();
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Aumenta massa dos nÛs em 0.5 unidade (geral). Fator: ${massa}`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Aumenta massa dos n√≥s em 0.5 unidade (geral). Fator: ${massa}`, 3000);
             }
 
         });
@@ -2141,10 +2141,10 @@
 
 
         // ######################################################
-        // DIMINUI MASSA DE TODOS OS N”S EM 0.5 UNIDADE - TECLA M
+        // DIMINUI MASSA DE TODOS OS N√ìS EM 0.5 UNIDADE - TECLA M
         // ######################################################
 
-        // Vari·vel 'massa' foi declarada na tecla anterior
+        // Vari√°vel 'massa' foi declarada na tecla anterior
 
         document.addEventListener('keydown', (event) => {
 
@@ -2160,7 +2160,7 @@
                     massa = 1
                 }
 
-                // AJUSTA A MASSA DE TODOS OS N”S, EXCETO OS QUE J¡ TIVERAM AS MASSAS AJUSTADAS PELAS TECLAS n E N
+                // AJUSTA A MASSA DE TODOS OS N√ìS, EXCETO OS QUE J√Å TIVERAM AS MASSAS AJUSTADAS PELAS TECLAS n E N
                 network.setOptions({
                     nodes: {
                         mass: massa
@@ -2169,19 +2169,19 @@
 
                 network.redraw();
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Reduz massa dos nÛs em 0.5 unidade (geral). Fator: ${massa}`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Reduz massa dos n√≥s em 0.5 unidade (geral). Fator: ${massa}`, 3000);
             }
         });
 
 
 
         // #######################################################
-        // AUMENTA MASSA DOS N”S COM TAMANHO ACIMA DE 40 - TECLA n
+        // AUMENTA MASSA DOS N√ìS COM TAMANHO ACIMA DE 40 - TECLA n
         // #######################################################
 
-        // A partir do momento em que se altera as massas dos nÛs com as teclas n e N, as teclas m e M passam a n„o mais atuar sobre esse nÛs.
-        // Enquanto as teclas n e N n„o forem acionadas, as teclas m e M atuam sobre todos os nÛs.
+        // A partir do momento em que se altera as massas dos n√≥s com as teclas n e N, as teclas m e M passam a n√£o mais atuar sobre esse n√≥s.
+        // Enquanto as teclas n e N n√£o forem acionadas, as teclas m e M atuam sobre todos os n√≥s.
 
         var par_n = 1
 
@@ -2222,8 +2222,8 @@
 
                 network.redraw();
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Aumenta massa dos nÛs com tamanho >= ${t_ref} em 5 unidades. Fator: ${par_n} (${network.getSelectedNodes().length})`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Aumenta massa dos n√≥s com tamanho >= ${t_ref} em 5 unidades. Fator: ${par_n} (${network.getSelectedNodes().length})`, 3000);
 
             }
         })
@@ -2231,10 +2231,10 @@
 
 
         // ##########################################################
-        // REDUZ A MASSA DOS N”S COM TAMANHO ACIMA DO t_ref - TECLA N
+        // REDUZ A MASSA DOS N√ìS COM TAMANHO ACIMA DO t_ref - TECLA N
         // ##########################################################
 
-        // A vari·vel global 'par_n' foi criada na tecla anterior (Tecla n)
+        // A vari√°vel global 'par_n' foi criada na tecla anterior (Tecla n)
 
         document.addEventListener('keydown', (event) => {
 
@@ -2272,15 +2272,15 @@
 
                 network.redraw();
                 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Reduz massa dos nÛs com tamanho >= ${t_ref} em 5 unidades. Fator: ${par_n} (${network.getSelectedNodes().length})`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Reduz massa dos n√≥s com tamanho >= ${t_ref} em 5 unidades. Fator: ${par_n} (${network.getSelectedNodes().length})`, 3000);
             }
         })
 
 
 
         // ###############################################################
-        // COPIA N”S E N⁄MERO DE CAMADAS PARA A ¡REA DE TRABALHO - TECLA o
+        // COPIA N√ìS E N√öMERO DE CAMADAS PARA A √ÅREA DE TRABALHO - TECLA o
         // ###############################################################
 
         document.addEventListener('keydown', (event) => {
@@ -2290,22 +2290,22 @@
                 let get_sel = network.getSelectedNodes();
 
 
-                let num_cam = prompt("Digite o n˙mero de camadas adjacentes (ENTER para 1 camada):");
+                let num_cam = prompt("Digite o n√∫mero de camadas adjacentes (ENTER para 1 camada):");
 
-                // INTERROMPE FUN«√O SE O BOT√O "CANCELA" FOR PRESSIONADO
+                // INTERROMPE FUN√á√ÉO SE O BOT√ÉO "CANCELA" FOR PRESSIONADO
                 if (num_cam == null) {
                     return;
                 }
 
 
                 //let del_te_en_em = ''
-                //del_te_en_em = confirm("Deseja excluir Telefones, EndereÁos e E-mails?");
+                //del_te_en_em = confirm("Deseja excluir Telefones, Endere√ßos e E-mails?");
 
 
 
                 let conf_destaca = ''
                 if (get_sel.length > 1) {
-                    conf_destaca = confirm("Deseja destacar caminhos mais curtos entre os nÛs?");
+                    conf_destaca = confirm("Deseja destacar caminhos mais curtos entre os n√≥s?");
                 }
 
                 async function copyOperation(num_cam) {
@@ -2320,18 +2320,18 @@
 
                 setTimeout(() => {copyOperation(temp)}, 500)
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Carrega nÛs selecionados em nova aba (${temp.length})`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Carrega n√≥s selecionados em nova aba (${temp.length})`, 3000);
             
             } else if (event.key == 'o' && network.getSelectedNodes().length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione um ou mais nÛs para abri-los em nova aba`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um ou mais n√≥s para abri-los em nova aba`, 3000);
             }
         });
 
 
 
         // ###############################################################
-        // CONSULTA PELA EXIST NCIA DE FILIAIS DO N” SELECIONADO - TECLA O
+        // CONSULTA PELA EXIST√äNCIA DE FILIAIS DO N√ì SELECIONADO - TECLA O
         // ###############################################################
 
         document.addEventListener('keydown', (event) => {
@@ -2341,13 +2341,13 @@
                 let sel = network.getSelectedNodes();
                 
                 //if (sel.length > 1) {
-                //    alert('Selecione apenas uma pessoa jurÌdica.')
+                //    alert('Selecione apenas uma pessoa jur√≠dica.')
                 //    return;
                 //}
 
                 let texto = '';
                 
-                // APENAS PESSOAS JURÕDICAS
+                // APENAS PESSOAS JUR√çDICAS
                 if (sel.length == 1 && ((sel[0].slice(0, 3) == 'PJ_') || (sel[0].slice(0, 3) == 'PE_'))) {
 
                     texto = '#_#' + sel[0].slice(3, 11) + '@' + '9999' + '#_#';
@@ -2359,18 +2359,18 @@
                     }
                     setTimeout(() => {copyOperation(texto)}, 500);
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Carrega todas as filiais do nÛ selecionado em nova aba`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Carrega todas as filiais do n√≥ selecionado em nova aba`, 3000);
                 
                 //} else {
                     //alert('Para consulta de filiais, selecione uma - e apenas uma - pessoa juridica.');
-                    // Exibe informaÁıes na tela
-                //    tempAlert(`Tecla ${event.key} - ALERTA: Para consultar filiais, selecione uma - e apenas uma - pessoa jurÌdica`, 3000);
+                    // Exibe informa√ß√µes na tela
+                //    tempAlert(`Tecla ${event.key} - ALERTA: Para consultar filiais, selecione uma - e apenas uma - pessoa jur√≠dica`, 3000);
 
                 }
 
             } else if (event.key == 'O' && network.getSelectedNodes().length != 1) {
-                    tempAlert(`Tecla ${event.key} - Selecione uma pessoa jurÌdica para abrir suas filiais em nova aba`, 3000);
+                    tempAlert(`Tecla ${event.key} - Selecione uma pessoa jur√≠dica para abrir suas filiais em nova aba`, 3000);
             }
 
             //};
@@ -2389,15 +2389,15 @@
                     network.physics.physicsEnabled = false;
                     network.physics.stopSimulation();
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Para a interaÁ„o gravitacional (congela todos os nÛs)`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Para a intera√ß√£o gravitacional (congela todos os n√≥s)`, 3000);
 
                 } else if (network.physics.physicsEnabled == false) {
                     network.physics.physicsEnabled = true;
                     network.physics.startSimulation();
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Retoma a interaÁ„o gravitacional (descongela todos os nÛs)`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Retoma a intera√ß√£o gravitacional (descongela todos os n√≥s)`, 3000);
 
                 }
 
@@ -2407,10 +2407,10 @@
 
 
         // #########################################
-        // CONSULTA LIVRE DOS N”S NO GRAFO - TECLA q
+        // CONSULTA LIVRE DOS N√ìS NO GRAFO - TECLA q
         // #########################################
 
-        // Realiza consulta nos textos dos labels e dos ids dos nÛs e das arestas. ApÛs a consulta, usar tecla I para alternar entre os nÛs selecionados.
+        // Realiza consulta nos textos dos labels e dos ids dos n√≥s e das arestas. Ap√≥s a consulta, usar tecla I para alternar entre os n√≥s selecionados.
 
         var target_id = [];
         //var nodLista = [];
@@ -2426,13 +2426,13 @@
                     temp = `id selecionado: ${network.body.nodes[a[0]].id}\n`
                 }
 
-                // ZERA VARI¡VEL GLOBAL. EXIGIDO PELO SCRITP SEGUINTE (TECLA I)
+                // ZERA VARI√ÅVEL GLOBAL. EXIGIDO PELO SCRITP SEGUINTE (TECLA I)
                 counter = 0
 
-                let text = prompt(temp + "Digite o texo a ser localizado nos rÛtulos e nos ids dos N”S:");
+                let text = prompt(temp + "Digite o texo a ser localizado nos r√≥tulos e nos ids dos N√ìS:");
                 //console.log('Termo pesquisado:', text);
 
-                // SE FOR FORNECIDO ALGUM PAR¬METRO
+                // SE FOR FORNECIDO ALGUM PAR√ÇMETRO
                 if (text != '') {
                     let a = nodes.getIds();
                     //let target_id = [];
@@ -2463,16 +2463,16 @@
                     //console.log('Itens localizados:', target_id);
                     //alert(target_id.length.toString() + ' itens localizados');
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Pesquisa por "${text}" nos nÛs (${target_id.length})`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Pesquisa por "${text}" nos n√≥s (${target_id.length})`, 3000);
 
 
-                // SE N√O FOR FORNECIDO NENHUM PAR¬METRO
+                // SE N√ÉO FOR FORNECIDO NENHUM PAR√ÇMETRO
                 } else if (text == '') {
 
                     let a = edges.getIds();
                     let edgLista = [];
-                    let param = prompt('Digite o texo a ser localizado nos rÛtulos das ARESTAS:');
+                    let param = prompt('Digite o texo a ser localizado nos r√≥tulos das ARESTAS:');
 
                     if (param == '') {
                         return;
@@ -2484,7 +2484,7 @@
                             temp = temp.toLowerCase();
                             
                             function removeAccents(str) {
-                                const accents = "¿¡¬√ƒ≈‡·‚„‰Â“”‘’’÷ÿÚÛÙıˆ¯»… ÀËÈÍÎ«Á–ÃÕŒœÏÌÓÔŸ⁄€‹˘˙˚¸—Òäöüˇ˝éû";
+                                const accents = "√Ä√Å√Ç√É√Ñ√Ö√†√°√¢√£√§√•√í√ì√î√ï√ï√ñ√ò√≤√≥√¥√µ√∂√∏√à√â√ä√ã√®√©√™√´√∞√á√ß√ê√å√ç√é√è√¨√≠√Æ√Ø√ô√ö√õ√ú√π√∫√ª√º√ë√±¬ä¬ö¬ü√ø√Ω¬é¬û";
                                 const accentsOut = "AAAAAAaaaaaaOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
                                 str = str.split('');
                                 str.forEach((letter, index) => {
@@ -2543,7 +2543,7 @@
 
 
         // ############################
-        // SELECIONA N”S-ALVOS - TECLA Q
+        // SELECIONA N√ìS-ALVOS - TECLA Q
         // ############################
 
         document.addEventListener('keydown', (event) => {
@@ -2559,9 +2559,9 @@
                 network.selectNodes(nos_sel);
 
                 if (nos_sel.length > 0) {
-                    tempAlert(`Tecla ${event.key} - Seleciona nÛs-alvos (${nos_sel.length})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Seleciona n√≥s-alvos (${nos_sel.length})`, 3000);
                 } else if (nos_sel.length == 0) {
-                    tempAlert(`Tecla ${event.key} - N„o h· nÛs-alvos no grafo`, 3000);
+                    tempAlert(`Tecla ${event.key} - N√£o h√° n√≥s-alvos no grafo`, 3000);
                 }
             }
         });
@@ -2569,7 +2569,7 @@
 
 
         // ########################################################
-        // DELETA TODOS OS N”S QUE N√O EST√O SELECIONADOS - TECLA r
+        // DELETA TODOS OS N√ìS QUE N√ÉO EST√ÉO SELECIONADOS - TECLA r
         // ########################################################
 
         document.addEventListener('keydown', (event) => {
@@ -2596,32 +2596,32 @@
 
                     network.unselectAll();
 
-                    // VARI¡VEL GLOBAL DEFINIDA NA FUN«√O DA TECLA DEL
+                    // VARI√ÅVEL GLOBAL DEFINIDA NA FUN√á√ÉO DA TECLA DEL
                     del_array = del_array.concat(diff_2);
 
-                    // total_n: VARI¡VEL GLOBAL DENIFINDA NA FUN«√O DA TECLA DEL
+                    // total_n: VARI√ÅVEL GLOBAL DENIFINDA NA FUN√á√ÉO DA TECLA DEL
                     let percentual = (del_array.length / total_n.length) * 100;
                     percentual = percentual.toFixed(1);
 
-                    // INCLUIR AVISO PERMANENTE QUE N”S FORAM DELETADOS
+                    // INCLUIR AVISO PERMANENTE QUE N√ìS FORAM DELETADOS
                     let el = document.createElement("div");
                     el.setAttribute("style","position:absolute;top:70px;right:21px;border:5px solid rgba(255, 255, 123, 1);border-radius: 5px;background-color:rgba(255, 255, 123, 1);");
-                    el.innerHTML = `NÛs deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
+                    el.innerHTML = `N√≥s deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
                     document.body.appendChild(el);
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Deleta nÛs n„o selecionados (${diff_2.length})`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Deleta n√≥s n√£o selecionados (${diff_2.length})`, 3000);
                 }
 
             } else if (event.key == "r" && network.getSelectedNodes().length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione os nÛs que devem permanecer no grafo`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione os n√≥s que devem permanecer no grafo`, 3000);
             }
         });
 
 
 
         // ###############################################################################
-        // EXIBE APENAS N”S E ARESTAS DOS CAMINHOS MAIS CURTOS ENTRE OS N”S-ALVOS - TECLA R
+        // EXIBE APENAS N√ìS E ARESTAS DOS CAMINHOS MAIS CURTOS ENTRE OS N√ìS-ALVOS - TECLA R
         // ###############################################################################
 
         var e_color = [];
@@ -2641,7 +2641,7 @@
 
                 if (e_color.length > 0) {
                 
-                    // EXTRAI N”S CONECTADOS ¿S ARESTAS COLORIDAS
+                    // EXTRAI N√ìS CONECTADOS √ÄS ARESTAS COLORIDAS
                     let n_color = [];
                     for (let i=0; i<e_color.length; i++) {
                         let temp = network.getConnectedNodes(e_color[i]);
@@ -2655,7 +2655,7 @@
                     n_color = [...new Set(n_color)];
                     
 
-                    // CALCULA DIFEREN«A E DELETA
+                    // CALCULA DIFEREN√áA E DELETA
                     let n_diff = nodes.getIds().filter(x => !n_color.includes(x));
                     network.setSelection({nodes: n_diff})
                     network.deleteSelected();
@@ -2665,24 +2665,24 @@
                     network.deleteSelected();
 
 
-                    // VARI¡VEL GLOBAL DEFINIDA NA FUN«√O DA TECLA DEL
+                    // VARI√ÅVEL GLOBAL DEFINIDA NA FUN√á√ÉO DA TECLA DEL
                     del_array = del_array.concat(n_diff);
 
-                    // total_n: VARI¡VEL GLOBAL DENIFINDA NA FUN«√O DA TECLA DEL
+                    // total_n: VARI√ÅVEL GLOBAL DENIFINDA NA FUN√á√ÉO DA TECLA DEL
                     let percentual = (del_array.length / total_n.length) * 100;
                     percentual = percentual.toFixed(1);
 
-                    // INCLUIR AVISO PERMANENTE QUE N”S FORAM DELETADOS
+                    // INCLUIR AVISO PERMANENTE QUE N√ìS FORAM DELETADOS
                     let el = document.createElement("div");
                     el.setAttribute("style","position:absolute;top:70px;right:21px;border:5px solid rgba(255, 255, 123, 1);border-radius: 5px;background-color:rgba(255, 255, 123, 1);");
-                    el.innerHTML = `NÛs deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
+                    el.innerHTML = `N√≥s deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
                     document.body.appendChild(el);
 
-                    // Exibe informaÁıes na tela
-                    tempAlert(`Tecla ${event.key} - Exibe apenas nÛs interligados por arestas coloridas (${n_color.length})`, 3000);
+                    // Exibe informa√ß√µes na tela
+                    tempAlert(`Tecla ${event.key} - Exibe apenas n√≥s interligados por arestas coloridas (${n_color.length})`, 3000);
                 
                 } else if (e_color.length == 0) {
-                    tempAlert(`Tecla ${event.key} - N„o h· nÛs interligados por arestas coloridas`, 3000);
+                    tempAlert(`Tecla ${event.key} - N√£o h√° n√≥s interligados por arestas coloridas`, 3000);
                 }
             }
         })
@@ -2714,7 +2714,7 @@
                         await navigator.clipboard.writeText(texto)
                     }
 
-                    // Exibe informaÁıes na tela
+                    // Exibe informa√ß√µes na tela
                     tempAlert(`Tecla ${event.key} - Realiza consulta livre por "${texto}"`, 3000);
 
                     texto = '#_#' + texto + '#_#';
@@ -2729,11 +2729,11 @@
 
         //function ajusta_altura() {
 
-        //    // EXTRAI DIMENS’ES DA JANELA DO NAVEGADOR
+        //    // EXTRAI DIMENS√ïES DA JANELA DO NAVEGADOR
         //    var w = window.innerWidth;
         //    let h = window.innerHeight;
 
-        //    // AJUSTA ALTURA DA ¡REA DO GRAFO ¿ ALTURA DA JANELA
+        //    // AJUSTA ALTURA DA √ÅREA DO GRAFO √Ä ALTURA DA JANELA
         //    document.querySelector('#mynetwork').style.height = h - 20;
         //};
 
@@ -2742,7 +2742,7 @@
 
 
         // ########################################
-        // EXIBE IMAGENS DOS N”S POR TIPO - TECLA t
+        // EXIBE IMAGENS DOS N√ìS POR TIPO - TECLA t
         // ########################################
 
         // 15 itens (0 a 14)
@@ -2777,14 +2777,14 @@
                 if (cont_t == 0) {
                     network.setOptions({nodes: {opacity: 0.1}, edges: {hidden: true}});
                     cont_t = cont_t + 1;
-                    tempAlert(`Tecla ${event.key} - Ativa modo transparÍncia por tipos de nÛs - oculta rede (${temp_t.length})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Ativa modo transpar√™ncia por tipos de n√≥s - oculta rede (${temp_t.length})`, 3000);
 
                     
                 } else if (cont_t == 1) {
                     let temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2803,7 +2803,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2823,7 +2823,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2843,7 +2843,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2863,7 +2863,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2883,7 +2883,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2903,7 +2903,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2923,7 +2923,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2943,7 +2943,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2963,7 +2963,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -2983,7 +2983,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -3003,7 +3003,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -3023,7 +3023,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -3036,14 +3036,14 @@
                         }
                     }
                     cont_t = cont_t + 1;
-                    tempAlert(`Tecla ${event.key} - Exibe endereÁos (${temp.length}/${nodes.getIds().length})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Exibe endere√ßos (${temp.length}/${nodes.getIds().length})`, 3000);
 
                     
                 } else if (cont_t == 14) {
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -3063,7 +3063,7 @@
                     temp = [];
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -3083,7 +3083,7 @@
                     //window.location.reload();
                     for (var i = 0; i < temp_t.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t[i]] == undefined) {
                             continue
                         }
@@ -3104,7 +3104,7 @@
 
 
         // ##################################
-        // ATIVA MODO TRANSPAR NCIA - TECLA T
+        // ATIVA MODO TRANSPAR√äNCIA - TECLA T
         // ##################################
 
         //var toggle_T = true;
@@ -3115,55 +3115,55 @@
 
         document.addEventListener('keydown', (event) => {
 
-            //  S” FUNCIONA NO MODO BARNES-HUT
+            //  S√ì FUNCIONA NO MODO BARNES-HUT
             if (event.key == 'T' && network.physics.options.solver == 'barnesHut') {
 
                 network.physics.physicsEnabled = false;
                 network.physics.stopSimulation();
 
-                // TORNA TODOS OS N”S E ARESTAS TRANSPARENTES
+                // TORNA TODOS OS N√ìS E ARESTAS TRANSPARENTES
                 network.setOptions({nodes: {opacity: 0.1}, edges: {hidden: true}});
 
-                // AO FICAR EM CIMA DO N”
+                // AO FICAR EM CIMA DO N√ì
                 network.on('hoverNode', function f(params) {
 
-                    // EXTRAI N”S CONECTADOS AO N” HOVER (con_t)
+                    // EXTRAI N√ìS CONECTADOS AO N√ì HOVER (con_t)
                     let node = params.node;
                     //console.log('hover node:', node);
                     con_t = network.getConnectedNodes(node);
                     con_t = con_t.concat(node);
                     //console.log('con_t:', con_t);
 
-                    // EXTRAI ARESTAS CONECTADAS AO N” HOVER (edg_t)
+                    // EXTRAI ARESTAS CONECTADAS AO N√ì HOVER (edg_t)
                     edg_t = network.getConnectedEdges(node);
                     //console.log('edg_t:', edg_t);
 
-                    // FAZ APARECER N”S CONECTADOS AO N” HOVER
+                    // FAZ APARECER N√ìS CONECTADOS AO N√ì HOVER
                     for (let i=0; i<con_t.length; i++) {
                         nodes.update({id: con_t[i], opacity: 1});
                     }
 
-                    // FAZ APARECER ARESTAS CONECTADAS AO N” HOVER
+                    // FAZ APARECER ARESTAS CONECTADAS AO N√ì HOVER
                     for (let i=0; i<edg_t.length; i++) {
                         edges.update({id: edg_t[i], hidden: false});
                     }
                 });
 
-                // A SELE«√O DOS N”S OCORRE POR MEIO DE OUTRO SCRIPT (CLICK)
+                // A SELE√á√ÉO DOS N√ìS OCORRE POR MEIO DE OUTRO SCRIPT (CLICK)
                 
 
-                // ######################################################### ACIMA EST¡ OK!
+                // ######################################################### ACIMA EST√Å OK!
 
-                // AO SAIR DE CIMA DO N”
+                // AO SAIR DE CIMA DO N√ì
                 network.on('blurNode', function f(params) {
 
-                    // OBT…M N” BLUR (APENAS UM)
+                    // OBT√âM N√ì BLUR (APENAS UM)
                     let blur_node = params.node;
 
-                    // OBT…M ARRAY DE N”S CONECTADOS AOS N”S SELECIONADOS (PODE SER MAIS DE UM)
+                    // OBT√âM ARRAY DE N√ìS CONECTADOS AOS N√ìS SELECIONADOS (PODE SER MAIS DE UM)
                     let sel = network.getSelectedNodes();
 
-                    // SE O N” BLUR ESTIVER ENTRE OS N”S SELECIONADOS, ADICIONA OS N”S E ARESTAS CONECTADOS AOS ARRAYS con_sel E edg_sel
+                    // SE O N√ì BLUR ESTIVER ENTRE OS N√ìS SELECIONADOS, ADICIONA OS N√ìS E ARESTAS CONECTADOS AOS ARRAYS con_sel E edg_sel
                     for (let i=0; i<sel.length; i++) {                
                         if (blur_node == sel[i]) {
                             
@@ -3174,7 +3174,7 @@
                             //}
                             //console.log('con_sel:', con_sel);
                 
-                            // OBT…M ARESTAS CONECTADAS AO N” SELECIONADO
+                            // OBT√âM ARESTAS CONECTADAS AO N√ì SELECIONADO
                             //for (let k=0; k<con_sel.length; k++) {
                             temp = network.getSelectedEdges(con_sel[i]);
                             edg_sel = edg_sel.concat(temp);
@@ -3183,7 +3183,7 @@
                         }
                     }
 
-                    // SE N√O TIVER N” SELECIONADO, FAZ OS N”S E ARESTAS (con_t e edg_t) VOLTAREM A FICAR TRANSPARENTES
+                    // SE N√ÉO TIVER N√ì SELECIONADO, FAZ OS N√ìS E ARESTAS (con_t e edg_t) VOLTAREM A FICAR TRANSPARENTES
                     if (con_sel.length == 0) {
                         for (let i=0; i<con_t.length; i++) {
                             nodes.update({id: con_t[i], opacity: 0.1});
@@ -3192,14 +3192,14 @@
                             edges.update({id: edg_t[i], hidden: true});
                         }
 
-                    // SE TIVER N”S E ARESTAS SELECIONADOS, SUBTRAI N”S E ARESTAS SELECIONADOS (con_sel E edg_sel) DOS N”S E ARESTAS CONTIDOS EM con_t E OS FAZ TRANSPARENTES
+                    // SE TIVER N√ìS E ARESTAS SELECIONADOS, SUBTRAI N√ìS E ARESTAS SELECIONADOS (con_sel E edg_sel) DOS N√ìS E ARESTAS CONTIDOS EM con_t E OS FAZ TRANSPARENTES
                     } else if (con_sel.length > 0) {
                         let diff_node = con_t.filter(x => !con_sel.includes(x));
                         for (let i=0; i<diff_node.length; i++) {
                             nodes.update({id: diff_node[i], opacity: 0.1});
                         }
 
-                        // FALTA FAZER COM QUE AS ARESTAS DESAPARE«AM AP”S BLUR
+                        // FALTA FAZER COM QUE AS ARESTAS DESAPARE√áAM AP√ìS BLUR
                         let diff_edg = edg_t.filter(x => !edg_sel.includes(x));
                         for (let i=0; i<diff_edg.length; i++) {
                             edges.update({id: diff_edg[i], hidden: true});
@@ -3208,27 +3208,27 @@
                 });
                 //toggle_T = false;
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Ativa modo transparÍncia por conexıes - oculta rede`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Ativa modo transpar√™ncia por conex√µes - oculta rede`, 3000);
                 
             } else if (event.key == 'T' && network.physics.options.solver == 'barnesHut') {
                 window.location.reload();               
                 //ajusta_altura();
                 //toggle_T = true;
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Desativa modo transparÍncia`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Desativa modo transpar√™ncia`, 3000);
             }
         });
 
 
 
         // ####################################
-        // EXIBE CENTRALIDADE DOS N”S - TECLA u
+        // EXIBE CENTRALIDADE DOS N√ìS - TECLA u
         // ####################################
 
-        // Encontrar uma forma de passar a informaÁ„o apenas uma vez e n„o em todos os nÛs PJ
-        // Descobrir forma de exibir informaÁıes em outro elemento e n„o mais em alert
+        // Encontrar uma forma de passar a informa√ß√£o apenas uma vez e n√£o em todos os n√≥s PJ
+        // Descobrir forma de exibir informa√ß√µes em outro elemento e n√£o mais em alert
 
         document.addEventListener('keydown', (event) => {
             if (event.key == "u") {
@@ -3237,22 +3237,22 @@
                 for (let i=0; i<n.length; i++) {
                     if (n[i].slice(0, 3) == 'PJ_') {
                         
-                        // As informaÁıes exibidas est„o no atributo 'algoritmos' de todos os nÛs PJ
+                        // As informa√ß√µes exibidas est√£o no atributo 'algoritmos' de todos os n√≥s PJ
                         let temp = network.body.nodes[n[i]].options.algoritmos;
                         alert(temp)
                         break;
                     }
                 }
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
-                tempAlert(`Tecla ${event.key} - Exibe informaÁıes sobre as medidas de centralidade`, 3000);
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
+                tempAlert(`Tecla ${event.key} - Exibe informa√ß√µes sobre as medidas de centralidade`, 3000);
             }
         });
 
 
 
         // ################################################
-        // EXIBE DISTRIBUI«√O DOS N”S POR TAMANHO - TECLA U
+        // EXIBE DISTRIBUI√á√ÉO DOS N√ìS POR TAMANHO - TECLA U
         // ################################################
 
         //var a_tudo = nodes.getIds();
@@ -3355,7 +3355,7 @@
                 //console.log(a_25);
                 //console.log(a_20);
                 
-                let texto_espaco = `DISTRIBUI«√O DOS N”S POR TAMANHO:
+                let texto_espaco = `DISTRIBUI√á√ÉO DOS N√ìS POR TAMANHO:
 Tamanho      100:   ${a_100.length}
 Tamanho 95 - 99:   ${a_95.length}
 Tamanho 90 - 94:   ${a_90.length}
@@ -3378,7 +3378,7 @@ TOTAL:                    ${a_tudo.length}`;
                 
                 texto_espaco = texto_espaco.replaceAll(" 0\n", "  \n");
 
-                tempAlert(`Tecla ${event.key} - Exibe distribuiÁ„o dos nÛs por tamanho`, 3000);
+                tempAlert(`Tecla ${event.key} - Exibe distribui√ß√£o dos n√≥s por tamanho`, 3000);
                 
                 alert(texto_espaco);
             }
@@ -3390,8 +3390,8 @@ TOTAL:                    ${a_tudo.length}`;
         // EXIBE COMUNIDADES - TECLA v
         // ###########################
 
-        // Quando os atributos dos nÛs s„o alterados por meio de "nodes.update", "network.setOptions" n„o funciona para retornar ao estado anterior
-        // Ao mudar paletar de cores, alterar tambÈm a vari·vel 'num_cores' (resolvido: criado mecanismo de variaÁ„o autom·tica)
+        // Quando os atributos dos n√≥s s√£o alterados por meio de "nodes.update", "network.setOptions" n√£o funciona para retornar ao estado anterior
+        // Ao mudar paletar de cores, alterar tamb√©m a vari√°vel 'num_cores' (resolvido: criado mecanismo de varia√ß√£o autom√°tica)
 
         var toggle_v = true;
         var n_comunidades = 0;
@@ -3405,7 +3405,7 @@ TOTAL:                    ${a_tudo.length}`;
                 let a = nodes.getIds();
 
                 if (a.length > 500) {
-                    let conf = confirm('A identificacao de comunidades em mais de 500 nÛs pode demorar v·rios minutos. Deseja continuar?')
+                    let conf = confirm('A identificacao de comunidades em mais de 500 n√≥s pode demorar v√°rios minutos. Deseja continuar?')
                     if (!conf) {
                         return;
                     }
@@ -3448,19 +3448,19 @@ TOTAL:                    ${a_tudo.length}`;
                         n_comunidades = n;
                     }
                     
-                    // CALCULA ÕNDICE CÕCLICO DO ARRAY
+                    // CALCULA √çNDICE C√çCLICO DO ARRAY
                     //let num_cores = hcc.length
                     index_cir = Math.max(0, n % hcc.length) || 0;
 
-                    // MUDA COR DO FUNDO DO N”
+                    // MUDA COR DO FUNDO DO N√ì
                     nodes.update({id: a[i], color: {background: hcc[index_cir]}});
 
                     //console.log(i)
                 }
                 toggle_v = false;
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
-                tempAlert(`Tecla ${event.key} - Adiciona cores aos nÛs para destacar comunidades (${n_comunidades})`, 3000);
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
+                tempAlert(`Tecla ${event.key} - Adiciona cores aos n√≥s para destacar comunidades (${n_comunidades})`, 3000);
 
             } else if (event.key == "v" && toggle_v == false) {
                 
@@ -3470,8 +3470,8 @@ TOTAL:                    ${a_tudo.length}`;
                 }
                 toggle_v = true;
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
-                tempAlert(`Tecla ${event.key} - Remove cores dos nÛs`, 3000);
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
+                tempAlert(`Tecla ${event.key} - Remove cores dos n√≥s`, 3000);
             }
 
             //network.physics.physicsEnabled = true;
@@ -3482,7 +3482,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // #################################
-        // EXIBE N”S DE CADA GRUPO - TECLA V
+        // EXIBE N√ìS DE CADA GRUPO - TECLA V
         // #################################
 
         var num_grupos = 1;
@@ -3534,10 +3534,10 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // #############################################################
-        // ADICIONA COR AO FUNDO DOS N”S ANCESTRAIS DO N”-ALVO - TECLA w
+        // ADICIONA COR AO FUNDO DOS N√ìS ANCESTRAIS DO N√ì-ALVO - TECLA w
         // #############################################################
 
-        // CRIA ARRAY COM N”S ANCESTRAIS
+        // CRIA ARRAY COM N√ìS ANCESTRAIS
         var ancestors = [];
         var nodes_all = nodes.getIds();
         for (let i=0; i<nodes_all.length; i++) {
@@ -3546,7 +3546,7 @@ TOTAL:                    ${a_tudo.length}`;
             }
         }
 
-        // INSERE COR NO FUNDO DOS N”S ANCESTRAIS
+        // INSERE COR NO FUNDO DOS N√ìS ANCESTRAIS
         var toggle_w = true;
         document.addEventListener('keydown', (event) => {
 
@@ -3559,11 +3559,11 @@ TOTAL:                    ${a_tudo.length}`;
                     }
 
                     if (ancestors.length > 0) {
-                        tempAlert(`Tecla ${event.key} - Adiciona cores para destacar cadeia de nÛs origin·ria do nÛ-alvo (${ancestors.length})`, 3000);
+                        tempAlert(`Tecla ${event.key} - Adiciona cores para destacar cadeia de n√≥s origin√°ria do n√≥-alvo (${ancestors.length})`, 3000);
                         toggle_w = false;
 
                     } else if (ancestors.length == 0) {
-                        tempAlert(`Tecla ${event.key} - N„o h· nÛs-alvos para destacar cadeia origin·ria`, 3000);
+                        tempAlert(`Tecla ${event.key} - N√£o h√° n√≥s-alvos para destacar cadeia origin√°ria`, 3000);
                     }
                     
                 } else if (toggle_w == false) {
@@ -3572,8 +3572,8 @@ TOTAL:                    ${a_tudo.length}`;
                     }
                     toggle_w = true;
 
-                    // Exibe informaÁıes na tela (n„o est· exibindo)
-                    tempAlert(`Tecla ${event.key} - Remove cores dos nÛs (${ancestors.length})`, 3000);
+                    // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
+                    tempAlert(`Tecla ${event.key} - Remove cores dos n√≥s (${ancestors.length})`, 3000);
                 }
             }
         });
@@ -3581,7 +3581,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ##################################
-        // SELECIONA N”S ANCESTRAIS - TECLA W
+        // SELECIONA N√ìS ANCESTRAIS - TECLA W
         // ##################################
 
         document.addEventListener('keydown', (event) => {
@@ -3591,7 +3591,7 @@ TOTAL:                    ${a_tudo.length}`;
                 arr2 = ancestors;
 
                 if (arr2.length == 0) {
-                    tempAlert(`Tecla ${event.key} - N„o h· nÛ-alvo ˙nico para selecionar cadeia origin·ria`, 3000);
+                    tempAlert(`Tecla ${event.key} - N√£o h√° n√≥-alvo √∫nico para selecionar cadeia origin√°ria`, 3000);
                     return;
                 }
 
@@ -3600,31 +3600,31 @@ TOTAL:                    ${a_tudo.length}`;
                 network.deleteSelected();
 
 
-                // VARI¡VEL GLOBAL DEFINIDA NA FUN«√O DA TECLA DEL
+                // VARI√ÅVEL GLOBAL DEFINIDA NA FUN√á√ÉO DA TECLA DEL
                 del_array = del_array.concat(difference);
 
-                // total_n: VARI¡VEL GLOBAL DENIFINDA NA FUN«√O DA TECLA DEL
+                // total_n: VARI√ÅVEL GLOBAL DENIFINDA NA FUN√á√ÉO DA TECLA DEL
                 let percentual = (del_array.length / total_n.length) * 100;
                 percentual = percentual.toFixed(1);
 
-                // INCLUIR AVISO PERMANENTE QUE N”S FORAM DELETADOS
+                // INCLUIR AVISO PERMANENTE QUE N√ìS FORAM DELETADOS
                 let el = document.createElement("div");
                 el.setAttribute("style","position:absolute;top:70px;right:21px;border:5px solid rgba(255, 255, 123, 1);border-radius: 5px;background-color:rgba(255, 255, 123, 1);");
-                el.innerHTML = `NÛs deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
+                el.innerHTML = `N√≥s deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
                 document.body.appendChild(el);
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
-                tempAlert(`Tecla ${event.key} - Exclui nÛs que n„o pertecem ‡ cadeia de nÛs origin·ria do nÛ-alvo (${ancestors.length})`, 3000);
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
+                tempAlert(`Tecla ${event.key} - Exclui n√≥s que n√£o pertecem √† cadeia de n√≥s origin√°ria do n√≥-alvo (${ancestors.length})`, 3000);
             }
         });
 
 
 
         // ####################################################
-        // ADICIONA COR AO FUNDO DOS N”S SELECIONADOS - TECLA x
+        // ADICIONA COR AO FUNDO DOS N√ìS SELECIONADOS - TECLA x
         // ####################################################
 
-        // Verde, amarelo, azul, lil·s
+        // Verde, amarelo, azul, lil√°s
         var cores_fundo = ["rgba(0, 255, 0, 1)", "rgba(255, 255, 0, 1)", "rgba(0, 255, 255, 1)", "rgba(255, 0, 255, 1)"];
         var c_color = 0;
         var nos_coloridos = [];
@@ -3648,18 +3648,18 @@ TOTAL:                    ${a_tudo.length}`;
                     c_color = 0;
                 }
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
-                tempAlert(`Tecla ${event.key} - Adiciona cores sequenciais aos nÛs selecionados (verde, amarelo, azul e lil·s)`, 3000);
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
+                tempAlert(`Tecla ${event.key} - Adiciona cores sequenciais aos n√≥s selecionados (verde, amarelo, azul e lil√°s)`, 3000);
             
             } else if (event.key == 'x' && network.getSelectedNodes().length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione nÛs em sequÍncia para adicionar cores (verde, amarelo, azul e lil·s)`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione n√≥s em sequ√™ncia para adicionar cores (verde, amarelo, azul e lil√°s)`, 3000);
             }
         });
 
 
 
         // ####################################################
-        // REMOVE COR AO FUNDO DOS N”S SELECIONADOS - TECLA X
+        // REMOVE COR AO FUNDO DOS N√ìS SELECIONADOS - TECLA X
         // ####################################################
 
         document.addEventListener('keydown', (event) => {
@@ -3672,15 +3672,15 @@ TOTAL:                    ${a_tudo.length}`;
                 nos_coloridos = [];
                 c_color = 0;
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
-                tempAlert(`Tecla ${event.key} - Remove cores dos nÛs`, 3000);
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
+                tempAlert(`Tecla ${event.key} - Remove cores dos n√≥s`, 3000);
             }
         });
 
 
 
         // #################################
-        // CONSULTA N”S ACUMULADOS - TECLA y
+        // CONSULTA N√ìS ACUMULADOS - TECLA y
         // #################################
 
         document.addEventListener('keydown', (event) => {
@@ -3699,7 +3699,7 @@ TOTAL:                    ${a_tudo.length}`;
 
                 let conf_destaca = ''
                 if (temp.length > 1) {
-                    conf_destaca = confirm("Deseja destacar caminhos mais curtos entre os nÛs?");
+                    conf_destaca = confirm("Deseja destacar caminhos mais curtos entre os n√≥s?");
                 }
 
 
@@ -3712,14 +3712,14 @@ TOTAL:                    ${a_tudo.length}`;
 
                 setTimeout(() => {copyOperation(temp2)}, 500)
 
-                tempAlert(`Tecla ${event.key} - Abre lista de nÛs-alvos em nova aba (${temp.length})`, 3000);
+                tempAlert(`Tecla ${event.key} - Abre lista de n√≥s-alvos em nova aba (${temp.length})`, 3000);
             }
         });
 
 
 
         // ########################################
-        // EXIBE TODOS OS N”S PF, PJ E PE - TECLA z
+        // EXIBE TODOS OS N√ìS PF, PJ E PE - TECLA z
         // ########################################
 
         var controle_z = true;
@@ -3734,8 +3734,8 @@ TOTAL:                    ${a_tudo.length}`;
         document.addEventListener('keydown', (event) => {
             if (event.key == "z" && toggle_z == true) {
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Ativa modo autom·tico de visualizaÁ„o`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Ativa modo autom√°tico de visualiza√ß√£o`, 3000);
 
                 toggle_z = false;
 
@@ -3747,15 +3747,15 @@ TOTAL:                    ${a_tudo.length}`;
 
                 maiores = [];
 
-                // LOOP PARA OBTER APENAS SEQU NCIA NUM…RICA
+                // LOOP PARA OBTER APENAS SEQU√äNCIA NUM√âRICA
                 for (let i=0; i<a.length; i++) {
 
-                    // LOOP SOBRE IDS DOS N”S
+                    // LOOP SOBRE IDS DOS N√ìS
                     for (let k=0; k<a.length; k++) {
                         let value_no = network.body.nodes[a[k]].options.value;
                         if (value_no == i) {
 
-                            // APENAS N”S COM 2 OU MAIS N”S ADJACENTES
+                            // APENAS N√ìS COM 2 OU MAIS N√ìS ADJACENTES
                             if (network.getConnectedNodes(a[k]).length > 1) {
                                 maiores.push(a[k]);
                             }
@@ -3763,10 +3763,10 @@ TOTAL:                    ${a_tudo.length}`;
                     }
                 }
 
-                // N”S ORDENADOS SEGUNDO MAIOR N⁄MERO DE ADJAC NCIAS
+                // N√ìS ORDENADOS SEGUNDO MAIOR N√öMERO DE ADJAC√äNCIAS
                 maiores.reverse();
 
-                // CRIA LISTA FINAL COM N”S COM MAIOR GRAU, SEGUIDOS DE SEUS ADJACENTES
+                // CRIA LISTA FINAL COM N√ìS COM MAIOR GRAU, SEGUIDOS DE SEUS ADJACENTES
                 for (let i=0; i<maiores.length; i++) {
                     nod.push([maiores[i], maiores[i]]);
                     let temp = network.getConnectedNodes(maiores[i]);
@@ -3783,14 +3783,14 @@ TOTAL:                    ${a_tudo.length}`;
                 network.setOptions({'edges': {'font': {'size': 0}}});
                 network.setOptions({"edges": {"hidden": false}});
 
-                // INÕCIO DA FUN«√O DE LOOP
+                // IN√çCIO DA FUN√á√ÉO DE LOOP
                 var i = 0;              
                 function myLoop() {        
                 setTimeout(function() {
 
                     //console.log('nod:', nod)
 
-                    // CONDI«√O QUE VERIFICA O FINAL DO ARRAY 'nod' E ENCERRA A FUN«√O
+                    // CONDI√á√ÉO QUE VERIFICA O FINAL DO ARRAY 'nod' E ENCERRA A FUN√á√ÉO
                     if (i == nod.length) {
                         nodes.update({id: last_node, font: {color: '#777777'}});
                         //nodes.update({id: last_central_node, color: {background: 'transparent'}});
@@ -3812,7 +3812,7 @@ TOTAL:                    ${a_tudo.length}`;
                     
                     //console.log('nod:', nod);
 
-                    // SAI DO PROGRAMA (SEM ESTA CONDI«√O, ESTAVA DANDO ERRO NA PR”XIMA LINHA)
+                    // SAI DO PROGRAMA (SEM ESTA CONDI√á√ÉO, ESTAVA DANDO ERRO NA PR√ìXIMA LINHA)
                     if (nod.length == 0) {
                         return
                     }
@@ -3843,7 +3843,7 @@ TOTAL:                    ${a_tudo.length}`;
                         nodes.update({id: nod[i - 1][0], font: {color: '#777777'}});
                     }
 
-                    // CRIANDO NOVO R”TULO
+                    // CRIANDO NOVO R√ìTULO
                     let edg1 = network.getConnectedEdges(nod[i][0]);
                     let edg2 = network.getConnectedEdges(nod[i][1]);
                     let common_edg = edg1.filter(value => edg2.includes(value));
@@ -3909,8 +3909,8 @@ TOTAL:                    ${a_tudo.length}`;
             
             } else if (event.key == "z" && toggle_z == false) {
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Desativa modo autom·tico de visualizaÁ„o`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Desativa modo autom√°tico de visualiza√ß√£o`, 3000);
 
                 controle_z = false;
                 toggle_z = true;
@@ -3938,7 +3938,7 @@ TOTAL:                    ${a_tudo.length}`;
             }
         });
 
-        //// EXEMPLO DE LOOP PERI”DICO EM JAVASCRIPT
+        //// EXEMPLO DE LOOP PERI√ìDICO EM JAVASCRIPT
         //let x = 0;
         //function loop () {
         //    console.log("hi");
@@ -3953,10 +3953,10 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ################################################################
-        // AJUSTA MASSA DOS N”S PROPORCIONALMENTE AO TAMANHO - TECLA ESPA«O
+        // AJUSTA MASSA DOS N√ìS PROPORCIONALMENTE AO TAMANHO - TECLA ESPA√áO
         // ################################################################
 
-        // Usa vari·vel global 't_ref'
+        // Usa vari√°vel global 't_ref'
 
         var pula_100 = true
         var n_bag = [];
@@ -3987,7 +3987,7 @@ TOTAL:                    ${a_tudo.length}`;
                     
                     let size = network.body.nodes[all[i]].options.size;
 
-                    // VERIFICA SE O TAMANHO DO N” EST¡ NO INTERVALO ENTRE MAIOR OU IGUAL A t_ref E MENOR QUE t_ref + 5
+                    // VERIFICA SE O TAMANHO DO N√ì EST√Å NO INTERVALO ENTRE MAIOR OU IGUAL A t_ref E MENOR QUE t_ref + 5
                     if (size >= t_ref && size < (t_ref + 5)) {
                         sel_e.push(all[i])
                     }
@@ -4006,7 +4006,7 @@ TOTAL:                    ${a_tudo.length}`;
                 //console.log(sel_e)
                 network.selectNodes(sel_e);
 
-                tempAlert(`Tecla EspaÁo - Aumenta massa dos nÛs proporcionalmente ao tamanho >= ${t_ref} (${n_bag.length})`, 3000);
+                tempAlert(`Tecla Espa√ßo - Aumenta massa dos n√≥s proporcionalmente ao tamanho >= ${t_ref} (${n_bag.length})`, 3000);
 
                 t_ref = t_ref - 5;
 
@@ -4026,7 +4026,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // #####################################################################
-        // ALTERNA SELE«√O DOS N”S ADJACENTES QUE S√O ORIGEM E DESTINO - TECLA ;
+        // ALTERNA SELE√á√ÉO DOS N√ìS ADJACENTES QUE S√ÉO ORIGEM E DESTINO - TECLA ;
         // #####################################################################
 
         var toggle_pv = 0;
@@ -4037,25 +4037,25 @@ TOTAL:                    ${a_tudo.length}`;
 
         document.addEventListener('keydown', (event) => {
 
-            // O SCRIPT FOI INICIALMENTE CONCEBIDO PARA SER USADO COM MAIS DE UM N” SELECIONADO. DEPOIS AJUSTAMOS PARA APENAS UM N” SELECIONADO
+            // O SCRIPT FOI INICIALMENTE CONCEBIDO PARA SER USADO COM MAIS DE UM N√ì SELECIONADO. DEPOIS AJUSTAMOS PARA APENAS UM N√ì SELECIONADO
             if (event.key == ";") {
 
 
 
                 if (toggle_pv == 0 && network.getSelectedNodes().length != 1) {
-                    tempAlert(`Tecla ${event.key} - Selecione um nÛ para aplicar a funÁ„o`, 3000);
+                    tempAlert(`Tecla ${event.key} - Selecione um n√≥ para aplicar a fun√ß√£o`, 3000);
                     return;
                 }
 
 
 
-                // EXECUTA APENAS NA PRIMEIRA VEZ QUE A TECLA ; … PRESSIONADA OU QUANDO toggle_pv == 0
+                // EXECUTA APENAS NA PRIMEIRA VEZ QUE A TECLA ; √â PRESSIONADA OU QUANDO toggle_pv == 0
                 if (toggle_pv == 0 && temp_to.length == 0 && temp_from.length == 0) {
                 
-                    // EXTRAI ARRAY COM N” SELECIONADO
+                    // EXTRAI ARRAY COM N√ì SELECIONADO
                     no_sel_pv = network.getSelectedNodes();
                     
-                    // EXTRAI TODAS AS ARESTAS ADJACENTES AOS N”S SELECIONADOS
+                    // EXTRAI TODAS AS ARESTAS ADJACENTES AOS N√ìS SELECIONADOS
                     for (let i=0; i<no_sel_pv.length; i++) {
                         ar_adj.push(network.getConnectedEdges(no_sel_pv[i]));
                     }
@@ -4063,7 +4063,7 @@ TOTAL:                    ${a_tudo.length}`;
                     // ELIMINA DUPLICIDADES NO ARRAY DE ARESTAS - atentar para o [0]
                     ar_adj = [...new Set(ar_adj[0])];
 
-                    // EXTRAI N”S DESTINO
+                    // EXTRAI N√ìS DESTINO
                     for (let i=0; i<ar_adj.length; i++) {
                         if (network.body.edges[ar_adj[i]] != undefined) {
                             temp_to.push(network.body.edges[ar_adj[i]].toId);
@@ -4072,7 +4072,7 @@ TOTAL:                    ${a_tudo.length}`;
                     temp_to = [...new Set(temp_to)];
                     temp_to = temp_to.filter(x => !no_sel_pv.includes(x));
 
-                    // EXTRAI N”S ORIGEM
+                    // EXTRAI N√ìS ORIGEM
                     for (let i=0; i<ar_adj.length; i++) {
                         if (network.body.edges[ar_adj[i]] != undefined) {
                             temp_from.push(network.body.edges[ar_adj[i]].fromId);
@@ -4081,14 +4081,14 @@ TOTAL:                    ${a_tudo.length}`;
                     temp_from = [...new Set(temp_from)];
                     temp_from = temp_from.filter(x => !no_sel_pv.includes(x));
 
-                    //console.log('atualizaÁ„o das vari·veis');
+                    //console.log('atualiza√ß√£o das vari√°veis');
                     //console.log('temp_from:', temp_from);
                     //console.log('temp_to:', temp_to);
                 }
 
                 
 
-                // SELECIONA N”S ADJACENTES QUE S√O DESTINO DO N” SELECIONADO (PONTA DAS SETAS QUE SAEM -->)
+                // SELECIONA N√ìS ADJACENTES QUE S√ÉO DESTINO DO N√ì SELECIONADO (PONTA DAS SETAS QUE SAEM -->)
                 if (toggle_pv == 0 && no_sel_pv.length == 1 && temp_to.length > 0) {
                 
                     network.unselectAll();
@@ -4097,14 +4097,14 @@ TOTAL:                    ${a_tudo.length}`;
 
                     let cn = network.getConnectedNodes(no_sel_pv[0]).length
 
-                    // RETORNA COR CINZA PARA OS R”TULOS DOS N”S SELECIONADOS
+                    // RETORNA COR CINZA PARA OS R√ìTULOS DOS N√ìS SELECIONADOS
                     for (let i=0; i<no_sel_pv.length; i++) {
                         nodes.update({id: no_sel_pv[i], font: {color: '#777777'}});
                     }
                     
                     toggle_pv = 1;
 
-                    tempAlert(`Tecla ${event.key} - Seleciona nÛs adjacentes de DESTINO (-->) das arestas do selecionado (${temp_to.length}/${cn})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Seleciona n√≥s adjacentes de DESTINO (-->) das arestas do selecionado (${temp_to.length}/${cn})`, 3000);
 
 
 
@@ -4116,33 +4116,33 @@ TOTAL:                    ${a_tudo.length}`;
 
                     let cn = network.getConnectedNodes(no_sel_pv[0]).length
                     
-                    // RETORN COR CINZA PARA OS R”TULOS DOS N”S SELECIONADOS
+                    // RETORN COR CINZA PARA OS R√ìTULOS DOS N√ìS SELECIONADOS
                     for (let i=0; i<no_sel_pv.length; i++) {
                         nodes.update({id: no_sel_pv[i], font: {color: '#777777'}});
                     }
 
-                    tempAlert(`Tecla ${event.key} - Seleciona nÛs adjacentes de DESTINO (-->) das arestas do selecionado (${temp_to.length}/${cn})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Seleciona n√≥s adjacentes de DESTINO (-->) das arestas do selecionado (${temp_to.length}/${cn})`, 3000);
 
                     
                 
-                // SELECIONA N”S ADJACENTES QUE CHEGAM NO N”-ALVO (ORIGEM)
+                // SELECIONA N√ìS ADJACENTES QUE CHEGAM NO N√ì-ALVO (ORIGEM)
                 } else if (toggle_pv == 1 && no_sel_pv.length == 1 && temp_from.length > 0) {
 
-                    // DESSELECIONA TODOS OS N”S
+                    // DESSELECIONA TODOS OS N√ìS
                     network.unselectAll();
                     network.redraw();
                     network.selectNodes(temp_from);
 
                     let cn = network.getConnectedNodes(no_sel_pv[0]).length
 
-                    // RETORN COR CINZA PARA OS R”TULOS DOS N”S SELECIONADOS
+                    // RETORN COR CINZA PARA OS R√ìTULOS DOS N√ìS SELECIONADOS
                     for (let i=0; i<no_sel_pv.length; i++) {
                         nodes.update({id: no_sel_pv[i], font: {color: '#777777'}});
                     }
                 
                     toggle_pv = 2;
                     
-                    tempAlert(`Tecla ${event.key} - Seleciona nÛs adjacentes de ORIGEM (<--) das arestas do nÛ selecionado (${temp_from.length}/${cn})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Seleciona n√≥s adjacentes de ORIGEM (<--) das arestas do n√≥ selecionado (${temp_from.length}/${cn})`, 3000);
 
 
 
@@ -4155,29 +4155,29 @@ TOTAL:                    ${a_tudo.length}`;
 
                     let cn = network.getConnectedNodes(no_sel_pv[0]).length
 
-                    // RETORN COR CINZA PARA OS R”TULOS DOS N”S SELECIONADOS
+                    // RETORN COR CINZA PARA OS R√ìTULOS DOS N√ìS SELECIONADOS
                     for (let i=0; i<no_sel_pv.length; i++) {
                         nodes.update({id: no_sel_pv[i], font: {color: '#777777'}});
                     }
 
-                    tempAlert(`Tecla ${event.key} - Seleciona nÛs adjacentes de ORIGEM (<--) das arestas dos nÛ selecionado (${temp_from.length}/${cn})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Seleciona n√≥s adjacentes de ORIGEM (<--) das arestas dos n√≥ selecionado (${temp_from.length}/${cn})`, 3000);
 
 
             
-                // VOLTA A SELECIONAR OS N”S ORIGINAIS
+                // VOLTA A SELECIONAR OS N√ìS ORIGINAIS
                 } else if (toggle_pv == 2 && no_sel_pv.length == 1) {
                 
                     network.unselectAll();
                     network.selectNodes(no_sel_pv);
             
-                    // REINICIALIZA VARI¡VEIS
+                    // REINICIALIZA VARI√ÅVEIS
                     toggle_pv = 0;
                     no_sel_pv = [];
                     ar_adj = [];
                     temp_to = [];
                     temp_from = [];
             
-                    tempAlert(`Tecla ${event.key} - Retorna ‡ seleÁ„o inicial (${network.getSelectedNodes().length})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Retorna √† sele√ß√£o inicial (${network.getSelectedNodes().length})`, 3000);
                 }
 
             }
@@ -4192,7 +4192,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ##########################################################
-        // SELECIONA N”S ADICIONADOS NA REQUISI«√O ANTERIOR - TECLA /
+        // SELECIONA N√ìS ADICIONADOS NA REQUISI√á√ÉO ANTERIOR - TECLA /
         // ##########################################################
 
         var toggle_bar = 0;
@@ -4212,13 +4212,13 @@ TOTAL:                    ${a_tudo.length}`;
 
                 toggle_bar = 1;
 
-                tempAlert(`Tecla ${event.key} - Seleciona nÛs adicionados na requisiÁ„o anterior (${li.length}/${nn.length})`, 3000);
+                tempAlert(`Tecla ${event.key} - Seleciona n√≥s adicionados na requisi√ß√£o anterior (${li.length}/${nn.length})`, 3000);
             
             } else if (event.key == "/" && toggle_bar == 1) {
                 let nn = nodes.getIds()
                 network.unselectAll();
                 toggle_bar = 0;
-                tempAlert(`Tecla ${event.key} - Desseleciona todos os nÛs (${nn.length})`, 3000);
+                tempAlert(`Tecla ${event.key} - Desseleciona todos os n√≥s (${nn.length})`, 3000);
             }
 
         });
@@ -4226,7 +4226,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ##################################################
-        // SELECIONA N”S POR TIPO DE IMAGEM - TECLA . (PONTO)
+        // SELECIONA N√ìS POR TIPO DE IMAGEM - TECLA . (PONTO)
         // ##################################################
 
         // 15 itens (0 a 14)
@@ -4261,7 +4261,7 @@ TOTAL:                    ${a_tudo.length}`;
                     let nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4283,7 +4283,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4304,7 +4304,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4325,7 +4325,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4346,7 +4346,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4367,7 +4367,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4388,7 +4388,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4409,7 +4409,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4430,7 +4430,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4451,7 +4451,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4472,7 +4472,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4493,7 +4493,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4514,7 +4514,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4526,7 +4526,7 @@ TOTAL:                    ${a_tudo.length}`;
                     }
                     network.selectNodes(nos);
                     cont_t2 = cont_t2 + 1;
-                    tempAlert(`Tecla ${event.key} - Seleciona endereÁos (${temp.length}/${nodes.getIds().length})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Seleciona endere√ßos (${temp.length}/${nodes.getIds().length})`, 3000);
 
                     
                 } else if (cont_t2 == 13) {
@@ -4535,7 +4535,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4556,7 +4556,7 @@ TOTAL:                    ${a_tudo.length}`;
                     nos = [];
                     for (var i = 0; i < temp_t2.length; i++) {
 
-                        // CASO O N” TENHA SIDO DELETADO
+                        // CASO O N√ì TENHA SIDO DELETADO
                         if (network.body.nodes[temp_t2[i]] == undefined) {
                             continue
                         }
@@ -4574,7 +4574,7 @@ TOTAL:                    ${a_tudo.length}`;
                 } else if (cont_t2 == 15) {
                     network.unselectAll();
                     cont_t2 = 0;
-                    tempAlert(`Tecla ${event.key} - Desseleciona todos os nÛs (${temp_t.length})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Desseleciona todos os n√≥s (${temp_t.length})`, 3000);
                 }
             }
         });
@@ -4582,39 +4582,39 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ###################################################################
-        // ABRE POPUP COM R”TULOS DAS ARESTAS SELECIONADAS - TECLA , (VÕRGULA)
+        // ABRE POPUP COM R√ìTULOS DAS ARESTAS SELECIONADAS - TECLA , (V√çRGULA)
         // ###################################################################
 
         var popup;
         var nn;
 
-        // EXECUTA FUN«√O createPopup SE HOUVER N” SELECIONADO, PASSANDO COMO PAR¬METRO O ARRAY DOS N”S SELECIONADOS (nn)
+        // EXECUTA FUN√á√ÉO createPopup SE HOUVER N√ì SELECIONADO, PASSANDO COMO PAR√ÇMETRO O ARRAY DOS N√ìS SELECIONADOS (nn)
         document.addEventListener("keydown", function(event) {
         if (event.key === ",") {
             nn = network.getSelectedNodes();
             if (nn.length > 0) {
                 createPopup(nn);
-                tempAlert(`Tecla ${event.key} - Abre popup com nÛs selecionados (${nn.length})`, 3000);
+                tempAlert(`Tecla ${event.key} - Abre popup com n√≥s selecionados (${nn.length})`, 3000);
             } else if (nn.length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione um ou mais nÛs para abrir popup contendo nÛs selecionados`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um ou mais n√≥s para abrir popup contendo n√≥s selecionados`, 3000);
             }
         }
         });
 
 
-        // DECLARA FUN«√O QUE CRIA POPUP
+        // DECLARA FUN√á√ÉO QUE CRIA POPUP
         function createPopup(nn) {
 
         let lista_ids = [];
 
-        // EXTRAI ARRAY DE R”TULOS (labels)
+        // EXTRAI ARRAY DE R√ìTULOS (labels)
         let labels = nn.map(function(nodeId) {
             let node = network.body.data.nodes.get(nodeId);
             lista_ids.push(node.id + '_' + node.label);
         });
 
 
-        // ordena os labels conforme especificaÁ„o
+        // ordena os labels conforme especifica√ß√£o
         lista_ids.sort(function(a, b) {
             let order = ["PF_", "PJ_", "PE_", "EN_", "TE_", "EM_"];
             let aIndex = order.findIndex(function(prefix) {
@@ -4696,11 +4696,11 @@ TOTAL:                    ${a_tudo.length}`;
             
         if (!popup || popup.closed) {
             popup = window.open('', target="_blank", windowFeature='left=50,top=50,width=700,height=400,scrollbars=1');
-            popup.document.write("<html><head><title>NÛs Selecionados</title><style>body{font-family: Arial, sans-serif; font-size: 14px; color: #333; line-height: 1.5; padding: 10px;} b{font-size: 16px; font-weight: bold;}</style></head><body></body></html>");
+            popup.document.write("<html><head><title>N√≥s Selecionados</title><style>body{font-family: Arial, sans-serif; font-size: 14px; color: #333; line-height: 1.5; padding: 10px;} b{font-size: 16px; font-weight: bold;}</style></head><body></body></html>");
         }
 
         var popupBody = popup.document.body;
-        popupBody.innerHTML = `<b>N”S SELECIONADOS (${lista_ids.length}):</b><br><br>` + popupText;
+        popupBody.innerHTML = `<b>N√ìS SELECIONADOS (${lista_ids.length}):</b><br><br>` + popupText;
         }
 
         network.on("click", function(params) {
@@ -4712,7 +4712,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ##############################################
-        // AUMENTA A MASSA DOS N”S SELECIONADOS - TECLA ]
+        // AUMENTA A MASSA DOS N√ìS SELECIONADOS - TECLA ]
         // ##############################################
 
         var par_n2 = 1
@@ -4738,23 +4738,23 @@ TOTAL:                    ${a_tudo.length}`;
                     });
                 }
 
-                // Atualiza vari·vel
+                // Atualiza vari√°vel
                 par_n2 = par_n2 + 5
 
                 network.redraw();
             
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Aumenta massa dos nÛs selecionados em 5 unidades. Fator: ${par_n2} (${network.getSelectedNodes().length})`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Aumenta massa dos n√≥s selecionados em 5 unidades. Fator: ${par_n2} (${network.getSelectedNodes().length})`, 3000);
             
             } else if (event.key == ']' && network.physics.options.solver == 'barnesHut' && network.getSelectedNodes().length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione um ou mais nÛs para aumentar suas massas em 5 unidades`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um ou mais n√≥s para aumentar suas massas em 5 unidades`, 3000);
             }
         })
 
 
 
         // ###############################################
-        // DIMINUI A MASSA DOS N”S SELECIONADOS - TECLAS [
+        // DIMINUI A MASSA DOS N√ìS SELECIONADOS - TECLAS [
         // ###############################################
 
         document.addEventListener('keydown', (event) => {
@@ -4789,20 +4789,20 @@ TOTAL:                    ${a_tudo.length}`;
                     });
                 }
 
-                // Atualiza a vari·vel
+                // Atualiza a vari√°vel
                 //par_n2 = par_n2 - 5
 
                 //if (par_n2 <= 1) {
                 //    par_n2 = 1
                 //}
 
-                // Exibe informaÁıes na tela
-                tempAlert(`Tecla ${event.key} - Diminui massa dos nÛs selecionados em 5 unidades. Fator: ${par_n2} (${network.getSelectedNodes().length})`, 3000);
+                // Exibe informa√ß√µes na tela
+                tempAlert(`Tecla ${event.key} - Diminui massa dos n√≥s selecionados em 5 unidades. Fator: ${par_n2} (${network.getSelectedNodes().length})`, 3000);
 
                 network.redraw();
 
             } else if (event.key == '[' && network.physics.options.solver == 'barnesHut' && network.getSelectedNodes().length == 0) {
-                tempAlert(`Tecla ${event.key} - Selecione um ou mais nÛs para diminuir suas massas em 5 unidades`, 3000);
+                tempAlert(`Tecla ${event.key} - Selecione um ou mais n√≥s para diminuir suas massas em 5 unidades`, 3000);
             }
 
         })
@@ -4821,14 +4821,14 @@ TOTAL:                    ${a_tudo.length}`;
             if(event.key == "?" && toggle_int == 0){
 
                 let ajuste_tela = "ATALHOS:<br>Ajuste da tela: F11 b<br>";
-                let posicao = "PosiÁ„o dos nÛs: F5 k K f p Clique+Arrasto Shift+(L/R) ] [ m M EspaÁo n N Shift+(U/D)<br>";
-                let selecao = "SeleÁ„o dos nÛs: Clique Ctrl+Clique a A Á « I j J q Q . ; /<br>";
-                let visualizacao = "VisualizaÁ„o de nÛs e arestas: Esc Bot„oDeRolagem c e l i t T V z<br>";
-                let cor = "Cor dos nÛs: x X w v<br>";
+                let posicao = "Posi√ß√£o dos n√≥s: F5 k K f p Clique+Arrasto Shift+(L/R) ] [ m M Espa√ßo n N Shift+(U/D)<br>";
+                let selecao = "Sele√ß√£o dos n√≥s: Clique Ctrl+Clique a A √ß √á I j J q Q . ; /<br>";
+                let visualizacao = "Visualiza√ß√£o de n√≥s e arestas: Esc Bot√£oDeRolagem c e l i t T V z<br>";
+                let cor = "Cor dos n√≥s: x X w v<br>";
                 let sites = "Sites externos: d D g G 1 2 4 5 6 7 8<br>";
-                let delecao = "DeleÁ„o de nÛs: Del r R W<br>";
-                let consulta = "Consulta ‡ base de dados: o O s y<br>";
-                let outras = "Outras funÁıes: h ? L u U + - , |";
+                let delecao = "Dele√ß√£o de n√≥s: Del r R W<br>";
+                let consulta = "Consulta √† base de dados: o O s y<br>";
+                let outras = "Outras fun√ß√µes: h ? L u U + - , |";
 
                 el_3 = document.createElement("div");
                 
@@ -4858,7 +4858,7 @@ TOTAL:                    ${a_tudo.length}`;
         
 
         // ################################
-        // DESSELECIONA TODOS OS N”S
+        // DESSELECIONA TODOS OS N√ìS
         // ################################
 
         network.on('click', (event) => {
@@ -4873,28 +4873,28 @@ TOTAL:                    ${a_tudo.length}`;
                 //con_nodes_a = [];
                 sel_anterior = [];
                 
-                // EXTRAÕDO DA TECLA A
+                // EXTRA√çDO DA TECLA A
                 //temp_a = [];
 
-                // VARI¡VEL DECLARADA NO SCRIPT DA TECLA q
+                // VARI√ÅVEL DECLARADA NO SCRIPT DA TECLA q
                 target_id = [];
                 con = [];
 
-                // Exibe informaÁıes na tela
+                // Exibe informa√ß√µes na tela
                 //if (sel_anterior.length > 0) {
-                tempAlert(`Clique na ·rea do grafo - Desseleciona todos os nÛs (${nodes.getIds().length})`, 3000);
+                tempAlert(`Clique na √°rea do grafo - Desseleciona todos os n√≥s (${nodes.getIds().length})`, 3000);
                 //}
             }
 
-            // Exibe informaÁıes na tela
+            // Exibe informa√ß√µes na tela
             //if (sel.length > 0) {
-            //    tempAlert(`Clique na ·rea do grafo - Desseleciona todos os nÛs`, 3000);
+            //    tempAlert(`Clique na √°rea do grafo - Desseleciona todos os n√≥s`, 3000);
             //}
 
-            // Limpa vari·vel global 'sel_anterior' do script da TECLA 'a', para n„o continuar a sequÍncia de seleÁ„o do ponto onde parou
+            // Limpa vari√°vel global 'sel_anterior' do script da TECLA 'a', para n√£o continuar a sequ√™ncia de sele√ß√£o do ponto onde parou
             sel_anterior = [];
 
-            // Limpa vair·vels globais do script da TECLA ';', para n„o reiniciar a sequÍncia de seleÁ„o do ponto onde parou
+            // Limpa vair√°vels globais do script da TECLA ';', para n√£o reiniciar a sequ√™ncia de sele√ß√£o do ponto onde parou
             toggle_pv = 0;
             no_sel_pv = [];
             ar_adj = [];
@@ -4906,20 +4906,20 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ############################################################
-        // DESSELECIONA ARESTAS DE N”S DESSELECIONADOS COM CTRL + CLICK
+        // DESSELECIONA ARESTAS DE N√ìS DESSELECIONADOS COM CTRL + CLICK
         // ############################################################
 
-        // AO SAIR DE CIMA DO N” E EVENTUALMENTE TER DESSELECIONADO O RESPECTIVO N”
+        // AO SAIR DE CIMA DO N√ì E EVENTUALMENTE TER DESSELECIONADO O RESPECTIVO N√ì
         network.on('blurNode', function f(params) {
 
-            // OBT…M LISTA DE N”S SELECIONADOS (O QUE ACABOU DE SER DESSELECIONADO N√O APARECE NESTA LISTA)
+            // OBT√âM LISTA DE N√ìS SELECIONADOS (O QUE ACABOU DE SER DESSELECIONADO N√ÉO APARECE NESTA LISTA)
             let ns = network.getSelectedNodes();
 
             // DESSELECIONA TUDO
             network.unselectAll();
             network.redraw();
 
-            // SELECIONA APENAS N”S MANTIDOS SELECIONADOS AP”S DESS
+            // SELECIONA APENAS N√ìS MANTIDOS SELECIONADOS AP√ìS DESS
             //console.log(ns);
             network.selectNodes(ns);
 
@@ -4928,7 +4928,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ###############################################################################################
-        // AUMENTA E DIMINUI TAMANHO REFERNCIAL DOS N”S - TECLAS SHIFT + 'ARROW UP' / SHIFT + 'ARROW DOWN'
+        // AUMENTA E DIMINUI TAMANHO REFERNCIAL DOS N√ìS - TECLAS SHIFT + 'ARROW UP' / SHIFT + 'ARROW DOWN'
         // ###############################################################################################
 
         var t_ref = 40
@@ -4955,8 +4955,8 @@ TOTAL:                    ${a_tudo.length}`;
                 //console.log(t_ref)
                 network.redraw();
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
-                tempAlert(`Teclas Shift + ${event.key} - Aumenta tamanho referencial dos nÛs em 5 unidades (${t_ref})`, 3000);
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
+                tempAlert(`Teclas Shift + ${event.key} - Aumenta tamanho referencial dos n√≥s em 5 unidades (${t_ref})`, 3000);
 
             } else if (event.shiftKey && event.key == 'ArrowDown') {
                 
@@ -4978,8 +4978,8 @@ TOTAL:                    ${a_tudo.length}`;
                 //console.log(t_ref)
                 network.redraw();
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
-                tempAlert(`Teclas Shift + ${event.key} - Diminui tamanho referencial dos nÛs em 5 unidades (${t_ref})`, 3000);
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
+                tempAlert(`Teclas Shift + ${event.key} - Diminui tamanho referencial dos n√≥s em 5 unidades (${t_ref})`, 3000);
 
             }
         });
@@ -4987,7 +4987,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ###############################################
-        // DESSELECIONA TODOS OS N”S - TECLAS 'ARROW DOWN'
+        // DESSELECIONA TODOS OS N√ìS - TECLAS 'ARROW DOWN'
         // ###############################################
 
         //document.addEventListener('keydown', (event) => {
@@ -5013,14 +5013,14 @@ TOTAL:                    ${a_tudo.length}`;
                 tamanho_aresta += 30;
                 network.setOptions({"edges": {"length": tamanho_aresta}});
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
                 tempAlert(`Teclas Shift + ${event.key} - Aumenta tamanho das arestas em 30 unidades (${tamanho_aresta})`, 3000);
                 
             } else if (event.shiftKey && event.key == 'ArrowLeft') {
                 tamanho_aresta -= 30;
                 network.setOptions({"edges": {"length": tamanho_aresta}});
 
-                // Exibe informaÁıes na tela (n„o est· exibindo)
+                // Exibe informa√ß√µes na tela (n√£o est√° exibindo)
                 tempAlert(`Teclas Shift + ${event.key} - Diminui tamanho das arestas em 30 unidades (${tamanho_aresta})`, 3000);
             }
         });
@@ -5028,7 +5028,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ########################################################
-        // MUDA COR DO TEXTO DO N” PARA VERMELHO QUANDO SELECIONADO
+        // MUDA COR DO TEXTO DO N√ì PARA VERMELHO QUANDO SELECIONADO
         // ########################################################
 
         network.on("select", function (params) {
@@ -5045,7 +5045,7 @@ TOTAL:                    ${a_tudo.length}`;
                 });
             }
 
-            // Exibe informaÁıes na tela
+            // Exibe informa√ß√µes na tela
             let temp = network.getSelectedNodes();
 
             let tamanho = ''
@@ -5062,13 +5062,13 @@ TOTAL:                    ${a_tudo.length}`;
                 grupo = `. Grupo: ${network.body.nodes[params.nodes[id]].options.z_group}/${network.body.nodes[params.nodes[id]].options.z_group_total}`
             }
             
-            tempAlert(`Clique sobre nÛ - Seleciona nÛ (${temp.length})${tamanho}${massa2}${grupo}`, 3000);
+            tempAlert(`Clique sobre n√≥ - Seleciona n√≥ (${temp.length})${tamanho}${massa2}${grupo}`, 3000);
 
         });
 
         network.on("deselectNode", function (params) {
             let deselectedNodeId2 = params.previousSelection.nodes; // ACRESCENTEI ['id']
-            if (deselectedNodeId2.length > 100) { // DESSELECIONA TUDO DE UMA S” VEZ A PARTIR DE 100 N”S SELECIONADOS
+            if (deselectedNodeId2.length > 100) { // DESSELECIONA TUDO DE UMA S√ì VEZ A PARTIR DE 100 N√ìS SELECIONADOS
                 network.unselectAll();
                 return;
             }
@@ -5077,7 +5077,7 @@ TOTAL:                    ${a_tudo.length}`;
                 let node = network.body.nodes[params.previousSelection.nodes[id]['id']];
                 //console.log('node:', node);
                 
-                // INCLUÕDO POR DAR ERRO 'id' UNDEFINED
+                // INCLU√çDO POR DAR ERRO 'id' UNDEFINED
                 if (node != undefined) { 
                     nodes.update({id: node['id'], // deselectedNodeId
                             font: {
@@ -5092,7 +5092,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ############################################################
-        // APROXIMA N” SELECIONADO QUANDO CLICA SOBRE ELE - DUPLO CLICK
+        // APROXIMA N√ì SELECIONADO QUANDO CLICA SOBRE ELE - DUPLO CLICK
         // ############################################################
 
 //        function esconde() {
@@ -5104,10 +5104,10 @@ TOTAL:                    ${a_tudo.length}`;
 
 //        network.on('doubleClick', function() {
 
-            // S” FUNCIONA NO LAYOUT BARNES-HUT E COM APENAS UM N” SELECIONADO
+            // S√ì FUNCIONA NO LAYOUT BARNES-HUT E COM APENAS UM N√ì SELECIONADO
 //            if (network.physics.options.solver == 'barnesHut' && network.getSelectedNodes().length == 1) {
 
-//                // Evita compartamento err·tico no modo transparÍncia (arestas s„o exibidas)
+//                // Evita compartamento err√°tico no modo transpar√™ncia (arestas s√£o exibidas)
 //                if (toggle_t == false) {
 //                    return;
 //                }            
@@ -5147,7 +5147,7 @@ TOTAL:                    ${a_tudo.length}`;
                 //network.setOptions({"edges": {"hidden": true}});
                 //network.setOptions({nodes: {scaling: {label: {enabled: true, drawThreshold: 100}}}});
                 
-                // F”RMULA QUE CALCULA O TEMPO DE TRANSI«√O. USADO TAMB…M NA FUN«√O setTimeout
+                // F√ìRMULA QUE CALCULA O TEMPO DE TRANSI√á√ÉO. USADO TAMB√âM NA FUN√á√ÉO setTimeout
 //                let time = 1000;
 //                if (1000 + nodes.getIds().length - 500 < 1000) {
 //                    time = 1000;
@@ -5170,10 +5170,10 @@ TOTAL:                    ${a_tudo.length}`;
 //                }
                 //network.fit({nodes: con_nodes, maxZoomLevel: 1, animation: {duraton: time}});
 
-                // FUN«√O EXECUTADA AP”S A PARTE PRINCIPAL
+                // FUN√á√ÉO EXECUTADA AP√ìS A PARTE PRINCIPAL
 //                function f2() {
 
-                    // REABILITA RECURSOS AP”S PARTE PRINCIPAL
+                    // REABILITA RECURSOS AP√ìS PARTE PRINCIPAL
                     //network.setOptions({physics: {enabled: true}});
 //                    network.setOptions({"edges": {"hidden": false}});
 //                    network.setOptions({nodes: {scaling: {label: {enabled: true, drawThreshold: 8}}}});
@@ -5194,7 +5194,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ##################################
-        // ALTERA FLATICON E TÕTULO DA P¡GINA
+        // ALTERA FLATICON E T√çTULO DA P√ÅGINA
         // ##################################
         var link = document.querySelector("link[rel~='icon']");
         if (!link) {
@@ -5208,7 +5208,7 @@ TOTAL:                    ${a_tudo.length}`;
         link.href = 'logo.png';
         
 
-        // EXTRAI N⁄MERO DE CAMADAS SOLICITADAS
+        // EXTRAI N√öMERO DE CAMADAS SOLICITADAS
         var no_pj = nodes.getIds();
         var n_cam = '';
         for (let i=0; i < no_pj.length; i++) {
@@ -5220,7 +5220,7 @@ TOTAL:                    ${a_tudo.length}`;
         };
 
 
-        // EXTRAI N⁄MERO DE N”S E FORMATA PARA STRING
+        // EXTRAI N√öMERO DE N√ìS E FORMATA PARA STRING
         // https://stackoverflow.com/questions/9461621/format-a-number-as-2-5k-if-a-thousand-or-more-otherwise-900
         function nFormatter(num, digits) {
             const lookup = [
@@ -5252,18 +5252,18 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         // ##############################################
-        // AJUSTA ALTURA DA ¡REA DO GRAFO AUTOMATICAMENTE
+        // AJUSTA ALTURA DA √ÅREA DO GRAFO AUTOMATICAMENTE
         // ##############################################
 
-        // Existe outra forma de ajustar a altura ·rea do grafo: TECLA b
+        // Existe outra forma de ajustar a altura √°rea do grafo: TECLA b
 
         function ajusta_altura() {
 
-            // EXTRAI DIMENS’ES DA JANELA DO NAVEGADOR
+            // EXTRAI DIMENS√ïES DA JANELA DO NAVEGADOR
             var w = window.innerWidth;
             let h = window.innerHeight;
 
-            // AJUSTA ALTURA DA ¡REA DO GRAFO ¿ ALTURA DA JANELA
+            // AJUSTA ALTURA DA √ÅREA DO GRAFO √Ä ALTURA DA JANELA
             document.querySelector('#mynetwork').style.height = h - 20;
 
         };
