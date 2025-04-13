@@ -155,6 +155,10 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 
 <br>
 
+### 🚧 Tutorial em Construção 🚧
+
+<br>
+
 O objetivo deste tutorial é demonstrar o uso dos comandos do SINARC que não dependem de consulta ao banco de dados, utilizando grafos disponíveis online.
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, combine Shift + tecla desejada.<br>
@@ -278,12 +282,13 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 35) **Tecla +** -->
 36) **Tecla |** -->
 
-Comandos que dependem de consulta ao banco de dados: Teclas o, O, s, y, 
+Comandos não utilizados por dependerem de consulta ao banco de dados: **Teclas o, O, s, y** 
 
 <br>
 
 Este breve tutorial abordou apenas os camandos que não dependem de nova consulta aos bancos de dados. Estes comandos podem ser executados nos arquivos gerados pelo SINARC para compartilhamento.
-Para mais detalhes sobre a função de cada comando, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
+
+Para mais detalhes sobre o funcionamento de cada comando, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
 
 <br>
 </details>
