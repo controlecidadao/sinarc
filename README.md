@@ -111,8 +111,8 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=spIwxVx6AnI" target="_blank">
-   <!--<img width="70%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/visualizacao.png" alt="Vídeo Demonstrativo" />-->
-   <img width="70%" class="clickable-image" src="./images/visualizacoa.png" alt="Vídeo Demonstrativo" />
+   <!--<img width="70%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/visualizacao.png" alt="Modo Automático de Visualização" />-->
+   <img width="70%" class="clickable-image" src="./images/visualizacao.png" alt="Modo Automático de Visualização" />
 </a>
 </p>
 
