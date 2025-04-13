@@ -151,7 +151,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 6) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 7) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
 8) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
-10) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes)
+10) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes). Vide detalhes no canto superior direito da tela;
 11) **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
 12) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
 13) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
