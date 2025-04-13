@@ -147,7 +147,7 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 </p>
 
 <br><br>
-## Tutorial guiado passo a passo
+## Tutorial guiado
 
 <details>
    
@@ -159,7 +159,7 @@ Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
 
 <br>
 
-O objetivo deste tutorial é demonstrar o uso dos comandos do SINARC que não dependem de consulta ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos** acionados pelo mouse e pelo teclado.
+O objetivo deste tutorial é demonstrar, passo a passo, o uso dos comandos do SINARC que não dependem de consulta ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos** acionados pelo mouse e pelo teclado.
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, combine Shift + tecla desejada.<br>
 
