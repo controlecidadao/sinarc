@@ -202,7 +202,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
       ---
 
-21) **Tecla e** --> Alterna entre os 7 tipos de visualização dos nós (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
+21) **Tecla e** --> Alterna entre os 7 tipos de visualização de cada nó (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
 22) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
 23) **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione 10 vezes). Tamanho padrão das arestas: 300;
 24) **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione 10 vezes);
