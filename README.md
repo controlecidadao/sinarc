@@ -245,13 +245,14 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 24) **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes);
 25) **Tecla ;** --> Alterna seleção entre os nós de origem e de destina das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes;
 26) **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados;
+27) **Tecla |** -->
 
       ---
 
-27) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 15 tipos de imagens de nós do grafo (pressione 17 vezes);
-28) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
-29) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes;
-30) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+28) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 15 tipos de imagens de nós do grafo (pressione 17 vezes);
+29) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+30) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes;
+31) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 
 <br><br>
 
@@ -294,11 +295,6 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
        ---
     
-31) **Tecla ?** -->
-32) **Tecla h** -->
-
-       ---
-    
 34) **Tecla L** -->
 35) **Tecla u** -->
 36) **Tecla U** -->
@@ -314,11 +310,12 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
        ---
     
-41) **Tecla |** -->
+31) **Tecla ?** -->
+32) **Tecla h** -->
 
 <br>
 
-Comandos não utilizados por dependerem de consulta ao banco de dados: **Teclas o, O, s, y** 
+Comandos que dependem de consulta ao banco de dados: **Teclas o O s y |** 
 
 Este breve tutorial abordou apenas os camandos que não dependem de nova consulta aos bancos de dados. Estes comandos podem ser executados nos arquivos gerados pelo SINARC para compartilhamento (_arquivo_sinarc.zip_).
 
