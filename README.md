@@ -230,23 +230,23 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 2) **Mouse** --> Clique sobre o nó de maior tamanho para selecioná-lo, arraste-o até um dos cantos da tela e solte-o. Observe o retorno do grafo ao centro da tela.
 3) **Tecla p** --> Ativa/desativa os movimentos do grafo, permitindo o reposicionamento manual dos nós. Repita o comando anterior e pressione a tecla p durante o retorno do grafo ao centro da tela. Quando o grafo parar, clique sobre um nó para selecioná-lo e arraste-o para outra posição (repita esse procedimento com outros nós). Ao final, pressione a tecla p novamente para liberar os movimentos do grafo;
 4) **Tecla f** --> Ativa/desativa os movimentos apenas dos nós selecionados. Selecione um nó, pressione a tecla f e arraste-o para fixá-lo em um canto da tela. Selecione outro nó, pressione a tecla f e arraste-o para o outro canto da tela. Ao final, selecione os nós fixados e pressione a tecla f;
-5) **Tecla U** --> Exibe número de nós para cada faixa de tamanho (faixas 20 a 25, 25 a 29 ... 95 a 99, 100);
-6) **Tecla Espaço** --> Aumenta a massa dos nós de forma proporcional ao seu tamanho, iniciando pelo maior (tamanho 100) e indo até o menor (tamanho 20) (pressione 16 vezes).
-7) **Tecla c** --> Aproxima o nó selecionado e enquadra na tela seus nós adjacentes. Selecione um nó do grafo e pressione a tecla c por 2 vezes;
-8) **Tecla i** --> Alterna entre os nós selecionados, aproximando de cada um deles. Selecione 3 nós no grafo (Ctrl + clique) e pressione a tecla i por 3 vezes;
-9) **Tecla A** --> Seleciona todos os nós do grafo simultaneamente;
-10) **Tecla ,** --> Abre janela contendo os rótulos de todos os nós selecionados, segregados por tipo de nó;
-11) **Tecla a** --> Seleciona os nós adjacentes aos nós que se encontram selecionados. Selecione um nó com apenas uma aresta e pressione a tecla "a" até que todos os nós sejam desselecionados;
-12) **Tecla I (i maiúsculo)** --> Inverte seleção dos nós do grafo. Selecione alguns nós e aperte a tecla I;
-13) **Tecla ç** --> Alterna seleção dos nós de Endereços (EN), Telefones (TE) e E-mails (EM) com apenas 1 conexão, seguida pelos nós com mais de 1 conexão (pressione 3 vezes);
-14) **Tecla Ç** --> Alterna seleção dos nós com número crescente de conexões (1, 2, 3 etc.). Pressione até que todos os nós sejam desselecionados;
-15) **Tecla j** --> Seleciona nós adjacentes comuns aos nós selecionados. Selecione dois nós e pressione a tecla j, seguido da tecla "," para ver os rótulos dos nós comuns;
-16) **Tecla J** --> Seleciona nós adjacentes não comuns aos nós selecionados. Selecione dois nós e pressione a tecla J, seguido da tecla "," para ver os rótulos dos nós não comuns;
-17) **Tecla Q** --> Seleciona nós-alvos (com borda vermelha);
-18) **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes);
-19) **Tecla ;** --> Alterna seleção entre os nós de origem e de destina das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes;
-20) **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados;
-21) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+
+   ---
+   
+8) **Tecla c** --> Aproxima o nó selecionado e enquadra na tela seus nós adjacentes. Selecione um nó do grafo e pressione a tecla c por 2 vezes;
+9) **Tecla i** --> Alterna entre os nós selecionados, aproximando de cada um deles. Selecione 3 nós no grafo (Ctrl + clique) e pressione a tecla i por 3 vezes;
+
+10) **Tecla A** --> Seleciona todos os nós do grafo simultaneamente;
+11) **Tecla ,** --> Abre janela contendo os rótulos de todos os nós selecionados, segregados por tipo de nó;
+12) **Tecla a** --> Seleciona os nós adjacentes aos nós que se encontram selecionados. Selecione um nó com apenas uma aresta e pressione a tecla "a" até que todos os nós sejam desselecionados;
+13) **Tecla I (i maiúsculo)** --> Inverte seleção dos nós do grafo. Selecione alguns nós e aperte a tecla I;
+14) **Tecla ç** --> Alterna seleção dos nós de Endereços (EN), Telefones (TE) e E-mails (EM) com apenas 1 conexão, seguida pelos nós com mais de 1 conexão (pressione 3 vezes);
+15) **Tecla Ç** --> Alterna seleção dos nós com número crescente de conexões (1, 2, 3 etc.). Pressione até que todos os nós sejam desselecionados;
+18) **Tecla Q** --> Seleciona nós-alvos (com borda vermelha);
+19) **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes);
+20) **Tecla ;** --> Alterna seleção entre os nós de origem e de destina das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes;
+21) **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados;
+22) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 
       ---
 
@@ -258,6 +258,9 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 25) **Tecla Shift + Tecla Seta p/ Baixo** --> Diminui valor do tamanho de referência em 5 unidades;
 26) **Tecla ]** --> Aumenta valor do tamanho dos nós selecionados em 5 unidades. Selecione um nó com apenas uma aresta e pressione a tecla ] 2 vezes;
 27) **Tecla [** --> Diminui valor do tamanho dos nós selecionados em 5 unidades (pressione 2 vezes);
+28) **Tecla U** --> Exibe número de nós para cada faixa de tamanho (faixas 20 a 25, 25 a 29 ... 95 a 99, 100);
+29) **Tecla Espaço** --> Aumenta a massa dos nós de forma proporcional ao seu tamanho, iniciando pelo maior (tamanho 100) e indo até o menor (tamanho 20) (pressione 16 vezes).
+
 
 <br><br>
 
@@ -269,38 +272,44 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 2) **Tecla n** --> Aumenta a massa dos nós com tamanho de referência maior ou igual a 40. Pressione e segure a tecla n até que o "Fator", exibido no canto superior direito da tela, alcance 301;
 3) **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela;
 4) **Tecla q** --> Abre popup para pesquisar por rótulos dos nós no grafo. Digite um parâmetro de pesquisa (sem acento) ou pressione a tecla Enter para alternar para a pesquisa por rótulos das arestas;
-5) **Tecla v** --> d
-6) **Tecla V** --> d
-7) **Tecla z** --> d
-8) **Tecla x** --> d
-9) **Tecla X** --> d
-10) **Tecla w** -->
-11) **Tecla W** --> s
-12) **Tecla r** -->
-13) **Tecla R** -->
-14) **Tecla o** -->
-15) **Tecla O** -->
-16) **Tecla s** -->
-17) **Tecla y** -->
-18) **Tecla d** -->
-19) **Tecla D** -->
-20) **Tecla g** -->
-21) **Tecla G** -->
-22) **Tecla 1** -->
-23) **Tecla 2** -->
-24) **Tecla 4** -->
-25) **Tecla 5** -->
-26) **Tecla 6** -->
-27) **Tecla 7** -->
-28) **Tecla 8** -->
-29) **Tecla ?** -->
-30) **Tecla h** -->
-31) **Tecla L** -->
-32) **Tecla u** -->
-33) **Tecla U** -->
-34) **Tecla +** -->
-35) **Tecla +** -->
-36) **Tecla |** -->
+5) 23) **Tecla j** --> Seleciona nós adjacentes comuns aos nós selecionados. Selecione dois nós e pressione a tecla j, seguido da tecla "," para ver os rótulos dos nós comuns;
+17) **Tecla J** --> Seleciona nós adjacentes não comuns aos nós selecionados. Selecione dois nós e pressione a tecla J, seguido da tecla "," para ver os rótulos dos nós não comuns;
+
+6) **Tecla v** --> d
+7) **Tecla V** --> d
+8) **Tecla z** --> d
+9) **Tecla x** --> d
+10) **Tecla X** --> d
+11) **Tecla w** -->
+12) **Tecla W** --> s
+13) **Tecla r** -->
+14) **Tecla R** -->
+15) **Tecla o** -->
+16) **Tecla O** -->
+17) **Tecla s** -->
+18) **Tecla y** -->
+19) **Tecla d** -->
+20) **Tecla D** -->
+21) **Tecla g** -->
+22) **Tecla G** -->
+23) **Tecla 1** -->
+24) **Tecla 2** -->
+25) **Tecla 4** -->
+26) **Tecla 5** -->
+27) **Tecla 6** -->
+28) **Tecla 7** -->
+29) **Tecla 8** -->
+30) **Tecla ?** -->
+31) **Tecla h** -->
+    
+33) **Tecla L** -->
+34) **Tecla u** -->
+35) **Tecla U** -->
+    
+37) **Tecla +** -->
+38) **Tecla +** -->
+    
+40) **Tecla |** -->
 
 <br>
 
