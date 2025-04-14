@@ -213,13 +213,6 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
       ---
 
-26) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 15 tipos de imagens de nós do grafo (pressione 17 vezes);
-27) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
-28) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes;
-29) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
-
-      ---
-
 <br><br>
 
 ### Segunda sequência de comandos:
@@ -259,6 +252,13 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 25) **Tecla [** --> Diminui valor do tamanho dos nós selecionados em 5 unidades (pressione 2 vezes);
 26) **Tecla U** --> Exibe número de nós para cada faixa de tamanho (faixas 20 a 25, 25 a 29 ... 95 a 99, 100);
 27) **Tecla Espaço** --> Aumenta a massa dos nós de forma proporcional ao seu tamanho, iniciando pelo maior (tamanho 100) e indo até o menor (tamanho 20) (pressione 16 vezes).
+
+       ---
+
+28) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 15 tipos de imagens de nós do grafo (pressione 17 vezes);
+29) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+30) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes;
+31) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 
 
 <br><br>
