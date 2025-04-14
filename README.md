@@ -240,11 +240,11 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 19) **Tecla I (i maiúsculo)** --> Inverte seleção dos nós do grafo. Selecione alguns nós e aperte a tecla I;
 20) **Tecla ç** --> Alterna seleção dos nós de Endereços (EN), Telefones (TE) e E-mails (EM) com apenas 1 conexão, seguida pelos nós com mais de 1 conexão (pressione 3 vezes);
 21) **Tecla Ç** --> Alterna seleção dos nós com número crescente de conexões (1, 2, 3 etc.). Pressione até que todos os nós sejam desselecionados;
-22) **Tecla Q** --> Seleciona nós-alvos (com borda vermelha);
-23) **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes);
-24) **Tecla ;** --> Alterna seleção entre os nós de origem e de destina das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes;
-25) **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados;
-26) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+22) **Tecla q** --> Abre popup para pesquisar por rótulos dos nós no grafo. Digite um parâmetro de pesquisa (sem acento) ou pressione a tecla Enter para alternar para a pesquisa por rótulos das arestas;
+23) **Tecla Q** --> Seleciona nós-alvos (com borda vermelha);
+24) **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes);
+25) **Tecla ;** --> Alterna seleção entre os nós de origem e de destina das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes;
+26) **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados;
 
       ---
 
@@ -253,7 +253,6 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 29) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes;
 30) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 
-
 <br><br>
 
 ### Terceira sequência de comandos:
@@ -261,8 +260,6 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do novo monitor.<br>
 
 1) **Tecla n** --> Aumenta a massa dos nós com tamanho de referência maior ou igual a 40. Pressione e segure a tecla n até que o "Fator", exibido no canto superior direito da tela, alcance 301;
-2) **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela;
-3) **Tecla q** --> Abre popup para pesquisar por rótulos dos nós no grafo. Digite um parâmetro de pesquisa (sem acento) ou pressione a tecla Enter para alternar para a pesquisa por rótulos das arestas;
 4) **Tecla j** --> Seleciona nós adjacentes comuns aos nós selecionados. Selecione dois nós e pressione a tecla j, seguido da tecla "," para ver os rótulos dos nós comuns;
 5) **Tecla J** --> Seleciona nós adjacentes não comuns aos nós selecionados. Selecione dois nós e pressione a tecla J, seguido da tecla "," para ver os rótulos dos nós não comuns;
 
@@ -271,14 +268,18 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 8) **Tecla z** --> d
 9) **Tecla x** --> d
 10) **Tecla X** --> d
-11) **Tecla w** -->
-12) **Tecla W** --> s
-13) **Tecla r** -->
-14) **Tecla R** -->
-15) **Tecla o** -->
-16) **Tecla O** -->
-17) **Tecla s** -->
-18) **Tecla y** -->
+
+      ---
+
+31) **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela;
+32) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+12) **Tecla w** -->
+13) **Tecla W** --> s
+14) **Tecla r** -->
+15) **Tecla R** -->
+
+       ---
+    
 19) **Tecla d** -->
 20) **Tecla D** -->
 21) **Tecla g** -->
@@ -290,17 +291,30 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 27) **Tecla 6** -->
 28) **Tecla 7** -->
 29) **Tecla 8** -->
-30) **Tecla ?** -->
-31) **Tecla h** -->
+
+       ---
     
-33) **Tecla L** -->
-34) **Tecla u** -->
-35) **Tecla U** -->
+31) **Tecla ?** -->
+32) **Tecla h** -->
+
+       ---
     
+34) **Tecla L** -->
+35) **Tecla u** -->
+36) **Tecla U** -->
+
+       ---
+
+16) **Tecla o** -->
+17) **Tecla O** -->
+18) **Tecla s** -->
 37) **Tecla +** -->
-38) **Tecla +** -->
+38) **Tecla -** -->
+39) **Tecla y** -->
+
+       ---
     
-40) **Tecla |** -->
+41) **Tecla |** -->
 
 <br>
 
