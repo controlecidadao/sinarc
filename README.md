@@ -179,31 +179,52 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 4) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
 5) **Tecla b** --> Ajusta a altura da área do grafo à altura da janela do navegador;
 6) **Tecla Escape** --> Enquadra o grafo no centro da tela;
+   
+   ---
+   
 7) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior (pressione algumas vezes);
+
+   ---
+   
 8) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
-10) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes). Vide detalhes no canto superior direito da tela;
-11) **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
-12) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
-13) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
-14) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado;
-15) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los;
-16) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados;
-17) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
-18) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-19) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
-20) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-21) **Tecla Ctrl + Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
-22) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-23) **Tecla e** --> Alterna entre os 7 tipos de visualização dos nós (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
-24) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
-25) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 15 tipos de imagens de nós do grafo (pressione 17 vezes);
-26) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
-27) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes;
-28) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
-29) **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione 10 vezes). Tamanho padrão das arestas: 300;
-30) **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione 10 vezes);
-31) **Tecla m** --> Aumenta a massa de todos os nós do grafo em 0,5 unidade, ampliando a força gravitacional de repulsão entre eles (pressione 10 vezes). Massa padrão dos nós: 1;
-32) **Tecla M** --> Diminui a massa de todos os nós do grafo em 0,5 unidade, reduzindo a força gravitacional de repulsão entre eles (pressione 10 vezes);
+9) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes). Vide detalhes no canto superior direito da tela;
+
+   ---
+
+10) **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
+11) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó por 1,5s para exibir suas informações;
+12) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
+13) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado;
+14) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los;
+15) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados;
+16) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
+17) **Tecla Escape** --> Enquadra o grafo no centro da tela;
+18) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
+19) **Tecla Escape** --> Enquadra o grafo no centro da tela;
+20) **Tecla Ctrl + Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
+21) **Tecla Escape** --> Enquadra o grafo no centro da tela;
+
+   ---
+
+22) **Tecla e** --> Alterna entre os 7 tipos de visualização dos nós (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
+23) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
+
+   ---
+
+24) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 15 tipos de imagens de nós do grafo (pressione 17 vezes);
+25) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+26) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes;
+27) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+
+   ---
+
+28) **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione 10 vezes). Tamanho padrão das arestas: 300;
+29) **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione 10 vezes);
+
+   ---
+
+30) **Tecla m** --> Aumenta a massa de todos os nós do grafo em 0,5 unidade, ampliando a força gravitacional de repulsão entre eles (pressione 10 vezes). Massa padrão dos nós: 1;
+31) **Tecla M** --> Diminui a massa de todos os nós do grafo em 0,5 unidade, reduzindo a força gravitacional de repulsão entre eles (pressione 10 vezes);
 
 <br><br>
 
