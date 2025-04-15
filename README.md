@@ -109,7 +109,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <br>
 
-Para testar algumas das funcionalidades dos grafos gerados pelo SINARC:
+Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINARC:
 1) Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Outros exemplos de grafos disponíveis online para testes: [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html), [Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html), [Exemplo 3](https://controlecidadao.github.io/sinarc/exemplo3.html), [Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html). Obs: Caso algum comando não funcione corretamente com os exemplos online, tente abrir o endereço do grafo usando uma aba anônima do navegador;
 2) Pressione a **tecla Espaço** 16 vezes, espaçadamente, até que o parâmetro "tamanho", no canto superior direito da tela, reduza de 100 para 25 em intervalos de 5 unidades. Esta função aumenta a massa dos nós proporcionalmente ao seu tamanho (do maior para o menor), melhorando progressivamente a visualização do grafo no layout gravitacional;
 3) Pressione a **tecla Escape** para ajustar o grafo à janela de visualização;
