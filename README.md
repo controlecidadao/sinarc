@@ -171,7 +171,7 @@ A descrição dos comandos executados com o mouse e com o teclado é exibida no 
 
 ### Primeira sequência de comandos:
 
-Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do novo monitor.<br>
+Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.<br>
 
 1) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 2) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
