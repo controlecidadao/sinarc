@@ -100,7 +100,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">Vídeo</a>: Identificando Cadeia Hierárquica de Comando com o SINARC
+<a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">Vídeo</a>: Identificando cadeia hierárquica de comando com o SINARC
 </p>
 
 <br><br>
