@@ -193,19 +193,17 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 12) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado;
 13) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los simultaneamente;
 14) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados;
-15) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente para afastar o grafo;
+15) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente e para trás para afastar e aproximar o grafo;
 16) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-17) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para trás para aproximar o grafo;
+17) **Tecla Ctrl + Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
 18) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-19) **Tecla Ctrl + Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionada a tecla Ctrl e arraste para o lado. Solte os botões ao final do movimento;
-20) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 
       ---
 
-21) **Tecla e** --> Alterna entre os 7 tipos de visualização de cada nó (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
-22) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
-23) **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione 10 vezes). Tamanho padrão das arestas: 300;
-24) **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione 10 vezes);
+19) **Tecla e** --> Alterna entre os 7 tipos de visualização de cada nó (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
+20) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
+21) **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione 10 vezes). Tamanho padrão das arestas: 300;
+22) **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione 10 vezes);
 
 <br><br>
 
