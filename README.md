@@ -65,7 +65,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Vínculos existentes entre duas empresas, identificados pelo SINARC na 1ª camada
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo demonstrando vínculos entre duas empresas, identificados pelo SINARC na 1ª camada
 </p> 
 
 <br>
@@ -76,7 +76,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo2.html">Exemplo 2</a>: Grupo econômico aberto em 3 camadas, com 223 nós e 632 arestas
+<a href="https://controlecidadao.github.io/sinarc/exemplo2.html">Exemplo 2</a>: Grafo interativo de grupo econômico aberto em 3 camadas, com 223 nós e 632 arestas
 </p>
 
 <br>
@@ -87,7 +87,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Exemplo 3</a>: Grupo econômico aberto em 4 camadas, exibindo 45 nós em layout circular
+<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Exemplo 3</a>: Grafo interativo de grupo econômico aberto em 4 camadas, exibindo 45 nós em layout circular
 </p>
 
 <br>
