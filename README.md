@@ -197,7 +197,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
 <br>
 
-#### Exibição de informações de nós e arestas
+#### Exibição de informações sobre nós e arestas
 
 ---
 
