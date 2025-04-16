@@ -210,14 +210,14 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
 ---
 
-12) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
-13) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado;
-14) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los simultaneamente;
-15) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados;
-16) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente e para trás para afastar e aproximar o grafo;
-17) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-18) **Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionada o botão esquerdo e arraste o grafo para o lado. Solte o botão ao final do movimento;
-19) **Tecla Escape** --> Enquadra o grafo no centro da tela;
+11) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
+12) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado;
+13) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los simultaneamente;
+14) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados;
+15) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente e para trás para afastar e aproximar o grafo;
+16) **Tecla Escape** --> Enquadra o grafo no centro da tela;
+17) **Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionada o botão esquerdo e arraste o grafo para o lado. Solte o botão ao final do movimento;
+18) **Tecla Escape** --> Enquadra o grafo no centro da tela;
 
 <br>
 
@@ -278,13 +278,12 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 20) **Tecla I (i maiúsculo)** --> Inverte seleção dos nós do grafo. Selecione alguns nós e aperte a tecla I;
 21) **Tecla ç** --> Alterna seleção dos nós de Endereços (EN), Telefones (TE) e E-mails (EM) com apenas 1 conexão, seguida pelos nós com mais de 1 conexão (pressione 3 vezes);
 22) **Tecla Ç** --> Alterna seleção dos nós com número crescente de conexões (1, 2, 3 etc.). Pressione até que todos os nós sejam desselecionados;
-24) **Tecla Q** --> Seleciona nós-alvos (com borda vermelha);
-25) **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes);
-26) **Tecla ;** --> Alterna seleção entre os nós de origem e de destina das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes;
-27) **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados;
-28) **Tecla j** --> Seleciona nós adjacentes comuns aos nós selecionados. Selecione dois nós e pressione a tecla j, seguido da tecla "," para ver os rótulos dos nós comuns;
-29) **Tecla J** --> Seleciona nós adjacentes não comuns aos nós selecionados. Selecione dois nós e pressione a tecla J, seguido da tecla "," para ver os rótulos dos nós não comuns;
-30) **Tecla |** --> Seleciona nós adicionados na última consulta ao banco de dados;
+23) **Tecla Q** --> Seleciona nós-alvos (com borda vermelha);
+24) **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes);
+25) **Tecla ;** --> Alterna seleção entre os nós de origem e de destina das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes;
+26) **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados;
+27) **Tecla j** --> Seleciona nós adjacentes comuns aos nós selecionados. Selecione dois nós e pressione a tecla j, seguido da tecla "," para ver os rótulos dos nós comuns;
+28) **Tecla J** --> Seleciona nós adjacentes não comuns aos nós selecionados. Selecione dois nós e pressione a tecla J, seguido da tecla "," para ver os rótulos dos nós não comuns;
 
 <br>
 
@@ -292,7 +291,7 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 
 ---
 
-23) **Tecla q** --> Abre popup para pesquisar por rótulos dos nós no grafo. Digite um parâmetro de pesquisa (sem acento) ou pressione a tecla Enter para alternar para a pesquisa por rótulos das arestas;
+29) **Tecla q** --> Abre popup para pesquisar por rótulos dos nós no grafo. Digite um parâmetro de pesquisa (sem acento) ou pressione a tecla Enter para alternar para a pesquisa por rótulos das arestas;
 
 <br>
 
@@ -300,10 +299,10 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 
 ---
 
-31) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 15 tipos de imagens de nós do grafo (pressione 17 vezes);
-32) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
-33) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes;
-34) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+30) **Tecla t** --> Ativa o modo transparência por tipos de nós, permitindo a visualização alternada dos 15 tipos de imagens de nós do grafo (pressione 17 vezes);
+31) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
+32) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes;
+33) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior;
 
 <br><br>
 
@@ -315,22 +314,21 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 <br>
 
-#### 
+#### Detecção de comunidades
 
 ---
 
 2) **Tecla v** --> Ativa/deastiva destaque de comunidades de nós;
 3) **Tecla V** --> Alterna exibição de nós por comunidades (grupos);
-4) **Tecla z** --> Ativa/desativa o modo automático de visualização;
 
 <br>
 
-#### Adiciona cores aos nós
+#### Adição de cores aos nós
 
 ---
 
-6) **Tecla x** --> Adiciona cores aos nós selecionados;
-7) **Tecla X** --> Remove cores adicionadas aos nós;
+4) **Tecla x** --> Adiciona cores aos nós selecionados;
+5) **Tecla X** --> Remove cores adicionadas aos nós;
 
 <br>
 
@@ -338,13 +336,13 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ---
 
-7) **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela;
-11) **Tecla r** --> Exclui todos os nós que não se encontram selecionados;
-12) **Tecla R** --> Exclui todos os nós que não se encontram interligados por arestas coloridas;
+6) **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela;
+7) **Tecla r** --> Exclui todos os nós que não se encontram selecionados;
+8) **Tecla R** --> Exclui todos os nós que não se encontram interligados por arestas coloridas;
 
 <br>
 
-#### Identificação da cadeia hierárquica de comando do nó alvo
+#### Identificação da cadeia hierárquica de comando do nó-alvo
 
 ---
 
@@ -357,19 +355,19 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ---
     
-13) **Tecla d** --> Exibe informações sobre o nó selecionado extraídas de sites externos;
-14) **Tecla D** --> Realiza pesquisa pelo nó selecionado no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência CGU e Jusbrasil;
-15) **Tecla g** --> Realiza pesquisa pelo nó selecionado no Google;
-16) **Tecla G** --> Realiza pesquisa avançada do nó selecionado nos domínios tc.br, mp.br, jus.br, gov.br, es.gov.br;    
-17) **Tecla 1** --> Exibe comprovante e inscrição de situação cadastral da pessoa jurídica selecionada;
-18) **Tecla 2** --> Realiza pesquisa pela pessoa física ou jurídica selecionada na base de dados de sanções da CGU (CEIS, CNEP, CEPIM e CEAF);
-19) **Tecla 3** --> Tecla não usada;
-20) **Tecla 4** --> Abre arquivo Excel contendo as tabelas de nós e de conexões retornadas da consulta ao banco de dados;
-21) **Tecla 5** --> Abre site Rede CNPJ;
-22) **Tecla 6** --> Abre sites contendo bases de dados primárias da CGU (Dívida Ativa Geral, Dívia FGTS, Dívida Previdenciária, Sanções, Acordos de Leniência e Pessoas Expostas Politicamente) e da Receita Federal (CNPJ);
-23) **Tecla 7** --> Exibe dados da pessoa jurídica em formato JSON;
-24) **Tecla 8** -->
-25) **Tecla 9** --> Tecla não usada.
+11) **Tecla d** --> Exibe informações sobre o nó selecionado extraídas de sites externos;
+12) **Tecla D** --> Realiza pesquisa pelo nó selecionado no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência CGU e Jusbrasil;
+13) **Tecla g** --> Realiza pesquisa pelo nó selecionado no Google;
+14) **Tecla G** --> Realiza pesquisa avançada do nó selecionado nos domínios tc.br, mp.br, jus.br, gov.br, es.gov.br;    
+15) **Tecla 1** --> Exibe comprovante e inscrição de situação cadastral da pessoa jurídica selecionada;
+16) **Tecla 2** --> Realiza pesquisa pela pessoa física ou jurídica selecionada na base de dados de sanções da CGU (CEIS, CNEP, CEPIM e CEAF);
+17) **Tecla 3** --> Tecla não usada;
+18) **Tecla 4** --> Abre arquivo Excel contendo as tabelas de nós e de conexões retornadas da consulta ao banco de dados;
+19) **Tecla 5** --> Abre site Rede CNPJ;
+20) **Tecla 6** --> Abre sites contendo bases de dados primárias da CGU (Dívida Ativa Geral, Dívia FGTS, Dívida Previdenciária, Sanções, Acordos de Leniência e Pessoas Expostas Politicamente) e da Receita Federal (CNPJ);
+21) **Tecla 7** --> Exibe dados da pessoa jurídica em formato JSON;
+22) **Tecla 8** -->
+23) **Tecla 9** --> Tecla não usada.
 
 <br>
 
@@ -377,9 +375,9 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ---
     
-27) **Tecla L** --> Exibe na tela a distribuição de arestas por tipo;
-28) **Tecla u** --> Exibe na tela as 5 medidas de centralidade do grafo;
-29) **Tecla U** --> Exibe na tela a distribuição de nós por tamanho;
+24) **Tecla L** --> Exibe na tela a distribuição de arestas por tipo;
+25) **Tecla u** --> Exibe na tela as 5 medidas de centralidade do grafo;
+26) **Tecla U** --> Exibe na tela a distribuição de nós por tamanho;
 
 <br>
 
@@ -387,12 +385,12 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ---
 
-29) **Tecla o** --> Abre nós selecionados como alvos em nova aba do navegador;
-30) **Tecla O** --> Abre filiais da pessoa jurídica selecionada em nova aba do navegador;
-31) **Tecla s** --> Pesquisa parâmetro (CNPJ, radical do CNPJ, razão social, nome da pessoa física) no banco de dados;
-32) **Tecla +** --> Inclui nó selecionado na lista de nós-alvos;
-33) **Tecla -** --> Exclui nó selecionado da lista de nós-alvos;
-34) **Tecla y** --> Abre nós da lista de nós-alvos em uma nova aba do navegador;
+27) **Tecla o** --> Abre nós selecionados como alvos em nova aba do navegador;
+28) **Tecla O** --> Abre filiais da pessoa jurídica selecionada em nova aba do navegador;
+29) **Tecla s** --> Pesquisa parâmetro (CNPJ, radical do CNPJ, razão social, nome da pessoa física) no banco de dados;
+30) **Tecla +** --> Inclui nó selecionado na lista de nós-alvos;
+31) **Tecla -** --> Exclui nó selecionado da lista de nós-alvos;
+32) **Tecla y** --> Abre nós da lista de nós-alvos em uma nova aba do navegador;
 
 <br>
 
@@ -400,9 +398,24 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ---
     
-35) **Tecla ?** --> Exibe/oculta na tela as teclas de atalho do SINARC;
-36) **Tecla h** --> Abre manual do SINARC em uma janela flututante;
+33) **Tecla ?** --> Exibe/oculta na tela as teclas de atalho do SINARC;
+34) **Tecla h** --> Abre manual do SINARC em uma janela flututante;
 
+<br>
+
+#### Modo automático de visualização
+
+---
+
+35) **Tecla z** --> Ativa/desativa o modo automático de visualização;
+
+<br>
+
+#### Função de cópia do sistema operacional
+
+---
+
+36) **Tecla |** --> Ativa/desativa a função de cópia (Ctrl + c) do SINARC. Quando ativada, a função Ctrl + c do sistema operacional fica vinculada ao funcionamento do SINARC, não podendo ser usada com outros programas; quando desativada, copia o id do nó selecionado, permitindo ser tranferido para programa Rede CNPJ (Ctrl + v).
 <br>
 
 Comandos que dependem de consulta ao banco de dados, necessitando que o SINARC e o Rede CNPJ estejam em execução: **Teclas o O s y | 4** 
