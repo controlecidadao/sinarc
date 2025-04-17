@@ -5370,4 +5370,548 @@ TOTAL:                    ${a_tudo.length}`;
     
 </script>
     </body>
+
+
+
+
+
+
+
+<!-- Código do teclado virtual - início -->
+<style>
+  #virtual-keyboard {
+    display: none;
+    position: absolute;
+    background-color: rgba(248, 249, 250, 0); /* Iniciando com opacidade 0 */
+    /* Removido: backdrop-filter: blur(2px); */
+    border: 1px solid rgba(206, 212, 218, 0.5);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    padding: 10px;
+    z-index: 9999;
+    font-family: Arial, sans-serif;
+    width: 700px;
+    max-width: 95vw;
+    box-sizing: border-box;
+  }
+  
+  .keyboard-row {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+    height: 38px;
+    background-color: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(222, 226, 230, 0.7);
+    border-radius: 4px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 13px;
+    user-select: none;
+    box-sizing: border-box;
+    transition: background-color 0.15s ease;
+  }
+  
+  .key:hover {
+    background-color: #e9ecef;
+  }
+  
+  .key:active {
+    background-color: #dee2e6;
+  }
+  
+  .key.special {
+    min-width: 55px;
+    background-color: #f1f3f5;
+  }
+  
+  .key.wide {
+    min-width: 80px;
+  }
+  
+  .key.extra-wide {
+    min-width: 110px;
+  }
+  
+  .key.super-wide {
+    min-width: 220px;
+    flex-grow: 1;
+    max-width: 280px;
+  }
+  
+  .modifier-active {
+    background-color: #c5e8ff !important;
+  }
+  
+  .keyboard-section {
+    margin-bottom: 10px;
+  }
+  
+  .keyboard-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .keyboard-controls button {
+    background-color: rgba(108, 117, 125, 0.75);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+  }
+  
+  .keyboard-controls button:hover {
+    background-color: rgba(90, 98, 104, 0.85);
+  }
+  
+  /* Slider de opacidade */
+  .opacity-control {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    gap: 8px;
+  }
+  
+  .opacity-control label {
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .opacity-slider {
+    width: 80px;
+  }
+</style>
+
+<div id="virtual-keyboard">
+  <div class="keyboard-section">
+    <div class="keyboard-row">
+      <div class="key" data-key="Escape">Esc</div>
+      <div class="key" data-key="F1">F1</div>
+      <div class="key" data-key="F2">F2</div>
+      <div class="key" data-key="F3">F3</div>
+      <div class="key" data-key="F4">F4</div>
+      <div class="key" data-key="F5">F5</div>
+      <div class="key" data-key="F6">F6</div>
+      <div class="key" data-key="F7">F7</div>
+      <div class="key" data-key="F8">F8</div>
+      <div class="key" data-key="F9">F9</div>
+      <div class="key" data-key="F10">F10</div>
+      <div class="key" data-key="F11">F11</div>
+      <div class="key" data-key="F12">F12</div>
+    </div>
+  </div>
+  
+  <div class="keyboard-section">
+    <div class="keyboard-row">
+      <div class="key" data-key="`">` ~</div>
+      <div class="key" data-key="1">1 !</div>
+      <div class="key" data-key="2">2 @</div>
+      <div class="key" data-key="3">3 #</div>
+      <div class="key" data-key="4">4 $</div>
+      <div class="key" data-key="5">5 %</div>
+      <div class="key" data-key="6">6 ^</div>
+      <div class="key" data-key="7">7 &</div>
+      <div class="key" data-key="8">8 *</div>
+      <div class="key" data-key="9">9 (</div>
+      <div class="key" data-key="0">0 )</div>
+      <div class="key" data-key="-">- _</div>
+      <div class="key" data-key="=">=+</div>
+      <div class="key special wide" data-key="Backspace">Backspace</div>
+    </div>
+    
+    <div class="keyboard-row">
+      <div class="key special" data-key="Tab">Tab</div>
+      <div class="key" data-key="q">q</div>
+      <div class="key" data-key="w">w</div>
+      <div class="key" data-key="e">e</div>
+      <div class="key" data-key="r">r</div>
+      <div class="key" data-key="t">t</div>
+      <div class="key" data-key="y">y</div>
+      <div class="key" data-key="u">u</div>
+      <div class="key" data-key="i">i</div>
+      <div class="key" data-key="o">o</div>
+      <div class="key" data-key="p">p</div>
+      <div class="key" data-key="[">[</div>
+      <div class="key" data-key="]">]</div>
+      <div class="key" data-key="\">\</div>
+    </div>
+    
+    <div class="keyboard-row">
+      <div class="key special" data-key="CapsLock" id="caps-key">Caps</div>
+      <div class="key" data-key="a">a</div>
+      <div class="key" data-key="s">s</div>
+      <div class="key" data-key="d">d</div>
+      <div class="key" data-key="f">f</div>
+      <div class="key" data-key="g">g</div>
+      <div class="key" data-key="h">h</div>
+      <div class="key" data-key="j">j</div>
+      <div class="key" data-key="k">k</div>
+      <div class="key" data-key="l">l</div>
+      <div class="key" data-key=";">; :</div>
+      <div class="key" data-key="'">' "</div>
+      <div class="key special wide" data-key="Enter">Enter</div>
+    </div>
+    
+    <div class="keyboard-row">
+      <div class="key special wide" data-key="ShiftLeft" id="shift-left-key">Shift</div>
+      <div class="key" data-key="z">z</div>
+      <div class="key" data-key="x">x</div>
+      <div class="key" data-key="c">c</div>
+      <div class="key" data-key="v">v</div>
+      <div class="key" data-key="b">b</div>
+      <div class="key" data-key="n">n</div>
+      <div class="key" data-key="m">m</div>
+      <div class="key" data-key=",">, <</div>
+      <div class="key" data-key=".">. ></div>
+      <div class="key" data-key="/">/ ?</div>
+      <div class="key special wide" data-key="ShiftRight" id="shift-right-key">Shift</div>
+    </div>
+    
+    <div class="keyboard-row">
+      <div class="key special" data-key="ControlLeft" id="ctrl-left-key">Ctrl</div>
+      <div class="key special" data-key="AltLeft" id="alt-left-key">Alt</div>
+      <div class="key special" data-key="MetaLeft">Win</div>
+      <div class="key super-wide" data-key=" ">Space</div>
+      <div class="key special" data-key="MetaRight">Win</div>
+      <div class="key special" data-key="AltRight" id="alt-right-key">Alt</div>
+      <div class="key special" data-key="ControlRight" id="ctrl-right-key">Ctrl</div>
+    </div>
+  </div>
+  
+  <div class="keyboard-section">
+    <div class="keyboard-row" style="justify-content: center;">
+      <div class="key" data-key="PrintScreen">PrtSc</div>
+      <div class="key" data-key="ScrollLock">ScrLk</div>
+      <div class="key" data-key="Pause">Pause</div>
+      <div class="key" data-key="Insert">Ins</div>
+      <div class="key" data-key="Home">Home</div>
+      <div class="key" data-key="PageUp">PgUp</div>
+    </div>
+    
+    <div class="keyboard-row" style="justify-content: center;">
+      <div class="key" data-key="Delete">Del</div>
+      <div class="key" data-key="End">End</div>
+      <div class="key" data-key="PageDown">PgDn</div>
+      <div class="key" data-key="ArrowUp">↑</div>
+    </div>
+    
+    <div class="keyboard-row" style="justify-content: center;">
+      <div class="key" data-key="ArrowLeft">←</div>
+      <div class="key" data-key="ArrowDown">↓</div>
+      <div class="key" data-key="ArrowRight">→</div>
+    </div>
+  </div>
+  
+  <div class="keyboard-controls">
+    <div class="opacity-control">
+      <label for="opacity-slider">Opacidade:</label>
+      <input type="range" id="opacity-slider" class="opacity-slider" min="0" max="100" value="0">
+    </div>
+    <button id="close-keyboard">Fechar Teclado</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    const virtualKeyboard = document.getElementById('virtual-keyboard');
+    const keys = document.querySelectorAll('.key');
+    const closeButton = document.getElementById('close-keyboard');
+    
+    // Inicializar o teclado
+    document.addEventListener('DOMContentLoaded', function() {
+      // Garantir que todas as teclas estejam com o texto correto inicialmente
+      updateLetterCasing();
+      
+      // Configurar o controle de opacidade
+      opacitySlider.addEventListener('input', updateKeyboardOpacity);
+    });
+    
+    // Atualizar a opacidade do teclado
+    function updateKeyboardOpacity() {
+      keyboardOpacity = opacitySlider.value;
+      virtualKeyboard.style.backgroundColor = `rgba(248, 249, 250, ${keyboardOpacity/100})`;
+      
+      // Atualizar opacidade das teclas também
+      const alphaForKeys = Math.min((keyboardOpacity + 10) / 100, 0.9); // Ligeiramente mais opaco que o fundo
+      
+      document.querySelectorAll('.key').forEach(key => {
+        if (key.classList.contains('special')) {
+          key.style.backgroundColor = `rgba(241, 243, 245, ${alphaForKeys})`;
+        } else {
+          key.style.backgroundColor = `rgba(255, 255, 255, ${alphaForKeys})`;
+        }
+      });
+      
+      // Reaplica o estilo para teclas modificadoras ativas
+      document.querySelectorAll('.modifier-active').forEach(key => {
+        key.style.backgroundColor = `rgba(197, 232, 255, ${Math.min(alphaForKeys + 0.1, 0.95)})`;
+      });
+    }
+    
+    // Estados dos modificadores
+    let shiftActive = false;
+    let ctrlActive = false;
+    let altActive = false;
+    let capsLockActive = false;
+    let keyboardOpacity = 0; // valor inicial de 0%
+    
+    // Elementos modificadores
+    const shiftLeftKey = document.getElementById('shift-left-key');
+    const shiftRightKey = document.getElementById('shift-right-key');
+    const ctrlLeftKey = document.getElementById('ctrl-left-key');
+    const ctrlRightKey = document.getElementById('ctrl-right-key');
+    const altLeftKey = document.getElementById('alt-left-key');
+    const altRightKey = document.getElementById('alt-right-key');
+    const capsKey = document.getElementById('caps-key');
+    const opacitySlider = document.getElementById('opacity-slider');
+    
+    // Alterar para detectar duplo clique em vez de menu de contexto
+    document.addEventListener('dblclick', function(e) {
+      e.preventDefault();
+      showKeyboard(e.clientX, e.clientY);
+    });
+    
+    // Clicar fora do teclado para fechar
+    document.addEventListener('click', function(e) {
+      if (virtualKeyboard.style.display === 'block' && !virtualKeyboard.contains(e.target)) {
+        hideKeyboard();
+      }
+    });
+    
+    // Botão de fechar o teclado
+    closeButton.addEventListener('click', hideKeyboard);
+    
+    // Mostrar o teclado
+    function showKeyboard(x, y) {
+      // Ajustar a posição para garantir que o teclado fique visível
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      const keyboardWidth = 700; // Largura aproximada do teclado
+      const keyboardHeight = 450; // Altura aproximada do teclado
+      
+      // Centralizar o teclado se a tela for pequena
+      let posX = x;
+      let posY = y;
+      
+      if (viewportWidth < 750) {
+        // Centralizar horizontalmente se a tela for estreita
+        posX = Math.max(5, (viewportWidth - keyboardWidth) / 2);
+      } else if (posX + keyboardWidth > viewportWidth) {
+        posX = viewportWidth - keyboardWidth - 10;
+      }
+      
+      if (posX < 5) posX = 5;
+      
+      if (posY + keyboardHeight > viewportHeight) {
+        posY = viewportHeight - keyboardHeight - 10;
+      }
+      
+      if (posY < 5) posY = 5;
+      
+      virtualKeyboard.style.left = posX + 'px';
+      virtualKeyboard.style.top = posY + 'px';
+      virtualKeyboard.style.display = 'block';
+      
+      // Aplicar opacidade atual
+      updateKeyboardOpacity();
+    }
+    
+    // Função para esconder o teclado
+    function hideKeyboard() {
+      virtualKeyboard.style.display = 'none';
+      resetModifiers();
+    }
+    
+    // Função para resetar os modificadores
+    function resetModifiers() {
+      shiftActive = false;
+      ctrlActive = false;
+      altActive = false;
+      // Não resetamos capsLockActive aqui para que o estado do CapsLock persista até ser desativado
+      updateModifierStyles();
+    }
+    
+    // Atualizar estilos dos modificadores e estado das teclas
+    function updateModifierStyles() {
+      shiftLeftKey.classList.toggle('modifier-active', shiftActive);
+      shiftRightKey.classList.toggle('modifier-active', shiftActive);
+      ctrlLeftKey.classList.toggle('modifier-active', ctrlActive);
+      ctrlRightKey.classList.toggle('modifier-active', ctrlActive);
+      altLeftKey.classList.toggle('modifier-active', altActive);
+      altRightKey.classList.toggle('modifier-active', altActive);
+      capsKey.classList.toggle('modifier-active', capsLockActive);
+      
+      // Atualizar visualização das letras (maiúsculas/minúsculas) com base no estado do CapsLock
+      updateLetterCasing();
+    }
+    
+    // Função para atualizar visualização das letras baseado no CapsLock
+    function updateLetterCasing() {
+      document.querySelectorAll('.key').forEach(key => {
+        const keyValue = key.getAttribute('data-key');
+        // Verifica se é uma letra única (a-z)
+        if (keyValue && keyValue.length === 1 && keyValue.match(/[a-z]/i)) {
+          // Aplica maiúscula se CapsLock estiver ativo
+          key.textContent = capsLockActive ? keyValue.toUpperCase() : keyValue.toLowerCase();
+        }
+      });
+    }
+    
+    // Lidar com clique nas teclas
+    keys.forEach(key => {
+      key.addEventListener('click', function() {
+        const keyValue = this.getAttribute('data-key');
+        
+        // Lidar com teclas modificadoras
+        if (keyValue === 'ShiftLeft' || keyValue === 'ShiftRight') {
+          shiftActive = !shiftActive;
+          updateModifierStyles();
+          return;
+        }
+        
+        if (keyValue === 'ControlLeft' || keyValue === 'ControlRight') {
+          ctrlActive = !ctrlActive;
+          updateModifierStyles();
+          return;
+        }
+        
+        if (keyValue === 'AltLeft' || keyValue === 'AltRight') {
+          altActive = !altActive;
+          updateModifierStyles();
+          return;
+        }
+        
+        if (keyValue === 'CapsLock') {
+          capsLockActive = !capsLockActive;
+          updateModifierStyles();
+          return;
+        }
+        
+        // Simular o pressionamento da tecla
+        simulateKeyPress(keyValue);
+        
+        // Desativar Shift após uso (a menos que Caps Lock esteja ativo)
+        if (shiftActive && !capsLockActive) {
+          shiftActive = false;
+          updateModifierStyles();
+        }
+      });
+    });
+    
+    // Simular pressionamento de tecla
+    function simulateKeyPress(key) {
+      let keyCode = key;
+      let charCode = 0;
+      
+      // Converter para maiúscula se Shift ou Caps Lock estiver ativo
+      if (key.length === 1 && (shiftActive !== capsLockActive) && key.match(/[a-z]/i)) {
+        keyCode = key.toUpperCase();
+      }
+      
+      // Lidar com caracteres especiais com Shift
+      if (shiftActive) {
+        const shiftMap = {
+          '1': '!', '2': '@', '3': '#', '4': '$', '5': '%', 
+          '6': '^', '7': '&', '8': '*', '9': '(', '0': ')', 
+          '-': '_', '=': '+', '[': '{', ']': '}', '\\': '|', 
+          ';': ':', "'": '"', ',': '<', '.': '>', '/': '?', 
+          '`': '~'
+        };
+        
+        if (shiftMap[key]) {
+          keyCode = shiftMap[key];
+        }
+      }
+      
+      // Criar e disparar o evento
+      const event = new KeyboardEvent('keydown', {
+        key: keyCode,
+        code: key,
+        ctrlKey: ctrlActive,
+        shiftKey: shiftActive,
+        altKey: altActive,
+        bubbles: true
+      });
+      
+      document.activeElement.dispatchEvent(event);
+      
+      // Para caracteres imprimíveis, disparar também um evento de input
+      if (keyCode.length === 1) {
+        // Tentar inserir o caractere via execCommand
+        try {
+          if (document.activeElement.isContentEditable || 
+              document.activeElement.tagName === 'INPUT' || 
+              document.activeElement.tagName === 'TEXTAREA') {
+            
+            if (document.execCommand('insertText', false, keyCode)) {
+              return;
+            }
+          }
+        } catch (e) {
+          console.error('Erro ao inserir texto:', e);
+        }
+        
+        // Se o execCommand falhou ou não é compatível, tentar via evento de input
+        const inputEvent = new InputEvent('input', {
+          data: keyCode,
+          inputType: 'insertText',
+          bubbles: true
+        });
+        document.activeElement.dispatchEvent(inputEvent);
+      }
+      
+      // Teclas especiais não imprimíveis
+      const specialKeys = {
+        'Backspace': () => {
+          document.execCommand('delete', false);
+        },
+        'Enter': () => {
+          document.execCommand('insertLineBreak', false);
+        },
+        'Tab': () => {
+          document.execCommand('insertText', false, '\t');
+        },
+        'Delete': () => {
+          document.execCommand('forwardDelete', false);
+        },
+        'ArrowLeft': () => {
+          // Movimento do cursor é gerenciado pelo evento keydown
+        },
+        'ArrowRight': () => {
+          // Movimento do cursor é gerenciado pelo evento keydown
+        },
+        'ArrowUp': () => {
+          // Movimento do cursor é gerenciado pelo evento keydown
+        },
+        'ArrowDown': () => {
+          // Movimento do cursor é gerenciado pelo evento keydown
+        },
+        ' ': () => {
+          document.execCommand('insertText', false, ' ');
+        }
+      };
+      
+      // Executar ação especial se existir
+      if (specialKeys[key]) {
+        specialKeys[key]();
+      }
+    }
+  })();
+</script>
+<!-- Código do teclado virtual - fim -->
+
+
+
+    
 </html>
