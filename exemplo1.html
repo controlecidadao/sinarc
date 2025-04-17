@@ -5377,7 +5377,7 @@ TOTAL:                    ${a_tudo.length}`;
 
 
 
-<!-- Código do teclado virtual - início -->
+<!-- Código do teclado virtual ABNT2 - início -->
 <style>
   #virtual-keyboard {
     display: none;
@@ -5408,20 +5408,27 @@ TOTAL:                    ${a_tudo.length}`;
     justify-content: center;
     min-width: 38px;
     height: 38px;
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0);
     border: 1px solid rgba(222, 226, 230, 0.7);
     border-radius: 4px;
     margin: 2px;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 19px;
+    font
     user-select: none;
     box-sizing: border-box;
     transition: background-color 0.15s ease;
+    //color: #aaa;
   }
   
   .key:hover {
-    background-color: #e9ecef;
+    background-color: rgba(222, 226, 230, 1);
   }
+
+.key.special:hover {
+  background-color: rgba(222, 226, 230, 1);
+}
+
   
   .key:active {
     background-color: #dee2e6;
@@ -5429,7 +5436,7 @@ TOTAL:                    ${a_tudo.length}`;
   
   .key.special {
     min-width: 55px;
-    background-color: #f1f3f5;
+    background-color: rgba(241, 243, 245, 0);
   }
   
   .key.wide {
@@ -5491,7 +5498,30 @@ TOTAL:                    ${a_tudo.length}`;
   .opacity-slider {
     width: 80px;
   }
+  
+  /* Botão para abrir o teclado */
+  #keyboard-toggle {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 20px;
+    background-color: rgba(200, 200, 200, 0.2);
+    border: 1px solid rgba(200, 200, 200, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 9998;
+    transition: background-color 0.3s ease;
+  }
+  
+  #keyboard-toggle:hover {
+    background-color: rgba(200, 200, 200, 0.4);
+  }
 </style>
+
+<!-- Botão para abrir o teclado -->
+<div id="keyboard-toggle"></div>
 
 <div id="virtual-keyboard">
   <div class="keyboard-section">
@@ -5514,13 +5544,13 @@ TOTAL:                    ${a_tudo.length}`;
   
   <div class="keyboard-section">
     <div class="keyboard-row">
-      <div class="key" data-key="`">` ~</div>
+      <div class="key" data-key="'">'/\"</div>
       <div class="key" data-key="1">1 !</div>
       <div class="key" data-key="2">2 @</div>
       <div class="key" data-key="3">3 #</div>
       <div class="key" data-key="4">4 $</div>
       <div class="key" data-key="5">5 %</div>
-      <div class="key" data-key="6">6 ^</div>
+      <div class="key" data-key="6">6 ¨</div>
       <div class="key" data-key="7">7 &</div>
       <div class="key" data-key="8">8 *</div>
       <div class="key" data-key="9">9 (</div>
@@ -5542,9 +5572,9 @@ TOTAL:                    ${a_tudo.length}`;
       <div class="key" data-key="i">i</div>
       <div class="key" data-key="o">o</div>
       <div class="key" data-key="p">p</div>
-      <div class="key" data-key="[">[</div>
-      <div class="key" data-key="]">]</div>
-      <div class="key" data-key="\">\</div>
+      <div class="key" data-key="´">´ `</div>
+      <div class="key" data-key="[">[{</div>
+      <div class="key wide" data-key="Enter">Enter</div>
     </div>
     
     <div class="keyboard-row">
@@ -5558,13 +5588,14 @@ TOTAL:                    ${a_tudo.length}`;
       <div class="key" data-key="j">j</div>
       <div class="key" data-key="k">k</div>
       <div class="key" data-key="l">l</div>
-      <div class="key" data-key=";">; :</div>
-      <div class="key" data-key="'">' "</div>
-      <div class="key special wide" data-key="Enter">Enter</div>
+      <div class="key" data-key="ç">ç</div>
+      <div class="key" data-key="~">~ ^</div>
+      <div class="key" data-key="]">]}</div>
     </div>
     
     <div class="keyboard-row">
-      <div class="key special wide" data-key="ShiftLeft" id="shift-left-key">Shift</div>
+      <div class="key special" data-key="ShiftLeft" id="shift-left-key">Shift</div>
+      <div class="key" data-key="\">\ |</div>
       <div class="key" data-key="z">z</div>
       <div class="key" data-key="x">x</div>
       <div class="key" data-key="c">c</div>
@@ -5574,17 +5605,18 @@ TOTAL:                    ${a_tudo.length}`;
       <div class="key" data-key="m">m</div>
       <div class="key" data-key=",">, <</div>
       <div class="key" data-key=".">. ></div>
-      <div class="key" data-key="/">/ ?</div>
+      <div class="key" data-key=";">; :</div>
       <div class="key special wide" data-key="ShiftRight" id="shift-right-key">Shift</div>
     </div>
     
     <div class="keyboard-row">
       <div class="key special" data-key="ControlLeft" id="ctrl-left-key">Ctrl</div>
-      <div class="key special" data-key="AltLeft" id="alt-left-key">Alt</div>
       <div class="key special" data-key="MetaLeft">Win</div>
+      <div class="key special" data-key="AltLeft" id="alt-left-key">Alt</div>
       <div class="key super-wide" data-key=" ">Space</div>
+      <div class="key special" data-key="AltRight" id="alt-right-key">Alt Gr</div>
       <div class="key special" data-key="MetaRight">Win</div>
-      <div class="key special" data-key="AltRight" id="alt-right-key">Alt</div>
+      <div class="key special" data-key="ContextMenu">Menu</div>
       <div class="key special" data-key="ControlRight" id="ctrl-right-key">Ctrl</div>
     </div>
   </div>
@@ -5627,6 +5659,7 @@ TOTAL:                    ${a_tudo.length}`;
     const virtualKeyboard = document.getElementById('virtual-keyboard');
     const keys = document.querySelectorAll('.key');
     const closeButton = document.getElementById('close-keyboard');
+    const keyboardToggle = document.getElementById('keyboard-toggle');
     
     // Inicializar o teclado
     document.addEventListener('DOMContentLoaded', function() {
@@ -5663,6 +5696,7 @@ TOTAL:                    ${a_tudo.length}`;
     let shiftActive = false;
     let ctrlActive = false;
     let altActive = false;
+    let altGrActive = false;
     let capsLockActive = false;
     let keyboardOpacity = 0; // valor inicial de 0%
     
@@ -5676,15 +5710,15 @@ TOTAL:                    ${a_tudo.length}`;
     const capsKey = document.getElementById('caps-key');
     const opacitySlider = document.getElementById('opacity-slider');
     
-    // Alterar para detectar duplo clique em vez de menu de contexto
-    document.addEventListener('dblclick', function(e) {
+    // Remover o evento de duplo clique e adicionar o botão de ativar teclado
+    keyboardToggle.addEventListener('click', function(e) {
       e.preventDefault();
-      showKeyboard(e.clientX, e.clientY);
+      showKeyboard(window.innerWidth / 2, window.innerHeight / 2);
     });
     
     // Clicar fora do teclado para fechar
     document.addEventListener('click', function(e) {
-      if (virtualKeyboard.style.display === 'block' && !virtualKeyboard.contains(e.target)) {
+      if (virtualKeyboard.style.display === 'block' && !virtualKeyboard.contains(e.target) && e.target !== keyboardToggle) {
         hideKeyboard();
       }
     });
@@ -5693,39 +5727,19 @@ TOTAL:                    ${a_tudo.length}`;
     closeButton.addEventListener('click', hideKeyboard);
     
     // Mostrar o teclado
-    function showKeyboard(x, y) {
-      // Ajustar a posição para garantir que o teclado fique visível
-      const viewportWidth = window.innerWidth;
-      const viewportHeight = window.innerHeight;
-      const keyboardWidth = 700; // Largura aproximada do teclado
-      const keyboardHeight = 450; // Altura aproximada do teclado
-      
-      // Centralizar o teclado se a tela for pequena
-      let posX = x;
-      let posY = y;
-      
-      if (viewportWidth < 750) {
-        // Centralizar horizontalmente se a tela for estreita
-        posX = Math.max(5, (viewportWidth - keyboardWidth) / 2);
-      } else if (posX + keyboardWidth > viewportWidth) {
-        posX = viewportWidth - keyboardWidth - 10;
-      }
-      
-      if (posX < 5) posX = 5;
-      
-      if (posY + keyboardHeight > viewportHeight) {
-        posY = viewportHeight - keyboardHeight - 10;
-      }
-      
-      if (posY < 5) posY = 5;
-      
-      virtualKeyboard.style.left = posX + 'px';
-      virtualKeyboard.style.top = posY + 'px';
-      virtualKeyboard.style.display = 'block';
-      
-      // Aplicar opacidade atual
-      updateKeyboardOpacity();
-    }
+function showKeyboard(x, y) {
+  virtualKeyboard.style.display = 'block';
+
+  // Se quiser centralizar sempre no meio:
+  const keyboardWidth = virtualKeyboard.offsetWidth;
+  const keyboardHeight = virtualKeyboard.offsetHeight;
+  const left = (window.innerWidth - keyboardWidth) / 2;
+  const top = (window.innerHeight - keyboardHeight) / 2;
+  
+  virtualKeyboard.style.left = `${left}px`;
+  virtualKeyboard.style.top = `${top}px`;
+}
+
     
     // Função para esconder o teclado
     function hideKeyboard() {
@@ -5738,6 +5752,7 @@ TOTAL:                    ${a_tudo.length}`;
       shiftActive = false;
       ctrlActive = false;
       altActive = false;
+      altGrActive = false;
       // Não resetamos capsLockActive aqui para que o estado do CapsLock persista até ser desativado
       updateModifierStyles();
     }
@@ -5749,7 +5764,7 @@ TOTAL:                    ${a_tudo.length}`;
       ctrlLeftKey.classList.toggle('modifier-active', ctrlActive);
       ctrlRightKey.classList.toggle('modifier-active', ctrlActive);
       altLeftKey.classList.toggle('modifier-active', altActive);
-      altRightKey.classList.toggle('modifier-active', altActive);
+      altRightKey.classList.toggle('modifier-active', altGrActive);
       capsKey.classList.toggle('modifier-active', capsLockActive);
       
       // Atualizar visualização das letras (maiúsculas/minúsculas) com base no estado do CapsLock
@@ -5760,10 +5775,16 @@ TOTAL:                    ${a_tudo.length}`;
     function updateLetterCasing() {
       document.querySelectorAll('.key').forEach(key => {
         const keyValue = key.getAttribute('data-key');
-        // Verifica se é uma letra única (a-z)
-        if (keyValue && keyValue.length === 1 && keyValue.match(/[a-z]/i)) {
+        // Verifica se é uma letra única (a-z) ou ç
+        if (keyValue && (keyValue.length === 1 && keyValue.match(/[a-z]/i) || keyValue === 'ç')) {
           // Aplica maiúscula se CapsLock estiver ativo
-          key.textContent = capsLockActive ? keyValue.toUpperCase() : keyValue.toLowerCase();
+          if (keyValue === 'ç' && capsLockActive) {
+            key.textContent = 'Ç';
+          } else if (keyValue === 'ç' && !capsLockActive) {
+            key.textContent = 'ç';
+          } else {
+            key.textContent = capsLockActive ? keyValue.toUpperCase() : keyValue.toLowerCase();
+          }
         }
       });
     }
@@ -5786,8 +5807,14 @@ TOTAL:                    ${a_tudo.length}`;
           return;
         }
         
-        if (keyValue === 'AltLeft' || keyValue === 'AltRight') {
+        if (keyValue === 'AltLeft') {
           altActive = !altActive;
+          updateModifierStyles();
+          return;
+        }
+        
+        if (keyValue === 'AltRight') {
+          altGrActive = !altGrActive;
           updateModifierStyles();
           return;
         }
@@ -5819,18 +5846,35 @@ TOTAL:                    ${a_tudo.length}`;
         keyCode = key.toUpperCase();
       }
       
+      // Tratamento especial para o 'ç' com Caps Lock ou Shift
+      if (key === 'ç') {
+        // Se Shift ou Caps Lock (mas não ambos) estiverem ativos, usar 'Ç'
+        keyCode = (shiftActive !== capsLockActive) ? 'Ç' : 'ç';
+      }
+      
       // Lidar com caracteres especiais com Shift
       if (shiftActive) {
         const shiftMap = {
-          '1': '!', '2': '@', '3': '#', '4': '$', '5': '%', 
-          '6': '^', '7': '&', '8': '*', '9': '(', '0': ')', 
+          '\'': '"', '1': '!', '2': '@', '3': '#', '4': '$', '5': '%', 
+          '6': '¨', '7': '&', '8': '*', '9': '(', '0': ')', 
           '-': '_', '=': '+', '[': '{', ']': '}', '\\': '|', 
-          ';': ':', "'": '"', ',': '<', '.': '>', '/': '?', 
-          '`': '~'
+          ',': '<', '.': '>', ';': ':', '/': '?', '´': '`', '~': '^'
         };
         
         if (shiftMap[key]) {
           keyCode = shiftMap[key];
+        }
+      }
+      
+      // Lidar com combinações Alt Gr (AltRight)
+      if (altGrActive) {
+        const altGrMap = {
+          'q': '/', 'w': '?', 'e': '€', '2': '²', '3': '³',
+          '4': '£', '5': '¢', '6': '¬'
+        };
+        
+        if (altGrMap[key]) {
+          keyCode = altGrMap[key];
         }
       }
       
@@ -5840,7 +5884,7 @@ TOTAL:                    ${a_tudo.length}`;
         code: key,
         ctrlKey: ctrlActive,
         shiftKey: shiftActive,
-        altKey: altActive,
+        altKey: altActive || altGrActive,
         bubbles: true
       });
       
@@ -5870,6 +5914,31 @@ TOTAL:                    ${a_tudo.length}`;
         });
         document.activeElement.dispatchEvent(inputEvent);
       }
+      
+      // Lidar com caracteres acentuados (teclas mortas)
+      const deadKeyMap = {
+        '´': {
+          'a': 'á', 'e': 'é', 'i': 'í', 'o': 'ó', 'u': 'ú',
+          'c': 'ć', 'y': 'ý', 'A': 'Á', 'E': 'É', 'I': 'Í',
+          'O': 'Ó', 'U': 'Ú', 'C': 'Ć', 'Y': 'Ý'
+        },
+        '`': {
+          'a': 'à', 'e': 'è', 'i': 'ì', 'o': 'ò', 'u': 'ù',
+          'A': 'À', 'E': 'È', 'I': 'Ì', 'O': 'Ò', 'U': 'Ù'
+        },
+        '~': {
+          'a': 'ã', 'o': 'õ', 'n': 'ñ',
+          'A': 'Ã', 'O': 'Õ', 'N': 'Ñ'
+        },
+        '^': {
+          'a': 'â', 'e': 'ê', 'i': 'î', 'o': 'ô', 'u': 'û',
+          'A': 'Â', 'E': 'Ê', 'I': 'Î', 'O': 'Ô', 'U': 'Û'
+        },
+        '¨': {
+          'a': 'ä', 'e': 'ë', 'i': 'ï', 'o': 'ö', 'u': 'ü', 'y': 'ÿ',
+          'A': 'Ä', 'E': 'Ë', 'I': 'Ï', 'O': 'Ö', 'U': 'Ü', 'Y': 'Ÿ'
+        }
+      };
       
       // Teclas especiais não imprimíveis
       const specialKeys = {
@@ -5908,8 +5977,11 @@ TOTAL:                    ${a_tudo.length}`;
       }
     }
   })();
+
 </script>
-<!-- Código do teclado virtual - fim -->
+<!-- Código do teclado virtual ABNT2 - fim -->
+
+
 
 
 
