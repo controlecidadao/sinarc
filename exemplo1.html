@@ -5382,6 +5382,8 @@ TOTAL:                    ${a_tudo.length}`;
   #virtual-keyboard {
     display: none;
     position: absolute;
+    top: 0; /* Posição no topo */
+    left: 0; /* Posição no canto esquerdo */
     background-color: rgba(248, 249, 250, 0); /* Iniciando com opacidade 0 */
     /* Removido: backdrop-filter: blur(2px); */
     border: 1px solid rgba(206, 212, 218, 0.5);
@@ -5393,6 +5395,7 @@ TOTAL:                    ${a_tudo.length}`;
     width: 700px;
     max-width: 95vw;
     box-sizing: border-box;
+    user-select: none;
   }
   
   .keyboard-row {
@@ -5417,7 +5420,7 @@ TOTAL:                    ${a_tudo.length}`;
     user-select: none;
     box-sizing: border-box;
     transition: background-color 0.15s ease;
-    color: #aaa;
+    color: #777;
   }
   
   .key:hover {
@@ -5517,6 +5520,7 @@ TOTAL:                    ${a_tudo.length}`;
   #keyboard-toggle:hover {
     background-color: rgba(200, 200, 200, 0.4);
   }
+
 </style>
 
 <!-- Botão para abrir o teclado -->
@@ -5976,6 +5980,49 @@ function showKeyboard(x, y) {
       }
     }
   })();
+
+
+const keyboard = document.getElementById('virtual-keyboard');
+
+let isDragging = false;
+let offsetX = 0;
+let offsetY = 0;
+
+keyboard.addEventListener('mousedown', (e) => {
+  isDragging = true;
+  offsetX = e.clientX - keyboard.offsetLeft;
+  offsetY = e.clientY - keyboard.offsetTop;
+});
+
+document.addEventListener('mousemove', (e) => {
+  if (isDragging) {
+    keyboard.style.left = `${e.clientX - offsetX}px`;
+    keyboard.style.top = `${e.clientY - offsetY}px`;
+  }
+});
+
+document.addEventListener('mouseup', () => {
+  isDragging = false;
+});
+
+// Opcional: para funcionar no celular (touch)
+keyboard.addEventListener('touchstart', (e) => {
+  isDragging = true;
+  offsetX = e.touches[0].clientX - keyboard.offsetLeft;
+  offsetY = e.touches[0].clientY - keyboard.offsetTop;
+});
+
+document.addEventListener('touchmove', (e) => {
+  if (isDragging) {
+    keyboard.style.left = `${e.touches[0].clientX - offsetX}px`;
+    keyboard.style.top = `${e.touches[0].clientY - offsetY}px`;
+  }
+});
+
+document.addEventListener('touchend', () => {
+  isDragging = false;
+});
+
 
 </script>
 <!-- Código do teclado virtual ABNT2 - fim -->
