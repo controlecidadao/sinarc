@@ -5776,21 +5776,21 @@ function showKeyboard(x, y) {
     
     // Função para atualizar visualização das letras baseado no CapsLock
     function updateLetterCasing() {
-      document.querySelectorAll('.key').forEach(key => {
-        const keyValue = key.getAttribute('data-key');
-        // Verifica se é uma letra única (a-z) ou ç
-        if (keyValue && (keyValue.length === 1 && keyValue.match(/[a-z]/i) || keyValue === 'ç')) {
-          // Aplica maiúscula se CapsLock estiver ativo
-          if (keyValue === 'ç' && capsLockActive) {
-            key.textContent = 'Ç';
-          } else if (keyValue === 'ç' && !capsLockActive) {
-            key.textContent = 'ç';
-          } else {
-            key.textContent = capsLockActive ? keyValue.toUpperCase() : keyValue.toLowerCase();
-          }
-        }
-      });
+  document.querySelectorAll('.key').forEach(key => {
+    const keyValue = key.getAttribute('data-key');
+    // Verifica se é uma letra única (a-z) ou ç
+    if (keyValue && ((keyValue.length === 1 && keyValue.match(/[a-z]/i)) || keyValue === 'ç')) {
+      // Aplica maiúscula se CapsLock estiver ativo
+      if (keyValue === 'ç' && capsLockActive) {
+        key.textContent = 'Ç';
+      } else if (keyValue === 'ç' && !capsLockActive) {
+        key.textContent = 'ç';
+      } else {
+        key.textContent = capsLockActive ? keyValue.toUpperCase() : keyValue.toLowerCase();
+      }
     }
+  });
+}
     
     // Lidar com clique nas teclas
     keys.forEach(key => {
@@ -5841,19 +5841,19 @@ function showKeyboard(x, y) {
     
     // Simular pressionamento de tecla
     function simulateKeyPress(key) {
-      let keyCode = key;
-      let charCode = 0;
-      
-      // Converter para maiúscula se Shift ou Caps Lock estiver ativo
-      if (key.length === 1 && (shiftActive !== capsLockActive) && key.match(/[a-z]/i)) {
-        keyCode = key.toUpperCase();
-      }
-      
-      // Tratamento especial para o 'ç' com Caps Lock ou Shift
-      if (key === 'ç') {
-        // Se Shift ou Caps Lock (mas não ambos) estiverem ativos, usar 'Ç'
-        keyCode = (shiftActive !== capsLockActive) ? 'Ç' : 'ç';
-      }
+  let keyCode = key;
+  let charCode = 0;
+  
+  // Converter para maiúscula se Shift ou Caps Lock estiver ativo
+  if (key.length === 1 && (shiftActive !== capsLockActive) && key.match(/[a-zç]/i)) {
+    keyCode = key.toUpperCase();
+  }
+  
+  // Tratamento especial para o 'ç' com Caps Lock ou Shift
+  if (key === 'ç') {
+    // Se Shift ou Caps Lock (mas não ambos) estiverem ativos, usar 'Ç'
+    keyCode = (shiftActive !== capsLockActive) ? 'Ç' : 'ç';
+  }
       
       // Lidar com caracteres especiais com Shift
       if (shiftActive) {
