@@ -361,7 +361,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 15) **Tecla 1** --> Exibe comprovante e inscrição de situação cadastral da pessoa jurídica selecionada;
 16) **Tecla 2** --> Realiza pesquisa pela pessoa física ou jurídica selecionada na base de dados de sanções da CGU (CEIS, CNEP, CEPIM e CEAF);
 17) **Tecla 3** --> Tecla não usada;
-18) **Tecla 4** --> Abre arquivo Excel contendo as tabelas de nós e de conexões retornadas da consulta ao banco de dados;
+18) **Tecla 4** --> Abre arquivo Excel contendo as tabelas de nós e de conexões retornadas da consulta ao banco de dados (depende de consulta em tempo real ao banco de dados);
 19) **Tecla 5** --> Abre site Rede CNPJ;
 20) **Tecla 6** --> Abre sites contendo bases de dados primárias da CGU (Dívida Ativa Geral, Dívia FGTS, Dívida Previdenciária, Sanções, Acordos de Leniência e Pessoas Expostas Politicamente) e da Receita Federal (CNPJ);
 21) **Tecla 7** --> Exibe dados da pessoa jurídica em formato JSON;
