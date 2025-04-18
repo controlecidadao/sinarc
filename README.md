@@ -295,7 +295,7 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 
 <br>
 
-#### Ativação dos modos transparência
+#### Ativação dos modos de transparência
 
 ---
 
