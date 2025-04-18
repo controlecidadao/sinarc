@@ -114,7 +114,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 2) Clique na janela do grafo para ativá-la e pressione a **tecla Espaço** 16 vezes, espaçadamente, até que o parâmetro "tamanho", exibido no canto superior direito da tela, reduza de 100 para 25 em intervalos de 5 unidades. Esta função aumenta a massa dos nós proporcionalmente ao seu tamanho (do maior para o menor), melhorando progressivamente a visualização do grafo no layout gravitacional;
 3) Pressione a **tecla Escape** para ajustar o grafo à janela de visualização;
 4) Pressione a **tecla z** (minúscula) para ativar/desativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes;
-5) Após desativar o modo automático de visualização, use o **botão de rolagem do mouse** para aproximar e afastar o grafo. Posicione o mouse sobre o ponto que deseja aproximar ou afastar e gire o botão de rolagem;
+5) Após desativar o modo automático de visualização (pressione a **tecla z** novamente), use o **botão de rolagem do mouse** para aproximar e afastar o grafo. Posicione o mouse sobre o ponto que deseja aproximar ou afastar e gire o botão de rolagem;
 6) **Posicione o ponteiro do mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela;
 7) Clique sobre um nó de pessoa jurídica (ícone de prédio ou de globo) para selecioná-lo e pressione a **tecla d** (minúscula) para abrir uma janela com detalhes sobre a empresa;
 8) Para recarregar a página e retornar o grafo ao seu estado inicial, pressione **tecla F5**.
