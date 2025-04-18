@@ -56,7 +56,7 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 
 Confira-se exemplo de uso do SINARC em trabalho técnico desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo (MPC-ES): [Parecer](https://www.mpc.es.gov.br/wp-content/uploads/2024/10/Processo-784-2020-Parecer-MPC-ES-em-Denuncia-transacao-tributaria-Anchieta-e-Samarco.pdf#page=110) emitido no Processo TC 784/2020 (pág. 110). Para saber mais sobre esta ação de controle do MPC-ES em defesa do meio ambiente, vide a respectiva [notícia](https://www.mpc.es.gov.br/2024/11/lagoa-de-mae-ba-mpc-es-aponta-danos-ambientais-irreversiveis-e-pede-inclusao-da-samarco-vale-e-bhp-em-denuncia/).
 
-Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no _arquivo_sinarc.zip_, preservando todas as funcionalidades que não dependem de consulta ao banco de dados.
+Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no _arquivo_sinarc.zip_, preservando todas as funcionalidades que não dependem de consulta em tempo real ao banco de dados.
 
 <br><br>
 
@@ -159,7 +159,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 <br>
 
-O objetivo deste tutorial é demonstrar, de forma prática, o uso dos comandos do SINARC que não dependem de consulta ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos** acionados pelo mouse e pelo teclado.
+O objetivo deste tutorial é demonstrar, de forma prática, o uso dos comandos do SINARC que não dependem de consulta em tempo real ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos** acionados pelo mouse e pelo teclado.
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, pressione Shift + tecla desejada.<br>
 
