@@ -118,7 +118,7 @@
     </head>
 
 
-    <body>
+    <body id="message">
         <div class="card" style="width: 100%">
             
             
@@ -6027,6 +6027,140 @@ document.addEventListener('touchend', () => {
 </script>
 <!-- Código do teclado virtual ABNT2 - fim -->
 
+
+
+
+<script>
+(function() {
+  const virtualKeyboard = document.getElementById('virtual-keyboard');
+  const keys = document.querySelectorAll('.key');
+  const closeButton = document.getElementById('close-keyboard');
+  const keyboardToggle = document.getElementById('keyboard-toggle');
+  const messageField = document.getElementById('message'); // Captura o textarea
+
+  let shiftActive = false;
+  let capsLockActive = false;
+
+  const shiftLeftKey = document.getElementById('shift-left-key');
+  const shiftRightKey = document.getElementById('shift-right-key');
+  const capsKey = document.getElementById('caps-key');
+  const opacitySlider = document.getElementById('opacity-slider');
+  let keyboardOpacity = 0;
+
+  document.addEventListener('DOMContentLoaded', function() {
+    updateLetterCasing();
+    opacitySlider.addEventListener('input', updateKeyboardOpacity);
+  });
+
+  function updateKeyboardOpacity() {
+    keyboardOpacity = opacitySlider.value;
+    virtualKeyboard.style.backgroundColor = `rgba(248, 249, 250, ${keyboardOpacity/100})`;
+  }
+
+  keyboardToggle.addEventListener('click', function(e) {
+    e.preventDefault();
+    showKeyboard(window.innerWidth / 2, window.innerHeight / 2);
+  });
+
+  closeButton.addEventListener('click', function() {
+    virtualKeyboard.style.display = 'none';
+  });
+
+  function showKeyboard(x, y) {
+    virtualKeyboard.style.display = 'block';
+    virtualKeyboard.style.left = (x - virtualKeyboard.offsetWidth/2) + 'px';
+    virtualKeyboard.style.top = (y - virtualKeyboard.offsetHeight/2) + 'px';
+  }
+
+  // Atualiza letras maiúsculas/minúsculas dependendo de Shift ou CapsLock
+  function updateLetterCasing() {
+    document.querySelectorAll('.key').forEach(key => {
+      const keyValue = key.getAttribute('data-key');
+      if (keyValue && keyValue.length === 1 && /^[a-zA-Zç]$/.test(keyValue)) {
+        if (shiftActive ^ capsLockActive) {
+          key.textContent = keyValue.toUpperCase();
+        } else {
+          key.textContent = keyValue.toLowerCase();
+        }
+      }
+    });
+  }
+
+  // Quando clicamos em uma tecla
+  keys.forEach(key => {
+    key.addEventListener('click', function() {
+      const keyValue = key.getAttribute('data-key');
+
+      if (keyValue === "ShiftLeft" || keyValue === "ShiftRight") {
+        shiftActive = !shiftActive;
+        shiftLeftKey.classList.toggle('modifier-active', shiftActive);
+        shiftRightKey.classList.toggle('modifier-active', shiftActive);
+        updateLetterCasing();
+        return;
+      }
+
+      if (keyValue === "CapsLock") {
+        capsLockActive = !capsLockActive;
+        capsKey.classList.toggle('modifier-active', capsLockActive);
+        updateLetterCasing();
+        return;
+      }
+
+      if (keyValue === "Backspace") {
+        const currentValue = messageField.value;
+        messageField.value = currentValue.slice(0, -1);
+        return;
+      }
+
+      if (keyValue === "Enter") {
+        messageField.value += "\n";
+        return;
+      }
+
+      if (keyValue === "Tab") {
+        messageField.value += "\t";
+        return;
+      }
+
+      if (keyValue === " ") {
+        messageField.value += " ";
+        return;
+      }
+
+      // Se for uma tecla comum
+      if (keyValue.length === 1) {
+        let toInsert = keyValue;
+
+        // Para o ç e o Ç
+        if (toInsert === "ç") {
+          if (shiftActive ^ capsLockActive) {
+            toInsert = "Ç";
+          } else {
+            toInsert = "ç";
+          }
+        }
+        else if (/^[a-z]$/i.test(toInsert)) {
+          if (shiftActive ^ capsLockActive) {
+            toInsert = toInsert.toUpperCase();
+          } else {
+            toInsert = toInsert.toLowerCase();
+          }
+        }
+
+        messageField.value += toInsert;
+        
+        // Se Shift estava ativo, desativa após pressionar uma letra
+        if (shiftActive) {
+          shiftActive = false;
+          shiftLeftKey.classList.remove('modifier-active');
+          shiftRightKey.classList.remove('modifier-active');
+          updateLetterCasing();
+        }
+      }
+    });
+  });
+})();
+</script>
 
 
 
