@@ -119,14 +119,6 @@
 
 
     <body>
-
-
-        /*Campo para teste*/
-<label>Mensagem:
-<textarea id="message"></textarea>
-</label>
-
-
         
         <div class="card" style="width: 100%">
             
@@ -5857,11 +5849,13 @@ function showKeyboard(x, y) {
     keyCode = key.toUpperCase();
   }
   
-  // Tratamento especial para o 'ç' com Caps Lock ou Shift
-  if (key === 'ç') {
-    // Se Shift ou Caps Lock (mas não ambos) estiverem ativos, usar 'Ç'
-    keyCode = (shiftActive !== capsLockActive) ? 'Ç' : 'ç';
+  if (key === 'Semicolon') {
+  if (shiftActive !== capsLockActive) {
+    keyCode = 'Ç'; // Maiúsculo
+  } else {
+    keyCode = 'ç'; // Minúsculo
   }
+}
       
       // Lidar com caracteres especiais com Shift
       if (shiftActive) {
