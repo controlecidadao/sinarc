@@ -365,7 +365,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 19) **Tecla 5** --> Abre site Rede CNPJ;
 20) **Tecla 6** --> Abre sites contendo bases de dados primárias da CGU (Dívida Ativa Geral, Dívia FGTS, Dívida Previdenciária, Sanções, Acordos de Leniência e Pessoas Expostas Politicamente) e da Receita Federal (CNPJ);
 21) **Tecla 7** --> Exibe dados da pessoa jurídica em formato JSON;
-22) **Tecla 8** -->
+22) **Tecla 8** --> Realiza consulta à API de Compras Governamentais do Governo Federal;
 23) **Tecla 9** --> Tecla não usada.
 
 <br>
