@@ -9,18 +9,18 @@ O processo de instalação do SINARC e de criação dos bancos de dados leva apr
 1) ROTINA DE INSTALAÇÃO DO SINARC E DO REDE CNPJ
 ================================================
 
-O SINARC, Sistema Integrado de Análise de Redes Complexas, utiliza a modelagem de bancos de dados relacionais do projeto open source REDE CNPJ (https://github.com/rictom/rede-cnpj).
+O SINARC, Sistema Integrado de Análise de Redes Complexas, utiliza a modelagem de bancos de dados relacionais do projeto open source Rede CNPJ (https://github.com/rictom/rede-cnpj).
 No entanto, a forma de consulta, criação, processamento e exibição dos grafos gerados pelo SINARC possui metodologia própria.
 
-Importante registrar que o SINARC é fruto do brilhante e inspirador trabalho realizado pelo criador do sistema REDE CNPJ, que gentilmente compartilhou seu código-fonte com a sociedade, demonstrando que a transparência e a colaboração são pilares fundamentais para o avanço tecnológico.
+Importante registrar que o SINARC é fruto do brilhante e inspirador trabalho realizado pelo criador do sistema Rede CNPJ, que gentilmente compartilha seu código-fonte com a sociedade, demonstrando que a transparência e a colaboração são pilares fundamentais para o avanço tecnológico.
 
-ATENÇÃO: A rotina de instalação do SINARC e do REDE CNPJ no computador necessita de pelo menos:
+ATENÇÃO: A rotina de instalação do SINARC e do Rede CNPJ no computador necessita de pelo menos:
   1) 15 GB de espaço livre no drive onde se encontra o sistema operacional Windows (normalmente drive C)
   1) 100 GB de espaço livre no drive onde o programa será instalado. Após a instalação, o total de espaço ocupado pelos arquivos será de aproximadamente 65 GB.
   2) 3 GB de espaço livre na memória RAM.
 
-Caso opte por não ocupar os 65 GB de espaço no seu computador após a instalação, mova a pasta SINARC (a ser criada pelo usuário para abrigar o sistema) para um HD externo. Os programas permanecerão funcionais no HD externo.
-Caso não disponha de espaço suficiente no computador para instalar o SINARC, é possível instalar o sistema diretamente no HD externo. Porém, o processo dura aproximadamente 24h.
+Caso opte por não ocupar os 65 GB de espaço no seu computador após a instalação, mova a pasta SINARC (a ser criada pelo usuário para abrigar o sistema) para um HD externo ou pendrive. Os programas permanecerão funcionais nas mídias externas.
+Caso não disponha de espaço suficiente no computador para instalar o SINARC, é possível instalar o sistema diretamente no HD externo ou pendrive. No entanto, o processo leva aproximadamente 24h!
 
 Para instalar o SINARC e o REDE CNPJ você precisa baixar apenas o arquivo "instalador_main.bat" do repositório (https://github.com/controlecidadao/sinarc/blob/main/instalador_main.bat) e salvá-lo em uma pasta exclusiva para os programas, criada pelo usuário (ex.: SINARC). Por se tratar de um arquivo ".bat", seu navegador pode pedir a confirmação do download.
 
@@ -28,10 +28,10 @@ Para baixar o arquivo "instalador_main.bat", primeiro clique sobre ele dentro do
 
 O arquivo "instalador_main.bat" executa automaticamente a seguinte rotina de instalação:
   1) Baixa e instala o gerenciador de ambientes virtuais Miniconda, juntamente com a versão 3.10 do Python, criando a pasta "miniconda3".
-  2) Baixa a íntegra dos repositórios SINARC e REDE CNPJ e cria as pastas "rede-cnpj-master" e "sinarc-main".
+  2) Baixa a íntegra dos repositórios SINARC e Rede CNPJ e cria as pastas "rede-cnpj-master" e "sinarc-main".
   3) Renomeia arquivos TXT para BAT.
   4) Cria os ambientes virtuais "rede_cnpj" e "sinarc".
-  5) Copia arquivos da pasta "sinarc-main" para outras pastas.
+  5) Copia arquivos de configuração da pasta "sinarc-main" para outras pastas.
 
 Para iniciar a instalação (procedimento testado com o Windows 11):
   1) Usando o Windows Explorer, clique com o botão direito do mouse dentro da pasta onde foi salvo o arquivo "instalador_main.bat" e selecione a opção "Abrir no Terminal". Esse procedimento permite que eventuais erros durante o processo de instalação sejam exibidos na janela do Terminal do Window. Certifique-se de você possua o aplicativo Windows Terminal instalado em seu dispositivo. Caso não o tenha, faça o download através da Microsoft Store.
