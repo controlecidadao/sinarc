@@ -581,7 +581,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 Relação de sites contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para explorar com o SINARC:
 
-* [Empresas beneficiadas por renúncias fiscais de tributos federais (Receita Federal)](https://arquivos.receitafederal.gov.br/dados/beneficios/renuncia-por-regime-agregado.xlsx). Como infelizmente não há CNPJ na planilha, selecione para consulta apenas a razão social, porém sem a parte final (Ltda., S.A.). 
+* [Empresas beneficiadas por renúncias fiscais de tributos federais (Receita Federal)](https://dados.gov.br/dados/conjuntos-dados/renuncias-fiscais-de-tributos-federais). Clique em "Recursos" e localize o item "(Dirbi) Renúncia Fiscal por Regime Especial de Tributação". Clique em "Acessar o recurso" e realize do download do arquivo CSV (568 mil linhas e 675MB). Abra o arquivo com o Excel, formate a coluna CNPJ como texto e gere uma tabela dinâmica com as colunas cnpj, nome e valorConsolidado. Aplique filtros usando as demais colunas, selecione os números de CNPJ desejados e pressione Ctrl + c para abrí-los com o SINARC.
 
 * [Reembolsos suspeitos de despesas realizadas pela Câmara dos Deputados (Operação Serenata de Amor)](https://jarbas.serenata.ai/dashboard/chamber_of_deputies/reimbursement/)
 
