@@ -155,7 +155,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 <br>
 
-### 🚧 Tutorial em Construção 🚧
+<!--### 🚧 Tutorial em Construção 🚧-->
 
 <br>
 
