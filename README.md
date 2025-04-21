@@ -20,14 +20,59 @@ O **SINARC – Sistema Integrado de Análise de Redes Complexas** é um programa
 
 Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [OSINT](https://www.cia.gov/stories/story/ic-osint-strategy-rollout/))_, o SINARC se propõe a ampliar as perspectivas de análise das conexões existentes entre pessoas físicas, pessoas jurídicas, endereços, telefones e e-mails constantes na [base de dados](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj) pública de CNPJ da Receita Federal, formada por 60 milhões de empresas, por meio da criação de uma interface gráfica concebida a partir dos princípios da percepção visual extraídos da Psicologia da [Gestalt](https://medium.com/aela/os-7-princ%C3%ADpios-de-gestalt-e-como-utiliz%C3%A1-los-em-projetos-de-ui-design-46d6d832abf6), facilitando a identificação visual das estruturas pelo analista, e de um conjunto de ferramentas computacionais que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de informações e padrões ocultos relevantes para a produção de conhecimento.
 
-Assim como o projeto Rede CNPJ, o **objetivo do SINARC** é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
+<br><br>
+
+## O que é uma rede complexa?
+
+<br>
+
+
+Uma **Rede Complexa** é um sistema dinâmico formado pelo conjunto de elementos (nós) e das relações existentes entre eles (arestas), cuja complexidade de suas conexões requer para sua compreensão a utilização de ferramentas para modelagem e representação matemática, simplificação e análise computacional. A complexidade de uma rede está relacionada ao grau de aleatoriedade e ao número de suas conexões. Nesse contexto, o SINARC se propõe a realizar uma abordagem das conexões existentes em determinado momento (análise estática de um sistema dinâmico), entre pessoas físicas (PF), pessoas jurídicas (PJ), endereços (EN), telefones (TE) e e-mails (EM) cadastrados na base de dados pública de CNPJ da Receita Federal.
+
+O SINARC captura um instante (data da disponibilização da base de dados pela RFB) do processo contínuo de evolução de um sistema complexo, dinâmico e real, consistente nos registros e nas atualizações diárias de mais de 60 milhões de CNPJ junto à Receita Federal. A expansão controlada do grafo a partir da adição de camadas sucessivas a um ou mais nós iniciais também reproduz o comportamento de um sistema complexo.
+
+Características de um sistema complexo (base de dados de CNPJ da Receita Federal):
+
+* **Diversidade:** Os nós do sistema representam diferentes tipos de entidades (PJ, PF, EN, TE e EM) e de relacionamentos entre eles (sócio, representante, filial etc.);
+
+* **Conectividade:** O sistema complexo possui uma grande quantidade de nós interconectados por arestas, formando uma rede densa e interligada;
+
+* **Escalabilidade:** O sistema aumenta em escala, adicionando novos componentes e aumentando as interconexões entre eles, resultando em uma estrutura de conectividade complexa;
+
+* **Não linearidade:** O crescimento do sistema exibe comportamento não linear e imprevisível;
+
+* **Atualização contínua:** O sistema está em constante atualização, o que implica que novos nós e arestas são adicionados e os existentes podem ser modificados ou removidos ao longo do tempo;
+
+* **Centralidade:** Alguns nós podem desempenhar um papel central na rede, atuando como pontos de ligação entre várias entidades no sistema;
+
+* **Comunidades:** O sistema pode ter agrupamentos de nós que estão mais densamente conectados entre si do que com o restante da rede, formando comunidades ou clusters;
+
+* **Dinâmica temporal:** As conexões entre os nós podem variar ao longo do tempo, refletindo mudanças nas relações entre as entidades representadas;
+
+* **Propriedades emergentes:** O sistema complexo exibe propriedades emergentes onde o comportamento global da rede não pode ser previsto apenas olhando para o comportamento individual dos nós. Essas propriedades podem surgir de interações complexas e não lineares entre os elementos da rede;
+
+<br><br>
+
+## Qual o objetivo do SINARC?
+
+<br>
+
+Assim como o projeto Rede CNPJ, o objetivo do SINARC é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
+
+<br><br>
+
+## O SINARC utiliza dados sigilosos?
+
+<br>
+
+Todas as informações produzidas com o SINARC são de domínio público. Os exemplos apresentados foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente ilustrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas. 
+
+Links para sites externos foram incluídos apenas para ilustrar a possibilidade de ampliação das funcionalidades da ferramenta.
 
 [Nota Técnica](https://www.gov.br/receitafederal/dados/nota-cocad-rfb-86-2024.pdf/) da Receita Federal especifica quais informações da base de dados de CNPJ não estão protegidas por sigilo fiscal, em consonância com o [Decreto 8.777/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm#), que instituiu a Política de Dados Abertos do Poder Executivo federal.
 
 Para acessar a fonte primária dos dados usados pelo SINARC, clique [aqui](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/). 
 Conheça também o [Dicionário de Dados](https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf) de CNPJ da Receita Federal.
-
-Todas as informações produzidas com o SINARC são de domínio público. Os exemplos apresentados foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente ilustrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas. Links para sites externos foram incluídos apenas para ilustrar a possibilidade de ampliação das funcionalidades da ferramenta.
 
 <br><br>
 
