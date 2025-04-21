@@ -53,7 +53,7 @@ Características de um sistema complexo (base de dados de CNPJ da Receita Federa
 
 <br><br>
 
-## Qual o objetivo do SINARC?
+## Qual é o objetivo do SINARC?
 
 <br>
 
