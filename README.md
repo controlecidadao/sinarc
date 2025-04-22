@@ -29,7 +29,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 Uma **Rede Complexa** é um sistema dinâmico formado pelo conjunto de elementos (nós) e das relações existentes entre eles (arestas), cuja complexidade de suas conexões requer para sua compreensão a utilização de ferramentas para modelagem e representação matemática, simplificação e análise computacional. A complexidade de uma rede está relacionada ao grau de aleatoriedade e ao número de suas conexões. Nesse contexto, o SINARC se propõe a realizar uma abordagem das conexões existentes em determinado momento (análise estática de um sistema dinâmico), entre pessoas físicas (PF), pessoas jurídicas (PJ), endereços (EN), telefones (TE) e e-mails (EM) cadastrados na base de dados pública de CNPJ da Receita Federal.
 
-O SINARC captura um instante (data da disponibilização da base de dados pela Receita Federal) do processo contínuo de evolução de um sistema complexo, dinâmico e real, consistente nos registros e nas atualizações diárias de mais de 60 milhões de CNPJ junto à Receita Federal. A expansão controlada do grafo a partir da adição de camadas sucessivas a um ou mais nós iniciais também reproduz o comportamento de um sistema complexo.
+O SINARC captura um instante (data da disponibilização da base de dados pela Receita Federal) do processo contínuo de evolução de um sistema complexo, dinâmico e real, consistente nos registros e nas atualizações diárias de mais de 60 milhões de CNPJ. A expansão controlada do grafo a partir da adição de camadas sucessivas a um ou mais nós iniciais também reproduz o comportamento de um sistema complexo.
 
 Características de um sistema complexo (base de dados de CNPJ da Receita Federal):
 
