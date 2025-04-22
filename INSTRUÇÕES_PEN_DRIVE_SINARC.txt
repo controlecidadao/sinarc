@@ -1,0 +1,90 @@
+------------------------------------------
+INSTRUÇÕES PARA USO DO PEN DRIVE DO SINARC
+------------------------------------------
+
+
+O procedimento a seguir tem por objetivo copiar os arquivos executáveis dos programas Rede CNPJ e SINARC do pen drive para o computador, mantendo a pasta com os bancos de dados no pen drive (58 GB).
+
+
+1. Conecte o pen drive do SINARC ao computador.
+
+2. Crie uma pasta em qualquer local no computador. Nomeie-a como preferir.
+
+3. Copie todos os arquivos e pastas existentes nesta pasta SINARC do pen drive, EXCETO a pasta "bases", que contém os bancos de dados.
+
+4. Cole os arquivos e pastas copiados do pen drive dentro da pasta criada no computador (necessário 9 GB de espaço livre no computador).
+
+5. Identifique no Windows Explorer qual o Drive associado ao pen drive do SINARC (D, E ou F).
+
+6. Localize o arquivo "rede.ini" dentro da pasta criada no computador. Caminho: "pasta-criada-no-computador\rede-cnpj-master\rede\rede.ini".
+
+7. Clique com o botão direito do mouse sobre o arquivo "rede.ini" e selecione a opção "Abrir com" o "Bloco de notas".
+
+8. Remova o caractere "#" localizado no início das linhas iniciadas pela palavra "base", conforme exemplo a seguir.
+
+Exemplo para o pen drive reconhecido pelo computador como Drive F:
+
+## Para uso com pen drive no Drive D
+#base_rede = D:/SINARC/bases/rede.db
+#base_rede_search = D:/SINARC/bases/rede_search.db
+#base_receita = D:/SINARC/bases/cnpj.db
+#base_endereco_normalizado = D:/SINARC/bases/cnpj_links_ete.db
+#base_links = D:/SINARC/bases/links.db
+#base_local = D:/SINARC/bases/rede_dados.db
+
+## Para uso com pen drive no Drive E
+#base_rede = E:/SINARC/bases/rede.db
+#base_rede_search = E:/SINARC/bases/rede_search.db
+#base_receita = E:/SINARC/bases/cnpj.db
+#base_endereco_normalizado = E:/SINARC/bases/cnpj_links_ete.db
+#base_links = E:/SINARC/bases/links.db
+#base_local = E:/SINARC/bases/rede_dados.db
+
+## Para uso com pen drive no Drive F  <<<<<<<<<<<<< CARACTERE # REMOVIDO DO INÍCIO DAS LINHAS QUE INICIAM COM A PALAVRA "base"
+base_rede = F:/SINARC/bases/rede.db
+base_rede_search = F:/SINARC/bases/rede_search.db
+base_receita = F:/SINARC/bases/cnpj.db
+base_endereco_normalizado = F:/SINARC/bases/cnpj_links_ete.db
+base_links = F:/SINARC/bases/links.db
+base_local = F:/SINARC/bases/rede_dados.db
+
+9. Na pasta criada no computador, clique duas vezes sobre o arquivo "abre_rede_cnpj.bat". Um Terminal do Windows será aberto (Terminal do Rede CNPJ). Aguarde o navegador padrão exibir o grafo inicial gerado pelo Rede CNPJ.
+
+10. Na pasta criada no computador, clique duas vezes sobre o arquivo "abre_sinarc.bat". Um segundo Terminal do Windows será aberto (Terminal do SINARC). Aguarde o navegador exibir o grafo inicial gerado pelo SINARC.
+
+Pronto! Os programas Rede CNPJ e SINARC já podem ser utilizados localmente.
+
+
+
+
+-----------------------------------------
+SALVANDO OS BANCOS DE DADOS NO COMPUTADOR
+-----------------------------------------
+
+Caso deseje salvar todo o conteúdo da pasta SINARC do pen drive no computador, incluindo os bancos de dados, siga os passos abaixo:
+
+1. Copie a íntegra da pasta SINARC do pen drive para o computador.
+
+2. No computador, mova todos os arquivos da pasta "SINARC\bases" para a pasta "SINARC\rede-cnpj-master\rede\bases".
+
+3. Localize o arquivo "rede.ini" na pasta "SINARC\rede-cnpj-master\rede\rede.ini".
+
+4. Remova o caractere "#" localizado no início das linhas iniciadas pela palavras "base" nos seguintes trechos:
+
+   ## Script original
+   #base_rede = bases/rede.db
+   #base_rede_search = bases/rede_search.db
+   #base_receita = bases/cnpj.db
+   #base_endereco_normalizado = bases/cnpj_links_ete.db
+
+   ## Estes permanecem na pasta 'rede-cnpj-master/rede/bases'
+   #base_links = bases/links.db
+   #base_local = bases/rede_dados.db
+
+5. Para iniciar os programas, execute primeiro o arquivo "abre_rede_cnpj.bat" na pasta SINARC no computador. Um Terminal do Windows será aberto (Terminal do Rede CNPJ). Aguarde o grafo ser aberto no navegador padrão.
+
+6. Na sequência, execute o arquivo "abre_sinarc.bat" na mesma pasta. Um Terminal do Windows será aberto (Terminal do SINARC). Aguarde o grafo ser aberto no navegador padrão.
+
+Pronto! Os programas Rede CNPJ e SINARC, bem como seus bancos de dados, estão instalados no computador.
+
+
