@@ -433,7 +433,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 27) **Tecla o** --> Abre nós selecionados como alvos em nova aba do navegador;
 28) **Tecla O** --> Abre filiais da pessoa jurídica selecionada em nova aba do navegador;
-29) **Tecla s** --> Pesquisa parâmetro (CNPJ, radical do CNPJ, razão social, nome da pessoa física) no banco de dados;
+29) **Tecla s** --> Pesquisa livre por parâmetro (CNPJ, radical do CNPJ, razão social, nome de fantasia, nome da pessoa física, CPF parcial) no banco de dados. Use "@NNN" depois do parâmetro para retornar até NNN ocorrências;
 30) **Tecla +** --> Inclui nó selecionado na lista de nós-alvos;
 31) **Tecla -** --> Exclui nó selecionado da lista de nós-alvos;
 32) **Tecla y** --> Abre nós da lista de nós-alvos em uma nova aba do navegador;
