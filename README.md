@@ -1,6 +1,6 @@
-![v](https://img.shields.io/badge/Versão-0.1.1-blue)
+![v](https://img.shields.io/badge/Versão-0.1.2-blue)
 [![License: MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![v](https://img.shields.io/badge/Atualização-%2009%20de%20Abril%20de%20%202025-green)
+![v](https://img.shields.io/badge/Atualização-%2026%20de%20Abril%20de%20%202025-green)
 
 <!--![](https://komarev.com/ghpvc/?username=controlecidadao&abbreviated=true&label=Views)-->
 <!-- Fonte: https://github.com/antonkomarev/github-profile-views-counter-->
@@ -687,6 +687,10 @@ Relação de sites contendo informações (nomes de pessoas físicas, jurídicas
 <br><br>
 🗓️ **Versões relevantes do código:**
 
+<br>
+
+Versão 0.1.2 (26-04-2025):
+* Corrigido erro gerado pela ausência do arquivo "wmic.exe" em alguns computadores.
 <br>
 
 Versão 0.1.1 (09-04-2025):
