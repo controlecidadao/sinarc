@@ -20,13 +20,33 @@ O **SINARC – Sistema Integrado de Análise de Redes Complexas** é um programa
 
 Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [OSINT](https://www.cia.gov/stories/story/ic-osint-strategy-rollout/))_, o SINARC se propõe a ampliar as perspectivas de análise das conexões existentes entre pessoas físicas, pessoas jurídicas, endereços, telefones e e-mails constantes na [base de dados](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj) pública de CNPJ da Receita Federal, formada por 60 milhões de empresas, por meio da criação de uma interface gráfica concebida a partir dos princípios da percepção visual extraídos da Psicologia da [Gestalt](https://medium.com/aela/os-7-princ%C3%ADpios-de-gestalt-e-como-utiliz%C3%A1-los-em-projetos-de-ui-design-46d6d832abf6), facilitando a identificação visual das estruturas pelo analista, e de um conjunto de ferramentas computacionais que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de informações, padrões ocultos e anomalias relevantes para a produção de conhecimento.
 
-<!--<br><br>
+<br><br>
 
 ## Pen Drive SINARC
 
-Devido à sua **portabilidade**, a pasta contendo os programas SINARC e Rede CNPJ, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser salva em um pen drive ou HD externo para facilitar sua utilização por múltiplos computadores.
+<details>
+   
+<summary>Veja como baixar o SINARC para um pen drive. Não requer instalação (clique para expandir)</summary>
 
-Clique [aqui]() e baixe uma versão compactada da pasta SINARC (27 GB), contendo a base de dados completa de CNPJ disponibilizada pela Receita Federal em **02/2025**. Esta versão pode ser descompactada e salva em um pen drive, prescindindo de instalação no computador. Para mais informações consulte.-->
+<br>
+
+### 🚧 Em Construção 🚧
+
+<br>
+
+Devido à sua **portabilidade**, a pasta contendo os programas SINARC e Rede CNPJ, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser baixada e salva em um pen drive ou HD externo para facilitar sua utilização em diferentes computadores.
+
+Clique [aqui]() e baixe uma versão compactada da pasta SINARC (27 GB), contendo a base de dados completa de CNPJ disponibilizada pela Receita Federal em **08/02/2025** (banco de dados atualizado mensalmente). Esta pasta pode ser descompactada e salva em um pen drive (necessário 80 GB de espaço livre), prescindindo de instalação no computador.
+
+Para usar o Pen Drive SINARC, siga estes passos:
+
+1) Conecte o pen drive ao computador;
+2) Na pasta SINARC, clique 2 vezes no arquivo **_abre_rede_cnpj.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do Rede CNPJ será aberta. Aguarde o grafo inicial do Rede CNPJ ser exibido em uma nova aba do navegador;
+3) Clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta. Aguarde o grafo inicial ser exibido em numa nova aba do navegador.
+
+Para mais informações consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt]().
+
+</details>
 
 <br><br>
 
