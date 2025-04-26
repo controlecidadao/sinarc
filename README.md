@@ -31,7 +31,7 @@ Uma **Rede Complexa** é um sistema dinâmico formado pelo conjunto de elementos
 
 O SINARC captura um instante (data da disponibilização da base de dados pela Receita Federal) do processo contínuo de evolução de um sistema complexo, dinâmico e real, consistente nos registros e atualizações diárias de mais de 60 milhões de CNPJ. A expansão controlada do grafo a partir da adição de camadas sucessivas a um ou mais nós iniciais reproduz o comportamento de um sistema complexo.
 
-Características de um sistema complexo (base de dados de CNPJ da Receita Federal):
+Características de um sistema complexo, representado pela base de dados de CNPJ da Receita Federal:
 
 * **Diversidade:** Os nós do sistema representam diferentes tipos de entidades (PJ, PF, EN, TE e EM) e de relacionamentos entre eles (sócio, representante, filial etc.);
 
