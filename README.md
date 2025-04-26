@@ -36,7 +36,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 Devido à sua **portabilidade**, a pasta contendo os programas SINARC e Rede CNPJ, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser baixada e salva em um pen drive ou HD externo para facilitar sua utilização em diferentes computadores.
 
-Clique [aqui]() e baixe uma versão compactada da pasta SINARC (27 GB), contendo a base de dados completa de CNPJ disponibilizada pela Receita Federal em **08/02/2025** (banco de dados atualizado mensalmente). Esta pasta pode ser descompactada e salva em um pen drive (necessário 80 GB de espaço livre), prescindindo de instalação no computador.
+Clique [aqui]() e baixe uma versão compactada da pasta SINARC (27 GB), contendo a base de dados completa de CNPJ disponibilizada pela Receita Federal em **08/02/2025** (base de dados atualizada mensalmente). Esta pasta pode ser descompactada e salva em um pen drive (necessário 80 GB de espaço livre), prescindindo de instalação no computador.
 
 Para usar o Pen Drive SINARC, siga estes passos:
 
@@ -44,7 +44,9 @@ Para usar o Pen Drive SINARC, siga estes passos:
 2) Na pasta SINARC, clique 2 vezes no arquivo **_abre_rede_cnpj.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do Rede CNPJ será aberta. Aguarde o grafo inicial do Rede CNPJ ser exibido em uma nova aba do navegador;
 3) Clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta. Aguarde o grafo inicial ser exibido em numa nova aba do navegador.
 
-Para mais informações consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt]().
+Pronto! Você já pode usar os programas.
+
+Para mais informações sibre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt]().
 
 </details>
 
