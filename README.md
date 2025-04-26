@@ -240,7 +240,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 </p>
 
 <br><br>
-## Tutorial interativo
+## Tutorial interativo do SINARC
 
 <details>
    
@@ -252,7 +252,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 <br>
 
-O objetivo deste tutorial é demonstrar, de forma prática, o uso dos comandos do SINARC que não dependem de consulta em tempo real ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos** acionados pelo mouse e pelo teclado.
+O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso dos comandos do SINARC que não dependem de consulta em tempo real ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos** acionados pelo mouse e pelo teclado.
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, pressione Shift + tecla desejada.<br>
 
@@ -525,6 +525,8 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item 8, [Us
 ## Como instalar o SINARC?
 
 <br>
+
+Caso opte em não realizar o download da versão compactada do **Pen Drive SINARC**, a qual dispensa instalação, siga as instruções abaixo.
 
 Para instalar o SINARC em conjunto com o Rede CNPJ, siga as instruções contidas no arquivo [INSTRUÇÕES.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES.txt), disponível na página principal deste repositório. Devido à sua **portabilidade**, é possível salvar e executar ambos os sistemas em um dispositivo de armazenamento portátil, como HD externo ou _pendrive_, sendo necessário 65 GB de espaço livre.
 
