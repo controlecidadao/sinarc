@@ -85,7 +85,17 @@ Características de um sistema complexo, representado pela base de dados de CNPJ
 
 * **Dinâmica temporal:** As conexões entre os nós podem variar ao longo do tempo, refletindo mudanças nas relações entre as entidades representadas;
 
-* **Propriedades emergentes:** O sistema complexo exibe propriedades emergentes onde o comportamento global da rede não pode ser previsto apenas olhando para o comportamento individual dos nós. Essas propriedades podem surgir de interações complexas e não lineares entre os elementos da rede;
+* **Propriedades emergentes:** O sistema complexo exibe propriedades emergentes onde o comportamento global da rede não pode ser previsto apenas olhando para o comportamento individual dos nós. Essas propriedades podem surgir de interações complexas e não lineares entre os elementos da rede.
+
+<br>
+
+<p align="center" width="100%">
+<img width="100%" src="./images/print_screen.png" />
+</p>
+
+<p align="center" width="100%">
+Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
+</p>
 
 <br><br>
 
@@ -523,16 +533,6 @@ Para ampliar a capacidade de pesquisa, baixe e descompacte na pasta SINARC (cria
 Conquanto o SINARC utilize apenas a modelagem de criação e consulta aos bancos de dados do projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa, permitindo ao cidadão explorar os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, certamente, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
 O manual de instruções do SINARC pode ser acessado pressionando-se a tecla h (de _help_) durante o uso do sistema. Já o manual do Rede CNPJ encontra-se disponível na página do projeto.
-
-<br>
-
-<p align="center" width="100%">
-<img width="100%" src="./images/print_screen.png" />
-</p>
-
-<p align="center" width="100%">
-Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
-</p>
 
 <br><br>
 
