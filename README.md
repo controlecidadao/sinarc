@@ -44,9 +44,11 @@ Para usar o Pen Drive SINARC, siga estes passos:
 2) Na pasta SINARC, clique 2 vezes no arquivo **_abre_rede_cnpj.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do Rede CNPJ será aberta. Aguarde o grafo inicial do Rede CNPJ ser exibido em uma nova aba do navegador;
 3) Clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta. Aguarde o grafo inicial ser exibido em numa nova aba do navegador.
 
-Pronto! Você já pode usar os programas.
+Pronto! Os programas já podem ser utilizados.
 
-Para mais informações sibre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt]().
+ATENÇÃO: O uso do SINARC com pen drive reduz o desempenho do sistema. Para desempenho máximo no uso dos programas, salve a pasta SINARC diretamente no computador.
+
+Para mais informações sibre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).
 
 </details>
 
