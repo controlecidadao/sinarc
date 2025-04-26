@@ -117,6 +117,33 @@ with open(f"{tempdir}/{name}", "w+") as out:
 ########### FINAL PARTE ALTERADA ##########
 
 
+###########################################
+# ALTERAÇÃO DE REFERÊNCIAS A SITES EXTERNOS
+###########################################
+
+# Foram alteradas as referências a bibliotecas CSS e JS em site externos para não ser necessária conexão com a internet.
+# Utilizou-se a função replace() para substituir o código original html gerado pelo Pyvis.
+# Os arquivos CSS e JS foram copiados para "\pyvis\templates\lib\vis-9.1.2"
+
+# <html>
+#     <head>
+#         <meta charset="ISO-8859-1">
+        
+#             <script src="./pyvis/templates/lib/bindings/utils.js"></script>                    <!-- ALTERADO PARA ARQUIVO LOCAL -->
+#             <link rel="stylesheet" href="./pyvis/templates/lib/vis-9.1.2/vis-network.css" />   <!-- ALTERADO PARA ARQUIVO LOCAL -->
+#             <script src="./pyvis/templates/lib/vis-9.1.2/vis-network.min.js" ></script>        <!-- ALTERADO PARA ARQUIVO LOCAL -->
+            
+        
+# <center>
+# <h1></h1>
+# </center>
+
+# <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+# <script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+#         <link href="./pyvis/templates/lib/vis-9.1.2/bootstrap.min.css" rel="stylesheet" />     <!-- ALTERADO PARA ARQUIVO LOCAL BAIXADO (vide cdn # no código) -->
+#         <script src="./pyvis/templates/lib/vis-9.1.2/bootstrap.bundle.min.js" ></script>       <!-- ALTERADO PARA ARQUIVO LOCAL BAIXADO (vide cdn # no código) -->
+
+
 #################################################
 # ALTERAÇÕES REALIZADAS NOS ARQUIVOS DO REDE CNPJ
 #################################################
@@ -279,9 +306,13 @@ os.system("title S I N A R C - Sistema Integrado de Análise de Redes Complexas"
 
 # Extrai altura e largura da tela do monitor para ajustar a janela do navegador
 # O ajuste da altura da área do grafo é realizado apertando-se a TECLA b
-cmd = "wmic path Win32_VideoController get CurrentVerticalResolution,CurrentHorizontalResolution"
-screen_width, screen_height = tuple(map(int,os.popen(cmd).read().split()[-2::]))
-print('Dimensões da tela do monitor:', screen_width, 'x', screen_height)
+try:
+    cmd = "wmic path Win32_VideoController get CurrentVerticalResolution,CurrentHorizontalResolution"
+    screen_width, screen_height = tuple(map(int,os.popen(cmd).read().split()[-2::]))
+    print('Dimensões da tela do monitor:', screen_width, 'x', screen_height)
+except:
+    # Adota uma altura padrão em caso de erro na obtenção da altura da tela ('wmic' não é reconhecido como um comando interno ou externo...). Corrigir usando tkinter.
+    screen_height = 800
 
 # Desabilita a mensagem de erro 'InsecureRequestWarning' do módulo requests. Não há necessidade de validação da autenticidade da conexão com o site consultado.
 requests.packages.urllib3.disable_warnings()
@@ -3059,6 +3090,29 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
 
     temp = temp.replace('<script src="lib/bindings/utils.js"></script>', '<script src="./pyvis/templates/lib/bindings/utils.js"></script>')
 
+    temp = temp.replace('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />', '<link rel="stylesheet" href="./pyvis/templates/lib/vis-9.1.2/vis-network.css" />')
+
+    temp = temp.replace('<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>', '<script src="./pyvis/templates/lib/vis-9.1.2/vis-network.min.js" ></script>')
+
+
+    # Arquivo "bootstrap.min.css" baixado de "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" e salvo em "sinarc-main\pyvis\templates\lib\vis-9.1.2"
+    # O primeiro item da função replace foi copiado em bloco do código html com \n e espaço. Não alterar seu formato.
+    temp = temp.replace("""<link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />""", '<link href="./pyvis/templates/lib/vis-9.1.2/bootstrap.min.css" rel="stylesheet" />')
+
+    
+    # Arquivo "bootstrap.bundle.min.js" baixado de "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" e salvo em "sinarc-main\pyvis\templates\lib\vis-9.1.2"
+    # O primeiro item da função replace foi copiado em bloco do código html com \n e espaço. Não alterar seu formato.
+    temp = temp.replace("""<script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>""", '<script src="./pyvis/templates/lib/vis-9.1.2/bootstrap.bundle.min.js" ></script>')
+
     fout = open("grafo_final.html", "w")
     fout.write(temp)
     fout.close()
@@ -4710,6 +4764,10 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                     // Exibe informações na tela
                     tempAlert(`Tecla ${event.key} - Layout hierárquico a partir das folhas (destino das setas)`, 3000);
 
+                    //network.stabilize();
+                    //network.fit();
+                    
+
                 // 0 0 1
                 } else if (toggle_hieraquic_3 == false && toggle_hieraquic_2 == false && toggle_hieraquic == true) {
                     network.setOptions({
@@ -4829,8 +4887,19 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                     // Exibe informações na tela
                     tempAlert(`Tecla ${event.key} - Layout gravitacional`, 3000);
                 }
+
             }
+
+            
+            //network.view.body.view.scale = 0.8;
+            //network.fit();
+            //network.redraw();
+
         });
+
+        //network.view.body.view.scale = 0.8;
+        //network.fit();
+        //network.redraw();
 
 
 
@@ -7061,7 +7130,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                 
                     toggle_pv = 2;
                     
-                    tempAlert(`Tecla ${event.key} - Seleciona nós adjacentes de ORIGEM (<--) das arestas dos nó selecionado (${temp_from.length}/${cn})`, 3000);
+                    tempAlert(`Tecla ${event.key} - Seleciona nós adjacentes de ORIGEM (<--) das arestas do nó selecionado (${temp_from.length}/${cn})`, 3000);
 
 
 
