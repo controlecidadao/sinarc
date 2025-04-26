@@ -48,7 +48,7 @@ Pronto! Os programas já podem ser utilizados.
 
 ATENÇÃO: O uso do SINARC com pen drive reduz o desempenho do sistema. Para desempenho máximo no uso dos programas, salve a pasta SINARC diretamente no computador.
 
-Para mais informações sibre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).
+Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).
 
 </details>
 
