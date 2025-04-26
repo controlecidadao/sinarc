@@ -2,9 +2,9 @@
 COMO BAIXAR E EXECUTAR O SINARC
 -------------------------------
 
-1. Baixe a pasta SINARC compactada (27 GB), disponível para download no endereço [url]
+1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço [url]
 
-2. Descompacte a pasta SINARC no computador (80 GB).
+2. Descompacte a pasta SINARC no computador (70 GB).
 
 3. Navegue até o arquivo "rede.ini" no caminho "SINARC\rede-cnpj-master\rede\rede.ini", localize e edite o trecho do código a seguir, conforme orientação:
 
@@ -25,13 +25,13 @@ Pronto! O SINARC está pronto para ser usado.
 COMO CRIAR O PEN DRIVE SINARC PARA PORTABILIDADE
 ------------------------------------------------
 
-1. Baixe a pasta SINARC compactada (27 GB), disponível para download no endereço [url]
+1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço [url]
 
-2. Descompacte a pasta SINARC no computador (80 GB).
+2. Descompacte a pasta SINARC no computador (70 GB).
 
 3. Conecte o pen drive ao computador.
 
-4. Copie a pasta SINARC descompactada, com todo o seu conteúdo, para o diretório raiz do pen drive (espaço livre necessário no pen drive: 80 GB).
+4. Copie a pasta SINARC descompactada, com todo o seu conteúdo, para o diretório raiz do pen drive (espaço livre necessário no pen drive: 70 GB).
 
 Pronto! O Pen Drive SINARC está pronto para ser usado em qualquer computador Windows.
 
@@ -47,7 +47,7 @@ COMO CONFIGURAR O SINARC NO COMPUTADOR, MANTENDO OS BANCOS DE DADOS NO PEN DRIVE
 
 2. Identifique no Windows Explorer em qual drive ele foi reconhecido (Drive D, E, F etc.)
 
-3. Crie uma pasta "SINARC" em qualquer local no computador (espaço livre necessário: 8 GB).
+3. Crie uma pasta "SINARC" em qualquer local no computador (necessários 8 GB de espaço livre). O nome das pastas anteriores não podem conter o caractere de espaço;
 
 4. Copie todos os arquivos e pastas existente na pasta SINARC do pen drive, EXCETO a pasta "bases" que contém os bancos de dados.
 
@@ -98,15 +98,6 @@ COMO EXECUTAR O SINARC
 2. Na pasta criada no computador, clique duas vezes sobre o arquivo "abre_sinarc.bat". O Windows poderá solicitar sua autorização para executar o programa. Um segundo Terminal do Windows será aberto (Terminal do SINARC). Aguarde o navegador exibir o grafo inicial gerado pelo SINARC.
 
 Pronto! Os programas Rede CNPJ e SINARC já podem ser utilizados localmente.
-
-
-
-
-
-
-
-
-
 
 
 
