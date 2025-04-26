@@ -20,6 +20,14 @@ O **SINARC – Sistema Integrado de Análise de Redes Complexas** é um programa
 
 Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [OSINT](https://www.cia.gov/stories/story/ic-osint-strategy-rollout/))_, o SINARC se propõe a ampliar as perspectivas de análise das conexões existentes entre pessoas físicas, pessoas jurídicas, endereços, telefones e e-mails constantes na [base de dados](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj) pública de CNPJ da Receita Federal, formada por 60 milhões de empresas, por meio da criação de uma interface gráfica concebida a partir dos princípios da percepção visual extraídos da Psicologia da [Gestalt](https://medium.com/aela/os-7-princ%C3%ADpios-de-gestalt-e-como-utiliz%C3%A1-los-em-projetos-de-ui-design-46d6d832abf6), facilitando a identificação visual das estruturas pelo analista, e de um conjunto de ferramentas computacionais que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de informações, padrões ocultos e anomalias relevantes para a produção de conhecimento.
 
+<!--<br><br>
+
+## Pen Drive SINARC
+
+Devido à sua **portabilidade**, a pasta contendo os programas SINARC e Rede CNPJ, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser salva em um pen drive ou HD externo para facilitar sua utilização por múltiplos computadores.
+
+Clique [aqui]() e baixe uma versão compactada da pasta SINARC (27 GB), contendo a base de dados completa de CNPJ disponibilizada pela Receita Federal em **02/2025**. Esta versão pode ser descompactada e salva em um pen drive, prescindindo de instalação no computador. Para mais informações consulte.-->
+
 <br><br>
 
 ## O que é uma rede complexa?
