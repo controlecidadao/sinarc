@@ -30,7 +30,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <details>
    
-<summary>Veja como baixar o SINARC para um pen drive. Sua utilização não requer instalação (clique para expandir)</summary>
+<summary>👉 Veja como baixar o SINARC para um pen drive. Sua utilização não requer instalação (clique para expandir)</summary>
 
 <br>
 
