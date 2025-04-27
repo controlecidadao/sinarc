@@ -198,7 +198,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <br><br>
 
-## SINARC playground
+## Playground SINARC
 
 <br>
 
