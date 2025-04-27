@@ -1,6 +1,6 @@
--------------------------------
-COMO BAIXAR E EXECUTAR O SINARC
--------------------------------
+-----------------------------------------------------------------------------------------
+COMO BAIXAR E EXECUTAR A VERSÃO PEN DRIVE DO SINARC NO COMPUTADOR (NÃO REQUER INSTALAÇÃO)
+-----------------------------------------------------------------------------------------
 
 1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço (url) indicado na página principal deste repositório.
 
