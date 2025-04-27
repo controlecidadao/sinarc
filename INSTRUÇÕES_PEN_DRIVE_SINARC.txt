@@ -2,7 +2,7 @@
 COMO BAIXAR E EXECUTAR O SINARC
 -------------------------------
 
-1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço [url]
+1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço (url) indicado na página principal deste repositório.
 
 2. Descompacte a pasta SINARC no computador (70 GB).
 
@@ -25,7 +25,7 @@ Pronto! O SINARC está pronto para ser usado.
 COMO CRIAR O PEN DRIVE SINARC PARA PORTABILIDADE
 ------------------------------------------------
 
-1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço [url]
+1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço (url) indicado na página principal deste repositório.
 
 2. Descompacte a pasta SINARC no computador (70 GB).
 
