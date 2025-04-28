@@ -40,7 +40,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ e DB Browser, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser baixada e salva em um pen drive ou HD externo para facilitar sua utilização em diferentes computadores que utilizam sistema operacional Windows.
 
-[Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo). O arquivo _SINARC.zip_ possui 20 GB (código SHA-256 de integridade do arquivo: 5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc, valide [aqui](https://emn178.github.io/online-tools/md5_checksum.html)). **São necessários 20 GB de espaço livre no computador**. Ao final do download, será solicitado um local para salvar o arquivo.
+[Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo). O arquivo _SINARC.zip_ possui 20 GB (código SHA-256 de integridade do arquivo: 5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc, valide [aqui](https://emn178.github.io/online-tools/md5_checksum.html)). **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado e 70 para o arquivo descompactado**. Ao final do download, será solicitado um local para salvar o arquivo.
 
 O arquivo _SINARC.zip_ contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal em **08/02/2025** (atualizada mensalmente), **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador (necessários 70 GB de espaço livre), **prescindindo de instalação**.
 
