@@ -48,7 +48,7 @@ Para usar o Pen Drive SINARC, siga estes passos:
 <br><br>
 > ✅ Na pasta SINARC, salva no diretório raiz do pen drive, clique 2 vezes no arquivo **_abre_rede_cnpj.bat_** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.bat_). Uma instância do Terminal do Rede CNPJ será aberta. Aguarde o grafo inicial do Rede CNPJ ser exibido em uma nova aba do navegador;
 <br><br>
-> ✅ Clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta. Aguarde o grafo inicial ser exibido em numa nova aba do navegador.
+> ✅ Também na pasta SINARC, clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta. Aguarde o grafo inicial do SINARC ser exibido em numa nova aba do navegador.
 
 Pronto! Os programas já podem ser utilizados.
 
