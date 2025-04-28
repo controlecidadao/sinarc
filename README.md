@@ -37,6 +37,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 <!--### 🚧 Em Construção 🚧-->
 
 <br>
+
 Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ e DB Browser, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser baixada e salva em um pen drive ou HD externo para facilitar sua utilização em diferentes computadores que utilizam sistema operacional Windows.
 
 [Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo) (20 GB - código SHA-256 de integridade do arquivo: 5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc, valide [aqui](https://emn178.github.io/online-tools/md5_checksum.html)), contendo os programas e a base de dados completa de CNPJ disponibilizada pela Receita Federal em **08/02/2025** (atualizada mensalmente), **prontos para utilização**. Esta pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador (necessários 70 GB de espaço livre), **prescindindo de instalação**.
