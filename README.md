@@ -128,7 +128,7 @@ Links para sites externos foram incluídos apenas para ilustrar a possibilidade 
 
 <br><br>
 
-## Como usar o SINARC?
+## Para que serve o SINARC?
 
 <br>
 
