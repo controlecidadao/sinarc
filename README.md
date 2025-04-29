@@ -50,7 +50,7 @@ Durante os testes de download, os navegadores Google Chrome e Microsoft Edge arm
   
 * **Microsoft Edge:** _C:\Users\<nome_do_usuário>\AppData\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_ (a parte final, após _File System_, pode variar)
 
-O arquivo _SINARC.zip_ contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal em **08/02/2025** (atualizada mensalmente), **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.
+O arquivo _SINARC.zip_ desta versão do Pen Drive SINARC contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal em **08/02/2025** (atualizada mensalmente), **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.
 
 Para usar o Pen Drive SINARC, siga estes passos:
 
