@@ -40,9 +40,11 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ e DB Browser, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser baixada e salva em um pen drive ou HD externo para facilitar sua utilização em diferentes computadores que utilizam sistema operacional Windows.
 
-[Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo). O arquivo _SINARC.zip_ possui 20 GB (código SHA-256 de integridade do arquivo: 5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc, valide [aqui](https://emn178.github.io/online-tools/sha256_checksum.html)). **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado e 70 para o arquivo descompactado**. Caso não disponha de espaço no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo.
+[Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo). O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é 5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc. Valide a integridade do arquivo baixado [aqui](https://emn178.github.io/online-tools/sha256_checksum.html)).
 
-Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma cópia temporária do arquivo (+20 GB de espaço) nos seguintes endereços, tendo sido necessário apagá-las manualmente:
+**São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço livre no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo.
+
+Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma cópia temporária do arquivo (+20 GB de espaço) nos seguintes endereços, tendo sido necessário apagá-las manualmente para não ocupar espaço:
 <br>
 * **Google Chrome:**  _C:\Users\<nome_do_usuário>\AppData\Local\Google\Chrome\User Data\Default\File System\095\p\00_ (a parte final, após _File System_, pode variar)
   
