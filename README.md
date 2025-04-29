@@ -25,7 +25,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 ## Pen Drive SINARC
 
 <p align="center" width="100%">
-<img width="25%" src="./images/pen_drive_sinarc.png" />
+<img width="30%" src="./images/pen_drive_sinarc.png" />
 </p>
 
 <details>
