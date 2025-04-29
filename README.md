@@ -40,7 +40,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ e DB Browser, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser baixada e salva em um pen drive ou HD externo (preferencialmente com alta taxa de transferência de dados) para facilitar sua utilização em diferentes computadores que utilizam sistema operacional Windows.
 
-[Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo). O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é 5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc. Valide a integridade do arquivo baixado [aqui](https://emn178.github.io/online-tools/sha256_checksum.html)).
+[Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo). O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é 5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc. Valide a integridade do arquivo baixado por meio deste [link](https://emn178.github.io/online-tools/sha256_checksum.html).
 
 **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço livre no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo.
 
@@ -64,7 +64,7 @@ Pronto! Os programas já podem ser utilizados.
 
 Conquanto o SINARC utilize apenas a modelagem de criação e consulta aos bancos de dados do projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa, permitindo ao cidadão explorar os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades certamente ainda mais interessantes, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
-**ATENÇÃO:** O uso do SINARC com pen drive reduz o desempenho do sistema, em especial com grafos muito grandes. Para desempenho máximo no uso dos programas, salve a pasta SINARC diretamente no computador.
+**ATENÇÃO:** O uso do SINARC com pen drive reduz o desempenho do sistema, em especial com grafos muito grandes. Para desempenho máximo no uso dos programas, salve a pasta SINARC diretamente no computador. Os testes foram realizados usando um pen drive de 128 GB, marca Kingston, modelo [Datatraveler Exodia USB 3.2](https://www.kingston.com/br/usb-flash-drives/datatraveler-exodia-usb-3-2-usb-flash-drive?capacity=128gb&packaging=single%20pack).
 
 Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).
 
