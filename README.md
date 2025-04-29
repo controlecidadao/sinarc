@@ -258,7 +258,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 <details>
    
-<summary>Sequência demonstrativa de comandos do SINARC (clique para expandir)</summary>
+<summary>👉 Sequência demonstrativa de comandos do SINARC (clique para expandir)</summary>
 
 <br>
 
