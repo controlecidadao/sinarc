@@ -125,7 +125,7 @@ Assim como o projeto Rede CNPJ, o objetivo do SINARC é demonstrar a possibilida
 
 <br>
 
-**Não**. Todas as informações reveladas pelo SINARC são de **interesse público**, motivo pelo qual são divulgadas pela Receita Federal independentemente de solicitação, observando a publicidade como preceito geral e o sigilo como exceção, nos molde preconizados pela [Lei Federal 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), Lei de Acesso a Informação, de modo a viabilizar o controle social e a coibir condutas ilícitas no exercício da atividade empresarial, normalmente ignoradas por quem se opõe à abertura dos dados.
+**Não**. Todas as informações reveladas pelo SINARC são **públicas** e de interesse público, motivo pelo qual são divulgadas pela Receita Federal independentemente de solicitação, observando a publicidade como preceito geral e o sigilo como exceção, nos molde preconizados pela [Lei Federal 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), Lei de Acesso a Informação, de modo a viabilizar o controle social e a coibir condutas ilícitas no exercício da atividade empresarial, normalmente ignoradas por quem se opõe à abertura dos dados.
 
 [Nota Técnica](https://www.gov.br/receitafederal/dados/nota-cocad-rfb-86-2024.pdf/) da Receita Federal especifica quais informações da base de dados de CNPJ não estão protegidas por sigilo fiscal, em consonância com o [Decreto 8.777/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm#), que instituiu a Política de Dados Abertos do Poder Executivo federal.
 
