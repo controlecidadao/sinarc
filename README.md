@@ -42,6 +42,10 @@ Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ
 
 [Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo). O arquivo _SINARC.zip_ possui 20 GB (código SHA-256 de integridade do arquivo: 5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc, valide [aqui](https://emn178.github.io/online-tools/sha256_checksum.html)). **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado e 70 para o arquivo descompactado**. Caso não disponha de espaço no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo.
 
+Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma cópia temporária do arquivo (+20 GB de espaço) nos seguintes endereços, tendo sido necessário apagá-las manualmente:
+Google Chrome:  _C:\Users\<nome_do_usuário>\AppData\Local\Google\Chrome\User Data\Default\File System\095\p\00_
+Microsoft Edge: _C:\Users\<nome_do_usuário>\AppData\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_
+
 O arquivo _SINARC.zip_ contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal em **08/02/2025** (atualizada mensalmente), **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.
 
 Para usar o Pen Drive SINARC, siga estes passos:
