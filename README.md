@@ -125,7 +125,7 @@ Assim como o projeto Rede CNPJ, o objetivo do SINARC é demonstrar a possibilida
 
 <br>
 
-Todas as informações produzidas com o SINARC são de **domínio público**.
+O SINARC **não** utiliza dados sigilosos. Todas as informações produzidas com o sistema são de **domínio público**.
 
 [Nota Técnica](https://www.gov.br/receitafederal/dados/nota-cocad-rfb-86-2024.pdf/) da Receita Federal especifica quais informações da base de dados de CNPJ não estão protegidas por sigilo fiscal, em consonância com o [Decreto 8.777/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm#), que instituiu a Política de Dados Abertos do Poder Executivo federal.
 
