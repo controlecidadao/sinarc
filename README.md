@@ -711,6 +711,7 @@ Relação de sites contendo informações (nomes de pessoas físicas, jurídicas
 
 Versão 0.1.2 (26-04-2025):
 * Corrigido erro gerado pela ausência do arquivo "wmic.exe" em alguns computadores.
+* Disponibilização da versão compactada da pasta SINARC com os programas e o banco de dados completo, dispensando o procedimento de instalação.
 <br>
 
 Versão 0.1.1 (09-04-2025):
