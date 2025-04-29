@@ -46,9 +46,9 @@ Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ
 
 Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma cópia temporária do arquivo (+20 GB de espaço) nos seguintes endereços, tendo sido necessário apagá-las manualmente para não ocuparem espaço:
 <br>
-* **Google Chrome:**  _C:\Users\<nome_do_usuário>\AppData\Local\Google\Chrome\User Data\Default\File System\095\p\00_ (a parte final, após _File System_, pode variar)
+* **Google Chrome:**  _C:\Users\\<nome_do_usuário>\AppData\Local\Google\Chrome\User Data\Default\File System\095\p\00_ (a parte final, após _File System_, pode variar)
   
-* **Microsoft Edge:** _C:\Users\<nome_do_usuário>\AppData\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_ (a parte final, após _File System_, pode variar)
+* **Microsoft Edge:** _C:\Users\\<nome_do_usuário>\AppData\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_ (a parte final, após _File System_, pode variar)
 
 O arquivo _SINARC.zip_ desta versão do Pen Drive SINARC contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal em **08/02/2025**, **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.
 
@@ -62,7 +62,7 @@ Para usar o Pen Drive SINARC, siga estes passos:
 
 Pronto! Os programas já podem ser utilizados.
 
-Conquanto o SINARC utilize apenas a modelagem de criação e consulta aos bancos de dados do projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa, permitindo ao cidadão explorar os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades certamente ainda mais interessantes, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
+Conquanto o SINARC utilize apenas a modelagem de criação e consulta aos bancos de dados do projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa, permitindo ao cidadão explorar os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, disponibilizando-o também como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
 **ATENÇÃO:** O uso do SINARC com pen drive reduz o desempenho do sistema, em especial com grafos muito grandes. Para desempenho máximo no uso dos programas, salve a pasta SINARC diretamente no computador. Os testes foram realizados usando um pen drive de 128 GB, marca Kingston, modelo [Datatraveler Exodia USB 3.2](https://www.kingston.com/br/usb-flash-drives/datatraveler-exodia-usb-3-2-usb-flash-drive?capacity=128gb&packaging=single%20pack).
 
