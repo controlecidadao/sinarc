@@ -140,7 +140,7 @@ Conheça também o [Dicionário de Dados](https://www.gov.br/receitafederal/dado
 
 Os exemplos que ilustram o uso do SINARC foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente demonstrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas.
 
-Links para sites externos foram incluídos apenas para ilustrar a possibilidade de ampliação das funcionalidades da ferramenta.
+Links para sites externos foram incluídos apenas para mostrar a possibilidade de ampliação das funcionalidades da ferramenta.
 
 <br><br>
 
