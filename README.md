@@ -48,7 +48,7 @@ Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ
 
 **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço livre no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_).
 
-Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma cópia temporária do arquivo (+20 GB de espaço) nos seguintes endereços, tendo sido necessário apagá-las manualmente para não ocuparem espaço:
+Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma cópia temporária do arquivo zip (20 GB) nos seguintes endereços, tendo sido necessário apagá-las manualmente para não ocuparem espaço:
 <br>
 * **Google Chrome:**  _C:\Users\\<nome_do_usuário>\AppData\Local\Google\Chrome\User Data\Default\File System\095\p\00_ (a parte final, após _File System_, pode variar)
   
