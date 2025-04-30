@@ -231,7 +231,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
    
 4) Pressione a **tecla Escape** para encaixar o grafo na janela de visualização;
 
-5) Pressione a **tecla z** (minúscula) para ativar/desativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes. Pressione a tecla z novamente a qualquer momento para sair do modo automático de visualização;
+5) Pressione a **tecla z** (minúscula) para ativar/desativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
 
 6) Após desativar o modo automático de visualização (pressione a **tecla z** novamente), use o **botão de rolagem do mouse** para aproximar e afastar o grafo. Posicione o mouse sobre o ponto que deseja aproximar ou afastar e gire o botão de rolagem para frente e para trás;
 
