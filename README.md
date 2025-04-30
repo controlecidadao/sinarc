@@ -89,7 +89,7 @@ O SINARC captura um instante no tempo (data da disponibilização da base de dad
 
 Características de um sistema complexo, representado pela base de dados de CNPJ da Receita Federal:
 
-* **Diversidade:** Os nós do sistema representam diferentes tipos de entidades (PJ, PF, EN, TE e EM) e de relacionamentos entre eles (sócio, representante, filial etc.);
+* **Diversidade:** Os nós do sistema representam diferentes tipos de entidades (PJ, PF, EN, TE e EM) e de relacionamentos existentes entre eles (sócio, representante, filial etc.);
 
 * **Conectividade:** O sistema complexo possui uma grande quantidade de nós interconectados por arestas, formando uma rede densa e interligada;
 
