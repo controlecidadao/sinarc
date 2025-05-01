@@ -284,79 +284,71 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 <br>
 
-O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso dos comandos do SINARC que não dependem de consulta em tempo real ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos** acionados pelo mouse e pelo teclado.
-
-Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, pressione Shift + tecla desejada.<br>
-
-Os comandos listados a seguir estão agrupados em blocos temáticos de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
-
-A descrição dos comandos acionados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
-
-<br><br>
-
-### Primeira sequência de comandos:
-
-Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.
-
-<br>
-
-#### Ajuste de Tela
-
----
-
-1) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior;
-2) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes);
-3) **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador;
-4) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-
-<br>
-
-#### Ajuste de Layout
-
----
-   
-5) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia;
-6) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes). Para enquadrar o grafo no centro da tela, pressione a tecla Escape. Vide detalhes no canto superior direito da tela;
-7) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes). Vide detalhes no canto superior direito da tela;
-
-<br>
-
-#### Exibição de informações no grafo sobre nós e arestas
-
----
-
-9) **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
-10) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 1,5s para exibir suas informações;
-
-<br>
-
-#### Seleção de nós com o mouse
-
----
-
-11) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
-12) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado;
-13) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los simultaneamente;
-14) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados;
-15) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente e para trás para afastar e aproximar o grafo;
-16) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-17) **Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionado o botão esquerdo e arraste o grafo para o lado. Solte o botão ao final do movimento;
-18) **Tecla Escape** --> Enquadra o grafo no centro da tela;
-
-<br>
-
-#### Ajuste da exibição de nós e arestas
-
----
-
-19) **Tecla e** --> Alterna entre os 7 tipos de visualização de cada nó (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
-20) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
-21) **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione 10 vezes). Tamanho padrão das arestas: 300;
-22) **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione 10 vezes);
-
-<br><br>
-
-### Segunda sequência de comandos:
+> O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso dos comandos do SINARC que não dependem de consulta em tempo real ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos** acionados pelo mouse e pelo teclado.
+>
+>Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, pressione Shift + tecla desejada.<br>
+>
+>Os comandos listados a seguir estão agrupados em blocos temáticos de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
+>
+>A descrição dos comandos acionados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
+>
+><br><br>
+>
+> ## Primeira sequência de comandos
+> 
+>Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo >monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.
+>
+><br>
+>
+>### Ajuste de Tela
+>
+>1) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior.
+>2) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes).
+>3) **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador.
+>4) **Tecla Escape** --> Enquadra o grafo no centro da tela.
+>
+><br>
+>
+>### Ajuste de Layout
+>  
+>5) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia.
+>6) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes.  Vide detalhes no canto superior direito da tela.
+>7) **Tecla Escape** --> Enquadra o grafo no centro da tela.
+>8) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 2 vezes).
+>9) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes).
+>
+><br>
+>
+>### Exibição de informações no grafo sobre nós e arestas
+>
+>9) **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
+>10) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 1,5s para exibir suas informações;
+>
+><br>
+>
+>### Seleção de nós com o mouse
+>
+>11) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
+>12) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado;
+>13) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los simultaneamente;
+>14) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados;
+>15) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente e para trás para afastar e aproximar o grafo;
+>16) **Tecla Escape** --> Enquadra o grafo no centro da tela;
+>17) **Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionado o botão esquerdo e arraste o grafo para o lado. Solte o botão ao final do movimento;
+>18) **Tecla Escape** --> Enquadra o grafo no centro da tela;
+>
+><br>
+>
+>### Ajuste da exibição de nós e arestas
+>
+>19) **Tecla e** --> Alterna entre os 7 tipos de visualização de cada nó (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
+>20) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
+>21) **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione 10 vezes). Tamanho padrão das arestas: 300;
+>22) **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione 10 vezes);
+>
+><br><br>
+>
+>## Segunda sequência de comandos
 
 Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.<br>
 
@@ -430,7 +422,7 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 
 <br><br>
 
-### Terceira sequência de comandos:
+## Terceira sequência de comandos
 
 Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.<br>
 
