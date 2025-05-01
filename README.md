@@ -410,124 +410,104 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 >32) **Tecla T** --> Ativa o modo transparência por conexões. Posicione o ponteiro do mouse sobre os nós para visualizar suas conexões e nós adjacentes.
 >33) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior.
 >
-<br><br>
-
-## Terceira sequência de comandos
-
-Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.<br>
-
-<br>
-
-#### Detecção de comunidades
-
----
-
-1) **Tecla n** --> Aumenta a massa dos nós com tamanho de referência maior ou igual a 40. Pressione e segure a tecla n até que o "Fator", exibido no canto superior direito da tela, alcance 301;
-2) **Tecla v** --> Ativa/deastiva destaque de comunidades de nós;
-3) **Tecla V** --> Alterna exibição de nós por comunidades (grupos);
-
-<br>
-
-#### Adição de cores aos nós
-
----
-
-4) **Tecla x** --> Adiciona cores alternadas aos nós selecionados em sequência;
-5) **Tecla X** --> Remove cores adicionadas aos nós;
-
-<br>
-
-#### Deleção de nós
-
----
-
-6) **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela;
-7) **Tecla r** --> Exclui todos os nós que não se encontram selecionados;
-8) **Tecla R** --> Exclui todos os nós que não se encontram interligados por arestas coloridas (vide [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html));
-
-<br>
-
-#### Identificação da cadeia hierárquica de comando do nó-alvo
-
----
-
- 9) **Tecla w** --> Adiciona cor para destacar todos os nós que integram a cadeia hierárquica de comando do nó-alvo;
-10) **Tecla W** --> Exclui nós que não pertencem à cadeia hierárquica de comando do nó-alvo;
-
-<br>
-
-#### Consulta a sites externos e outros recursos
-
----
-    
-11) **Tecla d** --> Exibe informações sobre o nó selecionado extraídas de sites externos;
-12) **Tecla D** --> Realiza pesquisa pelo nó selecionado no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência CGU e Jusbrasil;
-13) **Tecla g** --> Realiza pesquisa pelo nó selecionado no Google;
-14) **Tecla G** --> Realiza pesquisa avançada do nó selecionado nos domínios tc.br, mp.br, jus.br, gov.br, es.gov.br;    
-15) **Tecla 1** --> Exibe comprovante e inscrição de situação cadastral da pessoa jurídica selecionada;
-16) **Tecla 2** --> Realiza pesquisa pela pessoa física ou jurídica selecionada na base de dados de sanções da CGU (CEIS, CNEP, CEPIM e CEAF);
-17) **Tecla 3** --> Tecla não usada;
-18) **Tecla 4** --> Abre arquivo Excel contendo as tabelas de nós e de conexões retornadas da consulta ao banco de dados (depende de consulta em tempo real ao banco de dados);
-19) **Tecla 5** --> Abre site Rede CNPJ;
-20) **Tecla 6** --> Abre sites contendo bases de dados primárias da CGU (Dívida Ativa Geral, Dívia FGTS, Dívida Previdenciária, Sanções, Acordos de Leniência e Pessoas Expostas Politicamente) e da Receita Federal (CNPJ);
-21) **Tecla 7** --> Exibe dados da pessoa jurídica em formato JSON;
-22) **Tecla 8** --> Realiza consulta à API de Compras Governamentais do Governo Federal;
-23) **Tecla 9** --> Tecla não usada.
-
-<br>
-
-#### Medidas de centralidade e distribuição de nós e arestas
-
----
-    
-24) **Tecla L** --> Exibe na tela a distribuição de arestas por tipo;
-25) **Tecla u** --> Exibe na tela as 5 medidas de centralidade do grafo;
-26) **Tecla U** --> Exibe na tela a distribuição de nós por tamanho;
-
-<br>
-
-#### Consulta ao banco de dados
-
----
-
-27) **Tecla o** --> Abre nós selecionados como alvos em nova aba do navegador;
-28) **Tecla O** --> Abre filiais da pessoa jurídica selecionada em nova aba do navegador;
-29) **Tecla s** --> Pesquisa livre por parâmetro (CNPJ, radical do CNPJ, razão social, nome de fantasia, nome da pessoa física, CPF parcial) no banco de dados. Use "@NNN" depois do parâmetro para retornar até NNN ocorrências;
-30) **Tecla +** --> Inclui nó selecionado na lista de nós-alvos;
-31) **Tecla -** --> Exclui nó selecionado da lista de nós-alvos;
-32) **Tecla y** --> Abre nós da lista de nós-alvos em uma nova aba do navegador;
-
-<br>
-
-#### Manual e dicas na tela
-
----
-    
-33) **Tecla ?** --> Exibe/oculta na tela as teclas de atalho do SINARC;
-34) **Tecla h** --> Abre manual do SINARC em uma janela flututante;
-
-<br>
-
-#### Modo automático de visualização
-
----
-
-35) **Tecla z** --> Ativa/desativa o modo automático de visualização;
-
-<br>
-
-#### Função de cópia do sistema operacional
-
----
-
-36) **Tecla |** --> Ativa/desativa a função de cópia (Ctrl + c) do SINARC. Quando ativada, a função Ctrl + c do sistema operacional fica vinculada ao funcionamento do SINARC, não podendo ser usada com outros programas; quando desativada, copia o id do nó selecionado, permitindo ser tranferido para o programa Rede CNPJ (Ctrl + v).
-<br>
-
-Comandos que dependem de consulta em tempo real ao banco de dados, necessitando que o SINARC e o Rede CNPJ estejam em execução: **Teclas o O s y | 4** 
-
-Os camandos que não dependem de nova consulta aos bancos de dados podem ser executados nos arquivos gerados pelo SINARC para compartilhamento (_arquivo_sinarc.zip_).
-
-Para mais detalhes sobre o funcionamento de cada comando, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
+><br><br>
+>
+>## Terceira sequência de comandos
+>
+>Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.<br>
+>
+><br>
+>
+>### Detecção de comunidades
+>
+>1) **Tecla n** --> Aumenta a massa dos nós com tamanho de referência maior ou igual a 40. Pressione e segure a tecla n até que o "Fator", exibido no canto superior direito da tela, alcance 301.
+>2) **Tecla v** --> Ativa/deastiva destaque de comunidades de nós.
+>3) **Tecla V** --> Alterna exibição de nós por comunidades (grupos).
+>
+><br>
+>
+>### Adição de cores aos nós
+>
+>4) **Tecla x** --> Adiciona cores alternadas aos nós selecionados em sequência.
+>5) **Tecla X** --> Remove cores adicionadas aos nós.
+>
+><br>
+>
+>### Deleção de nós
+>
+>6) **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela.
+>7) **Tecla r** --> Exclui todos os nós que não se encontram selecionados.
+>8) **Tecla R** --> Exclui todos os nós que não se encontram interligados por arestas coloridas (vide [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html)).
+>
+><br>
+>
+>### Identificação da cadeia hierárquica de comando do nó-alvo
+>
+>9) **Tecla w** --> Adiciona cor para destacar todos os nós que integram a cadeia hierárquica de comando do nó-alvo.
+>10) **Tecla W** --> Exclui nós que não pertencem à cadeia hierárquica de comando do nó-alvo.
+>
+><br>
+>
+>### Consulta a sites externos e outros recursos
+>   
+>11) **Tecla d** --> Exibe informações sobre o nó selecionado extraídas de sites externos.
+>12) **Tecla D** --> Realiza pesquisa pelo nó selecionado no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência CGU e Jusbrasil.
+>13) **Tecla g** --> Realiza pesquisa pelo nó selecionado no Google.
+>14) **Tecla G** --> Realiza pesquisa avançada do nó selecionado nos domínios tc.br, mp.br, jus.br, gov.br, es.gov.br.    
+<15) **Tecla 1** --> Exibe comprovante e inscrição de situação cadastral da pessoa jurídica selecionada.
+>16) **Tecla 2** --> Realiza pesquisa pela pessoa física ou jurídica selecionada na base de dados de sanções da CGU (CEIS, CNEP, CEPIM e CEAF).
+>17) **Tecla 3** --> Tecla não usada.
+>18) **Tecla 4** --> Abre arquivo Excel contendo as tabelas de nós e de conexões retornadas da consulta ao banco de dados (depende de consulta em tempo real ao banco de dados).
+>19) **Tecla 5** --> Abre site Rede CNPJ.
+>20) **Tecla 6** --> Abre sites contendo bases de dados primárias da CGU (Dívida Ativa Geral, Dívia FGTS, Dívida Previdenciária, Sanções, Acordos de Leniência e Pessoas Expostas Politicamente) e da Receita Federal (CNPJ).
+>21) **Tecla 7** --> Exibe dados da pessoa jurídica em formato JSON.
+>22) **Tecla 8** --> Realiza consulta à API de Compras Governamentais do Governo Federal.
+>23) **Tecla 9** --> Tecla não usada.
+>
+><br>
+>
+>### Medidas de centralidade e distribuição de nós e arestas
+>    
+>24) **Tecla L** --> Exibe na tela a distribuição de arestas por tipo.
+>25) **Tecla u** --> Exibe na tela as 5 medidas de centralidade do grafo.
+>26) **Tecla U** --> Exibe na tela a distribuição de nós por tamanho.
+>
+><br>
+>
+>### Consulta ao banco de dados
+>
+>27) **Tecla o** --> Abre nós selecionados como alvos em nova aba do navegador.
+>28) **Tecla O** --> Abre filiais da pessoa jurídica selecionada em nova aba do navegador.
+>29) **Tecla s** --> Pesquisa livre por parâmetro (CNPJ, radical do CNPJ, razão social, nome de fantasia, nome da pessoa física, CPF parcial) no banco de dados. Use "@NNN" depois do parâmetro para retornar até NNN ocorrências.
+>30) **Tecla +** --> Inclui nó selecionado na lista de nós-alvos.
+>31) **Tecla -** --> Exclui nó selecionado da lista de nós-alvos.
+>32) **Tecla y** --> Abre nós da lista de nós-alvos em uma nova aba do navegador.
+>
+><br>
+>
+>### Manual e dicas na tela
+>
+>33) **Tecla ?** --> Exibe/oculta na tela as teclas de atalho do SINARC.
+>34) **Tecla h** --> Abre manual do SINARC em uma janela flututante.
+>
+><br>
+>
+>### Modo automático de visualização
+>
+>35) **Tecla z** --> Ativa/desativa o modo automático de visualização.
+>
+><br>
+>
+>### Função de cópia do sistema operacional
+>
+>36) **Tecla |** --> Ativa/desativa a função de cópia (Ctrl + c) do SINARC. Quando ativada, a função Ctrl + c do sistema operacional fica vinculada ao funcionamento do SINARC, não podendo ser usada com outros programas; quando desativada, copia o id do nó selecionado, permitindo ser tranferido para o programa Rede CNPJ (Ctrl + v).
+><br>
+>
+>Comandos que dependem de consulta em tempo real ao banco de dados, necessitando que o SINARC e o Rede CNPJ estejam em execução: **Teclas o O s y | 4** 
+>
+>Os camandos que não dependem de nova consulta aos bancos de dados podem ser executados nos arquivos gerados pelo SINARC para compartilhamento (_arquivo_sinarc.zip_).
+>
+>Para mais detalhes sobre o funcionamento de cada comando, consulte o item 8, [Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
 
 <br>
 </details>
