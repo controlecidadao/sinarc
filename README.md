@@ -288,7 +288,7 @@ O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, pressione Shift + tecla desejada.<br>
 
-Os comandos listados a seguir estão agrupados em blocos de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
+Os comandos listados a seguir estão agrupados em blocos temáticos de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
 
 A descrição dos comandos executados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
 
