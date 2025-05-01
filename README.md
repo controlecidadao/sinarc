@@ -321,30 +321,30 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 >
 >### Exibição de informações no grafo sobre nós e arestas
 >
->10) **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes;
->11) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 1,5s para exibir suas informações;
+>10) **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes.
+>11) **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 1,5s para exibir suas informações.
 >
 ><br>
 >
 >### Seleção de nós com o mouse
 >
->12) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo;
->13) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado;
->14) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los simultaneamente;
->15) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados;
->16) **Mouse** --> Posicione o ponteiro do mouse sobre um nó e gire o botão de rolagem para frente e para trás para afastar e aproximar o grafo;
->17) **Tecla Escape** --> Enquadra o grafo no centro da tela;
->18) **Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionado o botão esquerdo e arraste o grafo para o lado. Solte o botão ao final do movimento;
->19) **Tecla Escape** --> Enquadra o grafo no centro da tela;
+>12) **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo.
+>13) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado.
+>14) **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los simultaneamente.
+>15) **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados.
+>16) **Mouse** --> Posicione o ponteiro do mouse sobre uma região do grafo e gire o botão de rolagem para frente e para trás para afastar e aproximar as estruturas.
+>17) **Tecla Escape** --> Enquadra o grafo no centro da tela.
+>18) **Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionado o botão esquerdo e arraste o grafo para o lado. Solte o botão ao final do movimento.
+>19) **Tecla Escape** --> Enquadra o grafo no centro da tela.
 >
 ><br>
 >
 >### Ajuste da exibição de nós e arestas
 >
->20) **Tecla e** --> Alterna entre os 7 tipos de visualização de cada nó (pressione 7 vezes). Vide detalhes no canto superior direito da tela;
->21) **Tecla l (ele minúsculo)** --> Alterna entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela;
->22) **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione 10 vezes). Tamanho padrão das arestas: 300;
->23) **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione 10 vezes);
+>20) **Tecla e** --> Alterna de forma cíclica entre os 7 tipos de visualização de cada nó (pressione 7 vezes). Vide detalhes no canto superior direito da tela.
+>21) **Tecla l (ele minúsculo)** --> Alterna de forma cíclica entre os 3 tipos de visualização das arestas (pressione 3 vezes). Vide detalhes no canto superior direito da tela.
+>22) **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione algumas vezes). Tamanho padrão das arestas: 300.
+>23) **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione algumas vezes).
 >
 ><br><br>
 >
