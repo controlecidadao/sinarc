@@ -312,10 +312,10 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 >### Ajuste de Layout
 >  
 >5) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia.
->6) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes.  Vide detalhes no canto superior direito da tela.
+>6) **Tecla k** --> Alterna de forma cíclica entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes.  Vide detalhes no canto superior direito da tela.
 >7) **Tecla Escape** --> Enquadra o grafo no centro da tela.
 >8) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 2 vezes).
->9) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes).
+>9) **Tecla K** --> Ativa/desativa o layout circular (pressione 2 vezes).
 >
 ><br>
 >
