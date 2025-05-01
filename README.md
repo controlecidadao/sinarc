@@ -290,7 +290,7 @@ Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla Ca
 
 Os comandos listados a seguir estão agrupados em blocos temáticos de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
 
-A descrição dos comandos executados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
+A descrição dos comandos acionados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
 
 <br><br>
 
