@@ -315,8 +315,9 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
 ---
    
-7) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes). Para enquadrar o grafo no centro da tela, pressione a tecla Escape. Vide detalhes no canto superior direito da tela;
-8) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes). Vide detalhes no canto superior direito da tela;
+5) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes);
+6) **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes). Para enquadrar o grafo no centro da tela, pressione a tecla Escape. Vide detalhes no canto superior direito da tela;
+7) **Tecla K** --> Alterna entre os layouts circular e gravitacional (pressione 2 vezes). Vide detalhes no canto superior direito da tela;
 
 <br>
 
