@@ -639,11 +639,11 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 ✅ Identificar vínculos entre pessoas físicas e jurídicas a partir de notícias publicadas na internet ([Vídeo](https://www.youtube.com/watch?v=R73ixbeP0II)).
 
-✅ Representar, por meio de grafos, empresas cujos números de CNPJ, no formato 00000000000000 ou 00.000.000/0000-00, encontram-se citadas em relatórios técnicos, diários oficiais ou qualquer documento ou tela com texto selecionável.
+✅ Representar, por meio de grafos, empresas cujos números de CNPJ, no formato 00000000000000 ou 00.000.000/0000-00, que se encontram em relatórios técnicos, diários oficiais ou qualquer documento ou tela com texto selecionável.
 
 ✅ Identificar vínculos entre licitantes a partir das atas das sessões públicas de procedimentos licitatórios ([Ata Pregão Eletrônico](https://transparencia.vilavelha.es.gov.br/Licitacao.Detalhes.aspx?municipioId=1&LicitacaoId=32772)), bem como das bases de dados disponibilizadas nos portais de transparência da Administração Pública.
 
-✅ Identificar pessoas físicas e jurídicas com posições estratégicas na rede a partir da aplicação de algoritmos matemáticos de medidas de centralidade de grafos, como Centralidade de Grau (_Degree Centrality_), Centralidade de Intermediação (_Betweenness Centrality_), Centralidade de Proximidade (_Closeness Centrality_), Centralidade de Autovetor (_Eigenvector Centrality_) e Ranking de Página (_PageRank_).
+✅ Identificar pessoas físicas e jurídicas com posições estratégicas na rede de conexões a partir da aplicação de algoritmos matemáticos de medidas de centralidade de grafos, como Centralidade de Grau (_Degree Centrality_), Centralidade de Intermediação (_Betweenness Centrality_), Centralidade de Proximidade (_Closeness Centrality_), Centralidade de Autovetor (_Eigenvector Centrality_) e Ranking de Página (_PageRank_).
 
 ✅ Identificar toda a cadeia hierárquica formada por pessoas físicas e jurídicas que integram os grupos econômicos controladores de determinada empresa.
 
