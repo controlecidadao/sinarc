@@ -26,8 +26,8 @@
 * [A quem se destina do SINARC?](#a-quem-se-destina-o-sinarc)
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Algumas possibilidades de uso do SINARC](#algumas-possibilidades-de-uso-do-sinarc)
-* [Explorando conexões com o SINARC](#explorando-conexoes-com-o-sinarc)
-* [Histórico de versões](#historico-de-versoes)
+* [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
+* [Histórico de versões](#histórico-de-versoes)
 
 <br><br>
 
