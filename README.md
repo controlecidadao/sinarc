@@ -159,7 +159,7 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 </p>
 
 <p align="center" width="100%">
-<img width="15%" class="clickable-image" src="./images/qrcode_video_noticiais_na_internet.png" alt="QR Code" />
+<img width="15%" class="clickable-image" src="./images/qrcode_video_noticias_na_internet.png" alt="QR Code" />
 </p>
 
 <p align="center" width="100%">
