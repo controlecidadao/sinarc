@@ -15,7 +15,7 @@
 ## Sumário
 
 * [O que é o SINARC?](#O-que-é-o-SINARC?)
-* [Pen Drive SINARC](##Pen-Drive-SINARC)
+* [Pen Drive SINARC](##pen-drive-sinarc)
 
 <br><br>
 
