@@ -472,7 +472,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 <br>
 
-### Consulta ao banco de dados
+### Consulta ao banco de dados (indisponível com grafos online)
 
 * **Tecla o** --> Abre nós selecionados como alvos em nova aba do navegador.
 * **Tecla O** --> Abre filiais da pessoa jurídica selecionada em nova aba do navegador.
