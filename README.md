@@ -43,9 +43,9 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 <br>
 
 Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ e DB Browser, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser baixada e salva em um pen drive ou HD externo (preferencialmente com alta taxa de transferência de dados) para facilitar sua utilização em diferentes computadores que utilizam sistema operacional Windows.
-
+<br>
 [Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo). O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é 5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc. Valide a integridade do arquivo baixado submetendo-o a este [site](https://emn178.github.io/online-tools/sha256_checksum.html) de verificação e comparando a saída com o código SHA-256 fornecido.
-
+<br>
 **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço livre no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_).
 
 > Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma segunda cópia do arquivo zip (20 GB), com nome diferente, nos seguintes endereços, tendo sido necessário apagá-las manualmente para não ocuparem espaço no computador:
