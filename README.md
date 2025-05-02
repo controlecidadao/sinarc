@@ -28,7 +28,6 @@
 * [Algumas possibilidades de uso do SINARC](#algumas-possibilidades-de-uso-do-sinarc)
 * [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
 * [Histórico de versões](#histórico-de-versões)
-* 
 
 <br><br>
 
@@ -741,7 +740,7 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 
 
 <br><br>
-## 📝 Histórico de versões
+## Histórico de versões
 
 <details>
 <summary>Versões</summary>
