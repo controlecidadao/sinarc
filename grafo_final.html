@@ -5271,13 +5271,6 @@ TOTAL:                    ${a_tudo.length}`;
 
 
 
-<!-- Botão fixado no rodapé -->
-<div id="keyboard-toggle">Abrir Teclado</div>
-
-<!-- Campo de entrada invisível -->
-<input type="text" id="hidden-input" style="position: absolute; opacity: 0; height: 0; width: 0; border: none;">
-
-
 <script>
   const toggle = document.getElementById('keyboard-toggle');
   const hiddenInput = document.getElementById('hidden-input');
@@ -5290,20 +5283,28 @@ TOTAL:                    ${a_tudo.length}`;
 
 <style>
   #keyboard-toggle {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    background-color: transparent; /* Transparente */
-    color: black; /* Ou qualquer cor do texto */
-    border: none;
-    font-size: 16px;
-    z-index: 9999;
-    color: transparent;
-  }
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 20px;
+  background-color: rgba(200, 200, 200, 0.2);
+  border: 1px solid rgba(200, 200, 200, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 9998;
+  transition: background-color 0.3s ease;
+}
 </style>
+
+
+<!-- Campo de entrada invisível -->
+<input type="text" id="hidden-input" style="position: absolute; opacity: 0; height: 0; width: 0; border: none;">
+
+
+<!-- Botão fixado no rodapé -->
+<div id="keyboard-toggle">Abrir Teclado</div>
 
 
 
