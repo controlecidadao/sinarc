@@ -649,7 +649,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 <br>
 
-Relação de sites contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para explorar com o SINARC:
+Relação de sites e documentos contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para explorar com o SINARC:
 
 * [Relatório Final da Polícia Federal no Caso Marielle Franco e Anderson Gomes](https://static.poder360.com.br/2024/03/relatorio-PF-caso-Marielle-24mar2024.pdf)
 
