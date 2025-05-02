@@ -301,9 +301,12 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 ### Ajuste de Tela
 
 1) **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior.
-2) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes).
-3) **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador.
-4) **Tecla Escape** --> Enquadra o grafo no centro da tela.
+
+3) **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes).
+
+5) **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador.
+
+7) **Tecla Escape** --> Enquadra o grafo no centro da tela.
 
 <br>
 
