@@ -290,7 +290,7 @@ Os comandos listados a seguir estão agrupados em blocos temáticos de acordo co
 
 A descrição dos comandos acionados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
 
-<br><br>
+<br>
 
 ## Primeira sequência de comandos
  
