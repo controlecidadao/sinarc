@@ -211,7 +211,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo3.html" target="_blank">
-   <img width="80%" class="clickable-image" src="./images/exemplo3.png" alt="Imagem de Grafo" />
+   <img width="50%" class="clickable-image" src="./images/exemplo3.png" alt="Imagem de Grafo" />
 </a>
 </p>
 
