@@ -19,7 +19,7 @@
 ## Sumário
 
 * [O que é o SINARC?](#o-que-é-o-sinarc)
-* [Pen Drive SINARC](#pen-drive-sinarc)
+* [Criando o Pen Drive SINARC](#criando-o-pen-drive-sinarc)
 * [O que é uma rede complexa?](#o-que-é-uma-rede-complexa)
 * [Qual o objetivo do SINARC?](#qual-o-objetivo-do-sinarc)
 * [O SINARC utiliza dados sigilosos?](#o-sinarc-utiliza-dados-sigilosos)
@@ -51,7 +51,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br><br>
 
-## Pen Drive SINARC
+## Criando o Pen Drive SINARC
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
