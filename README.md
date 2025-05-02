@@ -8,7 +8,11 @@
 <p align="center" width="100%">
 <!--<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/sinarc.png" />-->
 <img width="80%" src="./images/sinarc.png" />
-</p> 
+</p>
+
+<head>
+  <link rel="icon" href="./images/logo.ico" type="image/x-icon">
+</head>
 
 <br><br>
 
