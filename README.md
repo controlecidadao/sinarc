@@ -12,6 +12,12 @@
 
 <br><br>
 
+## Sumário
+
+* [O que é o SINARC?](##O-que-é-o-SINARC?)
+
+<br><br>
+
 ## O que é o SINARC?
 
 <br>
