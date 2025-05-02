@@ -10,10 +10,6 @@
 <img width="80%" src="./images/sinarc.png" />
 </p>
 
-<head>
-  <link rel="icon" href="./images/logo.ico" type="image/x-icon">
-</head>
-
 <br><br>
 
 ## Sumário
