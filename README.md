@@ -233,6 +233,20 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">Vídeo</a>: Identificando cadeia hierárquica de comando com o SINARC
 </p>
 
+<br>
+<br>
+
+<p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo7.html" target="_blank">
+   <img width="70%" class="clickable-image" src="./images/vale.png" alt="Imagem de Grafo" />
+</a>
+</p>
+
+
+<p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo7.html">Exemplo 7</a>: Grafo interativo de grupo econômico aberto em 3 camadas, exibindo 2088 nós e 3964 arestas. Clique no exemplo e interaja com o grafo posicionando o ponteiro do mouse sobre os nós.
+</p>
+
 <br><br>
 
 ## Playground SINARC
