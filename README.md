@@ -33,7 +33,7 @@
 
 ## O que é o SINARC?
 <p align="right" width="100%">
-  <a href="#sumario">Sumário</a>
+  <a href="#sumário">Sumário</a>
 </p>
 <br>
 
