@@ -5268,40 +5268,32 @@ TOTAL:                    ${a_tudo.length}`;
 
 
         
-<!-- Campo de entrada invisível -->
-<input type="text" id="hidden-input" style="position: absolute; opacity: 0; height: 0; width: 0; border: none;">
 
-<!-- Botão fixado no rodapé -->
-<div id="keyboard-toggle">Abrir Teclado</div>
-
-<script>
-  const toggle = document.getElementById('keyboard-toggle');
-  const hiddenInput = document.getElementById('hidden-input');
-
-  toggle.addEventListener('click', () => {
-    hiddenInput.focus(); // Isso aciona o teclado virtual no celular
-  });
-</script>
-
-
-<!-- Botão fixado no rodapé com transparência -->
+<!-- Botão fixado no rodapé com borda visível e fundo transparente -->
 <div id="keyboard-toggle">Abrir Teclado</div>
 
 <style>
   #keyboard-toggle {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    background-color: transparent; /* Transparente */
-    color: black; /* Ou qualquer cor do texto */
-    border: none;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 24px;
+    background-color: transparent; /* Fundo transparente */
+    color: black; /* Cor do texto */
+    border: 2px solid black; /* Borda visível */
+    border-radius: 12px; /* Cantos arredondados */
     font-size: 16px;
     z-index: 9999;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  }
+
+  #keyboard-toggle:active {
+    background-color: rgba(0, 0, 0, 0.05); /* Feedback visual ao pressionar */
   }
 </style>
+
 
 
 
