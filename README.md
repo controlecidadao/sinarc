@@ -769,10 +769,8 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 </p>
 
 <details>
-<summary>Versões</summary>
+<summary>Versões relevantes do código (clique para expandir)</summary>
 
-<br><br>
-🗓️ <b>Versões relevantes do código:</b>
 <br><br>
 
 <b>Versão 0.1.2 (26-04-2025):</b>
