@@ -773,8 +773,7 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 
 <br><br>
 🗓️ <b>Versões relevantes do código:</b>
-
-<br>
+<br><br>
 
 <b>Versão 0.1.2 (26-04-2025):</b>
 <br>
