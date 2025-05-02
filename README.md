@@ -27,7 +27,7 @@
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Algumas possibilidades de uso do SINARC](#algumas-possibilidades-de-uso-do-sinarc)
 * [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
-* [Histórico de versões](#histórico-de)
+* [Histórico de versões](#historico-de-versões)
 
 <br><br>
 
