@@ -187,7 +187,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo exibindo vínculos entre duas empresas, identificados pelo SINARC na 1ª camada. Clique no exemplo e interaja com o grafo arrastando os nós com o mouse. 
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo exibindo vínculos entre duas empresas, identificados pelo SINARC na 1ª camada. Clique no exemplo e interaja com o grafo, arrastando os nós com o mouse. 
 </p> 
 
 <br>
@@ -204,7 +204,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo2.html">Exemplo 2</a>: Grafo interativo de grupo econômico aberto em 3 camadas, com 223 nós e 632 arestas. Clique no exemplo e interaja com o grafo pressionando a tecla "n" várias vezes.
+<a href="https://controlecidadao.github.io/sinarc/exemplo2.html">Exemplo 2</a>: Grafo interativo de grupo econômico aberto em 3 camadas, com 223 nós e 632 arestas. Clique no exemplo e interaja com o grafo, pressionando a tecla "n" várias vezes.
 </p>
 
 <br>
@@ -221,7 +221,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Exemplo 3</a>: Grafo interativo de grupo econômico aberto em 4 camadas, exibindo 45 nós em layout circular. Clique no exemplo e interaja com o grafo pressionando as teclas "ç", "Delete" e "K" (maiúscula).
+<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Exemplo 3</a>: Grafo interativo de grupo econômico aberto em 4 camadas, exibindo 45 nós em layout circular. Clique no exemplo e interaja com o grafo, pressionando as teclas "ç", "Delete" e "K" (maiúscula).
 </p>
 
 <br>
@@ -255,7 +255,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo7.html">Exemplo 7</a>: Grafo interativo de grupo econômico aberto em 3 camadas, exibindo 2088 nós e 3964 arestas. Clique no exemplo e interaja com o grafo posicionando o ponteiro do mouse sobre os nós.
+<a href="https://controlecidadao.github.io/sinarc/exemplo7.html">Exemplo 7</a>: Grafo interativo de grupo econômico aberto em 3 camadas, exibindo 2088 nós e 3964 arestas. Clique no exemplo e interaja com o grafo, posicionando o ponteiro do mouse sobre os nós para ver seus detalhes.
 </p>
 
 <br><br>
