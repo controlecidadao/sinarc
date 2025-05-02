@@ -772,21 +772,21 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 <summary>Versões</summary>
 
 <br><br>
-🗓️ **Versões relevantes do código:**
+🗓️ <b>Versões relevantes do código:</b>
 
 <br>
 
-Versão 0.1.2 (26-04-2025):
-* Corrigido erro gerado pela ausência do arquivo "wmic.exe" em alguns computadores.
-* Disponibilização da versão compactada da pasta SINARC com os programas e o banco de dados completo, dispensando o procedimento de instalação.
+<b>Versão 0.1.2 (26-04-2025):</b><br>
+* Corrigido erro gerado pela ausência do arquivo "wmic.exe" em alguns computadores.<br>
+* Disponibilização da versão compactada da pasta SINARC com os programas e o banco de dados completo, dispensando o procedimento de instalação.<br>
 <br>
 
-Versão 0.1.1 (09-04-2025):
+<b>Versão 0.1.1 (09-04-2025):</b><br>
 * Corrigido o carregamento offline das imagens do grafo.
 * Corrigida a portabilidade na geração do arquivo _arquivo_sinarc.zip_.
 <br>
 
-Versão 0.1.0 (14-11-2024):
+<b>Versão 0.1.0 (14-11-2024):</b><br>
 * Versão beta inicial.
 <br>
 
