@@ -777,7 +777,7 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 <br>
 
 <b>Versão 0.1.2 (26-04-2025):</b>
-<br><br>
+<br>
 <ul>
   <li>Corrigido erro gerado pela ausência do arquivo "wmic.exe" em alguns computadores.</li>
   <li>Disponibilização da versão compactada da pasta SINARC com os programas e o banco de dados completo, dispensando o procedimento de instalação.</li>
@@ -785,13 +785,18 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 <br>
 
 <b>Versão 0.1.1 (09-04-2025):</b>
-<br><br>
-* Corrigido o carregamento offline das imagens do grafo.
-* Corrigida a portabilidade na geração do arquivo _arquivo_sinarc.zip_.
+<br>
+<ul>
+  <li>Corrigido o carregamento offline das imagens do grafo.</li>
+  <li>Corrigida a portabilidade na geração do arquivo _arquivo_sinarc.zip_.</li>
+</ul>
 <br>
 
-<b>Versão 0.1.0 (14-11-2024):</b><br>
-* Versão beta inicial.
+<b>Versão 0.1.0 (14-11-2024):</b>
+<br>
+<ul>
+  <li>Versão beta inicial.</li>
+</ul>
 <br>
 
 
