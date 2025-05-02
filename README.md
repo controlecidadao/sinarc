@@ -179,7 +179,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </p>
 
 <p align="center" width="100%">
-<img width="50%" src="./images/qrcode_exemplo1.png" />
+<img width="15%" src="./images/qrcode_exemplo1.png" />
 </p>
 
 <p align="center" width="100%">
