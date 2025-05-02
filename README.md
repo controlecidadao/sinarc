@@ -211,11 +211,6 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <br>
 <br>
 
-<!--<p align="center" width="100%">
-<img width="50%" src="./images/exemplo3.png" />
-</p>-->
-
-
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo3.html" target="_blank">
    <img width="50%" class="clickable-image" src="./images/exemplo3.png" alt="Imagem de Grafo" />
@@ -252,6 +247,9 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 </a>
 </p>
 
+<p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/qrcode_exemplo7.png" alt="QR Code" />
+</p>
 
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo7.html">Exemplo 7</a>: Grafo interativo de grupo econômico aberto em 3 camadas, exibindo 2088 nós e 3964 arestas. Clique no exemplo e interaja com o grafo posicionando o ponteiro do mouse sobre os nós.
