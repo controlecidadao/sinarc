@@ -796,9 +796,10 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 </ul>
 <br>
 
+</details>
 
 <!--## 🚧 Página em Construção...-->
 
 
-[grafo_final.html 6](https://controlecidadao.github.io/sinarc/grafo_final.html)
+[grafo_final](https://controlecidadao.github.io/sinarc/grafo_final.html)
 
