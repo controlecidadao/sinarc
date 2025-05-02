@@ -51,9 +51,9 @@ Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ
 
 Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma segunda cópia do arquivo zip (20 GB), com nome diferente, nos seguintes endereços, tendo sido necessário apagá-las manualmente para não ocuparem espaço no computador (a parte final, após _File System_, pode variar):
 
-* **Google Chrome:**  _C:\Users\\<nome_do_usuário>\AppData\Local\Google\Chrome\User Data\Default\File System\095\p\00_ 
+* **Google Chrome:**  _C:\Users\nome_do_usuário\AppData\Local\Google\Chrome\User Data\Default\File System\095\p\00_ 
   
-* **Microsoft Edge:** _C:\Users\\<nome_do_usuário>\AppData\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_
+* **Microsoft Edge:** _C:\Users\nome_do_usuário\AppData\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_
 
 O arquivo _SINARC.zip_ desta versão do Pen Drive SINARC contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal em **08/02/2025**, **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.
 
