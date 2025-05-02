@@ -48,6 +48,9 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 <br><br>
 
 ## Pen Drive SINARC
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 
 <p align="center" width="100%">
 <img width="30%" src="./images/pen_drive_sinarc.png" />
@@ -93,7 +96,9 @@ Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRU�
 <br><br>
 
 ## O que é uma rede complexa?
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 
@@ -136,7 +141,9 @@ Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
 <br><br>
 
 ## Qual o objetivo do SINARC?
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 Assim como o projeto Rede CNPJ, o objetivo do SINARC é demonstrar a possibilidade de criação de ferramentas tecnológicas para exploração de dados abertos e incentivar o desenvolvimento de projetos semelhantes pela sociedade, considerando que **"_o verdadeiro progresso é o que põe a tecnologia ao alcance de todos!_"** (Henry Ford), sem exceção.
@@ -144,7 +151,9 @@ Assim como o projeto Rede CNPJ, o objetivo do SINARC é demonstrar a possibilida
 <br><br>
 
 ## O SINARC utiliza dados sigilosos?
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 **Não**. Todas as informações reveladas pelo SINARC são de **domínio público**, motivo pelo qual são divulgadas pela Receita Federal independentemente de solicitação, observando a publicidade como preceito geral e o sigilo como exceção, nos moldes preconizados pela [Lei Federal 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), Lei de Acesso a Informação, de modo a viabilizar o controle social e a coibir condutas ilícitas no exercício da atividade empresarial.
@@ -161,7 +170,9 @@ Links para sites externos foram incluídos apenas para mostrar a possibilidade d
 <br><br>
 
 ## Para que serve o SINARC?
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 O vídeo a seguir demonstra a aplicação do SINARC no controle da Administração Pública. A partir de [notícia](https://www.radiocacula.com.br/detran-ms-e-investigado-por-suspeita-de-fraude-em-licitacao-de-r-39-milhoes/) publicada na internet sobre supostas irregularidades em licitação promovida pelo Estado do Mato Grosso do Sul (MS) para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas citadas na notícia, cruzando os resultados com os participantes de outra [licitação](https://transparencia.vilavelha.es.gov.br/MostraArquivo.ashx?AnexoLicitacaoId=10676) de mesmo objeto, realizada pelo Município de Vila Velha (ES), para verificar a existência de conexões entre grupos econômicos que atuam em regiões distintas do país:
@@ -278,7 +289,9 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <br><br>
 
 ## Playground SINARC
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINARC:
@@ -332,11 +345,9 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 <br><br>
 ## Tutorial interativo do SINARC
-
-<!--<details>
-   
-<summary>👉 Sequência demonstrativa de comandos do SINARC (clique para expandir)</summary>-->
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 <!--### 🚧 Tutorial em Construção 🚧-->
@@ -572,7 +583,9 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item 8, [Us
 <br><br>
 
 ## Como criar uma nova instalação do SINARC?
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 Caso opte em não realizar o download da versão compactada do **Pen Drive SINARC**, a qual dispensa instalação, siga as instruções abaixo.
@@ -586,7 +599,9 @@ O manual de instruções do SINARC pode ser acessado pressionando-se a tecla h (
 <br><br>
 
 ## A quem se destina o SINARC?
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 O SINARC se destina a todos que exercem o controle social e institucional da Administração Pública, como auditores, jornalistas, comissões de licitação, procuradorias jurídicas, sistemas de controle interno, ministérios públicos, entre outros órgãos e instituições, além do cidadão interessado em obter informações sobre a estrutura empresarial de grupos econômicos, em especial sobre as pessoas físicas e jurídicas que integram a cadeia hierárquica de comando, a situação jurídica de empresas e as relações existentes entre pessoas físicas e jurídicas cadastradas na base de dados pública de CNPJ da Receita Federal.
@@ -596,7 +611,9 @@ O SINARC se destina a todos que exercem o controle social e institucional da Adm
 <br><br>
 
 ## Exemplos de utilização do SINARC
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 Confira-se, a seguir, exemplos de exploração de redes complexas com o SINARC:
@@ -688,7 +705,9 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 <br><br>
 
 ## Algumas possibilidades de uso do SINARC
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 ✅ Conhecer a estrutura de grupos empresariais com base no CNPJ, razão social, nome de fantasia, nome ou CPF parcial do sócio no formato *\*\*NNNNNN\*\*, entre outros parâmetros.
@@ -708,7 +727,9 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 <br><br>
 
 ## Explorando conexões com o SINARC
-
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 <br>
 
 Relação de sites e documentos contendo informações (nomes de pessoas físicas, jurídicas e números de CNPJ) para explorar com o SINARC:
@@ -743,6 +764,9 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 
 <br><br>
 ## Histórico de versões
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 
 <details>
 <summary>Versões</summary>
