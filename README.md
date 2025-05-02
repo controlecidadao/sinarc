@@ -373,7 +373,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 * **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo.
 * **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado.
 * **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los simultaneamente.
-* **Tecla Shift + Tecla Ctrl + Mouse** --> Mantenha pressionadas as teclas Shift + Ctrl, juntamente com o botão esquerdo do mouse, e selecione uma região do grafo que contenha nós.
+* **Tecla Shift + Tecla Ctrl + Mouse** --> Mantenha pressionadas as teclas Shift + Ctrl. Pressione também o botão esquerdo do mouse e selecione uma região retangular no grafo que contenha nós.
 * **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados.
 * **Mouse** --> Posicione o ponteiro do mouse sobre uma região do grafo e gire o botão de rolagem para frente e para trás para afastar e aproximar as estruturas.
 * **Tecla Escape** --> Enquadra o grafo no centro da tela.
