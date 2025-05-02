@@ -193,11 +193,6 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <br>
 <br>
 
-<!--<p align="center" width="100%">
-<img width="100%" src="./images/chocolates_garoto.png" />
-</p>-->
-
-
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo2.html" target="_blank">
    <img width="80%" class="clickable-image" src="./images/chocolates_garoto.png" alt="Imagem de Grafo" />
@@ -236,6 +231,10 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">
    <img width="100%" class="clickable-image" src="./images/imagem_6.png" alt="Vídeo Demonstrativo" />
 </a>
+</p>
+
+<p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/qrcode_video_cadeia_hierarquica.png" alt="QR Code" />
 </p>
 
 <p align="center" width="100%">
