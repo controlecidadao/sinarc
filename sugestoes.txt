@@ -1,0 +1,3 @@
+SUGESTÕES DE MELHORIAS:
+
+* Incluir a tecla BACKSPACE para acionar a tecla DELETE (útil nos celulares, que não possuem a tecla DEL).
