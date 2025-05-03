@@ -354,21 +354,21 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 
 <details>
-<summary>Aqui</summary>
+<summary>Sequência de comandos do SINARC (clique para expandir)</summary>
 
-<br>
+<br><br>
 
-O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso dos comandos do SINARC que não dependem de consulta em tempo real ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos** acionados pelo mouse e pelo teclado.
+O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso dos comandos do SINARC que não dependem de consulta em tempo real ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente <b>80 comandos</b> acionados pelo mouse e pelo teclado.
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, pressione Shift + tecla desejada.<br>
 
-Os comandos listados a seguir estão agrupados em **blocos temáticos** de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
+Os comandos listados a seguir estão agrupados em <b>blocos temáticos</b> de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
 
 A descrição dos comandos acionados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
  
 <br>
 
-### 👉 Primeira sequência de comandos
+<h3> 👉 Primeira sequência de comandos</h3>
  
 Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.
 
