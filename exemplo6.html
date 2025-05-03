@@ -5360,5 +5360,84 @@ TOTAL:                    ${a_tudo.length}`;
 
     
 </script>
+
+
+
+
+
+
+
+
+
+<!-- PARA TESTE NO CELULAR - INÍCIO -->
+
+<!-- Botão fixado no rodapé -->
+<div id="keyboard-toggle"></div>
+
+<!-- Campo de entrada invisível, mas funcional -->
+<input 
+  type="text" 
+  id="hidden-input" 
+  style="
+    position: fixed; 
+    bottom: 60px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    opacity: 0.01; 
+    height: 20px; 
+    width: 100px; 
+    border: none; 
+    background: transparent;
+    z-index: 9999;
+  "
+  autocomplete="off"
+  autocorrect="off"
+  spellcheck="false"
+/>
+
+<style>
+  #keyboard-toggle {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid rgba(200, 200, 200, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 9998;
+    transition: background-color 0.3s ease;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  #keyboard-toggle:active {
+    background-color: rgba(200, 200, 200, 0.2);
+  }
+</style>
+
+<script>
+  const toggle = document.getElementById('keyboard-toggle');
+  const hiddenInput = document.getElementById('hidden-input');
+
+  toggle.addEventListener('click', () => {
+    hiddenInput.focus();
+  });
+</script>
+
+<!-- PARA TESTE NO CELULAR - FIM -->
+
+
+
+
+
+
+
+
+        
     </body>
 </html>
