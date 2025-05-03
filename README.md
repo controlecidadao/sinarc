@@ -802,7 +802,7 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 
 <br>
 
-#### 🚧 Em fase de teste 🚧
+<!--#### 🚧 Em fase de teste 🚧
 
-[Grafo para teste em aparelhos celulares](https://controlecidadao.github.io/sinarc/grafo_final2.html)
+[Grafo para teste em aparelhos celulares](https://controlecidadao.github.io/sinarc/grafo_final2.html)-->
 
