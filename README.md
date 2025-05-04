@@ -506,7 +506,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ### Deleção de nós
 
-* **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O quantitativo de nós selecionados é exibido na tela.
+* **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O número acumulado de nós deletados é exibido no canto superior direito da tela.
 * **Tecla r** --> Exclui todos os nós que não se encontram selecionados.
 * **Tecla R** --> Exclui todos os nós que não se encontram interligados por arestas coloridas (vide [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html)).
 
