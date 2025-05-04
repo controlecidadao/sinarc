@@ -1,5 +1,9 @@
 SUGESTÕES DE MELHORIAS:
-
 * Incluir a tecla BACKSPACE para acionar a tecla DELETE (útil nos celulares, que não possuem a tecla DEL).
 * Incluir popup com distribuição de nós por número de conexões (graus).
 * Incluir popup com distribuição de nós por tipo (15 tipos).
+
+
+CORREÇÕES:
+* Incluir pessoa física na consulta por sanções da CGU (tecla 2).
+
