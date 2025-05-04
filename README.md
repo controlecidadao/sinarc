@@ -462,7 +462,7 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 * **Tecla Q** --> Seleciona nós-alvos (com borda vermelha).
 * **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes).
 * **Tecla ;** --> Alterna seleção entre os nós de origem e de destino das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes.
-* **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados.
+* **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados. Necessário ter havido uma consulta anterior ao banco de dados.
 * **Tecla j** --> Seleciona nós adjacentes comuns aos nós selecionados. Selecione dois nós e pressione a tecla j, seguido da tecla "," para ver os rótulos dos nós comuns.
 * **Tecla J** --> Seleciona nós adjacentes não comuns aos nós selecionados. Selecione dois nós e pressione a tecla J, seguido da tecla "," para ver os rótulos dos nós não comuns.
 
