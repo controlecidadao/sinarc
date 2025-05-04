@@ -521,7 +521,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ### Consulta a sites externos e outros recursos
    
-* **Tecla d** --> Exibe informações sobre o nó selecionado extraídas de sites externos.
+* **Tecla d** --> Exibe informações sobre o nó selecionado, extraídas de sites externos (exceto telefone).
 * **Tecla D** --> Realiza pesquisa pelo nó selecionado no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência CGU e Jusbrasil.
 * **Tecla g** --> Realiza pesquisa pelo nó selecionado no Google.
 * **Tecla G** --> Realiza pesquisa avançada do nó selecionado nos domínios tc.br, mp.br, jus.br, gov.br, es.gov.br.    
