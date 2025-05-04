@@ -499,7 +499,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ### Adição de cores aos nós
 
-* **Tecla x** --> Adiciona cores alternadas aos nós selecionados em sequência.
+* **Tecla x** --> Adiciona cores alternadas aos nós selecionados em sequência (verde, amerelo, azul e lilás).
 * **Tecla X** --> Remove cores adicionadas aos nós.
 
 <br>
