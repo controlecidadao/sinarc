@@ -514,7 +514,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ### Identificação da cadeia hierárquica de comando do nó-alvo
 
-* **Tecla w** --> Adiciona cor para destacar todos os nós que integram a cadeia hierárquica de comando do nó-alvo.
+* **Tecla w** --> Adiciona/remove cor para destacar todos os nós que integram a cadeia hierárquica de comando do nó-alvo.
 * **Tecla W** --> Exclui nós que não pertencem à cadeia hierárquica de comando do nó-alvo.
 
 <br>
