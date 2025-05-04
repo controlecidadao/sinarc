@@ -167,7 +167,7 @@ Os exemplos que ilustram o uso do SINARC foram selecionados com base na singular
 
 Links para sites externos foram incluídos apenas para mostrar a possibilidade de ampliação das funcionalidades da ferramenta.
 
-QR Codes permitem a abertura e exploração dos grafos online em aparelhos celulares (recurso em fase de teste). Na página do grafo, clique no botão localizado no centro da parte inferior da tela para abrir o teclado do celular e digitar os comandos do SINARC. Navegador sugerido: Google Chrome.
+QR Codes permitem a abertura e exploração dos grafos online em aparelhos celulares (recurso em fase de teste). Na página do grafo, clique no botão localizado no centro da parte inferior da tela para abrir o teclado do celular e digitar os comandos do SINARC.
 
 <br><br>
 
