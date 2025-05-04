@@ -521,8 +521,8 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 ### Consulta a sites externos e outros recursos
    
-* **Tecla d** --> Exibe informações sobre o nó selecionado, extraídas de sites externos (exceto telefone).
-* **Tecla D** --> Realiza pesquisa simultânea pelo nó selecionado no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência CGU e Jusbrasil. Nessário habilitar popups múltiplos.
+* **Tecla d** --> Exibe informações sobre o nó selecionado, extraídas de sites externos (exceto TE).
+* **Tecla D** --> Realiza pesquisa simultânea pelo nó selecionado no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência CGU e Jusbrasil. Nessário habilitar popups múltiplos (exceto EN, TE e EM).
 * **Tecla g** --> Realiza pesquisa pelo nó selecionado no Google.
 * **Tecla G** --> Realiza pesquisa avançada do nó selecionado nos domínios tc.br, mp.br, jus.br, gov.br, es.gov.br.    
 * **Tecla 1** --> Exibe comprovante e inscrição de situação cadastral da pessoa jurídica selecionada.
