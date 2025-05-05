@@ -101,6 +101,16 @@ Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRU�
 </p>
 <br>
 
+<p align="center" width="100%">
+<img width="100%" src="./images/print_screen.png" />
+</p>
+
+<p align="center" width="100%">
+Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
+</p>
+
+<br>
+
 
 Uma **Rede Complexa** é um sistema dinâmico formado pelo conjunto de elementos (nós) e das relações existentes entre eles (arestas), cuja complexidade de suas conexões requer para sua compreensão a utilização de ferramentas para modelagem e representação matemática, simplificação e análise computacional. O objeto de estudo dos grafos são as conexões entre seus elementos. 
 
@@ -127,16 +137,6 @@ Características de um sistema complexo, representado pela base de dados de CNPJ
 * **Dinâmica temporal:** As conexões entre os nós podem variar ao longo do tempo, refletindo mudanças nas relações entre as entidades representadas;
 
 * **Propriedades emergentes:** O sistema complexo exibe propriedades emergentes onde o comportamento global da rede não pode ser previsto apenas olhando para o comportamento individual dos nós (o todo é diferente da soma das partes). Essas propriedades podem surgir de interações complexas e não lineares entre os elementos da rede.
-
-<br>
-
-<p align="center" width="100%">
-<img width="100%" src="./images/print_screen.png" />
-</p>
-
-<p align="center" width="100%">
-Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
-</p>
 
 <br><br>
 
