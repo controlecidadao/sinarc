@@ -23,7 +23,7 @@
 * [Playground SINARC](#playground-sinarc)
 * [Tutorial interativo do SINARC](#tutorial-interativo-do-sinarc)
 * [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)
-* [A quem se destina do SINARC?](#a-quem-se-destina-o-sinarc)
+* [A quem se destina o SINARC?](#a-quem-se-destina-o-sinarc)
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Algumas possibilidades de uso do SINARC](#algumas-possibilidades-de-uso-do-sinarc)
 * [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
