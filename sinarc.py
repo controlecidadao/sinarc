@@ -8267,6 +8267,81 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
     depois = code + '\n' + antes
     temp = temp.replace(antes, depois)
 
+
+
+
+    # Adiciona botão para abrir teclado virtual no celular
+    btn_celular = """<!-- PARA TESTE NO CELULAR - INÍCIO -->
+
+    <!-- Botão fixado no rodapé -->
+    <div id="keyboard-toggle"></div>
+
+    <!-- Campo de entrada invisível, mas funcional -->
+    <input 
+    type="text" 
+    id="hidden-input" 
+    style="
+        position: fixed; 
+        bottom: 60px; 
+        left: 50%; 
+        transform: translateX(-50%);
+        opacity: 0; <!-- Estava em 0.01 -->
+        height: 0; <!-- Estava em 20 -->
+        width: 0;  <!-- Estava em 120 -->
+        border: none; 
+        background: transparent;
+        z-index: -1; <!-- Estava em 9999 -->
+        pointer-events: none;
+    "
+    autocomplete="off"
+    autocorrect="off"
+    spellcheck="false"
+    tabindex="-1"
+    />
+
+    <style>
+    #keyboard-toggle {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        height: 20px;
+        background-color: transparent;
+        border: 2px solid rgba(200, 200, 200, 0.6);
+        border-radius: 10px;
+        cursor: pointer;
+        z-index: 9998;
+        transition: background-color 0.3s ease;
+        color: #000;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    #keyboard-toggle:active {
+        background-color: rgba(200, 200, 200, 0.2);
+    }
+    </style>
+
+    <script>
+    const toggle = document.getElementById('keyboard-toggle');
+    const hiddenInput = document.getElementById('hidden-input');
+
+    toggle.addEventListener('click', () => {
+        hiddenInput.focus();
+    });
+    </script>
+
+    <!-- PARA TESTE NO CELULAR - FIM -->"""
+
+    temp = temp.replace('</script>\n    </body>', f'</script>\n    \n\n\n\n\n{btn_celular}\n\n\n\n\n</body>')
+
+
+
+
+
+
     # Atualiza arquivo HTML
     fout = open("grafo_final.html", "w")
     fout.write(temp)
