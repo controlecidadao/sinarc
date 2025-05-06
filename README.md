@@ -372,7 +372,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
 ### Ajuste de Tela
 
-* **Tecla F5** <p style="color: blue; font-weight: bold;">Tecla F5</p> --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior.
+* **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior.
 * **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes).
 * **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador.
 * **Tecla Escape** --> Enquadra o grafo no centro da tela.
