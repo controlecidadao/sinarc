@@ -793,7 +793,7 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 <br>
 <ul>
   <li>Corrigido o carregamento offline das imagens do grafo.</li>
-  <li>Corrigida a portabilidade na geração do arquivo _arquivo_sinarc.zip_.</li>
+  <li>Corrigida a portabilidade na geração do arquivo arquivo_sinarc.zip.</li>
 </ul>
 <br>
 
