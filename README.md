@@ -329,6 +329,10 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 </p>
 
 <p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/qrcode_video1.png" alt="QR Code" />
+</p>
+
+<p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=spIwxVx6AnI" target="_blank">Vídeo 1</a>: Modo Automático de Visualização do SINARC
 </p>
 
@@ -339,6 +343,10 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
    <!--<img width="70%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/visualizacao.png" alt="Modo Automático de Visualização" />-->
    <img width="70%" class="clickable-image" src="./images/visualizacao_2.png" alt="Modo Automático de Visualização" />
 </a>
+</p>
+
+<p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/qrcode_video2.png" alt="QR Code" />
 </p>
 
 <p align="center" width="100%">
