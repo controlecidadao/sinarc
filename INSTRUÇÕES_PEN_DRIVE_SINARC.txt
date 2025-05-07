@@ -1,31 +1,8 @@
------------------------------------------------------------------------------------------
-COMO BAIXAR E EXECUTAR A VERSÃO PEN DRIVE DO SINARC NO COMPUTADOR (NÃO REQUER INSTALAÇÃO)
------------------------------------------------------------------------------------------
+-----------------------------------------------------
+COMO BAIXAR O PEN DRIVE SINARC (NÃO REQUER INSTALAÇÃO)
+-----------------------------------------------------
 
-1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço (url) indicado na página principal deste repositório.
-
-2. Descompacte a pasta SINARC no computador (70 GB).
-
-3. Navegue até o arquivo "rede.ini" no caminho "SINARC\rede-cnpj-master\rede\rede.ini", localize e edite o trecho do código a seguir, conforme orientação:
-
-## Para executar o SINARC localmente, remova os caracteres "#" a seguir (removidos por padrão no pen drive)
-#base_rede = ../../bases/rede.db
-#base_rede_search = ../../bases/rede_search.db
-#base_receita = ../../bases/cnpj.db
-#base_endereco_normalizado = ../../bases/cnpj_links_ete.db
-#base_links = ../../bases/links.db
-#base_local = ../../bases/rede_dados.db
-
-Pronto! O SINARC está pronto para ser usado.
-
-
-
-
-------------------------------------------------
-COMO CRIAR O PEN DRIVE SINARC PARA PORTABILIDADE
-------------------------------------------------
-
-1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço (url) indicado na página principal deste repositório.
+1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço "https://github.com/controlecidadao/sinarc?tab=readme-ov-file#como-criar-o-pen-drive-sinarc".
 
 2. Descompacte a pasta SINARC no computador (70 GB).
 
@@ -34,6 +11,31 @@ COMO CRIAR O PEN DRIVE SINARC PARA PORTABILIDADE
 4. Copie a pasta SINARC descompactada, com todo o seu conteúdo, para o diretório raiz do pen drive (espaço livre necessário no pen drive: 70 GB).
 
 Pronto! O Pen Drive SINARC está pronto para ser usado em qualquer computador Windows.
+
+
+
+
+------------------------------------------------------------
+CRIANDO O PEN DRIVE SINARC A PARTIR DE UMA INSTALAÇÃO NORMAL
+------------------------------------------------------------
+
+1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço "https://github.com/controlecidadao/sinarc?tab=readme-ov-file#como-criar-o-pen-drive-sinarc".
+
+2. Descompacte a pasta SINARC no computador (70 GB).
+
+3. Navegue até o arquivo "rede.ini" no caminho "SINARC\rede-cnpj-master\rede\rede.ini", localize e edite o trecho do código a seguir, conforme orientação:
+
+## Para executar o SINARC localmente, remova os caracteres "#" a seguir (removidos por padrão na pasta SINARC compactada)
+#base_rede = ../../bases/rede.db
+#base_rede_search = ../../bases/rede_search.db
+#base_receita = ../../bases/cnpj.db
+#base_endereco_normalizado = ../../bases/cnpj_links_ete.db
+#base_links = ../../bases/links.db
+#base_local = ../../bases/rede_dados.db
+
+4. Mova os arquivos da pasta "SINARC\rede-cnpj-master\rede\bases" para a pasta "SINARC\bases"
+
+Pronto! O SINARC está pronto para ser usado.
 
 
 
@@ -47,7 +49,7 @@ COMO CONFIGURAR O SINARC NO COMPUTADOR, MANTENDO OS BANCOS DE DADOS NO PEN DRIVE
 
 2. Identifique no Windows Explorer em qual drive ele foi reconhecido (Drive D, E, F etc.)
 
-3. Crie uma pasta "SINARC" em qualquer local no computador (necessários 8 GB de espaço livre). O nome das pastas anteriores não podem conter o caractere de espaço;
+3. Crie uma pasta "SINARC" em qualquer local no computador (necessários 8 GB de espaço livre). O nome das pastas no caminho não podem conter o caractere espaço;
 
 4. Copie todos os arquivos e pastas existente na pasta SINARC do pen drive, EXCETO a pasta "bases" que contém os bancos de dados.
 
