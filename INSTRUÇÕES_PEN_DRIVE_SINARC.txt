@@ -15,17 +15,28 @@ Pronto! O Pen Drive SINARC está pronto para ser usado em qualquer computador Wi
 
 
 
-------------------------------------------------------------
-CRIANDO O PEN DRIVE SINARC A PARTIR DE UMA INSTALAÇÃO NORMAL
-------------------------------------------------------------
+------------------------------------
+COMO EXECUTAR O SINARC E O REDE CNPJ
+------------------------------------
 
-1. Baixe a pasta SINARC compactada (20 GB), disponível para download no endereço "https://github.com/controlecidadao/sinarc?tab=readme-ov-file#como-criar-o-pen-drive-sinarc".
+1. Na pasta SINARC, clique duas vezes sobre o arquivo "abre_rede_cnpj.bat". O Windows poderá solicitar sua autorização para executar o programa. Um Terminal do Windows será aberto (Terminal do Rede CNPJ). Aguarde o navegador padrão exibir o grafo inicial gerado pelo Rede CNPJ.
 
-2. Descompacte a pasta SINARC no computador (70 GB).
+2. Na pasta SINARC, clique duas vezes sobre o arquivo "abre_sinarc.bat". O Windows poderá solicitar sua autorização para executar o programa. Um segundo Terminal do Windows será aberto (Terminal do SINARC). Aguarde o navegador exibir o grafo inicial gerado pelo SINARC.
 
-3. Navegue até o arquivo "rede.ini" no caminho "SINARC\rede-cnpj-master\rede\rede.ini", localize e edite o trecho do código a seguir, conforme orientação:
+Os programas Rede CNPJ e SINARC já podem ser utilizados localmente.
 
-## Para executar o SINARC localmente, remova os caracteres "#" a seguir (removidos por padrão na pasta SINARC compactada)
+
+
+
+------------------------------------------------------------------------------
+COMO CRIAR O PEN DRIVE SINARC A PARTIR DE UMA INSTALAÇÃO INICIAL NO COMPUTADOR
+------------------------------------------------------------------------------
+
+1. Mova os arquivos da pasta "SINARC\rede-cnpj-master\rede\bases" para a pasta "SINARC\bases"
+
+2. Navegue até o arquivo "rede.ini" no caminho "SINARC\rede-cnpj-master\rede\rede.ini", localize e edite o trecho do código a seguir, conforme orientação:
+
+## Remova os caracteres "#" a seguir (removidos por padrão na pasta SINARC compactada)
 #base_rede = ../../bases/rede.db
 #base_rede_search = ../../bases/rede_search.db
 #base_receita = ../../bases/cnpj.db
@@ -33,10 +44,19 @@ CRIANDO O PEN DRIVE SINARC A PARTIR DE UMA INSTALAÇÃO NORMAL
 #base_links = ../../bases/links.db
 #base_local = ../../bases/rede_dados.db
 
-4. Mova os arquivos da pasta "SINARC\rede-cnpj-master\rede\bases" para a pasta "SINARC\bases"
+## Inclua os caracteres "#" a seguir (removidos por padão na instalação padrão no computador)
+base_rede = bases/rede.db
+base_rede_search = bases/rede_search.db
+base_receita = bases/cnpj.db
+base_endereco_normalizado = bases/cnpj_links_ete.db
+base_links = bases/links.db
+base_local = bases/rede_dados.db
+
+3. Conecete um pen drive ao computador.
+
+4. Copie a Pasta SINARC do computador para o pen drive.
 
 Pronto! O SINARC está pronto para ser usado.
-
 
 
 
@@ -59,7 +79,7 @@ COMO CONFIGURAR O SINARC NO COMPUTADOR, MANTENDO OS BANCOS DE DADOS NO PEN DRIVE
 
 7. Edite o arquivo "rede.ini". Clique com o botão direito do mouse sobre ele e selecione a opção "Editar com o Bloco de Notas".
 
-8. Localize o trecho do código a seguir e remova o caractere "#" no início das linhas iniciadas pela palavra "base", conforme instruções:
+8. Inclua no arquivo "rede.ini" o trecho do código a seguir e remova o caractere "#" no início das linhas iniciadas pela palavra "base", conforme instruções:
 
 ## Se o Pen Drive SINARC foi reconhecido pelo computador como DRIVE D, remova os caracteres "#" a seguir
 #base_rede = D:/SINARC/bases/rede.db
@@ -85,21 +105,23 @@ COMO CONFIGURAR O SINARC NO COMPUTADOR, MANTENDO OS BANCOS DE DADOS NO PEN DRIVE
 #base_links = F:/SINARC/bases/links.db
 #base_local = F:/SINARC/bases/rede_dados.db
 
-Habilitação do Pen Drive SINARC concluída!
+9. Comente os demais trechos de código existentes no arquivo "rede.ini"
 
+## Script original (comentado no Pen Drive SINARC)
+#base_rede = bases/rede.db
+#base_rede_search = bases/rede_search.db
+#base_receita = bases/cnpj.db
+#base_endereco_normalizado = bases/cnpj_links_ete.db
+#base_links = bases/links.db
+#base_local = bases/rede_dados.db
 
+## Caminho para a pasta 'bases', no mesmo nível da pasta 'rede-cnpj-master' (descomentado no Pen Drive SINARC)
+#base_rede = ../../bases/rede.db
+#base_rede_search = ../../bases/rede_search.db
+#base_receita = ../../bases/cnpj.db
+#base_endereco_normalizado = ../../bases/cnpj_links_ete.db
+#base_links = ../../bases/links.db
+#base_local = ../../bases/rede_dados.db
 
-
-
-----------------------
-COMO EXECUTAR O SINARC
-----------------------
-
-1. Na pasta criada no computador, clique duas vezes sobre o arquivo "abre_rede_cnpj.bat". O Windows poderá solicitar sua autorização para executar o programa. Um Terminal do Windows será aberto (Terminal do Rede CNPJ). Aguarde o navegador padrão exibir o grafo inicial gerado pelo Rede CNPJ.
-
-2. Na pasta criada no computador, clique duas vezes sobre o arquivo "abre_sinarc.bat". O Windows poderá solicitar sua autorização para executar o programa. Um segundo Terminal do Windows será aberto (Terminal do SINARC). Aguarde o navegador exibir o grafo inicial gerado pelo SINARC.
-
-Pronto! Os programas Rede CNPJ e SINARC já podem ser utilizados localmente.
-
-
+Configuração SINCAR com bases de dados no pen drive concluída!
 
