@@ -533,8 +533,8 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 * **Tecla D** --> Realiza pesquisa simultânea pelo nó selecionado no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência CGU e Jusbrasil. Nessário habilitar popups múltiplos (exceto EN, TE e EM).
 * **Tecla g** --> Realiza pesquisa pelo nó selecionado no Google (exceto TE).
 * **Tecla G** --> Realiza pesquisa avançada do nó selecionado nos domínios tc.br, mp.br, jus.br, gov.br, es.gov.br (exceto EN, TE e EM).    
-* **Tecla 1** --> Exibe comprovante de inscrição de situação cadastral da pessoa jurídica selecionada, extraído do site da Receita Federal.
-* **Tecla 2** --> Realiza pesquisa pela pessoa física ou jurídica selecionada na base de dados de sanções da CGU (CEIS, CNEP, CEPIM e CEAF).
+* **Tecla 1** --> Exibe Comprovante de Inscrição e de Situação Cadastral da pessoa jurídica selecionada, extraído do site da Receita Federal.
+* **Tecla 2** --> Realiza pesquisa pela pessoa jurídica selecionada na base de dados da CGU sobre sanções (CEIS, CNEP, CEPIM e CEAF) e acordo de leniência.
 * **Tecla 3** --> Tecla não usada.
 * **Tecla 4** --> Abre arquivo Excel contendo as tabelas de nós e de conexões retornadas da consulta ao banco de dados (depende de consulta em tempo real ao banco de dados).
 * **Tecla 5** --> Abre site Rede CNPJ.
