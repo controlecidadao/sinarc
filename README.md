@@ -71,7 +71,7 @@ Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ
 [Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/fZkiUSTJ#MJH4HA8tcogR11J16ynTOLx-rqqrNLoafaQNoewaGZk). O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é **ae82acec7e3a77621ea61311650cacbb5cacc9234af2c456b1b0154eb95e8667**. Valide a integridade do arquivo baixado submetendo-o a este [site de verificação](https://emn178.github.io/online-tools/sha256_checksum.html) e comparando a saída com o código SHA-256 fornecido.
 
 
-**São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 GB para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço livre no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_ -> _Local_).
+**São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 GB para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço suficiente no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_ -> _Local_).
 
 <!--Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma segunda cópia do arquivo zip (20 GB), com nome diferente, nos seguintes endereços, tendo sido necessário apagá-las manualmente para não ocupar espaço no computador (a parte final, após _File System_, pode variar dependendo da versão do navegador):
 
