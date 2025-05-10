@@ -62,7 +62,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 ### 🚧 Atualizando a Base de Dados 🚧-->
 <br>
 
-#### Base de dados de CNPJ: &emsp; 19/04/2025
+#### 💽 Base de dados de CNPJ: &emsp; 19/04/2025
 
 <br>
 
