@@ -58,26 +58,28 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 ### Baixe o SINARC para um pen drive. Sua utilização não requer instalação (plug and play).
 
-<br><br>
-### 🚧 Atualizando a Base de Dados 🚧
+<!--<br><br>
+### 🚧 Atualizando a Base de Dados 🚧-->
 <br>
+
+#### Base de dados de CNPJ: &emsp; 19/04/2025
 
 <br>
 
 Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ e DB Browser, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser baixada e salva em um pen drive ou HD externo (preferencialmente com alta taxa de transferência de dados) para facilitar sua utilização em diferentes computadores com sistema operacional Windows.
 
-[Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/GFEziAoB#oAaIWwPJn3CEYP6ssjn5oYXYGwxzYgJOmM3MuTHtXeo). O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é **5df8abd8a007a5925a4b4d2e19061a66b728d46776667e370f9c48a8cbcf32cc**. Valide a integridade do arquivo baixado submetendo-o a este [site](https://emn178.github.io/online-tools/sha256_checksum.html) de verificação e comparando a saída com o código SHA-256 fornecido.
+[Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/fZkiUSTJ#MJH4HA8tcogR11J16ynTOLx-rqqrNLoafaQNoewaGZk). O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é **ae82acec7e3a77621ea61311650cacbb5cacc9234af2c456b1b0154eb95e8667**. Valide a integridade do arquivo baixado submetendo-o a este [site de verificação](https://emn178.github.io/online-tools/sha256_checksum.html) e comparando a saída com o código SHA-256 fornecido.
 
 
-**São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 GB para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço livre no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_).
+**São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 GB para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço livre no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_ -> _Local_).
 
-Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma segunda cópia do arquivo zip (20 GB), com nome diferente, nos seguintes endereços, tendo sido necessário apagá-las manualmente para não ocuparem espaço no computador (a parte final, após _File System_, pode variar):
+<!--Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma segunda cópia do arquivo zip (20 GB), com nome diferente, nos seguintes endereços, tendo sido necessário apagá-las manualmente para não ocupar espaço no computador (a parte final, após _File System_, pode variar dependendo da versão do navegador):
 
 * **Google Chrome:**  _C:\Users\nome_do_usuário\AppData\Local\Google\Chrome\User Data\Default\File System\095\p\00_ 
   
-* **Microsoft Edge:** _C:\Users\nome_do_usuário\AppData\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_
+* **Microsoft Edge:** _C:\Users\nome_do_usuário\AppData\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_-->
 
-O arquivo _SINARC.zip_ desta versão do Pen Drive SINARC contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal em **19/04/2025**, **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.
+O arquivo _SINARC.zip_ desta versão do Pen Drive SINARC contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal, **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.
 
 Para usar o Pen Drive SINARC, siga estes passos:
 
@@ -89,11 +91,13 @@ Para usar o Pen Drive SINARC, siga estes passos:
 
 Pronto! Os programas já podem ser utilizados.
 
-Conquanto o SINARC utilize apenas a modelagem de criação e consulta aos bancos de dados do projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa como etapa prévia à abertura do SINARC, permitindo ao cidadão explorar simultaneamente os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, disponibilizando-o igualmente como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
+Conquanto o SINARC utilize apenas a modelagem de criação e de consulta aos bancos de dados desenvolvida pelo projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa como etapa prévia à abertura do SINARC, permitindo ao cidadão explorar simultaneamente os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, disponibilizando-o igualmente como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
-**ATENÇÃO:** O uso do SINARC com pen drive reduz o desempenho do sistema, em especial com grafos muito grandes. Para desempenho máximo no uso dos programas, salve a pasta SINARC diretamente no computador. Os testes foram realizados usando pen drive de 128 GB, USB 3.2.
+<!--**ATENÇÃO:** O uso do SINARC com pen drive reduz o desempenho do sistema, em especial com grafos muito grandes. Para desempenho máximo, salve a pasta SINARC diretamente no computador.-->
 
-Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).
+Os testes foram realizados usando pen drive de 128 GB, USB 3.2.
+
+<!--Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).-->
 
 <br><br>
 
