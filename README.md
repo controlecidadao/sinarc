@@ -68,16 +68,16 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ e DB Browser, bem como a íntegra do banco de dados com 60 milhões de CNPJ, pode ser baixada e salva em um pen drive ou HD externo (preferencialmente com alta taxa de transferência de dados) para facilitar sua utilização em diferentes computadores com sistema operacional Windows.
 
-**[Clique aqui e baixe a versão compactada da pasta SINARC](https://mega.nz/file/fZkiUSTJ#MJH4HA8tcogR11J16ynTOLx-rqqrNLoafaQNoewaGZk)**. O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é _ae82acec7e3a77621ea61311650cacbb5cacc9234af2c456b1b0154eb95e8667_. Valide a integridade do arquivo baixado submetendo-o a este [site](https://emn178.github.io/online-tools/sha256_checksum.html) de verificação e comparando a saída com o código SHA-256 fornecido.
+**[Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=1WECxXULCe7AfojFHlkOyDgWeFXuTAQdY)**. O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é _ae82acec7e3a77621ea61311650cacbb5cacc9234af2c456b1b0154eb95e8667_. Valide a integridade do arquivo baixado submetendo-o a este [site](https://emn178.github.io/online-tools/sha256_checksum.html) de verificação e comparando a saída com o código SHA-256 fornecido.
 
 
 **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 GB para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço suficiente no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_ -> _Local_).
 
-Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma segunda cópia do arquivo zip (20 GB), com nomes formados por uma sequência de carecteres 0, tendo sido necessário apagá-las manualmente para não ocupar espaço no computador (a parte final, após _File System_, pode variar dependendo da versão do navegador):
+<!--Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma segunda cópia do arquivo zip (20 GB), com nomes formados por uma sequência de carecteres 0, tendo sido necessário apagá-las manualmente para não ocupar espaço no computador (a parte final, após _File System_, pode variar dependendo da versão do navegador):
 
 * **Google Chrome:**  _C:\Users\nome_do_usuário\AppData(pasta oculta)\Local\Google\Chrome\User Data\Default\File System\095\p\00_ 
   
-* **Microsoft Edge:** _C:\Users\nome_do_usuário\AppData(pasta oculta)\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_
+* **Microsoft Edge:** _C:\Users\nome_do_usuário\AppData(pasta oculta)\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_-->
 
 O arquivo _SINARC.zip_ desta versão do Pen Drive SINARC contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal, **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.
 
