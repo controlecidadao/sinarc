@@ -1242,6 +1242,243 @@ def cria_dataframes(parametro, num_camada=''):
 
 
 
+
+
+    ##################################
+    # ATUALIZA SEXO NO DATAFRAME DF_NO
+    ##################################
+
+    # O sexo de algumas pessoas físicas retornado pelo Rede CNPJ estão incorretos.
+    # Esse fato fez surgir a necessidade de atualização.
+    # O arquivo "nomes.csv" contém o primeiro nome de pessoas físicas e o sexo correspondente.
+    # Fonte do arquivo "nomes.csv": https://brasil.io/dataset/genero-nomes/files/ (nomes.csv.gz)
+    # Foi realizado tratamento do arquivo original usando apenas a biblioteca D-Tale, disponível na interface Samantha.
+
+    try:
+        print('iniciando atualização do sexo das pessoas físicas')
+        inicio_tempo = time.time()
+
+        # Carrega o arquivo nomes.csv para um dataframe
+        df_nomes = pd.read_csv("nomes.csv")
+
+        # Processa o dataframe df_no diretamente (inplace)
+        def atualizar_sexo_inplace(df_no, df_nomes):
+            # Filtrar apenas as pessoas físicas (que começam com "PF_***NNNNNN**-")
+            mask_pf = df_no['id'].str.match(r'^PF_\*\*\*\d{6}\*\*\-')
+            
+            # Iterar apenas sobre as linhas que são pessoas físicas
+            for idx in df_no[mask_pf].index:
+                # Extrair o primeiro nome da pessoa física
+                nome_completo = df_no.loc[idx, 'id']
+                # Padrão: tudo após "PF_***NNNNNN**-" até o primeiro espaço
+                match = re.search(r'^PF_\*\*\*\d{6}\*\*\-([^ ]+)', nome_completo)
+                
+                if match:
+                    primeiro_nome = match.group(1)
+                    
+                    # Consultar o primeiro nome no dataframe de nomes
+                    result = df_nomes[df_nomes['first_name'] == primeiro_nome]
+                    
+                    if not result.empty:
+                        # Se o nome foi encontrado, usar a classificação correspondente
+                        df_no.loc[idx, 'sexo'] = result.iloc[0]['classification']
+                    else:
+                        # Se o nome não for encontrado, atribuir valor 1 (homem)
+                        df_no.loc[idx, 'sexo'] = 1
+
+        # Aplica a função ao dataframe df_no
+        atualizar_sexo_inplace(df_no, df_nomes)
+
+        print(f'atualização do sexo concluída em {time.time() - inicio_tempo:.2f} segundos.\n\n')
+
+    except Exception as e:
+        print(f'Erro ao atualizar o sexo das pessoas físicas: {e}')
+
+
+
+
+
+
+
+    # ##############################
+    # # CRIA E FORMATA ARQUIVO EXCEL - SCRIPT TRANSFERIDO PARA ADIANTE
+    # ##############################
+    
+    # # verifica se o arquivo existe para excluí-lo
+    # #if os.path.exists(nome_do_arquivo):
+    # #    try:
+    # #        os.remove(nome_do_arquivo)
+
+    #     # se o arquivo estiver aberto
+    # #    except IOError:
+
+    #         # criar a cópia do arquivo
+    # #        nome_do_arquivo = f'arquivo_excel_{c_excel}.xlsx'
+    # #        c_excel += 1
+
+    # # cria arquivo Excel a partir dos dataframes
+    # # O arquivo cirado nunca é aberto diretamente. O que é aberto é uma cópia atualizada dele.
+    # with pd.ExcelWriter('arquivo_excel.xlsx') as writer:
+    #     df_no.to_excel(writer, sheet_name='nodes')
+    #     df_ligacao.to_excel(writer, sheet_name='edges')
+
+    # # Carrega arquivo Excel
+    # workbook = load_workbook('arquivo_excel.xlsx')
+
+    # # cria lista contendo nomes das planilhas
+    # worksheet_names = workbook.sheetnames
+
+    # # realiza loop sobre lista de nomes das planilhas
+    # for name in worksheet_names:
+
+    #     # seleciona a planilha pelo nome
+    #     worksheet = workbook[name]
+
+    #     # deleta a primeira coluna por ser desnecessária
+    #     worksheet.delete_cols(1)
+
+    #     # alinha os títulos das colunas à esquerda e substitui cor da fonte
+    #     for coluna in worksheet.columns:
+    #         coluna[0].alignment = styles.Alignment(horizontal='left')
+    #         coluna[0].font = styles.Font(color='FFFFFFFF')
+
+    #     # ajusta automaticamente a largura das colunas, incluindo o texto do título
+    #     for coluna in worksheet.columns:
+    #         max_largura = 0
+    #         for celula in coluna:
+    #             if celula.value is not None:
+    #                 largura_celula = len(str(celula.value))
+    #                 if largura_celula > max_largura:
+    #                     max_largura = largura_celula
+    #         largura_titulo = len(str(coluna[0].value))
+    #         ajuste = max(max_largura, largura_titulo) + 6
+    #         worksheet.column_dimensions[coluna[0].column_letter].width = ajuste
+
+    #     # oculta a grade
+    #     worksheet.sheet_view.showGridLines = False
+
+    #     # fixa a primeira linha
+    #     worksheet.freeze_panes = 'A2'
+
+    #     # extrai o número de linhas e colunas
+    #     num_linhas = worksheet.max_row
+    #     num_colunas = worksheet.max_column
+
+    #     # gera a string de formatação para a tabela
+    #     ref = f"A1:{get_column_letter(num_colunas)}{num_linhas}"
+
+    #     tab = Table(displayName=name, ref=ref)
+
+    #     # cria um estilo a partir de um padrão interno
+    #     style = TableStyleInfo(name="TableStyleMedium2",
+    #                         showFirstColumn=False,
+    #                         showLastColumn=False,
+    #                         showRowStripes=True,
+    #                         )
+
+    #     # aplica estilo à tabela
+    #     tab.tableStyleInfo = style
+
+    #     '''
+    #     Table must be added using ws.add_table() method to avoid duplicate names.
+    #     Using this method ensures table name is unique through out defined names and all other table name. 
+    #     '''
+
+    #     # adiciona tabela à planilha
+    #     worksheet.add_table(tab)
+
+    #     # salva arquivo Excel
+    #     workbook.save('arquivo_excel.xlsx')
+
+
+
+
+
+    # Imprime informações do dataframe de ligações
+    print('=' * 56)
+    print('DF_LIGACAO INFO:')
+    print('=' * 56)
+    print(df_ligacao.info())
+    print()
+
+    # Imprime dataframe de ligações
+    print('=' * 56)
+    print('DF_LIGACAO DATAFRAME:')
+    print('=' * 56)
+    print(df_ligacao.head(50))
+    print()
+
+
+
+
+
+
+    ####################################################
+    # INCLUI ENDEREÇOS FALTANTES NO DATAFRAME DF_LIGACAO
+    ####################################################
+
+    # Esse script deve ser implementado no banco de dados SQLite para permitir consulta usando o id selecionado na página do grafo.
+    # Devem ser extraídos os endereços faltantes e incluídos no banco de dados para poder serem incluídos nos dataframes df_no e df_ligacao.
+
+    # try:
+
+    #     def adicionar_conexoes_endereco(df_no, df_ligacao):
+            
+    #         # Filtra itens com id começando com "PJ_"
+    #         no_temp = df_no[df_no['id'].str.startswith('PJ_')].copy()
+            
+    #         # Lista de IDs no dataframe temporário
+    #         ids_no_temp = no_temp['id'].tolist()
+            
+    #         # Remove linhas existentes onde "origem" está em no_temp e "destino" começa com "EN_"
+    #         df_ligacao = df_ligacao[~((df_ligacao['origem'].isin(ids_no_temp)) & 
+    #                                 (df_ligacao['destino'].str.startswith('EN_')))]
+            
+    #         # Para cada item no dataframe temporário
+    #         for _, row in no_temp.iterrows():
+
+    #             # Cria a string end_temp
+    #             end_temp = f"EN_{row['logradouro']}".replace(',', ' ') + "-" + row['municipio'] + "-" + row['uf']
+                
+    #             # Verifica se já existe essa conexão no df_ligacao
+    #             # conexao_existente = ((df_ligacao['origem'] == row['id']) & 
+    #             #                     (df_ligacao['destino'] == end_temp)).any()
+                
+    #             # Se não existir, adicionar nova linha
+    #             # if not conexao_existente:
+    #             nova_linha = {
+    #                 # 'camada': row['camada'],          # Usando valores do df_no
+    #                 # 'cor': row['cor'],                # Usando valores do df_no
+    #                 'origem': row['id'],              # id na coluna origem
+    #                 # 'origem_descricao': row.get('descricao', ''),  # Opcional, usando descricao se disponível
+    #                 'label': 'end',                   # 'end' na coluna label
+    #                 # 'destino_descricao': end_temp,    # Descrição do destino é o próprio end_temp
+    #                 'destino': end_temp,              # end_temp na coluna destino
+    #                 # 'tipoDescricao': 'Endereço'       # Descrição padrão para tipo de conexão
+    #             }
+                
+    #             # Adiciona nova linha ao df_ligacao
+    #             df_ligacao.loc[len(df_ligacao)] = nova_linha
+            
+    #         return df_ligacao
+
+    #     df_ligacao = adicionar_conexoes_endereco(df_no, df_ligacao)
+
+    # except Exception as e:
+    #     print(f'Erro ao adicionar conexões de endereço: {e}')
+    #     print()
+
+
+
+
+
+
+
+
+
+
+
+
     ##############################
     # CRIA E FORMATA ARQUIVO EXCEL
     ##############################
@@ -1331,24 +1568,6 @@ def cria_dataframes(parametro, num_camada=''):
 
         # salva arquivo Excel
         workbook.save('arquivo_excel.xlsx')
-
-
-
-
-
-    # Imprime informações do dataframe de ligações
-    print('=' * 56)
-    print('DF_LIGACAO INFO:')
-    print('=' * 56)
-    print(df_ligacao.info())
-    print()
-
-    # Imprime dataframe de ligações
-    print('=' * 56)
-    print('DF_LIGACAO DATAFRAME:')
-    print('=' * 56)
-    print(df_ligacao.head(50))
-    print()
     
     # Retorna dataframes
     return df_no, df_ligacao
@@ -4453,7 +4672,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
 
 
         // #####################################################
-        // ARBRE ARQUIVO HTML CONTENDO MANUAL DO SINAR - TECLA h
+        // ABRE ARQUIVO HTML CONTENDO MANUAL DO SINARC - TECLA h
         // #####################################################
 
         document.addEventListener('keydown', (event) => {
