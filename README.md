@@ -388,8 +388,6 @@ O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, pressione Shift + tecla desejada.<br>
 
-Os comandos listados a seguir estão agrupados em <b>blocos temáticos</b> de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
-
 Os nós do grafo possuem:
 
 * **Massa:** iniciando com valor 1 (mínimo) e ajustável pelo usuário para controlar a força de repulsão (afastamento) e sua posição na tela no layout gravitacional.
@@ -399,6 +397,8 @@ Os nós do grafo possuem:
 Por sua vez, as arestas se comportam como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
 
 A descrição dos comandos acionados com o mouse e com o teclado, bem como a massa, o tamanho e o grupo de cada nó são exibidos no canto superior direito da tela durante 3s.
+
+Os comandos listados a seguir estão agrupados em <b>blocos temáticos</b> de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
 
  
 <br>
