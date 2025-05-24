@@ -396,7 +396,7 @@ Os nós do grafo possuem:
 
 Por sua vez, as arestas se comportam como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
 
-A descrição dos comandos acionados com o mouse e com o teclado, bem como a massa, o tamanho e o grupo de cada nó são exibidos no canto superior direito da tela durante 3s.
+A descrição dos comandos acionados com o mouse e com o teclado, bem como a massa, o tamanho e o grupo de cada nó, são exibidos no canto superior direito da tela durante 3s.
 
 Os comandos listados a seguir estão agrupados em <b>blocos temáticos</b> de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
 
