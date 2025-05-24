@@ -390,7 +390,7 @@ Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla Ca
 
 Os nós do grafo possuem:
 
-* **Massa:** iniciando com valor 1 (mínimo) e ajustável pelo usuário para controlar a força de repulsão (afastamento) e a posição dos nós na tela, no layout gravitacional.
+* **Massa:** iniciando com valor 1 (mínimo) e ajustável pelo usuário para controlar a força de repulsão (afastamento) que define a posição dos nós na tela, no layout gravitacional.
 * **Tamanho:** definido automaticamente pelo sistema entre 20 (mínimo) e 100 (máximo), com base no número de conexões (arestas).
 * **Grupo:** identificado automaticamente pelo sistema para indicar o número de comunidades de nós no grafo. Os nós pertencentes a uma comunidade são mais densamente conectados entre si do que com nós de outras comunidades.
 
