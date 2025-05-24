@@ -390,7 +390,16 @@ Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla Ca
 
 Os comandos listados a seguir estão agrupados em <b>blocos temáticos</b> de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
 
-A descrição dos comandos acionados com o mouse e com o teclado é exibida no canto superior direito da tela durante 3s.
+Os nós do grafo possuem:
+
+* **Massa:** iniciando com valor 1 (mínimo) e ajustável pelo usuário para controlar a força de repulsão (afastamento) e sua posição na tela no layout gravitacional.
+* **Tamanho:** definido automaticamente pelo sistema entre 20 (mínimo) e 100 (máximo), com base no número de conexões (arestas).
+* **Grupo:** identificado automaticamente pelo sistema para indicar o número de comunidades de nós no grafo. Os nós pertencentes a uma comunidade são mais densamente conectados entre si do que com nós de outras comunidades.
+
+Por sua vez, as arestas se comportam como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
+
+A descrição dos comandos acionados com o mouse e com o teclado, bem como a massa, o tamanho e o grupo de cada nó são exibidos no canto superior direito da tela durante 3s.
+
  
 <br>
 
