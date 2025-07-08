@@ -47,6 +47,22 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br><br>
 
+<p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html" target="_blank">
+   <img width="80%" class="clickable-image" src="./images/vinculos_1.png" alt="Imagem de Grafo" />
+</a>
+</p>
+
+<p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/qrcode_exemplo1.png" alt="QR Code" />
+</p>
+
+<p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo exibindo vínculos entre duas empresas, identificados pelo SINARC na 1ª camada. <b>Clique na imagem e interaja com o grafo</b>, arrastando os nós com o mouse. 
+</p> 
+
+<br><br>
+
 ## Como criar o Pen Drive SINARC
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
@@ -226,8 +242,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 <a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo exibindo vínculos entre duas empresas, identificados pelo SINARC na 1ª camada. <b>Clique na imagem e interaja com o grafo</b>, arrastando os nós com o mouse. 
 </p> 
 
-<br>
-<br>
+<br><br>
 
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo2.html" target="_blank">
