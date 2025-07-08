@@ -97,6 +97,10 @@ Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ
 
 O arquivo _SINARC.zip_ desta versão do Pen Drive SINARC contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal, **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.
 
+<br>
+
+### Abrindo o SINARC
+
 Para usar o Pen Drive SINARC, siga estes passos:
 
 1) Conecte o pen drive ao computador. A pasta SINARC deve estar salva no diretório raiz do pen drive, normalmente reconhecido como Drive D, E ou F; 
@@ -105,7 +109,7 @@ Para usar o Pen Drive SINARC, siga estes passos:
 <br><br>
 3) Na sequência, também na pasta SINARC, clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta, exibindo a inicialização do programa. Aguarde alguns segundos até que a interface gráfica do SINARC seja exibida em numa nova aba do navegador.
 
-Pronto! Os programas já podem ser utilizados.
+Pronto! Os programas SINARC, Rede CNPJ e DB Browser já podem ser utilizados.
 
 Conquanto o SINARC utilize apenas a modelagem de criação e de consulta aos bancos de dados desenvolvida pelo projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa como etapa prévia à abertura do SINARC, permitindo ao cidadão explorar simultaneamente os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, disponibilizando-o igualmente como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
