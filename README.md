@@ -187,7 +187,7 @@ Conheça também o [Dicionário de Dados](https://www.gov.br/receitafederal/dado
 
 Os exemplos que ilustram o uso do SINARC foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente demonstrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas.
 
-Links para sites externos foram incluídos apenas para mostrar a possibilidade de ampliação das funcionalidades da ferramenta.
+Links para sites externos foram incluídos para mostrar a possibilidade de ampliação das funcionalidades da ferramenta.
 
 QR Codes permitem a abertura e exploração dos grafos online em aparelhos celulares (recurso em fase de teste). Na página do grafo, clique no botão localizado no centro da parte inferior da tela para abrir o teclado do celular e digitar os comandos do SINARC.
 
@@ -226,7 +226,7 @@ Confira-se exemplo de uso do SINARC em trabalho técnico desenvolvido pelo Minis
 
 Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são salvos no **_arquivo_sinarc.zip_**, preservando todas as funcionalidades que não dependem de consulta em tempo real ao banco de dados.
 
-<br><br>
+<!--<br><br>
 
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo1.html" target="_blank">
@@ -240,7 +240,7 @@ Para permitir o compartilhamento, os grafos interativos gerados pelo SINARC são
 
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo exibindo vínculos entre duas empresas, identificados pelo SINARC na 1ª camada. <b>Clique na imagem e interaja com o grafo</b>, arrastando os nós com o mouse. 
-</p> 
+</p> -->
 
 <br><br>
 
