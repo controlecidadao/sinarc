@@ -72,7 +72,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 <img width="30%" src="./images/pen_drive_sinarc.png" />
 </p>
 
-### Baixe o SINARC para um pen drive. Sua utilização não requer instalação (plug and play).
+### Baixando o SINARC para um pen drive. Sua utilização não requer instalação (plug and play).
 
 <!--<br><br>
 ### 🚧 Atualizando a Base de Dados 🚧-->
