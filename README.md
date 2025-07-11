@@ -658,6 +658,24 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 <summary>Clique para expandir o alfabeto</summary>
 <br>
 
+Abrir [Exemplo_1](https://controlecidadao.github.io/sinarc/exemplo4.html).
+
+Comandos introdutórios da interface do SINARC:
+
+* **Tecla h** --> Abre manual de instruções do SINARC
+* **Imagens dos nós** --> PF, PJ, EN, TE e EM
+* **Imagem das conexões** --> Arestas unidirecionais
+* **Feedback de interação** --> Mensagem exibida no canto superior direito da tela
+* **Clique na área do grafo** --> Desseleciona todos os nós e mostra número total de nós do grafo. Mostrar número da aba do navegador.
+* **Mouse passando sobre nó** --> Destaca conexões adjacentes
+* **Mouse parado sobre nó** --> Destaca conexões adjacentes e exibe propriedades do nó e de suas conexões
+* **Clique sobre o nó** --> Seleciona o nó
+* **CTRL + clique sobre os nós** --> Seleciona os nós
+* **Botão de rolagem do mouse** --> Aproxima e afasta o grafo na posição do ponteiro do mouse
+* **Tecla ESC** --> Centraliza grafo na tela
+* **Clique sobre o nó, arraste e solte** --> Exibe comportamento físico do grafo: interação gravitacional entre os nós (força de repulsão), comportamento de mola das arestas e força gravitacional central (força de atração)
+
+
 Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas sem descrição ainda não possuem funcionalidades.
 
 Teclas:
