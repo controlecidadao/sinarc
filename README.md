@@ -644,7 +644,7 @@ Os camandos que não dependem de nova consulta aos bancos de dados podem ser exe
 
 Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
 
-</detais>
+</details>
 
 <br><br>
 
