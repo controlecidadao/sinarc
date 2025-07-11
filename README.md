@@ -403,7 +403,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 <details>
   
-<summary>Tutorial (clque para expandir)</summary>
+<summary>Clique para expandir o tutorial</summary>
 <br>
 
 
@@ -655,10 +655,12 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 
 <details>
   
-<summary>Teclas (clque para expandir)</summary>
+<summary>Clique para expandir o alfabeto de comandos</summary>
 <br>
 
 Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas sem descrição ainda não possuem funcionalidades.
+
+Teclas:
 
 **a** --> Amplia seleção de nós para a próxima camada.<br>
 **A** --> Seleciona todos os nós.<br>
