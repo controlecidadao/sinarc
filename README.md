@@ -210,7 +210,7 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=R73ixbeP0II" target="_blank">
-   <img width="50%" class="clickable-image" src="./images/noticias_na_intenet.png" alt="Vídeo Demonstrativo" />
+   <img width="60%" class="clickable-image" src="./images/noticias_na_intenet.png" alt="Vídeo Demonstrativo" />
 </a>
 </p>
 
@@ -228,7 +228,7 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=R4IMKdKB2pg" target="_blank">
-   <img width="50%" class="clickable-image" src="./images/estudo_de_caso_01.png" alt="Vídeo Demonstrativo" />
+   <img width="60%" class="clickable-image" src="./images/estudo_de_caso_01.png" alt="Vídeo Demonstrativo" />
 </a>
 </p>
 
