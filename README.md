@@ -655,7 +655,7 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 
 <details>
   
-<summary>Clique para expandir o alfabeto de comandos</summary>
+<summary>Clique para expandir o alfabeto</summary>
 <br>
 
 Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas sem descrição ainda não possuem funcionalidades.
