@@ -651,88 +651,88 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC.
 
 Teclas:
 
-* **a** --> Amplia seleção de nós para a próxima camada.
-* **A** --> Seleciona todos os nós.
-* **b** --> Ajusta a altura da janela do grafo à altura da tela do monitor (demonstrar com F11).
-**B** --> 
-**c** --> Centraliza nós selecionados e seus nós adjacentes ou centraliza grafo quando não há nó selecionado.
-**C** --> 
-**ç** --> Seleciona EN, TE e EM com base no número de conexões.
-**Ç** --> Seleciona nós com base no número de conexões.
-**d** --> Exibe detalhes do nó selecionado (exceto TE) a partir da busca nos sites cnpj.info (PJ), direitoriobrasil.net (PF), Google Maps (EN) e Google Search (EM).
-**D** --> Exibe resultado da busca pelo nó selecionado (apenas PF e PJ) no DOU, DIO-ES, DOM-ES, Querido Diário, Portal da Transparência e JusBrasil.
-**e** --> Alterna entre alteração do tamanho dos nós e exibição dos rótulos.
-**E** --> 
-**f** --> Fixa na tela os nós selecionados.
-**F** --> 
-**g** --> Realiza pesquisa geral pelo nó selecionado no Google.
-**G** --> Realiza pesquisa avançada pelo nó selecionado no Google usando os domínios TC.BR, MP.BR, JUS.BR, GOV.BR e ES.GOV.BR (apenas PF e PJ)
-**h** --> Abre manual do SINARC em janela flutuante do navegador.
-**H** --> 
-**i** --> Aproxima, centraliza e alterna entre nós selecionados.
-**I** --> Inverte seleção de nós selecionados no grafo.
-**j** --> Seleciona nós adjacentes comuns a 2 ou mais nós selecionados.
-**J** --> Seleciona nós adjacentes que não são comuns a 2 ou mais nós selecionados.
-**k** --> Alterna entre as 3 opções de layout disponíveis: layout gravitacional, layout hierárquico a partir das folhas e layout hierárquico a partir das raízes.
-**K** --> Alterna entre as opções disponíveis de layouts alternativos: circular.
-**l** --> Alterna entre exibição e ocultação das arestas e de seus rótulos.
-**L** --> Exibe distribuição dos tipos de conexões das arestas do grafo.
-**m** --> Aumenta a massa de todos os nós em 0,5 unidade.
-**M** --> Diminui a massa de todos os nós em 0,5 unidade.
-**n** --> Aumenta em 5 unidades a massa dos nós que possuem tamanho maior ou igual ao tamanho referencial (tamanho padrão: 40).
-**N** --> Diminui em 5 unidades a massa dos nós que possuem tamanho maior ou igual ao tamanho referencial.
-**o** --> Abre os nós-alvos selecionados em nova aba do navegador com o número de camadas fornecido pelo usuário.
-**O** --> Abre matriz e filiais do nó selecionado (apenas PJ).
-**p** --> Pausa a interação gravitacional entre os nós.
-**P** -->
-**q** --> Localiza nós e arestas no grafo com base em seus rótulos. Aperte ENTER com a caixa de diálogo de localização dos nós vazia para abrir a caixa de diálogo de localização das arestas.
-**Q** --> Seleciona apenas os nós-alvos do grafo (bordas vermelhas).
-**r** --> Exibe na tela apenas os nós selecionados, deletando todos os demais.
-**R** --> Exibe na tela apenas os nós que interconectam os nós-alvos (caminhos mais curtos) quando a opção de destacar arestas tiver sido selecionada pelo usuário, deletando todos os demais nós.
-**s** --> Consulta livre na base de dados por nome de pessoa física, razão social, nome de fantasia, radical do CNPJ (8 primeiros dígitos) ou número completo do CNPJ (00.000.000/0000-00 ou 00000000000000).
-**S** --> 
-**t** --> Ativa o modo transparência por tipos de nós: Quando a tecla t é pressionada, exibe de forma alternada os nós com imagens iguais. Para recarregar a página do grafo, pressione F5.
-**T** --> Ativa o modo transparência por conexões: Posicionando o ponteiro do mouse sobre o nó, este e os nós adjacentes são exibidos temporariamente. Ao clicar sobre o nó, este e os nós adjacentes são exibidos de forma permanente. Para recarregar a página do grafo, pressione F5.
-**u** --> Exibe informações sobre os nós centrais (Betweenness Centrality, Closeness Centrality, Eigenvector Centrality, Degree Centrality e PageRank).
-**U** --> Exibe informações sobre a distribuição dos nós por tamanho.
-**v** --> Alterna entre exibição e ocultação de cores para destacar as comunidades de nós identificadas. Ao clicar sobre um nó, o número da comunidade (grupo) a que ele pertence e o total de comunidades do grafo são exibidos.
-**V** --> Alterna entre exibição apenas dos nós que integram as comunidades identificadas.
-**w** --> Ativa e desativa destaque em azul translúcido de todos os nós da cadeia hierárquica de comando do nó-alvo (destacado em vermelho) quando o grafo possuir nó-alvo único.
-**W** --> Deleta todos os nós que não deram origem ao nó-alvo, deixando apenas os nós da cadeia hierárquica de comando.
-**x** --> Adiciona uma cor ao fundo dos nós selecionados. A cada nova seleção de um ou mais nós, a cor usada para colorir muda de forma cíclica na seguinte sequência: verde, amarelo, azul e lilás.
-**X** --> Remove a cor de fundo de todos os nós coloridos com a tecla x.
-**y** --> Abre os nós armazenados na lista de nós-alvos em uma nova aba do navegador.
-**Y** --> 
-**z** --> Alterna entre ativação e desativação do modo automático de visualização.
-**Z** --> 
-**.** --> Alterna a seleção de nós que possuem a mesma imagem.
-**,** --> Abre popup contendo os rótulos dos nós selecionados.
-**;** --> Alterna entre seleção dos nós adjacentes ao nó selecionado na seguinte ordem: destino das arestas, origem das arestas e nó inicial.
-**/** --> Seleciona nós adicionados ao grafo na última requisição.
-**]** --> Aumenta a massa dos nós selecionados em 5 unidades.
-**[** --> Diminui a massa dos nós selecionados em 5 unidades.
-**|** --> Alterna entre ativação e desativação do modo de captura do SINARC.
-**?** --> Alterna entre exibição e ocultação dos atalhos para as funções do mouse e do teclado.
-**+** --> Inclui nós selecionados na lista de nós-alvos.
-**-** --> Exclui o último nó incluído na lista de nós-alvos.
-**1** --> Abre página do Comprovante de Inscrição no CNPJ do nó selecionado (apenas PJ).
-**2** --> Abre Portal da Transparência do Governo Federal para validar dados do nó selecionado (apenas PJ) no CEIS, CNEP, CEPIM e Acordo de Leniência.
-**3** --> 
-**4** --> Gera arquivo Excel contendo nós e arestas do último grafo criado pelo SINARC.
-**5** --> 
-**6** --> Abre as páginas contendo as bases de dados públicas para download da Receita Federal (CNPJ), da CGU (CEIS, CNEP, CEPIM, CEAF, Acordo de Leniência e PEP) e da PGFN (dívida ativa geral, previdenciária e de FGTS).
-**7** --> Exibe detalhes do CNPJ da pessoa jurídica do nó selecionado no formato JSON (CNPJ.ws).
-**8** --> Verifica se o nó selecionado está cadastrado como fornecedor da União e se está habilitado a licitar (apenas PJ).
-**9** --> 
-**ESC** --> Encaixa o grafo no centro da tela.
-**ESPAÇO** --> Aumenta a massa dos nós com tamanho dentro de uma faixa específica de valores, iniciando pelo nó com maior tamanho (100) e prosseguindo para as faixas de valores seguintes (5 unidades).
-**DEL** --> Deleta os nós que estejam selecionados.
-**F5** --> Recarrega a página do grafo.
-**F11** --> Alterna entre ativação e desativação do modo tela cheia do navegador.
-**SHIFT + ARROW RIGHT** --> Aumenta o comprimento das arestas do grafo em 30 unidades (comprimento padrão: 300).
-**SHIFT + ARROW LEFT** --> Diminui o comprimento das arestas do grafo em 30 unidades.
-**SHIFT + ARROW UP** --> Aumenta o tamanho referencial dos nós em 5 pixels (tamanho referencial padrão: 40).
-**SHIFT + ARROW DOWN** --> Diminui o tamanho referencial dos nós em 5 pixels.
+**a** --> Amplia seleção de nós para a próxima camada.<br>
+**A** --> Seleciona todos os nós.<br>
+**b** --> Ajusta a altura da janela do grafo à altura da tela do monitor (demonstrar com F11).<br>
+**B** --> <br>
+**c** --> Centraliza nós selecionados e seus nós adjacentes ou centraliza grafo quando não há nó selecionado.<br>
+**C** --> <br>
+**ç** --> Seleciona EN, TE e EM com base no número de conexões.<br>
+**Ç** --> Seleciona nós com base no número de conexões.<br>
+**d** --> Exibe detalhes do nó selecionado (exceto TE) a partir da busca nos sites cnpj.info (PJ), direitoriobrasil.net (PF), Google Maps (EN) e Google Search (EM).<br>
+**D** --> Exibe resultado da busca pelo nó selecionado (apenas PF e PJ) no DOU, DIO-ES, DOM-ES, Querido Diário, Portal da Transparência e JusBrasil.<br>
+**e** --> Alterna entre alteração do tamanho dos nós e exibição dos rótulos.<br>
+**E** --> <br>
+**f** --> Fixa na tela os nós selecionados.<br>
+**F** --> <br>
+**g** --> Realiza pesquisa geral pelo nó selecionado no Google.<br>
+**G** --> Realiza pesquisa avançada pelo nó selecionado no Google usando os domínios TC.BR, MP.BR, JUS.BR, GOV.BR e ES.GOV.BR (apenas PF e PJ).<br>
+**h** --> Abre manual do SINARC em janela flutuante do navegador.<br>
+**H** --> <br>
+**i** --> Aproxima, centraliza e alterna entre nós selecionados.<br>
+**I** --> Inverte seleção de nós selecionados no grafo.<br>
+**j** --> Seleciona nós adjacentes comuns a 2 ou mais nós selecionados.<br>
+**J** --> Seleciona nós adjacentes que não são comuns a 2 ou mais nós selecionados.<br>
+**k** --> Alterna entre as 3 opções de layout disponíveis: layout gravitacional, layout hierárquico a partir das folhas e layout hierárquico a partir das raízes.<br>
+**K** --> Alterna entre as opções disponíveis de layouts alternativos: circular.<br>
+**l** --> Alterna entre exibição e ocultação das arestas e de seus rótulos.<br>
+**L** --> Exibe distribuição dos tipos de conexões das arestas do grafo.<br>
+**m** --> Aumenta a massa de todos os nós em 0,5 unidade.<br>
+**M** --> Diminui a massa de todos os nós em 0,5 unidade.<br>
+**n** --> Aumenta em 5 unidades a massa dos nós que possuem tamanho maior ou igual ao tamanho referencial (tamanho padrão: 40).<br>
+**N** --> Diminui em 5 unidades a massa dos nós que possuem tamanho maior ou igual ao tamanho referencial.<br>
+**o** --> Abre os nós-alvos selecionados em nova aba do navegador com o número de camadas fornecido pelo usuário.<br>
+**O** --> Abre matriz e filiais do nó selecionado (apenas PJ).<br>
+**p** --> Pausa a interação gravitacional entre os nós.<br>
+**P** --> <br>
+**q** --> Localiza nós e arestas no grafo com base em seus rótulos. Aperte ENTER com a caixa de diálogo de localização dos nós vazia para abrir a caixa de diálogo de localização das arestas.<br>
+**Q** --> Seleciona apenas os nós-alvos do grafo (bordas vermelhas).<br>
+**r** --> Exibe na tela apenas os nós selecionados, deletando todos os demais.<br>
+**R** --> Exibe na tela apenas os nós que interconectam os nós-alvos (caminhos mais curtos) quando a opção de destacar arestas tiver sido selecionada pelo usuário, deletando todos os demais nós.<br>
+**s** --> Consulta livre na base de dados por nome de pessoa física, razão social, nome de fantasia, radical do CNPJ (8 primeiros dígitos) ou número completo do CNPJ (00.000.000/0000-00 ou 00000000000000).<br>
+**S** --> <br>
+**t** --> Ativa o modo transparência por tipos de nós: Quando a tecla t é pressionada, exibe de forma alternada os nós com imagens iguais. Para recarregar a página do grafo, pressione F5.<br>
+**T** --> Ativa o modo transparência por conexões: Posicionando o ponteiro do mouse sobre o nó, este e os nós adjacentes são exibidos temporariamente. Ao clicar sobre o nó, este e os nós adjacentes são exibidos de forma permanente. Para recarregar a página do grafo, pressione F5.<br>
+**u** --> Exibe informações sobre os nós centrais (Betweenness Centrality, Closeness Centrality, Eigenvector Centrality, Degree Centrality e PageRank).<br>
+**U** --> Exibe informações sobre a distribuição dos nós por tamanho.<br>
+**v** --> Alterna entre exibição e ocultação de cores para destacar as comunidades de nós identificadas. Ao clicar sobre um nó, o número da comunidade (grupo) a que ele pertence e o total de comunidades do grafo são exibidos.<br>
+**V** --> Alterna entre exibição apenas dos nós que integram as comunidades identificadas.<br>
+**w** --> Ativa e desativa destaque em azul translúcido de todos os nós da cadeia hierárquica de comando do nó-alvo (destacado em vermelho) quando o grafo possuir nó-alvo único.<br>
+**W** --> Deleta todos os nós que não deram origem ao nó-alvo, deixando apenas os nós da cadeia hierárquica de comando.<br>
+**x** --> Adiciona uma cor ao fundo dos nós selecionados. A cada nova seleção de um ou mais nós, a cor usada para colorir muda de forma cíclica na seguinte sequência: verde, amarelo, azul e lilás.<br>
+**X** --> Remove a cor de fundo de todos os nós coloridos com a tecla x.<br>
+**y** --> Abre os nós armazenados na lista de nós-alvos em uma nova aba do navegador.<br>
+**Y** --> <br>
+**z** --> Alterna entre ativação e desativação do modo automático de visualização.<br>
+**Z** --> <br>
+**.** --> Alterna a seleção de nós que possuem a mesma imagem.<br>
+**,** --> Abre popup contendo os rótulos dos nós selecionados.<br>
+**;** --> Alterna entre seleção dos nós adjacentes ao nó selecionado na seguinte ordem: destino das arestas, origem das arestas e nó inicial.<br>
+**/** --> Seleciona nós adicionados ao grafo na última requisição.<br>
+**]** --> Aumenta a massa dos nós selecionados em 5 unidades.<br>
+**[** --> Diminui a massa dos nós selecionados em 5 unidades.<br>
+**|** --> Alterna entre ativação e desativação do modo de captura do SINARC.<br>
+**?** --> Alterna entre exibição e ocultação dos atalhos para as funções do mouse e do teclado.<br>
+**+** --> Inclui nós selecionados na lista de nós-alvos.<br>
+**-** --> Exclui o último nó incluído na lista de nós-alvos.<br>
+**1** --> Abre página do Comprovante de Inscrição no CNPJ do nó selecionado (apenas PJ).<br>
+**2** --> Abre Portal da Transparência do Governo Federal para validar dados do nó selecionado (apenas PJ) no CEIS, CNEP, CEPIM e Acordo de Leniência.<br>
+**3** --> <br>
+**4** --> Gera arquivo Excel contendo nós e arestas do último grafo criado pelo SINARC.<br>
+**5** --> <br>
+**6** --> Abre as páginas contendo as bases de dados públicas para download da Receita Federal (CNPJ), da CGU (CEIS, CNEP, CEPIM, CEAF, Acordo de Leniência e PEP) e da PGFN (dívida ativa geral, previdenciária e de FGTS).<br>
+**7** --> Exibe detalhes do CNPJ da pessoa jurídica do nó selecionado no formato JSON (CNPJ.ws).<br>
+**8** --> Verifica se o nó selecionado está cadastrado como fornecedor da União e se está habilitado a licitar (apenas PJ).<br>
+**9** --> <br>
+**ESC** --> Encaixa o grafo no centro da tela.<br>
+**ESPAÇO** --> Aumenta a massa dos nós com tamanho dentro de uma faixa específica de valores, iniciando pelo nó com maior tamanho (100) e prosseguindo para as faixas de valores seguintes (5 unidades).<br>
+**DEL** --> Deleta os nós que estejam selecionados.<br>
+**F5** --> Recarrega a página do grafo.<br>
+**F11** --> Alterna entre ativação e desativação do modo tela cheia do navegador.<br>
+**SHIFT + ARROW RIGHT** --> Aumenta o comprimento das arestas do grafo em 30 unidades (comprimento padrão: 300).<br>
+**SHIFT + ARROW LEFT** --> Diminui o comprimento das arestas do grafo em 30 unidades.<br>
+**SHIFT + ARROW UP** --> Aumenta o tamanho referencial dos nós em 5 pixels (tamanho referencial padrão: 40).<br>
+**SHIFT + ARROW DOWN** --> Diminui o tamanho referencial dos nós em 5 pixels.<br>
 
 <br><br>
 
