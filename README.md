@@ -681,7 +681,7 @@ Para executar os comandos a seguir, utilize o [Exemplo 1](https://controlecidada
 
 ### Teclas:
 
-Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas sem descrição ainda não possuem funcionalidades.
+Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas sem descrição ainda não possuem comandos associados.
 
 **a** --> Amplia seleção de nós para a próxima camada.<br>
 **A** --> Seleciona todos os nós.<br>
