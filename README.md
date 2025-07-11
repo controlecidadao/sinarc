@@ -660,7 +660,9 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 
 ### Comandos introdutórios da interface do SINARC:
 
-Abrir o [Exemplo_1](https://controlecidadao.github.io/sinarc/exemplo4.html).
+<br>
+
+Para executar os comandos a seguir, utilize o [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo4.html).
 
 * **Tecla h** --> Abre manual de instruções do SINARC
 * **Imagens dos nós** --> PF, PJ, EN, TE e EM
@@ -677,7 +679,7 @@ Abrir o [Exemplo_1](https://controlecidadao.github.io/sinarc/exemplo4.html).
 
 Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas sem descrição ainda não possuem funcionalidades.
 
-<br><br>
+<br>
 
 ### Teclas:
 
