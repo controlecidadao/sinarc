@@ -662,7 +662,7 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 
 <br>
 
-Para executar os comandos a seguir, utilize o [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo4.html).
+Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.
 
 * **Tecla h** --> Abre manual de instruções do SINARC
 * **Imagens dos nós** --> PF, PJ, EN, TE e EM
@@ -685,7 +685,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 
 **a** --> Amplia seleção de nós para a próxima camada.<br>
 **A** --> Seleciona todos os nós.<br>
-**b** --> Ajusta a altura da janela do grafo à altura da tela do monitor (demonstrar com F11).<br>
+**b** --> Ajusta a altura da janela de visualização do grafo à altura da tela do monitor (demonstrar com F11).<br>
 **B** --> <br>
 **c** --> Centraliza nós selecionados e seus nós adjacentes ou centraliza grafo quando não há nó selecionado.<br>
 **C** --> <br>
