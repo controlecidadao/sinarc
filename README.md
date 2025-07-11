@@ -659,7 +659,7 @@ Teclas:
 **C** --> <br>
 **ç** --> Seleciona EN, TE e EM com base no número de conexões.<br>
 **Ç** --> Seleciona nós com base no número de conexões.<br>
-* **d** --> Exibe detalhes do nó selecionado (exceto TE) a partir da busca nos sites cnpj.info (PJ), direitoriobrasil.net (PF), Google Maps (EN) e Google Search (EM).<br>
+**d** --> Exibe detalhes do nó selecionado (exceto TE) a partir da busca nos sites cnpj.info (PJ), direitoriobrasil.net (PF), Google Maps (EN) e Google Search (EM).<br>
 **D** --> Exibe resultado da busca pelo nó selecionado (apenas PF e PJ) no DOU, DIO-ES, DOM-ES, Querido Diário, Portal da Transparência e JusBrasil.<br>
 **e** --> Alterna entre alteração do tamanho dos nós e exibição dos rótulos.<br>
 **E** --> <br>
