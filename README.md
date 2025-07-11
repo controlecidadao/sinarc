@@ -645,14 +645,13 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
-<br>
 
 <details>
+  
 <summary>Teclas (clque para expandir)</summary>
+<br>
 
-Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC.
-
-Teclas:
+Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas sem descrição ainda não possuem funcionalidades.
 
 **a** --> Amplia seleção de nós para a próxima camada.<br>
 **A** --> Seleciona todos os nós.<br>
