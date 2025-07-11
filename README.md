@@ -658,9 +658,9 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 <summary>Clique para expandir o alfabeto</summary>
 <br>
 
-Abrir [Exemplo_1](https://controlecidadao.github.io/sinarc/exemplo4.html).
+### Comandos introdutórios da interface do SINARC:
 
-Comandos introdutórios da interface do SINARC:
+Abrir o [Exemplo_1](https://controlecidadao.github.io/sinarc/exemplo4.html).
 
 * **Tecla h** --> Abre manual de instruções do SINARC
 * **Imagens dos nós** --> PF, PJ, EN, TE e EM
@@ -675,10 +675,11 @@ Comandos introdutórios da interface do SINARC:
 * **Tecla ESC** --> Centraliza grafo na tela
 * **Clique sobre o nó, arraste e solte** --> Exibe comportamento físico do grafo: interação gravitacional entre os nós (força de repulsão), comportamento de mola das arestas e força gravitacional central (força de atração)
 
-
 Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas sem descrição ainda não possuem funcionalidades.
 
-Teclas:
+<br><br>
+
+### Teclas:
 
 **a** --> Amplia seleção de nós para a próxima camada.<br>
 **A** --> Seleciona todos os nós.<br>
