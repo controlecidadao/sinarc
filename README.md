@@ -403,7 +403,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 <details>
   
-<summary>Clique para expandir o tutorial</summary>
+<summary>👉 Clique para expandir o tutorial</summary>
 <br>
 
 
@@ -655,7 +655,7 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 
 <details>
   
-<summary>Clique para expandir o alfabeto</summary>
+<summary>👉 Clique para expandir o alfabeto</summary>
 <br>
 
 ### Comandos introdutórios da interface do SINARC:
