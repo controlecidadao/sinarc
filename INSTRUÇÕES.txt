@@ -38,6 +38,8 @@ Para iniciar a instalação (procedimento testado com o Windows 11), siga os seg
   3) Caso o Windows não permita a execução do arquivo .bat por meio do método anterior, tente executá-lo usando privilégios de administrador. Para tanto, clique com o botão direito do mouse sobre o arquivo "instalador_main.bat" e selecione a opção "Executar como administrador" (disponível a partir do Windows Vista).
   4) Caso o download dos repositórios apresente erro, repita o procedimento de instalação.
 
+Para compartilhamento da pasta SINARC, recomenda-se gerar um arquivo ZIP usando o programa "7 Zip Portable", disponível em "https://portableapps.com/apps/utilities/7-zip_portable". O arquivo zipado possui aproximadamente 20 GB.
+
 
 ========================================
 2) ROTINA DE CRIAÇÃO DOS BANCOS DE DADOS
