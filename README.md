@@ -647,6 +647,9 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 </p>
 <br>
 
+<details>
+<summary>Teclas (clque para expandir)</summary>
+
 Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC.
 
 Teclas:
@@ -734,6 +737,8 @@ Teclas:
 **SHIFT + ARROW UP** --> Aumenta o tamanho referencial dos nós em 5 pixels (tamanho referencial padrão: 40).<br>
 **SHIFT + ARROW DOWN** --> Diminui o tamanho referencial dos nós em 5 pixels.<br>
 
+</details>
+  
 <br><br>
 
 ## Como criar uma nova instalação do SINARC?
