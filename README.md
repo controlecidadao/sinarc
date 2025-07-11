@@ -210,8 +210,7 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=R73ixbeP0II" target="_blank">
-   <!--<img width="70%" class="clickable-image" src="https://github.com/controlecidadao/sinarc/blob/main/images/noticias_na_intenet.png" alt="Vídeo Demonstrativo" />-->
-   <img width="70%" class="clickable-image" src="./images/noticias_na_intenet.png" alt="Vídeo Demonstrativo" />
+   <img width="50%" class="clickable-image" src="./images/noticias_na_intenet.png" alt="Vídeo Demonstrativo" />
 </a>
 </p>
 
@@ -221,6 +220,24 @@ O vídeo a seguir demonstra a aplicação do SINARC no controle da Administraç�
 
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=R73ixbeP0II" target="_blank">
+   Vídeo Demonstrativo do SINARC
+</a>
+</p>
+
+<br>
+
+<p align="center" width="100%">
+<a href="https://www.youtube.com/watch?v=R4IMKdKB2pg" target="_blank">
+   <img width="50%" class="clickable-image" src="./images/estudo_de_caso_01.png" alt="Vídeo Demonstrativo" />
+</a>
+</p>
+
+<p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/qrcode_video_estudo_de_caso_01.png" alt="QR Code" />
+</p>
+
+<p align="center" width="100%">
+<a href="https://www.youtube.com/watch?v=R4IMKdKB2pg" target="_blank">
    Vídeo Demonstrativo do SINARC
 </a>
 </p>
