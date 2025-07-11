@@ -651,9 +651,9 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC.
 
 Teclas:
 
-**a** --> Amplia seleção de nós para a próxima camada.<br>
-**A** --> Seleciona todos os nós.<br>
-**b** --> Ajusta a altura da janela do grafo à altura da tela do monitor (demonstrar com F11).
+* **a** --> Amplia seleção de nós para a próxima camada.
+* **A** --> Seleciona todos os nós.
+* **b** --> Ajusta a altura da janela do grafo à altura da tela do monitor (demonstrar com F11).
 **B** --> 
 **c** --> Centraliza nós selecionados e seus nós adjacentes ou centraliza grafo quando não há nó selecionado.
 **C** --> 
