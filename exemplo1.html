@@ -1089,7 +1089,7 @@
         var total_n = nodes.getIds();
 
         document.addEventListener('keydown', (event) => {
-            if (event.key == "Delete") {
+            if (event.key == "Delete" || event.key == "Backspace") {
 
                 let sel = network.getSelectedNodes();
                 network.deleteSelected(sel);
