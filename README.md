@@ -588,6 +588,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 ### Deleção de nós
 
 * **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O número acumulado de nós deletados é exibido no canto superior direito da tela.
+* **Tecla Backspace** --> Possui funcionalidade idêntica à da tecla Delete. Útil para explorar os grafos usando o teclado dos aparelhos celulares.
 * **Tecla r** --> Exclui todos os nós que não se encontram selecionados.
 * **Tecla R** --> Exclui todos os nós que não se encontram interligados por arestas coloridas (use o [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html)).
 
@@ -776,6 +777,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **ESC** --> Encaixa o grafo no centro da tela.<br>
 **ESPAÇO** --> Aumenta a massa dos nós com tamanho dentro de uma faixa específica de valores, iniciando pelo nó com maior tamanho (100) e prosseguindo para as faixas de valores seguintes (5 unidades).<br>
 **DEL** --> Deleta os nós que estejam selecionados.<br>
+**BACKSPACE** --> Possui funcionalidade idêntica à da tecla DEL. Útil para explorar os grafos usando o teclado dos aparelhos celulares.
 **F5** --> Recarrega a página do grafo.<br>
 **F11** --> Alterna entre ativação e desativação do modo tela cheia do navegador.<br>
 **SHIFT + ARROW RIGHT** --> Aumenta o comprimento das arestas do grafo em 30 unidades (comprimento padrão: 300).<br>
