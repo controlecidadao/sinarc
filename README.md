@@ -1,6 +1,6 @@
 ![v](https://img.shields.io/badge/Versão-0.1.2-blue)
 [![License: MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![v](https://img.shields.io/badge/Atualização-%2026%20de%20Abril%20de%20%202025-green)
+![v](https://img.shields.io/badge/Atualização-%2013%20de%20Julho%20de%20%202025-green)
 
 <!--![](https://komarev.com/ghpvc/?username=controlecidadao&abbreviated=true&label=Views)-->
 <!-- Fonte: https://github.com/antonkomarev/github-profile-views-counter-->
@@ -79,13 +79,13 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 ### 🚧 Atualizando a Base de Dados 🚧-->
 <br>
 
-#### 💽 Base de dados de CNPJ: &emsp; [19/04/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-04/)
+#### 💽 Data de Extração da Base de dados de CNPJ: &emsp; [15/06/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-06/)
 
 <br>
 
 Devido à sua **portabilidade**, a pasta contendo os programas SINARC, Rede CNPJ e DB Browser, bem como a íntegra do banco de dados com 60 milhões de CNPJs, pode ser baixada e salva em um pen drive ou HD externo (preferencialmente com alta taxa de transferência de dados) para facilitar sua utilização em diferentes computadores com sistema operacional Windows.
 
-**[Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=1WECxXULCe7AfojFHlkOyDgWeFXuTAQdY)**. O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é _ae82acec7e3a77621ea61311650cacbb5cacc9234af2c456b1b0154eb95e8667_. Valide a integridade do arquivo baixado submetendo-o a este [site de verificação](https://emn178.github.io/online-tools/sha256_checksum.html) e comparando a saída (Output) com o código SHA-256 fornecido.
+**[Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=13bMZyf0dzefvzqV79oV1c95IWiy_ZAoR)**. O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é **_c482345d00efd048ad8139d29c3156121d4e866ff37b5a398e757fd5736674fc_**. Valide a integridade do arquivo baixado submetendo-o a este [site de verificação](https://emn178.github.io/online-tools/sha256_checksum.html) e comparando a saída (Output) com o código SHA-256 fornecido.
 
 
 **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 GB para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço suficiente no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_ -> _Local_).
@@ -983,6 +983,13 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 <summary>Versões relevantes do código (clique para expandir)</summary>
 
 <br><br>
+
+<b>Versão 0.1.2 (13-07-2025):</b>
+<br>
+<ul>
+  <li>Ajuste do gênero das imagens das pessoas físicas (homem e mulher) com base no seu primeiro nome.</li>
+</ul>
+<br>
 
 <b>Versão 0.1.2 (26-04-2025):</b>
 <br>
