@@ -79,7 +79,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 ### 🚧 Atualizando a Base de Dados 🚧-->
 <br>
 
-#### 💽 Data de Extração da Base de dados de CNPJ: &emsp; [15/06/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-06/)
+#### 💽 Data de Extração da Base de Dados de CNPJ: &emsp; [15/06/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-06/)
 
 <br>
 
