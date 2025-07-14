@@ -988,6 +988,7 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 <br>
 <ul>
   <li>Ajuste do gênero das imagens das pessoas físicas (homem e mulher) com base no seu primeiro nome.</li>
+  <li>Inclusão da tecla BACKSPACE com função idêntica à da tecla DELETE para permitir a exclusão de nós ao usar o teclado de aparelhos celulares.</li>
 </ul>
 <br>
 
