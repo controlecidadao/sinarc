@@ -984,7 +984,7 @@ Relação de sites e documentos contendo informações (nomes de pessoas física
 
 <br><br>
 
-<b>Versão 0.1.2 (13-07-2025):</b>
+<b>Versão 0.2.0 (13-07-2025):</b>
 <br>
 <ul>
   <li>Ajuste do gênero das imagens das pessoas físicas (homem e mulher) com base no seu primeiro nome.</li>
