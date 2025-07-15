@@ -438,7 +438,10 @@ Os **nós** do grafo possuem:
 * **Tamanho:** propriedade dos nós definida automaticamente pelo sistema entre 20 (mínimo) e 100 (máximo), com base no número de conexões (arestas).
 * **Grupo:** propriedade definida automaticamente pelo sistema que indica o número da comunidade a que pertence o nó no grafo. Os nós pertencentes a uma mesma comunidade são mais densamente conectados entre si do que com nós de outras comunidades.
 
-Por sua vez, as **arestas** possuem propriedade elástica, comportando-se como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
+Por sua vez, as **arestas** possuem:
+
+* **Elasticidade:** propriedade que faz com que as arestas se comportem como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
+* **Comprimento:** propriedade que define o tamanho inicial das arestas.
 
 A descrição dos comandos acionados com o mouse e com o teclado, bem como a massa, o tamanho e o grupo de cada nó, são exibidos no canto superior direito da tela durante 3s.
 
