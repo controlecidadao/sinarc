@@ -434,11 +434,11 @@ Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla Ca
 
 Os **nós** do grafo possuem:
 
-* **Massa:** iniciando com valor 1 (mínimo) e ajustável pelo usuário para controlar a força de repulsão (afastamento) que define a posição dos nós na tela, no layout gravitacional.
-* **Tamanho:** definido automaticamente pelo sistema entre 20 (mínimo) e 100 (máximo), com base no número de conexões (arestas).
-* **Grupo:** identificado automaticamente pelo sistema para indicar o número de comunidades de nós no grafo. Os nós pertencentes a uma comunidade são mais densamente conectados entre si do que com nós de outras comunidades.
+* **Massa:** propriedade que define a posição dos nós na tela, no layout gravitacional. Inicia com valor 1 (mínimo), sendo ajustável pelo usuário para controlar a intensidade da força de repulsão (afastamento).
+* **Tamanho:** propriedade dos nós definida automaticamente pelo sistema entre 20 (mínimo) e 100 (máximo), com base no número de conexões (arestas).
+* **Grupo:** propriedade definida automaticamente pelo sistema que indica o número da comunidade a que pertence o nó no grafo. Os nós pertencentes a uma mesma comunidade são mais densamente conectados entre si do que com nós de outras comunidades.
 
-Por sua vez, as **arestas** se comportam como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
+Por sua vez, as **arestas** possuem propriedade elástica, comportando-se como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
 
 A descrição dos comandos acionados com o mouse e com o teclado, bem como a massa, o tamanho e o grupo de cada nó, são exibidos no canto superior direito da tela durante 3s.
 
