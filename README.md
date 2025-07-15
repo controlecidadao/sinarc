@@ -537,10 +537,10 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 ### Seleção de nós com o teclado
 
 * **Tecla A** --> Seleciona todos os nós do grafo simultaneamente.
-* **Tecla ,** --> Abre janela contendo os rótulos de todos os nós selecionados, segregados por tipo de nó.
-* **Tecla a** --> Seleciona os nós adjacentes aos nós que se encontram selecionados. Selecione um nó com apenas uma aresta e pressione a tecla "a" até que todos os nós sejam desselecionados.
+* **Tecla ,** --> Abre janela contendo os rótulos de todos os nós selecionados, segregados por tipo de nó. Experimente usar Ctrl + f para pesquisar na janela.
+* **Tecla a** --> Seleciona os nós adjacentes ao nó que se encontra selecionado. Selecione um nó com apenas uma aresta e pressione a tecla "a" até que todos os nós do grafo sejam selecionados. Ao final, todos os nós são desselecionados.
 * **Tecla c** --> Alterna entre a aproximação do nó selecionado e o enquadramento na tela de seus nós adjacentes. Selecione um nó do grafo e pressione a tecla c por 2 vezes. Quando dois ou mais nós são selecionados, enquadra na tela seus nós adjacentes. Quando não há nó selecionado, enquadra o grafo no centro da tela (mesma função da tecla Escape).
-* **Tecla i** --> Alterna entre os nós selecionados, aproximando de cada um deles. Selecione 3 nós no grafo (Ctrl + clique) e pressione a tecla i por 3 vezes.
+* **Tecla i** --> Alterna entre os nós selecionados, aproximando de cada um deles na sequência em que foram selecionados. Selecione 3 nós no grafo (Ctrl + clique) e pressione a tecla i por 3 vezes.
 * **Tecla I (i maiúsculo)** --> Inverte seleção dos nós do grafo. Selecione alguns nós e aperte a tecla I.
 * **Tecla ç** --> Alterna entre seleção dos nós de Endereços (EN), Telefones (TE) e E-mails (EM) com apenas 1 conexão, seguida por estes mesmo nós com mais de 1 conexão, e por fim desseleciona todos os nós (pressione 3 vezes).
 * **Tecla Ç** --> Alterna entre seleção dos nós com número crescente de conexões (1, 2, 3 etc.). Pressione até que todos os nós sejam desselecionados.
