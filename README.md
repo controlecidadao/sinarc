@@ -441,7 +441,7 @@ Os **nós** do grafo possuem:
 Por sua vez, as **arestas** possuem:
 
 * **Elasticidade:** propriedade que faz com que as arestas se comportem como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
-* **Comprimento:** propriedade que define o tamanho inicial das arestas.
+* **Comprimento:** propriedade que define o tamanho das arestas.
 
 A descrição dos comandos acionados com o mouse e com o teclado, bem como a massa, o tamanho e o grupo de cada nó, são exibidos no canto superior direito da tela durante 3s.
 
