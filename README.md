@@ -458,16 +458,15 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
 ### Ajuste de Tela
 
-* **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior.
-* **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes).
-* **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador.
+* **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior (pressione algumas vezes para visualizar seu funcionamento).
+* **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes e observe o aparecimento da barra de rolagem vertical).
+* **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador, eliminando a barra de rolagem vertical.
 * **Tecla Escape** --> Enquadra o grafo no centro da tela.
 
 <br>
 
 ### Ajuste de Layout
   
-* **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia.
 * **Tecla k** --> Alterna de forma cíclica entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes.  Vide detalhes no canto superior direito da tela.
 * **Tecla Escape** --> Enquadra o grafo no centro da tela.
 * **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 2 vezes).
@@ -478,7 +477,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 ### Exibição de informações no grafo sobre nós e arestas
 
 * **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes.
-* **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 1,5s para exibir suas informações.
+* **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 1,5s para exibir suas informações em um popup.
 
 <br>
 
