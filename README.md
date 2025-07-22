@@ -46,6 +46,11 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 2. Conjunto de ferramentas computacionais que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de informações, **padrões** ocultos e **anomalias** relevantes para a produção de conhecimento.
 
+Os **exemplos** que ilustram o uso do SINARC foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente demonstrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas.
+
+**QR Codes** permitem a abertura e exploração dos grafos online em aparelhos celulares. Para abrir o teclado do celular e digitar os comandos do SINARC, clique no botão localizado no centro inferior da tela.
+
+
 <br><br>
 
 <p align="center" width="100%">
@@ -191,12 +196,6 @@ A [Instrução Normativa RFB 2.119/2022](https://normasinternet2.receita.fazenda
 
 Para acessar a fonte primária dos dados usados pelo SINARC, clique [aqui](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/). 
 Conheça também o [Dicionário de Dados](https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf) de CNPJ da Receita Federal.
-
-Os exemplos que ilustram o uso do SINARC foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente demonstrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas.
-
-Links para sites externos foram incluídos para mostrar a possibilidade de ampliação das funcionalidades da ferramenta.
-
-QR Codes permitem a abertura e exploração dos grafos online em aparelhos celulares (recurso em fase de teste). Na página do grafo, clique no botão localizado no centro da parte inferior da tela para abrir o teclado do celular e digitar os comandos do SINARC.
 
 <br><br>
 
