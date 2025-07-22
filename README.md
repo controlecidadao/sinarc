@@ -687,13 +687,13 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 
 * **Tecla h** --> Abre manual de instruções do SINARC
 * **Imagens dos nós** --> PF, PJ, EN, TE e EM
-* **Imagem das conexões** --> Arestas unidirecionais
+* **Imagem das conexões** --> Setas unidirecionais
 * **Feedback de interação** --> Mensagem exibida no canto superior direito da tela
-* **Clique na área do grafo** --> Desseleciona todos os nós e mostra número total de nós do grafo. Mostrar número da aba do navegador.
+* **Clique na área do grafo** --> Desseleciona todos os nós e mostra número total de nós do grafo, também exibido na aba do navegador.
 * **Mouse passando sobre nó** --> Destaca conexões adjacentes
 * **Mouse parado sobre nó** --> Destaca conexões adjacentes e exibe propriedades do nó e de suas conexões
-* **Clique sobre o nó** --> Seleciona o nó
-* **CTRL + clique sobre os nós** --> Seleciona os nós
+* **Clique sobre o nó** --> Seleciona o nó clicado
+* **CTRL + clique sobre os nós** --> Seleciona os nós clicados
 * **Botão de rolagem do mouse** --> Aproxima e afasta o grafo na posição do ponteiro do mouse
 * **Tecla ESC** --> Centraliza grafo na tela
 * **Clique sobre o nó, arraste e solte** --> Exibe comportamento físico do grafo: interação gravitacional entre os nós (força de repulsão), comportamento de mola das arestas e força gravitacional central (força de atração)
