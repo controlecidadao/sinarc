@@ -427,7 +427,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 <!--### 🚧 Tutorial em Construção 🚧-->
 
-O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso dos comandos do SINARC que não dependem de consulta em tempo real ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente <b>80 comandos básicos</b> acionados pelo mouse e pelo teclado, cuja combinação permite a visualização dos grafos sob múltiplas perspectivas, ampliando as possibilidades de análise e enriquecendo a interpretação dos dados.
+O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso dos comandos do SINARC que não dependem de consulta em tempo real ao banco de dados, utilizando grafos disponíveis online. O SINARC possui aproximadamente **80 comandos básicos** acionados pelo mouse e pelo teclado, cuja combinação permite a visualização dos grafos sob **múltiplas perspectivas**, ampliando as possibilidades de análise e enriquecendo a interpretação dos dados.
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, pressione Shift + tecla desejada.<br>
 
