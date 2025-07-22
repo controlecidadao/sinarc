@@ -48,7 +48,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 Os **exemplos** que ilustram o uso do SINARC foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente demonstrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas.
 
-**QR Codes** permitem a abertura e exploração dos grafos online em aparelhos celulares. Para abrir o teclado do celular e digitar os comandos do SINARC, clique no botão localizado no centro inferior da tela.
+**QR Codes** permitem a abertura e exploração dos grafos online em aparelhos celulares. Para abrir o teclado do celular e digitar os comandos do SINARC, clique no [botão central](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior da tela.
 
 
 <br><br>
