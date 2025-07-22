@@ -431,13 +431,13 @@ O objetivo deste tutorial é demonstrar, de forma prática, passo a passo, o uso
 
 Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla CapsLock desativada). Para executar comandos com letras maiúsculas, pressione Shift + tecla desejada.<br>
 
-Os **nós** do grafo possuem:
+Os **nós** do grafo possuem as seguintes propriedades:
 
 * **Massa:** propriedade que define a posição dos nós na tela, no layout gravitacional. Inicia com valor 1 (mínimo), sendo ajustável pelo usuário para controlar a intensidade da força de repulsão (afastamento).
 * **Tamanho:** propriedade dos nós definida automaticamente pelo sistema entre 20 (mínimo) e 100 (máximo), com base no número de conexões (arestas).
 * **Grupo:** propriedade definida automaticamente pelo sistema que indica o número da comunidade a que pertence o nó no grafo. Os nós pertencentes a uma mesma comunidade são mais densamente conectados entre si do que com nós de outras comunidades.
 
-Por sua vez, as **arestas** possuem:
+Por sua vez, as propriedades das **arestas** são as seguintes:
 
 * **Elasticidade:** propriedade que faz com que as arestas se comportem como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
 * **Comprimento:** propriedade que define o tamanho das arestas.
