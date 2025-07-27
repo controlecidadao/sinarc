@@ -685,7 +685,7 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 <summary>👉 Clique para expandir o alfabeto</summary>
 <br>
 
-### Comandos introdutórios da interface do SINARC:
+### Comandos básicos da interface SINARC:
 
 <br>
 
