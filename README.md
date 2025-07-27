@@ -660,9 +660,9 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 
 <br>
 
-### Função de cópia do sistema operacional
+### Modo de captura (CTRL + c)
 
-* **Tecla |** --> Ativa/desativa a função de cópia (Ctrl + c) do SINARC. Quando ativada, a função Ctrl + c do sistema operacional fica vinculada exclusivamente ao funcionamento do SINARC, tornando-se indisponível para uso com outros programas; quando desativada, copia o id do nó selecionado, permitindo sua tranferência para o programa Rede CNPJ (Ctrl + v).
+* **Tecla |** --> Ativa/desativa a função de captura/cópia (Ctrl + c) do SINARC. Quando ativada, a função Ctrl + c do sistema operacional fica vinculada exclusivamente ao funcionamento do SINARC, tornando-se indisponível para uso com outros programas; quando desativada, copia o id do nó selecionado, permitindo sua tranferência para o programa Rede CNPJ (Ctrl + v).
 <br>
 
 Comandos que dependem de consulta em tempo real ao banco de dados, necessitando que o SINARC e o Rede CNPJ estejam em execução: **Teclas o O s y 4** 
