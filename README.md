@@ -694,6 +694,7 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 * **Tecla F5** --> Recarrega página do grafo (arquivo HTML)
 * **Tecla h** --> Abre manual de instruções do SINARC
 * **Imagens dos nós** --> PF, PJ, EN, TE e EM
+* **Tamanho dos nós** --> Proporcional ao número de arestas (medida de centralidade de grau)
 * **Imagem das conexões** --> Setas unidirecionais
 * **Feedback de interação** --> Mensagem exibida no canto superior direito da tela
 * **Clique na área do grafo** --> Desseleciona todos os nós e mostra número total de nós do grafo, também exibido na aba do navegador.
