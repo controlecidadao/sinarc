@@ -691,6 +691,7 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - U
 
 Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.
 
+* **Tecla F5** --> Recarrega página do grafo (arquivo HTML)
 * **Tecla h** --> Abre manual de instruções do SINARC
 * **Imagens dos nós** --> PF, PJ, EN, TE e EM
 * **Imagem das conexões** --> Setas unidirecionais
