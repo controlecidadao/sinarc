@@ -26,7 +26,7 @@
 * [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)
 * [A quem se destina o SINARC?](#a-quem-se-destina-o-sinarc)
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
-* [Algumas possibilidades de uso do SINARC](#algumas-possibilidades-de-uso-do-sinarc)
+* [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
 * [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
 * [Histórico de versões](#histórico-de-versões)
 
@@ -922,7 +922,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 <br><br>
 
-## Algumas possibilidades de uso do SINARC
+## Possibilidades de uso do SINARC
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
