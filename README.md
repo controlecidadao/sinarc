@@ -75,7 +75,7 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 
 <br><br>
 
-Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https://notebooklm.google.com/notebook/57975d7c-3dae-43a6-816c-0ff391426cf4) na plataforma **NotebookLM** (necessário login com a conta no Google). Esta ferramenta, baseada em IA generativa, examina simultaneamente os documentos do SINARC (README, Manual e código fonte), permitindo a obtenção de respostas detalhadas sobre as funcionalidades do sistema por meio da geração de mapas mentais, resumos em áudio, podcasts interativos, entrou outros recursos.
+Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https://notebooklm.google.com/notebook/57975d7c-3dae-43a6-816c-0ff391426cf4) na plataforma **NotebookLM** (necessário login com a conta no Google). Esta ferramenta, baseada em IA generativa, examina simultaneamente os documentos do SINARC (README, Manual do SINARC e seu código fonte), permitindo a obtenção de respostas detalhadas sobre as funcionalidades do sistema por meio da geração de mapas mentais, resumos em áudio, podcasts interativos, entrou outros recursos.
 
 <br><br>
 
