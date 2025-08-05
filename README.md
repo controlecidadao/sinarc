@@ -94,7 +94,7 @@ Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https:
 
 <br>
 
-Devido à sua portabilidade, a **pasta SINARC** contendo os programas SINARC e Rede CNPJ para análise de grafos, e [DB Browser](https://sqlitebrowser.org/) para consulta direta aos bancos de dados com 60 milhões de CNPJs, pode ser baixada e descompactada para um pen drive ou HD externo, facilitando sua utilização em diferentes computadores.
+Devido à sua portabilidade, a **pasta SINARC** contendo os programas SINARC e Rede CNPJ para análise de grafos, e [DB Browser](https://sqlitebrowser.org/) para consulta direta aos bancos de dados, pode ser baixada e descompactada para um pen drive ou HD externo, facilitando sua utilização em diferentes computadores.
 
 **[Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=13bMZyf0dzefvzqV79oV1c95IWiy_ZAoR)**. O arquivo _SINARC.zip_ possui 20 GB. O código SHA-256 de integridade do arquivo é **_c482345d00efd048ad8139d29c3156121d4e866ff37b5a398e757fd5736674fc_**. Valide a integridade do arquivo baixado submetendo-o a este [site de verificação](https://emn178.github.io/online-tools/sha256_checksum.html) e comparando a saída (Output) com o código SHA-256 fornecido.
 
