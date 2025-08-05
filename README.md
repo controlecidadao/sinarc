@@ -90,13 +90,19 @@ Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https:
 ### 🚧 Atualizando a Base de Dados 🚧-->
 <br>
 
-#### 💽 Data de Extração da Base de Dados de CNPJ: &emsp; [15/06/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-06/)
+<!--#### 💽 Data de Extração da Base de Dados de CNPJ: &emsp; [15/06/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-06/)-->
+
+Data de extração da base de dados contida no Pen Drive SINARC: [15/06/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-06/)
 
 <br>
 
 Devido à sua portabilidade, a **pasta SINARC** contendo os programas SINARC e Rede CNPJ para análise de grafos, e [DB Browser](https://sqlitebrowser.org/) para consulta direta aos bancos de dados, pode ser baixada e descompactada para um pen drive ou HD externo, facilitando sua utilização em diferentes computadores.
 
-**[Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=13bMZyf0dzefvzqV79oV1c95IWiy_ZAoR)**
+<br>
+
+**👉 [Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=13bMZyf0dzefvzqV79oV1c95IWiy_ZAoR)**
+
+<br>
 
 O arquivo _SINARC.zip_ possui 20 GB (SHA-256: _c482345d00efd048ad8139d29c3156121d4e866ff37b5a398e757fd5736674fc_).
 
