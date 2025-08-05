@@ -130,7 +130,7 @@ Conquanto o SINARC utilize apenas a modelagem de criação e de consulta aos ban
 
 <!--**ATENÇÃO:** O uso do SINARC com pen drive reduz o desempenho do sistema, em especial com grafos muito grandes. Para desempenho máximo, salve a pasta SINARC diretamente no computador.-->
 
-Os testes foram realizados usando pen drive de 128 GB, USB 3.2.
+Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 
 <!--Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).-->
 
