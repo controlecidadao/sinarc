@@ -138,6 +138,18 @@ Conquanto o SINARC utilize apenas a modelagem de criação e de consulta aos ban
 
 Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 
+<br>
+
+### SINARC-Client
+
+É possível acessar remotamente o SINARC instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede. Para tanto, basta baixar o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0), uma versão reduzida do SINARC (470 MB), sem os bancos de dados, que permite utilizar todas as funcionalidades da ferramenta.
+
+Após baixar e descompactar a pasta SINARC-Client para o segundo computador (C2), abra o arquivo _**endereco_ip.txt**_ e inclua em uma nova linha o endereço IPv4 do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter o endereço IPv4 encontram-se no referido arquivo TXT.
+
+Por fim, salve (CTRL + s) e feche o arquivo _endereco_ip.txt_.
+
+Para abrir o SINARC-Client no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_. É necessário que a versão completa do SINARC esteja em execução no computador principal (C1).
+
 <!--Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).-->
 
 <br><br>
