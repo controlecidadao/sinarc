@@ -142,11 +142,10 @@ Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 
 ### SINARC-Client
 
-É possível acessar remotamente o SINARC instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede. Para tanto, basta baixar o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (460 MB), uma versão reduzida do SINARC, sem os bancos de dados, que permite utilizar todas as funcionalidades da ferramenta.
+É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede. Para tanto, basta baixar o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (460 MB), uma versão reduzida do SINARC, sem os bancos de dados, que permite utilizar todas as funcionalidades da ferramenta.
 
 <p align="center" width="100%">
-<!--<img width="100%" src="https://github.com/controlecidadao/sinarc/blob/main/images/server-client.webp" />-->
-<img width="50%" src="./images/sinarc.png" />
+<img width="30%" src="./images/server-client.webp" />
 </p>
 
 Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**endereco_ip.txt**_ e inclua em uma nova linha o endereço IPv4 do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter o endereço IPv4 encontram-se no próprio arquivo TXT.
