@@ -148,7 +148,7 @@ Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador 
 
 Por fim, salve (CTRL + s) e feche o arquivo _endereco_ip.txt_.
 
-Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na pasta SINARC-Client. É necessário que a versão completa do SINARC esteja em execução no computador principal (C1).
+Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na pasta SINARC-Client. É necessário que a versão completa do SINARC esteja em execução no computador principal (C1), se possível usando **IP fixo (estático)** para evitar sua mudança após reinicialização.
 
 <!--Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).-->
 
