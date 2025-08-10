@@ -147,6 +147,9 @@ Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 <p align="center" width="100%">
 <img width="40%" src="./images/server-client.webp" />
 </p>
+<p align="center" width="100%">
+<a href="https://mayank-blogs.hashnode.dev/web-sockets-part-1">mayank-blogs.hashnode.dev</a>
+</p>
 
 Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**endereco_ip.txt**_ e inclua em uma nova linha o endereço IPv4 do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter o endereço IPv4 encontram-se no próprio arquivo TXT.
 
