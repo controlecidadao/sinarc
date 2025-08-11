@@ -16,6 +16,7 @@
 
 * [O que é o SINARC?](#o-que-é-o-sinarc)
 * [Como criar o Pen Drive SINARC](#como-criar-o-pen-drive-sinarc)
+* [SINARC-Client](#sinarc-client)
 * [O que é uma rede complexa?](#o-que-é-uma-rede-complexa)
 * [Qual o objetivo do SINARC?](#qual-o-objetivo-do-sinarc)
 * [O SINARC utiliza dados sigilosos?](#o-sinarc-utiliza-dados-sigilosos)
@@ -138,18 +139,22 @@ Conquanto o SINARC utilize apenas a modelagem de criação e de consulta aos ban
 
 Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 
-<br>
+<br><br>
 
-### SINARC-Client
-
-É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede. Para tanto, basta baixar o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (460 MB), uma versão reduzida do SINARC, sem os bancos de dados, que permite utilizar todas as funcionalidades da ferramenta.
+## SINARC-Client
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
 
 <p align="center" width="100%">
 <img width="40%" src="./images/server-client.webp" />
 </p>
-<p align="center" width="100%">
+
+É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede. Para tanto, basta baixar o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (460 MB), uma versão reduzida do SINARC, sem os bancos de dados, que permite utilizar todas as funcionalidades da ferramenta.
+
+<!--<p align="center" width="100%">
 <a href="https://mayank-blogs.hashnode.dev/web-sockets-part-1">mayank-blogs.hashnode.dev</a>
-</p>
+</p>-->
 
 Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**endereco_ip.txt**_ e inclua em uma nova linha o endereço IPv4 do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter o endereço IPv4 encontram-se no próprio arquivo TXT.
 
