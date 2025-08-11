@@ -133,7 +133,7 @@ Para usar o Pen Drive SINARC, siga estes passos:
 
 Pronto! Os programas SINARC, Rede CNPJ e DB Browser já podem ser utilizados.
 
-**ATENÇÃO:** Para ativar/desativar o **modo de captura do SINARC**, pressione a **tecla |** enquanto visualiza um grafo. Uma mensagem será exibida no canto superior esquerdo da tela. Quando ativado, o modo de captura impede o uso da função de cópia (CTRL + c) do Windows.
+**ATENÇÃO:** Para ativar/desativar o **modo de captura do SINARC**, pressione a **tecla |** enquanto visualiza um grafo. Uma mensagem será exibida no canto superior esquerdo da tela, indicando a mudança de estado. Quando o modo de captura está ativado, a função de cópia do Windows (CTRL + c) fica vinculada ao SINARC, impedindo seu uso por outros programas.
 
 Conquanto o SINARC utilize apenas a modelagem de criação e de consulta aos bancos de dados desenvolvida pelo projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa como etapa prévia à abertura do SINARC, permitindo ao cidadão explorar simultaneamente os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, disponibilizando-o igualmente como software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos.
 
