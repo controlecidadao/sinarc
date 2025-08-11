@@ -150,7 +150,7 @@ Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 <img width="40%" src="./images/server-client.webp" />
 </p>
 
-É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede. Para tanto, basta baixar o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (460 MB), uma versão reduzida do SINARC, sem os bancos de dados, que permite utilizar todas as funcionalidades da ferramenta.
+É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede. Para tanto, basta baixar para C2 o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (460 MB), uma versão reduzida do SINARC, sem os bancos de dados, que permite utilizar todas as funcionalidades da ferramenta.
 
 <!--<p align="center" width="100%">
 <a href="https://mayank-blogs.hashnode.dev/web-sockets-part-1">mayank-blogs.hashnode.dev</a>
