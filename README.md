@@ -51,6 +51,17 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 > _O **Projeto SINARC** integra o Plano de Metas 2025 da Rede de Informações Estratégicas dos Ministérios Públicos de Contas ([Rede MPContas](https://mp.tcu.gov.br/rede-mpcontas/))_
 
+<br>
+
+<p align="center" width="100%">
+<img width="20%" class="clickable-image" src="./images/plano_metas_2025.jpg" alt="Plano de Metas" />
+</p>
+
+<p align="center" width="100%">
+<a href="https://mp.tcu.gov.br/wp-content/uploads/2025/07/MapeamentoAtividadesInteligenciaMPCs_RedeMPContas.pdf">Plano de Metas 2025 - Rede MPContas</a> 
+</p> 
+
+
 <!--e encontra-se em processo de revisão por parte do [Science Data Bank](https://www.scidb.cn/en) para fins de disponibilização (DOI/CSTR) em seu repositório de bases de dados.-->
 
 <br><br>
