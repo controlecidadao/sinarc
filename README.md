@@ -51,12 +51,10 @@ O **Projeto SINARC** integra o Plano de Metas 2025 da Rede de Informações Estr
 
 <br>
 
+<p align="center" width="100%">
 <a href="https://mp.tcu.gov.br/wp-content/uploads/2025/07/PlanoMetas_RedeMPContas.pdf" target="_blank">
    <img width="20%" class="clickable-image" src="./images/plano_metas_2025.jpg" alt="Plano de Metas" />
 </a>
-
-<p align="center" width="100%">
-<img width="20%" class="clickable-image" src="./images/plano_metas_2025.jpg" alt="Plano de Metas" />
 </p>
 
 <p align="center" width="100%">
