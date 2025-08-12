@@ -21,11 +21,11 @@
 * [Qual o objetivo do SINARC?](#qual-o-objetivo-do-sinarc)
 * [O SINARC utiliza dados sigilosos?](#o-sinarc-utiliza-dados-sigilosos)
 * [Para que serve o SINARC?](#para-que-serve-o-sinarc)
+* [A quem se destina o SINARC?](#a-quem-se-destina-o-sinarc)
 * [Playground SINARC](#playground-sinarc)
 * [Tutorial interativo do SINARC](#tutorial-interativo-do-sinarc)
 * [Alfabeto de comandos do SINARC](#alfabeto-de-comandos-do-sinarc)
 * [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)
-* [A quem se destina o SINARC?](#a-quem-se-destina-o-sinarc)
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
 * [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
@@ -407,6 +407,18 @@ Para permitir seu compartilhamento, os grafos interativos gerados pelo SINARC s�
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo8.html">Exemplo 8</a>: Grafo interativo de grupos econômicos aberto em 4 camadas, exibindo 3192 nós e 7517 arestas. <b>Clique na imagem e interaja com o grafo</b>, pressionando a tecla "p" para parar os movimentos e posicionando o ponteiro do mouse sobre os nós para ver seus detalhes.
 </p>
+
+<br><br>
+
+## A quem se destina o SINARC?
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
+<br>
+
+O SINARC se destina a todos que exercem o controle social e institucional da Administração Pública, como auditores, jornalistas, comissões de licitação, procuradorias jurídicas, sistemas de controle interno, ministérios públicos, entre outros órgãos e instituições, além do cidadão interessado em obter informações sobre a estrutura empresarial de grupos econômicos, em especial sobre as pessoas físicas e jurídicas que integram a cadeia hierárquica de comando, a situação jurídica de empresas e as relações existentes entre pessoas físicas e jurídicas cadastradas na base de dados pública de CNPJ da Receita Federal.
+
+**ATENÇÃO:** Antes de utilizar as informações obtidas por meio do SINARC, valide-as mediante consulta direta às fontes primárias dos dados. Após selecionar a empresa, pressione a **tecla 1** para abrir a consulta na página da Receita Federal.
 
 <br><br>
 
@@ -869,18 +881,6 @@ Para gerar uma nova instalação dos sistemas SINARC e Rede CNPJ, incluindo a cr
 Para ampliar a capacidade de pesquisa, baixe e descompacte na pasta SINARC (criada pelo usuário para abrigar o sistema) a versão portátil e gratuita do programa [DB Browser](https://sqlitebrowser.org/dl/) (arquivo "_DB Browser for SQLite - .zip (no installer) for 64-bit Windows_"). Com o auxílio do DB Browser é possível realizar filtros e consultas diretamente nas tabelas dos bancos de dados do sistema, combinando critérios de busca que não estão disponíveis nas interfaces gráficas do SINARC e do Rede CNPJ para chegar aos números de CNPJ que deseja explorar.
 
 O manual de instruções do SINARC pode ser acessado pressionando-se a tecla h (de _help_) durante o uso do sistema. Já o manual do Rede CNPJ encontra-se disponível na página do projeto.
-
-<br><br>
-
-## A quem se destina o SINARC?
-<p align="right" width="100%">
-  <a href="#sumário">Sumário</a>
-</p>
-<br>
-
-O SINARC se destina a todos que exercem o controle social e institucional da Administração Pública, como auditores, jornalistas, comissões de licitação, procuradorias jurídicas, sistemas de controle interno, ministérios públicos, entre outros órgãos e instituições, além do cidadão interessado em obter informações sobre a estrutura empresarial de grupos econômicos, em especial sobre as pessoas físicas e jurídicas que integram a cadeia hierárquica de comando, a situação jurídica de empresas e as relações existentes entre pessoas físicas e jurídicas cadastradas na base de dados pública de CNPJ da Receita Federal.
-
-**ATENÇÃO:** Antes de utilizar as informações obtidas por meio do SINARC, valide-as mediante consulta direta às fontes primárias dos dados. Após selecionar a empresa, pressione a **tecla 1** para abrir a consulta na página da Receita Federal.
 
 <br><br>
 
