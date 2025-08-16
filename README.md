@@ -108,9 +108,9 @@ Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https:
 ### 🚧 Atualizando a Base de Dados 🚧-->
 <br>
 
-<!--#### 💽 Data de Extração da Base de Dados de CNPJ: &emsp; [15/06/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-06/)-->
+<!--#### 💽 Data de Extração da Base de Dados de CNPJ: &emsp; [09/08/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-08/)-->
 
-Data de extração da base de dados contida no Pen Drive SINARC: [15/06/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-06/)
+Data de extração da base de dados contida no Pen Drive SINARC: [09/08/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-08/)
 
 <br>
 
@@ -118,11 +118,11 @@ Devido à sua portabilidade, a **pasta SINARC** contendo os programas SINARC e R
 
 <br>
 
-**👉 [Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=13bMZyf0dzefvzqV79oV1c95IWiy_ZAoR)**
+**👉 [Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=174KsLXflt9YC0A1en4Q_Af5MyiO7oumU)**
 
 <br>
 
-O arquivo _SINARC.zip_ possui 20 GB (SHA-256: _c482345d00efd048ad8139d29c3156121d4e866ff37b5a398e757fd5736674fc_).
+O arquivo _SINARC.zip_ possui 20 GB ([SHA-256](https://emn178.github.io/online-tools/sha256_checksum.html): _368886b18229c209dd1fccac0c7cd431cc937715974edb8b654b34fbe68ed1fa_).
 
 <!--Valide a integridade do arquivo baixado submetendo-o a este [site de verificação](https://emn178.github.io/online-tools/sha256_checksum.html) e comparando a saída (Output) com o código SHA-256 fornecido.-->
 
