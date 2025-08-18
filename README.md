@@ -131,7 +131,7 @@ Dica rápida de ajuste do grafo:
 2) Pressione a **tecla "m"** algumas vezes para ampliar a distância entre os nós (SHIFT + "m" para reduzir)
 3) Pressione a **tecla "ESCAPE"** para centralizar o grafo na tela
 
-Para uma experiência completa sobre as funcionalidades da ferramenta, baixe o Pen Drive SINARC para executá-lo localmente no computador.
+Para uma experiência completa - sem limites - sobre as funcionalidades da ferramenta, baixe o **Pen Drive SINARC** para executá-lo localmente no computador.
 
 <br><br>
 
