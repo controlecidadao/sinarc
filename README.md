@@ -15,8 +15,9 @@
 ## Sumário
 
 * [O que é o SINARC?](#o-que-é-o-sinarc)
+* [Sinarc Online](#sinarc-online)
 * [Como criar o Pen Drive SINARC](#como-criar-o-pen-drive-sinarc)
-* [SINARC-Client](#sinarc-client)
+* [SINARC Client](#sinarc-client)
 * [O que é uma rede complexa?](#o-que-é-uma-rede-complexa)
 * [Qual o objetivo do SINARC?](#qual-o-objetivo-do-sinarc)
 * [O SINARC utiliza dados sigilosos?](#o-sinarc-utiliza-dados-sigilosos)
@@ -68,7 +69,7 @@ O **Projeto SINARC** integra o Plano de Metas 2025 da Rede de Informações Estr
 
 Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informações públicas**, foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente demonstrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas.
 
-**QR Codes** permitem a abertura e exploração dos grafos online em aparelhos celulares. Para abrir o teclado do celular e digitar os comandos do SINARC, clique no [botão central](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior da tela do celular.
+**QR Codes** permitem a abertura e exploração dos grafos online em aparelhos celulares. Para abrir o teclado do celular e digitar os comandos do SINARC, clique no [botão](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior central da tela do celular.
 
 
 <br><br>
@@ -90,6 +91,35 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 <br><br>
 
 Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https://notebooklm.google.com/notebook/57975d7c-3dae-43a6-816c-0ff391426cf4) na plataforma **NotebookLM**, utilizando sua conta no Google. Esta ferramenta, baseada em **Inteligência Artificial**, examina simultaneamente os documentos do SINARC (README, Manual do SINARC e seu código fonte), permitindo a obtenção de respostas detalhadas sobre as funcionalidades do sistema.
+
+<br><br>
+
+## SINARC Online
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
+
+Encontra-se em **fase de testes** uma versão online do SINARC, acessível diretamente por meio do navegador a partir de computadores e dispositivos móveis: [Link da versão online do SINARC]() (disponibilidade intermitente)
+
+Esta versão permite explorar **qualquer CNPJ** em até **3 camadas**, desde que o processo de geração do grafo não exceda **2 minutos**.
+
+<br>
+
+### Como consultar CNPJ
+
+Para consultar um número de CNPJ, abra o link da versão online do SINARC, aguarde a montagem do grafo inicial e pressione a **tecla "S"** (letra maiúscula, SHIFT + s) para abrir a caixa de diálogo. Em aparelhos celulares, o teclado pode ser aberto clicando no [botão](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior central da tela.
+
+Na sequência, digite o **número do CNPJ** nos formatos 00.000.000/0000-00 ou 00000000000000 (14 dígitos) e pressione o botão "OK".
+
+Na tela seguinte, digite o **número de camadas** que deseja visualizar e pressione "OK". Aguarde a montagem do grafo na tela. 
+
+Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento.
+
+Para ampliar o número de camadas, pressione novamente a tecla "S" e ajuste conforme desejado (máximo 3 camadas na versão online).
+
+Consulte as formas de ajustar a visualização do grafo nos tópicos seguintes desta página.
+
+Para uma experiência completa com as funcionalidades da ferramenta, baixe o Pen Drive SINARC para execução do sistema localamente no computador.
 
 <br><br>
 
@@ -160,7 +190,7 @@ Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 
 <br><br>
 
-## SINARC-Client
+## SINARC Client
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
@@ -181,7 +211,7 @@ Por fim, salve (CTRL + s) e feche o arquivo _endereco_ip.txt_.
 
 Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na pasta SINARC-Client. Assim como a versão completa do SINARC, esta pasta também pode ser salva em um pen drive para permitir seu uso em outros computadores.
 
-Para utilizar o SINARC-Client é necessário que a versão completa do SINARC esteja em execução no computador que está funcionando como servidor (C1), se possível usando **IP fixo (estático)** para evitar sua mudança após reinicialização.
+Para utilizar o SINARC Client é necessário que a versão completa do SINARC esteja em execução no computador que está funcionando como servidor (C1), se possível usando **IP fixo (estático)** para evitar sua mudança após reinicialização.
 
 <!--Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).-->
 
