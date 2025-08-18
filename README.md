@@ -107,19 +107,21 @@ Esta versão permite explorar **qualquer CNPJ** em até **3 camadas**, desde que
 
 ### Como consultar CNPJ
 
-Para consultar um número de CNPJ, abra o link da versão online do SINARC, aguarde a montagem do grafo inicial e pressione a **tecla "S"** (letra maiúscula, SHIFT + s) para abrir a caixa de diálogo. Em aparelhos celulares, o teclado pode ser aberto clicando no [botão](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior central da tela.
+Para consultar um número de CNPJ, clique no link da versão online do SINARC, aguarde a montagem do grafo inicial e pressione a **tecla "S"** (letra maiúscula, SHIFT + s) para abrir a caixa de diálogo. Em aparelhos celulares, o teclado pode ser aberto clicando no [botão](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior central da tela.
 
 Na sequência, digite o **número do CNPJ** nos formatos 00.000.000/0000-00 ou 00000000000000 (14 dígitos) e pressione o botão "OK".
 
 Na tela seguinte, digite o **número de camadas** que deseja visualizar (máximo 3 na versão online) e pressione "OK". Aguarde a montagem do grafo na tela. 
 
-Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento. A aba do navegador exibe o número de camadas e o número total de nós no grafo (exemplo: 2/256 SINARC - 2 camadas e 256 nós)
+Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento. 
+
+A aba do navegador exibe o número de camadas e o número total de nós no grafo (exemplo: 2/256 SINARC - 2 camadas e 256 nós)
 
 Para ampliar o número de camadas, pressione novamente a tecla "S" e ajuste conforme desejado (máximo 3).
 
 Consulte as formas de ajustar a visualização do grafo nos tópicos seguintes desta página.
 
-Para uma experiência completa com as funcionalidades da ferramenta, baixe o Pen Drive SINARC para execução do sistema localamente no computador.
+Para uma experiência completa com as funcionalidades da ferramenta, baixe o Pen Drive SINARC para execução do sistema localmente no computador.
 
 <br><br>
 
