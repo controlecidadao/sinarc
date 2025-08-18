@@ -119,9 +119,9 @@ A aba do navegador exibe o número de camadas e o número total de nós no grafo
 
 Para ampliar o número de camadas, pressione novamente a tecla "S" e ajuste conforme desejado (máximo 3).
 
-Consulte as formas de ajustar a visualização do grafo nos tópicos seguintes desta página.
+Consulte as formas de ajustar a visualização do grafo nos tópicos seguintes desta página. Dica rápida: pressione a **tecla "k"** 3 vezes para alternar entre os layouts disponíveis, a **tecla "m"** para aumentar a distância entre os nós (SHIFT + "m" para diminuir) e a **tecla "ESCAPE"** para centralizar o grafo na tela.
 
-Para uma experiência completa com as funcionalidades da ferramenta, baixe o Pen Drive SINARC para execução do sistema localmente no computador.
+Para uma experiência completa sobre as funcionalidades da ferramenta, baixe o Pen Drive SINARC para executá-lo localmente no computador.
 
 <br><br>
 
