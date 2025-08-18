@@ -48,8 +48,10 @@ six==1.16.0
 stack-data==0.6.2
 traitlets==5.9.0
 urllib3==1.26.14
+waitress==3.0.2
 wcwidth==0.2.6
 whichcraft==0.6.1
 wincertstore==0.2
 zope.event==5.0
 zope.interface==6.0
+
