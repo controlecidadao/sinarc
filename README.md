@@ -111,11 +111,11 @@ Para consultar um número de CNPJ, abra o link da versão online do SINARC, agua
 
 Na sequência, digite o **número do CNPJ** nos formatos 00.000.000/0000-00 ou 00000000000000 (14 dígitos) e pressione o botão "OK".
 
-Na tela seguinte, digite o **número de camadas** que deseja visualizar e pressione "OK". Aguarde a montagem do grafo na tela. 
+Na tela seguinte, digite o **número de camadas** que deseja visualizar (máximo 3 na versão online) e pressione "OK". Aguarde a montagem do grafo na tela. 
 
-Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento.
+Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento. A aba do navegador exibe o número de camadas e o número total de nós no grafo (exemplo: 2/256 SINARC - 2 camadas e 256 nós)
 
-Para ampliar o número de camadas, pressione novamente a tecla "S" e ajuste conforme desejado (máximo 3 camadas na versão online).
+Para ampliar o número de camadas, pressione novamente a tecla "S" e ajuste conforme desejado (máximo 3).
 
 Consulte as formas de ajustar a visualização do grafo nos tópicos seguintes desta página.
 
