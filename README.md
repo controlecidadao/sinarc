@@ -99,6 +99,10 @@ Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https:
   <a href="#sumário">Sumário</a>
 </p>
 
+<p align="center" width="100%">
+<img width="20%" src="./images/online.webp" />
+</p>
+
 Encontra-se em **fase de testes** uma versão online do SINARC, acessível diretamente por meio do navegador a partir de computadores e dispositivos móveis: [Link da versão online do SINARC](#sinarc-online) (disponibilidade intermitente durante testes)
 
 Esta versão permite explorar **qualquer CNPJ** em até **3 camadas**, desde que o processo de geração do grafo não exceda **2 minutos**.
