@@ -103,7 +103,7 @@ Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https:
 <img width="20%" src="./images/online.webp" />
 </p>
 
-Encontra-se em **fase de testes** uma versão online do SINARC, acessível diretamente por meio do navegador a partir de computadores e dispositivos móveis: [Link da versão online do SINARC](https://lion-relaxed-bug.ngrok-free.app/?cnpj=00000000000191&camada=1) (disponibilidade intermitente durante testes)
+Encontra-se em **fase de testes** uma versão online do SINARC, acessível diretamente por meio do navegador a partir de computadores e dispositivos móveis: [Link da versão online do SINARC](#sinarc-online) (disponibilidade intermitente durante testes)
 
 Após acessar o link, clique no botão azul **_Visit Site_** da página inicial. Esta página só aparecerá no primeiro acesso.
 
