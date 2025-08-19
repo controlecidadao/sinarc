@@ -117,7 +117,9 @@ Na sequência, digite o **número do CNPJ** nos formatos 00.000.000/0000-00 ou 0
 
 Na tela seguinte, digite o **número de camadas** que deseja visualizar (máximo 3 na versão online) e pressione "OK". Aguarde a montagem do grafo na tela. 
 
-Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento. 
+Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento.
+
+O tempo médio de resposta do servidor é de aproximadamente 20 segundos.
 
 A aba do navegador exibe o número de camadas e o número total de nós no grafo (exemplo: 2/256 SINARC - 2 camadas e 256 nós)
 
