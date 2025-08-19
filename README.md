@@ -109,6 +109,8 @@ Após acessar o link, clique no botão azul **_Visit Site_** da página inicial.
 
 A versão online do SINARC permite explorar **qualquer CNPJ** em até **3 camadas**, desde que o processo de geração do grafo pelo servidor não exceda **2 minutos**.
 
+Data da base de dados de CNPJ: 09/08/2025
+
 <br>
 
 ### Como consultar CNPJ
