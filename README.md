@@ -120,7 +120,7 @@ Para consultar um número de CNPJ, siga estes passos:
 1) Clique no link da versão online do SINARC.
 2) Clique no botão azul **_Visit Site_** da página inicial. Esta página só aparecerá no primeiro acesso.
 3) Aguarde a exibição do primeiro grafo na tela (Banco do Brasil em 1 camada).
-4) Pressione a **tecla "S"** (letra maiúscula, SHIFT + s) para abrir a caixa de diálogo. Em aparelhos celulares, o teclado pode ser aberto clicando no [botão](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior central da tela.
+4) Pressione as **teclas SHIFT + s** (ou a letra "S" maiúscula) para abrir a caixa de diálogo. Em aparelhos celulares, o teclado pode ser aberto clicando no [botão](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior central da tela.
 5) Digite o **número do CNPJ** nos formatos 00.000.000/0000-00 ou 00000000000000 (14 dígitos) e pressione o botão "OK".
 6) Na tela seguinte, digite o **número de camadas** que deseja visualizar (máximo 3 na versão online) e pressione "OK". Aguarde a montagem do grafo na tela. O tempo mínimo de resposta do servidor é de aproximadamente 20 segundos.
 
@@ -128,7 +128,7 @@ Em regra, quanto maior o número de camadas, maior a quantidade de nós e o temp
 
 A aba do navegador exibe o número de camadas e o número total de nós no grafo (exemplo: 2/256 SINARC - 2 camadas e 256 nós)
 
-Para ampliar o número de camadas, pressione novamente a tecla "S" e ajuste conforme desejado (máximo 3).
+Para ampliar o número de camadas, pressione novamente as teclas SHIFT + s e ajuste conforme desejado (máximo 3).
 
 Consulte as formas de ajustar a visualização do grafo nos tópicos seguintes desta página. 
 
@@ -136,7 +136,7 @@ Dica rápida de ajuste do grafo:
 
 1) Pressione a **tecla "k"** 3 vezes para alternar entre layouts
 2) Pressione a **tecla "m"** algumas vezes para ampliar a distância entre os nós (SHIFT + "m" para reduzir)
-3) Pressione a **tecla "ESCAPE"** para centralizar o grafo na tela
+3) Pressione a **tecla "ESC"** para centralizar o grafo na tela
 
 Para uma experiência completa - sem limites - sobre as funcionalidades da ferramenta, baixe o **Pen Drive SINARC** para executá-lo localmente no computador.
 
