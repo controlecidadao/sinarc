@@ -105,21 +105,24 @@ Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https:
 
 Encontra-se em **fase de testes** uma versão online do SINARC, acessível diretamente por meio do navegador a partir de computadores e dispositivos móveis: [Link da versão online do SINARC](https://lion-relaxed-bug.ngrok-free.app/?cnpj=00000000000191&camada=1) (disponibilidade intermitente durante testes)
 
-Esta versão permite explorar **qualquer CNPJ** em até **3 camadas**, desde que o processo de geração do grafo não exceda **2 minutos**.
+Após acessar o link, clique no botão azul **_Visit Site_** da página inicial. Esta página só aparecerá no primeiro acesso.
+
+A versão online do SINARC permite explorar **qualquer CNPJ** em até **3 camadas**, desde que o processo de geração do grafo pelo servidor não exceda **2 minutos**.
 
 <br>
 
 ### Como consultar CNPJ
 
-Para consultar um número de CNPJ, clique no link da versão online do SINARC, aguarde a montagem do grafo inicial e pressione a **tecla "S"** (letra maiúscula, SHIFT + s) para abrir a caixa de diálogo. Em aparelhos celulares, o teclado pode ser aberto clicando no [botão](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior central da tela.
+Para consultar um número de CNPJ, siga estes passos:
 
-Na sequência, digite o **número do CNPJ** nos formatos 00.000.000/0000-00 ou 00000000000000 (14 dígitos) e pressione o botão "OK".
-
-Na tela seguinte, digite o **número de camadas** que deseja visualizar (máximo 3 na versão online) e pressione "OK". Aguarde a montagem do grafo na tela. 
+1) Clique no link da versão online do SINARC.
+2) Clique no botão azul **_Visit Site_** da página inicial. Esta página só aparecerá no primeiro acesso.
+3) Aguarde a exibição do primeiro grafo na tela (Banco do Brasil em 1 camada).
+4) Pressione a **tecla "S"** (letra maiúscula, SHIFT + s) para abrir a caixa de diálogo. Em aparelhos celulares, o teclado pode ser aberto clicando no [botão](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior central da tela.
+5) Digite o **número do CNPJ** nos formatos 00.000.000/0000-00 ou 00000000000000 (14 dígitos) e pressione o botão "OK".
+6) Na tela seguinte, digite o **número de camadas** que deseja visualizar (máximo 3 na versão online) e pressione "OK". Aguarde a montagem do grafo na tela. O tempo mínimo de resposta do servidor é de aproximadamente 20 segundos.
 
 Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento.
-
-O tempo mínimo de resposta do servidor é de aproximadamente 20 segundos.
 
 A aba do navegador exibe o número de camadas e o número total de nós no grafo (exemplo: 2/256 SINARC - 2 camadas e 256 nós)
 
