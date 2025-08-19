@@ -103,7 +103,7 @@ Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https:
 <img width="20%" src="./images/online.webp" />
 </p>
 
-Encontra-se em **fase de testes** uma versão online do SINARC, acessível diretamente por meio do navegador a partir de computadores e dispositivos móveis: [Link da versão online do SINARC](https://lion-relaxed-bug.ngrok-free.app/?ngrok-skip-browser-warning=true&cnpj=00000000000191&camada=1) (disponibilidade intermitente durante testes)
+Encontra-se em **fase de testes** uma versão online do SINARC, acessível diretamente por meio do navegador a partir de computadores e dispositivos móveis: [Link da versão online do SINARC](https://lion-relaxed-bug.ngrok-free.app/?cnpj=00000000000191&camada=1) (disponibilidade intermitente durante testes)
 
 Esta versão permite explorar **qualquer CNPJ** em até **3 camadas**, desde que o processo de geração do grafo não exceda **2 minutos**.
 
