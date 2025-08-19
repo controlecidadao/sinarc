@@ -119,7 +119,7 @@ Na tela seguinte, digite o **número de camadas** que deseja visualizar (máximo
 
 Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento.
 
-O tempo médio de resposta do servidor é de aproximadamente 20 segundos.
+O tempo mínimo de resposta do servidor é de aproximadamente 20 segundos.
 
 A aba do navegador exibe o número de camadas e o número total de nós no grafo (exemplo: 2/256 SINARC - 2 camadas e 256 nós)
 
