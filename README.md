@@ -13,9 +13,8 @@
 <br><br>
 
 ## Sumário
-
+<!-- * [Sinarc Online](#sinarc-online) -->
 * [O que é o SINARC?](#o-que-é-o-sinarc)
-* [Sinarc Online](#sinarc-online)
 * [Como criar o Pen Drive SINARC](#como-criar-o-pen-drive-sinarc)
 * [SINARC Client](#sinarc-client)
 * [O que é uma rede complexa?](#o-que-é-uma-rede-complexa)
@@ -93,7 +92,7 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https://notebooklm.google.com/notebook/57975d7c-3dae-43a6-816c-0ff391426cf4) na plataforma **NotebookLM**, utilizando sua conta no Google. Esta ferramenta, baseada em **Inteligência Artificial**, examina simultaneamente os documentos do SINARC (README, Manual do SINARC e seu código fonte), permitindo a obtenção de respostas detalhadas sobre as funcionalidades do sistema.
 
 <br><br>
-
+<!--
 ## SINARC Online
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
@@ -140,7 +139,7 @@ Dica rápida de ajuste do grafo:
 
 Para uma experiência completa - sem limites - sobre as funcionalidades da ferramenta, baixe o **Pen Drive SINARC** para executá-lo localmente no computador.
 
-<br><br>
+<br><br> -->
 
 ## Como criar o Pen Drive SINARC
 <p align="right" width="100%">
