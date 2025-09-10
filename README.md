@@ -235,7 +235,7 @@ Para executar o programa Rede CNPJ no computador que contém os bancos de dados 
 
 **ATENÇÃO:** Não é necessário abrir o SINARC (_**abre_sinarc.bat**_) em C1.
 
-Quando a interface gráfica do Rede CNPJ for aberta em uma nova aba do navegador, o sistema já está pronto para ser acessado a partir de C2.
+Quando a interface gráfica do Rede CNPJ for aberta em uma nova aba do navegador, o sistema está pronto para ser acessado a partir de C2.
 
 <!--Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).-->
 
