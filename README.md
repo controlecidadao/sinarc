@@ -227,7 +227,7 @@ Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador 
 
 Por fim, salve (CTRL + s) e feche o arquivo _endereco_ip.txt_.
 
-Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na pasta SINARC-Client. Assim como a versão completa do SINARC, esta pasta também pode ser salva em um pen drive para permitir seu uso em outros computadores.
+Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na pasta SINARC-Client. Assim como a versão completa do SINARC, esta pasta também pode ser salva em um pen drive para permitir seu uso em outros computadores conectados à mesma rede.
 
 Para utilizar o SINARC Client é necessário que o programa Rede CNPJ esteja em execução no computador que está funcionando como servidor (C1), se possível usando **IP fixo (estático)** para evitar sua mudança após reinicialização.
 
