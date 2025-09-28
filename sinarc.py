@@ -15,7 +15,7 @@
 # O objetivo é demonstrar a possibilidade de criação de ferramentas tecnológicas open source que utilizam dados abertos, bem como incentivar o desenvolvimento de projetos semelhantes pela sociedade.
 # O SINARC foi desenvolvido a partir do código fonte do projeto Rede CNPJ (https://github.com/rictom/rede-cnpj/).
 # O programa realiza o processamento de dados públicos da Recceita Federal previamente tratados e disponibilizados à sociedade para consulta pelo projeto Rede CNPJ e
-# gera uma interface gráfica interativa (página web) com recursos para:
+# gera uma interface gráfica interativa (página web) com os seguintes recursos:
 #   a) exploração visual da rede por meio de um ambiente que combina princípios da Física (gravitação universal) e da Psicologia (percepção visual segundo a Gestalt); e
 #   b) exploração automática usando algoritmos computacionais que identificam informações ocultas (nós centrais, caminhos mais curtos entre nós etc.) de acordo com a metodologia de análise definida pelo usuário.
 # Ao executar o SINARC, o projeto Rede CNPJ também é carregado em outra aba do navegador, permitindo a utilização simultânea dos dois sistemas pelo usuário.
@@ -26,13 +26,13 @@
 # DESCRIÇÃO RESUMIDA DO FUNCIONAMENTO
 #####################################
 # A comunicação entre o front-end (Javascript) e o back-end (Python) se dá por meio da função cópia (CTRL + C) do sistema operacional.
-# O programa realiza a consulta de parâmetros (CNPJ, nome do sócio, rezão social, nome fantasia etc.) à API, criada pelo Rede CNPJ, usando a biblioteca Requests do Python.
-# A partir da resposta JSON do servidor (Flask), o SINARC cria dois dataframes (df_no e df_ligacao) com a biblioteca Pandas do Python.
+# O programa realiza a consulta de parâmetros (CNPJ, nome do sócio, razão social, nome de fantasia etc.) à API local do Rede CNPJ, usando a biblioteca Requests do Python.
+# A partir da resposta JSON do servidor (Flask) do Rede CNPJ, o SINARC cria dois dataframes (df_no e df_ligacao) com a biblioteca Pandas do Python.
 # Esses dataframes são usados para gerar o grafo com a biblioteca Networkx do Python e aplicar os algoritmos nela disponíveis.
 # O grafo no formato Networkx é utlizado pela biblioteca Pyvis do Python (criada sobre a biblioteca vis.js do Javascript) para gerar o arquivo HTML interativo do front-end.
 # O arquivo HTML é então alterado via Regex com a inserção de scripts da biblioteca vis.js do Javascript.
-# Por fim, o arquivo HTML é aberto com a módulo Webbrowser do Python e exibido em nova aba do navegador.
-# O grafo gerado exibe as ligações existentes entre pessoas físicas, pessoas jurídicas, telefones, endereços e e-mails contantes da bases de dados pública de CNPJ da Receita Federal.
+# Por fim, o arquivo HTML é aberto com o módulo Webbrowser do Python e exibido em nova aba do navegador.
+# O grafo gerado exibe as ligações existentes entre pessoas físicas, pessoas jurídicas, telefones, endereços e e-mails constantes da bases de dados pública de CNPJ da Receita Federal.
 
 
 ##############################################################################
@@ -144,18 +144,18 @@ with open(f"{tempdir}/{name}", "w+") as out:
 #         <script src="./pyvis/templates/lib/vis-9.1.2/bootstrap.bundle.min.js" ></script>       <!-- ALTERADO PARA ARQUIVO LOCAL BAIXADO (vide cdn # no código) -->
 
 
-#################################################
-# ALTERAÇÕES REALIZADAS NOS ARQUIVOS DO REDE CNPJ
-#################################################
+#########################################################
+# ALTERAÇÕES REALIZADAS NOS ARQUIVOS DO FORK DO REDE CNPJ
+#########################################################
 
 # ARQUIVO: 'E:\rede-cnpj-master\rede\rede.ini'
 
-# parametros para o flask-limiter (COMENTADO POR WALTER - PADRÃO)
+# parametros para o flask-limiter (COMENTADO POR SINARC - PADRÃO)
 #limiter_padrao =2/second;20/minute;200/hour;400/day
 #limiter_dados =10/second;600/minute
 #limiter_arquivos =2/minute;30/hour;100/day
 
-# parametros para o flask-limiter (INCLUÍDO POR WALTER - x1000)
+# parametros para o flask-limiter (INCLUÍDO POR SINARC - x1000)
 """
 limiter_padrao =2000/second;20000/minute;200000/hour;400000/day
 limiter_dados =10000/second;600000/minute
@@ -268,6 +268,7 @@ from datetime import datetime      # https://docs.python.org/3/library/datetime.
 from traceback import format_exc   # https://docs.python.org/dev/library/traceback.
 import shutil                      # https://docs.python.org/3/library/shutil.html
 from zipfile import ZipFile        # https://docs.python.org/3/library/zipfile.html
+# import tempfile
             
 
 # MÓDULOS EXTERNOS INSTALADOS NO AMBIENTE VIRTUAL
@@ -357,7 +358,7 @@ num_camadas = None
 # Variável global criada para poder ser usada nos nomes dos arquivos Excel
 lista_de_nos = None
 
-# Cira variável global para amazenar lista de nós da requisição imediatamente anterior (usado para destacar nós acrescentados pela requisição seguinte)
+# Cria variável global para amazenar lista de nós da requisição imediatamente anterior (usado para destacar nós acrescentados pela requisição seguinte)
 lista_nos_anterior = None
 
 # Contador de arquivos excel abertos
@@ -846,7 +847,7 @@ def captura_cnpj():
         print('Nº de camadas:', num_camadas)
         
 
-        ###############  PREPARA DADOS PARA REQUISIÇÃO À API DO SITE REDE CNPJ  ###############
+        ###############  PREPARA DADOS PARA REQUISIÇÃO À API DO REDE CNPJ  ###############
 
         
         # Verifica se foi identificado algum CNPJ
@@ -908,6 +909,53 @@ def captura_cnpj():
                 print('Parâmetro de pesquisa não localizado na base de dados.')
                 winsound.Beep(600, 300)
                 print()
+
+
+
+
+
+                # NOVO CÓDIGO AQUI: Gerar uma página HTML de erro específica
+                error_html_content = """
+                <html>
+                <head>
+                    <meta charset="UTF-8">
+                    <title>CNPJ Não Localizado</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+                        h1 { color: #cc0000; }
+                        p { color: #333; }
+                        .container {
+                            max-width: 600px;
+                            margin: 0 auto;
+                            padding: 20px;
+                            border: 1px solid #ddd;
+                            border-radius: 8px;
+                            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <h1>CNPJ Não Localizado</h1>
+                        <p>O CNPJ fornecido não foi encontrado na base de dados da Receita Federal.</p>
+                        <p>Por favor, verifique o número digitado e tente novamente.</p>
+                        <p>Formatos aceitos: 00.000.000/0000-00 ou 00000000000000 (14 digitos)</p>
+                    </div>
+                </body>
+                </html>
+                """
+                with open("grafo_final.html", "w", encoding="utf-8") as f:
+                    f.write(error_html_content)
+                # Importante: o servidor SINARC (`servidor_sinarc.py`)
+                # espera por `grafo_final.html`. Ao criá-lo aqui,
+                # o servidor o detectará e o servirá, evitando o timeout 503.
+
+
+
+
+
+
+
                 continue
 
             # Parâmetro localizado!
@@ -939,6 +987,22 @@ def captura_cnpj():
             # Indica a inexistência de CNPJ no texto selecionado por meio de 2 beeps curtos
             winsound.Beep(600, 300)
             winsound.Beep(600, 300)
+
+            # # HTML mínimo
+            # html = """<!DOCTYPE html>
+            # <html>
+            # <head><title>CNPJ NOT FOUND</title></head>
+            # <body><h1>CNPJ não localizado</h1></body>
+            # </html>
+            # """
+
+            # # Salva em um arquivo temporário
+            # with tempfile.NamedTemporaryFile(delete=False, suffix=".html", mode="w", encoding="utf-8") as f:
+            #     f.write(html)
+            #     caminho = f.name
+
+            # # Abre o navegador
+            # webbrowser.open(f"file://{caminho}")
 
             # Desativa o beep inicial para não ter um terceiro beep (o retorno sonoro é padronizado)
             play_beep_inicial = False
@@ -1254,46 +1318,90 @@ def cria_dataframes(parametro, num_camada=''):
     # Fonte do arquivo "nomes.csv": https://brasil.io/dataset/genero-nomes/files/ (nomes.csv.gz)
     # Foi realizado tratamento do arquivo original usando apenas a biblioteca D-Tale, disponível na interface Samantha.
 
-    try:
-        print('iniciando atualização do sexo das pessoas físicas')
-        inicio_tempo = time.time()
-
-        # Carrega o arquivo nomes.csv para um dataframe
-        df_nomes = pd.read_csv("nomes.csv")
-
-        # Processa o dataframe df_no diretamente (inplace)
-        def atualizar_sexo_inplace(df_no, df_nomes):
-            # Filtrar apenas as pessoas físicas (que começam com "PF_***NNNNNN**-")
-            mask_pf = df_no['id'].str.match(r'^PF_\*\*\*\d{6}\*\*\-')
+    # Verifica se o dataframe df_no não está vazio antes de tentar a atualização do sexo.
+    if not df_no.empty:
+        try:
+            print('iniciando atualização do sexo das pessoas físicas')
             
-            # Iterar apenas sobre as linhas que são pessoas físicas
-            for idx in df_no[mask_pf].index:
-                # Extrair o primeiro nome da pessoa física
-                nome_completo = df_no.loc[idx, 'id']
-                # Padrão: tudo após "PF_***NNNNNN**-" até o primeiro espaço
-                match = re.search(r'^PF_\*\*\*\d{6}\*\*\-([^ ]+)', nome_completo)
+            inicio_tempo = time.time()
+
+            # Carrega o arquivo nomes.csv para um dataframe
+            df_nomes = pd.read_csv("nomes.csv")
+
+            # Processa o dataframe df_no diretamente (inplace)
+            def atualizar_sexo_inplace(df_no, df_nomes):
                 
-                if match:
-                    primeiro_nome = match.group(1)
+                # Filtrar apenas as pessoas físicas (que começam com "PF_***NNNNNN**-")
+                mask_pf = df_no['id'].str.match(r'^PF_\*\*\*\d{6}\*\*\-')
+                
+                # Iterar apenas sobre as linhas que são pessoas físicas
+                for idx in df_no[mask_pf].index:
                     
-                    # Consultar o primeiro nome no dataframe de nomes
-                    result = df_nomes[df_nomes['first_name'] == primeiro_nome]
+                    try:
+
+                        # Extrair o 'id' completo da pessoa física.
+                        # df_no.loc[idx, 'id'] pode, inesperadamente, retornar um escalar ou uma Series de um elemento ou múltiplos elementos.
+                        raw_id_value = df_no.loc[idx, 'id']
+                        
+                        # Garante que 'nome_completo' é um valor escalar antes de qualquer outra operação.
+                        # Se for uma Series de um elemento ou mais, extrai o primeiro item.
+                        if isinstance(raw_id_value, pd.Series):
+                            if not raw_id_value.empty:
+                                # Use .iloc para sempre extrair o primeiro elemento,
+                                # independentemente de a Series ter um ou mais elementos.
+                                nome_completo = raw_id_value.iloc
+                            else:
+                                # Se a Series estiver vazia, trate como um valor nulo.
+                                nome_completo = None 
+                        else:
+                            # Se já for um valor escalar (str, None, np.nan, etc.), usa-o diretamente.
+                            nome_completo = raw_id_value 
+                        
+
+
+
+
+                        # --- INÍCIO DA CORREÇÃO ---
+                        # 1. Verifica se o valor é nulo/NaN. pd.isna() lida com ambos.
+                        if pd.isna(nome_completo):
+                            print(f"AVISO: O 'id' no índice {idx} é um valor nulo/NaN. Pulando esta entrada.")
+                            continue # Pula para a próxima iteração do loop
+                        
+                        # 2. Converte explicitamente para string. Isso garante que re.search receba o tipo esperado.
+                        nome_completo = str(nome_completo)
+                        # --- FIM DA CORREÇÃO ---
+
+
+
+                        
+                        # Padrão: tudo após "PF_***NNNNNN**-" até o primeiro espaço
+                        match = re.search(r'^PF_\*\*\*\d{6}\*\*\-([^ ]+)', nome_completo)
+                        
+                        if match:
+                            primeiro_nome = match.group(1)
+                            
+                            # Consultar o primeiro nome no dataframe de nomes
+                            result = df_nomes[df_nomes['first_name'] == primeiro_nome]
+                            
+                            if not result.empty:
+                                # Se o nome foi encontrado, usar a classificação correspondente
+                                df_no.loc[idx, 'sexo'] = result.iloc[0]['classification']
+                            else:
+                                # Se o nome não for encontrado, atribuir valor 1 (homem)
+                                df_no.loc[idx, 'sexo'] = 1
                     
-                    if not result.empty:
-                        # Se o nome foi encontrado, usar a classificação correspondente
-                        df_no.loc[idx, 'sexo'] = result.iloc[0]['classification']
-                    else:
-                        # Se o nome não for encontrado, atribuir valor 1 (homem)
-                        df_no.loc[idx, 'sexo'] = 1
+                    except Exception as e:
+                        print(f'Erro 1 ao atualizar o sexo das pessoas físicas: {e}')
+                        traceback.print_exc()
 
-        # Aplica a função ao dataframe df_no
-        atualizar_sexo_inplace(df_no, df_nomes)
+            # Aplica a função ao dataframe df_no
+            atualizar_sexo_inplace(df_no, df_nomes)
 
-        print(f'atualização do sexo concluída em {time.time() - inicio_tempo:.2f} segundos.\n\n')
+            print(f'atualização do sexo concluída em {time.time() - inicio_tempo:.2f} segundos.\n\n')
 
-    except Exception as e:
-        print(f'Erro ao atualizar o sexo das pessoas físicas: {e}')
-
+        except Exception as e:
+            print(f'Erro 2 ao atualizar o sexo das pessoas físicas: {e}')
+            traceback.print_exc()
 
 
 
@@ -1588,6 +1696,13 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
 
     global situacao
     global lista_de_nos
+
+    # -----------------------------------------------------------
+    # INSERIR ESTA LINHA: Inicializa lista com os parâmetros de consulta (parametro)
+    # Garante que 'lista' esteja definida para o bloco de Centralidade, 
+    # mesmo que a seção 'ALL SHORTEST PATHS' seja ignorada.
+    lista = [x.strip() for x in parametro.split(';')] 
+    # -----------------------------------------------------------
 
 
     ###################################################################################
@@ -4215,35 +4330,43 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
 
 
 
-        // ###################################
-        // DELETE NÓS SELECIONADOS - TECLA DEL
-        // ###################################
+        // ###############################################
+        // DELETE NÓS SELECIONADOS - TECLA DEL / BACKSPACE
+        // ###############################################
 
         var del_array = []
         var total_n = nodes.getIds();
 
         document.addEventListener('keydown', (event) => {
-            if (event.key == "Delete") {
+            if (event.key == "Delete" || event.key == "Backspace") {
 
                 let sel = network.getSelectedNodes();
-                network.deleteSelected(sel);
 
-                del_array = del_array.concat(sel);
+                // INSERIR VERIFICAÇÃO CONDICIONAL AQUI:
+                if (sel.length > 0) {
+                    network.deleteSelected(sel);
 
-                let percentual = (del_array.length / total_n.length) * 100;
-                percentual = percentual.toFixed(1);
+                    del_array = del_array.concat(sel);
 
-                // INCLUIR AVISO PERMANENTE QUE NÓS FORAM DELETADOS
-                let el = document.createElement("div");
-                el.setAttribute("style","position:absolute;top:70px;right:21px;border:5px solid rgba(255, 255, 123, 1);border-radius: 5px;background-color:rgba(255, 255, 123, 1);");
-                el.innerHTML = `Nós deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
-                document.body.appendChild(el);
+                    let percentual = (del_array.length / total_n.length) * 100;
+                    percentual = percentual.toFixed(1);
 
-                // INCLUÍDO PARA EVITAR ERRO APÓS DELETAR NÓS E RETIRAR O MOUSE DE CIMA DE NÓS ADJACENTES AOS QUE FORAM DELETADOS
-                network.unselectAll();
+                    // INCLUIR AVISO PERMANENTE QUE NÓS FORAM DELETADOS
+                    let el = document.createElement("div");
+                    el.setAttribute("style","position:absolute;top:70px;right:21px;border:5px solid rgba(255, 255, 123, 1);border-radius: 5px;background-color:rgba(255, 255, 123, 1);");
+                    el.innerHTML = `Nós deletados (${del_array.length}/${total_n.length}) ${percentual}%`;
+                    document.body.appendChild(el);
 
-                // Exibe informações na tela
-                tempAlert(`Tecla ${event.key} - Deleta nós selecionados (${sel.length})`, 3000);
+                    // INCLUÍDO PARA EVITAR ERRO APÓS DELETAR NÓS E RETIRAR O MOUSE DE CIMA DE NÓS ADJACENTES AOS QUE FORAM DELETADOS
+                    network.unselectAll();
+
+                    // Exibe informações na tela
+                    tempAlert(`Tecla ${event.key} - Deleta nós selecionados (${sel.length})`, 3000);
+                
+                } else {
+                    tempAlert(`Tecla ${event.key} - Selecione os nós que deseja deletar`, 3000);
+
+                }
 
             }
         });
@@ -5964,6 +6087,55 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
         //};
 
         //setTimeout(() => {ajusta_altura()}, 0);
+
+
+
+        // ###############################################################################
+        // CARREGA NÓS SELECIONADOS EM NOVA ABA (1 CAMADA, SEM DESTAQUE/SEM SOM) - TECLA S
+        // ###############################################################################
+        document.addEventListener('keydown', (event) => {
+ 
+            // Verifica se a tecla pressionada é 'S' (maiúscula)
+            if (event.key == 'S' && network.getSelectedNodes().length > 0) {
+                let sel = network.getSelectedNodes();
+                let num_cam = 1; // Fixo em 1 camada
+ 
+                // Define explicitamente para desativar o destaque de arestas, o que também desativa o beep de conexão.
+                // O valor 'false' será capturado pelo backend Python para definir destacar_ligacoes = False.
+                let conf_destaca = 'false';
+ 
+                // Junta os IDs dos nós selecionados usando ';' como separador
+                let selected_ids = sel.join(';');
+ 
+                // Formata a string com delimitadores #_# para acionar a "Consulta Livre"
+                // e evitar o destaque das bordas em vermelho.
+                let texto_consulta = '#_#' + selected_ids + '#_#';
+ 
+                // A estrutura final inclui o texto_consulta, o número de camadas e a instrução 'false'
+                let parametro_final = texto_consulta + '***' + num_cam + '***' + conf_destaca;
+ 
+                async function copyOperation(param) {
+                    await navigator.clipboard.writeText(param) // Comunica com o backend via clipboard
+                };
+ 
+                // Copia o parâmetro para a área de transferência
+                setTimeout(() => {copyOperation(parametro_final)}, 500);
+ 
+                // Exibe informações na tela
+                tempAlert(`Tecla ${event.key} - Exibe nós selecionados (${sel.length}) em ${num_cam} camada(s) sem destaque`, 3000);
+ 
+            } else if (event.key == 'S' && network.getSelectedNodes().length == 0) {
+ 
+                // Exibe alerta se nenhum nó estiver selecionado
+                tempAlert(`Tecla ${event.key} - Selecione um ou mais nós para abri-los em nova aba`, 3000);
+            }
+        });
+
+
+
+
+
+
 
 
 
@@ -8142,7 +8314,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
 
         document.addEventListener('keydown', (event) => {
 
-            if (event.shiftKey && event.key == 'ArrowUp'){
+            if ((event.shiftKey && event.key == 'ArrowUp') || event.key === '>') {
 
                 if (t_ref < 100) {
                     t_ref = t_ref + 5
@@ -8165,7 +8337,7 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
                 // Exibe informações na tela (não está exibindo)
                 tempAlert(`Teclas Shift + ${event.key} - Aumenta tamanho referencial dos nós em 5 unidades (${t_ref})`, 3000);
 
-            } else if (event.shiftKey && event.key == 'ArrowDown') {
+            } else if ((event.shiftKey && event.key == 'ArrowDown') || event.key === '<'){
                 
                 if (t_ref > 20) {
                     t_ref = t_ref - 5
@@ -8525,9 +8697,9 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
         left: 50%;
         transform: translateX(-50%);
         width: 120px;
-        height: 20px;
+        height: 19px;
         background-color: transparent;
-        border: 2px solid rgba(200, 200, 200, 0.6);
+        border: 2px solid rgba(89, 201, 67, 1);
         border-radius: 10px;
         cursor: pointer;
         z-index: 9998;
@@ -8555,10 +8727,6 @@ def gera_grafo(parametro, num_camadas, lista_3, destacar_ligacoes, df_no, df_lig
     <!-- PARA TESTE NO CELULAR - FIM -->"""
 
     temp = temp.replace('</script>\n    </body>', f'</script>\n    \n\n\n\n\n{btn_celular}\n\n\n\n\n</body>')
-
-
-
-
 
 
     # Atualiza arquivo HTML
