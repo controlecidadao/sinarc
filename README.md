@@ -208,9 +208,9 @@ Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 
 <br>
 
-### Atualizando a base de dados
+### Atualizando a base de dados de CNPJ
 
-Para atualizar a base de dados usada pelo SINARC e pelo Rede CNPJ, o procedimento é bem simples.
+Para atualizar a base de dados de CNPJ usada pelo SINARC e pelo Rede CNPJ, o procedimento é bem simples.
 
 Os **4 bancos de dados** a serem substituídos estão localizados na pasta **"SINARC/bases"**. São eles:
 
@@ -219,19 +219,16 @@ Os **4 bancos de dados** a serem substituídos estão localizados na pasta **"SI
 3) _**cnpj_links_ete.db**_ (9 GB)
 4) _**rede.db**_ (5 GB)
 
-Estes bancos são gerados a partir dos **37 arquivos CSV compactados** (formato ZIP), disponibilizados mensalmente no [site da Receita Federal].(https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/)
+Esses bancos são gerados a partir dos **37 arquivos CSV compactados** (formato ZIP), disponibilizados mensalmente no [site da Receita Federal](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/).
 
 Com a pasta SINARC baixada e salva no computador (a geração dos bancos de dados deve ser realizada com a pasta no computador e não em mídia externa):
 
-1) Mova os quatro bancos de dados SQLite da pasta **"SINARC/bases"** para outro local. Recomenda-se armazená-los temporariamente para eventual restituição, caso não consiga concluir com sucesso a geração dos novos arquivos;
-2) Escolha o mês desejado e baixe os 37 arquivos ZIP do site da Receita Federal para a pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos-zip"**;
-3) Na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas"***, execute o arquivo _**cria_bancos_de_dados.bat**_ a partir do Terminal do Windows para permitir a visualização de eventuais erros. Esse arquivo .bat executará sequencialmente todas as rotinas contidas nos arquivos Python e gerará os quatro bancos de dados na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"**.
-   
+1) Mova os quatro bancos de dados SQLite da pasta **"SINARC/bases"** para outro local. Recomenda-se armazená-los temporariamente para eventual restituição, caso não consiga concluir com sucesso a geração dos novos arquivos. Você também pode deletar os 4 bancos de dados;
+3) Escolha o mês desejado e baixe os 37 arquivos ZIP do site da Receita Federal para a pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos-zip"**;
+4) Na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas"***, execute o arquivo _**cria_bancos_de_dados.bat**_ a partir do Terminal do Windows para permitir a visualização de eventuais erros. Esse arquivo .bat executará sequencialmente todas as rotinas contidas nos arquivos Python e gerará os 4 bancos de dados na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"**.
 O processo de criação dos bancos de dados leva aproximadamente **6 horas**. Em caso de erro, tente repetir o procedimento.
-
 Ao final do processo, será exibida no Terminal a mensagem _**Todos os scripts foram executados com sucesso!**_.
-
-Após a criação dos 4 bancos de dados, mova-os da pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"** para a pasta **"SINARC/bases"**, substituindo os quatro arquivos lá existentes.
+5) Após a criação dos 4 bancos de dados, mova-os da pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"** para a pasta **"SINARC/bases"**, substituindo os quatro arquivos lá existentes.
 
 Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados.
 
