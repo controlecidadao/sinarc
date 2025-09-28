@@ -245,7 +245,7 @@ Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados.
 <img width="40%" src="./images/server-client.webp" />
 </p>
 
-É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede interna. Para tanto, basta baixar para C2 o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (SHA-256 _f2ebecb43742365c6b6c955dce1785b1b985f2043f85695813faf740ef66f4b5_), uma versão reduzida do SINARC (460 MB), sem os bancos de dados, mas que permite utilizar todas as funcionalidades da ferramenta.
+É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede interna. Para tanto, basta baixar para C2 o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (SHA-256 _f2ebecb43742365c6b6c955dce1785b1b985f2043f85695813faf740ef66f4b5_), uma versão reduzida do SINARC (470 MB), sem os bancos de dados, mas que permite utilizar todas as funcionalidades da ferramenta.
 
 <!--<p align="center" width="100%">
 <a href="https://mayank-blogs.hashnode.dev/web-sockets-part-1">mayank-blogs.hashnode.dev</a>
@@ -255,7 +255,7 @@ Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador 
 
 Por fim, salve (CTRL + s) e feche o arquivo _hostname.txt_.
 
-Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na pasta **SINARC-Client**. Assim como a versão completa do SINARC, esta pasta também pode ser salva em um pen drive para permitir seu uso em outros computadores conectados à mesma rede.
+Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na **pasta SINARC-Client**. Assim como a versão completa do SINARC, esta pasta também pode ser salva em um pen drive para permitir seu uso em outros computadores conectados à mesma rede.
 
 Para utilizar o SINARC Client é necessário que o programa Rede CNPJ esteja em execução no computador que está funcionando como servidor (C1). Para executar o programa Rede CNPJ no computador que contém os bancos de dados (C1), clique duas vezes sobre o arquivo  _**abre_sinarc.bat**_ na pasta SINARC. **ATENÇÃO: Não é necessário abrir o SINARC (_abre_sinarc.bat_) em C1!**
 
