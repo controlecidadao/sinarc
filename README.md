@@ -245,27 +245,21 @@ Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados.
 <img width="40%" src="./images/server-client.webp" />
 </p>
 
-É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede. Para tanto, basta baixar para C2 o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (SHA-256 _f2ebecb43742365c6b6c955dce1785b1b985f2043f85695813faf740ef66f4b5_), uma versão reduzida do SINARC (460 MB), sem os bancos de dados, que permite utilizar todas as funcionalidades da ferramenta.
+É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede interna. Para tanto, basta baixar para C2 o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (SHA-256 _f2ebecb43742365c6b6c955dce1785b1b985f2043f85695813faf740ef66f4b5_), uma versão reduzida do SINARC (460 MB), sem os bancos de dados, que permite utilizar todas as funcionalidades da ferramenta.
 
 <!--<p align="center" width="100%">
 <a href="https://mayank-blogs.hashnode.dev/web-sockets-part-1">mayank-blogs.hashnode.dev</a>
 </p>-->
 
-Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**endereco_ip.txt**_ e inclua em uma nova linha o endereço IPv4 do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter o endereço IPv4 encontram-se no próprio arquivo TXT.
+Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**hostname.txt**_ e inclua em uma nova linha o _hostname_ do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter o _hostname_ encontram-se no próprio arquivo TXT.
 
-Por fim, salve (CTRL + s) e feche o arquivo _endereco_ip.txt_.
+Por fim, salve (CTRL + s) e feche o arquivo _hostname.txt_.
 
-Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na pasta SINARC-Client. Assim como a versão completa do SINARC, esta pasta também pode ser salva em um pen drive para permitir seu uso em outros computadores conectados à mesma rede.
+Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na pasta **SINARC-Client**. Assim como a versão completa do SINARC, esta pasta também pode ser salva em um pen drive para permitir seu uso em outros computadores conectados à mesma rede.
 
-Para utilizar o SINARC Client é necessário que o programa Rede CNPJ esteja em execução no computador que está funcionando como servidor (C1), se possível usando **IP fixo (estático)** para evitar sua mudança após reinicialização.
-
-Para executar o programa Rede CNPJ no computador que contém os bancos de dados (C1), clique duas vezes sobre o arquivo  _**abre_sinarc.bat**_ na pasta SINARC. 
-
-**ATENÇÃO:** Não é necessário abrir o SINARC (_**abre_sinarc.bat**_) em C1.
+Para utilizar o SINARC Client é necessário que o programa Rede CNPJ esteja em execução no computador que está funcionando como servidor (C1). Para executar o programa Rede CNPJ no computador que contém os bancos de dados (C1), clique duas vezes sobre o arquivo  _**abre_sinarc.bat**_ na pasta SINARC. **ATENÇÃO: Não é necessário abrir o SINARC (_abre_sinarc.bat_) em C1!**
 
 Quando a interface gráfica do Rede CNPJ for aberta em uma nova aba do navegador, o sistema está pronto para ser acessado a partir de C2.
-
-<!--Para mais informações sobre a criação do Pen Drive SINARC, consulte [INSTRUÇÕES_PEN_DRIVE_SINARC.txt](https://github.com/controlecidadao/sinarc/blob/main/INSTRU%C3%87%C3%95ES_PEN_DRIVE_SINARC.txt).-->
 
 <br><br>
 
