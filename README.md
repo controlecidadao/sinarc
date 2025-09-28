@@ -245,7 +245,7 @@ Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados.
 <img width="40%" src="./images/server-client.webp" />
 </p>
 
-É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede interna. Para tanto, basta baixar para C2 o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1Vs4AUARTJ8-uG-8pMtINuRUmgFPOa_k0) (SHA-256 _156f2778897ca443b4a0a62f7cfa50ba56a6cc72ae06d36e7c61084198fc180e_), uma versão reduzida do SINARC (470 MB), sem os bancos de dados, mas que permite utilizar todas as funcionalidades da ferramenta.
+É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede interna. Para tanto, basta baixar para C2 o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1766AOVBa3c0RxuTJuzcbevoHPDyKiwP3) (SHA-256 _156f2778897ca443b4a0a62f7cfa50ba56a6cc72ae06d36e7c61084198fc180e_), uma versão reduzida do SINARC (460 MB), sem os bancos de dados, mas que permite utilizar todas as funcionalidades da ferramenta.
 
 <!--<p align="center" width="100%">
 <a href="https://mayank-blogs.hashnode.dev/web-sockets-part-1">mayank-blogs.hashnode.dev</a>
