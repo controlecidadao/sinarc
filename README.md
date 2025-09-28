@@ -230,7 +230,7 @@ Com a pasta SINARC baixada e salva no computador (a geração dos bancos de dado
 3) Na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas"**, execute o arquivo _**cria_bancos_de_dados.bat**_ a partir do Terminal do Windows para permitir a visualização de eventuais erros. Esse arquivo .bat executará sequencialmente todas as rotinas contidas nos arquivos Python e gerará os 4 bancos de dados na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"**.<br>
 O processo de criação dos bancos de dados leva aproximadamente **6 horas**. Em caso de erro, tente repetir o procedimento.<br>
 Ao final do processo, será exibida no Terminal a mensagem _**Todos os scripts foram executados com sucesso!**_.<br><br>
-4) Após a criação dos 4 bancos de dados, mova-os da pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"** para a pasta **"SINARC/bases"**, substituindo os quatro arquivos lá existentes (movidos/deletados no início do processo). Os demais arquivos devem permanecer na pasta.
+4) Após a criação dos 4 bancos de dados, mova-os da pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"** para a pasta **"SINARC/bases"**, substituindo os quatro arquivos lá existentes (movidos/deletados no início do processo). Os demais arquivos devem permanecer na pasta **"SINARC/bases"**.
 
 Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados.
 
