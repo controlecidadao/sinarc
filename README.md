@@ -224,11 +224,11 @@ Esses bancos são gerados a partir dos **37 arquivos CSV compactados** (formato 
 Com a pasta SINARC baixada e salva no computador (a geração dos bancos de dados deve ser realizada com a pasta no computador e não em mídia externa):
 
 1) Mova os quatro bancos de dados SQLite da pasta **"SINARC/bases"** para outro local. Recomenda-se armazená-los temporariamente para eventual restituição, caso não consiga concluir com sucesso a geração dos novos arquivos. Você também pode deletar os 4 bancos de dados;<br><br>
-3) Escolha o mês desejado e faça o download dos 37 arquivos ZIP do site da Receita Federal para a pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos-zip"**;
-4) Na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas"**, execute o arquivo _**cria_bancos_de_dados.bat**_ a partir do Terminal do Windows para permitir a visualização de eventuais erros. Esse arquivo .bat executará sequencialmente todas as rotinas contidas nos arquivos Python e gerará os 4 bancos de dados na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"**.<br>
+2) Escolha o mês desejado e faça o download dos 37 arquivos ZIP do site da Receita Federal para a pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos-zip"**;<br><br>
+3) Na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas"**, execute o arquivo _**cria_bancos_de_dados.bat**_ a partir do Terminal do Windows para permitir a visualização de eventuais erros. Esse arquivo .bat executará sequencialmente todas as rotinas contidas nos arquivos Python e gerará os 4 bancos de dados na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"**.<br>
 O processo de criação dos bancos de dados leva aproximadamente **6 horas**. Em caso de erro, tente repetir o procedimento.<br>
 Ao final do processo, será exibida no Terminal a mensagem _**Todos os scripts foram executados com sucesso!**_.<br><br>
-5) Após a criação dos 4 bancos de dados, mova-os da pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"** para a pasta **"SINARC/bases"**, substituindo os quatro arquivos lá existentes.
+4) Após a criação dos 4 bancos de dados, mova-os da pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"** para a pasta **"SINARC/bases"**, substituindo os quatro arquivos lá existentes.
 
 Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados.
 
