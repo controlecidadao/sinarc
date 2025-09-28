@@ -765,6 +765,7 @@ Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemp
 * **Tecla o** --> Abre nós selecionados como alvos em nova aba do navegador.
 * **Tecla O** --> Abre filiais da pessoa jurídica selecionada em nova aba do navegador.
 * **Tecla s** --> Pesquisa livre por parâmetro (CNPJ, radical do CNPJ, razão social, nome de fantasia, nome da pessoa física, CPF parcial) no banco de dados. Use "@NNN" depois do parâmetro para retornar até NNN ocorrências.
+* **Tecla S** --> Abre nós selecionados em 1 camada sem incluir bordas vermelhas ou arestas coloridas.
 * **Tecla +** --> Inclui nó selecionado na lista de nós-alvos.
 * **Tecla -** --> Exclui nó selecionado da lista de nós-alvos.
 * **Tecla y** --> Abre nós da lista de nós-alvos em uma nova aba do navegador.
@@ -875,7 +876,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **r** --> Exibe na tela apenas os nós selecionados, deletando todos os demais.<br>
 **R** --> Exibe na tela apenas os nós que interconectam os nós-alvos (caminhos mais curtos) quando a opção de destacar arestas tiver sido selecionada pelo usuário, deletando todos os demais nós.<br>
 **s** --> Consulta livre na base de dados por nome de pessoa física, razão social, nome de fantasia, radical do CNPJ (8 primeiros dígitos) ou número completo do CNPJ (00.000.000/0000-00 ou 00000000000000).<br>
-**S** --> <br>
+**S** --> Abre nós selecionados em 1 camada sem incluir bordas vermelhas ou arestas coloridas.<br>
 **t** --> Ativa o modo transparência por tipos de nós: Quando a tecla t é pressionada, exibe de forma alternada os nós com imagens iguais. Para recarregar a página do grafo, pressione F5.<br>
 **T** --> Ativa o modo transparência por conexões: Posicionando o ponteiro do mouse sobre o nó, este e os nós adjacentes são exibidos temporariamente. Ao clicar sobre o nó, este e os nós adjacentes são exibidos de forma permanente. Para recarregar a página do grafo, pressione F5.<br>
 **u** --> Exibe informações sobre os nós centrais (Betweenness Centrality, Closeness Centrality, Eigenvector Centrality, Degree Centrality e PageRank).<br>
@@ -912,13 +913,15 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **ESC** --> Encaixa o grafo no centro da tela.<br>
 **ESPAÇO** --> Aumenta a massa dos nós com tamanho dentro de uma faixa específica de valores, iniciando pelo nó com maior tamanho (100) e prosseguindo para as faixas de valores seguintes (5 unidades).<br>
 **DEL** --> Deleta os nós que estejam selecionados.<br>
-**BACKSPACE** --> Possui funcionalidade idêntica à da tecla DEL. Útil para explorar os grafos usando o teclado dos aparelhos celulares.
+**BACKSPACE** --> Possui funcionalidade idêntica à da tecla DEL. Para uso em teclados de aparelhos celulares.
 **F5** --> Recarrega a página do grafo.<br>
 **F11** --> Alterna entre ativação e desativação do modo tela cheia do navegador.<br>
-**SHIFT + ARROW RIGHT** --> Aumenta o comprimento das arestas do grafo em 30 unidades (comprimento padrão: 300).<br>
-**SHIFT + ARROW LEFT** --> Diminui o comprimento das arestas do grafo em 30 unidades.<br>
-**SHIFT + ARROW UP** --> Aumenta o tamanho referencial dos nós em 5 pixels (tamanho referencial padrão: 40).<br>
-**SHIFT + ARROW DOWN** --> Diminui o tamanho referencial dos nós em 5 pixels.<br>
+**SHIFT + SETA P/ DIREITA** --> Aumenta o comprimento das arestas do grafo em 30 unidades (comprimento padrão: 300).<br>
+**SHIFT + SETA P/ ESQUERDA** --> Diminui o comprimento das arestas do grafo em 30 unidades.<br>
+**SHIFT + SETA PARA CIMA ou >** --> Aumenta o tamanho referencial dos nós em 5 pixels (tamanho referencial padrão: 40).<br>
+**SHIFT + SETA PARA BAIXO ou <** --> Diminui o tamanho referencial dos nós em 5 pixels.<br>
+**>** --> Aumenta o tamanho referencial dos nós em 5 pixels (tamanho referencial padrão: 40). Para uso em teclado de aparelhos celulares.<br>
+**<** --> Diminui o tamanho referencial dos nós em 5 pixels. Para uso em teclados de aparelhos celulares.<br>
 
 </details>
   
