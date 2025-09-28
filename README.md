@@ -194,8 +194,6 @@ Pronto! Os programas SINARC, Rede CNPJ e DB Browser já podem ser utilizados.
 
 Conquanto o SINARC utilize apenas a modelagem de criação e de consulta aos bancos de dados desenvolvida pelo projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa como etapa prévia à abertura do SINARC, permitindo ao cidadão explorar simultaneamente os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, disponibilizando-o igualmente como **software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos**.
 
-<!--**ATENÇÃO:** O uso do SINARC com pen drive reduz o desempenho do sistema, em especial com grafos muito grandes. Para desempenho máximo, salve a pasta SINARC diretamente no computador.-->
-
 Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 
 <br>
@@ -215,7 +213,7 @@ Esses bancos são gerados a partir de **37 arquivos CSV compactados** (formato Z
 
 Com a pasta SINARC baixada e salva no computador (a geração dos bancos de dados deve ser realizada com a pasta no computador e não em mídia externa):
 
-1) Mova os quatro bancos de dados SQLite da pasta **"SINARC/bases"** para outro local. Recomenda-se armazená-los temporariamente para eventual restituição, caso não consiga concluir com sucesso a geração dos novos arquivos. Você também pode deletar os 4 bancos de dados;<br><br>
+1) Mova os quatro bancos de dados SQLite (**_cnpj.db_**, **_rede_search.db_**, **_cnpj_links_ete.db_** e **_rede.db_**) da pasta **"SINARC/bases"** para outro local. Recomenda-se armazená-los temporariamente para eventual restituição, caso não consiga concluir com sucesso a geração dos novos arquivos. Você também pode deletar os 4 bancos de dados;<br><br>
 2) Escolha o mês desejado e faça o download dos 37 arquivos ZIP do site da Receita Federal para a pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos-zip"**;<br><br>
 3) Na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas"**, execute o arquivo _**cria_bancos_de_dados.bat**_ a partir do Terminal do Windows para permitir a visualização de eventuais erros. Esse arquivo .bat executará sequencialmente todas as rotinas contidas nos arquivos Python e gerará os 4 bancos de dados na pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"**.<br>
 O processo de criação dos bancos de dados leva aproximadamente **6 horas**. Em caso de erro, tente repetir o procedimento.<br>
