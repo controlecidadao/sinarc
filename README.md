@@ -251,9 +251,11 @@ Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados.
 <a href="https://mayank-blogs.hashnode.dev/web-sockets-part-1">mayank-blogs.hashnode.dev</a>
 </p>-->
 
-Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**hostname.txt**_ e inclua em uma nova linha o _hostname_ do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter o _hostname_ encontram-se no próprio arquivo TXT.
+Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**endereco_ip.txt**_ e inclua em uma nova linha o **"Endereço IPv4"** do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter este endereço encontram-se no próprio arquivo TXT.
 
-Por fim, salve (CTRL + s) e feche o arquivo _hostname.txt_.
+Certifique-se de utilizar um endereço IPv4 fixo.
+
+Por fim, salve (CTRL + s) e feche o arquivo _endereco_ip.txt_.
 
 Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquivo _**abre_sinarc.bat**_ na **pasta SINARC-Client**. Assim como a versão completa do SINARC, esta pasta também pode ser salva em um pen drive para permitir seu uso em outros computadores conectados à mesma rede.
 
