@@ -174,17 +174,7 @@ Devido à sua portabilidade, a **pasta SINARC** contendo os programas SINARC e R
 
 O arquivo _SINARC.zip_ possui 20 GB ([SHA-256](https://emn178.github.io/online-tools/sha256_checksum.html): _e57dc87788447908153cd91ab72006a59ad1732bfceb7caaa4c85c52f7335429_).
 
-<!--Valide a integridade do arquivo baixado submetendo-o a este [site de verificação](https://emn178.github.io/online-tools/sha256_checksum.html) e comparando a saída (Output) com o código SHA-256 fornecido.-->
-
 **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 GB para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço suficiente no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_ -> _Local_).
-
-<!--Durante os testes de download, os navegadores Google Chrome e Microsoft Edge armazenaram uma segunda cópia do arquivo zip (20 GB), com nomes formados por uma sequência de carecteres 0, tendo sido necessário apagá-las manualmente para não ocupar espaço no computador (a parte final, após _File System_, pode variar dependendo da versão do navegador):
-
-* **Google Chrome:**  _C:\Users\nome_do_usuário\AppData(pasta oculta)\Local\Google\Chrome\User Data\Default\File System\095\p\00_ 
-  
-* **Microsoft Edge:** _C:\Users\nome_do_usuário\AppData(pasta oculta)\Local\Microsoft\Edge\User Data\Default\File System\007\p\00_
-
-O arquivo _SINARC.zip_ desta versão do Pen Drive SINARC contém os programas e a base de dados de CNPJ disponibilizada pela Receita Federal, **prontos para utilização**. A pasta pode ser descompactada e salva em um pen drive, HD externo ou mesmo no computador, **prescindindo de instalação**.-->
 
 <br>
 
@@ -192,7 +182,7 @@ O arquivo _SINARC.zip_ desta versão do Pen Drive SINARC contém os programas e 
 
 Para usar o Pen Drive SINARC, siga estes passos:
 
-1) Conecte o pen drive ao computador. A pasta SINARC descompactada deve estar salva no diretório raiz do pen drive, normalmente reconhecido como Drive D, E ou F; 
+1) Conecte o pen drive ao computador; 
 <br><br>
 2) Na pasta SINARC, clique 2 vezes no arquivo **_abre_rede_cnpj.bat_** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.bat_). Uma instância do Terminal do Rede CNPJ será aberta, exibindo a inicialização do programa. Aguarde alguns segundos até que a interface gráfica do Rede CNPJ seja exibida em uma nova aba do navegador;
 <br><br>
