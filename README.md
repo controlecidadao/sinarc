@@ -211,7 +211,7 @@ Os **4 bancos de dados** a serem substituídos estão localizados na pasta **"SI
 3) _**cnpj_links_ete.db**_ (9 GB)
 4) _**rede.db**_ (5 GB)
 
-Esses bancos são gerados a partir dos **37 arquivos CSV compactados** (formato ZIP), disponibilizados mensalmente no [site da Receita Federal](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/).
+Esses bancos são gerados a partir de **37 arquivos CSV compactados** (formato ZIP), disponibilizados mensalmente no [site da Receita Federal](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/).
 
 Com a pasta SINARC baixada e salva no computador (a geração dos bancos de dados deve ser realizada com a pasta no computador e não em mídia externa):
 
