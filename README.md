@@ -253,7 +253,7 @@ Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados.
 
 Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**endereco_ip.txt**_ e inclua em uma nova linha o **"Endereço IPv4"** do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter este endereço encontram-se no próprio arquivo TXT.
 
-Certifique-se de utilizar um endereço IPv4 fixo.
+Certifique-se de utilizar um **endereço IPv4 estático** (fixo).
 
 Por fim, salve (CTRL + s) e feche o arquivo _endereco_ip.txt_.
 
