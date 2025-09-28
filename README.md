@@ -160,6 +160,8 @@ Para uma experiência completa - sem limites - sobre as funcionalidades da ferra
 
 Data de extração da base de dados contida no Pen Drive SINARC: [13/09/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-09/)
 
+Total de CNPJs: 67.640.763
+
 <br>
 
 Devido à sua portabilidade, a **pasta SINARC** contendo os programas SINARC e Rede CNPJ para análise de grafos, e [DB Browser](https://sqlitebrowser.org/) para consulta direta aos bancos de dados, pode ser baixada e descompactada para um pen drive ou HD externo, facilitando sua utilização em diferentes computadores.
