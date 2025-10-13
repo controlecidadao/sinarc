@@ -579,6 +579,8 @@ Os **nós** do grafo possuem as seguintes propriedades:
 * **Tamanho:** propriedade dos nós definida automaticamente pelo sistema entre 20 (mínimo) e 100 (máximo), com base no número de conexões (arestas).
 * **Grupo:** propriedade definida automaticamente pelo sistema que indica o número da comunidade a que pertence o nó no grafo. Os nós pertencentes a uma mesma comunidade são mais densamente conectados entre si do que com nós de outras comunidades.
 
+O SINARC exibe no grafo apenas telefones, endereços e e-mails que sejam comuns a duas ou mais pessoas jurídicas.
+
 **Dica de Visualização:** Para evidenciar **padrões** e **anomalias** nas conexões do grafo, aumenta-se a massa dos nós de maior tamanho, isto é, dos nós que possuem o maior número de conexões (maior centralidade de grau). Este procedimento fará surgir agrupamentos de nós que exibem o mesmo padrão de conexões, bem como nós isolados que divergem dos padrões de agrupamento, gerando estruturas simétricas que facilitam a identificação de suas conexões.
 
 Por sua vez, as propriedades das **arestas** são as seguintes:
