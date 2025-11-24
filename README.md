@@ -158,9 +158,9 @@ Para uma experiência completa - sem limites - sobre as funcionalidades da ferra
 
 <!--#### 💽 Data de Extração da Base de Dados de CNPJ: &emsp; [13/09/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-09/)-->
 
-Data de extração da base de dados contida no Pen Drive SINARC: [13/09/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-09/)
+Data de extração da base de dados contida no Pen Drive SINARC: [08/11/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-11/)
 
-Total de CNPJs: 67.640.763
+Total de CNPJs: 68.448.345
 
 <br>
 
@@ -168,7 +168,7 @@ Devido à sua portabilidade, a **pasta SINARC** contendo os programas SINARC e R
 
 <br>
 
-**👉 [Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=1dJdhjoZ3f7fVr3ZDTfcU3BDjQCU28gle)**
+**👉 [Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=1l0JycGZL09X5sfEyNaLfAsbh7Bukz9YX)**
 
 <br>
 
