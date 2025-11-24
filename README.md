@@ -1,6 +1,6 @@
 ![v](https://img.shields.io/badge/Versão-0.3.0-blue)
 [![License: MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![v](https://img.shields.io/badge/Atualização-%2028%20de%20Setembro%20de%20%202025-green)
+![v](https://img.shields.io/badge/Atualização-%2023%20de%20Novembro%20de%20%202025-green)
 
 <!--![](https://komarev.com/ghpvc/?username=controlecidadao&abbreviated=true&label=Views)-->
 <!-- Fonte: https://github.com/antonkomarev/github-profile-views-counter-->
