@@ -499,7 +499,7 @@ O SINARC se destina a todos que exercem o controle social e institucional da Adm
 <br>
 
 <p align="center" width="100%">
-<img width="15%" class="clickable-image" src="./images/menu_suspenso.png" alt="Menu Suspenso" />
+<img width="100%" class="clickable-image" src="./images/menu_suspenso.png" alt="Menu Suspenso" />
 </p>
 
 <p align="center" width="100%">
