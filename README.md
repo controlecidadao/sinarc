@@ -658,7 +658,7 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 ### Fixação de nós
 
 * **Mouse** --> Mantenha pressionado o botão esquerdo do mouse sobre o nó de maior tamanho e arraste-o até um dos cantos da tela. Ao soltar o botão, observe o retorno do grafo ao centro da tela.
-* **Tecla p** --> Ativa/desativa os movimentos do grafo, permitindo o reposicionamento manual dos nós. Repita o comando anterior e pressione a tecla p durante o retorno do grafo ao centro da tela. Quando o grafo parar, clique sobre um nó e arraste-o para outra posição (repita esse procedimento com outros nós). Ao final, pressione a tecla p novamente para liberar os movimentos do grafo.
+* **Tecla p** --> Ativa/desativa os movimentos do grafo, permitindo o reposicionamento manual dos nós, além de ativar o zoom dinâmico sobre os nós. Repita o comando anterior e pressione a tecla p durante o retorno do grafo ao centro da tela. Quando o grafo parar, clique sobre um nó e arraste-o para outra posição (repita esse procedimento com outros nós). Ao final, pressione a tecla p novamente para liberar os movimentos do grafo.
 * **Tecla f** --> Ativa/desativa os movimentos apenas dos nós selecionados. Selecione um nó, pressione a tecla f e arraste-o para fixá-lo em um canto da tela. Selecione outro nó, pressione a tecla f novamente e arraste-o para o outro canto da tela. Ao final, selecione os nós fixados e pressione a tecla f para liberá-los.
 
 <br>
@@ -885,7 +885,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **N** --> Diminui em 5 unidades a massa dos nós que possuem tamanho maior ou igual ao tamanho referencial.<br>
 **o** --> Abre os nós-alvos selecionados em nova aba do navegador com o número de camadas fornecido pelo usuário.<br>
 **O** --> Abre matriz e filiais do nó selecionado (apenas PJ).<br>
-**p** --> Pausa a interação gravitacional entre os nós.<br>
+**p** --> Pausa a interação gravitacional entre os nós. Ativa zoom dinâmico sobre os nós.<br>
 **P** --> <br>
 **q** --> Localiza nós e arestas no grafo com base em seus rótulos. Aperte ENTER com a caixa de diálogo de localização dos nós vazia para abrir a caixa de diálogo de localização das arestas.<br>
 **Q** --> Seleciona apenas os nós-alvos do grafo (bordas vermelhas).<br>
@@ -915,6 +915,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **[** --> Diminui a massa dos nós selecionados em 5 unidades.<br>
 **|** --> Alterna entre ativação e desativação do modo de captura do SINARC.<br>
 **?** --> Alterna entre exibição e ocultação dos atalhos para as funções do mouse e do teclado.<br>
+**!** --> Gera novo arquivo HTML (grafo_final_atualizado.html) contendo exclusões e alterações de massa dos nós.<br>
 **+** --> Inclui nós selecionados na lista de nós-alvos.<br>
 **-** --> Exclui o último nó incluído na lista de nós-alvos.<br>
 **1** --> Abre página do Comprovante de Inscrição no CNPJ do nó selecionado (apenas PJ).<br>
@@ -925,7 +926,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **6** --> Abre as páginas contendo as bases de dados públicas para download da Receita Federal (CNPJ), da CGU (CEIS, CNEP, CEPIM, CEAF, Acordo de Leniência e PEP) e da PGFN (dívida ativa geral, previdenciária e de FGTS).<br>
 **7** --> Exibe detalhes do CNPJ da pessoa jurídica do nó selecionado no formato JSON (CNPJ.ws).<br>
 **8** --> Verifica se o nó selecionado está cadastrado como fornecedor da União e se está habilitado a licitar (apenas PJ).<br>
-**9** --> <br>
+**9** --> Baixa arquivos "nodes.json" e "edges.json" com as exclusões e alterações de massa dos nós.<br>
 **ESC** --> Encaixa o grafo no centro da tela.<br>
 **ESPAÇO** --> Aumenta a massa dos nós com tamanho dentro de uma faixa específica de valores, iniciando pelo nó com maior tamanho (100) e prosseguindo para as faixas de valores seguintes (5 unidades).<br>
 **DEL** --> Deleta os nós que estejam selecionados.<br>
