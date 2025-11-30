@@ -498,6 +498,16 @@ O SINARC se destina a todos que exercem o controle social e institucional da Adm
 </p>
 <br>
 
+<p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/menu_suspenso.png" alt="Menu Suspenso" />
+</p>
+
+<p align="center" width="100%">
+Tela do SINARC exibindo o menu suspenso.
+</p>
+
+<br><br>
+
 Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINARC:
 1) Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido (o tamanho dos nós é proporcional ao número de conexões com nós adjacentes). Outros exemplos de grafos disponíveis online para testes: [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html), [Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html), [Exemplo 3](https://controlecidadao.github.io/sinarc/exemplo3.html), [Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html), [Exemplo 6](https://controlecidadao.github.io/sinarc/exemplo6.html), [Exemplo 7](https://controlecidadao.github.io/sinarc/exemplo7.html), [Exemplo 8](https://controlecidadao.github.io/sinarc/exemplo8.html). Obs: Caso algum comando não funcione corretamente com os exemplos online, tente abrir o endereço do grafo usando uma aba anônima do navegador;
    
