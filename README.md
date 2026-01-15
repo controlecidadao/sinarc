@@ -47,6 +47,17 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 2. Conjunto de **ferramentas computacionais** que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de **padrões** e **anomalias** para a produção de conhecimento.
 
+<br>
+
+SINARC em 5 conceitos:
+* Grafos são diagramas formados por **nós** e **arestas**.
+* Nós representam entidades (PF, PJ, EN, TE, EM) e arestas representam vínculos entre as entidades (sócio, administrador etc.).
+* O **tamanho** dos nós (20 a 100) é proporcional ao número de arestas.
+* Nós possuem **massas** (iguais) e interagem gravitacionalmente entre si (repulsão).
+* Arestas atuam como **molas** que ligam os nós.
+
+<br>
+
 O **Projeto SINARC** integrou o Plano de Metas 2025 da Rede de Informações Estratégicas dos Ministérios Públicos de Contas ([Rede MPContas](https://mp.tcu.gov.br/rede-mpcontas/)):
 
 <br>
