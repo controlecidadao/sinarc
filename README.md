@@ -75,7 +75,7 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo1.html" target="_blank">
-   <img width="80%" class="clickable-image" src="./images/vinculos_1.png" alt="Imagem de Grafo" />
+   <img width="80%" class="clickable-image" src="./images/exemplo1.png" alt="Imagem de Grafo" />
 </a>
 </p>
 
