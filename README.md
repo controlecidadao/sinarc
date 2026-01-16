@@ -49,6 +49,11 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br>
 
+<p align="center" width="70%">
+   <img width="100%" class="clickable-image" src="./images/chocolates_garoto.png" alt="Imagem de Grafo" />
+</a>
+</p>-->
+
 Conceitos básicos:
 * **Grafos** são diagramas formados por **nós** e **arestas**.
 * Nós representam entidades (PF, PJ, EN, TE, EM) e arestas representam vínculos (Sócio, Administrador etc.).
