@@ -86,7 +86,11 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 
 
 
-https://github.com/user-attachments/assets/e85d1e1e-cb3b-486f-8029-6da6f062e63b
+
+
+https://github.com/user-attachments/assets/f1c2059d-ad9e-465c-8221-485aa1672921
+
+
 
 
 
