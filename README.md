@@ -52,7 +52,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 <p align="center" width="70%">
    <img width="100%" class="clickable-image" src="./images/chocolates_garoto.png" alt="Imagem de Grafo" />
 </a>
-</p>-->
+</p>
 
 Conceitos básicos:
 * **Grafos** são diagramas formados por **nós** e **arestas**.
