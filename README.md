@@ -49,17 +49,21 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br>
 
-<p align="center" width="70%">
-   <img width="100%" class="clickable-image" src="./images/chocolates_garoto.png" alt="Imagem de Grafo" />
+<p align="center" width="100%">
+   <img width="90%" class="clickable-image" src="./images/chocolates_garoto.png" alt="Imagem de Grafo" />
 </a>
 </p>
 
-Conceitos básicos:
+<br>
+
+**Conceitos básicos:**
+
 * **Grafos** são diagramas formados por **nós** e **arestas**.
 * Nós representam entidades (PF, PJ, EN, TE, EM) e arestas representam vínculos (Sócio, Administrador etc.).
 * O **tamanho** dos nós (20 a 100) é proporcional ao número de arestas.
 * Nós possuem **massas** (1) e interagem gravitacionalmente entre si (repulsão).
 * Arestas atuam como **molas** que ligam os nós.
+* A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
 
 <br>
 
@@ -87,20 +91,11 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 **QR Codes** permitem a abertura e exploração dos grafos online em aparelhos celulares. Para abrir o teclado do celular e digitar os comandos do SINARC, clique no botão localizado na parte inferior central da tela do celular.
 
 
-<br><br>
-
-
-
-
-
+<br>
 
 https://github.com/user-attachments/assets/f9f215f3-fa2a-4963-a7e3-9fe2c24ea2d3
 
-
-
-
-
-
+<br>
 
 <!--<p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo1.html" target="_blank">
@@ -113,7 +108,7 @@ https://github.com/user-attachments/assets/f9f215f3-fa2a-4963-a7e3-9fe2c24ea2d3
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo exibindo vínculos entre duas empresas, identificados pelo SINARC na 1ª camada. <b>Clique na imagem e interaja com o grafo</b>, arrastando os nós com o mouse. 
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo exibindo vínculos entre duas empresas, identificados pelo SINARC na 1ª camada.
 </p> 
 
 <br><br>
