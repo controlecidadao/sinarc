@@ -84,11 +84,17 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 
 <br><br>
 
-<p align="center" width="100%">
+
+
+https://github.com/user-attachments/assets/e85d1e1e-cb3b-486f-8029-6da6f062e63b
+
+
+
+<!--<p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo1.html" target="_blank">
    <img width="100%" class="clickable-image" src="./images/exemplo1.png" alt="Imagem de Grafo" />
 </a>
-</p>
+</p>-->
 
 <p align="center" width="100%">
 <img width="15%" class="clickable-image" src="./images/qrcode_exemplo1.png" alt="QR Code" />
