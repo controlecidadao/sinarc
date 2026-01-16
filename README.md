@@ -63,7 +63,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * O **tamanho** dos nós (20 a 100) é proporcional ao número de arestas.
 * Nós possuem **massas** (1) e interagem gravitacionalmente entre si (repulsão).
 * Arestas atuam como **molas** que ligam os nós.
-* A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
+* A distância entre dois nós é medida pelo número de arestas que os separa (**camadas**).
 
 <br>
 
