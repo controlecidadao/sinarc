@@ -49,11 +49,11 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br>
 
-SINARC em 5 conceitos:
-* Grafos são diagramas formados por **nós** e **arestas**.
-* Nós representam entidades (PF, PJ, EN, TE, EM) e arestas representam vínculos entre as entidades (sócio, administrador etc.).
-* O **tamanho** dos nós é proporcional ao número de arestas (20 a 100).
-* Nós possuem **massas** (iguais) e interagem gravitacionalmente entre si (repulsão).
+Conceitos básicos:
+* **Grafos** são diagramas formados por **nós** e **arestas**.
+* Nós representam entidades (PF, PJ, EN, TE, EM) e arestas representam vínculos (Sócio, Administrador etc.).
+* O **tamanho** dos nós (20 a 100) é proporcional ao número de arestas.
+* Nós possuem **massas** (1) e interagem gravitacionalmente entre si (repulsão).
 * Arestas atuam como **molas** que ligam os nós.
 
 <br>
