@@ -114,7 +114,7 @@ https://github.com/user-attachments/assets/f9f215f3-fa2a-4963-a7e3-9fe2c24ea2d3
 
 <br><br>
 
-Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https://notebooklm.google.com/notebook/d19708c4-ad30-4ed8-aba0-7cab154926db) na plataforma **NotebookLM**, utilizando sua conta no Google. Esta ferramenta, baseada em **Inteligência Artificial**, examina simultaneamente os documentos do SINARC (README, Manual do SINARC e seu código fonte), permitindo a obtenção de respostas detalhadas sobre as funcionalidades do sistema.
+Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https://notebooklm.google.com/notebook/d19708c4-ad30-4ed8-aba0-7cab154926db) na plataforma **NotebookLM** do Google. Esta ferramenta, baseada em **Inteligência Artificial**, examina simultaneamente os documentos do SINARC (README, Manual do SINARC e seu código fonte), permitindo a obtenção de respostas detalhadas sobre as funcionalidades do sistema.
 
 <br><br>
 <!--
