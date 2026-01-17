@@ -64,7 +64,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * Nós possuem **massas** (1) e interagem gravitacionalmente entre si (repulsão).
 * Arestas atuam como **molas** que impedem os nós de se afastarem.
 * A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
-* EN, TE e EM são exibidos apenas quando compartilhados por mais de uma PJ na base de dados.
+* EN, TE e EM são exibidos no grafo apenas quando compartilhados por mais de uma PJ na base de dados.
 
 <br>
 
