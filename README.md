@@ -47,7 +47,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 2. Conjunto de **ferramentas computacionais** que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de **padrões** e **anomalias** para a produção de conhecimento;
    
-3. Integração com sistemas de **Inteligência Artificial** para análise do grafo sob múltiplas perspectivas.
+3. Integração com sistemas de **Inteligência Artificial** para análise do grafo e geração de **insights** sob múltiplas perspectivas.
 
 <br>
 
