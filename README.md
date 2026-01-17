@@ -43,9 +43,11 @@ O **SINARC – Sistema Integrado de Análise de Redes Complexas** consiste em um
 
 Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [OSINT](https://www.cia.gov/stories/story/ic-osint-strategy-rollout/))_ em permanente evolução, o SINARC se propõe a ampliar as perspectivas de análise das conexões existentes entre **informações públicas** sobre **pessoas físicas** (PF), **pessoas jurídicas** (PJ), **endereços** (EN), **telefones** (TE) e **e-mails** (EM) constantes na [base de dados pública de CNPJ](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/?C=N;O=D) da Receita Federal, formada por **68 milhões de CNPJs**, por meio dos seguintes recursos:
 
-1. Criação de uma **interface gráfica interativa**, concebida a partir da aplicação dos princípios da [Gestalt](https://medium.com/aela/os-7-princ%C3%ADpios-de-gestalt-e-como-utiliz%C3%A1-los-em-projetos-de-ui-design-46d6d832abf6) ([artigo](https://jamieesterman.com/work/posts/gestalt-principles-and-the-laws-of-ux-a-guide-to-usable-interface-design)) sobre um **modelo físico-matemático**, facilitando a identificação visual das estruturas sem gerar sobrecarga cognitiva decorrente do excesso de estímulos visuais; e
+1. Criação de uma **interface gráfica interativa**, concebida a partir da aplicação dos princípios da [Gestalt](https://medium.com/aela/os-7-princ%C3%ADpios-de-gestalt-e-como-utiliz%C3%A1-los-em-projetos-de-ui-design-46d6d832abf6) ([artigo](https://jamieesterman.com/work/posts/gestalt-principles-and-the-laws-of-ux-a-guide-to-usable-interface-design)) sobre um **modelo físico-matemático**, facilitando a identificação visual das estruturas sem gerar sobrecarga cognitiva decorrente do excesso de estímulos visuais;
 
-2. Conjunto de **ferramentas computacionais** que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de **padrões** e **anomalias** para a produção de conhecimento.
+2. Conjunto de **ferramentas computacionais** que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de **padrões** e **anomalias** para a produção de conhecimento;
+   
+3. Integração com sistemas de **Inteligência Artificial** para análise do grafo sob múltiplas perspectivas.
 
 <br>
 
