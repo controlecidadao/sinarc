@@ -62,7 +62,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * Nós representam entidades (PF, PJ, EN, TE, EM) e arestas representam vínculos (Sócio, Administrador etc.).
 * O **tamanho** dos nós (20 a 100) é proporcional ao número de arestas.
 * Nós possuem **massas** (1) e interagem gravitacionalmente entre si (repulsão).
-* Arestas atuam como **molas** que ligam os nós.
+* Arestas atuam como **molas** que interligam os nós.
 * A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
 * EN, TE e EM são exibidos apenas quando compartilhados por mais de uma PJ na base de dados.
 
