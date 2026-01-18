@@ -66,7 +66,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * Nós possuem **massa** (1) e interagem gravitacionalmente entre si (força de repulsão).
 * Arestas atuam como **molas** que impedem os nós de se afastarem.
 * A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
-* A expensão do grafo ocorre apenas na direção das PF e das PJ.
+* A expensão do grafo ocorre apenas por meio das PF e das PJ.
 * EN, TE e EM de PJ são incluídos automaticamente no grafo quando compartilhados por mais de uma PJ na base de dados.
  
 <br>
