@@ -63,7 +63,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * **Grafos** são diagramas formados por **nós** e **arestas** (setas).
 * Nós representam entidades (PF, PJ, EN, TE, EM) e arestas representam vínculos (Sócio, Administrador etc.).
 * O **tamanho** dos nós (de 20 a 100) é proporcional ao número de arestas.
-* Nós possuem **massa** (1) e interagem gravitacionalmente entre si (força de repulsão).
+* Nós possuem **massa** (igual a 1) e interagem gravitacionalmente entre si (força de repulsão).
 * Arestas atuam como **molas** que impedem os nós de se afastarem.
 * A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
 * A expensão do grafo ocorre apenas por meio das PF e das PJ.
