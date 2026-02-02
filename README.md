@@ -45,7 +45,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 1. **Interface gráfica interativa**, concebida a partir da aplicação dos princípios da [Gestalt](https://medium.com/aela/os-7-princ%C3%ADpios-de-gestalt-e-como-utiliz%C3%A1-los-em-projetos-de-ui-design-46d6d832abf6) <!--([artigo](https://jamieesterman.com/work/posts/gestalt-principles-and-the-laws-of-ux-a-guide-to-usable-interface-design))--> sobre um **modelo físico-matemático**, facilitando a identificação visual das estruturas sem gerar sobrecarga cognitiva decorrente do excesso de estímulos visuais;
 
-2. Conjunto de **ferramentas computacionais** que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de **padrões** e **anomalias** para a produção de conhecimento;
+2. Conjunto de **ferramentas computacionais** que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de **padrões** e **anomalias** e na produção de conhecimento;
    
 3. Integração com sistemas de **Inteligência Artificial** para análise do grafo e geração de **insights** sob múltiplas perspectivas.
 
