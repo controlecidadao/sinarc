@@ -67,7 +67,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * Arestas atuam como **molas** que impedem os nós de se afastarem.
 * A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
 * A expensão do grafo ocorre apenas por meio de PF e PJ.
-* EN, TE e EM de PJ são incluídos automaticamente no grafo quando compartilhados por mais de uma PJ na base de dados.
+* Apenas PJ possui EN, TE e EM, os quais são incluídos automaticamente no grafo quando compartilhados por mais de uma PJ na base de dados.
  
 <br>
 
