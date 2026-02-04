@@ -31550,7 +31550,7 @@
         function criarLinkBusca(nome) {
         const nomeFormatado = nome.replace(/\s+/g, '+');
         
-        textoPesquisaFormatado = encodeURIComponent(windows.textoPesquisa);
+        textoPesquisaFormatado = encodeURIComponent(window.textoPesquisa);
 
 
         const url = 'https://www.google.com/search?q=' + textoPesquisaFormatado + '+Alvo:+' + nomeFormatado + '&udm=50';
