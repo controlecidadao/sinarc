@@ -72,6 +72,18 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
  
 <br>
 
+Etapas de produção de conhecimento com o SINARC:
+
+1. Sistema complexo e dinâmico de criação e alteração diária de registros na RFB (68 milhões CNPJs)
+2. Disponibilização mensal da base de dados de CNPJ pela RFB
+3. Criação de um modelo físico-matemático dos vínculos existentes entre PF, PJ, EN, TE e EM
+4. Criação de uma representação gráfica interativa dos vínculos
+5. Aplicação de algoritmos para facilitar a análise
+6. Aplicação de ferramentas de OSINT
+
+
+<br>
+
 O **Projeto SINARC** integrou o Plano de Metas 2025 da Rede de Informações Estratégicas dos Ministérios Públicos de Contas ([Rede MPContas](https://mp.tcu.gov.br/rede-mpcontas/)):
 
 <br>
