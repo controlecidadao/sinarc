@@ -72,14 +72,16 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
  
 <br>
 
-Etapas de produção de conhecimento com o SINARC:
+**Etapas da produção de conhecimento com o SINARC:**
 
-1. Sistema complexo e dinâmico de criação e alteração diária de registros na RFB (68 milhões CNPJs)
-2. Disponibilização mensal da base de dados de CNPJ pela RFB
-3. Criação de um modelo físico-matemático dos vínculos existentes entre PF, PJ, EN, TE e EM
-4. Criação de uma representação gráfica interativa dos vínculos
-5. Aplicação de algoritmos para facilitar a análise
-6. Aplicação de ferramentas de OSINT
+1. **Sistema complexo** e dinâmico de criação e alteração diária de registros na Receita Federal (68 milhões de CNPJs)
+2. Disponibilização mensal da **base de dados de CNPJ** pela RFB em arquivos CSV
+3. Conversão e estruturação em **bancos de dados** SQLite
+4. Criação de um **modelo físico-matemático** dos vínculos existentes entre PF, PJ, EN, TE e EM (Teoria dos Grafos)
+5. Criação de uma **representação gráfica interativa** dos vínculos (grafo com nós e arestas), concebida a partir dos princípios da Gestalt
+6. Aplicação de algoritmos para identificação de **padrões e anomalias** na rede
+7. Integração com ferramentas de **Inteligência Artificial** para geração de insights
+8. Aplicação de **técnicas de OSINT** para cruzamento e validação com fontes externas
 
 
 <br>
