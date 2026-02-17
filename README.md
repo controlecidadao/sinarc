@@ -72,7 +72,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
  
 <br>
 
-**Fluxo de produççao de conhecimento com o SINARC:**
+**Fluxo de produção de conhecimento com o SINARC:**
 
 1. Existência de um **Sistema complexo** e dinâmico de criação e alteração diária de registros na Receita Federal (68 milhões de CNPJs)
 2. Disponibilização mensal da **base de dados de CNPJ** pela Receita Federal em arquivos CSV
