@@ -83,7 +83,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 5. Utilização do modelo para criação de uma **representação gráfica interativa** da rede de vínculos (grafo com nós e arestas), concebida a partir dos princípios da Gestalt
 6. Aplicação de algoritmos para identificação de **padrões e anomalias** na rede
 7. Integração com ferramentas de **Inteligência Artificial** para geração de insights
-8. Aplicação de **técnicas de OSINT** para cruzamento e validação com fontes externas
+8. Aplicação de **técnicas de OSINT** para cruzamento e validação das informações com fontes externas
 
 
 <br>
