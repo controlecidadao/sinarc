@@ -76,7 +76,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 **Fluxo de produção de conhecimento com o SINARC:**
 
-1. Existência de um **Sistema complexo** e dinâmico de criação e alteração diária de registros na Receita Federal (68 milhões de CNPJs)
+1. Existência de um **sistema complexo** e dinâmico de criação e alteração diária de registros na Receita Federal (68 milhões de CNPJs)
 2. Disponibilização mensal da **base de dados de CNPJ** pela Receita Federal em arquivos CSV
 3. Conversão dos arquivos CSV em **bancos de dados** SQLite
 4. Utilização dos bancos de dados para criação de um **modelo físico-matemático** dos vínculos existentes entre PF, PJ, EN, TE e EM (Teoria dos Grafos)
