@@ -85,8 +85,10 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 7. Integração com ferramentas de **Inteligência Artificial** para geração de insights
 8. Aplicação de **técnicas de OSINT** para cruzamento e validação das informações com fontes externas
 
-
-<br>
+<p align="center" width="100%">
+   <img width="45%" class="clickable-image" src="./images/triangulo_conhecimento.jpg" alt="Triângulo do Conhecimento" />
+</a>
+</p>
 
 O **Projeto SINARC** integrou o Plano de Metas 2025 da Rede de Informações Estratégicas dos Ministérios Públicos de Contas ([Rede MPContas](https://mp.tcu.gov.br/rede-mpcontas/)):
 
