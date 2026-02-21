@@ -61,14 +61,16 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 **Conceitos básicos:**
 
 * **Grafos** são diagramas formados por **nós** e **arestas** (setas).
-* Nós representam entidades (PF, PJ, EN, TE, EM) e arestas representam vínculos (Sócio, Administrador etc.).
+* Nós representam **entidades** (PF, PJ, EN, TE, EM) e arestas representam **vínculos** (Sócio, Administrador etc.).
 * O **tamanho** dos nós (de 20 a 100) é proporcional ao número de arestas.
 * Nós possuem **massa** (igual a 1) e interagem gravitacionalmente entre si (força de repulsão).
 * Arestas atuam como **molas** que impedem os nós de se afastarem.
 * A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
-* A expensão do grafo ocorre apenas por meio de PF e PJ.
+* A expansão do grafo ocorre apenas por meio de PF e PJ.
 * Apenas PJ possui EN, TE e EM, os quais são incluídos automaticamente no grafo quando compartilhados por mais de uma PJ na base de dados.
-* Pessoas estrangeiras (PE) também são exibidas no grafo, porém com dados restritos. 
+* Pessoas estrangeiras (PE) também são exibidas no grafo, porém com dados restritos.
+* **Nós-alvos** são destacados por bordas vermelhas.
+* **Medidas de centralidade** são indicadas por bordas tracejadas.
  
 <br>
 
