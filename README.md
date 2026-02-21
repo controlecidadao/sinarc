@@ -71,6 +71,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * Pessoas estrangeiras (PE) também são exibidas no grafo, porém com dados limitados.
 * **Nós-alvos** são destacados por bordas vermelhas.
 * **Medidas de centralidade** do grafo são indicadas por bordas tracejadas.
+* Arestas coloridas indicam o caminho mais curto entre dois nós.
  
 <br>
 
