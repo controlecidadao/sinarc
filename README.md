@@ -86,6 +86,8 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 7. Integração com ferramentas de **Inteligência Artificial** para geração de insights
 8. Aplicação de **técnicas de OSINT** para cruzamento e validação das informações com fontes externas
 
+
+
 <p align="center" width="100%">
    <img width="45%" class="clickable-image" src="./images/triangulo_conhecimento.jpg" alt="Triângulo do Conhecimento" />
 </a>
