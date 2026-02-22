@@ -86,6 +86,11 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 7. Integração com ferramentas de **Inteligência Artificial** para geração de insights
 8. Aplicação de **técnicas de OSINT** para cruzamento e validação das informações com fontes externas
 
+<br>
+
+> **Realidade dinâmica (Sistema Complexo) ➡️ Modelagem físico-matemática (Teoria dos Grafos) ➡️ Representação gráfica (Gestalt)**
+
+<br>
 
 
 <p align="center" width="100%">
