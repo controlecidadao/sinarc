@@ -149,7 +149,7 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo exibindo vínculos entre duas empresas.
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Grafo interativo</a> exibindo vínculos entre duas empresas.
 </p> 
 
 <br><br>
