@@ -77,7 +77,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
 * Os nós de origem (**nós-alvos**) são destacados por bordas vermelhas.
 * A expansão do grafo ocorre a partir dos nós de origem e apenas por meio de PF e PJ.
-* Apenas PJ possui EN, TE e EM, os quais são incluídos automaticamente no grafo quando compartilhados por mais de uma PJ na base de dados.
+* Apenas PJ possui EN, TE e EM, os quais são incluídos automaticamente no grafo quando compartilhados por mais de uma PJ na base de dados. Se o grafo exibe EN, TE ou EM é porque essa entidade é compartilhada por pelo menos duas PJs.
 * Pessoas estrangeiras (PE) também são exibidas no grafo, porém com dados limitados.
 * **Medidas de centralidade** do grafo são indicadas por bordas tracejadas.
 * Arestas coloridas indicam o caminho mais curto entre dois nós.
