@@ -52,8 +52,13 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 <br>
 
 <p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo2.html" target="_blank">
    <img width="90%" class="clickable-image" src="./images/chocolates_garoto.png" alt="Imagem de Grafo" />
 </a>
+</p>
+
+<p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/qrcode_exemplo2.png" alt="QR Code" />
 </p>
 
 <br>
