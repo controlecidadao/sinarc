@@ -80,7 +80,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * Apenas PJ possui EN, TE e EM, os quais são incluídos automaticamente no grafo quando compartilhados por mais de uma PJ na base de dados. Se o grafo exibe EN, TE ou EM é porque essa entidade é compartilhada por pelo menos duas PJs.
 * Pessoas estrangeiras (PE) também são exibidas no grafo, porém com dados limitados.
 * **Medidas de centralidade** do grafo são indicadas por bordas tracejadas.
-* Arestas coloridas indicam o caminho mais curto entre dois nós.
+* Arestas coloridas indicam o caminho mais curto entre dois ou mais nós-alvos.
  
 <br>
 
