@@ -61,6 +61,10 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 <img width="15%" class="clickable-image" src="./images/qrcode_exemplo2.png" alt="QR Code" />
 </p>
 
+<p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo2.html">Grafo interativo</a> de grupo econômico aberto em 1 camada, com 20 nós e 26 arestas.
+</p>
+
 <br>
 
 **Conceitos básicos:**
