@@ -252,7 +252,11 @@ Para usar o Pen Drive SINARC, siga estes passos:
 
 1) Conecte o pen drive ao computador; 
 
-2) Na pasta SINARC, clique duas vezes no arquivo **sinarc.exe** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.exe_) e aguarde a inicialização dos sistemas. A interface gráfica do SINARC será aberta no navegador.
+2) Na pasta SINARC, clique duas vezes no arquivo **sinarc.exe** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.exe_) e aguarde a inicialização dos sistemas. A interface gráfica do SINARC será aberta no navegador:
+<p align="center" width="100%">
+   <img width="10%" class="clickable-image" src="./images/imagem_sinarc_exe.png" />
+</a>
+</p>
 
 Pronto! Os programas **SINARC**, **Rede CNPJ** (disponível no endereço local _http://127.0.0.1:5000/rede_) e **DB Browser** já podem ser utilizados.
 
