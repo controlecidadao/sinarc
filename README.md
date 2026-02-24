@@ -226,7 +226,7 @@ Para uma experiência completa - sem limites - sobre as funcionalidades da ferra
 ### 🚧 Atualizando a Base de Dados 🚧-->
 <br>
 
-Data de extração da base de dados contida no Pen Drive SINARC: [13/12/2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-12/)
+Data de extração da base de dados contida no Pen Drive SINARC: [13/12/2025](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9?dir=/2025-12)
 
 Total de CNPJs: 68.879.494
 
