@@ -251,14 +251,14 @@ O arquivo _SINARC.zip_ possui 20 GB ([SHA-256](https://emn178.github.io/online-t
 Para usar o Pen Drive SINARC, siga estes passos:
 
 1) Conecte o pen drive ao computador; 
-<br><br>
+
 2) Na pasta SINARC, clique duas vezes no arquivo **sinarc.exe** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.exe_) e aguarde a inicialização dos sistemas. A interface gráfica do SINARC será aberta no navegador.
 
-Pronto! Os programas SINARC, Rede CNPJ (disponível no endereço _http://127.0.0.1:5000/rede_) e DB Browser já podem ser utilizados.
+Pronto! Os programas SINARC, Rede CNPJ (disponível no endereço local _http://127.0.0.1:5000/rede_) e DB Browser já podem ser utilizados.
 
 <br>
 
-### Procedimento alternativo para abrir do SINARC
+**Procedimento alternativo para abrir o SINARC**
 
 Caso haja alguma restrição para executar o arquivo sinarc.exe no seu computador, utilize o seguinte procedimento:
 
