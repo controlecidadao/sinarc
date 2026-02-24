@@ -264,7 +264,7 @@ Pronto! Os programas **SINARC**, **Rede CNPJ** (disponível no endereço local _
 
 **Procedimento alternativo para abrir o SINARC**
 
-Caso haja alguma restrição para executar o arquivo sinarc.exe no seu computador, utilize o seguinte procedimento:
+Caso se depare com alguma restrição para executar o arquivo sinarc.exe no seu computador, utilize o seguinte procedimento:
 
 1) Na pasta SINARC, clique 2 vezes no arquivo **_abre_rede_cnpj.bat_** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.bat_). Uma instância do Terminal do Rede CNPJ será aberta, indicando a inicialização do programa. Aguarde alguns segundos até que a mensagem " O SINARC já pode ser inicializado!" seja exibida no Terminal;
 
