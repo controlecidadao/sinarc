@@ -256,13 +256,15 @@ Para usar o Pen Drive SINARC, siga estes passos:
 
 Pronto! Os programas SINARC, Rede CNPJ (disponível no endereço _http://127.0.0.1:5000/rede_) e DB Browser já podem ser utilizados.
 
+<br>
+
 ### Procedimento alternativo para abrir do SINARC
 
 Caso haja alguma restrição para executar o arquivo sinarc.exe no seu computador, utilize o seguinte procedimento:
 
 1) Na pasta SINARC, clique 2 vezes no arquivo **_abre_rede_cnpj.bat_** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.bat_). Uma instância do Terminal do Rede CNPJ será aberta, indicando a inicialização do programa. Aguarde alguns segundos até que a mensagem " O SINARC já pode ser inicializado!" seja exibida no Terminal;
-<br><br>
-2) Na sequência, também na pasta SINARC, clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta, indicando a inicialização do programa. Aguarde alguns segundos até que a interface gráfica do SINARC seja exibida em numa nova aba do navegador.
+
+3) Na sequência, também na pasta SINARC, clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta, indicando a inicialização do programa. Aguarde alguns segundos até que a interface gráfica do SINARC seja exibida em numa nova aba do navegador.
 
 **ATENÇÃO:** Para ativar/desativar o **modo de captura do SINARC**, pressione a **tecla |** (barra vertical) enquanto visualiza um grafo. Uma mensagem será exibida no canto superior esquerdo da tela, indicando a mudança de estado. Quando o modo de captura está ativado, a função de cópia do Windows (CTRL + c) fica vinculada ao SINARC, impedindo seu uso por outros programas.
 
