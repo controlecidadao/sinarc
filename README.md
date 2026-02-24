@@ -253,8 +253,8 @@ Para usar o Pen Drive SINARC, siga estes passos:
 1) Conecte o pen drive ao computador; 
 
 2) Na pasta SINARC, clique duas vezes no arquivo **sinarc.exe** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.exe_) e aguarde a inicialização dos sistemas. A interface gráfica do SINARC será aberta no navegador:
-<p align="center" width="100%">
-   <img width="10%" class="clickable-image" src="./images/imagem_sinarc_exe.png" />
+<p align="left" width="100%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <img width="11%" class="clickable-image" src="./images/imagem_sinarc_exe.png" />
 </a>
 </p>
 
