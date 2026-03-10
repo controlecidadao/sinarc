@@ -82,7 +82,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
   1. Nó-alvo é incluído para dar origem ao grafo
   2. PF e PJ são conectadas ao nó-alvo (expansão para 1 camada)
   3. PF e PJ são conectadas às PF e PJ da camada anterior (expansão para 2 ou mais camadas)
-  4. EN, TE e EM compartilhados na base de dados são conectados às PJ do grafo
+  4. EN, TE e EM, compartilhados compartilhados com outras PJ na base de dados, são conectados às PJ presentes no grafo
   5. Medidas de centralidade são calculadas
 * Pessoas estrangeiras (PE) também são exibidas no grafo, porém com dados limitados.
 * **Medidas de centralidade** do grafo são indicadas por bordas tracejadas.
