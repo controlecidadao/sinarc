@@ -274,7 +274,7 @@ Caso se depare com alguma restrição para executar o arquivo sinarc.exe no comp
 
 Conquanto o SINARC utilize apenas a modelagem de criação e de consulta aos bancos de dados desenvolvida pelo projeto Rede CNPJ, optou-se por disponibilizar também a íntegra deste formidável programa como etapa prévia à abertura do SINARC, permitindo ao cidadão explorar simultaneamente os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, disponibilizando-o igualmente como **software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos**.
 
-Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
+Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2. Recomenda-se deixar pelo menos 20% do espaço total do pen drive livre para não prejudicar o desempenho do sistema.
 
 <br>
 
