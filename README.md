@@ -55,23 +55,23 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 | Fonte           | Base de Dados                                                 | Período Abrangido | Data de Extração | Link        |
 |-----------------|---------------------------------------------------------------|-------------------|------------------|-------------|
-| Receita Federal | CNPJ (usada para gerar o grafo)                               |                   | 13/12/2025       | [Link](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9)        |
-| Receita Federal | Renúncia de Receitas 2025 (DIRBI)                             |                   | 18/03/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/renuncias-fiscais-de-tributos-federais) |
-| CGU             | Cadastro de Empresas Inidôneas e Suspensas (CEIS)             |                   | 27/02/2026       | [Link](https://portaldatransparencia.gov.br/sancoes)        |
-| CGU             | Cadastro Nacional de Empresas Punidas (CNEP)                  |                   | 27/02/2026       | [Link](https://portaldatransparencia.gov.br/sancoes)        |
-| CGU             | Cadastro Nacional de Entidades Privadas Impedidas (CEPIM)     |                   | 26/02/2026       | [Link](https://portaldatransparencia.gov.br/sancoes)        |
-| CGU             | Acordos de Leniência                                          |                   | 27/02/2026       | [Link](https://portaldatransparencia.gov.br/sancoes)        |
-| PGFN            | Dívida ativa previdenciária 12/2025 (PREV)                    |                   | 02/03/2026       | Link       |
-| PGFN            | Dívida ativa com FGTS (FGTS)                                  |                   | Link       |
-| PGFN            | Dívida ativa geral (SIDA)                                     |                   | Link       | |
-| CVM             | Companhias de capital aberto                                  |                   | Link       | |
-| MTE             | Trabalho análogo à escravidão                                 |                   | Link       | |
-| ANAC            | Registro Aeronáutico Brasileiro (RAB)                         |                   | Link       | |
-| TCE-ES          | Transferências Especiais da União (Emendas PIX)               |                   | Link       | |
-| TCE-ES          | Empenhos emitidos por municípios do ES (2021 a 2025)          |                   | Link       | |
-| TCE-ES          | Empenhos emitidos pelo Estado do Espírito Santo (2021 a 2025) |                   | Link       | |
-| SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          |                   | Link       | |
-| SEFAZ-ES        | Renúncia de Receita                                           |                   | Link       | |
+| Receita Federal | CNPJ (usada para gerar o grafo)                               | 13/12/2025        | 01/01/2026       | [Link](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9)        |
+| Receita Federal | Renúncia de Receitas (DIRBI)                                  | 2025              | 18/03/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/renuncias-fiscais-de-tributos-federais) |
+| CGU             | Cadastro de Empresas Inidôneas e Suspensas (CEIS)             | 27/02/2026        | 27/02/2026       | [Link](https://portaldatransparencia.gov.br/sancoes)        |
+| CGU             | Cadastro Nacional de Empresas Punidas (CNEP)                  | 27/02/2026        | 27/02/2026       | [Link](https://portaldatransparencia.gov.br/sancoes)        |
+| CGU             | Cadastro Nacional de Entidades Privadas Impedidas (CEPIM)     | 26/02/2026        | 26/02/2026       | [Link](https://portaldatransparencia.gov.br/sancoes)        |
+| CGU             | Acordos de Leniência                                          | 27/02/2026        | 27/02/2026       | [Link](https://portaldatransparencia.gov.br/sancoes)        |
+| PGFN            | Dívida ativa previdenciária (PREV)                            | 12/2025           | 02/03/2026       | [Link](https://www.gov.br/pgfn/pt-br/assuntos/divida-ativa-da-uniao/transparencia-fiscal-1/dados-abertos)        |
+| PGFN            | Dívida ativa com FGTS (FGTS)                                  | 12/2025           | 02/03/2026       | [Link](https://www.gov.br/pgfn/pt-br/assuntos/divida-ativa-da-uniao/transparencia-fiscal-1/dados-abertos)        |
+| PGFN            | Dívida ativa geral (SIDA)                                     | 09/2025           | 02/03/2026       | [Link](https://www.gov.br/pgfn/pt-br/assuntos/divida-ativa-da-uniao/transparencia-fiscal-1/dados-abertos)        |
+| CVM             | Companhias de capital aberto                                  | 2025              | 22/03/2026       | [Link](https://dados.cvm.gov.br/dataset/cia_aberta-cad)        |
+| MTE             | Trabalho análogo à escravidão                                 | 03/02/2026        | 03/02/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/trabalho-analogo-ao-de-escravo)        |
+| ANAC            | Registro Aeronáutico Brasileiro (RAB)                         | 24/02/2026        | 24/02/2026       | [Link](https://www.gov.br/anac/pt-br/sistemas/rab/dados-abertos-rab)        |
+| TCE-ES          | Transferências Especiais da União para o ES (Emendas PIX)     | 2020 a 2025       | 13/03/2026       | [Link]()        |
+| TCE-ES          | Empenhos emitidos por municípios do ES                        | 2021 a 2025       | 12/03/2026       | |
+| TCE-ES          | Empenhos emitidos pelo Estado do Espírito Santo               | 2021 a 2025       | 12/03/2026       | |
+| SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 01/2026           | 11/03/2026       | |
+| SEFAZ-ES        | Renúncia de Receita                                           | 03/2026           | 18/03/2026       |Link       | |
 
 ⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a presença do CNPJ nas bases de dados oficiais, agregando valores quando disponíveis. Para obter detalhes sobre a ocorrência, consulte a respectiva base de dados primária por meio dos links acima. 
 
