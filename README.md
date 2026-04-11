@@ -76,6 +76,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * Arestas atuam como **molas** que impedem os nós de se afastarem.
 * A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
 * Os nós de origem (**nós-alvos**) são destacados por bordas vermelhas.
+* **Medidas de centralidade** do grafo são indicadas por nós com bordas tracejadas.
 * A expansão do grafo ocorre a partir dos nós de origem e apenas por meio de PF e PJ.
 * Apenas PJ possui EN, TE e EM, os quais são incluídos automaticamente no grafo quando compartilhados por mais de uma PJ na base de dados. Se o grafo exibe EN, TE ou EM é porque essa entidade é compartilhada por pelo menos duas PJ.
 * Sequência de montagem do grafo:
@@ -85,7 +86,6 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
   4. EN, TE e EM, compartilhados compartilhados com outras PJ na base de dados, são conectados às PJ presentes no grafo
   5. Medidas de centralidade são calculadas
 * Pessoas estrangeiras (PE) também são exibidas no grafo, porém com dados limitados.
-* **Medidas de centralidade** do grafo são indicadas por bordas tracejadas.
 * Arestas coloridas indicam o caminho mais curto entre dois ou mais nós-alvos.
  
 <br>
