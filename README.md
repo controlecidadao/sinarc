@@ -70,7 +70,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | TCE-ES          | Transferências Especiais da União para o ES (Emendas PIX)     | 2020 a 2025       | 13/03/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
 | TCE-ES          | Empenhos emitidos por municípios do ES                        | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
 | SEFAZ-ES        | Empenhos emitidos pelo Estado do Espírito Santo               | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-despesas-execucao-orcamentaria-e-financeira)        |
-| SEFAZ-ES        | Renúncia de Receita                                           | 03/2026           | 18/03/2026       |[Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
+| SEFAZ-ES        | Renúncia de Receita (COMPETE-ES e INVEST-ES)                  | 03/2026           | 18/03/2026       |[Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 01/2026           | 11/03/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
 
 ⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a presença do CNPJ nas bases de dados oficiais, agregando valores quando disponíveis. Para obter detalhes sobre a ocorrência, consulte a respectiva base de dados primária por meio dos links acima. 
