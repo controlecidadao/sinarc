@@ -51,6 +51,24 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br>
 
+**Bases de dados integradas:**
+
+| Fonte           | Base de Dados                  | Data        | Link        |
+|-----------------|--------------------------------|-------------|-------------|
+| Receita Federal | CNPJ (usada para gerar o grafo)| 13/12/2025  | [Link](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj)        |
+| CGU             | CEIS                           | Link        |
+| CGU             | CNEP                           | Link        |
+| CGU             | CEPIM                          | Link        |
+| CGU             | Acordos de Leniência           | Link        |
+| PGFN            | Dívidas Previdenciárias (PREV) | Link        |
+| PGFN            | Dívidas com FGTS (FGTS)        | Link        |
+| PGFN            | Dívida Ativa Geral (SIDA)
+
+1. Receita Federal: Base de dados de CNPJ
+2. Controladoria-Geral da União:
+
+<br>
+
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo2.html" target="_blank">
    <img width="90%" class="clickable-image" src="./images/chocolates_garoto.png" alt="Imagem de Grafo" />
