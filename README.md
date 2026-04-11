@@ -69,7 +69,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 **Conceitos básicos:**
 
-* **Grafos** são diagramas formados por **nós** e **arestas** (setas).
+* **Grafos** são diagramas formados por **nós** conectados por **arestas** (setas).
 * Nós representam **entidades** (PF, PJ, EN, TE, EM) e arestas representam **vínculos** (Sócio, Administrador etc.).
 * O **tamanho** dos nós (de 20 a 100) é proporcional ao número de arestas.
 * Nós possuem **massa** (igual a 1) e interagem gravitacionalmente entre si (força de repulsão).
