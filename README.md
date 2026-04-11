@@ -67,11 +67,11 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | CVM             | Companhias de capital aberto                                  | 2025              | 22/03/2026       | [Link](https://dados.cvm.gov.br/dataset/cia_aberta-cad)        |
 | MTE             | Trabalho análogo à escravidão                                 | 03/02/2026        | 03/02/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/trabalho-analogo-ao-de-escravo)        |
 | ANAC            | Registro Aeronáutico Brasileiro (RAB)                         | 24/02/2026        | 24/02/2026       | [Link](https://www.gov.br/anac/pt-br/sistemas/rab/dados-abertos-rab)        |
-| TCE-ES          | Transferências Especiais da União para o ES (Emendas PIX)     | 2020 a 2025       | 13/03/2026       | [Link]()        |
-| TCE-ES          | Empenhos emitidos por municípios do ES                        | 2021 a 2025       | 12/03/2026       | |
-| TCE-ES          | Empenhos emitidos pelo Estado do Espírito Santo               | 2021 a 2025       | 12/03/2026       | |
-| SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 01/2026           | 11/03/2026       | |
-| SEFAZ-ES        | Renúncia de Receita                                           | 03/2026           | 18/03/2026       |Link       | |
+| TCE-ES          | Transferências Especiais da União para o ES (Emendas PIX)     | 2020 a 2025       | 13/03/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
+| TCE-ES          | Empenhos emitidos por municípios do ES                        | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
+| SEFAZ-ES        | Empenhos emitidos pelo Estado do Espírito Santo               | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-despesas-execucao-orcamentaria-e-financeira)        |
+| SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 01/2026           | 11/03/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
+| SEFAZ-ES        | Renúncia de Receita                                           | 03/2026           | 18/03/2026       |[Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
 
 ⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a presença do CNPJ nas bases de dados oficiais, agregando valores quando disponíveis. Para obter detalhes sobre a ocorrência, consulte a respectiva base de dados primária por meio dos links acima. 
 
