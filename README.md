@@ -51,18 +51,23 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br>
 
-**Bases de dados integradas:**
+**Bases de dados integradas ao SINARC:**
 
-| Fonte           | Base de Dados                  | Data        | Link        |
-|-----------------|--------------------------------|-------------|-------------|
-| Receita Federal | CNPJ (usada para gerar o grafo)| 13/12/2025  | [Link](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj)        |
-| CGU             | CEIS                           | Link        |
-| CGU             | CNEP                           | Link        |
-| CGU             | CEPIM                          | Link        |
-| CGU             | Acordos de Leniência           | Link        |
-| PGFN            | Dívidas Previdenciárias (PREV) | Link        |
-| PGFN            | Dívidas com FGTS (FGTS)        | Link        |
-| PGFN            | Dívida Ativa Geral (SIDA)
+| Fonte           | Base de Dados                                             | Data       | Link        |
+|-----------------|-----------------------------------------------------------|------------|-------------|
+| Receita Federal | CNPJ (usada para gerar o grafo)                           | 13/12/2025 | [Link](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9)        |
+| Receita Federal | Renúncia de Receita (DIRBI)                               | 2025       | [Link](https://dados.gov.br/dados/conjuntos-dados/renuncias-fiscais-de-tributos-federais) |
+| CGU             | Cadastro de Empresas Inidôneas e Suspensas (CEIS)         | 27/02/2026 | [Link](https://portaldatransparencia.gov.br/sancoes)        |
+| CGU             | Cadastro Nacional de Empresas Punidas (CNEP)              | 27/02/2026 | [Link](https://portaldatransparencia.gov.br/sancoes)        |
+| CGU             | Cadastro Nacional de Entidades Privadas Impedidas (CEPIM) | 26/02/2026 | [Link](https://portaldatransparencia.gov.br/sancoes)        |
+| CGU             | Acordos de Leniência           | 27/02/2026 | [Link](https://portaldatransparencia.gov.br/sancoes)        |
+| PGFN            | Dívidas Previdenciárias (PREV) | Link       |
+| PGFN            | Dívidas com FGTS (FGTS)        | Link       |
+| PGFN            | Dívida Ativa Geral (SIDA)      | Link       | |
+| CVM             | Companhias Abertas             | Link       | |
+| MTE             | Trabalho Escravo               | Link       | |
+| ANAC            | Registro Aeronáutico (RAB)     | Link       | |
+
 
 1. Receita Federal: Base de dados de CNPJ
 2. Controladoria-Geral da União:
