@@ -73,6 +73,8 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | SEFAZ-ES        | Renúncia de Receita (COMPETE-ES e INVEST-ES)                  | 03/2026           | 18/03/2026       | [Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 06/2025           | 11/03/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
 
+<br>
+
 ⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a presença do CNPJ nas bases de dados oficiais, somando os valores existentes quando disponíveis. Para obter detalhes sobre uma ocorrência, consulte a respectiva base de dados primária por meio dos links acima. 
 
 <br>
