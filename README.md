@@ -63,17 +63,17 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | CGU             | Acordos de Leniência                                          | 27/02/2026 | [Link](https://portaldatransparencia.gov.br/sancoes)        |
 | PGFN            | Dívida ativa previdenciária (PREV)                            |            | Link       |
 | PGFN            | Dívida ativa com FGTS (FGTS)                                  | Link       |
-| PGFN            | Dívida ativa Geral (SIDA)                                     | Link       | |
+| PGFN            | Dívida ativa geral (SIDA)                                     | Link       | |
 | CVM             | Companhias de capital aberto                                  | Link       | |
 | MTE             | Trabalho análogo à escravidão                                 | Link       | |
 | ANAC            | Registro Aeronáutico Brasileiro (RAB)                         | Link       | |
+| TCE-ES          | Transferências Especiais da União (Emendas PIX)               | Link       | |
 | TCE-ES          | Empenhos emitidos por municípios do ES (2021 a 2025)          | Link       | |
 | TCE-ES          | Empenhos emitidos pelo Estado do Espírito Santo (2021 a 2025) | Link       | |
+| SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | Link       | |
+| SEFAZ-ES        | Renúncia de Receita                                           | Link       | |
 
-
-
-1. Receita Federal: Base de dados de CNPJ
-2. Controladoria-Geral da União:
+⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a presença do CNPJ nas bases de dados oficiais. Para obter detalhes sobre a ocorrência, consulte a respectiva base de dados. 
 
 <br>
 
