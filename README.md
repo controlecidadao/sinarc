@@ -73,7 +73,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | Link       | |
 | SEFAZ-ES        | Renúncia de Receita                                           | Link       | |
 
-⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a presença do CNPJ nas bases de dados oficiais. Para obter detalhes sobre a ocorrência, consulte a respectiva base de dados. 
+⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a presença do CNPJ nas bases de dados oficiais, agregando valores quando disponíveis. Para obter detalhes sobre a ocorrência, consulte a respectiva base de dados primária por meio dos links acima. 
 
 <br>
 
