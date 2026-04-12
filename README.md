@@ -49,7 +49,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 2. Conjunto de **ferramentas computacionais** que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de **padrões e anomalias** nas conexões e na produção de conhecimento;
    
-3. **Integração com outras bases de dados** oficias públicas e com sistemas de Inteligência Artificial para **produção de conhecimento e _insights_** sob múltiplas perspectivas.
+3. **Integração com outras bases de dados** oficias públicas e com sistemas de Inteligência Artificial para **produção de conhecimento e insights** sob múltiplas perspectivas.
 
 <br>
 
@@ -140,7 +140,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 4. Utilização dos bancos de dados para criação de um **modelo físico-matemático** dos vínculos existentes entre PF, PJ, EN, TE e EM por meio da Teoria dos Grafos.
 5. Utilização do modelo para criação de uma **representação gráfica interativa** da rede de vínculos (grafo com nós e arestas), concebida a partir dos princípios da Gestalt.
 6. Aplicação de algoritmos para identificação de **padrões e anomalias** na rede.
-7. Integração com ferramentas de **Inteligência Artificial** para geração de _insights_.
+7. Integração com ferramentas de **Inteligência Artificial** para geração de insights.
 8. Aplicação de **técnicas de OSINT** para cruzamento e validação das informações com fontes externas.
 
 <p align="center" width="100%">
