@@ -292,7 +292,7 @@ Para usar o Pen Drive SINARC, siga estes passos:
 </a>
 </p>
 
-Pronto! Os programas **SINARC**, **Rede CNPJ** (disponível no endereço local _http://127.0.0.1:5000/rede_) e **DB Browser** já podem ser utilizados.
+Pronto! Os programas **SINARC**, **Rede CNPJ** (este disponível no endereço local _http://127.0.0.1:5000/rede_) e **DB Browser** já podem ser utilizados.
 
 <br>
 
