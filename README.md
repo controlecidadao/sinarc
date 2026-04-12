@@ -118,7 +118,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
   2) PF e PJ são conectadas ao nó-alvo (expansão para 1 camada)
   3) Outras PF e PJ são conectadas às PF e PJ da camada anterior (expansão para 2 ou mais camadas)
   4) EN, TE e EM compartilhados com outras PJ na base de dados são conectados às PJ presentes no grafo
-  5) Medidas de centralidade são calculadas
+  5) Medidas de centralidade dos nós são calculadas
 * Pessoas estrangeiras (PE) também são exibidas no grafo, porém com dados limitados.
 * Arestas coloridas indicam o caminho mais curto entre dois ou mais nós-alvos.
  
