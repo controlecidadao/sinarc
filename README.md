@@ -271,11 +271,11 @@ Devido à sua portabilidade, a **pasta SINARC** contendo os programas SINARC e R
 
 <br>
 
-**👉 [Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=19wfpIrA6u3yFfWE195msfaLjuRsxHVZy)**
+**👉 [Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=1nbpdUpbAl3hsdf-2Kn-549a5E6uP-C5P)**
 
 <br>
 
-O arquivo _SINARC.zip_ possui 20 GB ([SHA-256](https://emn178.github.io/online-tools/sha256_checksum.html): _ab293c16e513983332fecbd7506c7b95550d8ad28a144007c242a26816e475f1_).
+O arquivo _SINARC.zip_ possui 20 GB ([SHA-256](https://emn178.github.io/online-tools/sha256_checksum.html): _6cb8214ccc540ae8de2dd3b1f9e97bf2d38178555fee0d00bd8c02628ad4212d_).
 
 **São necessários 90 GB de espaço livre: 20 GB para o arquivo compactado (zip) e 70 GB para o arquivo descompactado (pasta SINARC)**. Caso não disponha de espaço suficiente no computador, é possível configurar o navegador para que o download seja realizado diretamente para um pen drive ou HD externo (Procurar no navegador por _Configurações_ -> _Downloads_ -> _Local_).
 
