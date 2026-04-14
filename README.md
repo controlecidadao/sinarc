@@ -18,7 +18,7 @@
 * [Como criar o Pen Drive SINARC](#como-criar-o-pen-drive-sinarc)
 * [SINARC Client](#sinarc-client)
 * [O que é uma rede complexa?](#o-que-é-uma-rede-complexa)
-* [Qual é o objetivo do SINARC?](#qual-o-objetivo-do-sinarc)
+* [Qual é o objetivo do SINARC?](#qual-é-o-objetivo-do-sinarc)
 * [O SINARC utiliza dados sigilosos?](#o-sinarc-utiliza-dados-sigilosos)
 * [Para que serve o SINARC?](#para-que-serve-o-sinarc)
 * [A quem se destina o SINARC?](#a-quem-se-destina-o-sinarc)
