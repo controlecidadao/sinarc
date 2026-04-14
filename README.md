@@ -313,6 +313,12 @@ Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 
 <br>
 
+### Bases de dados prontas para uso
+
+(Em construção)
+
+<br>
+
 ### Atualizando a base de dados de CNPJ
 
 Para atualizar a base de dados de CNPJ usada pelo SINARC e pelo Rede CNPJ, o procedimento é bem simples.
