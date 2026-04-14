@@ -319,7 +319,7 @@ Para atualizar a base de dados de CNPJ usada pelo SINARC e pelo Rede CNPJ, o pro
 
 Os **4 bancos de dados** a serem substituídos estão localizados na pasta **"SINARC\bases"**. São eles:
 
-1) _**cnpj.db**_ (36 GB)
+1) _**cnpj.db**_ (37 GB)
 2) _**rede_search.db**_ (12 GB)
 3) _**cnpj_links_ete.db**_ (9 GB)
 4) _**rede.db**_ (5 GB)
