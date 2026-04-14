@@ -451,8 +451,10 @@ A [base de dados pública de CNPJ](https://dados.gov.br/dados/conjuntos-dados/ca
 
 A [Instrução Normativa RFB 2.119/2022](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/127567) dispõe sobre o Cadastro Nacional da Pessoa Jurídica (CNPJ).
 
-Para acessar a fonte primária dos dados usados pelo SINARC, clique [aqui](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/). 
 Conheça também o [Dicionário de Dados](https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf) de CNPJ da Receita Federal.
+
+Para acessar a fonte primária dos dados usados pelo SINARC, consulte os links das respectivas bases. 
+
 
 <br><br>
 
