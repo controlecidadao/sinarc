@@ -1,6 +1,6 @@
-![v](https://img.shields.io/badge/Versão-0.4.0-blue)
+![v](https://img.shields.io/badge/Versão-0.5.0-blue)
 [![License: MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![v](https://img.shields.io/badge/Atualização-%2024%20de%20Fevereiro%20de%20%202026-green)
+![v](https://img.shields.io/badge/Atualização-%2013%20de%20Abril%20de%20%202026-green)
 
 <!--![](https://komarev.com/ghpvc/?username=controlecidadao&abbreviated=true&label=Views)-->
 <!-- Fonte: https://github.com/antonkomarev/github-profile-views-counter-->
