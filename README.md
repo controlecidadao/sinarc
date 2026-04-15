@@ -137,7 +137,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 > **➡️ Realidade dinâmica (Sistema Complexo)<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➡️ Modelagem físico-matemática (Teoria dos Grafos)<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➡️ Representação gráfica interativa (Gestalt)**
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➡️ Representação gráfica interativa (Princípios da Gestalt)**
 
 <br>
 
