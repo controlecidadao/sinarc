@@ -10,6 +10,12 @@
 <img width="80%" src="./images/sinarc.png" />
 </p>
 
+<br>
+
+<p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/readme.png" alt="QR Code" />
+</p>
+
 <br><br>
 
 ## Sumário
