@@ -344,6 +344,8 @@ Ao final do processo, será exibida no Terminal a mensagem _**Todos os scripts f
 
 Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados de CNPJ.
 
+<br><br>
+
 ### Bases de dados prontas para uso
 
 🚧 (Em construção)
