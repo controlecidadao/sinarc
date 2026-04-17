@@ -319,11 +319,6 @@ Os testes de portabilidade foram realizados usando pen drive de 128 GB, USB 3.2.
 
 <br>
 
-### Bases de dados prontas para uso
-
-(Em construção)
-
-<br>
 
 ### Atualizando a base de dados de CNPJ
 
@@ -347,7 +342,11 @@ O processo de criação dos bancos de dados leva aproximadamente **6 horas**. Em
 Ao final do processo, será exibida no Terminal a mensagem _**Todos os scripts foram executados com sucesso!**_.<br><br>
 4) Após a criação dos 4 bancos de dados, mova-os da pasta **"SINARC\rede-cnpj-master\rede_cria_tabelas\dados-publicos"** para a pasta **"SINARC\bases"**, substituindo os quatro arquivos lá existentes (movidos/deletados no início do processo). Os demais arquivos devem permanecer na pasta **"SINARC\bases"**.
 
-Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados.
+Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados de CNPJ.
+
+### Bases de dados prontas para uso
+
+🚧 (Em construção)
 
 <br><br>
 
