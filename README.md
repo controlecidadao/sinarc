@@ -180,7 +180,7 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 
 <br>
 
-<!--https://github.com/user-attachments/assets/f9f215f3-fa2a-4963-a7e3-9fe2c24ea2d3-->
+<!--https://github.com/user-attachments/assets/f9f215f3-fa2a-4963-a7e3-9fe2c24ea2d3 -->
 
 <br>
 
