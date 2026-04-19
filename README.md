@@ -120,7 +120,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 * **Medidas de centralidade** do grafo são indicadas por nós com bordas tracejadas.
 * A expansão do grafo ocorre a partir dos nós de origem e apenas por meio de PF e PJ.
 * Apenas PJ possui EN, TE e EM, os quais são incluídos automaticamente no grafo quando compartilhados por mais de uma PJ na base de dados. Se o grafo exibe EN, TE ou EM é porque essa entidade é compartilhada por pelo menos duas PJ.
-* Sequência de montagem do grafo:
+* Ordem cronológica de montagem do grafo:
   1) Nó-alvo é incluído para dar origem ao grafo
   2) PF e PJ são conectadas ao nó-alvo (expansão para 1 camada)
   3) Outras PF e PJ são conectadas às PF e PJ da camada anterior (expansão para 2 ou mais camadas)
