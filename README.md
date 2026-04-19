@@ -448,7 +448,7 @@ Por se tratar de ferramenta de OSINT desenvolvida para assegurar ao cidadão o d
 
 **Compatibilidade com a LAI e com a LGPD**
 
-O SINARC foi concebido em estrita observância às normas brasileiras de transparência pública e de proteção de dados pessoais, notadamente a Lei nº 12.527/2011 (Lei de Acesso à Informação – LAI) e a [Lei nº 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm) (Lei Geral de Proteção de Dados Pessoais – LGPD).
+O SINARC foi concebido em estrita observância às normas brasileiras de transparência pública e de proteção de dados pessoais, notadamente a Lei nº 12.527/2011 (Lei de Acesso a Informação – LAI) e a [Lei nº 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm) (Lei Geral de Proteção de Dados Pessoais – LGPD).
 
 Todos os dados utilizados pelo SINARC são extraídos exclusivamente de bases oficiais públicas, disponibilizadas por órgãos governamentais no contexto de políticas de transparência ativa e dados abertos, como Receita Federal (RFB), Controladoria-Geral da União (CGU) e Tribunal de Contas do Estado do Espírito Santo (TCE-ES). Tais bases já são previamente estruturadas e divulgadas em conformidade com os parâmetros legais de publicidade, observando as restrições aplicáveis à proteção de dados pessoais. A ferramenta atua, portanto, apenas como um meio de agregação e análise de dados públicos, e não como fonte primária de informações. Sua utilização amplia a capacidade de análise de dados públicos, promovendo maior transparência e facilitando a fiscalização cidadã.
 
