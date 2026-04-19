@@ -452,7 +452,7 @@ O SINARC foi concebido em estrita observância às normas brasileiras de transpa
 
 Todos os dados utilizados pelo SINARC são extraídos exclusivamente de bases oficiais públicas, disponibilizadas por órgãos governamentais no contexto de políticas de transparência ativa e dados abertos, como Receita Federal (RFB), Controladoria-Geral da União (CGU) e Tribunal de Contas do Estado do Espírito Santo (TCE-ES). Tais bases já são previamente estruturadas e divulgadas em conformidade com os parâmetros legais de publicidade, observando as restrições aplicáveis à proteção de dados pessoais. A ferramenta atua, portanto, apenas como um meio de agregação e análise de dados públicos, e não como fonte primária de informações. Sua utilização amplia a capacidade de análise de dados públicos, promovendo maior transparência e facilitando a fiscalização cidadã.
 
-A [base de dados pública de CNPJ](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj) da Receita Federal é composta por mais de **70 milhões de CNPJs**.
+A base de dados pública de CNPJ da Receita Federal é composta por mais de **70 milhões de CNPJs**.
 
 [Nota Técnica RFB/Cocad 47/2024](https://www.gov.br/receitafederal/dados/nota-cocad-rfb-86-2024.pdf/), emitida pela Receita Federal, especifica quais informações da base de dados de CNPJ não estão protegidas por sigilo fiscal, em consonância com o [Decreto 8.777/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm#), que instituiu a Política de Dados Abertos do Poder Executivo federal.
 
