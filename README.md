@@ -471,7 +471,7 @@ Para acessar a fonte primária dos dados usados pelo SINARC e conferir a fundame
 
 O SINARC é utilizado como **ferramenta inicial nas análises de inteligência com fontes abertas (OSINT)** realizadas pelo controle externo da Administração Pública, permitindo que se obtenha rapidamente uma visão abrangente da estrutura de grupos econômicos. A partir da identificação de vínculos societários, o sistema proporciona **insights preliminares** valiosos sobre as conexões existentes entre pessoas físicas, pessoas jurídicas, endereços, telefones e e-mails constantes na base de dados pública de CNPJ da Receita Federal, viabilizando o cruzamento com outras bases de dados oficiais públicas. Essa **etapa exploratória prévia** mostra-se fundamental para direcionar a análises mais aprofundadas e para identificar padrões que, de outra forma, não seriam percebidos.
 
-O vídeo a seguir, disponibilizado no site MPC-ES, demonstra a aplicação do SINARC no controle externo da Administração Pública. A partir de [notícia](https://www.radiocacula.com.br/detran-ms-e-investigado-por-suspeita-de-fraude-em-licitacao-de-r-39-milhoes/) publicada na internet sobre supostas irregularidades em licitação promovida pelo Estado do Mato Grosso do Sul (MS) para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas citadas na notícia, cruzando os resultados com os participantes de outra [licitação](https://transparencia.vilavelha.es.gov.br/MostraArquivo.ashx?AnexoLicitacaoId=10676) de mesmo objeto, realizada pelo Município de Vila Velha (ES), para verificar a existência de conexões entre grupos econômicos que atuam em regiões distintas do país:
+O vídeo a seguir, disponibilizado no site MPC-ES, demonstra a aplicação do SINARC (versão inicial) no controle externo da Administração Pública. A partir de [notícia](https://www.radiocacula.com.br/detran-ms-e-investigado-por-suspeita-de-fraude-em-licitacao-de-r-39-milhoes/) publicada na internet sobre supostas irregularidades em licitação promovida pelo Estado do Mato Grosso do Sul (MS) para contratação de serviço de sinalização semafórica, o sistema analisa a existência de vínculos entre as empresas citadas na notícia, cruzando os resultados com os participantes de outra [licitação](https://transparencia.vilavelha.es.gov.br/MostraArquivo.ashx?AnexoLicitacaoId=10676) de mesmo objeto, realizada pelo Município de Vila Velha (ES), para verificar a existência de conexões entre grupos econômicos que atuam em regiões distintas do país:
 
 <br>
 
@@ -490,6 +490,10 @@ O vídeo a seguir, disponibilizado no site MPC-ES, demonstra a aplicação do SI
    Vídeo Demonstrativo do SINARC
 </a>
 </p>
+
+<br>
+
+Em outro exemplo, o grupo econômico envolvido em um caso de repercussão nacional é analisado com a ferramenta (versão inicial):
 
 <br>
 
