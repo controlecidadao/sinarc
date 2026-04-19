@@ -519,6 +519,10 @@ Confira um exemplo de uso do SINARC em [Parecer do MPC-ES](https://www.mpc.es.go
 
 Para permitir o compartilhamento e a portabilidade dos resultados das análises, os grafos interativos gerados pelo SINARC são salvos no **_SINARC\sinarc_main\arquivo_sinarc.zip_**, preservando todas as funcionalidades de exploração que não dependem de consulta em tempo real aos bancos de dados.
 
+<br>
+
+### Exemplos de grafos interativos gerados com o SINARC
+
 <!--<br><br>
 
 <p align="center" width="100%">
