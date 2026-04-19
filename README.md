@@ -392,7 +392,7 @@ Quando a mensagem **O SINARC já pode ser inicializado!** for aberta exibida no 
 </p>
 
 <p align="center" width="100%">
-Exemplo de rede complexa de CNPJ sendo explorada pelo SINARC
+Exemplo de rede complexa de CNPJ sendo analisada pelo SINARC
 </p>
 
 <br>
