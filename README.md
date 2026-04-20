@@ -661,9 +661,9 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 15) Clique no **botão de otimização** (🪄 varinha mágica), localizado no canto inferior esquerdo. Os EN, TE e EM serão deletados e a posição dos nós será ajustada automaticamente;
 
-16) Pressione a **tecla z** (minúscula) para ativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
+16) Pressione a **tecla z** para ativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de tamanho, seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
 
-17) Para a relação completa de comandos e funcionalidades, consulte o item [8 - Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse) do [Manual do SINARC](https://controlecidadao.github.io/sinarc/help.html). Para abrir o manual estando na janela do grafo, pressione a **tecla h** (minúscula).
+Para conhecer a relação completa de comandos e funcionalidades, consulte o [Manual do SINARC](https://controlecidadao.github.io/sinarc/help.html) clicando na **tecla h** ou percorrendo os tópicos seguintes.
 
 <br><br>
 
