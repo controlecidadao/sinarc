@@ -576,7 +576,7 @@ Para permitir o compartilhamento e a portabilidade dos resultados das análises,
 
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">
-   <img width="80%" class="clickable-image" src="./images/exemplo6.png" alt="Vídeo Demonstrativo" />
+   <img width="90%" class="clickable-image" src="./images/exemplo6.png" alt="Vídeo Demonstrativo" />
 </a>
 </p>
 
