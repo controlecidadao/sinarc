@@ -560,7 +560,7 @@ Para permitir o compartilhamento e a portabilidade dos resultados das análises,
 
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo5.html" target="_blank">
-   <img width="50%" class="clickable-image" src="./images/exemplo5.png" alt="Imagem de Grafo" />
+   <img width="60%" class="clickable-image" src="./images/exemplo5.png" alt="Imagem de Grafo" />
 </a>
 </p>
 
