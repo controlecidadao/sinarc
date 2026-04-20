@@ -630,27 +630,47 @@ Tela do SINARC exibindo o menu suspenso.
 <br>
 
 Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINARC:
-1) Abra este ([link](https://controlecidadao.github.io/sinarc/exemplo6.html)) em uma nova aba do navegador e aguarde o grafo ser exibido.
+1) Abra este [link](https://controlecidadao.github.io/sinarc/exemplo1.html) em uma nova aba do navegador e aguarde o grafo ser exibido;
 
-2) Clique na janela do grafo para ativá-la e pressione a **tecla U** (maiúscula, shift + u) para abrir uma janela popup com a distribuição de nós por faixa de tamanho (17 faixas). Observe que o tamnho dos nós varia de 20 a 100 e que cada faixa intermediária possui intervalo de 5 unidades. Feche a janela popup;
+2) Na janela do grafo, pressione a **tecla ç** uma vez para selecionar os nós de EN, TE e EM que possuem apenas uma conexão;
+
+3) Pressione a tecla **DELETE** ou **BACKSPACE** para apagar os nós selecionados (EN, TE e EM que interligam duas ou mais PJ são mantidos no grafo);
+
+4) Pressione a **tecla U** (maiúscula, shift + u) para abrir uma janela popup com a distribuição de nós por faixa de tamanho (17 faixas). Observe que o tamnho dos nós varia de 20 a 100 e que cada faixa intermediária possui intervalo de 5 unidades. Feche a janela popup;
    
-3) Pressione a **tecla Espaço** 16 vezes, espaçadamente, até que o parâmetro "tamanho", exibido no canto superior direito da tela, reduza de 100 para 25 em intervalos de 5 unidades. Esta função aumenta a massa dos nós situados em cada faixa, de forma proporcional ao tamanho de cada nó (do maior para o menor), melhorando progressivamente a visualização do grafo no layout gravitacional. Ao aumentar a massa dos nós, a força (anti)gravitacional de repulsão mútua existente entre eles também aumenta, reposicionando-os na tela para facilitar a identificação de suas conexões. As arestas atuam como molas que impedem o distanciamento entre os nós localizados em suas extremidades;
+5) Pressione a **tecla Espaço** 16 vezes, espaçadamente, até que o parâmetro "tamanho", exibido no canto superior direito da tela, reduza de 100 para 25 em intervalos de 5 unidades. Esta função aumenta a massa dos nós situados em cada faixa, de forma proporcional ao tamanho de cada nó (do maior para o menor), melhorando progressivamente a visualização do grafo no layout gravitacional. Ao aumentar a massa dos nós, a força antigravitacional de repulsão mútua existente entre eles também aumenta, reposicionando-os na tela para facilitar a identificação visual de suas conexões. As arestas atuam como molas que prendem os nós localizados em suas extremidades;
    
-4) Pressione a **tecla Escape** para encaixar o grafo na janela de visualização;
+6) Pressione a **tecla Escape** para encaixar o grafo na tela;
 
-5) Pressione a **tecla z** (minúscula) para ativar/desativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
+7) Posicione o ponteiro do mouse por 2 segundos sobre os nós para abrir um popup com informações. O link abre uma consulta na internet sobre o nó, usando inteligência artificial com um prompt criado para o SINARC. Os botões para abrir o nó em camadas estão desabilitados neste grafo;
 
-6) Após desativar o modo automático de visualização, use o **botão de rolagem do mouse** para aproximar e afastar o grafo. Posicione o mouse sobre o ponto que deseja aproximar ou afastar e gire o botão de rolagem para frente e para trás;
+8) Clique duas vezes sobre qualquer PJ para abrir informações detalhadas constantes na base de dados de CNPJ da Receita Federal;
 
-7) **Posicione o ponteiro do mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela;
+9) Pressione a **tecla F5** para recarregar o grafo;
 
-8) Clique sobre um nó de pessoa jurídica (ícone de prédio ou de globo) para selecioná-lo e pressione a **tecla d** (minúscula) para abrir uma janela com mais detalhes sobre a empresa (site externo);
+10) Clique no **botão do menu suspenso** (⌨️ teclado), localizdo no canto superior esquerdo, depois em **Controles Básicos** e por fim na opção **Seleciona todos os nós**;
 
-9) Para recarregar a página e retornar o grafo ao seu estado inicial, pressione a **tecla F5**. Em seu estado inicial, os grafos podem apresentar aparente sobreposição de nós em razão da definição do tamanho dos elementos com base em seu número de conexões (quanto maior o número de conexões, maior o nó). Nesses casos, pressione a **tecla e** 2 vezes para uniformizar o tamanho dos nós. Aproxime o grafo para visualizar melhor;
+11) Clique na opção **Abre relatório nós selecionados**. Será aberto uma página HTML com informações extraídas do grafo e links para novas funcionalidades (alguns links funcionam apenas com o programa SINARC aberto);
 
-10) Pressione a **tecla e** 1 vez para ocultar os rótulos dos nós e a **tecla l** (ele minúsculo) 1 vez para ocultar os rótulos das arestas;
+12) De volta ao menu suspenso, clique novamente na opção **Seleciona todos os nós** e depois em **Abre no mapa endereços PJ**. Uma página HTML será aberta com a posição no mapa de cada endereço (o processo de geocodificação pode demorar um pouco);
 
-11) Para a relação completa de comandos e funcionalidades, consulte o item [8 - Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse) do [Manual do SINARC](https://controlecidadao.github.io/sinarc/help.html). Para abrir o manual estando na janela do grafo, pressione a **tecla h** (minúscula).
+13) Pressione **F5** mais uma vez para recarregar o grafo;
+
+14) Clique no **botão de otimização** (🪄), localizado no canto inferior esquerdo. Os EN, TE e EM serão deletados e a posição dos nós será ajustada automaticamente;
+
+15) Pressione a **tecla z** (minúscula) para ativar/desativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
+
+16) Após desativar o modo automático de visualização, use o **botão de rolagem do mouse** para aproximar e afastar o grafo. Posicione o mouse sobre o ponto que deseja aproximar ou afastar e gire o botão de rolagem para frente e para trás;
+
+17) **Posicione o ponteiro do mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela;
+
+18) Clique sobre um nó de pessoa jurídica (ícone de prédio ou de globo) para selecioná-lo e pressione a **tecla d** (minúscula) para abrir uma janela com mais detalhes sobre a empresa (site externo);
+
+19) Para recarregar a página e retornar o grafo ao seu estado inicial, pressione a **tecla F5**. Em seu estado inicial, os grafos podem apresentar aparente sobreposição de nós em razão da definição do tamanho dos elementos com base em seu número de conexões (quanto maior o número de conexões, maior o nó). Nesses casos, pressione a **tecla e** 2 vezes para uniformizar o tamanho dos nós. Aproxime o grafo para visualizar melhor;
+
+20) Pressione a **tecla e** 1 vez para ocultar os rótulos dos nós e a **tecla l** (ele minúsculo) 1 vez para ocultar os rótulos das arestas;
+
+21) Para a relação completa de comandos e funcionalidades, consulte o item [8 - Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse) do [Manual do SINARC](https://controlecidadao.github.io/sinarc/help.html). Para abrir o manual estando na janela do grafo, pressione a **tecla h** (minúscula).
 
 <br><br>
 
