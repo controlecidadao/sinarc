@@ -523,21 +523,21 @@ Para permitir o compartilhamento e a portabilidade dos resultados das análises,
 
 ### Exemplos de grafos interativos gerados com o SINARC
 
-<!--<br><br>
+<br><br>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo1.html" target="_blank">
-   <img width="80%" class="clickable-image" src="./images/vinculos_1.png" alt="Imagem de Grafo" />
+<a href="https://controlecidadao.github.io/sinarc/exemplo3.html" target="_blank">
+   <img width="80%" class="clickable-image" src="./images/exemplo3.png" alt="Imagem de Grafo" />
 </a>
 </p>
 
 <p align="center" width="100%">
-<img width="15%" class="clickable-image" src="./images/qrcode_exemplo1.png" alt="QR Code" />
+<img width="15%" class="clickable-image" src="./images/qrcode_exemplo3.png" alt="QR Code" />
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Exemplo 1</a>: Grafo interativo exibindo vínculos entre duas empresas, identificados pelo SINARC na 1ª camada. <b>Clique na imagem e interaja com o grafo</b>, arrastando os nós com o mouse. 
-</p> -->
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Grafo interativo</a> gerado pelo SINARC com 3 camadas e XXX nós. <b>Clique com botão direito do mouse sobre a imagem e abra o grafo e uma guia do navegador</b>. 
+</p>
 
 <br><br>
 
