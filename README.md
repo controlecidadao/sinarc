@@ -559,17 +559,17 @@ Para permitir o compartilhamento e a portabilidade dos resultados das análises,
 <br>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo3.html" target="_blank">
-   <img width="50%" class="clickable-image" src="./images/exemplo3.png" alt="Imagem de Grafo" />
+<a href="https://controlecidadao.github.io/sinarc/exemplo5.html" target="_blank">
+   <img width="50%" class="clickable-image" src="./images/exemplo5.png" alt="Imagem de Grafo" />
 </a>
 </p>
 
 <p align="center" width="100%">
-<img width="15%" class="clickable-image" src="./images/qrcode_exemplo3.png" alt="QR Code" />
+<img width="15%" class="clickable-image" src="./images/qrcode_exemplo5.png" alt="QR Code" />
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Exemplo 3</a>: Grafo interativo de grupo econômico aberto em 4 camadas, exibindo 45 nós em layout circular. <b>Clique na imagem e interaja com o grafo</b>, pressionando as teclas "ç", "Delete" e "K" (maiúscula).
+<a href="https://controlecidadao.github.io/sinarc/exemplo5.html">Grafo interativo</a> com 4 camadas e 7109 nós. Abra o link em uma nova guia do navegador e <b>clique no botão 🪄</b> para ajustar a posição dos nós automaticamente.
 </p>
 
 <br>
