@@ -629,7 +629,8 @@ Tela do SINARC exibindo o menu suspenso.
 
 <br>
 
-Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINARC:
+Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINARC, realize os seguintes passos:
+
 1) Abra este [link](https://controlecidadao.github.io/sinarc/exemplo1.html) em uma nova aba do navegador e aguarde o grafo ser exibido;
 
 2) Na janela do grafo, pressione a **tecla ç** uma vez para selecionar os nós de EN, TE e EM que possuem apenas uma conexão;
@@ -656,9 +657,9 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 13) Pressione **F5** mais uma vez para recarregar o grafo;
 
-14) Clique no **botão de otimização** (🪄), localizado no canto inferior esquerdo. Os EN, TE e EM serão deletados e a posição dos nós será ajustada automaticamente;
+14) Clique no **botão de otimização** (🪄 varinha mágica), localizado no canto inferior esquerdo. Os EN, TE e EM serão deletados e a posição dos nós será ajustada automaticamente;
 
-15) Pressione a **tecla z** (minúscula) para ativar/desativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
+15) Pressione a **tecla z** (minúscula) para ativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
 
 16) Após desativar o modo automático de visualização, use o **botão de rolagem do mouse** para aproximar e afastar o grafo. Posicione o mouse sobre o ponto que deseja aproximar ou afastar e gire o botão de rolagem para frente e para trás;
 
