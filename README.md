@@ -592,6 +592,11 @@ Para permitir o compartilhamento e a portabilidade dos resultados das análises,
 <br>
 <br>
 
+
+
+
+
+<!--
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo7.html" target="_blank">
    <img width="70%" class="clickable-image" src="./images/vale.png" alt="Imagem de Grafo" />
@@ -621,6 +626,8 @@ Para permitir o compartilhamento e a portabilidade dos resultados das análises,
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo8.html">Exemplo 8</a>: Grafo interativo de grupos econômicos aberto em 4 camadas, exibindo 3192 nós e 7517 arestas. <b>Clique na imagem e interaja com o grafo</b>, pressionando a tecla "p" para parar os movimentos e posicionando o ponteiro do mouse sobre os nós para ver seus detalhes.
 </p>
+-->
+
 
 <br><br>
 
