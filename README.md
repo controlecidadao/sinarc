@@ -460,7 +460,6 @@ Por sua vez, a [Instrução Normativa RFB 2.119/2022](https://normasinternet2.re
 
 Para acessar a fonte primária dos dados usados pelo SINARC e conferir a fundamentação legal que assegura sua divulgação, consulte os links das respectivas bases. 
 
-
 <br><br>
 
 ## Para que serve o SINARC?
@@ -588,46 +587,6 @@ Para permitir o compartilhamento e a portabilidade dos resultados das análises,
 <p align="center" width="100%">
 <a href="https://www.youtube.com/watch?v=aP3bkhZEUgY" target="_blank">Vídeo</a>: Identificando cadeia hierárquica de comando com o SINARC
 </p>
-
-<br>
-<br>
-
-
-
-
-
-<!--
-<p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo7.html" target="_blank">
-   <img width="70%" class="clickable-image" src="./images/vale.png" alt="Imagem de Grafo" />
-</a>
-</p>
-
-<p align="center" width="100%">
-<img width="15%" class="clickable-image" src="./images/qrcode_exemplo7.png" alt="QR Code" />
-</p>
-
-<p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo7.html">Exemplo 7</a>: Grafo interativo de grupo econômico aberto em 3 camadas, exibindo 2088 nós e 3964 arestas. <b>Clique na imagem e interaja com o grafo</b>, posicionando o ponteiro do mouse sobre os nós para ver seus detalhes.
-</p>
-
-<br><br>
-
-<p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo8.html" target="_blank">
-   <img width="70%" class="clickable-image" src="./images/exemplo8.png" alt="Imagem de Grafo" />
-</a>
-</p>
-
-<p align="center" width="100%">
-<img width="15%" class="clickable-image" src="./images/qrcode_exemplo8.png" alt="QR Code" />
-</p>
-
-<p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo8.html">Exemplo 8</a>: Grafo interativo de grupos econômicos aberto em 4 camadas, exibindo 3192 nós e 7517 arestas. <b>Clique na imagem e interaja com o grafo</b>, pressionando a tecla "p" para parar os movimentos e posicionando o ponteiro do mouse sobre os nós para ver seus detalhes.
-</p>
--->
-
 
 <br><br>
 
