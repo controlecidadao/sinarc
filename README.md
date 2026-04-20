@@ -34,8 +34,8 @@
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
 * [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
-* [Histórico de versões](#histórico-de-versões)
 
+<!--* [Histórico de versões](#histórico-de-versões)-->
 <!--* [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)-->
 
 <br><br>
@@ -1155,7 +1155,7 @@ Detalhe da rede complexa gerado pelo SINARC
 <br><br>
 
 ### **CNPJ de empresas listadas na B3 S.A. (Bolsa de Valores):**<br>
-*	Abertos em 2 camadas com o SINARC<br>
+*	Abertos em 2 camadas com o SINARC (versão inicial)<br>
 *	31.606 nós<br>
 *	45.268 arestas (azul)<br>
 * Fonte: [Empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/) 
@@ -1260,7 +1260,7 @@ Relação de sites e documentos públicos contendo informações (nomes de pesso
 
 * [Empresas por município](https://cadastroempresa.com.br/)
 
-
+<!--
 <br><br>
 ## Histórico de versões
 <p align="right" width="100%">
@@ -1271,6 +1271,20 @@ Relação de sites e documentos públicos contendo informações (nomes de pesso
 <summary>Versões relevantes do código (clique para expandir)</summary>
 
 <br><br>
+
+<b>Versão 0.5.0 (13-04-2026):</b>
+<br>
+<ul>
+  <li>Inclusão de menu suspenso.</li>
+</ul>
+<br>
+
+<b>Versão 0.4.0 (-11-2026):</b>
+<br>
+<ul>
+  <li>Inclusão de menu suspenso.</li>
+</ul>
+<br>
 
 <b>Versão 0.3.0 (08-11-2025):</b>
 <br>
@@ -1311,6 +1325,7 @@ Relação de sites e documentos públicos contendo informações (nomes de pesso
 <br>
 
 </details>
+-->
 
 <!--## 🚧 Em fase de teste...-->
 
