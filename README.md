@@ -1219,7 +1219,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 ✅ Identificar toda a cadeia hierárquica formada por PF e PJ que integram os grupos econômicos controladores de determinada empresa.
 
-✅ Gerar grafo contendo todas as empresas que se enquadrem na combinação de determinados critérios (mesmo endereço, rua, CEP, atividade econômica etc.), mediante consulta direta à base de dados usando o programa gratuito [DB Browser](https://sqlitebrowser.org/).
+✅ Gerar grafo contendo todas as empresas que se enquadrem na combinação de determinados critérios (mesmo endereço, rua, CEP, atividade econômica etc.), mediante consulta direta à base de dados usando o programa gratuito [DB Browser](https://sqlitebrowser.org/), disponibilizado com o SINARC.
 
 <br><br>
 
@@ -1258,7 +1258,7 @@ Relação de sites e documentos públicos contendo informações para explorar c
 
 * [Empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/)
 
-* [Empresas por município](https://cadastroempresa.com.br/)
+<!--* [Empresas por município](https://cadastroempresa.com.br/)-->
 
 <!--
 <br><br>
