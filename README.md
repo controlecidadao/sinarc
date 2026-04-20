@@ -517,7 +517,7 @@ Em outro vídeo, um caso de repercussão nacional é analisado com a ferramenta 
 
 Confira um exemplo de uso do SINARC em [Parecer do MPC-ES](https://www.mpc.es.gov.br/wp-content/uploads/2024/10/Processo-784-2020-Parecer-MPC-ES-em-Denuncia-transacao-tributaria-Anchieta-e-Samarco.pdf#page=110), emitido no Processo TC 784/2020 (pág. 110). Para saber mais sobre essa ação do MPC-ES em defesa do meio ambiente, vide a respectiva [notícia](https://www.mpc.es.gov.br/2024/11/lagoa-de-mae-ba-mpc-es-aponta-danos-ambientais-irreversiveis-e-pede-inclusao-da-samarco-vale-e-bhp-em-denuncia/).
 
-Para permitir o compartilhamento e a portabilidade dos resultados das análises, os grafos interativos gerados pelo SINARC são salvos no **_SINARC\sinarc_main\arquivo_sinarc.zip_**, preservando todas as funcionalidades de exploração que não dependem de consulta em tempo real aos bancos de dados.
+Para permitir o compartilhamento e a portabilidade dos resultados das análises, os grafos interativos gerados pelo SINARC são salvos no **_SINARC\sinarc-main\arquivo_sinarc.zip_**, preservando todas as funcionalidades de exploração que não dependem de consulta em tempo real aos bancos de dados.
 
 <br>
 
