@@ -536,7 +536,7 @@ Para permitir o compartilhamento e a portabilidade dos resultados das análises,
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Grafo interativo</a> gerado pelo SINARC com 3 camadas e 321 nós. Clique com botão direito do mouse sobre a imagem para abrir o grafo e uma guia do navegador e clique no botão 🪄 para ajustar a posição dos nós automaticamente. 
+<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Grafo interativo</a> gerado pelo SINARC com 3 camadas e 321 nós. Abra o link em uma nova guia do navegador e clique no botão 🪄 para ajustar a posição dos nós automaticamente. 
 </p>
 
 <br><br>
