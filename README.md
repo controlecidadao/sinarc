@@ -719,25 +719,24 @@ Certifique-se de que o teclado esteja no padrão de letras minúsculas (tecla Ca
 
 Os **nós** do grafo possuem as seguintes propriedades:
 
-* **Massa:** propriedade que define a posição dos nós na tela, no layout gravitacional. Inicia com valor 1 (mínimo), sendo ajustável pelo usuário para controlar a intensidade da força de repulsão (afastamento).
-* **Tamanho:** propriedade dos nós definida automaticamente pelo sistema entre 20 (mínimo) e 100 (máximo), com base no número de conexões (arestas).
-* **Grupo:** propriedade definida automaticamente pelo sistema que indica o número da comunidade a que pertence o nó no grafo. Os nós pertencentes a uma mesma comunidade são mais densamente conectados entre si do que com nós de outras comunidades.
+* **Massa:** propriedade que define a posição dos nós na tela, no layout gravitacional. Inicia com valor 1 (mínimo), sendo ajustável pelo usuário ou automaticamente para controlar a intensidade da força de repulsão (afastamento).
+* **Tamanho:** propriedade dos nós definida automaticamente pelo sistema entre 20 (mínimo) e 100 (máximo), com base no número de conexões do nó (arestas).
+* **Grupo:** propriedade definida automaticamente pelo sistema para indicar o número da comunidade a que pertence o nó no grafo. Os nós pertencentes a uma mesma comunidade são mais densamente conectados entre si do que com nós de outras comunidades.
 
-O SINARC exibe no grafo apenas telefones, endereços e e-mails que sejam comuns a duas ou mais pessoas jurídicas.
+O SINARC exibe no grafo apenas telefones, endereços e e-mails que sejam comuns a duas ou mais pessoas jurídicas na base de dados.
 
-**Dica de Visualização:** Para evidenciar **padrões** e **anomalias** nas conexões do grafo, aumenta-se a massa dos nós de maior tamanho, isto é, dos nós que possuem o maior número de conexões (maior centralidade de grau). Este procedimento fará surgir agrupamentos de nós que exibem o mesmo padrão de conexões, bem como nós isolados que divergem dos padrões de agrupamento, gerando estruturas simétricas que facilitam a identificação de suas conexões.
+**Dica de Visualização:** Para evidenciar **padrões** e **anomalias** nas conexões do grafo, aumenta-se a massa dos nós de maior tamanho, isto é, dos nós que possuem o maior número de conexões (maior centralidade de grau). Este procedimento fará surgir agrupamentos de nós que exibem o mesmo padrão de conexões, bem como nós isolados que divergem dos padrões de agrupamento, gerando estruturas simétricas que facilitam a identificação visual.
 
 Por sua vez, as propriedades das **arestas** são as seguintes:
 
-* **Elasticidade:** propriedade que faz com que as arestas se comportem como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades.
-* **Comprimento:** propriedade que define o tamanho das arestas.
+* **Elasticidade:** propriedade que faz com que as arestas se comportem como **molas de retenção**, limitando o afastamento dos nós ligados a suas extremidades e gerando movimentos no grafo.
+* **Comprimento:** propriedade que define o tamanho das arestas. Pode ser ajustado manualmente, aumentando de forma proporcional ao aumento da massa dos nós localizados em suas extremidades (aumento da força de repulsão).
 
-A descrição dos comandos acionados com o mouse e com o teclado, bem como a massa, o tamanho e o grupo de cada nó, são exibidos no canto superior direito da tela durante 3s.
+A descrição dos comandos acionados com o mouse e com o teclado, bem como a massa, o tamanho e o grupo de cada nó, são exibidos no canto superior direito da tela.
 
-Os comandos listados a seguir estão agrupados em <b>blocos temáticos</b> de acordo com suas funcionalidades. Execute-os na sequência indicada.<br>
+Os comandos listados a seguir estão agrupados em **blocos temáticos** de acordo com suas funcionalidades. Execute-os na sequência indicada.
 
- 
-<br>
+<br><br>
 
 ### 👉 Primeira sequência de comandos
  
