@@ -1119,8 +1119,8 @@ Confira-se, a seguir, exemplos de exploração de redes complexas com o SINARC:
 
 ### **CNPJ 33.592.510/0001-54 (Vale S.A.):**<br>
 *	Aberto em 4 camadas com o SINARC<br>
-*	6.602 nós<br>
-*	12.884 arestas (azul)<br>
+*	7.109 nós<br>
+*	13.533 arestas (azul)<br>
 * Fonte: [Empresas listadas na B3](https://www.idinheiro.com.br/investimentos/cnpj-empresas-listadas-b3/)
 <br>
 
