@@ -536,7 +536,7 @@ Para permitir o compartilhamento e a portabilidade dos resultados das análises,
 </p>
 
 <p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Grafo interativo</a> gerado pelo SINARC com 3 camadas e XXX nós. <b>Clique com botão direito do mouse sobre a imagem e abra o grafo e uma guia do navegador</b>. 
+<a href="https://controlecidadao.github.io/sinarc/exemplo3.html">Grafo interativo</a> gerado pelo SINARC com 3 camadas e XXX nós. <b>Clique com botão direito do mouse sobre a imagem e abra o grafo e uma guia do navegador</b>. 
 </p>
 
 <br><br>
