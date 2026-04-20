@@ -31,11 +31,12 @@
 * [Playground SINARC](#playground-sinarc)
 * [Tutorial interativo do SINARC](#tutorial-interativo-do-sinarc)
 * [Alfabeto de comandos do SINARC](#alfabeto-de-comandos-do-sinarc)
-<!--* [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)-->
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
 * [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
 * [Histórico de versões](#histórico-de-versões)
+
+<!--* [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)-->
 
 <br><br>
 
@@ -1084,10 +1085,11 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **<** --> Diminui o tamanho referencial dos nós em 5 pixels. Para uso em teclados de aparelhos celulares.<br>
 
 </details>
-  
-<br><br>
+
 
 <!--
+<br><br>
+
 ## Como criar uma nova instalação do SINARC?
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
