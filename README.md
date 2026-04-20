@@ -31,7 +31,7 @@
 * [Playground SINARC](#playground-sinarc)
 * [Tutorial interativo do SINARC](#tutorial-interativo-do-sinarc)
 * [Alfabeto de comandos do SINARC](#alfabeto-de-comandos-do-sinarc)
-* [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)
+<!--* [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)-->
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
 * [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
@@ -1087,6 +1087,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
   
 <br><br>
 
+<!--
 ## Como criar uma nova instalação do SINARC?
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
@@ -1100,6 +1101,7 @@ Para gerar uma nova instalação dos sistemas SINARC e Rede CNPJ, incluindo a cr
 Para ampliar a capacidade de pesquisa, baixe e descompacte na pasta SINARC (criada pelo usuário para abrigar o sistema) a versão portátil e gratuita do programa [DB Browser](https://sqlitebrowser.org/dl/) (arquivo "_DB Browser for SQLite - .zip (no installer) for 64-bit Windows_"). Com o auxílio do DB Browser é possível realizar filtros e consultas diretamente nas tabelas dos bancos de dados do sistema, combinando critérios de busca que não estão disponíveis nas interfaces gráficas do SINARC e do Rede CNPJ para chegar aos números de CNPJ que deseja explorar.
 
 O manual de instruções do SINARC pode ser acessado pressionando-se a tecla h (de _help_) durante o uso do sistema. Já o manual do Rede CNPJ encontra-se disponível na página do projeto.
+-->
 
 <br><br>
 
