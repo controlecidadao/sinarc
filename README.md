@@ -643,35 +643,27 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
    
 6) Pressione a **tecla Escape** para encaixar o grafo na tela;
 
-7) Posicione o ponteiro do mouse por 2 segundos sobre os nós para abrir um popup com informações. O link abre uma consulta na internet sobre o nó, usando inteligência artificial com um prompt criado para o SINARC. Os botões para abrir o nó em camadas estão desabilitados neste grafo;
+7) Use o **botão de rolagem do mouse** para aproximar e afastar o grafo. Posicione o ponteiro do mouse sobre o ponto que deseja aproximar ou afastar e gire o botão de rolagem para frente e para trás;
 
-8) Clique duas vezes sobre qualquer PJ para abrir informações detalhadas constantes na base de dados de CNPJ da Receita Federal;
+8) Posicione o ponteiro do mouse por 2 segundos sobre os nós para abrir um popup com informações. O link abre uma consulta na internet sobre o nó, usando inteligência artificial com um prompt criado para o SINARC. Os botões para abrir o nó em camadas estão desabilitados neste grafo;
 
-9) Pressione a **tecla F5** para recarregar o grafo;
+9) Clique duas vezes sobre qualquer PJ para abrir informações detalhadas constantes na base de dados de CNPJ da Receita Federal;
 
-10) Clique no **botão do menu suspenso** (⌨️ teclado), localizdo no canto superior esquerdo, depois em **Controles Básicos** e por fim na opção **Seleciona todos os nós**;
+10) Pressione a **tecla F5** para recarregar o grafo;
 
-11) Clique na opção **Abre relatório nós selecionados**. Será aberto uma página HTML com informações extraídas do grafo e links para novas funcionalidades (alguns links funcionam apenas com o programa SINARC aberto);
+11) Clique no **botão do menu suspenso** (⌨️ teclado), localizdo no canto superior esquerdo, depois em **Controles Básicos** e por fim na opção **Seleciona todos os nós**;
 
-12) De volta ao menu suspenso, clique novamente na opção **Seleciona todos os nós** e depois em **Abre no mapa endereços PJ**. Uma página HTML será aberta com a posição no mapa de cada endereço (o processo de geocodificação pode demorar um pouco);
+12) Clique na opção **Abre relatório nós selecionados**. Será aberto uma página HTML com informações extraídas do grafo e links para novas funcionalidades (alguns links funcionam apenas com o programa SINARC aberto);
 
-13) Pressione **F5** mais uma vez para recarregar o grafo;
+13) De volta ao menu suspenso, clique novamente na opção **Seleciona todos os nós** e depois em **Abre no mapa endereços PJ**. Uma página HTML será aberta com a posição no mapa de cada endereço (o processo de geocodificação pode demorar um pouco);
 
-14) Clique no **botão de otimização** (🪄 varinha mágica), localizado no canto inferior esquerdo. Os EN, TE e EM serão deletados e a posição dos nós será ajustada automaticamente;
+14) Pressione **F5** mais uma vez para recarregar o grafo;
 
-15) Pressione a **tecla z** (minúscula) para ativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
+15) Clique no **botão de otimização** (🪄 varinha mágica), localizado no canto inferior esquerdo. Os EN, TE e EM serão deletados e a posição dos nós será ajustada automaticamente;
 
-16) Após desativar o modo automático de visualização, use o **botão de rolagem do mouse** para aproximar e afastar o grafo. Posicione o mouse sobre o ponto que deseja aproximar ou afastar e gire o botão de rolagem para frente e para trás;
+16) Pressione a **tecla z** (minúscula) para ativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de grau (tamanho), seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
 
-17) **Posicione o ponteiro do mouse por 1,5s sobre qualquer nó** para exibir seus detalhes na tela;
-
-18) Clique sobre um nó de pessoa jurídica (ícone de prédio ou de globo) para selecioná-lo e pressione a **tecla d** (minúscula) para abrir uma janela com mais detalhes sobre a empresa (site externo);
-
-19) Para recarregar a página e retornar o grafo ao seu estado inicial, pressione a **tecla F5**. Em seu estado inicial, os grafos podem apresentar aparente sobreposição de nós em razão da definição do tamanho dos elementos com base em seu número de conexões (quanto maior o número de conexões, maior o nó). Nesses casos, pressione a **tecla e** 2 vezes para uniformizar o tamanho dos nós. Aproxime o grafo para visualizar melhor;
-
-20) Pressione a **tecla e** 1 vez para ocultar os rótulos dos nós e a **tecla l** (ele minúsculo) 1 vez para ocultar os rótulos das arestas;
-
-21) Para a relação completa de comandos e funcionalidades, consulte o item [8 - Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse) do [Manual do SINARC](https://controlecidadao.github.io/sinarc/help.html). Para abrir o manual estando na janela do grafo, pressione a **tecla h** (minúscula).
+17) Para a relação completa de comandos e funcionalidades, consulte o item [8 - Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse) do [Manual do SINARC](https://controlecidadao.github.io/sinarc/help.html). Para abrir o manual estando na janela do grafo, pressione a **tecla h** (minúscula).
 
 <br><br>
 
