@@ -922,7 +922,7 @@ Abra este [link](https://controlecidadao.github.io/sinarc/exemplo6.html)) em uma
 * **Tecla 3** --> Tecla não usada.
 * **Tecla 4** --> Abre arquivo Excel contendo as tabelas de nós e de conexões retornadas da consulta ao banco de dados (depende de consulta em tempo real ao banco de dados).
 * **Tecla 5** --> Abre site Rede CNPJ.
-* **Tecla 6** --> Abre sites contendo bases de dados primárias da CGU (Dívida Ativa Geral, Dívia FGTS, Dívida Previdenciária, Sanções, Acordos de Leniência e Pessoas Expostas Politicamente) e da Receita Federal (CNPJ).
+* **Tecla 6** --> Abre sites contendo bases de dados primárias da PGFN (dívida Ativa geral, previdenciária e com FGTS), da CGU (sanções, Acordos de Leniência e PEP) e da Receita Federal (CNPJ).
 * **Tecla 7** --> Exibe dados da pessoa jurídica em formato JSON.
 * **Tecla 8** --> Realiza consulta à API de Compras Governamentais do Governo Federal (apenas pessoa jurídica).
 * **Tecla 9** --> Tecla não usada.
@@ -940,7 +940,7 @@ Abra este [link](https://controlecidadao.github.io/sinarc/exemplo6.html)) em uma
 ### Consulta ao banco de dados (indisponível com grafos online)
 
 * **Tecla o** --> Abre nós selecionados como alvos em nova aba do navegador.
-* **Tecla O** --> Abre filiais da pessoa jurídica selecionada em nova aba do navegador.
+* **Tecla O** --> Abre matriz e filiais da pessoa jurídica selecionada em nova aba do navegador.
 * **Tecla s** --> Pesquisa livre por parâmetro (CNPJ, radical do CNPJ, razão social, nome de fantasia, nome da pessoa física, CPF parcial) no banco de dados. Use "@NNN" depois do parâmetro para retornar até NNN ocorrências.
 * **Tecla S** --> Abre nós selecionados em 1 camada sem incluir bordas vermelhas ou arestas coloridas.
 * **Tecla +** --> Inclui nó selecionado na lista de nós-alvos.
@@ -964,14 +964,14 @@ Abra este [link](https://controlecidadao.github.io/sinarc/exemplo6.html)) em uma
 
 ### Modo de captura (CTRL + c)
 
-* **Tecla |** --> Ativa/desativa a função de captura/cópia (Ctrl + c) do SINARC. Quando ativada, a função Ctrl + c do sistema operacional fica vinculada exclusivamente ao funcionamento do SINARC, tornando-se indisponível para uso com outros programas; quando desativada, copia o id do nó selecionado, permitindo sua tranferência para o programa Rede CNPJ (Ctrl + v).
+* **Tecla |** --> Ativa/desativa a função de captura do SINARC. Quando ativada, a função Ctrl + c do sistema operacional fica vinculada exclusivamente ao funcionamento do SINARC, tornando-se indisponível para uso com outros programas; quando desativada, copia o id do nó selecionado, permitindo, por exemplo, sua tranferência para o programa Rede CNPJ (Ctrl + v).
 <br>
 
-Comandos que dependem de consulta em tempo real ao banco de dados, necessitando que o SINARC e o Rede CNPJ estejam em execução: **Teclas o O s y 4** 
+Comandos que dependem de consulta em tempo real ao banco de dados, necessitando que o SINARC e o Rede CNPJ estejam em execução: **Teclas o, O, s, S, y, e 4** 
 
 Os camandos que não dependem de nova consulta aos bancos de dados podem ser executados nos arquivos gerados pelo SINARC para compartilhamento (_arquivo_sinarc.zip_).
 
-Para mais detalhes sobre o funcionamento de cada comando, consulte o item [8 - Uso do Mouse e do Teclado](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse), do Manual do SINARC.
+Para mais detalhes sobre o funcionamento de cada comando, consulte o [Manual do SINARC](https://controlecidadao.github.io/sinarc/help.html#uso_do_mouse).
 
 </details>
 
