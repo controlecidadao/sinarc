@@ -260,7 +260,7 @@ Pronto! Os programas **SINARC**, **Rede CNPJ** (este disponível no endereço lo
 
 Caso se depare com alguma restrição para executar o arquivo sinarc.exe no computador, utilize o seguinte procedimento:
 
-1) Na pasta SINARC, clique 2 vezes no arquivo **_abre_rede_cnpj.bat_** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.bat_). Uma instância do Terminal do Rede CNPJ será aberta, indicando a inicialização do programa. Aguarde alguns segundos até que a mensagem **O SINARC já pode ser inicializado!** seja exibida no Terminal;
+1) Na pasta SINARC, clique 2 vezes no arquivo **_abre_rede_cnpj.bat_** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.bat_). Uma instância do Terminal do Rede CNPJ será aberta, indicando a inicialização do programa. Aguarde alguns segundos até que a mensagem _**O SINARC já pode ser inicializado!**_ seja exibida no Terminal;
 
 3) Na sequência, também na pasta SINARC, clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta, indicando a inicialização do programa. Aguarde alguns segundos até que a interface gráfica do SINARC seja exibida em numa nova aba do navegador.
 
@@ -330,7 +330,9 @@ Para abrir o SINARC no segundo computador (C2), clique duas vezes sobre o arquiv
 
 Para utilizar o SINARC Client é necessário que o programa Rede CNPJ esteja em execução no computador que está funcionando como servidor (C1). Para executar o programa Rede CNPJ no computador que contém os bancos de dados (C1), clique duas vezes sobre o arquivo  _**abre_rede_cnpj.bat**_ na pasta SINARC. **ATENÇÃO: Não é necessário abrir o SINARC (_abre_sinarc.bat_) em C1!**
 
-Quando a mensagem **O SINARC já pode ser inicializado!** for exibida no Terminal, o sistema está pronto para ser acessado a partir de C2.
+Quando a mensagem _**O SINARC já pode ser inicializado!**_ for exibida no Terminal, o sistema está pronto para ser acessado a partir de C2.
+
+A versão atual do SINARC Client não permite consultas simultâneas.
 
 <br><br>
 
