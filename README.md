@@ -741,39 +741,37 @@ Os comandos listados a seguir estão agrupados em **blocos temáticos** de acord
 
 ### 1️⃣ Primeira sequência de comandos
  
-Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.
+Abra este [link](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele essa nova aba.
 
 <br>
 
 ### Ajuste de Tela
 
-* **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior (pressione algumas vezes para visualizar seu funcionamento).
-* **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia (pressione 2 vezes e observe o aparecimento da barra de rolagem vertical).
-* **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador, eliminando a barra de rolagem vertical.
-* **Tecla Escape** --> Enquadra o grafo no centro da tela.
+* **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior (pressione algumas vezes para visualizar seu funcionamento). Equivalente ao botão recarregar página do navegador.
+* **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia.
+* **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador, eliminando a barra de rolagem vertical. Atualmente o SINARC realiza esse ajuste automaticamente.
+* **Tecla Escape** --> Enquadra o grafo no centro da tela. Equivalente a **dois cliques** com botão esquerdo do mouse no fundo da tela ou **dois toques** no fundo da tela no celular.
 
 <br>
 
 ### Ajuste de Layout
   
-* **Tecla k** --> Alterna de forma cíclica entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes.  Vide detalhes no canto superior direito da tela.
-* **Tecla Escape** --> Enquadra o grafo no centro da tela.
-* **Tecla k** --> Alterna entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 2 vezes).
+* **Tecla k** --> Alterna de forma cíclica entre os layouts gravitacional (padrão), hieráquico a partir das folhas e hierárquico a partir das raízes (pressione 3 vezes).  Vide detalhes no canto superior direito da tela.
 * **Tecla K** --> Ativa/desativa o layout circular (pressione 2 vezes).
 
 <br>
 
-### Exibição de informações no grafo sobre nós e arestas
+### Exibição de informações no grafo sobre nós
 
 * **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes.
-* **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 1,5s para exibir suas informações em um popup.
+* **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 2s para exibir suas informações em um popup. Este popup permite abrir o nó em mais camadas (botões azuis) e realizar uma consulta na internet usando  inteligência artificial (link azul).
 
 <br>
 
 ### Seleção de nós com o mouse
 
 * **Mouse** --> Clique com o mouse sobre um nó para selecioná-lo e exibir suas propriedades no canto superior direito da tela.
-* **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar o nó selecionado e exibir o número total de nós.
+* **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar os nós selecionados e exibir o número total de nós e de camadas.
 * **Tecla Ctrl + Mouse** --> Mantenha a tecla Ctrl pressionada e clique sobre alguns nós para selecioná-los simultaneamente.
 * **Tecla Shift + Tecla Ctrl + Mouse** --> Mantenha pressionadas as teclas Shift + Ctrl. Pressione também o botão esquerdo do mouse e selecione uma região retangular no grafo que contenha nós para selecioná-los.
 * **Mouse** --> Clique com o mouse sobre o fundo branco para desselecionar todos os nós selecionados.
@@ -781,14 +779,17 @@ Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemp
 * **Tecla Escape** --> Enquadra o grafo no centro da tela.
 * **Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionado o botão esquerdo e arraste o grafo para o lado. Solte o botão ao final do movimento.
 * **Tecla Escape** --> Enquadra o grafo no centro da tela.
+* **tecla Ctrl + Mouse** --> Mantenha pressionada a tecla Ctrl, clique com o mouse sobre um nó e arraste-o até o limite da tela. Solte a tecla Ctrl e observe o retorno do grafo ao centro da tela.
 
 <br>
 
 ### Ajuste da exibição de nós e arestas
 
+Antes de executar estes comandos, aproxime o grafo para visualizar os rótulos dos nós e das arestas.
+
 * **Tecla e** --> Alterna de forma cíclica entre os 7 tipos de visualização de cada nó (pressione 7 vezes). Vide detalhes no canto superior direito da tela.
 * **Tecla l (ele minúsculo)** --> Alterna de forma cíclica entre os 3 tipos de visualização das arestas (pressione 3 vezes).
-* **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione algumas vezes). Tamanho padrão das arestas: 300.
+* **Tecla Shift + Tecla Seta p/ Direita** --> Aumenta o tamanho das arestas em 30 unidades (pressione algumas vezes). Monitore a variação do tamanho no canto superior direito da tela. Tamanho padrão das arestas: 300.
 * **Tecla Shift + Tecla Seta p/ Esquerda** --> Diminui o tamanho das arestas em 30 unidades (pressione algumas vezes).
 
 <br><br>
