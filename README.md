@@ -743,11 +743,13 @@ Os comandos listados a seguir estão agrupados em **blocos temáticos** de acord
  
 Abra este [link](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele essa nova aba.
 
+**Atenção:** Observe a diferença entre as letras maiúsculas e minúsculas.
+
 <br>
 
 ### Ajuste de Tela
 
-* **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior (pressione algumas vezes para visualizar seu funcionamento). Equivalente ao botão recarregar página do navegador.
+* **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição aleatória, diferente da posição anterior (pressione algumas vezes para visualizar seu funcionamento). Equivalente ao botão recarregar página do navegador. Quando a página é recarregada, todos os parâmetros do grafo voltam ao seu estado inicial.
 * **Tecla F11** --> Ativa/desativa a exibição do grafo em tela cheia.
 * **Tecla b** --> Ajusta a altura da janela de visualização do grafo à altura da janela do navegador, eliminando a barra de rolagem vertical. Atualmente o SINARC realiza esse ajuste automaticamente.
 * **Tecla Escape** --> Enquadra o grafo no centro da tela. Equivalente a **dois cliques** com botão esquerdo do mouse no fundo da tela ou **dois toques** no fundo da tela no celular.
@@ -764,7 +766,12 @@ Abra este [link](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma
 ### Exibição de informações no grafo sobre nós
 
 * **Mouse** --> Passe o ponteiro do mouse sobre os nós para destacar em vermelho suas arestas adjacentes.
-* **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 2s para exibir suas informações em um popup. Este popup permite abrir o nó em mais camadas (botões azuis) e realizar uma consulta na internet usando  inteligência artificial (link azul).
+* **Mouse** --> Permaneça com o ponteiro do mouse sobre um nó ou aresta por 2s para exibir suas informações em um popup.
+Este popup permite:
+1) abrir o nó em mais camadas (botões azuis);
+2) realizar consulta na internet sobre o nó usando inteligência artificial (link azul);
+3) Identificar a presença do nó, quando PJ, nas bases de dados integradas ao SINARC (bandeira vermelha);
+4) Visualizar a relação de nós adjacentes e o tipo de vínculo.
 
 <br>
 
@@ -779,7 +786,6 @@ Abra este [link](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma
 * **Tecla Escape** --> Enquadra o grafo no centro da tela.
 * **Mouse** --> Posicione o ponteiro do mouse sobre o fundo branco, mantenha pressionado o botão esquerdo e arraste o grafo para o lado. Solte o botão ao final do movimento.
 * **Tecla Escape** --> Enquadra o grafo no centro da tela.
-* **tecla Ctrl + Mouse** --> Mantenha pressionada a tecla Ctrl, clique com o mouse sobre um nó e arraste-o até o limite da tela. Solte a tecla Ctrl e observe o retorno do grafo ao centro da tela.
 
 <br>
 
@@ -796,13 +802,13 @@ Antes de executar estes comandos, aproxime o grafo para visualizar os rótulos d
 
 ### 2️⃣ Segunda sequência de comandos
 
-Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemplo5.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.<br>
+Abra este [link](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele essa nova aba.<br>
 
 <br>
 
 ### Fixação de nós
 
-* **Mouse** --> Mantenha pressionado o botão esquerdo do mouse sobre o nó de maior tamanho e arraste-o até um dos cantos da tela. Ao soltar o botão, observe o retorno do grafo ao centro da tela.
+* **Mouse** --> Mantenha pressionado o botão esquerdo do mouse sobre o nó de maior tamanho e arraste-o até um dos cantos da tela. Ao soltar o botão, observe o retorno do grafo ao centro da tela. Repita o procedimento com outros nós.
 * **Tecla p** --> Ativa/desativa os movimentos do grafo, permitindo o reposicionamento manual dos nós, além de ativar o zoom dinâmico sobre os nós. Repita o comando anterior e pressione a tecla p durante o retorno do grafo ao centro da tela. Quando o grafo parar, clique sobre um nó e arraste-o para outra posição (repita esse procedimento com outros nós). Ao final, pressione a tecla p novamente para liberar os movimentos do grafo.
 * **Tecla f** --> Ativa/desativa os movimentos apenas dos nós selecionados. Selecione um nó, pressione a tecla f e arraste-o para fixá-lo em um canto da tela. Selecione outro nó, pressione a tecla f novamente e arraste-o para o outro canto da tela. Ao final, selecione os nós fixados e pressione a tecla f para liberá-los.
 
@@ -813,39 +819,38 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 * **Tecla F5** --> Recarrega a página, exibindo o grafo em uma posição diferente da anterior.
 * **Tecla m** --> Aumenta a massa de todos os nós do grafo em 0,5 unidade, ampliando a força gravitacional de repulsão entre eles (pressione 10 vezes). Massa padrão dos nós: 1.
 * **Tecla M** --> Diminui a massa de todos os nós do grafo em 0,5 unidade, reduzindo a força gravitacional de repulsão entre eles (pressione 10 vezes).
-* **Tecla U** --> Exibe número de nós para cada faixa de tamanho (faixas 20 a 25, 25 a 29 ... 95 a 99, 100).
-* **Tecla n** --> Aumenta a massa dos nós com tamanho maior ou igual ao tamanho de referência (tamanho de referência padrão = 40) (pressione 5 vezes).
-* **Tecla N** --> Diminui a massa dos nós com tamanho maior ou igual ao tamanho de referência (tamanho de referência padrão = 40) (pressione 5 vezes).
-* **Tecla Shift + Tecla Seta p/ Cima** --> Aumenta valor do tamanho de referência em 5 unidades.
-* **Tecla Shift + Tecla Seta p/ Baixo** --> Diminui valor do tamanho de referência em 5 unidades.
-* **Tecla ]** --> Aumenta valor do tamanho dos nós selecionados em 5 unidades. Selecione um nó com apenas uma aresta e pressione a tecla ] 2 vezes.
-* **Tecla [** --> Diminui valor do tamanho dos nós selecionados em 5 unidades (pressione 2 vezes).
-* **Tecla Espaço** --> Aumenta a massa dos nós de forma proporcional ao seu tamanho, iniciando pelo maior (tamanho 100) e indo até o menor (tamanho 20) (pressione 16 vezes).
+* **Tecla U** --> Exibe número de nós para cada uma das 17 faixas de tamanho (tamanho 20 a 24, tamanho 25 a 29, ..., tamanho 95 a 99, tamanho 100). Feche o popup ao final.
+* **Tecla n** --> Aumenta a massa dos nós com tamanho maior ou igual ao tamanho de referência (tamanho de referência padrão: 40) (pressione 5 vezes).
+* **Tecla N** --> Diminui a massa dos nós com tamanho maior ou igual ao tamanho de referência (tamanho de referência padrão: 40) (pressione 5 vezes).
+* **Tecla Shift + Tecla Seta p/ Cima** --> Aumenta valor do tamanho de referência em 5 unidades. Ajuste utilizado em combinação com as teclas n e N.
+* **Tecla Shift + Tecla Seta p/ Baixo** --> Diminui valor do tamanho de referência em 5 unidades. Ajuste utilizado em combinação com as teclas n e N.
+* **Tecla ]** --> Aumenta a massa dos nós selecionados em 5 unidades. Selecione um nó com apenas uma aresta e pressione a tecla ] 5 vezes.
+* **Tecla [** --> Diminui a massa dos nós selecionados em 5 unidades (pressione 5 vezes).
+* **Tecla Espaço** --> Aumenta de forma cíclica a massa dos nós de forma proporcional ao seu tamanho, iniciando pelo maior (tamanho 100) e indo até o menor (tamanho 20) (pressione 17 vezes). Ao chegar à faixa de tamanho entre 20 e 24,99, todos os nós retornam a sua massa inicial: 1 unidade.
 
 <br>
 
 ### Seleção de nós com o teclado
 
 * **Tecla A** --> Seleciona todos os nós do grafo simultaneamente.
-* **Tecla ,** --> Abre janela contendo os rótulos de todos os nós selecionados, segregados por tipo de nó. Experimente usar Ctrl + f para pesquisar na janela.
 * **Tecla a** --> Seleciona os nós adjacentes ao nó que se encontra selecionado. Selecione um nó com apenas uma aresta e pressione a tecla "a" até que todos os nós do grafo sejam selecionados. Ao final, todos os nós são desselecionados.
-* **Tecla c** --> Alterna entre a aproximação do nó selecionado e o enquadramento na tela de seus nós adjacentes. Selecione um nó do grafo e pressione a tecla c por 2 vezes. Quando dois ou mais nós são selecionados, enquadra na tela seus nós adjacentes. Quando não há nó selecionado, enquadra o grafo no centro da tela (mesma função da tecla Escape).
-* **Tecla i** --> Alterna entre os nós selecionados, aproximando de cada um deles na sequência em que foram selecionados. Selecione 3 nós no grafo (Ctrl + clique) e pressione a tecla i por 3 vezes.
+* **Tecla c** --> Alterna de forma cíclica entre a aproximação do nó selecionado, o enquadramento na tela de seus nós adjacentes e o enquadramento de todo o grafo na tela. Selecione um nó do grafo com uma aresta e pressione a tecla c por 3 vezes. Quando dois ou mais nós são selecionados, alterna entre o enquadramento na tela de seus nós adjacentes e o enquadramento do grafo. Quando não há nó selecionado, enquadra o grafo no centro da tela (mesma função da tecla Escape).
+* **Tecla i** --> Alterna de forma cíclica entre os nós selecionados, aproximando de cada um deles na sequência em que foram selecionados. Selecione 3 nós no grafo (Ctrl + clique) e pressione a tecla i por 3 vezes.
 * **Tecla I (i maiúsculo)** --> Inverte seleção dos nós do grafo. Selecione alguns nós e aperte a tecla I.
-* **Tecla ç** --> Alterna entre seleção dos nós de Endereços (EN), Telefones (TE) e E-mails (EM) com apenas 1 conexão, seguida por estes mesmo nós com mais de 1 conexão, e por fim desseleciona todos os nós (pressione 3 vezes).
-* **Tecla Ç** --> Alterna entre seleção dos nós com número crescente de conexões (1, 2, 3 etc.). Pressione até que todos os nós sejam desselecionados.
-* **Tecla Q** --> Seleciona nós-alvos (com borda vermelha).
-* **Tecla .** --> Alterna seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes).
-* **Tecla ;** --> Alterna seleção entre os nós de origem e de destino das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes.
-* **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados. Necessário ter havido uma consulta anterior ao banco de dados.
-* **Tecla j** --> Seleciona nós adjacentes comuns aos nós selecionados. Selecione dois nós e pressione a tecla j, seguido da tecla "," para ver os rótulos dos nós comuns.
-* **Tecla J** --> Seleciona nós adjacentes não comuns aos nós selecionados. Selecione dois nós e pressione a tecla J, seguido da tecla "," para ver os rótulos dos nós não comuns.
+* **Tecla ç** --> Alterna de forma cíclica entre seleção dos nós de Endereços (EN), Telefones (TE) e E-mails (EM) com apenas 1 conexão, seguida pela seleção de todos os EN, TE e EM, e por fim desseleciona todos os nós (pressione 3 vezes).
+* **Tecla Ç** --> Alterna de forma cíclica entre seleção dos nós com número crescente de conexões (1, 2, 3 etc.). Pressione até que todos os nós sejam desselecionados.
+* **Tecla Q** --> Seleciona nós-alvos (nós com borda vermelha).
+* **Tecla .** --> Alterna de forma cíclica a seleção entre os 15 tipos de imagens de nós do grafo (pressione 16 vezes).
+* **Tecla ;** --> Alterna de forma cíclica a seleção entre os nós de origem e de destino das arestas do nó selecionado. Selecione o maior nó do grafo e pressione a tecla ";" 3 vezes.
+* **Tecla /** --> Seleciona nós acrescidos ao grafo na última consulta ao banco de dados (necessário ter sido realizada uma consulta anterior ao banco de dados).
+* **Tecla j** --> Seleciona nós adjacentes comuns aos nós selecionados. Selecione dois nós e pressione a tecla j para selecionar os nós comuns.
+* **Tecla J** --> Seleciona nós adjacentes não comuns aos nós selecionados. Selecione dois nós e pressione a tecla J para selecionar os nós não comuns.
 
 <br>
 
-### Pesquisa por nós e arestas no grafo
+### Pesquisa por rótulos de nós e de arestas no grafo
 
-* **Tecla q** --> Abre popup para pesquisar por rótulos dos nós no grafo. Digite um parâmetro de pesquisa (sem acento) ou pressione a tecla Enter para alternar para a pesquisa por rótulos das arestas.
+* **Tecla q** --> Abre popup para pesquisar por rótulos dos nós e das arestas no grafo. Após pressionar a tecla q, digite um parâmetro de pesquisa ou pressione a tecla Enter para alternar para a pesquisa por rótulos das arestas. Não utilize acentos na pesquisa.
 
 <br>
 
@@ -860,49 +865,60 @@ Abra o link a seguir ([Exemplo 5](https://controlecidadao.github.io/sinarc/exemp
 
 ### 3️⃣ Terceira sequência de comandos
 
-Abra o link a seguir ([Exemplo 2](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.<br>
+Abra este [link](https://controlecidadao.github.io/sinarc/exemplo1.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele essa nova aba.<br>
 
 <br>
 
 ### Detecção de comunidades
 
-* **Tecla n** --> Aumenta a massa dos nós com tamanho de referência maior ou igual a 40. Pressione e segure a tecla n até que o "Fator", exibido no canto superior direito da tela, alcance 301.
-* **Tecla v** --> Ativa/deastiva destaque de comunidades de nós.
+* **Tecla v** --> Ativa/deastiva destaque de comunidades de nós (pressione 2 vezes).
 * **Tecla V** --> Alterna exibição de nós por comunidades (grupos).
+* **Tela F5** --> Recarrega o grafo em uma posição aleatória diferente da posição anterior.
 
 <br>
 
 ### Adição de cores aos nós
 
 * **Tecla x** --> Adiciona cores alternadas aos nós selecionados em sequência (verde, amerelo, azul e lilás).
-* **Tecla X** --> Remove cores adicionadas aos nós.
+* **Tecla X** --> Remove cores adicionadas aos nós (não é necessário selecionar os nós).
 
 <br>
 
 ### Deleção de nós
 
-* **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete. O número acumulado de nós deletados é exibido no canto superior direito da tela.
-* **Tecla Backspace** --> Possui funcionalidade idêntica à da tecla Delete. Útil para explorar os grafos usando o teclado dos aparelhos celulares.
+A deleção de nós no grafo exibido no navegador ocorre de forma permanente. Portanto, para retornar ao grafo original, pressione a **tecla F5** para recarregar a página.
+Quando nós são deletados, uma mensagem é exibida no canto inferior direito da tela.
+
+* **Tecla Delete** --> Deleta do grafo os nós selecionados. Selecione nós no grafo e pressione a tecla Delete.
+* **Tecla Backspace** --> Possui funcionalidade idêntica à da tecla Delete. Útil para usar com o teclado dos aparelhos celulares.
 * **Tecla r** --> Exclui todos os nós que não se encontram selecionados.
-* **Tecla R** --> Exclui todos os nós que não se encontram interligados por arestas coloridas (use o [Exemplo 1](https://controlecidadao.github.io/sinarc/exemplo1.html)).
+* **Tecla R** --> Exclui todos os nós que não se encontram interligados por arestas coloridas.
+
+<br><br>
+
+### 4️⃣ Quarta sequência de comandos
+
+Abra este [link](https://controlecidadao.github.io/sinarc/exemplo6.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele essa nova aba.<br>
 
 <br>
 
 ### Identificação da cadeia hierárquica de comando do nó-alvo
 
-* **Tecla w** --> Adiciona/remove cor para destacar todos os nós que integram a cadeia hierárquica de comando do nó-alvo.
+* **Tecla Espaço** --> Pressione a tecla Espaço 10 vezes para reposicionar os nós.
+* **Tecla Escape** --> Pressione a tecla Escape para centralizar o grafo na tela.
+* **Tecla w** --> Adiciona/remove cor para destacar todos os nós que integram a cadeia hierárquica de comando do nó-alvo (pressione 2 vezes).
 * **Tecla W** --> Exclui nós que não pertencem à cadeia hierárquica de comando do nó-alvo.
+* **Tecla k** --> Posiciona o grafo no layout hierárquico para permitir a visualização da cadeia de comando.
 
 <br>
 
 ### Consulta a sites externos e outros recursos
    
-* **Tecla d** --> Exibe informações sobre o nó selecionado, extraídas de sites externos (exceto TE).
-* **Tecla D** --> Realiza pesquisa simultânea pelo nó selecionado no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência CGU e Jusbrasil. Nessário habilitar popups múltiplos (exceto EN, TE e EM).
+* **Tecla D** --> Realiza pesquisa simultânea pelo rótulo do nó selecionado (exceto EN, TE e EM) no DOU, DIO-ES, DOM-ES, Querido Diário OKF, Portal da Transparência da CGU e Jusbrasil. Nessário habilitar popups no navegador.
 * **Tecla g** --> Realiza pesquisa pelo nó selecionado no Google (exceto TE).
 * **Tecla G** --> Realiza pesquisa avançada do nó selecionado nos domínios tc.br, mp.br, jus.br, gov.br, es.gov.br (exceto EN, TE e EM).    
-* **Tecla 1** --> Exibe Comprovante de Inscrição e de Situação Cadastral da pessoa jurídica selecionada, extraído do site da Receita Federal.
-* **Tecla 2** --> Realiza pesquisa pela pessoa jurídica selecionada na base de dados da CGU sobre sanções (CEIS, CNEP, CEPIM e CEAF) e acordo de leniência.
+* **Tecla 1** --> Exibe Comprovante de Inscrição e de Situação Cadastral da PJ selecionada, extraído do site da Receita Federal.
+* **Tecla 2** --> Realiza pesquisa pela pessoa jurídica selecionada na base de dados da CGU sobre sanções (CEIS, CNEP, CEPIM e CEAF) e Acordo de Leniência.
 * **Tecla 3** --> Tecla não usada.
 * **Tecla 4** --> Abre arquivo Excel contendo as tabelas de nós e de conexões retornadas da consulta ao banco de dados (depende de consulta em tempo real ao banco de dados).
 * **Tecla 5** --> Abre site Rede CNPJ.
