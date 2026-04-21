@@ -996,7 +996,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **n** --> Aumenta em 5 unidades a massa dos nós que possuem tamanho maior ou igual ao tamanho referencial (tamanho padrão: 40).<br>
 **N** --> Diminui em 5 unidades a massa dos nós que possuem tamanho maior ou igual ao tamanho referencial.<br>
 **o** --> Abre os nós-alvos selecionados em nova aba do navegador com o número de camadas fornecido pelo usuário.<br>
-**O** --> Abre matriz e filiais do nó selecionado (apenas PJ).<br>,
+**O** --> Abre matriz e filiais do nó selecionado (apenas PJ).<br>
 **p** --> Pausa a interação gravitacional entre os nós e ativa zoom dinâmico sobre os nós.<br>
 **P** --> <br>
 **q** --> Localiza nós e arestas no grafo com base no texto de seus rótulos. Aperte ENTER com a caixa de diálogo de localização dos nós vazia para abrir a caixa de diálogo de localização das arestas.<br>
