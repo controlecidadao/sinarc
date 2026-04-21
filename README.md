@@ -966,19 +966,19 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 
 **a** --> Amplia seleção de nós para a próxima camada.<br>
 **A** --> Seleciona todos os nós.<br>
-**b** --> Ajusta a altura da janela de visualização do grafo à altura da tela do monitor (demonstrar com F11).<br>
+**b** --> Ajusta a altura da janela de visualização do grafo à altura da tela do monitor. A versão atual do SINARC já ajusta automaticamente a altura da jenala.<br>
 **B** --> <br>
-**c** --> Centraliza nós selecionados e seus nós adjacentes ou centraliza grafo quando não há nó selecionado.<br>
+**c** --> Alterna entre a centralização do nó selecionado, de seus nós adjacentes e do grafo. Centraliza o grafo quando não há nós selecionados.<br>
 **C** --> <br>
 **ç** --> Seleciona EN, TE e EM com base no número de conexões.<br>
 **Ç** --> Seleciona nós com base no número de conexões.<br>
-**d** --> Exibe detalhes do nó selecionado (exceto TE) a partir da busca nos sites cnpj.info (PJ), direitoriobrasil.net (PF), Google Maps (EN) e Google Search (EM).<br>
+**d** --> <br>
 **D** --> Exibe resultado da busca pelo nó selecionado (apenas PF e PJ) no DOU, DIO-ES, DOM-ES, Querido Diário, Portal da Transparência e JusBrasil.<br>
 **e** --> Alterna entre alteração do tamanho dos nós e exibição dos rótulos.<br>
 **E** --> <br>
 **f** --> Fixa na tela os nós selecionados.<br>
 **F** --> <br>
-**g** --> Realiza pesquisa geral pelo nó selecionado no Google.<br>
+**g** --> Realiza pesquisa geral pelo nó selecionado no Google (exceto TE).<br>
 **G** --> Realiza pesquisa avançada pelo nó selecionado no Google usando os domínios TC.BR, MP.BR, JUS.BR, GOV.BR e ES.GOV.BR (apenas PF e PJ).<br>
 **h** --> Abre manual do SINARC em janela flutuante do navegador.<br>
 **H** --> <br>
@@ -987,7 +987,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **j** --> Seleciona nós adjacentes comuns a 2 ou mais nós selecionados.<br>
 **J** --> Seleciona nós adjacentes que não são comuns a 2 ou mais nós selecionados.<br>
 **k** --> Alterna entre as 3 opções de layout disponíveis: layout gravitacional, layout hierárquico a partir das folhas e layout hierárquico a partir das raízes.<br>
-**K** --> Alterna entre as opções disponíveis de layouts alternativos: circular.<br>
+**K** --> Ativa/desativa o layout circular.<br>
 **l** --> Alterna entre exibição e ocultação das arestas e de seus rótulos.<br>
 **L** --> Exibe distribuição dos tipos de conexões das arestas do grafo.<br>
 **m** --> Aumenta a massa de todos os nós em 0,5 unidade.<br>
@@ -995,18 +995,18 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **n** --> Aumenta em 5 unidades a massa dos nós que possuem tamanho maior ou igual ao tamanho referencial (tamanho padrão: 40).<br>
 **N** --> Diminui em 5 unidades a massa dos nós que possuem tamanho maior ou igual ao tamanho referencial.<br>
 **o** --> Abre os nós-alvos selecionados em nova aba do navegador com o número de camadas fornecido pelo usuário.<br>
-**O** --> Abre matriz e filiais do nó selecionado (apenas PJ).<br>
-**p** --> Pausa a interação gravitacional entre os nós. Ativa zoom dinâmico sobre os nós.<br>
+**O** --> Abre matriz e filiais do nó selecionado (apenas PJ).<br>,
+**p** --> Pausa a interação gravitacional entre os nós e ativa zoom dinâmico sobre os nós.<br>
 **P** --> <br>
-**q** --> Localiza nós e arestas no grafo com base em seus rótulos. Aperte ENTER com a caixa de diálogo de localização dos nós vazia para abrir a caixa de diálogo de localização das arestas.<br>
+**q** --> Localiza nós e arestas no grafo com base no texto de seus rótulos. Aperte ENTER com a caixa de diálogo de localização dos nós vazia para abrir a caixa de diálogo de localização das arestas.<br>
 **Q** --> Seleciona apenas os nós-alvos do grafo (bordas vermelhas).<br>
 **r** --> Exibe na tela apenas os nós selecionados, deletando todos os demais.<br>
 **R** --> Exibe na tela apenas os nós que interconectam os nós-alvos (caminhos mais curtos) quando a opção de destacar arestas tiver sido selecionada pelo usuário, deletando todos os demais nós.<br>
-**s** --> Consulta livre na base de dados por nome de pessoa física, razão social, nome de fantasia, radical do CNPJ (8 primeiros dígitos) ou número completo do CNPJ (00.000.000/0000-00 ou 00000000000000).<br>
-**S** --> Abre nós selecionados em 1 camada sem incluir bordas vermelhas ou arestas coloridas.<br>
+**s** --> Consulta livre na base de dados por nome de pessoa física, razão social, nome de fantasia, CPF com a máscara /*/*/*NNNNNN/*/*, radical do CNPJ (8 primeiros dígitos) ou número completo do CNPJ (00.000.000/0000-00 ou 00000000000000).<br>
+**S** --> Abre nós selecionados em 1 camada sem incluir bordas vermelhas ou arestas coloridas. Esta opção permite expandir nós por meio de EN, TE e EM.<br>
 **t** --> Ativa o modo transparência por tipos de nós: Quando a tecla t é pressionada, exibe de forma alternada os nós com imagens iguais. Para recarregar a página do grafo, pressione F5.<br>
 **T** --> Ativa o modo transparência por conexões: Posicionando o ponteiro do mouse sobre o nó, este e os nós adjacentes são exibidos temporariamente. Ao clicar sobre o nó, este e os nós adjacentes são exibidos de forma permanente. Para recarregar a página do grafo, pressione F5.<br>
-**u** --> Exibe informações sobre os nós centrais (Betweenness Centrality, Closeness Centrality, Eigenvector Centrality, Degree Centrality e PageRank).<br>
+**u** --> Exibe informações sobre os nós centrais do grafo (Betweenness Centrality, Closeness Centrality, Eigenvector Centrality, Degree Centrality e PageRank).<br>
 **U** --> Exibe informações sobre a distribuição dos nós por tamanho.<br>
 **v** --> Alterna entre exibição e ocultação de cores para destacar as comunidades de nós identificadas. Ao clicar sobre um nó, o número da comunidade (grupo) a que ele pertence e o total de comunidades do grafo são exibidos.<br>
 **V** --> Alterna entre exibição apenas dos nós que integram as comunidades identificadas.<br>
@@ -1026,22 +1026,22 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **[** --> Diminui a massa dos nós selecionados em 5 unidades.<br>
 **|** --> Alterna entre ativação e desativação do modo de captura do SINARC.<br>
 **?** --> Alterna entre exibição e ocultação dos atalhos para as funções do mouse e do teclado.<br>
-**!** --> Gera novo arquivo HTML (grafo_final_atualizado.html) contendo exclusões e alterações de massa dos nós.<br>
+**!** --> Gera novo arquivo HTML (grafo_final_atualizado.html), com eventuais exclusões e alterações de massa dos nós.<br>
 **+** --> Inclui nós selecionados na lista de nós-alvos.<br>
 **-** --> Exclui o último nó incluído na lista de nós-alvos.<br>
 **1** --> Abre página do Comprovante de Inscrição no CNPJ do nó selecionado (apenas PJ).<br>
 **2** --> Abre Portal da Transparência do Governo Federal para validar dados do nó selecionado (apenas PJ) no CEIS, CNEP, CEPIM e Acordo de Leniência.<br>
 **3** --> <br>
 **4** --> Gera arquivo Excel contendo nós e arestas do último grafo criado pelo SINARC.<br>
-**5** --> <br>
+**5** --> Abre página do Rede CNPJ na internet.<br>
 **6** --> Abre as páginas contendo as bases de dados públicas para download da Receita Federal (CNPJ), da CGU (CEIS, CNEP, CEPIM, CEAF, Acordo de Leniência e PEP) e da PGFN (dívida ativa geral, previdenciária e de FGTS).<br>
 **7** --> Exibe detalhes do CNPJ da pessoa jurídica do nó selecionado no formato JSON (CNPJ.ws).<br>
 **8** --> Verifica se o nó selecionado está cadastrado como fornecedor da União e se está habilitado a licitar (apenas PJ).<br>
 **9** --> Baixa arquivos "nodes.json" e "edges.json" com as exclusões e alterações de massa dos nós.<br>
 **ESC** --> Encaixa o grafo no centro da tela.<br>
-**ESPAÇO** --> Aumenta a massa dos nós com tamanho dentro de uma faixa específica de valores, iniciando pelo nó com maior tamanho (100) e prosseguindo para as faixas de valores seguintes (5 unidades).<br>
-**DEL** --> Deleta os nós que estejam selecionados.<br>
-**BACKSPACE** --> Possui funcionalidade idêntica à da tecla DEL. Para uso em teclados de aparelhos celulares.
+**ESPAÇO** --> Aumenta a massa dos nós com tamanho dentro de faixas específicas, iniciando pelo nó com maior tamanho (100) e prosseguindo para as faixas de valores seguintes (5 unidades) até o menor tamanho (20).<br>
+**DEL** --> Deleta os nós selecionados.<br>
+**BACKSPACE** --> Possui funcionalidade idêntica à da tecla DEL. Útil em teclados de aparelhos celulares.
 **F5** --> Recarrega a página do grafo.<br>
 **F11** --> Alterna entre ativação e desativação do modo tela cheia do navegador.<br>
 **SHIFT + SETA P/ DIREITA** --> Aumenta o comprimento das arestas do grafo em 30 unidades (comprimento padrão: 300).<br>
