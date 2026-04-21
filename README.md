@@ -204,54 +204,6 @@ Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informaçõ
 Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https://notebooklm.google.com/notebook/0ecb7569-d040-43e2-ad3e-2599f172a1a4/preview) na plataforma **NotebookLM** (necessário estar logado em uma conta do Google). Essa ferramenta, baseada em **Inteligência Artificial**, examina simultaneamente os documentos do SINARC (README do Github, Manual do SINARC e seu código fonte), permitindo a obtenção de respostas detalhadas sobre as funcionalidades do sistema.
 
 <br><br>
-<!--
-## SINARC Online
-<p align="right" width="100%">
-  <a href="#sumário">Sumário</a>
-</p>
-
-<p align="center" width="100%">
-<img width="20%" src="./images/online.webp" />
-</p>
-
-Encontra-se em **fase de testes** uma versão online do SINARC, acessível diretamente por meio do navegador a partir de computadores e dispositivos móveis: [Link da versão online do SINARC](#sinarc-online) (disponibilidade intermitente durante testes)
-
-Após acessar o link, clique no botão azul **_Visit Site_** da página inicial. Esta página só aparecerá no primeiro acesso.
-
-A versão online do SINARC permite explorar **qualquer CNPJ** em até **3 camadas**, desde que o processo de geração do grafo pelo servidor não exceda **2 minutos**.
-
-Data da base de dados de CNPJ: 09/08/2025
-
-<br>
-
-### Como consultar CNPJ
-
-Para consultar um número de CNPJ, siga estes passos:
-
-1) Clique no link da versão online do SINARC.
-2) Clique no botão azul **_Visit Site_** da página inicial. Esta página só aparecerá no primeiro acesso.
-3) Aguarde a exibição do primeiro grafo na tela (Banco do Brasil em 1 camada).
-4) Pressione as **teclas SHIFT + s** (ou a letra "S" maiúscula) para abrir a caixa de diálogo. Em aparelhos celulares, o teclado pode ser aberto clicando no [botão](https://controlecidadao.github.io/sinarc/images/botao_central.png) localizado na parte inferior central da tela.
-5) Digite o **número do CNPJ** nos formatos 00.000.000/0000-00 ou 00000000000000 (14 dígitos) e pressione o botão "OK".
-6) Na tela seguinte, digite o **número de camadas** que deseja visualizar (máximo 3 na versão online) e pressione "OK". Aguarde a montagem do grafo na tela. O tempo mínimo de resposta do servidor é de aproximadamente 20 segundos.
-
-Em regra, quanto maior o número de camadas, maior a quantidade de nós e o tempo de processamento.
-
-A aba do navegador exibe o número de camadas e o número total de nós no grafo (exemplo: 2/256 SINARC - 2 camadas e 256 nós)
-
-Para ampliar o número de camadas, pressione novamente as teclas SHIFT + s e ajuste conforme desejado (máximo 3).
-
-Consulte as formas de ajustar a visualização do grafo nos tópicos seguintes desta página. 
-
-Dica rápida de ajuste do grafo:
-
-1) Pressione a **tecla "k"** 3 vezes para alternar entre layouts
-2) Pressione a **tecla "m"** algumas vezes para ampliar a distância entre os nós (SHIFT + "m" para reduzir)
-3) Pressione a **tecla "ESC"** para centralizar o grafo na tela
-
-Para uma experiência completa - sem limites - sobre as funcionalidades da ferramenta, baixe o **Pen Drive SINARC** para executá-lo localmente no computador.
-
-<br><br> -->
 
 ## Como criar o Pen Drive SINARC
 <p align="right" width="100%">
@@ -297,7 +249,6 @@ Para usar o Pen Drive SINARC, siga estes passos:
 2) Na pasta SINARC, clique duas vezes no arquivo **sinarc.exe** (o Windows solicitará sua confirmação por se tratar de um arquivo executável _.exe_) e aguarde a inicialização dos sistemas. A interface gráfica do SINARC será aberta no navegador:
 <p align="left" width="100%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    <img width="12%" class="clickable-image" src="./images/imagem_sinarc_exe.png" />
-</a>
 </p>
 
 Pronto! Os programas **SINARC**, **Rede CNPJ** (este disponível no endereço local _http://127.0.0.1:5000/rede_) e **DB Browser** já podem ser utilizados.
@@ -312,7 +263,7 @@ Caso se depare com alguma restrição para executar o arquivo sinarc.exe no comp
 
 3) Na sequência, também na pasta SINARC, clique 2 vezes no arquivo **_abre_sinarc.bat_** (o Windows solciitará sua confirmação). Uma instância do Terminal do SINARC será aberta, indicando a inicialização do programa. Aguarde alguns segundos até que a interface gráfica do SINARC seja exibida em numa nova aba do navegador.
 
-**ATENÇÃO:** Para ativar/desativar o **modo de captura do SINARC**, pressione a **tecla |** (barra vertical) enquanto visualiza um grafo. Uma mensagem será exibida no canto superior esquerdo da tela, indicando a mudança de estado. Quando o modo de captura está ativado, a função de cópia do Windows (CTRL + c) fica vinculada ao SINARC, impedindo seu uso por outros programas.
+**ATENÇÃO:** Para ativar/desativar o **modo de captura do SINARC**, pressione a **tecla \|** (barra vertical) enquanto visualiza um grafo. Uma mensagem será exibida no canto superior esquerdo da tela, indicando a mudança de estado. Quando o modo de captura está ativado, a função de cópia do Windows (CTRL + c) fica vinculada ao SINARC, impedindo seu uso por outros programas.
 
 Conquanto o SINARC utilize apenas a modelagem de criação e de consulta aos bancos de dados desenvolvida pelo projeto Rede CNPJ, optou-se por disponibilizar também a íntegra  deste formidável programa (forked version) como etapa prévia à abertura do SINARC, permitindo ao cidadão explorar simultaneamente os recursos das duas ferramentas e, quem sabe, desenvolver seu próprio sistema de análise de grafos, com funcionalidades ainda mais interessantes, disponibilizando-o igualmente como **software livre para inspirar outras pessoas a se engajarem em iniciativas que promovam a transparência e a cidadania a partir de dados abertos**.
 
