@@ -991,22 +991,24 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o [Manual do 
 
 <br>
 
-Abra o link a seguir ([Exemplo 4](https://controlecidadao.github.io/sinarc/exemplo4.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele a nova aba e pressione a **tecla b** para ajustar a altura da janela de visualização do grafo à altura da tela do monitor.
+Abra este [link](https://controlecidadao.github.io/sinarc/exemplo2.html)) em uma nova aba do navegador e aguarde o grafo ser exibido. Caso disponha de um segundo monitor, mova para ele essa nova aba.
 
 * **Tecla F5** --> Recarrega página do grafo (arquivo HTML)
 * **Tecla h** --> Abre manual de instruções do SINARC
 * **Imagens dos nós** --> PF, PJ, EN, TE e EM
-* **Tamanho dos nós** --> Proporcional ao número de arestas (medida de centralidade de grau)
+* **Tamanho dos nós** --> Proporcional ao número de arestas
 * **Imagem das conexões** --> Setas unidirecionais
 * **Feedback de interação** --> Mensagem exibida no canto superior direito da tela
-* **Clique na área do grafo** --> Desseleciona todos os nós e mostra número total de nós do grafo, também exibido na aba do navegador.
+* **Clique na área do grafo** --> Desseleciona todos os nós e mostra o total de nós do grafo e o número de camadas.
+* **Duplo clique na área do grafo** --> Centraliza grafo na tela.
+* **Tecla ESC** --> Centraliza grafo na tela.
 * **Mouse passando sobre nó** --> Destaca conexões adjacentes
-* **Mouse parado sobre nó** --> Destaca conexões adjacentes e exibe propriedades do nó e de suas conexões
-* **Clique sobre o nó** --> Seleciona o nó clicado
+* **Mouse parado sobre nó** --> Destaca conexões adjacentes e exibe propriedades do nó e de suas conexões.
+* **Clique sobre o nó** --> Seleciona o nó clicado.
+* **Duplo clique sobre o nó PJ** --> Abre detalhes sobre a PJ em nova janela.
 * **CTRL + clique sobre os nós** --> Seleciona os nós clicados
-* **Botão de rolagem do mouse** --> Aproxima e afasta o grafo na posição do ponteiro do mouse
-* **Tecla ESC** --> Centraliza grafo na tela
-* **Clique sobre o nó, arraste e solte** --> Exibe comportamento físico do grafo: interação gravitacional entre os nós (força de repulsão), comportamento de mola das arestas e força gravitacional central (força de atração)
+* **Botão de rolagem do mouse** --> Aproxima e afasta o grafo na posição do ponteiro do mouse.
+* **Clique sobre o nó, arraste e solte** --> Exibe comportamento físico do grafo: interação gravitacional entre os nós (força de repulsão), comportamento de mola das arestas e força gravitacional central (força de atração do grafo para o centro da tela)
 
 <br>
 
