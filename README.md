@@ -584,6 +584,13 @@ Tela do SINARC exibindo o menu suspenso.
 
 <br>
 
+A tela do SINARC possui 3 botões:
+* Botão do menu suspenso (⌨️), localizado no canto superior esquerdo, por meio do qual é possível acessar todos os comandos da ferramenta;
+* Botão de otimização (🪄), localizado no canto inferior esquerdo e usado para ajustar a posição dos nós no grafo automaticamente;
+* Botão para abrir o teclado no celular, localizado de forma discreta na parte inferior central da tela.
+
+<br>
+
 Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINARC, realize os seguintes passos:
 
 1) Abra este [link](https://controlecidadao.github.io/sinarc/exemplo1.html) em uma nova aba do navegador e aguarde o grafo ser exibido;
@@ -606,7 +613,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 10) Pressione a **tecla F5** para recarregar o grafo;
 
-11) Clique no **botão do menu suspenso** (⌨️ teclado), localizdo no canto superior esquerdo, depois em **Controles Básicos** e por fim na opção **Seleciona todos os nós**;
+11) Clique no **botão do menu suspenso** (⌨️), localizdo no canto superior esquerdo, depois em **Controles Básicos** e por fim na opção **Seleciona todos os nós**;
 
 12) Clique na opção **Abre relatório nós selecionados**. Será aberto uma página HTML com informações extraídas do grafo e links para novas funcionalidades (alguns links funcionam apenas com o programa SINARC aberto);
 
@@ -614,7 +621,7 @@ Para testar algumas das funcionalidades dos grafos interativos gerados pelo SINA
 
 14) Pressione **F5** mais uma vez para recarregar o grafo;
 
-15) Clique no **botão de otimização** (🪄 varinha mágica), localizado no canto inferior esquerdo. Os EN, TE e EM serão deletados e a posição dos nós será ajustada automaticamente;
+15) Clique no **botão de otimização** (🪄), localizado no canto inferior esquerdo. Os EN, TE e EM serão deletados e a posição dos nós será ajustada automaticamente;
 
 16) Pressione a **tecla z** para ativar o modo automático de visualização. Este recurso simula os movimentos de uma câmera percorrendo os nós do grafo em ordem decrescente de tamanho, seguido pela aproximação de cada um de seus nós adjacentes. Pressione a **tecla z** novamente a qualquer momento para sair da função;
 
