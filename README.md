@@ -1208,7 +1208,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 Relação de sites e documentos públicos contendo informações para explorar com o SINARC:
 
-* [Portal Nacional de Contratações Públicas (PNCP) - Contratos](https://pncp.gov.br/app/contratos?pagina=1). Para consultar todos os contratos de um Estado, digite "/<sigla do Estado> no campo "Palavra-chave". Exemplo: /SP.
+* [Portal Nacional de Contratações Públicas (PNCP) - Contratos](https://pncp.gov.br/app/contratos?pagina=1). Para consultar todos os contratos de um Estado, digite "/" seguida da sigla do Estado no campo "Palavra-chave". Exemplo: /SP.
 
 * [Relatório Final da Polícia Federal no Caso Marielle Franco e Anderson Gomes](https://static.poder360.com.br/2024/03/relatorio-PF-caso-Marielle-24mar2024.pdf).
 
