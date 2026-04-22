@@ -28,12 +28,12 @@
 * [O SINARC utiliza dados sigilosos?](#o-sinarc-utiliza-dados-sigilosos)
 * [Para que serve o SINARC?](#para-que-serve-o-sinarc)
 * [A quem se destina o SINARC?](#a-quem-se-destina-o-sinarc)
-* [Playground SINARC](#playground-sinarc)
+* [Testando o SINARC](#testando-o-sinarc)
 * [Tutorial interativo do SINARC](#tutorial-interativo-do-sinarc)
 * [Alfabeto de comandos do SINARC](#alfabeto-de-comandos-do-sinarc)
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
-* [Explorando conexões com o SINARC](#explorando-conexões-com-o-sinarc)
+* [Playground SINARC](#playground-sinarc)
 
 <!--* [Histórico de versões](#histórico-de-versões)-->
 <!--* [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)-->
@@ -568,7 +568,7 @@ O SINARC se destina a todos que exercem o controle social e institucional da Adm
 
 <br><br>
 
-## Playground SINARC
+## Testando o SINARC
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
@@ -1193,7 +1193,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 <br><br>
 
-## Explorando conexões com o SINARC
+## Playground SINARC
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
