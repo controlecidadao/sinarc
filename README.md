@@ -301,7 +301,35 @@ Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados de 
 
 ### Bases de dados prontas para uso
 
-🚧 (Em construção)
+Encontram-se disponíveis para download as seguintes bases de dados de CNPJ, prontas para serem inseridas no SINARC:
+
+| Nº | Arquivo ZIP               | Tamanho    | Data da Extração | Hash (SHA-256)                         | Link para Validação do Hash |
+|----|---------------------------|------------|------------------|-----------------------------------------------------------------|-----------------------------|
+|  1 | [base_20250614.zip](https://drive.usercontent.google.com/download?id=1pRd5VMj_hJIv57lPhu_aDn5BeYDaIprE)         | 20 GB      | 14/06/2025       | _b788c76d857c9b49a4ff5374233da72c54b3ec25f9f1b398d6604d6549a1da31_ | [SHA-256](https://emn178.github.io/online-tools/sha256_checksum.html)                        |
+
+<br>
+
+O procedimento de substituição das bases de dados de CNPJ consiste em:
+
+1) Remover os 4 arquivos de bancos de dados da pasta _**SINARC\bases**_ (os demais arquivos devem permanecer na pasta):
+* _**cnpj.db**_
+* _**rede_search.db**_
+* _**cnpj_links_ete.db**_
+* _**rede.db**_
+
+Recomenda-se salvá-los em um HD externo para uso posterior.
+  
+2) Clicar no link da base de dados com a data de extração desejada para baixar o arquivo ZIP para o computador ou mídia externa;
+
+3) Descompactar o arquivo ZIP diretamente para a pasta _**SINARC\bases**_.
+
+Após esse procedimento, o SINARC utilizará a nova base de dados de CNPJ com a data de extração escolhida.
+
+**ATENÇÃO:** As demais bases de dados integradas ao SINARC (CGU, PGFN etc.), as quais geram a sinalização por meio da bandeira vermelha, não serão afetadas. O banco de dados dessas bases (_**banco.db**_) encontra-se na pasta _**SINARC/bases_externas**_.
+
+Para utilização de uma base de dados de CNPJ com data de extração em um mês específico que não conste nessa tabela, siga o procedimento descrito no tópico anterior.
+
+<!--🚧 (Em construção)-->
 
 <br><br>
 
@@ -332,7 +360,7 @@ Para utilizar o SINARC Client é necessário que o programa Rede CNPJ esteja em 
 
 Quando a mensagem _**O SINARC já pode ser inicializado!**_ for exibida no Terminal, o sistema está pronto para ser acessado a partir de C2.
 
-A versão atual do SINARC Client não permite consultas simultâneas.
+A versão atual do SINARC Client não permite consultas simultâneas (C2 e C3 consultando C1 ao mesmo tempo).
 
 <br><br>
 
