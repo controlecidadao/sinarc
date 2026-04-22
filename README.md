@@ -303,9 +303,9 @@ Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados de 
 
 Encontram-se disponíveis para download as seguintes bases de dados de CNPJ, prontas para serem inseridas no SINARC:
 
-| Nº | Arquivo ZIP               | Tamanho    | Data da Extração | Hash (SHA-256)                         | Link para Validação do Hash |
-|----|---------------------------|------------|------------------|-----------------------------------------------------------------|-----------------------------|
-|  1 | [base_20250614.zip](https://drive.usercontent.google.com/download?id=1pRd5VMj_hJIv57lPhu_aDn5BeYDaIprE)         | 20 GB      | 14/06/2025       | _b788c76d857c9b49a4ff5374233da72c54b3ec25f9f1b398d6604d6549a1da31_ | [SHA-256](https://emn178.github.io/online-tools/sha256_checksum.html)                        |
+| Nº | Arquivo ZIP               | Tamanho    | Data da Extração |
+|----|---------------------------|------------|------------------|
+|  1 | [base_20250614.zip](https://drive.usercontent.google.com/download?id=1pRd5VMj_hJIv57lPhu_aDn5BeYDaIprE)         | 20 GB      | 14/06/2025       |
 
 <br>
 
