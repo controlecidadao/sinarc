@@ -13,7 +13,7 @@
 <br>
 
 <p align="center" width="100%">
-<img width="15%" class="clickable-image" src="./images/readme.png" alt="QR Code" />
+<img width="15%" class="clickable-image" src="./images/qrcode_readme.png" alt="QR Code" />
 </p>
 
 <br><br>
