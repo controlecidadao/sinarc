@@ -301,7 +301,7 @@ Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados de 
 
 ### Bases de dados prontas para uso
 
-Encontram-se disponíveis para download as seguintes bases de dados de CNPJ, prontas para serem inseridas no SINARC:
+Encontram-se disponíveis para download as seguintes bases de dados de CNPJ, com intervalo de extração de 6 meses, prontas para serem inseridas no SINARC:
 
 <br>
 
