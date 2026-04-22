@@ -305,7 +305,7 @@ Encontram-se disponíveis para download as seguintes bases de dados de CNPJ, pro
 
 <br>
 
-| Nº | Arquivo ZIP               | Tamanho    | Data da Extração |
+| Nº | Arquivo ZIP               | Tamanho    | Data de Extração |
 |----|---------------------------|------------|------------------|
 |  1 | [base_20250614.zip](https://drive.usercontent.google.com/download?id=1pRd5VMj_hJIv57lPhu_aDn5BeYDaIprE)         | 20 GB      | 14/06/2025       |
 
