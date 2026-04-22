@@ -975,7 +975,7 @@ Para detalhes sobre o funcionamento de cada tecla, vide manual do SINARC. Teclas
 **C** --> <br>
 **ç** --> Seleciona EN, TE e EM com base no número de conexões.<br>
 **Ç** --> Seleciona nós com base no número de conexões.<br>
-**d** --> <br>
+**d** --> Abre relatório com dados da PJ selecionada.<br>
 **D** --> Exibe resultado da busca pelo nó selecionado (apenas PF e PJ) no DOU, DIO-ES, DOM-ES, Querido Diário, Portal da Transparência e JusBrasil.<br>
 **e** --> Alterna entre alteração do tamanho dos nós e exibição dos rótulos.<br>
 **E** --> <br>
