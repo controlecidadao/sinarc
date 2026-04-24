@@ -1245,6 +1245,8 @@ Relação de sites e documentos públicos contendo informações para explorar c
 * [Relatório Final da Polícia Federal na Operação Prato Feito](https://www.estadao.com.br/blogs/blog/wp-content/uploads/sites/41/2018/05/Representacao-Opera%C3%A7%C3%A3o-Prato-Feito.pdf)
 
 * [Relatório Parcial e Representação da Polícia Federal na Operação Encilhamento](https://www.conjur.com.br/dl/re/relatorio-pf-fraude-fundo-pensao.pdf)
+
+* [Relatório Final da Controladoria-Geral da União sobre a Operação Carne Fraca](https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/0662da4b-b821-4531-bb1b-bf9b57773551/content)
   
 * [CGU multa empresa em R$ 566 milhões por fraude em contrato com a Petrobras](https://agenciagov.ebc.com.br/noticias/202504/cgu-multa-empresa-566-milhoes-fraude-contra-petrobras)
 
