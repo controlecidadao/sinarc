@@ -94,7 +94,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br>
 
-**Consultas externas integradas ao SINARC:**
+**Consultas externas (via internet) integradas ao SINARC:**
 
 | Nº | Fonte            | Consulta                                                    |
 |----|------------------|-------------------------------------------------------------|
