@@ -101,8 +101,8 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 |  1 | Receita Federal  | Comprovante de Inscrição e Situação Cadastral               |
 |  2 | PNCP             | Contratos, ARP e Editais                                    |
 |  3 | CGU              | Sanções e Acordo de Leniência                               |
-|  4 | minhareceita.org | Dados de CNPJ                                               |
-|  5 | nominatim        | Dados de geocodificação                                     |
+|  4 | minhareceita.org | Dados públicos de CNPJ                                      |
+|  5 | nominatim        | Dados públicos de geocodificação                            |
 |  6 | Google           | Google Search                                               |
 
 <br>
