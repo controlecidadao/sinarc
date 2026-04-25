@@ -90,6 +90,10 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br>
 
+⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a presença do CNPJ nas bases de dados oficiais integradas, somando os valores associados ao CNPJ quando disponíveis em coluna específica. Para obter detalhes sobre uma ocorrência, consulte a respectiva **base de dados primária** por meio dos links acima. 
+
+<br>
+
 **Consultas externas integradas ao SINARC:**
 
 | Nº | Fonte            | Consulta                                                    |
@@ -100,10 +104,6 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 |  4 | minhareceita.org | Dados de CNPJ                                               |
 |  5 | nominatim        | Dados de geocodificação                                     |
 |  6 | Google           | Google Search                                               |
-
-<br>
-
-⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a presença do CNPJ nas bases de dados oficiais integradas, somando os valores associados ao CNPJ quando disponíveis em coluna específica. Para obter detalhes sobre uma ocorrência, consulte a respectiva **base de dados primária** por meio dos links acima. 
 
 <br>
 
