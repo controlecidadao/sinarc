@@ -60,9 +60,9 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br>
 
-### Lema do SINARC: Ciência Aberta a Serviço do Controle Social
+> ### 🔓 _SINARC: Ciência Aberta a Serviço do Controle Social_
 
-<br>
+<br><br>
 
 **Bases de dados integradas ao SINARC:**
 
