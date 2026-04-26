@@ -109,7 +109,8 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 |  3 | [CGU](https://portaldatransparencia.gov.br/sancoes/consulta?ordenarPor=nomeSancionado&direcao=asc)              | Sanções e Acordo de Leniência                               |
 |  4 | [Minhareceita.org](https://docs.minhareceita.org/) | Dados públicos de CNPJ                                      |
 |  5 | [Nominatim](https://nominatim.org/)        | Dados públicos de geocodificação                            |
-|  6 | [Google](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa Google                                               |
+|  6 | [Google Search ](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa avançada usando Dorks e Modo IA                                               |
+|  7 | [Google Maps ](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa usando o Google Street View                                               |
 
 <br>
 
