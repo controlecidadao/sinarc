@@ -101,7 +101,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | Nº | Fonte            | Consulta                                                    |
 |----|------------------|-------------------------------------------------------------|
 |  1 | [Receita Federal](https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp)  | Comprovante de Inscrição e Situação Cadastral               |
-|  2 | [PNCP[(https://pncp.gov.br/app/contratos?pagina=1)             | Contratos, ARP e Editais                                    |
+|  2 | [PNCP](https://pncp.gov.br/app/contratos?pagina=1)             | Contratos, ARP e Editais                                    |
 |  3 | [CGU](https://portaldatransparencia.gov.br/sancoes/consulta?ordenarPor=nomeSancionado&direcao=asc)              | Sanções e Acordo de Leniência                               |
 |  4 | [minhareceita.org](https://docs.minhareceita.org/) | Dados públicos de CNPJ                                      |
 |  5 | [nominatim](https://nominatim.org/)        | Dados públicos de geocodificação                            |
