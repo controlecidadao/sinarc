@@ -76,17 +76,19 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | 10 | CVM             | Companhias de capital aberto                                  | 2025              | 22/03/2026       | [Link](https://dados.cvm.gov.br/dataset/cia_aberta-cad)        |
 | 11 | MTE             | Trabalho análogo ao de escravo                                | 03/02/2026        | 03/02/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/trabalho-analogo-ao-de-escravo)        |
 | 12 | ANAC            | Registro Aeronáutico Brasileiro (RAB)                         | 24/02/2026        | 24/02/2026       | [Link](https://www.gov.br/anac/pt-br/sistemas/rab/dados-abertos-rab)        |
-| 13 | IBAMA           | Autos de infração ambiental                                   | 2021 a 2025       | A INCLUIR        | [Link](https://dados.gov.br/dados/conjuntos-dados/fiscalizacao-auto-de-infracao)        |
-| 14 | TCE-ES          | Empresas inidôneas                                            | 11/04/2026        | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/lista-de-responsaveis-consultas-tcees/resource/ca979cb0-7ee5-4d91-af6c-804a353b9ef2)        |
-| 15 | TCE-ES          | Proibidos de contratar com a Administração Pública             | 11/04/2026        | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/lista-de-responsaveis-consultas-tcees/resource/2c27a170-e415-4b9d-9679-49a65903979a)        |
-| 16 | TCE-ES          | Responsáveis com contas julgadas irregulares                  | 11/04/2026        | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/lista-de-responsaveis-consultas-tcees/resource/d2a18709-9c15-46da-bdbd-fbc3ddbc2202)        |
-| 17 | TCE-ES          | Responsáveis inabilitados                                     | 11/04/2026        | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/lista-de-responsaveis-consultas-tcees/resource/4fe9a28d-02b4-438b-851b-ea33904f2344)        |
-| 18 | TCE-ES          | Transferências Especiais da União para o ES (Emendas PIX)     | 2020 a 2025       | 13/03/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
-| 19 | TCE-ES          | Empenhos emitidos por municípios do ES                        | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
-| 20 | SEFAZ-ES        | Empenhos emitidos pelo Estado do Espírito Santo               | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-despesas-execucao-orcamentaria-e-financeira)        |
-| 21 | SEFAZ-ES        | Renúncia de Receita (COMPETE-ES e INVEST-ES)                  | 03/2026           | 18/03/2026       | [Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
-| 22 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 06/2025           | 11/03/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
-| 23 | SEGER-ES       | Licitantes constantes no sistema SIGA (ItensLotesDisputas)     | 2021 a 2025       | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-compras-publicas)        |
+| 13 | IBAMA           | Autos de infração ambiental                                   |                   | A INCLUIR        | [Link](https://dados.gov.br/dados/conjuntos-dados/fiscalizacao-auto-de-infracao)        |
+| 14 | TCU             | Licitantes inidônes                                      |                        | A INCLUIR        | [Link](https://sites.tcu.gov.br/dados-abertos/inidoneos-irregulares)        |
+| 15 | TCU             | Responsáveis com contas julgadas irregulares             |                        | A INCLUIR        | [Link](https://sites.tcu.gov.br/dados-abertos/inidoneos-irregulares)        |
+| 16 | TCE-ES          | Empresas inidôneas                                            | 11/04/2026        | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/lista-de-responsaveis-consultas-tcees/resource/ca979cb0-7ee5-4d91-af6c-804a353b9ef2)        |
+| 17 | TCE-ES          | Proibidos de contratar com a Administração Pública             | 11/04/2026        | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/lista-de-responsaveis-consultas-tcees/resource/2c27a170-e415-4b9d-9679-49a65903979a)        |
+| 18 | TCE-ES          | Responsáveis com contas julgadas irregulares                  | 11/04/2026        | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/lista-de-responsaveis-consultas-tcees/resource/d2a18709-9c15-46da-bdbd-fbc3ddbc2202)        |
+| 19 | TCE-ES          | Responsáveis inabilitados                                     | 11/04/2026        | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/lista-de-responsaveis-consultas-tcees/resource/4fe9a28d-02b4-438b-851b-ea33904f2344)        |
+| 20 | TCE-ES          | Transferências Especiais da União para o ES (Emendas PIX)     | 2020 a 2025       | 13/03/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
+| 21 | TCE-ES          | Empenhos emitidos por municípios do ES                        | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
+| 22 | SEFAZ-ES        | Empenhos emitidos pelo Estado do Espírito Santo               | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-despesas-execucao-orcamentaria-e-financeira)        |
+| 23 | SEFAZ-ES        | Renúncia de Receita (COMPETE-ES e INVEST-ES)                  | 03/2026           | 18/03/2026       | [Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
+| 24 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 06/2025           | 11/03/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
+| 25 | SEGER-ES       | Licitantes constantes no sistema SIGA (ItensLotesDisputas)     | 2021 a 2025       | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-compras-publicas)        |
 
 <br>
 
