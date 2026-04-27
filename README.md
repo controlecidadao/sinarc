@@ -350,7 +350,7 @@ Recomenda-se salvá-los em um HD externo para uso posterior.
 
 Após esse procedimento, o SINARC utilizará a nova base de dados de CNPJ com a data de extração escolhida.
 
-**ATENÇÃO:** As demais bases de dados integradas ao SINARC (CGU, PGFN etc.), as quais geram a sinalização por meio da bandeira vermelha, não serão afetadas. O banco de dados dessas bases (_**banco.db**_) encontra-se na pasta _**SINARC/bases_externas**_.
+**ATENÇÃO:** As demais bases de dados integradas ao SINARC (CGU, PGFN etc.), as quais geram a sinalização por meio de uma bandeira vermelha, não serão afetadas. O banco de dados dessas bases (_**banco.db**_) encontra-se na pasta _**SINARC/bases_externas**_.
 
 Para utilização de uma base de dados de CNPJ com data de extração em um mês específico que não conste nessa tabela, siga o procedimento descrito no tópico anterior.
 
