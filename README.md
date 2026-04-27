@@ -1268,6 +1268,8 @@ Relação de sites e documentos públicos contendo informações para explorar c
 
 * [Relatório Parcial e Representação da Polícia Federal na Operação Encilhamento](https://www.conjur.com.br/dl/re/relatorio-pf-fraude-fundo-pensao.pdf)
 
+* [Operação Desumano da Polícia Federal](https://g1.globo.com/pe/pernambuco/noticia/2020/09/16/policia-federal-cumpre-mandado-na-prefeitura-do-recife.ghtml)
+
 * [Relatório Final da Controladoria-Geral da União sobre a Operação Carne Fraca](https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/0662da4b-b821-4531-bb1b-bf9b57773551/content)
   
 * [CGU multa empresa em R$ 566 milhões por fraude em contrato com a Petrobras](https://agenciagov.ebc.com.br/noticias/202504/cgu-multa-empresa-566-milhoes-fraude-contra-petrobras)
