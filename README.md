@@ -33,7 +33,7 @@
 * [Alfabeto de comandos do SINARC](#alfabeto-de-comandos-do-sinarc)
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
-* [Playground SINARC](#playground-sinarc)
+* [Repositório de Casos](#repositorio-de-casos)
 
 <!--* [Histórico de versões](#histórico-de-versões)-->
 <!--* [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)-->
@@ -1252,7 +1252,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 <br><br>
 
-## Playground SINARC
+## Repositório de Casos
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
@@ -1260,11 +1260,11 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 
 Relação de sites e documentos públicos contendo informações para explorar com o SINARC:
 
-* [Portal Nacional de Contratações Públicas (PNCP) - Contratos](https://pncp.gov.br/app/contratos?pagina=1). Para consultar todos os contratos de um Estado, digite "/" seguida da sigla do Estado no campo "Palavra-chave". Exemplo: /SP.
+* [Portal Nacional de Contratações Públicas (PNCP) - Contratos](https://pncp.gov.br/app/contratos?pagina=1). Permite consultar contratos, atas de registro de preços (ARP) e editais de licitação publicados em todo o Brasil.
 
-* [Relatório Final da Polícia Federal no Caso Marielle Franco e Anderson Gomes](https://static.poder360.com.br/2024/03/relatorio-PF-caso-Marielle-24mar2024.pdf).
+* [Relatório Final da Polícia Federal no Caso Marielle Franco e Anderson Gomes](https://static.poder360.com.br/2024/03/relatorio-PF-caso-Marielle-24mar2024.pdf). Relatório contendo dezenas de empresas com CNPJ para análise.
 
-* [Relatório Final da Polícia Federal na Operação Prato Feito](https://www.estadao.com.br/blogs/blog/wp-content/uploads/sites/41/2018/05/Representacao-Opera%C3%A7%C3%A3o-Prato-Feito.pdf)
+* [Relatório Final da Polícia Federal na Operação Prato Feito](https://www.estadao.com.br/blogs/blog/wp-content/uploads/sites/41/2018/05/Representacao-Opera%C3%A7%C3%A3o-Prato-Feito.pdf).
 
 * [Relatório Parcial e Representação da Polícia Federal na Operação Encilhamento](https://www.conjur.com.br/dl/re/relatorio-pf-fraude-fundo-pensao.pdf)
 
