@@ -100,7 +100,9 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 Padrão sugerido para identificação das bases de dados (arquivos CSV) inseridas no SINARC:
 
-**FONTE -> BASE DE DADOS -> PERÍODO DE ABRANGÊNCIA DOS DADOS -> Nº DO ARQUIVO** (Exemplo: _TCE-ES_EMPENHOS-MUNICIPIOS_2025_2_)
+**FONTE -> BASE DE DADOS -> PERÍODO DE ABRANGÊNCIA DOS DADOS -> Nº DO ARQUIVO** 
+
+Exemplo: _TCE-ES_EMPENHOS-MUNICIPIOS_2025_2_
 
 <br>
 
