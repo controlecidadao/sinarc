@@ -1277,7 +1277,6 @@ O uso inadequado das informações — especialmente sua divulgação sem verifi
 
 * validar informações em fontes primárias oficiais sempre que possível;
 * evitar o uso dos resultados como evidência conclusiva isolada;
-* respeitar princípios de privacidade, proporcionalidade e interesse público;
 * contextualizar adequadamente qualquer análise antes de sua utilização ou compartilhamento.
 
 Ao utilizar o SINARC, o usuário reconhece essas limitações e se compromete a empregar a ferramenta de forma ética, responsável e alinhada às normas legais e institucionais aplicáveis.
