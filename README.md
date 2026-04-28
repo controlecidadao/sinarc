@@ -49,7 +49,7 @@
 
 O **SINARC – Sistema Integrado de Análise de Redes Complexas** consiste em um **programa experimental** de análise de dados de fontes abertas desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo ([MPC-ES](https://www.mpc.es.gov.br/)) sob os princípios da [Ciência Aberta](https://www.unesco.org/en/open-science) (metodologia aberta, código aberto, dados abertos, acesso aberto, revisão por pares aberta e recursos educacionais abertos) e [Licença MIT](https://opensource.org/licenses/MIT) (software livre e gratuito), para uso em computadores com Sistema Operacional Windows. 
 
-O sistema foi concebido a partir do inspirador projeto _open source_ [Rede CNPJ](https://github.com/rictom/rede-cnpj), do qual extrai não apenas as premissas metodológicas, mas também a filosofia colaborativa que impulsiona o aprimoramento do controle social sobre a Administração Pública. No entanto, o SINARC utiliza técnicas e ferramentas de programação distintas, o que lhe confere funcionalidades singulares e complementares. As análises dependem de escolhas metodológicas e interpretação humana.
+O sistema foi concebido a partir do inspirador projeto _open source_ [Rede CNPJ](https://github.com/rictom/rede-cnpj), do qual extrai não apenas as premissas metodológicas, mas também a filosofia colaborativa que impulsiona o aprimoramento do controle social sobre a Administração Pública. No entanto, o SINARC utiliza técnicas e ferramentas de programação distintas, o que lhe confere funcionalidades singulares e complementares.
 
 Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [OSINT](https://www.cia.gov/stories/story/ic-osint-strategy-rollout/))_ em permanente evolução, alinhado à [Doutrina de Inteligência](https://www.gov.br/abin/pt-br/centrais-de-conteudo/publicacoes/doutrina/Doutrina-da-Atividade-de-Inteligencia-2023) da Agência Brasileira de Inteligência (ABIN) e à [Doutrina de Inteligência](https://escon.tcero.tc.br/publicacoes/e-books/) da Rede Nacional de Informações Estratégicas para o Controle Externo (Rede InfoContas), o SINARC se propõe a ampliar as perspectivas de análise das conexões existentes em **informações públicas** sobre **pessoas físicas** (PF), **pessoas jurídicas** (PJ e PE), **endereços** (EN), **telefones** (TE) e **e-mails** (EM) constantes na [base de dados pública de CNPJ](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9) da Receita Federal, formada por **70 milhões de CNPJs**, por meio dos seguintes recursos:
 
@@ -181,6 +181,8 @@ O SINARC permite excluir e integrar quaisquer bases de dados, inclusive bases cr
 6. Aplicação de algoritmos para identificação de **padrões e anomalias** na rede.
 7. Integração com ferramentas de **Inteligência Artificial** para geração de insights.
 8. Aplicação de **técnicas de OSINT** para cruzamento e validação das informações com fontes externas.
+
+As análises realizadas com o SINARC dependem de **escolhas metodológicas** e de **interpretação humana**, notadamente quando executadas com auxílio de Inteligência Artificial.
 
 <p align="center" width="100%">
    <img width="45%" class="clickable-image" src="./images/triangulo_conhecimento.jpg" alt="Triângulo do Conhecimento" />
