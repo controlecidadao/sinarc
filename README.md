@@ -179,7 +179,7 @@ O SINARC permite excluir e integrar quaisquer bases de dados, inclusive bases cr
 4. Utilização dos bancos de dados para criação de um **modelo físico-matemático** dos vínculos existentes entre PF, PJ, EN, TE e EM por meio da Teoria dos Grafos.
 5. Utilização do modelo para criação de uma **representação gráfica interativa** da rede de vínculos (grafo com nós e arestas), concebida a partir dos princípios da Gestalt.
 6. Aplicação de algoritmos para identificação de **padrões e anomalias** na rede.
-7. Integração com ferramentas de **Inteligência Artificial** para geração de insights.
+7. Integração com **outras bases de dados oficiais** e com ferramentas de **Inteligência Artificial** para geração de insights.
 8. Aplicação de **técnicas de OSINT** para cruzamento e validação das informações com fontes externas.
 
 As análises realizadas com o SINARC dependem de **escolhas metodológicas** e de **interpretação humana**, notadamente quando executadas com auxílio de Inteligência Artificial.
