@@ -34,7 +34,7 @@
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
 * [Uso responsáveldo SINARC](#uso-responsável-do-sinarc)
-* [Repositório de Casos](#repositório-de-casos)
+* [Repositório de casos para análise](#repositório-de-casos-para-análise)
 
 <!--* [Histórico de versões](#histórico-de-versões)-->
 <!--* [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)-->
@@ -1284,7 +1284,7 @@ Ao utilizar o SINARC, o usuário reconhece essas limitações e se compromete a 
 
 <br><br>
 
-## Repositório de Casos
+## Repositório de casos para análise
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
