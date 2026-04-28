@@ -1002,7 +1002,7 @@ Para mais detalhes sobre o funcionamento de cada comando, consulte o [Manual do 
 
 <details>
   
-<summary>👉 Clique para expandir o alfabeto</summary>
+<summary>👉 Clique para expandir o alfabeto de comandos</summary>
 <br>
 
 ### Comandos básicos da interface SINARC:
