@@ -624,7 +624,7 @@ Grafo em layout circular.
 
 O SINARC se destina a todos que exercem o controle social e institucional da Administração Pública, como auditores, jornalistas, comissões e agentes de contratação, procuradorias jurídicas, sistemas de controle interno, ministérios públicos, entre outros órgãos e instituições, além do cidadão interessado em obter informações sobre a estrutura empresarial de grupos econômicos - em especial sobre as pessoas físicas e jurídicas que integram a cadeia hierárquica de comando -, a situação jurídica de empresas e as relações existentes entre pessoas físicas e jurídicas cadastradas na base de dados pública de CNPJ da Receita Federal.
 
-**ATENÇÃO:** Antes de utilizar as informações obtidas por meio do SINARC, valide-as mediante consulta direta às fontes primárias dos dados. Eventuais divergências podem decorrer da diferença entre a data da consulta e a data das bases de dados integradas à ferramenta.
+**ATENÇÃO:** As informações geradas pelo SINARC baseiam-se em dados públicos que podem estar desatualizados, incompletos ou sujeitos a inconsistências. Diferenças podem ocorrer em função do intervalo entre a data de atualização das bases integradas e a data da consulta. As relações identificadas pela ferramenta possuem caráter exploratório, podendo incluir falsos positivos ou interpretações equivocadas quando analisadas fora de contexto. Não constituem evidência conclusiva de irregularidades e dependem de análise humana qualificada para sua adequada contextualização. Recomenda-se validar os resultados por meio de consulta direta às fontes primárias e análise crítica criteriosa antes de qualquer tomada de decisão.
 
 <br><br>
 
