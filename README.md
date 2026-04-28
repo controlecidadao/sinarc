@@ -33,6 +33,7 @@
 * [Alfabeto de comandos do SINARC](#alfabeto-de-comandos-do-sinarc)
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
+* [Uso responsáveldo SINARC](#uso-responsável-do-sinarc)
 * [Repositório de Casos](#repositório-de-casos)
 
 <!--* [Histórico de versões](#histórico-de-versões)-->
@@ -1257,6 +1258,30 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 ✅ Identificar toda a cadeia hierárquica formada por PF e PJ que integram os grupos econômicos controladores de determinada empresa.
 
 ✅ Gerar grafo contendo todas as empresas que se enquadrem na combinação de determinados critérios (mesmo endereço, rua, CEP, atividade econômica etc.), mediante consulta direta à base de dados usando o programa gratuito [DB Browser](https://sqlitebrowser.org/), disponibilizado com o SINARC.
+
+<br><br>
+
+## Uso responsável do SINARC
+<p align="right" width="100%">
+  <a href="#sumário">Sumário</a>
+</p>
+<br>
+
+O SINARC é uma ferramenta de análise exploratória baseada em dados públicos, desenvolvida para apoiar investigações, estudos e atividades de controle. Seu uso requer responsabilidade, senso crítico e atenção às implicações éticas envolvidas.
+
+As relações identificadas por meio da ferramenta representam padrões derivados de dados públicos disponíveis, não devendo ser interpretadas como prova de irregularidade, ilícito ou conduta indevida. Conexões entre entidades podem refletir situações legítimas e demandam análise contextual cuidadosa.
+
+É fundamental considerar que os resultados estão sujeitos a limitações dos dados utilizados, incluindo possíveis desatualizações, inconsistências ou lacunas. Além disso, a interpretação dos grafos depende de julgamento humano, podendo variar conforme o contexto, a metodologia adotada e a experiência do analista.
+
+O uso inadequado das informações — especialmente sua divulgação sem verificação ou fora de contexto — pode gerar conclusões equivocadas ou interpretações indevidas. Por isso, recomenda-se:
+
+* validar informações em fontes primárias oficiais sempre que possível;
+* evitar o uso dos resultados como evidência conclusiva isolada;
+* respeitar princípios de privacidade, proporcionalidade e interesse público;
+* contextualizar adequadamente qualquer análise antes de sua utilização ou compartilhamento.
+
+Ao utilizar o SINARC, o usuário reconhece essas limitações e se compromete a empregar a ferramenta de forma ética, responsável e alinhada às normas legais e institucionais aplicáveis.
+
 
 <br><br>
 
