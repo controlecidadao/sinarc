@@ -1267,7 +1267,7 @@ Vínculo existente entre duas empresas, identificado pelo SINARC na 8ª camada
 </p>
 <br>
 
-O SINARC é uma ferramenta de análise exploratória baseada em dados públicos, desenvolvida para apoiar investigações, estudos e atividades de controle. Seu uso requer responsabilidade, senso crítico e atenção às implicações éticas envolvidas.
+O SINARC é uma ferramenta de análise exploratória baseada em dados públicos, desenvolvida para apoiar análises, estudos e atividades de controle. Seu uso requer responsabilidade, senso crítico e atenção às implicações éticas envolvidas.
 
 As relações identificadas por meio da ferramenta representam padrões derivados de dados públicos disponíveis, não devendo ser interpretadas como prova de irregularidade, ilícito ou conduta indevida. Conexões entre entidades podem refletir situações legítimas e demandam análise contextual cuidadosa.
 
@@ -1275,9 +1275,9 @@ As relações identificadas por meio da ferramenta representam padrões derivado
 
 O uso inadequado das informações — especialmente sua divulgação sem verificação ou fora de contexto — pode gerar conclusões equivocadas ou interpretações indevidas. Por isso, recomenda-se:
 
-* validar informações em fontes primárias oficiais sempre que possível;
+* validar as informações nas fontes primárias oficiais sempre que possível;
 * evitar o uso dos resultados como evidência conclusiva isolada;
-* contextualizar adequadamente qualquer análise antes de sua utilização ou compartilhamento.
+* contextualizar adequadamente qualquer análise antes de sua utilização.
 
 Ao utilizar o SINARC, o usuário reconhece essas limitações e se compromete a empregar a ferramenta de forma ética, responsável e alinhada às normas legais e institucionais aplicáveis.
 
