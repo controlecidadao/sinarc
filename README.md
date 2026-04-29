@@ -109,7 +109,7 @@ Padrão sugerido para identificação das bases de dados inseridas no SINARC (no
 Exemplos:
 * _TCE-ES_EMPENHOS-MUNICIPIOS_2025_1_
 * _TCE-ES_EMPENHOS-MUNICIPIOS_2025_2_
-* _CGU_ACORDO-LENIENCIA_2025-03-12_
+* _CGU_ACORDOS-LENIENCIA_2025-03-12_
 
 <br>
 
