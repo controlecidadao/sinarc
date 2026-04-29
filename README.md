@@ -176,7 +176,7 @@ Exemplos:
 
 <br>
 
-1. Existência de um **processo dinâmico** de criação e alteração diária de registros na Receita Federal (70 milhões de CNPJs).
+1. Reconhecimento sobre a existência de um **processo dinâmico** de criação e alteração diária de registros na Receita Federal (70 milhões de CNPJs).
 2. Disponibilização mensal dos arquivos que integram a **base de dados de CNPJ** pela Receita Federal.
 3. Conversão dos arquivos em **bancos de dados** para facilitar a consulta.
 4. Utilização dos bancos de dados para criação de um **modelo físico-matemático** dos vínculos existentes entre PF, PJ, EN, TE e EM por meio da Teoria dos Grafos.
