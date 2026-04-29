@@ -104,9 +104,12 @@ O SINARC permite excluir e integrar quaisquer bases de dados, inclusive bases cr
 
 Padrão sugerido para identificação das bases de dados inseridas no SINARC (nome dos arquivos CSV):
 
-**FONTE -> BASE DE DADOS -> PERÍODO DE ABRANGÊNCIA DOS DADOS -> PARTE DO ARQUIVO** 
+**FONTE _ BASE-DE-DADOS _ PERÍODO-DE-ABRANGÊNCIA-DOS-DADOS _ PARTE-DO-ARQUIVO** 
 
-Exemplo: _TCE-ES_EMPENHOS-MUNICIPIOS_2025_2_
+Exemplos:
+* _TCE-ES_EMPENHOS-MUNICIPIOS_2025_1_
+* _TCE-ES_EMPENHOS-MUNICIPIOS_2025_2_
+* _CGU_ACORDO-LENIENCIA_2025-03-12_
 
 <br>
 
