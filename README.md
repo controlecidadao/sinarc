@@ -100,7 +100,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 ⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a **presença do CNPJ nas bases de dados oficiais** integradas (arquivos CSV), somando os valores associados ao CNPJ quando disponíveis em coluna específica. Para obter detalhes sobre uma ocorrência, consulte a respectiva **base de dados primária** por meio dos links acima. Recomenda-se armazenar as bases de dados primárias em um HD externo.
 
-O SINARC permite excluir e integrar quaisquer bases de dados, inclusive bases criadas pelo próprio usuário, sendo necessário apenas que o arquivo CSV possua uma coluna com o número do CNPJ da PJ.
+O SINARC permite integrar quaisquer bases de dados, inclusive bases criadas pelo próprio usuário, sendo necessário apenas que o arquivo CSV possua uma coluna com o número do CNPJ da PJ.
 
 Padrão sugerido para identificação das bases de dados inseridas no SINARC (nome dos arquivos CSV):
 
