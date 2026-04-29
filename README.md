@@ -33,7 +33,7 @@
 * [Alfabeto de comandos do SINARC](#alfabeto-de-comandos-do-sinarc)
 * [Exemplos de utilização do SINARC](#exemplos-de-utilização-do-sinarc)
 * [Possibilidades de uso do SINARC](#possibilidades-de-uso-do-sinarc)
-* [Uso responsáveldo SINARC](#uso-responsável-do-sinarc)
+* [Uso responsável do SINARC](#uso-responsável-do-sinarc)
 * [Repositório de casos para análise](#repositório-de-casos-para-análise)
 
 <!--* [Histórico de versões](#histórico-de-versões)-->
