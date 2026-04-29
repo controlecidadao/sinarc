@@ -49,7 +49,7 @@
 
 O **SINARC – Sistema Integrado de Análise de Redes Complexas** consiste em um **programa experimental** de análise de dados de fontes abertas desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo ([MPC-ES](https://www.mpc.es.gov.br/)) sob os princípios da [Ciência Aberta](https://www.unesco.org/en/open-science) (metodologia aberta, código aberto, dados abertos, acesso aberto, revisão por pares aberta e recursos educacionais abertos) e [Licença MIT](https://opensource.org/licenses/MIT) (software livre e gratuito), para uso em computadores com Sistema Operacional Windows. 
 
-O sistema foi concebido a partir do inspirador projeto _open source_ [Rede CNPJ](https://github.com/rictom/rede-cnpj), do qual extrai não apenas as premissas metodológicas, mas também a filosofia colaborativa que impulsiona o aprimoramento do controle social sobre a Administração Pública. No entanto, o SINARC utiliza técnicas e ferramentas de programação distintas, o que lhe confere funcionalidades singulares e complementares.
+O sistema foi concebido a partir do inspirador projeto _open source_ [Rede CNPJ](https://github.com/rictom/rede-cnpj), do qual extrai não apenas as premissas metodológicas, mas também a filosofia colaborativa que impulsiona o aprimoramento do controle social sobre a Administração Pública. No entanto, o SINARC utiliza técnicas e ferramentas de programação distintas, o que lhe confere funcionalidades singulares.
 
 Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [OSINT](https://www.cia.gov/stories/story/ic-osint-strategy-rollout/))_ em permanente evolução, alinhado à [Doutrina de Inteligência](https://www.gov.br/abin/pt-br/centrais-de-conteudo/publicacoes/doutrina/Doutrina-da-Atividade-de-Inteligencia-2023) da Agência Brasileira de Inteligência (ABIN) e à [Doutrina de Inteligência](https://escon.tcero.tc.br/publicacoes/e-books/) da Rede Nacional de Informações Estratégicas para o Controle Externo (Rede InfoContas), o SINARC se propõe a ampliar as perspectivas de análise das conexões existentes em **informações públicas** sobre **pessoas físicas** (PF), **pessoas jurídicas** (PJ e PE), **endereços** (EN), **telefones** (TE) e **e-mails** (EM) constantes na [base de dados pública de CNPJ](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9) da Receita Federal, formada por **70 milhões de CNPJs**, por meio dos seguintes recursos:
 
@@ -98,17 +98,15 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 <br>
 
-Padrão sugerido para identificação das bases de dados (arquivos CSV) inseridas no SINARC:
-
-**FONTE -> BASE DE DADOS -> PERÍODO DE ABRANGÊNCIA DOS DADOS -> Nº DO ARQUIVO** 
-
-Exemplo: _TCE-ES_EMPENHOS-MUNICIPIOS_2025_2_
-
-<br>
-
 ⚠️ **ATENÇÃO:** O SINARC apenas sinaliza com uma bandeira vermelha (🚩) a **presença do CNPJ nas bases de dados oficiais** integradas (arquivos CSV), somando os valores associados ao CNPJ quando disponíveis em coluna específica. Para obter detalhes sobre uma ocorrência, consulte a respectiva **base de dados primária** por meio dos links acima. Recomenda-se armazenar as bases de dados primárias em um HD externo.
 
 O SINARC permite excluir e integrar quaisquer bases de dados, inclusive bases criadas pelo próprio usuário, sendo necessário apenas que o arquivo CSV possua uma coluna com o número do CNPJ da PJ.
+
+Padrão sugerido para identificação das bases de dados inseridas no SINARC (nome dos arquivos CSV):
+
+**FONTE -> BASE DE DADOS -> PERÍODO DE ABRANGÊNCIA DOS DADOS -> PARTE DO ARQUIVO** 
+
+Exemplo: _TCE-ES_EMPENHOS-MUNICIPIOS_2025_2_
 
 <br>
 
