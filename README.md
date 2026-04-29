@@ -22,7 +22,7 @@
 <!-- * [Sinarc Online](#sinarc-online) -->
 * [O que é o SINARC?](#o-que-é-o-sinarc)
 * [Como criar o Pen Drive SINARC](#como-criar-o-pen-drive-sinarc)
-* [SINARC Client](#sinarc-client)
+* [Como instalar o SINARC Client](#como-instalar-o-sinarc-client)
 * [O que é uma rede complexa?](#o-que-é-uma-rede-complexa)
 * [Qual é o objetivo do SINARC?](#qual-é-o-objetivo-do-sinarc)
 * [O SINARC utiliza dados sigilosos?](#o-sinarc-utiliza-dados-sigilosos)
@@ -371,7 +371,7 @@ Para utilização de uma base de dados de CNPJ com data de extração em um mês
 
 <br><br>
 
-## SINARC Client
+## Como instalar o SINARC Client
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
