@@ -57,7 +57,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 2. Conjunto de **ferramentas computacionais** que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões entre PF, PJ, EN, TE e EM sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de **padrões e anomalias** e na produção de conhecimento;
    
-3. **Integração com outras bases de dados oficias públicas** e com sistemas de Inteligência Artificial para **produção de conhecimento e insights** sob múltiplas perspectivas.
+3. **Integração com outras bases de dados oficias públicas** e com sistemas de Inteligência Artificial para **produção de conhecimento e insights** (efeito SINARC) sob múltiplas perspectivas.
 
 <br>
 
