@@ -123,7 +123,7 @@ Exemplos:
 |  4 | [Minhareceita.org](https://docs.minhareceita.org/) | Dados públicos de CNPJ                                      |
 |  5 | [Nominatim](https://nominatim.org/)        | Dados públicos de geocodificação                            |
 |  6 | [Google Search ](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa utilizando operadores avançados e Modo IA |
-|  7 | [Google Maps ](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa utilizando o Google Maps e o Google Street View |
+|  7 | [Google Maps ](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa utilizando o Google Street View |
 
 <br>
 
