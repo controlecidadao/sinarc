@@ -115,7 +115,7 @@ Exemplos:
 * _TCE-ES_EMPENHOS-MUNICIPIOS_2025_2_
 * _CGU_ACORDOS-LENIENCIA_2025-03-12_
 
-Infelizmente, alguns órgãos públicos ainda não se adequaram à Lei de Acesso a Informação (LAI).
+Infelizmente, alguns órgãos ainda não se adequaram à [Lei de Acesso à Informação](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), o que impede ou dificulta o acesso da população a dados públicos, **inviabilizando o exercício do controle social**, notadamente quando a **omissão beneficia interesses privados em detrimento do interesse público**.
 
 <br>
 
