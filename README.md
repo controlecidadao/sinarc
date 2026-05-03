@@ -95,9 +95,10 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | 24 | TCE-ES          | Empenhos emitidos por municípios do ES                        | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
 | 25 | SEFAZ-ES        | Empenhos emitidos pelo Estado do Espírito Santo               | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-despesas-execucao-orcamentaria-e-financeira)        |
 | 26 | SEFAZ-ES        | Renúncia de Receita (COMPETE-ES e INVEST-ES)                  | 03/2026           | 18/03/2026       | [Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
-| 27 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 06/2025           | 11/03/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
-| 28 | SEGER-ES       | Licitantes constantes no sistema SIGA (ItensLotesDisputas)     | 2021 a 2025       | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-compras-publicas)        |
-| 29 | IEMA-ES        | Autos de Infração Ambiental (arquivos não localizados)         |                   | A INCLUIR       | [Link](https://dados.es.gov.br/dataset?q=iema&sort=score+desc%2C+metadata_modified+desc)        |
+| 27 | SEFAZ-ES        | Dívida ativa com o ES (arquivo não localizado)                |                   | A INCLUIR        | [Link](https://dados.es.gov.br/dataset?q=SEFAZ&sort=score+desc%2C+metadata_modified+desc)        |
+| 28 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 06/2025           | 11/03/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
+| 29 | SEGER-ES       | Licitantes constantes no sistema SIGA (ItensLotesDisputas)     | 2021 a 2025       | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-compras-publicas)        |
+| 30 | IEMA-ES        | Autos de Infração Ambiental (arquivos não localizados)         |                   | A INCLUIR       | [Link](https://dados.es.gov.br/dataset?q=iema&sort=score+desc%2C+metadata_modified+desc)        |
 
 <br>
 
