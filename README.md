@@ -80,7 +80,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 |  9 | PGFN            | Dívida ativa com FGTS (FGTS)                                  | 12/2024 e 12/2025 | 02/03/2026       | [Link](https://www.gov.br/pgfn/pt-br/assuntos/divida-ativa-da-uniao/transparencia-fiscal-1/dados-abertos)        |
 |  10 | PGFN            | Dívida ativa geral (SIDA)                                    | 12/2024 e 12/2025 | 02/03/2026       | [Link](https://www.gov.br/pgfn/pt-br/assuntos/divida-ativa-da-uniao/transparencia-fiscal-1/dados-abertos)        |
 | 11 | CVM             | Companhias de capital aberto (fre_cia_aberta_2025.csv)        | 2025              | 02/05/2026       | [Link](https://dados.cvm.gov.br/dataset/cia_aberta-doc-fre)        |
-| 12 | CADE            | Acordos de Leniência (arquivo sem CNPJ)                       |                   | A INCLUIR        | [Link](https://dados.gov.br/dados/conjuntos-dados/base-de-dados-dos-acordos-de-leniencia)        |
+| 12 | CADE            | Acordos de Leniência (arquivos sem CNPJ)                      |                   | A INCLUIR        | [Link](https://dados.gov.br/dados/conjuntos-dados/base-de-dados-dos-acordos-de-leniencia)        |
 | 13 | MTE             | Trabalho análogo ao de escravo                                | 03/02/2026        | 03/02/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/trabalho-analogo-ao-de-escravo)        |
 | 14 | ANAC            | Registro Aeronáutico Brasileiro (RAB)                         | 24/02/2026        | 24/02/2026       | [Link](https://www.gov.br/anac/pt-br/sistemas/rab/dados-abertos-rab)        |
 | 15 | IBAMA           | Autos de infração ambiental                                   |                   | A INCLUIR        | [Link](https://dados.gov.br/dados/conjuntos-dados/fiscalizacao-auto-de-infracao)        |
@@ -97,6 +97,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | 26 | SEFAZ-ES        | Renúncia de Receita (COMPETE-ES e INVEST-ES)                  | 03/2026           | 18/03/2026       | [Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
 | 27 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 06/2025           | 11/03/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
 | 28 | SEGER-ES       | Licitantes constantes no sistema SIGA (ItensLotesDisputas)     | 2021 a 2025       | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-compras-publicas)        |
+| 29 | IEMA-ES        | Autos de Infração Ambiental (arquivos não localizados)         |                   | A INCLUIR       | [Link](https://dados.es.gov.br/dataset?q=iema&sort=score+desc%2C+metadata_modified+desc)        |
 
 <br>
 
