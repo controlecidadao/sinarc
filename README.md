@@ -69,7 +69,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 | Nº | Fonte           | Base de Dados Pública                                         | Período Abrangido | Data de Extração | Link        |
 |----|-----------------|---------------------------------------------------------------|-------------------|------------------|-------------|
-|  1 | Receita Federal | CNPJ (usada para gerar o grafo)                               | 13/12/2025        | 23/12/2025       | [Link](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9)        |
+|  1 | Receita Federal | CNPJ (usada para gerar os grafos)                               | 13/12/2025        | 23/12/2025       | [Link](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9)        |
 |  2 | Receita Federal | Renúncia de Receita (DIRBI)                                   | 2024 e 2025       | 02/05/2026       | [Link](https://arquivos.receitafederal.gov.br/index.php/s/7RkNaSMfS7qNXZp?openfile=true)        |
 |  3 | CGU             | Cadastro de Empresas Inidôneas e Suspensas (CEIS)             | 30/04/2026        | 02/05/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/ceis)        |
 |  4 | CGU             | Cadastro Nacional de Empresas Punidas (CNEP)                  | 30/04/2026        | 02/05/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/cnep)        |
