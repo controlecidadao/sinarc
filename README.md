@@ -110,7 +110,7 @@ O SINARC permite integrar quaisquer bases de dados, inclusive bases criadas pelo
 
 Formato padrão de identificação das bases de dados integradas ao SINARC (nome do arquivo CSV):
 
-**FONTE _ BASE-DE-DADOS _ PERÍODO-DE-ABRANGÊNCIA-DOS-DADOS _ PARTE-DO-ARQUIVO** 
+**NOME-DA-FONTE _ NOME-DA-BASE-DE-DADOS _ PERÍODO-DE-ABRANGÊNCIA-DOS-DADOS _ NÚMERO-DA-PARTE-DO-ARQUIVO** 
 
 Exemplos:
 * _TCE-ES_EMPENHOS-MUNICIPIOS_2025_1_
