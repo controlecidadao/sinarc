@@ -117,7 +117,7 @@ Exemplos:
 * _TCE-ES_EMPENHOS-MUNICIPIOS_2025_2_
 * _CGU_ACORDOS-LENIENCIA_2025-03-12_
 
-Infelizmente, algumas instituições ainda não se adequaram totalmente à [Lei de Acesso à Informação](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), o que impede ou dificulta o acesso da população a dados públicos, **inviabilizando o exercício do controle social**, notadamente quando a **omissão beneficia interesses privados em detrimento do interesse público**, a exigir coragem dos órgãos de controle às tentativas de captura regulatória que visam neutralizar ações de transparência pública.
+<!--Infelizmente, algumas instituições ainda não se adequaram totalmente à [Lei de Acesso à Informação](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), o que impede ou dificulta o acesso da população a dados públicos, **inviabilizando o exercício do controle social**, notadamente quando a **omissão beneficia interesses privados em detrimento do interesse público**, a exigir coragem dos órgãos de controle às tentativas de captura regulatória que visam neutralizar ações de transparência pública.-->
 
 <br>
 
