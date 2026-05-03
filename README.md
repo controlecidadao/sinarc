@@ -106,7 +106,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 
 O SINARC permite integrar quaisquer bases de dados, inclusive bases criadas pelo próprio usuário, sendo necessário apenas que o arquivo CSV possua uma coluna com o número do CNPJ da PJ.
 
-Padrão de identificação das bases de dados integradas ao SINARC (nome do arquivo CSV):
+Formato padrão de identificação das bases de dados integradas ao SINARC (nome do arquivo CSV):
 
 **FONTE _ BASE-DE-DADOS _ PERÍODO-DE-ABRANGÊNCIA-DOS-DADOS _ PARTE-DO-ARQUIVO** 
 
