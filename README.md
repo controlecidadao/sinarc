@@ -94,7 +94,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | 23 | TCE-ES          | Favorecidos por Emendas PIX da União no ES                    | 2020 a 2026       | 01/05/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
 | 24 | TCE-ES          | Empenhos emitidos por municípios do ES                        | 2020 a 2026       | 01/05/2026       | [Link](https://dados.es.gov.br/dataset/tcees-empenho)        |
 | 25 | MPC-ES          | Multas e ressarcimentos aplicados pelo TCE-ES                 | 🚧                | A INCLUIR       | [Link](https://www.mpc.es.gov.br/cobrancas/)        |
-| 26 | SEFAZ-ES        | Empenhos emitidos pelo Estado do Espírito Santo               | 2021 a 2025       | 12/03/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-despesas-execucao-orcamentaria-e-financeira)        |
+| 26 | SEFAZ-ES        | Empenhos emitidos pelo Estado do Espírito Santo               | 2020 a 2026       | 30/04/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-despesas-execucao-orcamentaria-e-financeira)        |
 | 27 | SEFAZ-ES        | Renúncia de Receita (COMPETE-ES e INVEST-ES)                  | 03/2026           | 18/03/2026       | [Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
 | 28 | SEFAZ-ES        | Dívida ativa com o ES (arquivo não localizado)                | 🚧               | A INCLUIR        | [Link](https://dados.es.gov.br/dataset?q=SEFAZ&sort=score+desc%2C+metadata_modified+desc)        |
 | 29 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 06/2025           | 11/03/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
