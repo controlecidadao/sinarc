@@ -84,7 +84,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | 13 | MTE             | Trabalho análogo ao de escravo                                | 29/04/2026        | 03/05/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/trabalho-analogo-ao-de-escravo)        |
 | 14 | ANAC            | Registro Aeronáutico Brasileiro (RAB) - Proprietários         | 03/05/2026        | 03/05/2026       | [Link](https://www.gov.br/anac/pt-br/sistemas/rab/dados-abertos-rab)        |
 | 15 | IBAMA           | Autos de infração ambiental                                   | 2020 a 2026       | 03/05/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/fiscalizacao-auto-de-infracao)        |
-| 16 | TCU             | Licitantes inidôneas                                          | 🚧                | A INCLUIR        | [Link](https://sites.tcu.gov.br/dados-abertos/inidoneos-irregulares)        |
+| 16 | TCU             | Licitantes inidôneos                                          | 01/05/2026        | 03/05/2026       | [Link](https://sites.tcu.gov.br/dados-abertos/inidoneos-irregulares)        |
 | 17 | TCU             | Responsáveis com contas julgadas irregulares                  | 🚧                | A INCLUIR        | [Link](https://sites.tcu.gov.br/dados-abertos/inidoneos-irregulares)        |
 | 18 | MP-TCU          | Multas e ressarcimentos aplicados pelo TCU                    | 🚧                | A INCLUIR        | [Link](https://dados.gov.br/home)        |
 | 19 | TCE-ES          | Empresas inidôneas                                            | 11/04/2026        | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/lista-de-responsaveis-consultas-tcees/resource/ca979cb0-7ee5-4d91-af6c-804a353b9ef2)        |
