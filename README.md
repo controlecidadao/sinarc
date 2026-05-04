@@ -98,7 +98,7 @@ Como sistema de inteligência para fontes abertas (_Open Source Intelligence - [
 | 27 | SEFAZ-ES        | Renúncia de Receita (COMPETE-ES e INVEST-ES)                  | 04/2026           | 04/05/2026       | [Link](https://transparencia.es.gov.br/Comum/IncentivosFiscais)        |
 | 28 | SEFAZ-ES        | Dívida ativa com o ES (arquivo não localizado)                | 🚧               | A INCLUIR        | [Link](https://dados.es.gov.br/dataset?q=SEFAZ&sort=score+desc%2C+metadata_modified+desc)        |
 | 29 | SECONT-ES       | Processos Administrativos de Responsabilização (PAR)          | 06/2025           | 04/05/2026       | [Link](https://dados.es.gov.br/dataset/par)        |
-| 30 | SEGER-ES       | Licitantes constantes no sistema SIGA (ItensLotesDisputas)     | 2021 a 2025       | 11/04/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-compras-publicas)        |
+| 30 | SEGER-ES       | Licitantes constantes no sistema SIGA (ItensLotesDisputas)     | 2020 a 2026       | 03/05/2026       | [Link](https://dados.es.gov.br/dataset/portal-da-transparencia-compras-publicas)        |
 | 31 | IEMA-ES        | Autos de Infração Ambiental (arquivos não localizados)         | 🚧                | A INCLUIR       | [Link](https://dados.es.gov.br/dataset?q=iema&sort=score+desc%2C+metadata_modified+desc)        |
 
 <br>
