@@ -344,14 +344,14 @@ Pronto! O SINARC e o Rede CNPJ podem ser executados com a nova base de dados de 
 
 ### Bases de dados prontas para uso
 
-Encontram-se disponíveis para download as seguintes bases de dados de CNPJ, com intervalo de extração de 6 meses, prontas para serem inseridas no SINARC:
+Encontram-se disponíveis para download as seguintes bases de dados de CNPJ, com intervalo de extração de 12 meses, prontas para serem inseridas no SINARC:
 
 <br>
 
 | Nº | Arquivo ZIP               | Tamanho    | Data de Extração |
 |----|---------------------------|------------|------------------|
 |  1 | [bases_20250614.zip](https://drive.usercontent.google.com/download?id=1pRd5VMj_hJIv57lPhu_aDn5BeYDaIprE)        | 19 GB      | 14/06/2025       |
-|  2 | [bases_20241214.zip](https://drive.usercontent.google.com/download?id=1TBdbrsF6VkmxN10fV1xcOk1VtverasND)        | 18 GB      | 14/12/2024       |
+|  2 | [bases_20240608.zip](https://drive.usercontent.google.com/download?id=1UiSq5ai2OLYvGd1d-QSVuLfUGnnyf-7b)        | 18 GB      | 08/06/2024       |
 |  3 | [bases_20230610.zip](https://drive.usercontent.google.com/download?id=1UQOr05lzDYCZqarayy1ar8uRPIDXchrT)        | 17 GB      | 10/06/2023       |
 
 <br>
