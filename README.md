@@ -127,11 +127,12 @@ Exemplos:
 |----|------------------|-------------------------------------------------------------|
 |  1 | [Receita Federal](https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp)  | Comprovante de Inscrição e Situação Cadastral               |
 |  2 | [PNCP](https://pncp.gov.br/app/contratos?pagina=1)             | Contratos, Atas de Registro de Preços e Editais                                    |
-|  3 | [CGU](https://portaldatransparencia.gov.br/sancoes/consulta?ordenarPor=nomeSancionado&direcao=asc)              | Sanções e Acordos de Leniência                               |
-|  4 | [Minhareceita.org](https://docs.minhareceita.org/) | Dados públicos de CNPJ                                      |
-|  5 | [Nominatim](https://nominatim.org/)        | Dados públicos de geocodificação                            |
-|  6 | [Google Search ](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa utilizando operadores avançados e Modo IA |
-|  7 | [Google Maps ](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa utilizando o Google Street View |
+|  3 | [CGU Favorecidos](https://portaldatransparencia.gov.br/despesas/recursos-recebidos?ordenarPor=mesAno&direcao=asc) | Favorecidos por recursos do Governo Federal |
+|  4 | [CGU Sanções](https://portaldatransparencia.gov.br/sancoes/consulta?ordenarPor=nomeSancionado&direcao=asc)              | Sanções e Acordos de Leniência                               |
+|  5 | [Minhareceita.org](https://docs.minhareceita.org/) | Dados públicos de CNPJ                                      |
+|  6 | [Nominatim](https://nominatim.org/)        | Dados públicos de geocodificação                            |
+|  7 | [Google Search ](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa utilizando operadores avançados e Modo IA |
+|  8 | [Google Maps ](https://www.bing.com/?scope=web&cc=BR)           | Pesquisa utilizando o Google Street View |
 
 <br>
 
