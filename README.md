@@ -47,7 +47,17 @@
 </p>
 <br>
 
-O **SINARC – Sistema Integrado de Análise de Redes Complexas** consiste em um **programa experimental** de análise de dados de fontes abertas por meio da criação de grafos, formado por nós e arestas, desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo ([MPC-ES](https://www.mpc.es.gov.br/)) sob os princípios da [Ciência Aberta](https://www.unesco.org/en/open-science) (metodologia aberta, código aberto, dados abertos, acesso aberto, revisão por pares aberta e recursos educacionais abertos) e [Licença MIT](https://opensource.org/licenses/MIT) (software livre e gratuito), para uso em computadores com Sistema Operacional Windows. 
+O **SINARC – Sistema Integrado de Análise de Redes Complexas** consiste em um **programa experimental** de análise de dados de fontes abertas por meio da criação de grafos, formado por nós e arestas, desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo ([MPC-ES](https://www.mpc.es.gov.br/)) sob os princípios da [Ciência Aberta](https://www.unesco.org/en/open-science) (metodologia aberta, código aberto, dados abertos, acesso aberto, revisão por pares aberta e recursos educacionais abertos) e [Licença MIT](https://opensource.org/licenses/MIT) (software livre e gratuito), para uso em computadores com Sistema Operacional Windows.
+
+<br>
+
+<p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo2.html" target="_blank">
+   <img width="90%" class="clickable-image" src="./images/chocolates_garoto.png" alt="Imagem de Grafo" />
+</a>
+</p>
+
+<br>
 
 O sistema foi concebido a partir do inspirador projeto _open source_ [Rede CNPJ](https://github.com/rictom/rede-cnpj), do qual extrai não apenas as premissas metodológicas, mas também a filosofia colaborativa que impulsiona o aprimoramento do controle social sobre a Administração Pública. No entanto, o SINARC utiliza técnicas e ferramentas de programação distintas, o que lhe confere funcionalidades singulares.
 
