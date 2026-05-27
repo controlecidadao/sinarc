@@ -1302,7 +1302,7 @@ As relações identificadas por meio da ferramenta representam padrões derivado
 
 É fundamental considerar que os resultados estão sujeitos a limitações dos dados utilizados, incluindo possíveis desatualizações, inconsistências ou lacunas. Além disso, a interpretação dos grafos depende de julgamento humano, podendo variar conforme o contexto, a metodologia adotada e a experiência do analista.
 
-Respostas geradas por sistemas de Inteligência Artificial podem conter erros decorrentes do viés dos dados de treinamento, da tecnologia empregada e dos ajustes do modelo LLM (_Large Language Model_) utilizado.
+Respostas geradas por sistemas de Inteligência Artificial podem conter erros decorrentes, principalmente, do viés dos dados de treinamento, das limitações da tecnologia empregada (rede _Transformers_) e dos ajustes internos do modelo LLM utilizado (hiperparâmetros).
 
 O uso inadequado das informações — especialmente sua divulgação sem verificação ou fora de contexto — pode gerar conclusões equivocadas ou interpretações indevidas. Por isso, recomenda-se:
 
