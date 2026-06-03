@@ -285,7 +285,7 @@ Devido à sua portabilidade, a **pasta SINARC** contendo os programas SINARC e R
 
 <br>
 
-**👉 [Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=1nbpdUpbAl3hsdf-2Kn-549a5E6uP-C5P)**
+**👉 [Clique aqui e baixe a versão compactada da pasta SINARC](https://drive.usercontent.google.com/download?id=1UgxiGVLE3U_DonmjjCi_IoiUxwK5yJk3)**
 
 <br>
 
