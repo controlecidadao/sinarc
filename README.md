@@ -22,7 +22,6 @@
 <!-- * [Sinarc Online](#sinarc-online) -->
 * [O que é o SINARC?](#o-que-é-o-sinarc)
 * [Como criar o Pen Drive SINARC](#como-criar-o-pen-drive-sinarc)
-* [Como instalar o SINARC Client](#como-instalar-o-sinarc-client)
 * [O que é uma rede complexa?](#o-que-é-uma-rede-complexa)
 * [Qual é o objetivo do SINARC?](#qual-é-o-objetivo-do-sinarc)
 * [O SINARC utiliza dados sigilosos?](#o-sinarc-utiliza-dados-sigilosos)
@@ -38,6 +37,7 @@
 
 <!--* [Histórico de versões](#histórico-de-versões)-->
 <!--* [Como criar uma nova instalação do SINARC?](#como-criar-uma-nova-instalação-do-sinarc)-->
+<!-- * [Como instalar o SINARC Client](#como-instalar-o-sinarc-client) -->
 
 <br><br>
 
@@ -391,7 +391,8 @@ Para utilização de uma base de dados de CNPJ com data de extração em um mês
 
 <br><br>
 
-## Como instalar o SINARC Client
+
+<!--## Como instalar o SINARC Client
 <p align="right" width="100%">
   <a href="#sumário">Sumário</a>
 </p>
@@ -400,13 +401,13 @@ Para utilização de uma base de dados de CNPJ com data de extração em um mês
 <img width="40%" src="./images/server-client.webp" />
 </p>
 
-É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede interna. Para tanto, basta baixar para C2 o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1766AOVBa3c0RxuTJuzcbevoHPDyKiwP3) (SHA-256 _156f2778897ca443b4a0a62f7cfa50ba56a6cc72ae06d36e7c61084198fc180e_), uma versão reduzida do SINARC (460 MB), sem os bancos de dados, mas que permite utilizar todas as funcionalidades da ferramenta.
+É possível **acessar remotamente o SINARC** instalado em um computador (C1) a partir de outro computador (C2) conectado à mesma rede interna. Para tanto, basta baixar para C2 o arquivo [**SINARC-Client.zip**](https://drive.usercontent.google.com/download?id=1766AOVBa3c0RxuTJuzcbevoHPDyKiwP3) (SHA-256 _156f2778897ca443b4a0a62f7cfa50ba56a6cc72ae06d36e7c61084198fc180e_), uma versão reduzida do SINARC (460 MB), sem os bancos de dados, mas que permite utilizar todas as funcionalidades da ferramenta.-->
 
 <!--<p align="center" width="100%">
 <a href="https://mayank-blogs.hashnode.dev/web-sockets-part-1">mayank-blogs.hashnode.dev</a>
 </p>-->
 
-Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**endereco_ip.txt**_ e inclua em uma nova linha, após o final do texto, o **"Endereço IPv4"** do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter este endereço encontram-se no próprio arquivo TXT.
+<!--Após baixar e descompactar a **pasta SINARC-Client** para o segundo computador (C2), abra o arquivo _**endereco_ip.txt**_ e inclua em uma nova linha, após o final do texto, o **"Endereço IPv4"** do computador onde se encontra a versão completa do SINARC (C1). As instruções de como obter este endereço encontram-se no próprio arquivo TXT.
 
 Certifique-se de utilizar um **endereço IPv4 estático** (fixo).
 
@@ -420,7 +421,7 @@ Quando a mensagem _**O SINARC já pode ser inicializado!**_ for exibida no Termi
 
 A versão atual do SINARC Client não permite consultas simultâneas (C2 e C3 consultando C1 ao mesmo tempo).
 
-<br><br>
+<br><br>-->
 
 ## O que é uma rede complexa?
 <p align="right" width="100%">
