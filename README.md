@@ -61,7 +61,7 @@ O **SINARC – Sistema Integrado de Análise de Redes Complexas** consiste em um
 
 O sistema foi concebido a partir do inspirador projeto _open source_ [Rede CNPJ](https://github.com/rictom/rede-cnpj), do qual extrai não apenas as premissas metodológicas, mas também a filosofia colaborativa que impulsiona o aprimoramento do controle social sobre a Administração Pública. No entanto, o SINARC utiliza técnicas e ferramentas de programação distintas, o que lhe confere funcionalidades singulares.
 
-Como sistema de inteligência de fontes abertas (_Open Source Intelligence - [OSINT](https://www.cia.gov/stories/story/ic-osint-strategy-rollout/))_ em permanente evolução, alinhado à [Doutrina de Inteligência](https://www.gov.br/abin/pt-br/centrais-de-conteudo/publicacoes/doutrina/Doutrina-da-Atividade-de-Inteligencia-2023) da Agência Brasileira de Inteligência (ABIN) e à [Doutrina de Inteligência](https://www.tcepi.tc.br/wp-content/uploads/2026/04/doutrina-de-inteligencia-de-controleexterno-da-rede-infocontas.pdf) da Rede Nacional de Informações Estratégicas para o Controle Externo (Rede InfoContas), o SINARC se propõe a ampliar as perspectivas de análise das conexões existentes em **informações públicas** sobre **pessoas jurídicas** (PJ e PE), **pessoas físicas** (PF) - sócios, administradores etc. -, **endereços** (EN), **telefones** (TE) e **e-mails** (EM) empresariais constantes na [base de dados pública de CNPJ](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9) da Receita Federal, formada por **70 milhões de CNPJs**, por meio dos seguintes recursos:
+Como sistema de inteligência de fontes abertas (_Open Source Intelligence - [OSINT](https://www.cia.gov/stories/story/ic-osint-strategy-rollout/))_ em permanente evolução, alinhado à [Doutrina de Inteligência](https://www.gov.br/abin/pt-br/centrais-de-conteudo/publicacoes/doutrina/Doutrina-da-Atividade-de-Inteligencia-2023) da Agência Brasileira de Inteligência (ABIN) e à [Doutrina de Inteligência](https://www.tcepi.tc.br/wp-content/uploads/2026/04/doutrina-de-inteligencia-de-controleexterno-da-rede-infocontas.pdf) da Rede Nacional de Informações Estratégicas para o Controle Externo (Rede InfoContas), o SINARC se propõe a ampliar as perspectivas de análise das conexões existentes em **informações públicas** sobre **pessoas jurídicas** (PJ), **pessoas físicas** (PF) - sócios, administradores etc. -, **endereços** (EN), **telefones** (TE) e **e-mails** (EM) empresariais constantes na [base de dados pública de CNPJ](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9) da Receita Federal, formada por **70 milhões de CNPJs**, por meio dos seguintes recursos:
 
 1. **Interface gráfica interativa**, concebida a partir da aplicação dos [Princípios da Gestalt](https://medium.com/aela/os-7-princ%C3%ADpios-de-gestalt-e-como-utiliz%C3%A1-los-em-projetos-de-ui-design-46d6d832abf6) <!--([artigo](https://jamieesterman.com/work/posts/gestalt-principles-and-the-laws-of-ux-a-guide-to-usable-interface-design))--> sobre um **modelo físico-matemático**, facilitando a identificação visual das estruturas sem gerar sobrecarga cognitiva decorrente do excesso de estímulos visuais;
 
@@ -164,23 +164,24 @@ Exemplos:
 
 **Conceitos básicos:**
 
-* **Grafos** são diagramas formados por **nós** conectados por **arestas** (setas).
+* **Grafos** são diagramas formados por **nós** (imagens) conectados por **arestas** (setas).
 * Nós representam **entidades** (PF, PJ, EN, TE, EM) e arestas representam **vínculos** (Sócio, Administrador etc.).
-* O **tamanho** dos nós (de 20 a 100) é proporcional ao número de arestas.
-* Nós possuem **massa** (igual a 1) e interagem gravitacionalmente entre si (força de repulsão).
+* O **tamanho** dos nós varia de 20 a 100 e é proporcional ao número de arestas conectadas.
+* Nós possuem **massa** inicial igual a 1 e interagem gravitacionalmente entre si por meio de uma força de repulsão.
 * Arestas atuam como **molas** que impedem os nós de se afastarem.
 * A distância entre dois nós é medida pelo número de arestas que os separam (**camadas**).
 * Os nós de origem (**nós-alvos**) são destacados por bordas vermelhas.
 * **Medidas de centralidade** do grafo são indicadas por nós com bordas tracejadas.
 * A expansão do grafo ocorre a partir dos nós de origem e apenas por meio de PF e PJ.
-* Apenas PJ possui EN, TE e EM, os quais são incluídos automaticamente no grafo **quando compartilhados por mais de uma PJ na base de dados** (ex: quando uma PJ possui apenas um nó TE conectado, signfica que ela não compartilha EN e EM com nenhuma outra PJ).
+* Apenas PJ possui EN, TE e EM, os quais são incluídos automaticamente no grafo **quando compartilhados por mais de uma PJ na base de dados** (ex: quando uma PJ possui apenas um nó TE conectado, isso signfica que ela não compartilha EN e EM com nenhuma outra PJ).
 * Ordem cronológica de montagem do grafo:
   1) Nó-alvo é incluído para dar origem ao grafo
   2) PF e PJ são conectadas ao nó-alvo (expansão para 1 camada)
   3) Outras PF e PJ são conectadas às PF e PJ da camada anterior (expansão para 2 ou mais camadas)
   4) EN, TE e EM compartilhados com outras PJ na base de dados são conectados às PJ presentes no grafo
-  5) Medidas de centralidade dos nós são calculadas
-* Pessoas estrangeiras (PE) também são exibidas no grafo, porém contendo informações limitadas.
+  5) Medidas de centralidade são calculadas e o tamanho dos nós ajustado
+  6) Interação gravitacional ajusta a posição dos nós na tela até se alcançar o ponto de equilíbrio
+* Pessoas jurídicas estrangeiras (PE) também são exibidas no grafo, porém contendo informações limitadas.
 * Arestas coloridas indicam o caminho mais curto entre dois ou mais nós-alvos.
  
 <br>
