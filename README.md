@@ -77,7 +77,7 @@ Como sistema de inteligência de fontes abertas (_Open Source Intelligence - [OS
 
 **Bases de dados integradas ao SINARC:**
 
-| Nº | Fonte           | Base de Dados Pública                                         | Período Abrangido | Data de Extração | Link        |
+| Nº | Fonte           | Base de Dados Pública                                         | Data ou Período de Abrangência | Data de Extração | Link        |
 |----|-----------------|---------------------------------------------------------------|-------------------|------------------|-------------|
 |  1 | Receita Federal | CNPJ (usada para gerar os grafos)                               | 13/12/2025        | 23/12/2025       | [Link](https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9)        |
 |  2 | Receita Federal | Renúncia de Receita (DIRBI)                                   | 2024 e 2025       | 02/05/2026       | [Link](https://arquivos.receitafederal.gov.br/index.php/s/7RkNaSMfS7qNXZp?openfile=true)        |
