@@ -146,6 +146,12 @@ Exemplos:
 
 <br>
 
+Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informações oficiais públicas**, foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente demonstrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas.
+
+**QR Codes** permitem a abertura e exploração dos grafos online em aparelhos celulares. Para abrir o teclado do celular e digitar os comandos do SINARC, clique no botão localizado na parte inferior central da tela.
+
+<br>
+
 <p align="center" width="100%">
 <a href="https://controlecidadao.github.io/sinarc/exemplo2.html" target="_blank">
    <img width="90%" class="clickable-image" src="./images/chocolates_garoto.png" alt="Imagem de Grafo" />
@@ -184,6 +190,24 @@ Exemplos:
 * Pessoas jurídicas estrangeiras (PE) também são exibidas no grafo, porém contendo informações limitadas.
 * Arestas coloridas indicam o caminho mais curto entre dois ou mais nós-alvos.
  
+<br>
+<br>
+
+<p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html" target="_blank">
+   <img width="90%" class="clickable-image" src="./images/exemplo1.png" alt="Imagem de Grafo" />
+</a>
+</p>
+
+<p align="center" width="100%">
+<img width="15%" class="clickable-image" src="./images/qrcode_exemplo1.png" alt="QR Code" />
+</p>
+
+<p align="center" width="100%">
+<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Grafo interativo</a> exibindo vínculos entre duas empresas.
+</p>
+
+<br>
 <br>
 
 **Fluxo de produção de conhecimento com o SINARC:**
@@ -229,33 +253,6 @@ O **Projeto SINARC** integrou o Plano de Metas 2025 da Rede de Informações Est
 <!--e encontra-se em processo de revisão por parte do [Science Data Bank](https://www.scidb.cn/en) para fins de disponibilização (DOI/CSTR) em seu repositório de bases de dados.-->
 
 <br>
-
-Os **exemplos ilustrativos** do uso do SINARC, todos extraídos de **informações públicas**, foram selecionados com base na singularidade de seus padrões de conexão, possuindo caráter meramente demonstrativo e servindo tão somente como referência no contexto educacional da produção de conhecimento a partir de fontes abertas.
-
-**QR Codes** permitem a abertura e exploração dos grafos online em aparelhos celulares. Para abrir o teclado do celular e digitar os comandos do SINARC, clique no botão localizado na parte inferior central da tela.
-
-
-<br>
-
-<!--https://github.com/user-attachments/assets/f9f215f3-fa2a-4963-a7e3-9fe2c24ea2d3 -->
-
-<br>
-
-<p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo1.html" target="_blank">
-   <img width="90%" class="clickable-image" src="./images/exemplo1.png" alt="Imagem de Grafo" />
-</a>
-</p>
-
-<p align="center" width="100%">
-<img width="15%" class="clickable-image" src="./images/qrcode_exemplo1.png" alt="QR Code" />
-</p>
-
-<p align="center" width="100%">
-<a href="https://controlecidadao.github.io/sinarc/exemplo1.html">Grafo interativo</a> exibindo vínculos entre duas empresas.
-</p> 
-
-<br><br>
 
 Para aprofundar a experiência, sugere-se explorar o [Notebook do SINARC](https://notebooklm.google.com/notebook/0ecb7569-d040-43e2-ad3e-2599f172a1a4/preview) na plataforma **NotebookLM** (necessário estar logado em uma conta do Google). Essa ferramenta, baseada em **Inteligência Artificial**, examina simultaneamente os documentos do SINARC (README do Github, Manual do SINARC e seu código fonte), permitindo a obtenção de respostas detalhadas sobre as funcionalidades do sistema.
 
