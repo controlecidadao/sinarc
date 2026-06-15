@@ -1,0 +1,249 @@
+! name: Pesquisa SINARC
+! description: Prioriza resultados dos Tribunais de Contas e dos Ministérios Públicos de Contas (MPC) de todo o Brasil.
+! public: true
+! author: Agente SINARC / MPC-ES
+! avatar: "#003366"
+! license: MIT
+
+! ============================================================
+!  MINISTÉRIOS PÚBLICOS DE CONTAS — DOMÍNIOS PRÓPRIOS
+!  Prioridade máxima: boost=10
+! ============================================================
+
+! MPC-AC
+|https://mpc.tceac.tc.br^$boost=10
+
+! MPC-AM (confirmado 200)
+|https://mpc.am.gov.br^$boost=10
+|https://www.mpc.am.gov.br^$boost=10
+
+! MPC-BA (confirmado 200)
+|https://mpc.ba.gov.br^$boost=10
+|https://www.mpc.ba.gov.br^$boost=10
+
+! MPC-DF (DNS existe, timeout firewall — manter)
+|https://mpc.df.gov.br^$boost=10
+|https://www.mpc.df.gov.br^$boost=10
+
+! MPC-ES (confirmado 200)
+|https://mpc.es.gov.br^$boost=10
+|https://www.mpc.es.gov.br^$boost=10
+
+! MPC-MG (DNS existe, timeout — manter)
+|https://mpc.mg.gov.br^$boost=10
+|https://www.mpc.mg.gov.br^$boost=10
+
+! MPC-MS (confirmado 200)
+|https://mpc.ms.gov.br^$boost=10
+|https://www.mpc.ms.gov.br^$boost=10
+
+! MPC-MT (confirmado 200)
+|https://mpc.mt.gov.br^$boost=10
+|https://www.mpc.mt.gov.br^$boost=10
+
+! MPC-PA (confirmado 200)
+|https://mpc.pa.gov.br^$boost=10
+|https://www.mpc.pa.gov.br^$boost=10
+
+! MPC-PB
+|https://mpc.tcepb.tc.br^$boost=10
+
+! MPC-PI (confirmado 200)
+|https://mpc.pi.gov.br^$boost=10
+|https://www.mpc.pi.gov.br^$boost=10
+
+! MPC-PR (confirmado 200)
+|https://mpc.pr.gov.br^$boost=10
+|https://www.mpc.pr.gov.br^$boost=10
+
+! MPC-RN (confirmado 200)
+|https://mpc.rn.gov.br^$boost=10
+|https://www.mpc.rn.gov.br^$boost=10
+
+! MPC-RO (confirmado 200)
+|https://mpc.ro.gov.br^$boost=10
+|https://www.mpc.ro.gov.br^$boost=10
+
+! MPC-RR (confirmado 200)
+|https://mpc.rr.gov.br^$boost=10
+|https://www.mpc.rr.gov.br^$boost=10
+
+! MPC-RS (confirmado 200)
+|https://mpc.rs.gov.br^$boost=10
+|https://www.mpc.rs.gov.br^$boost=10
+
+! MPC-SC (confirmado 200 com SSL bypass)
+|https://mpc.sc.gov.br^$boost=10
+|https://www.mpc.sc.gov.br^$boost=10
+
+! MPC-SE (confirmado 200)
+|https://mpc.se.gov.br^$boost=10
+|https://www.mpc.se.gov.br^$boost=10
+
+! MPC-SP (confirmado 200)
+|https://mpc.sp.gov.br^$boost=10
+|https://www.mpc.sp.gov.br^$boost=10
+
+! ============================================================
+!  MINISTÉRIOS PÚBLICOS DE CONTAS — SUBPÁGINAS DO TCE
+!  (MPCs sem site próprio independente)
+!  Prioridade: boost=8 (pois são subpáginas)
+! ============================================================
+
+! MPC-AL → subpágina do TCE-AL
+|https://www.tceal.tc.br/mpc^$boost=8
+
+! MPC-AP → subpágina do TCE-AP
+|https://www.tce.ap.gov.br/ministerio-publico^$boost=8
+
+! MPC-CE → subpágina do TCE-CE
+|https://www.tce.ce.gov.br/mpc-pagina-inicial^$boost=8
+
+! MPC-GO → subpágina do TCE-GO
+|https://portal.tce.go.gov.br/ministerio-publico-de-contas^$boost=8
+
+! MPC-MA → subpágina do TCE-MA
+|https://www.tcema.tc.br/index.php^$boost=8
+|https://www.tcema.tc.br^$boost=8
+
+! MPC-PE → subpágina do TCE-PE
+|https://www.tcepe.tc.br/internet/index.php/ministerio-publico-de-contas^$boost=8
+
+! MPC-RJ → subpágina do TCE-RJ
+|https://www.tcerj.tc.br/portalnovo/pagina/ministerio-publico-especial^$boost=8
+
+! MPC-SE → subpágina do TCE-SE
+|https://www.tce.se.gov.br/mpc^$boost=8
+
+! MPC-TO → subpágina do TCE-TO
+|https://www.tceto.tc.br/ministerio-publico-de-contas^$boost=8
+
+! MPC junto ao TCU (MPTCU) → subpágina do TCU
+! (não tem site próprio — mptcu.mp.br NÃO existe)
+|https://www.tcu.gov.br^$boost=8
+
+! ============================================================
+!  TRIBUNAIS DE CONTAS ESTADUAIS — DOMÍNIO PADRÃO tce.UF.gov.br
+!  Prioridade: boost=8
+! ============================================================
+
+! TCU (federal)
+|https://tcu.gov.br^$boost=8
+|https://www.tcu.gov.br^$boost=8
+|https://pesquisa.apps.tcu.gov.br^$boost=8
+
+! Padrão tce.UF.gov.br (todos confirmados exceto onde anotado)
+|https://tce.ac.gov.br^$boost=8
+|https://www.tce.ac.gov.br^$boost=8
+
+|https://tce.am.gov.br^$boost=8
+|https://www.tce.am.gov.br^$boost=8
+
+|https://tce.ba.gov.br^$boost=8
+|https://www.tce.ba.gov.br^$boost=8
+
+|https://tce.ce.gov.br^$boost=8
+|https://www.tce.ce.gov.br^$boost=8
+
+|https://tce.go.gov.br^$boost=8
+|https://www.tce.go.gov.br^$boost=8
+
+|https://tce.ms.gov.br^$boost=8
+|https://www.tce.ms.gov.br^$boost=8
+
+|https://tce.pa.gov.br^$boost=8
+|https://www.tce.pa.gov.br^$boost=8
+
+|https://tce.pb.gov.br^$boost=8
+|https://www.tce.pb.gov.br^$boost=8
+
+|https://tce.pe.gov.br^$boost=8
+|https://www.tce.pe.gov.br^$boost=8
+
+|https://tce.pr.gov.br^$boost=8
+|https://www.tce.pr.gov.br^$boost=8
+
+|https://tce.rn.gov.br^$boost=8
+|https://www.tce.rn.gov.br^$boost=8
+
+|https://tce.ro.gov.br^$boost=8
+|https://www.tce.ro.gov.br^$boost=8
+
+|https://tce.se.gov.br^$boost=8
+|https://www.tce.se.gov.br^$boost=8
+
+|https://tce.sp.gov.br^$boost=8
+|https://www.tce.sp.gov.br^$boost=8
+
+|https://tce.to.gov.br^$boost=8
+|https://www.tce.to.gov.br^$boost=8
+
+! ============================================================
+!  TRIBUNAIS DE CONTAS ESTADUAIS — DOMÍNIOS DIFERENTES
+!  Prioridade: boost=8
+! ============================================================
+
+! TCE-AL
+|https://www.tceal.tc.br^$boost=8
+
+! TCE-AP
+|https://www.tce.ap.gov.br^$boost=8
+
+! TCE-DF
+|https://tc.df.gov.br^$boost=8
+|https://www.tc.df.gov.br^$boost=8
+
+! TCE-ES
+|https://tcees.tc.br^$boost=8
+|https://www.tcees.tc.br^$boost=8
+
+! TCE-MA
+|https://www.tcema.tc.br^$boost=8
+
+! TCE-MG
+|https://tce.mg.gov.br^$boost=8
+|https://www.tce.mg.gov.br^$boost=8
+
+! TCE-MT
+|https://www.tce.mt.gov.br^$boost=8
+
+! TCE-PI (redireciona para tcepi.tc.br)
+|https://tce.pi.gov.br^$boost=8
+|https://www.tce.pi.gov.br^$boost=8
+|https://www.tcepi.tc.br^$boost=8
+
+! TCE-RJ
+|https://www.tcerj.tc.br^$boost=8
+
+! TCE-RR
+|https://tce.rr.gov.br^$boost=8
+|https://www.tce.rr.gov.br^$boost=8
+
+! TCE-RS
+|https://tce.rs.gov.br^$boost=8
+|https://www.tce.rs.gov.br^$boost=8
+
+! TCE-SC
+|https://tce.sc.gov.br^$boost=8
+|https://www.tce.sc.gov.br^$boost=8
+
+! ============================================================
+!  TRIBUNAIS DE CONTAS DOS MUNICÍPIOS (TCMs)
+!  Prioridade: boost=8
+! ============================================================
+
+! TCM-BA
+|https://tcm.ba.gov.br^$boost=8
+|https://www.tcm.ba.gov.br^$boost=8
+
+! TCM-GO (confirmado 200)
+|https://tcm.go.gov.br^$boost=8
+|https://www.tcm.go.gov.br^$boost=8
+
+! TCM-PA
+|https://tcm.pa.gov.br^$boost=8
+|https://www.tcm.pa.gov.br^$boost=8
+
+! TCM-RJ
+|https://tcm.rj.gov.br^$boost=8
+|https://www.tcm.rj.gov.br^$boost=8
