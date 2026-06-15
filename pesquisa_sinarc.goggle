@@ -2,116 +2,59 @@
 ! description: Prioriza resultados dos Tribunais de Contas e dos Ministérios Públicos de Contas de todo o Brasil.
 ! public: true
 ! author: Agente SINARC
-! avatar: "#003366"
-! license: MIT
 
 ! ============================================================
-!  MINISTÉRIOS PÚBLICOS DE CONTAS — DOMÍNIOS PRÓPRIOS
-!  Prioridade máxima: boost=10
+! MINISTÉRIOS PÚBLICOS DE CONTAS
+! Prioridade máxima: boost=10
 ! ============================================================
 
-! MPC-AC
 $boost=10,site=mpc.tceac.tc.br
-
-! MPC-AM
 $boost=10,site=mpc.am.gov.br
-
-! MPC-BA
 $boost=10,site=mpc.ba.gov.br
-
-! MPC-DF
 $boost=10,site=mpc.df.gov.br
-
-! MPC-ES
 $boost=10,site=mpc.es.gov.br
-
-! MPC-MG
 $boost=10,site=mpc.mg.gov.br
-
-! MPC-MS
 $boost=10,site=mpc.ms.gov.br
-
-! MPC-MT
 $boost=10,site=mpc.mt.gov.br
-
-! MPC-PA
 $boost=10,site=mpc.pa.gov.br
-
-! MPC-PB
 $boost=10,site=mpc.tcepb.tc.br
-
-! MPC-PI
 $boost=10,site=mpc.pi.gov.br
-
-! MPC-PR
 $boost=10,site=mpc.pr.gov.br
-
-! MPC-RN
 $boost=10,site=mpc.rn.gov.br
-
-! MPC-RO
 $boost=10,site=mpc.ro.gov.br
-
-! MPC-RR
 $boost=10,site=mpc.rr.gov.br
-
-! MPC-RS
 $boost=10,site=mpc.rs.gov.br
-
-! MPC-SC
 $boost=10,site=mpc.sc.gov.br
-
-! MPC-SE
 $boost=10,site=mpc.se.gov.br
-
-! MPC-SP
 $boost=10,site=mpc.sp.gov.br
 
-
 ! ============================================================
-!  MINISTÉRIOS PÚBLICOS DE CONTAS — SUBPÁGINAS DO TCE
-!  Prioridade: boost=8
+! TCEs COM PÁGINAS DO MPC HOSPEDADAS NO PRÓPRIO PORTAL
+! Prioridade alta: boost=8
 ! ============================================================
 
-! MPC-AL → subpágina do TCE-AL
-$boost=8,path=tceal.tc.br/mpc
-
-! MPC-AP → subpágina do TCE-AP
-$boost=8,path=tce.ap.gov.br/ministerio-publico
-
-! MPC-CE → subpágina do TCE-CE
-$boost=8,path=tce.ce.gov.br/mpc-pagina-inicial
-
-! MPC-GO → subpágina do TCE-GO
-$boost=8,path=portal.tce.go.gov.br/ministerio-publico-de-contas
-
-! MPC-MA → subpágina do TCE-MA
-$boost=8,path=tcema.tc.br/index.php
+$boost=8,site=tceal.tc.br
+$boost=8,site=tce.ap.gov.br
+$boost=8,site=tce.ce.gov.br
+$boost=8,site=portal.tce.go.gov.br
 $boost=8,site=tcema.tc.br
-
-! MPC-PE → subpágina do TCE-PE
-$boost=8,path=tcepe.tc.br/internet/index.php/ministerio-publico-de-contas
-
-! MPC-RJ → subpágina do TCE-RJ
-$boost=8,path=tcerj.tc.br/portalnovo/pagina/ministerio-publico-especial
-
-! MPC-SE → subpágina do TCE-SE
-$boost=8,path=tce.se.gov.br/mpc
-
-! MPC-TO → subpágina do TCE-TO
-$boost=8,path=tceto.tc.br/ministerio-publico-de-contas
-
+$boost=8,site=tcepe.tc.br
+$boost=8,site=tcerj.tc.br
+$boost=8,site=tce.se.gov.br
+$boost=8,site=tceto.tc.br
 
 ! ============================================================
-!  TRIBUNAIS DE CONTAS ESTADUAIS / FEDERAL — PADRÃO E OUTROS
-!  Prioridade: boost=8
+! TRIBUNAL DE CONTAS DA UNIÃO
 ! ============================================================
 
-! TCU (federal)
 $boost=8,site=tcu.gov.br
 $boost=8,site=pesquisa.apps.tcu.gov.br
 
-! TCEs Estaduais
+! ============================================================
+! TRIBUNAIS DE CONTAS ESTADUAIS
+! Prioridade: boost=8
+! ============================================================
+
 $boost=8,site=tce.ac.gov.br
 $boost=8,site=tce.am.gov.br
 $boost=8,site=tce.ba.gov.br
@@ -127,6 +70,7 @@ $boost=8,site=tce.ro.gov.br
 $boost=8,site=tce.se.gov.br
 $boost=8,site=tce.sp.gov.br
 $boost=8,site=tce.to.gov.br
+
 $boost=8,site=tceal.tc.br
 $boost=8,site=tce.ap.gov.br
 $boost=8,site=tc.df.gov.br
@@ -141,10 +85,9 @@ $boost=8,site=tce.rr.gov.br
 $boost=8,site=tce.rs.gov.br
 $boost=8,site=tce.sc.gov.br
 
-
 ! ============================================================
-!  TRIBUNAIS DE CONTAS DOS MUNICÍPIOS (TCMs)
-!  Prioridade: boost=8
+! TRIBUNAIS DE CONTAS DOS MUNICÍPIOS
+! Prioridade: boost=8
 ! ============================================================
 
 $boost=8,site=tcm.ba.gov.br
