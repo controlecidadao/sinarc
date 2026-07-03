@@ -21,7 +21,7 @@
 ## Sumário
 <!-- * [Sinarc Online](#sinarc-online) -->
 * [O que é o SINARC?](#o-que-é-o-sinarc)
-* [Bases de dados integradas ao SINARC](#bases-de-dados-integradas-ao-sinarc)_
+* [Bases de dados integradas ao SINARC](#bases-de-dados-integradas-ao-sinarc)
 * [Como criar o Pen Drive SINARC](#como-criar-o-pen-drive-sinarc)
 * [O que é uma rede complexa?](#o-que-é-uma-rede-complexa)
 * [Qual é o objetivo do SINARC?](#qual-é-o-objetivo-do-sinarc)
