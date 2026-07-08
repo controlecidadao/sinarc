@@ -88,7 +88,7 @@ O MPC-ES disponibiliza **capacitação online** no uso do SINARC a servidores de
 
 | Nº | Fonte           | Base de Dados Pública                                         | Data ou Período de Abrangência | Data de Extração | Link        |
 |----|-----------------|---------------------------------------------------------------|-------------------|------------------|-------------|
-|  1 | Receita Federal | Cadastro Nacional da Pessoa Jurídica - CNPJ (usada para gerar os grafos)                               | 13/12/2025        | 23/12/2025       | [Link](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros)        |
+|  1 | Receita Federal | Cadastro Nacional da Pessoa Jurídica (CNPJ). Usada para gerar os grafos                               | 13/12/2025        | 23/12/2025       | [Link](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros)        |
 |  2 | Receita Federal | Renúncia Fiscal por Regime Especial de Tributação (DIRBI)                                   | 2024 e 2025       | 02/05/2026       | [Link](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/beneficios-e-renuncias-fiscais)        |
 |  3 | CGU             | Cadastro de Empresas Inidôneas e Suspensas (CEIS)             | 30/04/2026        | 02/05/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/ceis)        |
 |  4 | CGU             | Cadastro Nacional de Empresas Punidas (CNEP)                  | 30/04/2026        | 02/05/2026       | [Link](https://dados.gov.br/dados/conjuntos-dados/cnep)        |
