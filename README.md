@@ -48,7 +48,7 @@
 </p>
 <br>
 
-O **SINARC – Sistema Integrado de Análise de Redes Complexas** consiste em um **programa experimental** de análise de dados de fontes abertas por meio da **geração de grafos**, desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo ([MPC-ES](https://www.mpc.es.gov.br/)) sob os princípios da [Ciência Aberta](https://www.unesco.org/en/open-science) (metodologia aberta, código aberto, dados abertos, acesso aberto, revisão por pares aberta e recursos educacionais abertos) e [Licença MIT](https://opensource.org/licenses/MIT) (software livre e gratuito), para uso em computadores com Sistema Operacional Windows.
+O **SINARC – Sistema Integrado de Análise de Redes Complexas** consiste em um **programa experimental** de análise de dados de fontes abertas por meio da **geração de grafos**, desenvolvido pelo Ministério Público de Contas do Estado do Espírito Santo ([MPC-ES](https://www.mpc.es.gov.br/)) sob os princípios da [Ciência Aberta](https://www.unesco.org/en/open-science) (metodologia aberta, código aberto, dados abertos, acesso aberto, revisão por pares aberta e recursos educacionais abertos) e [Licença MIT](https://opensource.org/licenses/MIT) (software livre e gratuito), que tem por finalidade auxiliar o cidadão no exercício do controle social da Administração Pública perante os tribunais de contas, assegurado pela Constituição Federal ([art. 74, § 2º[(https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm#:~:text=%C2%A7%202%C2%BA%20Qualquer%20cidad%C3%A3o)) e viabilizado pela Lei de Acesso à Informação ([Lei 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)).
 
 <br>
 
