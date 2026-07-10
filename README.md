@@ -72,7 +72,7 @@ Como sistema de inteligência de fontes abertas (_Open Source Intelligence - [OS
    
 3. **Integração com outras bases de dados oficiais públicas** e com sistemas de Inteligência Artificial para **produção de conhecimento e de insights** sob múltiplas perspectivas.
 
-O MPC-ES disponibiliza **capacitação online** no uso do SINARC a servidores de instituições públicas de controle que desejarem utilizar a ferramenta.
+Em resposta ao [Ofício Circular nº 46/2025](https://portal.stf.jus.br/processos/downloadPeca.asp?id=15381638524&ext=.pdf), expedido pelo Supremo Tribunal Federal na [ADPF 854](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6199750), ação ajuizada com o objetivo de coibir o desvio de emendas parlamentares, o MPC-ES colocou o SINARC à disposição das instituições públicas e do cidadão como contribuição para o aprimoramento do controle social e institucional da Administração Pública.
 
 <br>
 
