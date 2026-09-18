@@ -70,7 +70,7 @@ Como sistema de inteligência de fontes abertas (_Open Source Intelligence - [OS
 
 2. Conjunto de **ferramentas computacionais** que utilizam a [Teoria dos Grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) para analisar a rede de conexões entre PF, PJ, EN, TE e EM sob a perspectiva de um [Sistema Complexo](https://pt.wikipedia.org/wiki/Sistemas_complexos) e aplicar algoritmos matemáticos para auxiliar na identificação de **padrões e anomalias**;
    
-3. **Integração com outras bases de dados oficiais públicas** e com sistemas de Inteligência Artificial para **produção de conhecimento e de insights** sob múltiplas perspectivas.
+3. **Integração com outras bases de dados públicas oficiais** e com sistemas de Inteligência Artificial para **produção de conhecimento e de insights** sob múltiplas perspectivas.
 
 Em resposta ao [Ofício Circular nº 46/2025](https://portal.stf.jus.br/processos/downloadPeca.asp?id=15381638524&ext=.pdf), expedido pelo Supremo Tribunal Federal na [ADPF 854](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6199750), ação que tem por objetivo coibir o desvio de emendas parlamentares, o MPC-ES, por meio do [Ofício 725/2026](https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=TP&docID=795334944&prcID=6199750#), colocou o SINARC à disposição das instituições públicas e do cidadão como contribuição para o aprimoramento do controle social e institucional da Administração Pública, porquanto a ferramenta amplia os conceitos de transparência e de rastreabilidade, revelando os reais destinatários finais do dinheiro público, notadamente quando ocultados por complexa rede de pessoas jurídicas interpostas.
 
